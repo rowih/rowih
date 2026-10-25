@@ -2,4 +2,4 @@
 command and server."""
 
 # the package's version, which pyproject.toml states and the server reports
-__version__ = "1.1.0"
+__version__ = "1.1.1"

@@ -295,6 +295,52 @@ def test_the_quick_start_runs_as_written(tmp_path):
     assert "d.lexer.unknown-word" in run[1].stderr and "found kihiwa" in run[1].stderr
 
 
+DESCRIPTION = "python/README.md"  # the package's description on PyPI
+REPOSITORY = "https://github.com/rowih/rowih/blob/"
+
+
+def test_the_package_s_description_links_its_own_release():
+    pyproject = read("pyproject.toml")
+    assert 'readme = "%s"' % DESCRIPTION in pyproject
+    version = re.search(r'^version = "([0-9.]+)"', pyproject, re.M).group(1)
+    text = read(DESCRIPTION)
+    ours = [link for link in re.findall(r"\]\(([^)]+)\)", text) if link.startswith(REPOSITORY)]
+    assert len(ours) >= 6 and not cites_a_section(text)
+    for link in ours:
+        tag, _, path = link[len(REPOSITORY):].partition("/")
+        assert tag == "v" + version, link
+        path, _, anchor = path.partition("#")
+        # a file only the public repository has is in release/public here, and at the root there
+        target = next((p for p in (os.path.join(ROOT, "release", "public", path),
+                                   os.path.join(ROOT, path)) if os.path.exists(p)), None)
+        assert target, link
+        if anchor:
+            with open(target, encoding="utf-8") as f:
+                assert anchor in anchors(f.read()), link
+    extras = set(re.findall(r"^(\w+) = \[", pyproject.split("[project.optional-dependencies]")[1]
+                            .split("\n[")[0], re.M))
+    assert set(re.findall(r"rowih\[(\w+)\]", text)) == extras == {"speech", "authentication"}
+
+
+def test_the_package_s_description_runs_as_written(tmp_path):
+    blocks = re.findall(r"```(sh|python)\n(.*?)```", read(DESCRIPTION), re.S)
+    shell = [b for kind, b in blocks if kind == "sh" and "pip install" not in b]
+    python = [b for kind, b in blocks if kind == "python"]
+    assert len(shell) == 2 and len(python) == 1
+    shim = "rowih() { %s -c 'import sys; from rowih.cli import main; sys.exit(main())' " \
+           "\"$@\"; }\n" % sys.executable
+    env = dict(os.environ, PYTHONPATH=os.path.join(ROOT, "python"))
+    run = [subprocess.run(["bash", "-c", shim + b], cwd=tmp_path, env=env,
+                          capture_output=True, text=True, timeout=120) for b in shell]
+    assert run[0].returncode == 0, run[0].stderr
+    assert run[0].stdout.startswith("valid\nAgent 1 asks that run the service (polar).")
+    assert run[1].returncode == 1 and "d.lexer.unknown-word" in run[1].stderr
+    out = subprocess.run([sys.executable, "-c", python[0]], cwd=tmp_path, env=env,
+                         capture_output=True, text=True, timeout=120)
+    assert out.returncode == 0, out.stderr
+    assert out.stdout.startswith("[]\nAgent 1 asks that run the service (polar).")
+
+
 def test_the_page_cites_no_section_but_a_standard_s():
     for path in PAGES:
         assert not cites_a_section(read(path)), path

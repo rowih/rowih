@@ -2,6 +2,17 @@
 
 This file records each release of Rowih, the newest first. An entry states the release's version and date, the parts it affects, the change, the reason, the compatibility impact and the migration it requires, as the rule of change requires ([How Rowih changes](governance/README.md#the-rule-of-change)). The language, the lexicon, the protocol, the phonology, the writing system and each dialect carry versions of their own, and the packages `rowih` carry theirs under semantic versioning ([Versions and releases](governance/README.md#versions-and-releases)). A release of this repository is numbered by its packages and tagged with that number, as `v1.1.0`.
 
+## 1.1.1, 2026-10-25
+
+The package's description, and the page's examples.
+
+- **Parts:** the Python and TypeScript packages `rowih`, at 1.1.1. Language 1.0, lexicon 1.0, protocol 0.5, phonology 0.3, writing system 0.2 and every dialect are unchanged.
+- **Change:** the Python package states its description, `python/README.md`, which PyPI shows on the package's page; 1.1.0 was published without one. The README draws each example of the writing system a row at a time, with the transliteration of that row beneath it, and its recordings of the opening exchange say the moves it shows, without the envelope that opens each message. `tools/speak_examples.py` seeds each take from what it says, so that a recording is the same on every run, and keeps a recording already made from what it says. `.github/workflows/publish.yml` publishes the Python package to PyPI from a release tag, through trusted publishing, with an attestation of each file. The reports of the gate were made over this release except two, carried over as [the gate](governance/README.md#the-gate) allows: `corpus/reports/parity.json` and `corpus/reports/single-edits-both.json` stand as made on 2026-10-20, since this release, like 1.1.0, changes neither the code on their paths, compared without its comments, nor any message or data they read.
+- **Dependencies:** none changed.
+- **Reason:** a package on PyPI is read first from its page there, which had no description; the README's examples of the writing scrolled sideways, and its recordings ran four or five times as long as the moves they stood beside.
+- **Compatibility impact:** none. No interface, message or file the packages read changes.
+- **Migration:** none.
+
 ## 1.1.0, 2026-10-25
 
 The first public release.
