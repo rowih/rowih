@@ -1,6 +1,9 @@
 """The public page (README.md) and its examples (examples/): every file of the examples is
 what tools/build_examples.py writes; a drawing of the moves differs from the toolchain's
-drawing of the whole message only in its view box and its text alternative; each recording
+drawing of the whole message only in its view box and its text alternative; each row the
+page draws is the toolchain's line layout of its words, reads back as them, breaks only
+where a break is allowed and fits GitHub's column, and the page shows under it exactly its
+words; each recording
 is of the message as it now reads, is the file the audio tool checked, and passed a check
 that a planted defect failed; the page's opening exchange is the corpus's, its figures
 are the specification's, its quick start runs as written, and it cites nothing outside the
@@ -13,7 +16,7 @@ import subprocess
 import sys
 
 from rowih import api, data, writing
-from rowih.drawing import draw
+from rowih.drawing import draw, read as read_drawing
 
 from test_specification import LINK, anchors, cites_a_section
 
@@ -60,21 +63,17 @@ def _corpus_text(name: str) -> str:
 
 def test_a_drawing_of_the_moves_is_the_whole_drawing_cropped():
     lang = data.load()
-    crops = [p for p in FILES if re.search(r"\.moves(\.[a-z]+)?\.svg$", p) and
-             not p.endswith(".dark.svg")]
-    assert len(crops) == len(SPEECH) + len(build_examples.WRITING) + len(
-        build_examples.OTHER_FORMS)
+    crops = [p for p in FILES if p.endswith(".moves.svg")]
+    assert len(crops) == len(SPEECH)
     for path in crops:
-        name, _, rest = os.path.basename(path).partition(".moves")
-        form = rest[1:-len(".svg")] or "display"
+        name = os.path.basename(path)[:-len(".moves.svg")]
         text = _corpus_text(name)
-        whole = api.render(text, "svg", form=form)[0]
+        whole = api.render(text, "svg")[0]
         assert _body(FILES[path]) == _body(whole), path
         top, width, height = map(int, re.search(r'viewBox="0 (\d+) (\d+) (\d+)"',
                                                 FILES[path]).groups())
-        d = draw(api.parse(text), form, lang)
-        scale = 2 if form == "compact" else 1
-        assert top == d.lines[1] - lang.writing["metrics"]["above"] // scale, path
+        d = draw(api.parse(text), "display", lang)
+        assert top == d.lines[1] - lang.writing["metrics"]["above"], path
         inside = [pt for p in d.paths for pt in p.points if pt[1] >= top]
         outside = [pt for p in d.paths for pt in p.points if pt[1] < top]
         assert inside and outside, path
@@ -84,6 +83,67 @@ def test_a_drawing_of_the_moves_is_the_whole_drawing_cropped():
 def _polylines(svg: str) -> list:
     return [tuple(tuple(map(int, pt.split(","))) for pt in m.split())
             for m in re.findall(r'<polyline points="([^"]+)"/>', svg)]
+
+
+def _is_numeral(word, lang) -> bool:
+    return word.item is not None and word.item.class_id == lang.writing["numbers"]["class"]
+
+
+def test_each_row_reads_back_as_its_words_breaks_where_allowed_and_fits_the_column():
+    lang = data.load()
+    walls = lang.writing["walls"]
+    for _, name, forms in build_examples.ROWS:
+        words, ceremonial = build_examples._move(name, lang)
+        rows = build_examples.rows(words, lang)
+        assert len(rows) > 1 and [w for row in rows for w in row] == words, name
+        end = 0
+        for row in rows[:-1]:
+            end += len(row)
+            assert not (_is_numeral(words[end - 1], lang) and _is_numeral(words[end], lang))
+            ident = [w.item.identifier if w.item is not None else "" for w in words[:end]]
+            assert ident.count(walls["opens"]) == ident.count(walls["closes"]), name
+        for form in forms:
+            for k, row in enumerate(rows, 1):
+                d = build_examples.row_drawing(row, lang, form, ceremonial)
+                assert read_drawing(d, lang) == [[w.form for w in row]], (name, form, k)
+                svg = FILES[build_examples.row_path(name, k, form)]
+                assert sorted(_polylines(svg)) == sorted(p.points for p in d.paths)
+                size = re.search(r'viewBox="0 0 (\d+) (\d+)" width="(\d+)" height="(\d+)"', svg)
+                assert tuple(map(int, size.groups())) == (
+                    d.width, d.height, round(d.width * build_examples.SCALE),
+                    round(d.height * build_examples.SCALE)), (name, form, k)
+                assert build_examples.row_drawing(row, lang).width <= build_examples.ROW_LIMIT
+
+
+def test_a_move_laid_out_as_one_row_is_its_line_in_the_whole_drawing():
+    """The rows are the toolchain's line layout, the ceremonial variant included: laid out
+    whole, a move's words are the move's line of the toolchain's drawing of the message."""
+    lang = data.load()
+    above = lang.writing["metrics"]["above"]
+    checked = set()
+    for _, name, forms in build_examples.ROWS:
+        words, ceremonial = build_examples._move(name, lang)
+        for form in (f for f in forms if f != "compact"):
+            whole = draw(api.parse(_corpus_text(name)), form, lang)
+            top = whole.lines[1] - above
+            d = build_examples.row_drawing(words, lang, form, ceremonial)
+            dy = whole.lines[1] - d.lines[0]
+            line = sorted((p.points, p.weight) for p in whole.paths
+                          if min(y for _, y in p.points) >= top)
+            assert sorted((tuple((x, y + dy) for x, y in p.points), p.weight)
+                          for p in d.paths) == line, (name, form)
+            assert [(t.x, t.y + dy, t.text) for t in d.texts] == [
+                (t.x, t.y, t.text) for t in whole.texts if t.y >= top], (name, form)
+            checked.add((form, ceremonial))
+    assert checked == {("display", False), ("display", True), ("handwritten", False)}
+
+
+def test_the_page_s_rows_are_what_the_build_writes():
+    lang = data.load()
+    page = read("README.md")
+    assert build_examples.page(page, lang) == page
+    regions = {(m["name"], m["form"]) for m in build_examples.ROW_REGION.finditer(page)}
+    assert regions == {(n, f) for _, n, forms in build_examples.ROWS for f in forms}
 
 
 def test_the_chart_draws_each_component_by_its_pen_strokes():
@@ -171,12 +231,16 @@ def _code_blocks(text: str) -> list:
 
 def test_every_move_the_page_shows_is_the_corpus_s():
     page = read("README.md")
-    blocks = _code_blocks(page)
-    shown = re.findall(r'<img src="examples/media/([a-z0-9.-]+)\.moves\.svg"', page)
-    assert len(shown) == 6
-    for name in shown:
+    regions = list(build_examples.ROW_REGION.finditer(page))
+    assert len([m for m in regions if m["form"] == "display"]) == 6
+    for m in regions:
+        name, form = m["name"], m["form"]
         text = _corpus_text(name)
-        assert text.splitlines()[1] + "\n" in blocks, name
+        under = re.findall(r"</picture><br>\n`([^`]+)`", m.group(0))
+        assert " ".join(under) == text.splitlines()[1], (name, form)
+        suffix = "" if form == "display" else "." + form
+        assert re.findall(r'<img src="examples/media/([a-z0-9.-]+)\.svg"', m.group(0)) == [
+            "%s.row%d%s" % (name, k, suffix) for k in range(1, len(under) + 1)], (name, form)
         english = api.translate(text)[0].splitlines()[0]
         assert "*%s*" % english in page, name
     first = read("corpus/domains/casual-056.1.txt").splitlines()

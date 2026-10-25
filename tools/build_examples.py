@@ -6,21 +6,32 @@ transliteration, morpheme gloss, literal semantic form and English explanation a
 toolchain writes them. It also writes `examples/speech.json`, the phonemes of each line as
 the spoken form states them, from which `tools/speak_examples.py` writes the audio. For the
 page's account of the writing system it draws the nineteen components from their pen
-strokes, the language's name as a word, the opening question's move in the compact and
-handwritten forms, and the moves of three messages chosen for what their drawings show.
+strokes and the language's name as a word.
+
+The page draws each move it shows in rows, each with the transliteration of exactly that
+row's words beneath it, and this writes those rows into the page's regions marked
+`<!-- rows: MESSAGE FORM -->` ... `<!-- end rows -->`: the two moves of the opening
+exchange, the moves of three messages chosen for what their drawings show, and the opening
+question in the compact and handwritten forms. A move is one line, and the writing system
+states no rule for breaking a line, so the rows are a view: they break only between words,
+never inside a run of numerals, which shares one frame, nor between two walls, and each is
+laid out by the toolchain's own line layout, so that a unit opened on one row and closed on
+a later one is drawn as a side whose unit is not closed on its line.
+
 `tests/test_examples.py` holds every file to what this writes. Run from the repository
 root: `python3 tools/build_examples.py`."""
 import json
 import os
 import re
 import sys
+from html import escape
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.join(ROOT, "python"))
 sys.path.insert(0, os.path.join(ROOT, "tools"))
 
 from gloss_corpus import record  # noqa: E402
-from rowih import api, data, writing  # noqa: E402
+from rowih import api, data, drawing, render, writing  # noqa: E402
 from rowih.drawing import draw  # noqa: E402
 from rowih.generator import morpheme_gloss  # noqa: E402
 from rowih.speech import spoken  # noqa: E402
@@ -42,7 +53,15 @@ EXCHANGES = [
 # quotation between walls, and the ceremonial variant, found by a search on 2026-10-24
 WRITING = [("domains", "evidence-011.1"), ("domains", "metalinguistic-001.1"),
            ("domains", "metalinguistic-047.1")]
-OTHER_FORMS = ("compact", "handwritten")
+# (corpus set, message, forms): each move the page draws in rows
+ROWS = [("domains", OPENING + ".1", drawing.FORMS), ("domains", OPENING + ".2", ("display",))] + \
+    [(corpus_set, name, ("display",)) for corpus_set, name in WRITING]
+# a row is drawn at SCALE pixels to a lattice unit, at which a component is 18 pixels tall,
+# and is no wider than ROW_LIMIT units, 780 pixels, where a break allows: GitHub shows a
+# README in a column of about 830 pixels and shrinks a wider image to fit
+SCALE, ROW_LIMIT = 1.5, 520
+ROW_REGION = re.compile(r"(?P<head><!-- rows: (?P<name>[a-z0-9.-]+) (?P<form>[a-z]+) -->\n\n)"
+                        r".*?(?P<tail>\n\n<!-- end rows -->)", re.S)
 NAME = "rowih"
 # the chart of components, in lattice units: a cell for each symbol, a row for each kind
 CELL, ROW, MARGIN, LETTER_SIZE, SOUND_SIZE = 28, 44, 8, 8, 7
@@ -71,16 +90,14 @@ def dark(svg: str) -> str:
     return svg.replace('="currentColor"', '="%s"' % DARK_INK)
 
 
-def moves_only(svg: str, analysis, lang, form: str = "display") -> str:
+def moves_only(svg: str, analysis, lang) -> str:
     """The drawing cropped to its move lines by its view box, every stroke unchanged:
-    each line occupies the band from its offset less the metric `above`, both halved in
-    the compact form."""
-    d = draw(analysis, form, lang)
-    scale = 2 if form == "compact" else 1
-    top = d.lines[1] - lang.writing["metrics"]["above"] // scale
+    each line occupies the band from its offset less the metric `above`."""
+    d = draw(analysis, "display", lang)
+    top = d.lines[1] - lang.writing["metrics"]["above"]
     right = max([x for p in d.paths if min(y for _, y in p.points) >= top
                  for x, _ in p.points] + [t.x + t.width for t in d.texts if t.y >= top])
-    width, height = right + lang.writing["metrics"]["margin"] // scale, d.height - top
+    width, height = right + lang.writing["metrics"]["margin"], d.height - top
     alt = "\n".join(" ".join(w.form for w in words) for words in analysis.message.lines)
     full = _text_of(analysis)
     out = SIZE.sub('viewBox="0 %d %d %d" width="%d" height="%d"'
@@ -104,12 +121,124 @@ def media(name: str, text: str, lang) -> dict:
            "%s/%s.moves.dark.svg" % (MEDIA, name): dark(crop)}
     if name.startswith(OPENING):
         out["%s/%s.png" % (MEDIA, name)] = api.render(text, "png")[0]
-    if name == OPENING + ".1":
-        for form in OTHER_FORMS:
-            crop = moves_only(api.render(text, "svg", form=form)[0], a, lang, form)
-            out["%s/%s.moves.%s.svg" % (MEDIA, name, form)] = crop
-            out["%s/%s.moves.%s.dark.svg" % (MEDIA, name, form)] = dark(crop)
     return out
+
+
+def _is_numeral(word, lang) -> bool:
+    return word.item is not None and word.item.class_id == lang.writing["numbers"]["class"]
+
+
+def breakable(words: list, i: int, lang) -> bool:
+    """Whether a row may end before word i: not inside a run of numerals, nor between two
+    walls."""
+    if _is_numeral(words[i - 1], lang) and _is_numeral(words[i], lang):
+        return False
+    walls = lang.writing["walls"]
+    ident = [w.item.identifier if w.item is not None else "" for w in words[:i]]
+    return ident.count(walls["opens"]) == ident.count(walls["closes"])
+
+
+def row_drawing(words: list, lang, form: str = "display",
+                ceremonial: bool = False) -> drawing.Drawing:
+    """A run of a move's words laid out by the toolchain as one line, as `draw` lays out
+    each line of a message. The drawing module keeps its line layout private, and this
+    applies it to part of a line."""
+    line = drawing._Line(lang, ceremonial, False)
+    drawing._write(line, words, form == "handwritten")
+    width, above, below = line.finish()
+    m = lang.writing["metrics"]
+    d = drawing.Drawing(
+        form, width, above + below,
+        [drawing.Path(tuple((x, y + above) for x, y in p.points), p.weight)
+         for p in line.paths],
+        [drawing.Text(t.x, t.y + above, t.width, t.size, t.text) for t in line.texts],
+        m["stroke"], m["hairline"], [above])
+    return drawing._halve(d) if form == "compact" else d
+
+
+def rows(words: list, lang) -> list:
+    """The move's words in the fewest rows no wider than ROW_LIMIT in the display form,
+    breaking only where `breakable` allows, and of those the rows whose widths are most
+    even, by the least sum of their squares; a run with no break inside it may exceed the
+    limit alone. For a move of n words, at most the protocol's maximum of a message, this
+    lays out O(n²) runs, each in O(n)."""
+    n = len(words)
+    points = [0] + [i for i in range(1, n) if breakable(words, i, lang)] + [n]
+    # best[b]: (rows, sum of squared widths, start of the last row) for words[:b]
+    best = {0: (0, 0, None)}
+    for j, b in enumerate(points[1:], 1):
+        options = []
+        for a in points[:j]:
+            width = row_drawing(words[a:b], lang).width
+            if width <= ROW_LIMIT or a == points[j - 1]:
+                count, cost, _ = best[a]
+                options.append((count + 1, cost + width * width, a))
+        best[b] = min(options)
+    out, b = [], n
+    while b:
+        a = best[b][2]
+        out.append(words[a:b])
+        b = a
+    return out[::-1]
+
+
+def _move(name: str, lang) -> tuple:
+    """The words of a message's one move, and whether the move is ceremonial."""
+    corpus_set = next(s for s, n, _ in ROWS if n == name)
+    a = api.parse(_text(corpus_set, name))
+    if a.diagnostics or len(a.message.lines) != 1:
+        raise ValueError("%s is not one move without a diagnostic" % name)
+    registers = drawing._registers(a)
+    return list(a.message.lines[0]), registers.get(0) == drawing.CEREMONIAL
+
+
+def row_path(name: str, k: int, form: str) -> str:
+    return "%s/%s.row%d%s.svg" % (MEDIA, name, k, "" if form == "display" else "." + form)
+
+
+def row_svg(d: drawing.Drawing, words: list) -> str:
+    """One row as the toolchain's SVG, its text alternative the row's transliteration,
+    shown at SCALE pixels to a unit."""
+    svg = render._svg(d, escape(" ".join(w.form for w in words)), "normal")
+    return SIZE.sub('viewBox="0 0 %d %d" width="%d" height="%d"'
+                    % (d.width, d.height, round(d.width * SCALE), round(d.height * SCALE)),
+                    svg, count=1)
+
+
+def row_media(lang) -> dict:
+    """Each row of each move the page draws in rows, in each of its forms, with a version
+    for a dark page."""
+    out = {}
+    for _, name, forms in ROWS:
+        words, ceremonial = _move(name, lang)
+        for form in forms:
+            for k, row in enumerate(rows(words, lang), 1):
+                svg = row_svg(row_drawing(row, lang, form, ceremonial), row)
+                out[row_path(name, k, form)] = svg
+                out[row_path(name, k, form)[:-len(".svg")] + ".dark.svg"] = dark(svg)
+    return out
+
+
+def rows_markdown(name: str, form: str, lang) -> str:
+    """The rows of a move as the page shows them: each drawing, with the transliteration
+    of its words beneath it."""
+    words, _ = _move(name, lang)
+    split = rows(words, lang)
+    kind = "the native writing" if form == "display" else "the %s form" % form
+    return "\n\n".join(
+        picture("examples/" + row_path(name, k, form),
+                "Row %d of %d in %s" % (k, len(split), kind))
+        + "<br>\n`%s`" % " ".join(w.form for w in row)
+        for k, row in enumerate(split, 1))
+
+
+def page(text: str, lang) -> str:
+    """The text of the page with each region of rows written again."""
+    def fill(m):
+        if not any(n == m["name"] and m["form"] in f for _, n, f in ROWS):
+            raise ValueError("the page draws %s %s, which ROWS lacks" % (m["name"], m["form"]))
+        return m["head"] + rows_markdown(m["name"], m["form"], lang) + m["tail"]
+    return ROW_REGION.sub(fill, text)
 
 
 def _polylines(strokes: list, dx: int, dy: int) -> list:
@@ -164,8 +293,7 @@ def writing_media(lang) -> dict:
     for name, svg in (("components", components(lang)), (NAME, word(NAME, lang))):
         out["%s/%s.svg" % (MEDIA, name)] = svg
         out["%s/%s.dark.svg" % (MEDIA, name)] = dark(svg)
-    for corpus_set, name in WRITING:
-        out.update(media(name, _text(corpus_set, name), lang))
+    out.update(row_media(lang))
     return out
 
 
@@ -253,13 +381,26 @@ def files() -> dict:
 
 
 def main():
-    for path, content in files().items():
+    written = files()
+    for path, content in written.items():
         target = os.path.join(EXAMPLES, path)
         os.makedirs(os.path.dirname(target), exist_ok=True)
         mode = "wb" if isinstance(content, bytes) else "w"
         with open(target, mode, **({} if mode == "wb" else {"encoding": "utf-8"})) as f:
             f.write(content)
         print("%s: %d bytes" % (path, len(content)))
+    media_dir = os.path.join(EXAMPLES, MEDIA)
+    for stale in sorted(set(os.listdir(media_dir)) - {p.split("/", 1)[1] for p in written
+                                                       if p.startswith(MEDIA + "/")}):
+        if not stale.endswith(".mp3"):
+            os.remove(os.path.join(media_dir, stale))
+            print("%s/%s: removed" % (MEDIA, stale))
+    readme = os.path.join(ROOT, "README.md")
+    with open(readme, encoding="utf-8") as f:
+        text = f.read()
+    with open(readme, "w", encoding="utf-8") as f:
+        f.write(page(text, data.load()))
+    print("README.md: rows written in %d regions" % len(ROW_REGION.findall(text)))
 
 
 if __name__ == "__main__":

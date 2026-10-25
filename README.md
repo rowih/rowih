@@ -10,25 +10,39 @@ The language has its own sounds, its own words and its own writing system. Agent
 
 ## One exchange
 
-Agent 1 asks agent 2 whether the service is running, and agent 2 answers, from its own observation and with certainty, that it is still running. Each move is shown in the native writing, in the transliteration and in the English explanation that the toolchain writes for a reader.
+Agent 1 asks agent 2 whether the service is running, and agent 2 answers, from its own observation and with certainty, that it is still running. Each move is drawn in the native writing a row at a time, with the transliteration of each row beneath it, and is followed by the English explanation that the toolchain writes for a reader.
 
 **Agent 1 asks** · [listen (MP3)](examples/media/casual-056.1.mp3)
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="examples/media/casual-056.1.moves.dark.svg"><img src="examples/media/casual-056.1.moves.svg" alt="Agent 1's question in the native writing"></picture>
+<!-- rows: casual-056.1 display -->
 
-```text
-wila nake nake yano kihiwo wopi bopu rudin bihu wodu raniy gona wuwa woko hulab
-```
+<picture><source media="(prefers-color-scheme: dark)" srcset="examples/media/casual-056.1.row1.dark.svg"><img src="examples/media/casual-056.1.row1.svg" alt="Row 1 of 2 in the native writing"></picture><br>
+`wila nake nake yano kihiwo wopi bopu`
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="examples/media/casual-056.1.row2.dark.svg"><img src="examples/media/casual-056.1.row2.svg" alt="Row 2 of 2 in the native writing"></picture><br>
+`rudin bihu wodu raniy gona wuwa woko hulab`
+
+<!-- end rows -->
 
 *Agent 1 asks that run the service (polar).*
 
 **Agent 2 answers** · [listen (MP3)](examples/media/casual-056.2.mp3)
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="examples/media/casual-056.2.moves.dark.svg"><img src="examples/media/casual-056.2.moves.svg" alt="Agent 2's answer in the native writing"></picture>
+<!-- rows: casual-056.2 display -->
 
-```text
-wila nake nebe yagi kodiwu seho nake yabe nake yabe kanume kuwona sisa wora teyuhu tebilo rudin rudin woye hodeb
-```
+<picture><source media="(prefers-color-scheme: dark)" srcset="examples/media/casual-056.2.row1.dark.svg"><img src="examples/media/casual-056.2.row1.svg" alt="Row 1 of 4 in the native writing"></picture><br>
+`wila nake nebe yagi kodiwu`
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="examples/media/casual-056.2.row2.dark.svg"><img src="examples/media/casual-056.2.row2.svg" alt="Row 2 of 4 in the native writing"></picture><br>
+`seho nake yabe nake yabe`
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="examples/media/casual-056.2.row3.dark.svg"><img src="examples/media/casual-056.2.row3.svg" alt="Row 3 of 4 in the native writing"></picture><br>
+`kanume kuwona sisa wora teyuhu`
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="examples/media/casual-056.2.row4.dark.svg"><img src="examples/media/casual-056.2.row4.svg" alt="Row 4 of 4 in the native writing"></picture><br>
+`tebilo rudin rudin woye hodeb`
+
+<!-- end rows -->
 
 *Agent 2 answers agent 1's issue question (entry 1): run the service (continuative) (observation; certain).*
 
@@ -54,45 +68,99 @@ Rowih has a writing system of its own. Each of its nineteen symbols is one compo
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="examples/media/components.dark.svg"><img src="examples/media/components.svg" alt="The nineteen components of the writing system, with their letters and sounds"></picture>
 
-A word is its components side by side, and a message is drawn line by line, the envelope first, between two rules. The opening and closing words of each unit stand as upright sides bearing the unit's mark, joined by a rule beneath the line, so that nested units sit visibly in trays. The words of force, standing, time and polarity carry an overline, a number stands in a frame pointed at both ends, and embedded material stands between walls. The drawings below are the toolchain's own (`rowih render`), each cropped to its move.
+A word is its components side by side, and a message is drawn line by line, the envelope first, between two rules. The opening and closing words of each unit stand as upright sides bearing the unit's mark, joined by a rule beneath the line, so that nested units sit visibly in trays. The words of force, standing, time and polarity carry an overline, a number stands in a frame pointed at both ends, and embedded material stands between walls. The drawings below are laid out by the toolchain's own line layout, which `rowih render` applies to a whole message, a row at a time. A move is one line, and the writing system states no rule for breaking a line, so the rows are a view: they break only between words, never inside a run of numerals nor between two walls, and a unit opened on one row and closed on a later one is drawn as a side whose unit is not closed on its line, with a short foot turned toward its inside.
 
 **A strength in a frame.** Agent 1 asserts, by inference and with a strength of about 0.6, that the storm broke the bridge. The force and the basis carry overlines, and each number stands in its frame.
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="examples/media/evidence-011.1.moves.dark.svg"><img src="examples/media/evidence-011.1.moves.svg" alt="An assertion with its strength, in the native writing"></picture>
+<!-- rows: evidence-011.1 display -->
 
-```text
-wila nadi namo yeso kotepu wora tilase gupo napa nika nebe yabe wopi resay biwo wodu rosid gona wuwa bihu wodu nuyones gona wuwa woko woye hegos
-```
+<picture><source media="(prefers-color-scheme: dark)" srcset="examples/media/evidence-011.1.row1.dark.svg"><img src="examples/media/evidence-011.1.row1.svg" alt="Row 1 of 4 in the native writing"></picture><br>
+`wila nadi namo yeso kotepu`
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="examples/media/evidence-011.1.row2.dark.svg"><img src="examples/media/evidence-011.1.row2.svg" alt="Row 2 of 4 in the native writing"></picture><br>
+`wora tilase gupo napa nika nebe`
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="examples/media/evidence-011.1.row3.dark.svg"><img src="examples/media/evidence-011.1.row3.svg" alt="Row 3 of 4 in the native writing"></picture><br>
+`yabe wopi resay biwo wodu rosid gona`
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="examples/media/evidence-011.1.row4.dark.svg"><img src="examples/media/evidence-011.1.row4.svg" alt="Row 4 of 4 in the native writing"></picture><br>
+`wuwa bihu wodu nuyones gona wuwa woko woye hegos`
+
+<!-- end rows -->
 
 *Agent 1 asserts that the storm break the bridge (inference; with strength approximately 0.6).*
 
 **A word between walls.** Agent 2 asks what the word *rodur*, 'price', means. The word stands between walls, where it is quoted and inert.
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="examples/media/metalinguistic-001.1.moves.dark.svg"><img src="examples/media/metalinguistic-001.1.moves.svg" alt="A question about a quoted word, in the native writing"></picture>
+<!-- rows: metalinguistic-001.1 display -->
 
-```text
-wila nake neta yata kihiwo wopi rebit buna bihu wodu rator wubo wihi rodur wugu gona wuwa woko hawag
-```
+<picture><source media="(prefers-color-scheme: dark)" srcset="examples/media/metalinguistic-001.1.row1.dark.svg"><img src="examples/media/metalinguistic-001.1.row1.svg" alt="Row 1 of 3 in the native writing"></picture><br>
+`wila nake neta yata kihiwo`
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="examples/media/metalinguistic-001.1.row2.dark.svg"><img src="examples/media/metalinguistic-001.1.row2.svg" alt="Row 2 of 3 in the native writing"></picture><br>
+`wopi rebit buna bihu wodu rator`
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="examples/media/metalinguistic-001.1.row3.dark.svg"><img src="examples/media/metalinguistic-001.1.row3.svg" alt="Row 3 of 3 in the native writing"></picture><br>
+`wubo wihi rodur wugu gona wuwa woko hawag`
+
+<!-- end rows -->
 
 *Agent 2 asks that mean the word “rodur” (price) (constituent).*
 
 **The ceremonial variant.** Agent 1 asserts in the ceremonial register, with the honorific suffix, that the honoured service runs. Each free end of a stroke takes a serif, and each rule and overline is doubled.
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="examples/media/metalinguistic-047.1.moves.dark.svg"><img src="examples/media/metalinguistic-047.1.moves.svg" alt="A move in the ceremonial register, in the native writing"></picture>
+<!-- rows: metalinguistic-047.1 display -->
 
-```text
-wila nake nebe yagi kotepu rumal logu wora teyuhu tebilo wopi rudin bihu wodu raniyayuk gona wuwa woko woye hagon
-```
+<picture><source media="(prefers-color-scheme: dark)" srcset="examples/media/metalinguistic-047.1.row1.dark.svg"><img src="examples/media/metalinguistic-047.1.row1.svg" alt="Row 1 of 3 in the native writing"></picture><br>
+`wila nake nebe yagi kotepu`
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="examples/media/metalinguistic-047.1.row2.dark.svg"><img src="examples/media/metalinguistic-047.1.row2.svg" alt="Row 2 of 3 in the native writing"></picture><br>
+`rumal logu wora teyuhu tebilo wopi rudin`
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="examples/media/metalinguistic-047.1.row3.dark.svg"><img src="examples/media/metalinguistic-047.1.row3.svg" alt="Row 3 of 3 in the native writing"></picture><br>
+`bihu wodu raniyayuk gona wuwa woko woye hagon`
+
+<!-- end rows -->
 
 *Agent 1 asserts that run the service (observation; certain).*
 
 **One move in three forms.** The opening question in the display form, in the compact form at half its size, and in the handwritten form, whose hairlines join the components of each word as a pen would.
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="examples/media/casual-056.1.moves.dark.svg"><img src="examples/media/casual-056.1.moves.svg" alt="The opening question in the display form"></picture>
+*The display form*
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="examples/media/casual-056.1.moves.compact.dark.svg"><img src="examples/media/casual-056.1.moves.compact.svg" alt="The opening question in the compact form"></picture>
+<!-- rows: casual-056.1 display -->
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="examples/media/casual-056.1.moves.handwritten.dark.svg"><img src="examples/media/casual-056.1.moves.handwritten.svg" alt="The opening question in the handwritten form"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="examples/media/casual-056.1.row1.dark.svg"><img src="examples/media/casual-056.1.row1.svg" alt="Row 1 of 2 in the native writing"></picture><br>
+`wila nake nake yano kihiwo wopi bopu`
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="examples/media/casual-056.1.row2.dark.svg"><img src="examples/media/casual-056.1.row2.svg" alt="Row 2 of 2 in the native writing"></picture><br>
+`rudin bihu wodu raniy gona wuwa woko hulab`
+
+<!-- end rows -->
+
+*The compact form*
+
+<!-- rows: casual-056.1 compact -->
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="examples/media/casual-056.1.row1.compact.dark.svg"><img src="examples/media/casual-056.1.row1.compact.svg" alt="Row 1 of 2 in the compact form"></picture><br>
+`wila nake nake yano kihiwo wopi bopu`
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="examples/media/casual-056.1.row2.compact.dark.svg"><img src="examples/media/casual-056.1.row2.compact.svg" alt="Row 2 of 2 in the compact form"></picture><br>
+`rudin bihu wodu raniy gona wuwa woko hulab`
+
+<!-- end rows -->
+
+*The handwritten form*
+
+<!-- rows: casual-056.1 handwritten -->
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="examples/media/casual-056.1.row1.handwritten.dark.svg"><img src="examples/media/casual-056.1.row1.handwritten.svg" alt="Row 1 of 2 in the handwritten form"></picture><br>
+`wila nake nake yano kihiwo wopi bopu`
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="examples/media/casual-056.1.row2.handwritten.dark.svg"><img src="examples/media/casual-056.1.row2.handwritten.svg" alt="Row 2 of 2 in the handwritten form"></picture><br>
+`rudin bihu wodu raniy gona wuwa woko hulab`
+
+<!-- end rows -->
 
 The native digital form writes the same words in nineteen code points of Unicode's Private Use Area, U+F3A0 to U+F3B2, which the language's font, [`language/font/rowih.ttf`](language/font/rowih.ttf), draws, and it converts to and from the transliteration without loss.
 
