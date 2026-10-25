@@ -14,7 +14,7 @@
  "control": {
   "message": "casual-056.1",
   "defect": "mid and high vowels exchanged",
-  "phoneme error rate": 0.2997
+  "phoneme error rate": 0.2963
  },
  "messages": {
   "casual-056.1": {
@@ -23,11 +23,23 @@
    "mp3": "59555cc255b2bf6e38cbbc10e5d247236b36b59169be2943149546155755f4c6",
    "phoneme error rate": 0.0606
   },
+  "casual-056.1.moves": {
+   "plan": "516ac06e1e90be67d6dfb6ed4ab83e4a049ae9f85b6ffb4596de7ab7f99b6752",
+   "voice": "em_alex",
+   "mp3": "a39224f1f40e2498475c57c1351fadbbc1769a4da444398753d56ed8e328c7e0",
+   "phoneme error rate": 0.1231
+  },
   "casual-056.2": {
    "plan": "5565d2ca2a1df8e6966664ff80812949d3c7a513a8b268427dda11e8b1eebf33",
    "voice": "ef_dora",
    "mp3": "88ee88d204ed610d01065a3723272007d026d61553cbde319eae193d1f069cfd",
    "phoneme error rate": 0.0492
+  },
+  "casual-056.2.moves": {
+   "plan": "aaa3864aef4c11a544301eb7ed74225e05ce9b35a6b6ae599b84685f0c1622a0",
+   "voice": "ef_dora",
+   "mp3": "631ffddc3680af426b2cc2f83ef654849f69a9dadd729afc9ae25eeab3310080",
+   "phoneme error rate": 0.0645
   },
   "delegation-098.1": {
    "plan": "aa96a046efb3bb58181042a048ba9f64fe10fa0589d0158fcecc272032c4d09f",

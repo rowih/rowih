@@ -13,6 +13,16 @@
    }
   ]
  },
+ "casual-056.1.moves": {
+  "sender": "1",
+  "voice": "em_alex",
+  "lines": [
+   {
+    "prosody": "neutral",
+    "ipa": "ˈwi.la ˈna.ke ˈna.ke ˈja.no ˈki.hi.wo ˈwo.pi ˈbo.pu ˈɾu.din ˈbi.hu ˈwo.du ˈɾa.nij ˈɡo.na ˈwu.wa ˈwo.ko ˈhu.lab"
+   }
+  ]
+ },
  "casual-056.2": {
   "sender": "2",
   "voice": "ef_dora",
@@ -21,6 +31,16 @@
     "prosody": "flat",
     "ipa": "ˈwi.la ˈna.su ˈna.mo ˈji.ba ˈwa.ho ˈna.di ˈja.ɡi ˈwa.tu ˈna.ke ˈja.be ˈwe.sa ˈna.ke ˈne.ɡi ˈne.be ˈna.pa ˈna.pa ˈna.pa ˈna.pa ˈna.pa ˈne.be ˈna.pa ˈji.ba ˈwe.ɾe ˈna.ke ˈni.ka ˈna.pa ˈja.be ˈna.ke ˈni.ka ˈna.pa ˈja.be ˈna.pa ˈni.ka ˈne.ta ˈji.ba ˈwe.ji ˈna.pa ˈna.pa ˈna.pa ˈna.pa ˈna.pa ˈna.ke ˈje.de ˈle.we ˈna.ke ˈja.be ˈja.be ˈwe.po ˈna.ke ˈne.ta ˈne.no ˈna.ke ˈne.lu ˈna.ke ˈne.ta ˈne.no ˈna.di ˈje.ɾu"
    },
+   {
+    "prosody": "neutral",
+    "ipa": "ˈwi.la ˈna.ke ˈne.be ˈja.ɡi ˈko.di.wu ˈse.ho ˈna.ke ˈja.be ˈna.ke ˈja.be ˈka.nu.me ˈku.wo.na ˈsi.sa ˈwo.ɾa ˈte.ju.hu ˈte.bi.lo ˈɾu.din ˈɾu.din ˈwo.je ˈho.deb"
+   }
+  ]
+ },
+ "casual-056.2.moves": {
+  "sender": "2",
+  "voice": "ef_dora",
+  "lines": [
    {
     "prosody": "neutral",
     "ipa": "ˈwi.la ˈna.ke ˈne.be ˈja.ɡi ˈko.di.wu ˈse.ho ˈna.ke ˈja.be ˈna.ke ˈja.be ˈka.nu.me ˈku.wo.na ˈsi.sa ˈwo.ɾa ˈte.ju.hu ˈte.bi.lo ˈɾu.din ˈɾu.din ˈwo.je ˈho.deb"

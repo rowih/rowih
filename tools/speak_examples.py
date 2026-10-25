@@ -29,6 +29,9 @@ nineteen symbols, and its phoneme error rate is the edit distance from the messa
 symbols over their number. A file above `THRESHOLD` is refused, and on every run the
 first message is spoken again with its mid and high vowels exchanged, which the check must
 refuse, so that a check that cannot fail is caught. Both models are pinned by revision.
+The model draws noise as it speaks, so each take is seeded from its plan's digest and is
+the same on every run; a file the record shows was made from its plan is kept and heard
+again rather than spoken anew, and no file is written unless every file passes.
 The results, with each file's digest, go to `examples/audio.json`, which
 `tests/test_examples.py` holds to the files and to `examples/speech.json`.
 
@@ -178,28 +181,59 @@ def plan_digest(plan: dict) -> str:
                           .encode("utf-8")).hexdigest()
 
 
+def seed(plan: dict) -> int:
+    """The seed of a plan's take: the model draws noise as it speaks, so a take is fixed
+    by its plan and not chosen among takes."""
+    return int(plan_digest(plan)[:16], 16)
+
+
+def recorded() -> dict:
+    """The record of the files already made, by message, or nothing."""
+    path = os.path.join(EXAMPLES, "audio.json")
+    if not os.path.exists(path):
+        return {}
+    with open(path, encoding="utf-8") as f:
+        return json.load(f)["messages"]
+
+
+def kept(name: str, plan: dict, record: dict) -> bytes | None:
+    """The file already made from this plan, as the record shows, or None."""
+    path = os.path.join(EXAMPLES, "media", name + ".mp3")
+    entry = record.get(name)
+    if entry is None or entry["plan"] != plan_digest(plan) or not os.path.exists(path):
+        return None
+    with open(path, "rb") as f:
+        data = f.read()
+    return data if hashlib.sha256(data).hexdigest() == entry["mp3"] else None
+
+
 def main():
     with open(os.path.join(EXAMPLES, "speech.json"), encoding="utf-8") as f:
         speech = json.load(f)
     by_ipa = symbols_by_ipa()
     vowels = {ipa for ipa, letter in by_ipa.items() if letter in "aeiou"}
     voice, ear = Voice(), Ear(by_ipa)
-    results = {}
+    record, results, made = recorded(), {}, {}
     for name, plan in speech.items():
         lines = [line["ipa"] for line in plan["lines"]]
         want = "".join(by_ipa[c] for line in lines for c in line if c in by_ipa)
-        data = mp3(voice.speak(lines, plan["voice"], vowels))
+        data = kept(name, plan, record)
+        if data is None:
+            torch.manual_seed(seed(plan))
+            data = made[name] = mp3(voice.speak(lines, plan["voice"], vowels))
         rate = error_rate(ear, data, want)
-        print("%s: %s, phoneme error rate %.3f" % (name, plan["voice"], rate))
+        print("%s: %s, %s, phoneme error rate %.3f"
+              % (name, plan["voice"], "made" if name in made else "kept", rate))
         if rate > THRESHOLD:
-            sys.exit("%s is refused: its phoneme error rate %.3f exceeds %.2f"
-                     % (name, rate, THRESHOLD))
-        with open(os.path.join(EXAMPLES, "media", name + ".mp3"), "wb") as f:
-            f.write(data)
+            sys.exit("%s is refused: its phoneme error rate %.3f exceeds %.2f; no file is "
+                     "written" % (name, rate, THRESHOLD))
         results[name] = {"plan": plan_digest(plan), "voice": plan["voice"],
                          "mp3": hashlib.sha256(data).hexdigest(),
                          "phoneme error rate": round(rate, 4)}
     control = control_rate(voice, ear, speech, by_ipa, vowels)
+    for name, data in made.items():
+        with open(os.path.join(EXAMPLES, "media", name + ".mp3"), "wb") as f:
+            f.write(data)
     write_record(results, control)
 
 
@@ -209,6 +243,7 @@ def control_rate(voice: Voice, ear: Ear, speech: dict, by_ipa: dict, vowels: set
     name, plan = next(iter(speech.items()))
     lines = [line["ipa"] for line in plan["lines"]]
     want = "".join(by_ipa[c] for line in lines for c in line if c in by_ipa)
+    torch.manual_seed(seed(plan))
     rate = error_rate(ear, mp3(voice.speak([line.translate(EXCHANGED) for line in lines],
                                            plan["voice"], vowels)), want)
     print("control, %s with its vowels exchanged: phoneme error rate %.3f" % (name, rate))

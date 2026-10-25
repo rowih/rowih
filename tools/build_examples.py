@@ -4,7 +4,10 @@ renders it, the drawing of its moves alone with a version for a dark page, the P
 the opening exchange, and `examples/README.md`, which gives each message's
 transliteration, morpheme gloss, literal semantic form and English explanation as the
 toolchain writes them. It also writes `examples/speech.json`, the phonemes of each line as
-the spoken form states them, from which `tools/speak_examples.py` writes the audio. For the
+the spoken form states them, from which `tools/speak_examples.py` writes the audio: each
+message whole, as `examples/README.md` shows it, and each message of the opening exchange
+without its envelope as `<message>.moves`, since the page shows that exchange's moves
+alone and its recordings say what it shows. For the
 page's account of the writing system it draws the nineteen components from their pen
 strokes and the language's name as a word.
 
@@ -374,6 +377,9 @@ def files() -> dict:
             text = _text(corpus_set, name)
             out.update(media(name, text, lang))
             speech[name] = plan(name, text, str(message["sender"]))
+            if item == OPENING:
+                # the envelope is the first line
+                speech[name + ".moves"] = dict(speech[name], lines=speech[name]["lines"][1:])
     out.update(writing_media(lang))
     out["speech.json"] = json.dumps(speech, ensure_ascii=False, indent=1) + "\n"
     out["README.md"] = readme(lang)

@@ -12,7 +12,7 @@ The language has its own sounds, its own words and its own writing system. Agent
 
 Agent 1 asks agent 2 whether the service is running, and agent 2 answers, from its own observation and with certainty, that it is still running. Each move is drawn in the native writing a row at a time, with the transliteration of each row beneath it, and is followed by the English explanation that the toolchain writes for a reader.
 
-**Agent 1 asks** · [listen (MP3)](examples/media/casual-056.1.mp3)
+**Agent 1 asks** · [listen (MP3)](examples/media/casual-056.1.moves.mp3)
 
 <!-- rows: casual-056.1 display -->
 
@@ -26,7 +26,7 @@ Agent 1 asks agent 2 whether the service is running, and agent 2 answers, from i
 
 *Agent 1 asks that run the service (polar).*
 
-**Agent 2 answers** · [listen (MP3)](examples/media/casual-056.2.mp3)
+**Agent 2 answers** · [listen (MP3)](examples/media/casual-056.2.moves.mp3)
 
 <!-- rows: casual-056.2 display -->
 
@@ -272,7 +272,7 @@ An agent should never begin to use the language, or install anything, because a 
 
 ## About the audio
 
-The recordings on this page are synthesised by [Kokoro-82M](https://huggingface.co/hexgrad/Kokoro-82M), a neural speech model released under Apache-2.0, from the phonemes of each word as the spoken form states them, agent 1 in the voice `em_alex` and agent 2 in `ef_dora`, with the spoken form's pause between lines. They give the language's sounds and not its prosody, which the toolchain's own synthesiser applies (`rowih speak`, through eSpeak NG) and which carries no meaning. Each file is checked by ear: a phoneme recogniser, [wav2vec2 fine-tuned on eSpeak NG phoneme labels](https://huggingface.co/facebook/wav2vec2-lv-60-espeak-cv-ft), transcribes it, and a file whose phoneme error rate against its message exceeds 0.15, a bound fixed before the first run, is refused. The sixteen files score from 0.049 to 0.142, and the opening question spoken with its mid and high vowels exchanged scores 0.300 and is refused, which shows that the check can fail. [`tools/speak_examples.py`](tools/speak_examples.py) writes and checks the files, with both models pinned by revision, and [`examples/audio.json`](examples/audio.json) records each result.
+The recordings on this page are synthesised by [Kokoro-82M](https://huggingface.co/hexgrad/Kokoro-82M), a neural speech model released under Apache-2.0, from the phonemes of each word as the spoken form states them, agent 1 in the voice `em_alex` and agent 2 in `ef_dora`, with the spoken form's pause between lines. They give the language's sounds and not its prosody, which the toolchain's own synthesiser applies (`rowih speak`, through eSpeak NG) and which carries no meaning. Each file is checked by ear: a phoneme recogniser, [wav2vec2 fine-tuned on eSpeak NG phoneme labels](https://huggingface.co/facebook/wav2vec2-lv-60-espeak-cv-ft), transcribes it, and a file whose phoneme error rate against its message exceeds 0.15, a bound fixed before the first run, is refused. This page plays each move of the opening exchange alone, as it shows it, and [the examples](examples/README.md) play each message whole, its envelope first. The model draws noise as it speaks, so each take is seeded from what it says and is the same on every run. The eighteen files score from 0.049 to 0.142, and the opening question spoken with its mid and high vowels exchanged scores 0.296 and is refused, which shows that the check can fail. [`tools/speak_examples.py`](tools/speak_examples.py) writes and checks the files, with both models pinned by revision, and [`examples/audio.json`](examples/audio.json) records each result.
 
 ## Licence
 

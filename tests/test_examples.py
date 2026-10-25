@@ -17,6 +17,7 @@ import sys
 
 from rowih import api, data, writing
 from rowih.drawing import draw, read as read_drawing
+from rowih.speech import spoken
 
 from test_specification import LINK, anchors, cites_a_section
 
@@ -64,7 +65,7 @@ def _corpus_text(name: str) -> str:
 def test_a_drawing_of_the_moves_is_the_whole_drawing_cropped():
     lang = data.load()
     crops = [p for p in FILES if p.endswith(".moves.svg")]
-    assert len(crops) == len(SPEECH)
+    assert len(crops) == len([name for name in SPEECH if not name.endswith(".moves")])
     for path in crops:
         name = os.path.basename(path)[:-len(".moves.svg")]
         text = _corpus_text(name)
@@ -213,11 +214,24 @@ def test_each_recording_passed_a_check_that_a_planted_defect_failed():
         assert AUDIO[model]["revision"] in tool
 
 
+def test_the_page_plays_the_moves_it_shows_and_the_examples_each_message_whole():
+    page = read("README.md")
+    linked = re.findall(r"\[listen \(MP3\)\]\(examples/media/([a-z0-9.-]+)\.mp3\)", page)
+    assert linked == [build_examples.OPENING + ".1.moves", build_examples.OPENING + ".2.moves"]
+    for name in linked:
+        spoken_form = [line["ipa"] for line in spoken(api.parse(_corpus_text(name[:-6])))]
+        assert [line["ipa"] for line in SPEECH[name]["lines"]] == spoken_form[1:], name
+    examples = read("examples/README.md")
+    for name in re.findall(r"\[Spoken \(MP3\)\]\(media/([a-z0-9.-]+)\.mp3\)", examples):
+        spoken_form = [line["ipa"] for line in spoken(api.parse(_corpus_text(name)))]
+        assert [line["ipa"] for line in SPEECH[name]["lines"]] == spoken_form, name
+
+
 def test_the_page_states_the_audio_check_as_recorded():
     page = read("README.md")
     rates = [r["phoneme error rate"] for r in AUDIO["messages"].values()]
-    assert len(rates) == 16
-    assert "The sixteen files score from %.3f to %.3f" % (min(rates), max(rates)) in page
+    assert len(rates) == 18
+    assert "The eighteen files score from %.3f to %.3f" % (min(rates), max(rates)) in page
     assert "exceeds %.2f" % AUDIO["threshold"] in page
     assert "scores %.3f and is refused" % AUDIO["control"]["phoneme error rate"] in page
     for name, plan in SPEECH.items():
