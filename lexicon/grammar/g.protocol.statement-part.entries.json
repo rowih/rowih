@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.protocol.statement-part.entries",
+ "orthographic form": "yini",
+ "phonological form": "/jini/",
+ "grammatical category": "statement part",
+ "gloss": "ENTRIES",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.9"
+ }
+}

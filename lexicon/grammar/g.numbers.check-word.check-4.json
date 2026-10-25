@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.numbers.check-word.check-4",
+ "orthographic form": "yalu",
+ "phonological form": "/jalu/",
+ "grammatical category": "check word",
+ "gloss": "CHECK-4",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

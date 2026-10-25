@@ -1,0 +1,12 @@
+{
+ "machine identifier": "g.standing.basis.report",
+ "orthographic form": "tukika",
+ "phonological form": "/tukika/",
+ "grammatical category": "basis",
+ "gloss": "REPORT",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ },
+ "tier": 1
+}

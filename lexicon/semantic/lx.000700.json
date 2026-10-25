@@ -1,0 +1,104 @@
+{
+ "machine identifier": "lx.000700",
+ "literal structure": {
+  "kind": "situation",
+  "name": null,
+  "parts": [
+   {
+    "kind": "word",
+    "form": "remoy",
+    "entry": "lx.000056",
+    "status": "known"
+   },
+   {
+    "kind": "value",
+    "member": "g.situations-and-contents.kind-of-question.polar"
+   },
+   {
+    "kind": "filler",
+    "role": "g.situations-and-contents.participation.undergoer",
+    "filler": {
+     "kind": "term",
+     "name": null,
+     "parts": [
+      {
+       "kind": "word",
+       "form": "nuhowot",
+       "entry": "lx.000280",
+       "status": "known"
+      },
+      {
+       "kind": "value",
+       "member": "g.situations-and-contents.quantifier.definite"
+      }
+     ]
+    }
+   },
+   {
+    "kind": "filler",
+    "role": "g.situations-and-contents.participation.content",
+    "filler": {
+     "kind": "term",
+     "name": null,
+     "parts": [
+      {
+       "kind": "value",
+       "member": "g.reference.person.interlocutor"
+      }
+     ]
+    }
+   }
+  ]
+ },
+ "expansion": {
+  "kind": "situation",
+  "name": null,
+  "parts": [
+   {
+    "kind": "word",
+    "form": "reris",
+    "entry": "lx.000031",
+    "status": "known"
+   },
+   {
+    "kind": "value",
+    "member": "g.situations-and-contents.kind-of-question.polar"
+   },
+   {
+    "kind": "filler",
+    "role": "g.situations-and-contents.participation.recipient",
+    "filler": {
+     "kind": "term",
+     "name": null,
+     "parts": [
+      {
+       "kind": "value",
+       "member": "g.reference.person.interlocutor"
+      }
+     ]
+    }
+   },
+   {
+    "kind": "filler",
+    "role": "g.situations-and-contents.participation.undergoer",
+    "filler": {
+     "kind": "term",
+     "name": null,
+     "parts": [
+      {
+       "kind": "word",
+       "form": "nuhowot",
+       "entry": "lx.000280",
+       "status": "known"
+      },
+      {
+       "kind": "value",
+       "member": "g.situations-and-contents.quantifier.definite"
+      }
+     ]
+    }
+   }
+  ]
+ },
+ "generated from": "lexicon/idioms/lx.000700.json"
+}

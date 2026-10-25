@@ -1,0 +1,38 @@
+{
+ "machine identifier": "mp.000018",
+ "name": "ACCESS IS A DOOR",
+ "source domain": "doors and their keys",
+ "target domain": "access to resources and actions",
+ "correspondences": [
+  {
+   "source": "a door",
+   "target": "access to a resource or an action"
+  },
+  {
+   "source": "a key",
+   "target": "what grants access"
+  },
+  {
+   "source": "a key that opens every door",
+   "target": "access beyond what the work needs"
+  },
+  {
+   "source": "a key that opens nothing",
+   "target": "access that grants nothing"
+  },
+  {
+   "source": "two at one door",
+   "target": "two processes each holding what the other needs"
+  }
+ ],
+ "motivates": [
+  "lx.000791",
+  "lx.000796",
+  "lx.000795",
+  "lx.000865"
+ ],
+ "version": {
+  "introduced": "1.0",
+  "deprecated": null
+ }
+}

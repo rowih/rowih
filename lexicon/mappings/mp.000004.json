@@ -1,0 +1,27 @@
+{
+ "machine identifier": "mp.000004",
+ "name": "URGENCY IS PRESSURE",
+ "source domain": "force on an area",
+ "target domain": "the need to act soon",
+ "correspondences": [
+  {
+   "source": "force",
+   "target": "the need that a content be brought about"
+  },
+  {
+   "source": "the area pressed",
+   "target": "the agent that must act"
+  },
+  {
+   "source": "more force",
+   "target": "less time to act"
+  }
+ ],
+ "motivates": [
+  "lx.000192"
+ ],
+ "version": {
+  "introduced": "0.5",
+  "deprecated": null
+ }
+}

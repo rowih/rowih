@@ -1,0 +1,55 @@
+{
+ "machine identifier": "lx.000800",
+ "root": "lx.000800",
+ "phonological form": "/nujiluɾ nutitoh/",
+ "orthographic form": "nuyilur nutitoh",
+ "grammatical category": "idiom",
+ "sort": "s.sort.situation",
+ "semantic type": {
+  "sort": "s.sort.situation",
+  "arguments": []
+ },
+ "definition": "the speaker lacks the knowledge to explain what the slot names",
+ "semantic primitives": [
+  "s.sort.situation"
+ ],
+ "argument structure": [],
+ "derivational behaviour": [],
+ "register": [
+  "R0",
+  "R2",
+  "R3",
+  "R5",
+  "R6",
+  "R7"
+ ],
+ "collocations": [],
+ "synonyms": [],
+ "antonyms": [],
+ "related concepts": [],
+ "examples": [],
+ "version": {
+  "introduced": "1.0",
+  "deprecated": null
+ },
+ "key": "not on the map",
+ "class": "epistemic idioms",
+ "kind": "decoding, grammatical",
+ "route": "figure",
+ "literal structure": "(situation draw POLARITY.NEGATIVE (ACTOR (term map)) (UNDERGOER (slot 1)))",
+ "expansion": "(situation lack-knowledge (HOLDER (term SELF)) (CONTENT (situation explain (ACTOR (term SELF)) (CONTENT (slot 1)))))",
+ "decomposition": [
+  {
+   "slot": 1,
+   "literal role": "UNDERGOER",
+   "expansion role": "CONTENT"
+  }
+ ],
+ "pragmatic conditions": "of a matter beyond what the speaker knows",
+ "usage restrictions": "none",
+ "declared loss": [
+  "stance",
+  "wording"
+ ],
+ "constructed history": "Constructed history: what an agent knew was its map, and what the map did not draw lay beyond its knowledge."
+}

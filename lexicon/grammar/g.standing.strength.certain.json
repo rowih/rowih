@@ -1,0 +1,16 @@
+{
+ "machine identifier": "g.standing.strength.certain",
+ "orthographic form": "tebilo",
+ "phonological form": "/tebilo/",
+ "grammatical category": "strength",
+ "gloss": "CERTAIN",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ },
+ "interval": {
+  "lower": "0.99",
+  "upper": "1",
+  "lower open": false
+ }
+}

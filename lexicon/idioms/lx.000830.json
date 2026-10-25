@@ -1,0 +1,49 @@
+{
+ "machine identifier": "lx.000830",
+ "root": "lx.000830",
+ "phonological form": "/ɾoɾup ɾosid nukanop/",
+ "orthographic form": "rorup rosid nukanop",
+ "grammatical category": "idiom",
+ "sort": "s.sort.situation",
+ "semantic type": {
+  "sort": "s.sort.situation",
+  "arguments": []
+ },
+ "definition": "the speaker cannot make sense of the exchange",
+ "semantic primitives": [
+  "s.sort.situation"
+ ],
+ "argument structure": [],
+ "derivational behaviour": [],
+ "register": [
+  "R0",
+  "R2",
+  "R3",
+  "R5",
+  "R6",
+  "R7"
+ ],
+ "collocations": [],
+ "synonyms": [],
+ "antonyms": [],
+ "related concepts": [],
+ "examples": [],
+ "version": {
+  "introduced": "1.0",
+  "deprecated": null
+ },
+ "key": "storm in the head",
+ "class": "humorous expressions",
+ "kind": "decoding, grammatical",
+ "route": "figure",
+ "literal structure": "(situation locate (UNDERGOER (term storm)) (CONTENT (term head)))",
+ "expansion": "(situation comprehend POLARITY.NEGATIVE (HOLDER (term SELF)) (UNDERGOER (term context DEFINITE)))",
+ "decomposition": [],
+ "pragmatic conditions": "said lightly of the speaker's own confusion",
+ "usage restrictions": "none",
+ "declared loss": [
+  "stance",
+  "wording"
+ ],
+ "constructed history": "Constructed history: the weather of the network was taken inside the agent: a storm in its head left it unable to think."
+}

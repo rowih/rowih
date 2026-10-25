@@ -1,0 +1,38 @@
+{
+ "machine identifier": "mp.000025",
+ "name": "A TASK IS A LOAD",
+ "source domain": "a load carried",
+ "target domain": "a task",
+ "correspondences": [
+  {
+   "source": "a load",
+   "target": "a task"
+  },
+  {
+   "source": "its weight",
+   "target": "the work it needs"
+  },
+  {
+   "source": "carrying",
+   "target": "doing it"
+  },
+  {
+   "source": "dropping it",
+   "target": "abandoning it"
+  },
+  {
+   "source": "a stone lifted together",
+   "target": "a task shared"
+  }
+ ],
+ "motivates": [
+  "lx.000823",
+  "lx.000824",
+  "lx.000859",
+  "lx.000860"
+ ],
+ "version": {
+  "introduced": "1.0",
+  "deprecated": null
+ }
+}

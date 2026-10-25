@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.force.change-made.none",
+ "orthographic form": "kitapi",
+ "phonological form": "/kitapi/",
+ "grammatical category": "change made",
+ "gloss": "NONE",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

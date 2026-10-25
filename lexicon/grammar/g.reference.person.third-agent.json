@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.reference.person.third-agent",
+ "orthographic form": "mubu",
+ "phonological form": "/mubu/",
+ "grammatical category": "person",
+ "gloss": "THIRD-AGENT",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

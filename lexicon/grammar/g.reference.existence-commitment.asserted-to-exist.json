@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.reference.existence-commitment.asserted-to-exist",
+ "orthographic form": "mawo",
+ "phonological form": "/mawo/",
+ "grammatical category": "existence commitment",
+ "gloss": "ASSERTED-TO-EXIST",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

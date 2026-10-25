@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.numbers.check-word.check-1",
+ "orthographic form": "yabe",
+ "phonological form": "/jabe/",
+ "grammatical category": "check word",
+ "gloss": "CHECK-1",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

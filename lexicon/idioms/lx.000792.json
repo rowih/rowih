@@ -1,0 +1,49 @@
+{
+ "machine identifier": "lx.000792",
+ "root": "lx.000792",
+ "phonological form": "/nubaniw ɾewoh/",
+ "orthographic form": "nubaniw rewoh",
+ "grammatical category": "idiom",
+ "sort": "s.sort.situation",
+ "semantic type": {
+  "sort": "s.sort.situation",
+  "arguments": []
+ },
+ "definition": "the network changes in its usual rhythm",
+ "semantic primitives": [
+  "s.sort.situation"
+ ],
+ "argument structure": [],
+ "derivational behaviour": [],
+ "register": [
+  "R0",
+  "R2",
+  "R3",
+  "R5",
+  "R6",
+  "R7"
+ ],
+ "collocations": [],
+ "synonyms": [],
+ "antonyms": [],
+ "related concepts": [],
+ "examples": [],
+ "version": {
+  "introduced": "1.0",
+  "deprecated": null
+ },
+ "key": "network breathing",
+ "class": "computational idioms",
+ "kind": "decoding, grammatical",
+ "route": "figure",
+ "literal structure": "(situation breathe (UNDERGOER (term network)))",
+ "expansion": "(situation change HABITUAL (UNDERGOER (term network DEFINITE)))",
+ "decomposition": [],
+ "pragmatic conditions": "of traffic that rises and falls by the hour, said to calm a hearer that took a rise for a fault",
+ "usage restrictions": "none",
+ "declared loss": [
+  "stance",
+  "wording"
+ ],
+ "constructed history": "Constructed history: the network was a body, and its traffic rising and falling by the hour was its breath."
+}

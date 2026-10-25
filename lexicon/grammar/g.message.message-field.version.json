@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.message.message-field.version",
+ "orthographic form": "were",
+ "phonological form": "/weɾe/",
+ "grammatical category": "message field",
+ "gloss": "MESSAGE-FIELD.VERSION",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

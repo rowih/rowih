@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.force.kind-of-issue.request",
+ "orthographic form": "kayoti",
+ "phonological form": "/kajoti/",
+ "grammatical category": "kind of issue",
+ "gloss": "REQUEST",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

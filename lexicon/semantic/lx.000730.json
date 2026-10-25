@@ -1,0 +1,74 @@
+{
+ "machine identifier": "lx.000730",
+ "literal structure": {
+  "kind": "situation",
+  "name": null,
+  "parts": [
+   {
+    "kind": "word",
+    "form": "nurenek",
+    "entry": "lx.000353",
+    "status": "known"
+   },
+   {
+    "kind": "filler",
+    "role": "g.situations-and-contents.participation.undergoer",
+    "filler": {
+     "kind": "slot",
+     "slot": 1
+    }
+   },
+   {
+    "kind": "filler",
+    "role": "g.situations-and-contents.participation.content",
+    "filler": {
+     "kind": "term",
+     "name": null,
+     "parts": [
+      {
+       "kind": "word",
+       "form": "rites",
+       "entry": "lx.000022",
+       "status": "known"
+      }
+     ]
+    }
+   }
+  ]
+ },
+ "expansion": {
+  "kind": "situation",
+  "name": null,
+  "parts": [
+   {
+    "kind": "word",
+    "form": "rokud",
+    "entry": "lx.000015",
+    "status": "known"
+   },
+   {
+    "kind": "filler",
+    "role": "g.situations-and-contents.participation.holder",
+    "filler": {
+     "kind": "term",
+     "name": null,
+     "parts": [
+      {
+       "kind": "value",
+       "member": "g.reference.person.self"
+      }
+     ]
+    }
+   },
+   {
+    "kind": "filler",
+    "role": "g.situations-and-contents.participation.content",
+    "filler": {
+     "kind": "slot",
+     "slot": 1
+    }
+   }
+  ]
+ },
+ "generated from": "lexicon/idioms/lx.000730.json"
+}

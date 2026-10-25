@@ -1,0 +1,76 @@
+{
+ "machine identifier": "lx.000582",
+ "root": "lx.000582",
+ "phonological form": "/nulebeb/",
+ "orthographic form": "nulebeb",
+ "grammatical category": "discourse relation",
+ "sort": "s.relation.bears-on",
+ "semantic type": {
+  "sort": "s.relation.bears-on",
+  "arguments": []
+ },
+ "definition": "the move states a general case of what it names",
+ "semantic primitives": [
+  "s.relation.bears-on"
+ ],
+ "argument structure": [],
+ "derivational behaviour": [
+  {
+   "suffix": "lx.000110",
+   "mechanism": "abstraction",
+   "form": "nulebebusap",
+   "sort": "s.sort.kind",
+   "definition": "what every instance of [the move states a general case of what it names] has in common"
+  },
+  {
+   "suffix": "lx.000112",
+   "mechanism": "verbalisation",
+   "form": "nulebebasey",
+   "sort": "s.sort.event",
+   "definition": "act by means of [the move states a general case of what it names]"
+  },
+  {
+   "suffix": "lx.000113",
+   "mechanism": "adjectivisation",
+   "form": "nulebebuyik",
+   "sort": "s.sort.state",
+   "definition": "be of the kind [the move states a general case of what it names] names"
+  },
+  {
+   "suffix": "lx.000184",
+   "mechanism": "honorific",
+   "form": "nulebebayuk",
+   "sort": "s.relation.bears-on",
+   "definition": "[the move states a general case of what it names], named with deference"
+  }
+ ],
+ "register": [
+  "R0",
+  "R1",
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7"
+ ],
+ "collocations": [],
+ "synonyms": [],
+ "antonyms": [
+  {
+   "entry": "lx.000578"
+  }
+ ],
+ "related concepts": [
+  {
+   "entry": "lx.000288",
+   "relation": "involves"
+  }
+ ],
+ "examples": [],
+ "version": {
+  "introduced": "1.0",
+  "deprecated": null
+ },
+ "key": "generalises"
+}

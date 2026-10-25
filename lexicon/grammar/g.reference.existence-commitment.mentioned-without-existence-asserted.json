@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.reference.existence-commitment.mentioned-without-existence-asserted",
+ "orthographic form": "mahu",
+ "phonological form": "/mahu/",
+ "grammatical category": "existence commitment",
+ "gloss": "MENTIONED-WITHOUT-EXISTENCE-ASSERTED",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.force.authority-claimed.speakers-own",
+ "orthographic form": "kosiki",
+ "phonological form": "/kosiki/",
+ "grammatical category": "authority claimed",
+ "gloss": "SPEAKERS-OWN",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

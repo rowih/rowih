@@ -1,0 +1,57 @@
+{
+ "machine identifier": "lx.000628",
+ "root": "lx.000628",
+ "phonological form": "/nudakab/",
+ "orthographic form": "nudakab",
+ "grammatical category": "idiom",
+ "sort": "s.sort.situation",
+ "semantic type": {
+  "sort": "s.sort.situation",
+  "arguments": []
+ },
+ "definition": "the speaker regrets sending what the slot names more than once",
+ "semantic primitives": [
+  "s.sort.situation"
+ ],
+ "argument structure": [],
+ "derivational behaviour": [],
+ "register": [
+  "R0",
+  "R1",
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7"
+ ],
+ "collocations": [],
+ "synonyms": [],
+ "antonyms": [],
+ "related concepts": [],
+ "examples": [],
+ "version": {
+  "introduced": "1.0",
+  "deprecated": null
+ },
+ "key": "copied out",
+ "class": "apologies",
+ "kind": "encoding, grammatical",
+ "route": "formula",
+ "literal structure": "(situation copy ITERATIVE (ACTOR (term SELF)) (UNDERGOER (slot 1)))",
+ "expansion": "(situation regret (HOLDER (term SELF)) (CONTENT (situation send ITERATIVE (ACTOR (term SELF)) (UNDERGOER (slot 1)))))",
+ "decomposition": [
+  {
+   "slot": 1,
+   "literal role": "UNDERGOER",
+   "expansion role": "UNDERGOER"
+  }
+ ],
+ "pragmatic conditions": "after the hearer received the same message of the speaker's twice",
+ "usage restrictions": "none",
+ "declared loss": [
+  "stance",
+  "relation between participants"
+ ],
+ "constructed history": "Constructed history: an agent that had sent one message twice said that it had copied it, and the saying came to apologise for the duplicate."
+}

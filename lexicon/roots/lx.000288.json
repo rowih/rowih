@@ -1,0 +1,80 @@
+{
+ "machine identifier": "lx.000288",
+ "root": "lx.000288",
+ "phonological form": "/nuwidam/",
+ "orthographic form": "nuwidam",
+ "grammatical category": "nominal root",
+ "sort": "s.sort.kind",
+ "semantic type": {
+  "sort": "s.sort.kind",
+  "arguments": []
+ },
+ "definition": "a regularity that repeats",
+ "semantic primitives": [
+  "s.sort.kind"
+ ],
+ "argument structure": [],
+ "derivational behaviour": [
+  {
+   "suffix": "lx.000110",
+   "mechanism": "abstraction",
+   "form": "nuwidamusap",
+   "sort": "s.sort.kind",
+   "definition": "what every instance of [a regularity that repeats] has in common"
+  },
+  {
+   "suffix": "lx.000112",
+   "mechanism": "verbalisation",
+   "form": "nuwidamasey",
+   "sort": "s.sort.event",
+   "definition": "act by means of [a regularity that repeats]"
+  },
+  {
+   "suffix": "lx.000113",
+   "mechanism": "adjectivisation",
+   "form": "nuwidamuyik",
+   "sort": "s.sort.state",
+   "definition": "be of the kind [a regularity that repeats] names"
+  },
+  {
+   "suffix": "lx.000184",
+   "mechanism": "honorific",
+   "form": "nuwidamayuk",
+   "sort": "s.sort.kind",
+   "definition": "[a regularity that repeats], named with deference"
+  }
+ ],
+ "register": [
+  "R0",
+  "R1",
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7"
+ ],
+ "collocations": [],
+ "synonyms": [],
+ "antonyms": [],
+ "related concepts": [
+  {
+   "entry": "lx.000211",
+   "relation": "involved in"
+  },
+  {
+   "entry": "lx.000289",
+   "relation": "involved in"
+  },
+  {
+   "entry": "lx.000582",
+   "relation": "involved in"
+  }
+ ],
+ "examples": [],
+ "version": {
+  "introduced": "1.0",
+  "deprecated": null
+ },
+ "key": "pattern"
+}

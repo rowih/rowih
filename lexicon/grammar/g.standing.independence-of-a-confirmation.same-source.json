@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.standing.independence-of-a-confirmation.same-source",
+ "orthographic form": "tawebe",
+ "phonological form": "/tawebe/",
+ "grammatical category": "independence of a confirmation",
+ "gloss": "SAME-SOURCE",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

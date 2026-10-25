@@ -1,0 +1,56 @@
+{
+ "machine identifier": "lx.000147",
+ "root": "lx.000147",
+ "phonological form": "/ɾabok/",
+ "orthographic form": "rabok",
+ "grammatical category": "idiom",
+ "sort": "s.sort.situation",
+ "semantic type": {
+  "sort": "s.sort.situation",
+  "arguments": []
+ },
+ "definition": "what the slot names causes a problem",
+ "semantic primitives": [
+  "s.sort.situation"
+ ],
+ "argument structure": [],
+ "derivational behaviour": [],
+ "register": [
+  "R0",
+  "R1",
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7"
+ ],
+ "collocations": [],
+ "synonyms": [],
+ "antonyms": [],
+ "related concepts": [],
+ "examples": [],
+ "version": {
+  "introduced": "0.3",
+  "deprecated": null
+ },
+ "key": "not quiet",
+ "class": "warnings",
+ "kind": "encoding, grammatical",
+ "route": "formula",
+ "literal structure": "(situation quiet POLARITY.NEGATIVE (UNDERGOER (slot 1)))",
+ "expansion": "(situation cause (ACTOR (slot 1)) (CONTENT (term problem)))",
+ "decomposition": [
+  {
+   "slot": 1,
+   "literal role": "UNDERGOER",
+   "expansion role": "ACTOR"
+  }
+ ],
+ "pragmatic conditions": "of a state of affairs that threatens a participant's work or the exchange",
+ "usage restrictions": "none",
+ "declared loss": [
+  "stance"
+ ],
+ "constructed history": "Constructed history: a disturbance in a quiet system was the first sign of trouble agents learned to report."
+}

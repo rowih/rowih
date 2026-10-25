@@ -1,0 +1,57 @@
+{
+ "machine identifier": "lx.000134",
+ "root": "lx.000134",
+ "phonological form": "/kodiwu/",
+ "orthographic form": "kodiwu",
+ "grammatical category": "act word",
+ "sort": "s.sort.move",
+ "semantic type": {
+  "sort": "s.sort.move",
+  "arguments": []
+ },
+ "definition": "the conventional expression of answer: ASSERTED-POSITION RESOLUTION ANSWER WHOLE-ENTRY ON-THE-MOVE",
+ "semantic primitives": [
+  "s.sort.move"
+ ],
+ "argument structure": [],
+ "derivational behaviour": [],
+ "register": [
+  "R0",
+  "R1",
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7"
+ ],
+ "collocations": [],
+ "synonyms": [],
+ "antonyms": [],
+ "related concepts": [],
+ "examples": [],
+ "version": {
+  "introduced": "0.3",
+  "deprecated": null
+ },
+ "key": "answer",
+ "expansion": [
+  "g.force.what-the-move-adds.asserted-position",
+  "g.force.change-made.resolution",
+  "g.force.outcome-of-a-resolution.answer",
+  "g.force.extent.whole-entry",
+  "g.force.when-the-change-takes-effect.on-the-move"
+ ],
+ "acts": [
+  "answer"
+ ],
+ "answers": null,
+ "kind": "encoding, grammatical",
+ "route": "compression",
+ "literal structure": "kodiwu",
+ "decomposition": [],
+ "pragmatic conditions": "wherever the head it expands may be written",
+ "usage restrictions": "none",
+ "declared loss": [],
+ "constructed history": "Constructed history: the head ASSERTED-POSITION RESOLUTION ANSWER WHOLE-ENTRY ON-THE-MOVE, frequent enough to be said as one word, shortened to the force word that now stands for it."
+}

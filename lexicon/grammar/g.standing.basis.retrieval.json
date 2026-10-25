@@ -1,0 +1,12 @@
+{
+ "machine identifier": "g.standing.basis.retrieval",
+ "orthographic form": "turimi",
+ "phonological form": "/tuɾimi/",
+ "grammatical category": "basis",
+ "gloss": "RETRIEVAL",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ },
+ "tier": 1
+}

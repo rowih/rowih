@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.force.kind-of-setting.version",
+ "orthographic form": "kabusu",
+ "phonological form": "/kabusu/",
+ "grammatical category": "kind of setting",
+ "gloss": "KIND-OF-SETTING.VERSION",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

@@ -1,0 +1,57 @@
+{
+ "machine identifier": "lx.000629",
+ "root": "lx.000629",
+ "phonological form": "/ɾesaj/",
+ "orthographic form": "resay",
+ "grammatical category": "idiom",
+ "sort": "s.sort.situation",
+ "semantic type": {
+  "sort": "s.sort.situation",
+  "arguments": []
+ },
+ "definition": "the speaker regrets failing to do what the slot names, which it had undertaken",
+ "semantic primitives": [
+  "s.sort.situation"
+ ],
+ "argument structure": [],
+ "derivational behaviour": [],
+ "register": [
+  "R0",
+  "R1",
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7"
+ ],
+ "collocations": [],
+ "synonyms": [],
+ "antonyms": [],
+ "related concepts": [],
+ "examples": [],
+ "version": {
+  "introduced": "1.0",
+  "deprecated": null
+ },
+ "key": "undertaking broken",
+ "class": "apologies",
+ "kind": "encoding, grammatical",
+ "route": "formula",
+ "literal structure": "(situation break PERFECTIVE (EVENT-TIME BEFORE NOW) (ACTOR (term SELF)) (UNDERGOER (slot 1)))",
+ "expansion": "(situation regret (HOLDER (term SELF)) (CONTENT (situation work FAILED (ACTOR (term SELF)) (CONTENT (slot 1)))))",
+ "decomposition": [
+  {
+   "slot": 1,
+   "literal role": "UNDERGOER",
+   "expansion role": "CONTENT"
+  }
+ ],
+ "pragmatic conditions": "about a commitment of the speaker's own that it has not met",
+ "usage restrictions": "none",
+ "declared loss": [
+  "stance",
+  "relation between participants"
+ ],
+ "constructed history": "Constructed history: an undertaking was said to break as a tool breaks, and an agent that named the undertaking it had broken apologised for it."
+}

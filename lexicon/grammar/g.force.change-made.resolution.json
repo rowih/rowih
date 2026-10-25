@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.force.change-made.resolution",
+ "orthographic form": "kodoyi",
+ "phonological form": "/kodoji/",
+ "grammatical category": "change made",
+ "gloss": "RESOLUTION",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

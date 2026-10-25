@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.protocol.statement-part.channel",
+ "orthographic form": "lumu",
+ "phonological form": "/lumu/",
+ "grammatical category": "statement part",
+ "gloss": "CHANNEL",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.9"
+ }
+}

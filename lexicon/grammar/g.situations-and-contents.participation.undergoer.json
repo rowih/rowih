@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.situations-and-contents.participation.undergoer",
+ "orthographic form": "bihu",
+ "phonological form": "/bihu/",
+ "grammatical category": "participation",
+ "gloss": "UNDERGOER",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

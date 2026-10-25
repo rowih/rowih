@@ -1,0 +1,80 @@
+{
+ "machine identifier": "lx.000532",
+ "root": "lx.000532",
+ "phonological form": "/nuwodej/",
+ "orthographic form": "nuwodey",
+ "grammatical category": "nominal root",
+ "sort": "s.sort.kind",
+ "semantic type": {
+  "sort": "s.sort.kind",
+  "arguments": []
+ },
+ "definition": "what living things eat",
+ "semantic primitives": [
+  "s.sort.kind"
+ ],
+ "argument structure": [],
+ "derivational behaviour": [
+  {
+   "suffix": "lx.000110",
+   "mechanism": "abstraction",
+   "form": "nuwodeyusap",
+   "sort": "s.sort.kind",
+   "definition": "what every instance of [what living things eat] has in common"
+  },
+  {
+   "suffix": "lx.000112",
+   "mechanism": "verbalisation",
+   "form": "nuwodeyasey",
+   "sort": "s.sort.event",
+   "definition": "act by means of [what living things eat]"
+  },
+  {
+   "suffix": "lx.000113",
+   "mechanism": "adjectivisation",
+   "form": "nuwodeyuyik",
+   "sort": "s.sort.state",
+   "definition": "be of the kind [what living things eat] names"
+  },
+  {
+   "suffix": "lx.000184",
+   "mechanism": "honorific",
+   "form": "nuwodeyayuk",
+   "sort": "s.sort.kind",
+   "definition": "[what living things eat], named with deference"
+  }
+ ],
+ "register": [
+  "R0",
+  "R1",
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7"
+ ],
+ "collocations": [],
+ "synonyms": [],
+ "antonyms": [],
+ "related concepts": [
+  {
+   "entry": "lx.000401",
+   "relation": "involved in"
+  },
+  {
+   "entry": "lx.000530",
+   "relation": "involved in"
+  },
+  {
+   "entry": "lx.000533",
+   "relation": "involved in"
+  }
+ ],
+ "examples": [],
+ "version": {
+  "introduced": "1.0",
+  "deprecated": null
+ },
+ "key": "food"
+}

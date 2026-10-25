@@ -1,0 +1,570 @@
+{
+ "dialect": "mathematics",
+ "number": 1,
+ "community": "mathematics",
+ "version": "0.2",
+ "date": "2026-10-16",
+ "formed from lexicon": "0.7",
+ "reading": "each term means the composition of its stems, as the rules of word formation give it; each compressed form means the term it compresses, which a hearer computes only from this release",
+ "terms": [
+  {
+   "machine identifier": "jg.mathematics.001",
+   "term": "metric",
+   "orthographic form": "rubusawen",
+   "phonological form": "/ɾubusawen/",
+   "grammatical category": "jargon",
+   "sort": "s.sort.referent",
+   "semantic type": {
+    "sort": "s.sort.referent",
+    "arguments": []
+   },
+   "definition": "what [find the size of something] is done with",
+   "argument structure": [],
+   "formed from": [
+    [
+     "lx.000042",
+     "lx.000098"
+    ]
+   ],
+   "mechanism": "instrument",
+   "register": [
+    "R0",
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7"
+   ],
+   "scope": {
+    "dialect": "mathematics",
+    "version": "0.1"
+   },
+   "validity": "from the dialect's release, without end",
+   "provenance": "generated from its stems by tools/build_registers.py",
+   "acceptance status": "released",
+   "version": {
+    "introduced": "0.1",
+    "deprecated": null
+   },
+   "key": "metric"
+  },
+  {
+   "machine identifier": "jg.mathematics.002",
+   "term": "isomorphism",
+   "orthographic form": "ripolarur",
+   "phonological form": "/ɾipolaɾuɾ/",
+   "grammatical category": "jargon",
+   "sort": "s.sort.kind",
+   "semantic type": {
+    "sort": "s.sort.kind",
+    "arguments": []
+   },
+   "definition": "the property of being as [be like or match something] states",
+   "argument structure": [],
+   "formed from": [
+    [
+     "lx.000020",
+     "lx.000109"
+    ]
+   ],
+   "mechanism": "property",
+   "register": [
+    "R0",
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7"
+   ],
+   "scope": {
+    "dialect": "mathematics",
+    "version": "0.1"
+   },
+   "validity": "from the dialect's release, without end",
+   "provenance": "generated from its stems by tools/build_registers.py",
+   "acceptance status": "released",
+   "version": {
+    "introduced": "0.1",
+    "deprecated": null
+   },
+   "key": "isomorphism"
+  },
+  {
+   "machine identifier": "jg.mathematics.003",
+   "term": "cardinality",
+   "orthographic form": "rutiyonar",
+   "phonological form": "/ɾutijonaɾ/",
+   "grammatical category": "jargon",
+   "sort": "s.sort.state",
+   "semantic type": {
+    "sort": "s.sort.state",
+    "arguments": [
+     "actor",
+     "undergoer"
+    ]
+   },
+   "definition": "the state [find how many there are] brings about",
+   "argument structure": [
+    {
+     "role": "actor",
+     "sort": "s.sort.agent"
+    },
+    {
+     "role": "undergoer",
+     "sort": "s.sort.referent"
+    }
+   ],
+   "formed from": [
+    [
+     "lx.000043",
+     "lx.000099"
+    ]
+   ],
+   "mechanism": "result",
+   "register": [
+    "R0",
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7"
+   ],
+   "scope": {
+    "dialect": "mathematics",
+    "version": "0.1"
+   },
+   "validity": "from the dialect's release, without end",
+   "provenance": "generated from its stems by tools/build_registers.py",
+   "acceptance status": "released",
+   "version": {
+    "introduced": "0.1",
+    "deprecated": null
+   },
+   "key": "cardinality"
+  },
+  {
+   "machine identifier": "jg.mathematics.004",
+   "term": "proof",
+   "orthographic form": "remamumop",
+   "phonological form": "/ɾemamumop/",
+   "grammatical category": "jargon",
+   "sort": "s.sort.reified-referent",
+   "semantic type": {
+    "sort": "s.sort.reified-referent",
+    "arguments": []
+   },
+   "definition": "[be evidence for a proposition], as a process under way, named as a referent",
+   "argument structure": [],
+   "formed from": [
+    [
+     "lx.000018",
+     "lx.000108"
+    ]
+   ],
+   "mechanism": "process",
+   "register": [
+    "R0",
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7"
+   ],
+   "scope": {
+    "dialect": "mathematics",
+    "version": "0.1"
+   },
+   "validity": "from the dialect's release, without end",
+   "provenance": "generated from its stems by tools/build_registers.py",
+   "acceptance status": "released",
+   "version": {
+    "introduced": "0.1",
+    "deprecated": "0.2"
+   },
+   "key": "proof",
+   "replaced by": "jg.mathematics.006"
+  },
+  {
+   "machine identifier": "jg.mathematics.005",
+   "term": "subset",
+   "orthographic form": "robahiratem",
+   "phonological form": "/ɾobahiɾatem/",
+   "grammatical category": "jargon",
+   "sort": "s.sort.state",
+   "semantic type": {
+    "sort": "s.sort.state",
+    "arguments": [
+     "content"
+    ]
+   },
+   "definition": "[be a part of a whole], with [a portion of a whole] as its undergoer",
+   "argument structure": [
+    {
+     "role": "content",
+     "sort": "s.sort.referent"
+    }
+   ],
+   "formed from": [
+    [
+     "lx.000011"
+    ],
+    [
+     "lx.000027"
+    ]
+   ],
+   "mechanism": "compound",
+   "register": [
+    "R0",
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7"
+   ],
+   "scope": {
+    "dialect": "mathematics",
+    "version": "0.1"
+   },
+   "validity": "from the dialect's release, without end",
+   "provenance": "generated from its stems by tools/build_registers.py",
+   "acceptance status": "released",
+   "version": {
+    "introduced": "0.1",
+    "deprecated": null
+   },
+   "key": "subset"
+  },
+  {
+   "machine identifier": "jg.mathematics.006",
+   "term": "proof",
+   "orthographic form": "runayiremam",
+   "phonological form": "/ɾunajiɾemam/",
+   "grammatical category": "jargon",
+   "sort": "s.sort.object",
+   "semantic type": {
+    "sort": "s.sort.object",
+    "arguments": []
+   },
+   "definition": "[a stored record], bearing on [be evidence for a proposition]",
+   "argument structure": [],
+   "formed from": [
+    [
+     "lx.000007"
+    ],
+    [
+     "lx.000018"
+    ]
+   ],
+   "mechanism": "compound",
+   "register": [
+    "R0",
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7"
+   ],
+   "scope": {
+    "dialect": "mathematics",
+    "version": "0.2"
+   },
+   "validity": "from the dialect's release, without end",
+   "provenance": "replaces jg.mathematics.004, deprecated: release 0.1 formed a proof as a process under way; a proof is a record that is evidence for its proposition",
+   "acceptance status": "released",
+   "version": {
+    "introduced": "0.2",
+    "deprecated": null
+   },
+   "key": "proof"
+  }
+ ],
+ "forms": [
+  {
+   "machine identifier": "dl.mathematics.001",
+   "root": "dl.mathematics.001",
+   "term": "metric",
+   "orthographic form": "rasug",
+   "phonological form": "/ɾasuɡ/",
+   "grammatical category": "dialect form",
+   "sort": "s.sort.referent",
+   "semantic type": {
+    "sort": "s.sort.referent",
+    "arguments": []
+   },
+   "definition": "the compressed form of the term metric: what [find the size of something] is done with",
+   "semantic primitives": [
+    "s.sort.referent"
+   ],
+   "argument structure": [],
+   "derivational behaviour": [],
+   "collocations": [],
+   "synonyms": [
+    {
+     "entry": "jg.mathematics.001",
+     "dimension": "compression"
+    }
+   ],
+   "antonyms": [],
+   "related concepts": [],
+   "examples": [],
+   "expansion": {
+    "term": "jg.mathematics.001",
+    "form": "rubusawen"
+   },
+   "mechanism": "compression",
+   "register": [
+    "R0",
+    "R2",
+    "R5"
+   ],
+   "scope": {
+    "dialect": "mathematics",
+    "version": "0.2"
+   },
+   "validity": "from the dialect's release, without end",
+   "provenance": "assigned by tools/build_dialects.py from the root pool",
+   "acceptance status": "released",
+   "version": {
+    "introduced": "0.2",
+    "deprecated": null
+   },
+   "key": "metric"
+  },
+  {
+   "machine identifier": "dl.mathematics.002",
+   "root": "dl.mathematics.002",
+   "term": "isomorphism",
+   "orthographic form": "rideb",
+   "phonological form": "/ɾideb/",
+   "grammatical category": "dialect form",
+   "sort": "s.sort.kind",
+   "semantic type": {
+    "sort": "s.sort.kind",
+    "arguments": []
+   },
+   "definition": "the compressed form of the term isomorphism: the property of being as [be like or match something] states",
+   "semantic primitives": [
+    "s.sort.kind"
+   ],
+   "argument structure": [],
+   "derivational behaviour": [],
+   "collocations": [],
+   "synonyms": [
+    {
+     "entry": "jg.mathematics.002",
+     "dimension": "compression"
+    }
+   ],
+   "antonyms": [],
+   "related concepts": [],
+   "examples": [],
+   "expansion": {
+    "term": "jg.mathematics.002",
+    "form": "ripolarur"
+   },
+   "mechanism": "compression",
+   "register": [
+    "R0",
+    "R2",
+    "R5"
+   ],
+   "scope": {
+    "dialect": "mathematics",
+    "version": "0.2"
+   },
+   "validity": "from the dialect's release, without end",
+   "provenance": "assigned by tools/build_dialects.py from the root pool",
+   "acceptance status": "released",
+   "version": {
+    "introduced": "0.2",
+    "deprecated": null
+   },
+   "key": "isomorphism"
+  },
+  {
+   "machine identifier": "dl.mathematics.003",
+   "root": "dl.mathematics.003",
+   "term": "cardinality",
+   "orthographic form": "romiy",
+   "phonological form": "/ɾomij/",
+   "grammatical category": "dialect form",
+   "sort": "s.sort.state",
+   "semantic type": {
+    "sort": "s.sort.state",
+    "arguments": [
+     "actor",
+     "undergoer"
+    ]
+   },
+   "definition": "the compressed form of the term cardinality: the state [find how many there are] brings about",
+   "semantic primitives": [
+    "s.sort.state"
+   ],
+   "argument structure": [
+    {
+     "role": "actor",
+     "sort": "s.sort.agent"
+    },
+    {
+     "role": "undergoer",
+     "sort": "s.sort.referent"
+    }
+   ],
+   "derivational behaviour": [],
+   "collocations": [],
+   "synonyms": [
+    {
+     "entry": "jg.mathematics.003",
+     "dimension": "compression"
+    }
+   ],
+   "antonyms": [],
+   "related concepts": [],
+   "examples": [],
+   "expansion": {
+    "term": "jg.mathematics.003",
+    "form": "rutiyonar"
+   },
+   "mechanism": "compression",
+   "register": [
+    "R0",
+    "R2",
+    "R5"
+   ],
+   "scope": {
+    "dialect": "mathematics",
+    "version": "0.2"
+   },
+   "validity": "from the dialect's release, without end",
+   "provenance": "assigned by tools/build_dialects.py from the root pool",
+   "acceptance status": "released",
+   "version": {
+    "introduced": "0.2",
+    "deprecated": null
+   },
+   "key": "cardinality"
+  },
+  {
+   "machine identifier": "dl.mathematics.004",
+   "root": "dl.mathematics.004",
+   "term": "proof",
+   "orthographic form": "rayew",
+   "phonological form": "/ɾajew/",
+   "grammatical category": "dialect form",
+   "sort": "s.sort.object",
+   "semantic type": {
+    "sort": "s.sort.object",
+    "arguments": []
+   },
+   "definition": "the compressed form of the term proof: [a stored record], bearing on [be evidence for a proposition]",
+   "semantic primitives": [
+    "s.sort.object"
+   ],
+   "argument structure": [],
+   "derivational behaviour": [],
+   "collocations": [],
+   "synonyms": [
+    {
+     "entry": "jg.mathematics.006",
+     "dimension": "compression"
+    }
+   ],
+   "antonyms": [],
+   "related concepts": [],
+   "examples": [],
+   "expansion": {
+    "term": "jg.mathematics.006",
+    "form": "runayiremam"
+   },
+   "mechanism": "compression",
+   "register": [
+    "R0",
+    "R2",
+    "R5"
+   ],
+   "scope": {
+    "dialect": "mathematics",
+    "version": "0.2"
+   },
+   "validity": "from the dialect's release, without end",
+   "provenance": "assigned by tools/build_dialects.py from the root pool",
+   "acceptance status": "released",
+   "version": {
+    "introduced": "0.2",
+    "deprecated": null
+   },
+   "key": "proof"
+  },
+  {
+   "machine identifier": "dl.mathematics.005",
+   "root": "dl.mathematics.005",
+   "term": "subset",
+   "orthographic form": "ruhed",
+   "phonological form": "/ɾuhed/",
+   "grammatical category": "dialect form",
+   "sort": "s.sort.state",
+   "semantic type": {
+    "sort": "s.sort.state",
+    "arguments": [
+     "content"
+    ]
+   },
+   "definition": "the compressed form of the term subset: [be a part of a whole], with [a portion of a whole] as its undergoer",
+   "semantic primitives": [
+    "s.sort.state"
+   ],
+   "argument structure": [
+    {
+     "role": "content",
+     "sort": "s.sort.referent"
+    }
+   ],
+   "derivational behaviour": [],
+   "collocations": [],
+   "synonyms": [
+    {
+     "entry": "jg.mathematics.005",
+     "dimension": "compression"
+    }
+   ],
+   "antonyms": [],
+   "related concepts": [],
+   "examples": [],
+   "expansion": {
+    "term": "jg.mathematics.005",
+    "form": "robahiratem"
+   },
+   "mechanism": "compression",
+   "register": [
+    "R0",
+    "R2",
+    "R5"
+   ],
+   "scope": {
+    "dialect": "mathematics",
+    "version": "0.2"
+   },
+   "validity": "from the dialect's release, without end",
+   "provenance": "assigned by tools/build_dialects.py from the root pool",
+   "acceptance status": "released",
+   "version": {
+    "introduced": "0.2",
+    "deprecated": null
+   },
+   "key": "subset"
+  }
+ ],
+ "digest": "464644054"
+}

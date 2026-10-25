@@ -1,0 +1,49 @@
+{
+ "machine identifier": "lx.000813",
+ "root": "lx.000813",
+ "phonological form": "/nutuɡot numosoh/",
+ "orthographic form": "nutugot numosoh",
+ "grammatical category": "idiom",
+ "sort": "s.sort.situation",
+ "semantic type": {
+  "sort": "s.sort.situation",
+  "arguments": []
+ },
+ "definition": "the speaker holds it probable that something will cause a problem",
+ "semantic primitives": [
+  "s.sort.situation"
+ ],
+ "argument structure": [],
+ "derivational behaviour": [],
+ "register": [
+  "R0",
+  "R2",
+  "R3",
+  "R5",
+  "R6",
+  "R7"
+ ],
+ "collocations": [],
+ "synonyms": [],
+ "antonyms": [],
+ "related concepts": [],
+ "examples": [],
+ "version": {
+  "introduced": "1.0",
+  "deprecated": null
+ },
+ "key": "cloud loud",
+ "class": "metaphorical expressions",
+ "kind": "decoding, grammatical",
+ "route": "figure",
+ "literal structure": "(situation loud (UNDERGOER (term cloud)))",
+ "expansion": "(situation CREDENCE PROBABLE (HOLDER (term SELF)) (CONTENT (situation cause (ACTOR (term thing EXISTENTIAL)) (CONTENT (term problem)) (EVENT-TIME AFTER NOW))))",
+ "decomposition": [],
+ "pragmatic conditions": "of signs of trouble not yet arrived",
+ "usage restrictions": "none",
+ "declared loss": [
+  "stance",
+  "wording"
+ ],
+ "constructed history": "Constructed history: thunder sounds in the clouds before the storm breaks, and an agent that saw signs of trouble said that the clouds were loud."
+}

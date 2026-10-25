@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.ambiguity-and-figures.figures-relation.target-content",
+ "orthographic form": "wana",
+ "phonological form": "/wana/",
+ "grammatical category": "figure's relation",
+ "gloss": "TARGET-CONTENT",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

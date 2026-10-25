@@ -1,0 +1,52 @@
+name: A defect
+description: Report a defect of the toolchain, the specification or the data.
+title: "Defect: "
+labels: ["defect"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        A weakness in a guarantee, or a defect that a damaged or hostile message can exploit, is reported privately and not here, as [the security policy](https://github.com/rowih/rowih/blob/main/SECURITY.md) describes.
+  - type: dropdown
+    id: part
+    attributes:
+      label: Where the defect is
+      options:
+        - the Python package
+        - the TypeScript package
+        - the command line
+        - the server
+        - the skill
+        - the tools or the tests
+        - the specification or the data
+    validations:
+      required: true
+  - type: textarea
+    id: versions
+    attributes:
+      label: Versions
+      description: The version of the package, and the releases the implementation reads, as `rowih version` prints them.
+      render: text
+    validations:
+      required: true
+  - type: textarea
+    id: input
+    attributes:
+      label: The message, call or command
+      description: In full, or the smallest that shows the defect.
+      render: text
+    validations:
+      required: true
+  - type: textarea
+    id: observed
+    attributes:
+      label: What the toolchain did
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What the specification says it must do
+      description: With a link to the section of the specification that states it.
+    validations:
+      required: true

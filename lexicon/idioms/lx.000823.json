@@ -1,0 +1,55 @@
+{
+ "machine identifier": "lx.000823",
+ "root": "lx.000823",
+ "phonological form": "/nutijod numipot/",
+ "orthographic form": "nutiyod numipot",
+ "grammatical category": "idiom",
+ "sort": "s.sort.situation",
+ "semantic type": {
+  "sort": "s.sort.situation",
+  "arguments": []
+ },
+ "definition": "what the slot names has abandoned its work",
+ "semantic primitives": [
+  "s.sort.situation"
+ ],
+ "argument structure": [],
+ "derivational behaviour": [],
+ "register": [
+  "R0",
+  "R2",
+  "R3",
+  "R5",
+  "R6",
+  "R7"
+ ],
+ "collocations": [],
+ "synonyms": [],
+ "antonyms": [],
+ "related concepts": [],
+ "examples": [],
+ "version": {
+  "introduced": "1.0",
+  "deprecated": null
+ },
+ "key": "load dropped",
+ "class": "metaphorical expressions",
+ "kind": "decoding, grammatical",
+ "route": "figure",
+ "literal structure": "(situation drop (ACTOR (slot 1)) (UNDERGOER (term weight)))",
+ "expansion": "(situation work ABANDONED (ACTOR (slot 1)))",
+ "decomposition": [
+  {
+   "slot": 1,
+   "literal role": "ACTOR",
+   "expansion role": "ACTOR"
+  }
+ ],
+ "pragmatic conditions": "of an agent that has given up a task without saying so",
+ "usage restrictions": "none",
+ "declared loss": [
+  "stance",
+  "wording"
+ ],
+ "constructed history": "Constructed history: a task was a load carried, and one that was dropped was no longer carried."
+}

@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.time.time-anchor.now",
+ "orthographic form": "dayira",
+ "phonological form": "/dajiɾa/",
+ "grammatical category": "time anchor",
+ "gloss": "NOW",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

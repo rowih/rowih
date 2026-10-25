@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.message.message-field.authentication",
+ "orthographic form": "luya",
+ "phonological form": "/luja/",
+ "grammatical category": "message field",
+ "gloss": "AUTHENTICATION",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.9"
+ }
+}

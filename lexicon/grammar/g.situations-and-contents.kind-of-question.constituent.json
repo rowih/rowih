@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.situations-and-contents.kind-of-question.constituent",
+ "orthographic form": "buna",
+ "phonological form": "/buna/",
+ "grammatical category": "kind of question",
+ "gloss": "CONSTITUENT",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

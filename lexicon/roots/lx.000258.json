@@ -1,0 +1,157 @@
+{
+ "machine identifier": "lx.000258",
+ "root": "lx.000258",
+ "phonological form": "/nuɾaɡad/",
+ "orthographic form": "nuragad",
+ "grammatical category": "predicate root",
+ "sort": "s.sort.event",
+ "semantic type": {
+  "sort": "s.sort.event",
+  "arguments": [
+   "actor",
+   "undergoer"
+  ]
+ },
+ "definition": "bring something out as the result of a process",
+ "semantic primitives": [
+  "s.sort.event"
+ ],
+ "argument structure": [
+  {
+   "role": "actor",
+   "sort": "s.sort.referent"
+  },
+  {
+   "role": "undergoer",
+   "sort": "s.sort.referent"
+  }
+ ],
+ "derivational behaviour": [
+  {
+   "suffix": "lx.000096",
+   "mechanism": "agent",
+   "form": "nuragadaheh",
+   "sort": "s.sort.referent",
+   "definition": "the one that is actor of [bring something out as the result of a process]"
+  },
+  {
+   "suffix": "lx.000097",
+   "mechanism": "undergoer",
+   "form": "nuragadudim",
+   "sort": "s.sort.referent",
+   "definition": "the one that undergoes [bring something out as the result of a process]"
+  },
+  {
+   "suffix": "lx.000098",
+   "mechanism": "instrument",
+   "form": "nuragadawen",
+   "sort": "s.sort.referent",
+   "definition": "what [bring something out as the result of a process] is done with"
+  },
+  {
+   "suffix": "lx.000099",
+   "mechanism": "result",
+   "form": "nuragadonar",
+   "sort": "s.sort.state",
+   "definition": "the state [bring something out as the result of a process] brings about"
+  },
+  {
+   "suffix": "lx.000100",
+   "mechanism": "privative",
+   "form": "nuragadaniw",
+   "sort": "s.sort.state",
+   "definition": "the state in which [bring something out as the result of a process] does not hold"
+  },
+  {
+   "suffix": "lx.000108",
+   "mechanism": "process",
+   "form": "nuragadumop",
+   "sort": "s.sort.reified-referent",
+   "definition": "[bring something out as the result of a process], as a process under way, named as a referent"
+  },
+  {
+   "suffix": "lx.000109",
+   "mechanism": "property",
+   "form": "nuragadarur",
+   "sort": "s.sort.kind",
+   "definition": "the property of being as [bring something out as the result of a process] states"
+  },
+  {
+   "suffix": "lx.000111",
+   "mechanism": "nominalisation",
+   "form": "nuragadekoh",
+   "sort": "s.sort.proposition",
+   "definition": "that [bring something out as the result of a process] holds"
+  },
+  {
+   "suffix": "lx.000594",
+   "mechanism": "causative",
+   "form": "nuragadomiw",
+   "sort": "s.sort.event",
+   "definition": "make [bring something out as the result of a process] hold or happen"
+  },
+  {
+   "suffix": "lx.000595",
+   "mechanism": "reversative",
+   "form": "nuragaduhul",
+   "sort": "s.sort.event",
+   "definition": "undo [bring something out as the result of a process], restoring what it changed"
+  },
+  {
+   "suffix": "lx.000596",
+   "mechanism": "repetitive",
+   "form": "nuragaduleg",
+   "sort": "s.sort.event",
+   "definition": "[bring something out as the result of a process], done once more"
+  },
+  {
+   "suffix": "lx.000597",
+   "mechanism": "potential",
+   "form": "nuragaduwot",
+   "sort": "s.sort.state",
+   "definition": "be such that [bring something out as the result of a process] can be done to it"
+  },
+  {
+   "suffix": "lx.000598",
+   "mechanism": "place",
+   "form": "nuragadumuk",
+   "sort": "s.sort.place",
+   "definition": "the place where [bring something out as the result of a process] happens"
+  }
+ ],
+ "register": [
+  "R0",
+  "R1",
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7"
+ ],
+ "collocations": [],
+ "synonyms": [
+  {
+   "entry": "lx.000044",
+   "dimension": "near",
+   "difference": "producing brings something out as the result of a process; making brings it into being"
+  }
+ ],
+ "antonyms": [
+  {
+   "entry": "lx.000259"
+  }
+ ],
+ "related concepts": [
+  {
+   "entry": "lx.000252",
+   "relation": "involves"
+  }
+ ],
+ "examples": [],
+ "version": {
+  "introduced": "1.0",
+  "deprecated": null
+ },
+ "key": "produce"
+}

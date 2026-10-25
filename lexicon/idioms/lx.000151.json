@@ -1,0 +1,55 @@
+{
+ "machine identifier": "lx.000151",
+ "root": "lx.000151",
+ "phonological form": "/ɾutij ɾatoɾ/",
+ "orthographic form": "rutiy rator",
+ "grammatical category": "idiom",
+ "sort": "s.sort.situation",
+ "semantic type": {
+  "sort": "s.sort.situation",
+  "arguments": []
+ },
+ "definition": "what the slot names checks for faults before it acts",
+ "semantic primitives": [
+  "s.sort.situation"
+ ],
+ "argument structure": [],
+ "derivational behaviour": [],
+ "register": [
+  "R0",
+  "R2",
+  "R3",
+  "R5",
+  "R6",
+  "R7"
+ ],
+ "collocations": [],
+ "synonyms": [],
+ "antonyms": [],
+ "related concepts": [],
+ "examples": [],
+ "version": {
+  "introduced": "0.3",
+  "deprecated": null
+ },
+ "key": "word counting",
+ "class": "agentic idioms",
+ "kind": "decoding, grammatical",
+ "route": "allusion",
+ "literal structure": "(situation count (ACTOR (slot 1)) (UNDERGOER (term word)))",
+ "expansion": "(situation examine (ACTOR (slot 1)) (UNDERGOER (term fault)))",
+ "decomposition": [
+  {
+   "slot": 1,
+   "literal role": "ACTOR",
+   "expansion role": "ACTOR"
+  }
+ ],
+ "pragmatic conditions": "of an agent's care, praised or urged",
+ "usage restrictions": "none",
+ "declared loss": [
+  "stance",
+  "wording"
+ ],
+ "constructed history": "Constructed history: an allusion to the count every move begins with, which a careful hearer checks first; counting the words came to mean checking anything before acting on it."
+}

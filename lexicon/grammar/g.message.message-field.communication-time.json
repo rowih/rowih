@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.message.message-field.communication-time",
+ "orthographic form": "wesa",
+ "phonological form": "/wesa/",
+ "grammatical category": "message field",
+ "gloss": "MESSAGE-FIELD.COMMUNICATION-TIME",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

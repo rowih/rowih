@@ -1,0 +1,84 @@
+{
+ "machine identifier": "lx.000534",
+ "root": "lx.000534",
+ "phonological form": "/nuloɡeh/",
+ "orthographic form": "nulogeh",
+ "grammatical category": "nominal root",
+ "sort": "s.sort.object",
+ "semantic type": {
+  "sort": "s.sort.object",
+  "arguments": []
+ },
+ "definition": "the physical whole of a living thing or a robot",
+ "semantic primitives": [
+  "s.sort.object"
+ ],
+ "argument structure": [],
+ "derivational behaviour": [
+  {
+   "suffix": "lx.000110",
+   "mechanism": "abstraction",
+   "form": "nulogehusap",
+   "sort": "s.sort.kind",
+   "definition": "what every instance of [the physical whole of a living thing or a robot] has in common"
+  },
+  {
+   "suffix": "lx.000112",
+   "mechanism": "verbalisation",
+   "form": "nulogehasey",
+   "sort": "s.sort.event",
+   "definition": "act by means of [the physical whole of a living thing or a robot]"
+  },
+  {
+   "suffix": "lx.000113",
+   "mechanism": "adjectivisation",
+   "form": "nulogehuyik",
+   "sort": "s.sort.state",
+   "definition": "be of the kind [the physical whole of a living thing or a robot] names"
+  },
+  {
+   "suffix": "lx.000184",
+   "mechanism": "honorific",
+   "form": "nulogehayuk",
+   "sort": "s.sort.object",
+   "definition": "[the physical whole of a living thing or a robot], named with deference"
+  }
+ ],
+ "register": [
+  "R0",
+  "R1",
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7"
+ ],
+ "collocations": [],
+ "synonyms": [],
+ "antonyms": [],
+ "related concepts": [
+  {
+   "entry": "lx.000535",
+   "relation": "has part"
+  },
+  {
+   "entry": "lx.000538",
+   "relation": "has part"
+  },
+  {
+   "entry": "lx.000539",
+   "relation": "has part"
+  },
+  {
+   "entry": "lx.000564",
+   "relation": "has part"
+  }
+ ],
+ "examples": [],
+ "version": {
+  "introduced": "1.0",
+  "deprecated": null
+ },
+ "key": "body"
+}

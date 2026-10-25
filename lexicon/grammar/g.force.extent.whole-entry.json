@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.force.extent.whole-entry",
+ "orthographic form": "kusodu",
+ "phonological form": "/kusodu/",
+ "grammatical category": "extent",
+ "gloss": "WHOLE-ENTRY",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

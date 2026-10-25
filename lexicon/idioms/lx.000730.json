@@ -1,0 +1,56 @@
+{
+ "machine identifier": "lx.000730",
+ "root": "lx.000730",
+ "phonological form": "/nuɾenek ɾites/",
+ "orthographic form": "nurenek rites",
+ "grammatical category": "idiom",
+ "sort": "s.sort.situation",
+ "semantic type": {
+  "sort": "s.sort.situation",
+  "arguments": []
+ },
+ "definition": "the speaker lacks the resources for what the slot names",
+ "semantic primitives": [
+  "s.sort.situation"
+ ],
+ "argument structure": [],
+ "derivational behaviour": [],
+ "register": [
+  "R0",
+  "R1",
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7"
+ ],
+ "collocations": [],
+ "synonyms": [],
+ "antonyms": [],
+ "related concepts": [],
+ "examples": [],
+ "version": {
+  "introduced": "1.0",
+  "deprecated": null
+ },
+ "key": "far beyond the budget",
+ "class": "refusals",
+ "kind": "encoding, grammatical",
+ "route": "formula",
+ "literal structure": "(situation far (UNDERGOER (slot 1)) (CONTENT (term budget)))",
+ "expansion": "(situation lack-resource (HOLDER (term SELF)) (CONTENT (slot 1)))",
+ "decomposition": [
+  {
+   "slot": 1,
+   "literal role": "UNDERGOER",
+   "expansion role": "CONTENT"
+  }
+ ],
+ "pragmatic conditions": "giving the reason with a rejection of a request",
+ "usage restrictions": "none",
+ "declared loss": [
+  "stance"
+ ],
+ "constructed history": "Constructed history: what an agent could not afford lay far beyond its budget."
+}

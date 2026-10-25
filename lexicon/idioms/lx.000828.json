@@ -1,0 +1,49 @@
+{
+ "machine identifier": "lx.000828",
+ "root": "lx.000828",
+ "phonological form": "/nupimub nunowol nunolel/",
+ "orthographic form": "nupimub nunowol nunolel",
+ "grammatical category": "idiom",
+ "sort": "s.sort.situation",
+ "semantic type": {
+  "sort": "s.sort.situation",
+  "arguments": []
+ },
+ "definition": "the hearer fears a danger that does not exist",
+ "semantic primitives": [
+  "s.sort.situation"
+ ],
+ "argument structure": [],
+ "derivational behaviour": [],
+ "register": [
+  "R0",
+  "R2",
+  "R3",
+  "R5",
+  "R6",
+  "R7"
+ ],
+ "collocations": [],
+ "synonyms": [],
+ "antonyms": [],
+ "related concepts": [],
+ "examples": [],
+ "version": {
+  "introduced": "1.0",
+  "deprecated": null
+ },
+ "key": "robot afraid of rain",
+ "class": "humorous expressions",
+ "kind": "decoding, grammatical",
+ "route": "allusion",
+ "literal structure": "(situation fear (HOLDER (term robot)) (CONTENT (term rain)))",
+ "expansion": "(situation fear (HOLDER (term INTERLOCUTOR)) (CONTENT (term danger ASSERTED-NOT-TO-EXIST)))",
+ "decomposition": [],
+ "pragmatic conditions": "said lightly to an agent more careful than the matter needs",
+ "usage restrictions": "none",
+ "declared loss": [
+  "stance",
+  "wording"
+ ],
+ "constructed history": "Constructed history: an allusion to the first robots, which had to be kept from rain, and to the one that would not leave its shelter on a dry day."
+}

@@ -1,0 +1,259 @@
+{
+ "dialect": "programming",
+ "community": "programming",
+ "version": "0.1",
+ "date": "2026-10-10",
+ "formed from lexicon": "0.4",
+ "reading": "each term means the composition of its stems, as the rules of word formation give it",
+ "terms": [
+  {
+   "machine identifier": "jg.programming.001",
+   "term": "deploy",
+   "orthographic form": "rigisirudin",
+   "phonological form": "/ɾiɡisiɾudin/",
+   "grammatical category": "jargon",
+   "sort": "s.sort.state",
+   "semantic type": {
+    "sort": "s.sort.state",
+    "arguments": [
+     "actor"
+    ]
+   },
+   "definition": "[bring about a situation], with [be under way as a process] as its content",
+   "argument structure": [
+    {
+     "role": "actor",
+     "sort": "s.sort.situation"
+    }
+   ],
+   "formed from": [
+    [
+     "lx.000009"
+    ],
+    [
+     "lx.000004"
+    ]
+   ],
+   "mechanism": "compound",
+   "register": [
+    "R0",
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7"
+   ],
+   "scope": {
+    "dialect": "programming",
+    "version": "0.1"
+   },
+   "validity": "from the dialect's release, without end",
+   "provenance": "generated from its stems by tools/build_registers.py",
+   "acceptance status": "released",
+   "version": {
+    "introduced": "0.1",
+    "deprecated": null
+   },
+   "key": "deploy"
+  },
+  {
+   "machine identifier": "jg.programming.002",
+   "term": "suite",
+   "orthographic form": "runayirosek",
+   "phonological form": "/ɾunajiɾosek/",
+   "grammatical category": "jargon",
+   "sort": "s.sort.object",
+   "semantic type": {
+    "sort": "s.sort.object",
+    "arguments": []
+   },
+   "definition": "[a stored record], bearing on [inspect or investigate something to learn about it]",
+   "argument structure": [],
+   "formed from": [
+    [
+     "lx.000007"
+    ],
+    [
+     "lx.000001"
+    ]
+   ],
+   "mechanism": "compound",
+   "register": [
+    "R0",
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7"
+   ],
+   "scope": {
+    "dialect": "programming",
+    "version": "0.1"
+   },
+   "validity": "from the dialect's release, without end",
+   "provenance": "generated from its stems by tools/build_registers.py",
+   "acceptance status": "released",
+   "version": {
+    "introduced": "0.1",
+    "deprecated": null
+   },
+   "key": "suite"
+  },
+  {
+   "machine identifier": "jg.programming.003",
+   "term": "crash",
+   "orthographic form": "resayiraniy",
+   "phonological form": "/ɾesajiɾanij/",
+   "grammatical category": "jargon",
+   "sort": "s.sort.event",
+   "semantic type": {
+    "sort": "s.sort.event",
+    "arguments": [
+     "actor"
+    ]
+   },
+   "definition": "[stop working by damage], with [a system an agent uses] as its undergoer",
+   "argument structure": [
+    {
+     "role": "actor",
+     "sort": "s.sort.agent"
+    }
+   ],
+   "formed from": [
+    [
+     "lx.000045"
+    ],
+    [
+     "lx.000006"
+    ]
+   ],
+   "mechanism": "compound",
+   "register": [
+    "R0",
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7"
+   ],
+   "scope": {
+    "dialect": "programming",
+    "version": "0.1"
+   },
+   "validity": "from the dialect's release, without end",
+   "provenance": "generated from its stems by tools/build_registers.py",
+   "acceptance status": "released",
+   "version": {
+    "introduced": "0.1",
+    "deprecated": null
+   },
+   "key": "crash"
+  },
+  {
+   "machine identifier": "jg.programming.004",
+   "term": "log",
+   "orthographic form": "rurohiritup",
+   "phonological form": "/ɾuɾohiɾitup/",
+   "grammatical category": "jargon",
+   "sort": "s.sort.event",
+   "semantic type": {
+    "sort": "s.sort.event",
+    "arguments": [
+     "actor"
+    ]
+   },
+   "definition": "[set something down], with [an operation a system can carry out] as its undergoer",
+   "argument structure": [
+    {
+     "role": "actor",
+     "sort": "s.sort.agent"
+    }
+   ],
+   "formed from": [
+    [
+     "lx.000036"
+    ],
+    [
+     "lx.000024"
+    ]
+   ],
+   "mechanism": "compound",
+   "register": [
+    "R0",
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7"
+   ],
+   "scope": {
+    "dialect": "programming",
+    "version": "0.1"
+   },
+   "validity": "from the dialect's release, without end",
+   "provenance": "generated from its stems by tools/build_registers.py",
+   "acceptance status": "released",
+   "version": {
+    "introduced": "0.1",
+    "deprecated": null
+   },
+   "key": "log"
+  },
+  {
+   "machine identifier": "jg.programming.005",
+   "term": "debugger",
+   "orthographic form": "rubomahehirepur",
+   "phonological form": "/ɾubomahehiɾepuɾ/",
+   "grammatical category": "jargon",
+   "sort": "s.sort.agent",
+   "semantic type": {
+    "sort": "s.sort.agent",
+    "arguments": []
+   },
+   "definition": "[the one that is actor of [come upon what was sought]], bearing on [an error in a message or a process]",
+   "argument structure": [],
+   "formed from": [
+    [
+     "lx.000051",
+     "lx.000096"
+    ],
+    [
+     "lx.000074"
+    ]
+   ],
+   "mechanism": "compound",
+   "register": [
+    "R0",
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7"
+   ],
+   "scope": {
+    "dialect": "programming",
+    "version": "0.1"
+   },
+   "validity": "from the dialect's release, without end",
+   "provenance": "generated from its stems by tools/build_registers.py",
+   "acceptance status": "released",
+   "version": {
+    "introduced": "0.1",
+    "deprecated": null
+   },
+   "key": "debugger"
+  }
+ ],
+ "number": 2,
+ "digest": "371411292"
+}

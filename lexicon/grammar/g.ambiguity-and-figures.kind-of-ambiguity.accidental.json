@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.ambiguity-and-figures.kind-of-ambiguity.accidental",
+ "orthographic form": "sola",
+ "phonological form": "/sola/",
+ "grammatical category": "kind of ambiguity",
+ "gloss": "ACCIDENTAL",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

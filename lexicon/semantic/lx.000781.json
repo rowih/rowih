@@ -1,0 +1,78 @@
+{
+ "machine identifier": "lx.000781",
+ "literal structure": {
+  "kind": "situation",
+  "name": null,
+  "parts": [
+   {
+    "kind": "word",
+    "form": "nudihay",
+    "entry": "lx.000363",
+    "status": "known"
+   },
+   {
+    "kind": "filler",
+    "role": "g.situations-and-contents.participation.actor",
+    "filler": {
+     "kind": "slot",
+     "slot": 1
+    }
+   },
+   {
+    "kind": "filler",
+    "role": "g.situations-and-contents.participation.undergoer",
+    "filler": {
+     "kind": "term",
+     "name": null,
+     "parts": [
+      {
+       "kind": "word",
+       "form": "nusemog",
+       "entry": "lx.000484",
+       "status": "known"
+      }
+     ]
+    }
+   }
+  ]
+ },
+ "expansion": {
+  "kind": "situation",
+  "name": null,
+  "parts": [
+   {
+    "kind": "word",
+    "form": "riyob",
+    "entry": "lx.000107",
+    "status": "known"
+   },
+   {
+    "kind": "filler",
+    "role": "g.situations-and-contents.participation.undergoer",
+    "filler": {
+     "kind": "term",
+     "name": null,
+     "parts": [
+      {
+       "kind": "value",
+       "member": "g.reference.person.third-agent"
+      },
+      {
+       "kind": "value",
+       "member": "g.reference.discourse-status.new"
+      }
+     ]
+    }
+   },
+   {
+    "kind": "filler",
+    "role": "g.situations-and-contents.participation.content",
+    "filler": {
+     "kind": "slot",
+     "slot": 1
+    }
+   }
+  ]
+ },
+ "generated from": "lexicon/idioms/lx.000781.json"
+}

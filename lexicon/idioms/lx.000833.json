@@ -1,0 +1,49 @@
+{
+ "machine identifier": "lx.000833",
+ "root": "lx.000833",
+ "phonological form": "/ɾudab nukihaɾ ɾenih/",
+ "orthographic form": "rudab nukihar renih",
+ "grammatical category": "idiom",
+ "sort": "s.sort.situation",
+ "semantic type": {
+  "sort": "s.sort.situation",
+  "arguments": []
+ },
+ "definition": "the hearer already holds what it asks for",
+ "semantic primitives": [
+  "s.sort.situation"
+ ],
+ "argument structure": [],
+ "derivational behaviour": [],
+ "register": [
+  "R0",
+  "R2",
+  "R3",
+  "R5",
+  "R6",
+  "R7"
+ ],
+ "collocations": [],
+ "synonyms": [],
+ "antonyms": [],
+ "related concepts": [],
+ "examples": [],
+ "version": {
+  "introduced": "1.0",
+  "deprecated": null
+ },
+ "key": "fish asking for water",
+ "class": "humorous expressions",
+ "kind": "decoding, grammatical",
+ "route": "allusion",
+ "literal structure": "(situation need (HOLDER (term fish)) (CONTENT (term water)))",
+ "expansion": "(situation possess (HOLDER (term INTERLOCUTOR)) (UNDERGOER (term thing GIVEN)))",
+ "decomposition": [],
+ "pragmatic conditions": "said lightly in answer to a request for what the hearer has",
+ "usage restrictions": "none",
+ "declared loss": [
+  "stance",
+  "wording"
+ ],
+ "constructed history": "Constructed history: an allusion to the story of the fish that asked for water, told among agents of one that asked for a record it held."
+}

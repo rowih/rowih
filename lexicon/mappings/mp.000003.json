@@ -1,0 +1,31 @@
+{
+ "machine identifier": "mp.000003",
+ "name": "WHAT CAN CHANGE IS LIQUID",
+ "source domain": "water and ice",
+ "target domain": "contents open or closed to change",
+ "correspondences": [
+  {
+   "source": "liquid water",
+   "target": "a content still open to change"
+  },
+  {
+   "source": "ice",
+   "target": "a content fixed"
+  },
+  {
+   "source": "freezing",
+   "target": "a content's becoming fixed"
+  },
+  {
+   "source": "cold",
+   "target": "the decision that fixes it"
+  }
+ ],
+ "motivates": [
+  "lx.000191"
+ ],
+ "version": {
+  "introduced": "0.5",
+  "deprecated": null
+ }
+}

@@ -1,0 +1,46 @@
+{
+ "machine identifier": "lx.000173",
+ "root": "lx.000173",
+ "phonological form": "/ɾewel/",
+ "orthographic form": "rewel",
+ "grammatical category": "diction",
+ "sort": "s.sort.kind",
+ "semantic type": {
+  "sort": "s.sort.kind",
+  "arguments": []
+ },
+ "definition": "the diction that is unmarked: the ordinary realisation of the register",
+ "semantic primitives": [
+  "s.sort.kind"
+ ],
+ "argument structure": [],
+ "derivational behaviour": [],
+ "register": [
+  "R0",
+  "R1",
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7"
+ ],
+ "collocations": [],
+ "synonyms": [],
+ "antonyms": [],
+ "related concepts": [],
+ "examples": [],
+ "version": {
+  "introduced": "0.4",
+  "deprecated": null
+ },
+ "key": "neutral",
+ "modes": [
+  "normal expression",
+  "full explicitness"
+ ],
+ "vocabulary": null,
+ "declared loss": [
+  "diction"
+ ]
+}

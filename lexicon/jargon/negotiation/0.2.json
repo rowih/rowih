@@ -1,0 +1,495 @@
+{
+ "dialect": "negotiation",
+ "number": 11,
+ "community": "negotiation",
+ "version": "0.2",
+ "date": "2026-10-17",
+ "formed from lexicon": "1.0",
+ "reading": "each term means the composition of its stems, as the rules of word formation give it",
+ "terms": [
+  {
+   "machine identifier": "jg.negotiation.001",
+   "term": "bid",
+   "orthographic form": "robetirodur",
+   "phonological form": "/ɾobetiɾoduɾ/",
+   "grammatical category": "jargon",
+   "sort": "s.sort.event",
+   "semantic type": {
+    "sort": "s.sort.event",
+    "arguments": [
+     "actor",
+     "recipient"
+    ]
+   },
+   "definition": "[hand over], with [what is asked in exchange] as its undergoer",
+   "argument structure": [
+    {
+     "role": "actor",
+     "sort": "s.sort.agent"
+    },
+    {
+     "role": "recipient",
+     "sort": "s.sort.agent"
+    }
+   ],
+   "formed from": [
+    [
+     "lx.000049"
+    ],
+    [
+     "lx.000063"
+    ]
+   ],
+   "mechanism": "compound",
+   "register": [
+    "R0",
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7"
+   ],
+   "scope": {
+    "dialect": "negotiation",
+    "version": "0.1"
+   },
+   "validity": "from the dialect's release, without end",
+   "provenance": "generated from its stems by tools/build_registers.py",
+   "acceptance status": "released",
+   "version": {
+    "introduced": "0.1",
+    "deprecated": null
+   },
+   "key": "bid"
+  },
+  {
+   "machine identifier": "jg.negotiation.002",
+   "term": "deal",
+   "orthographic form": "ratemirobet",
+   "phonological form": "/ɾatemiɾobet/",
+   "grammatical category": "jargon",
+   "sort": "s.sort.object",
+   "semantic type": {
+    "sort": "s.sort.object",
+    "arguments": []
+   },
+   "definition": "[a portion of a whole], bearing on [hand over]",
+   "argument structure": [],
+   "formed from": [
+    [
+     "lx.000027"
+    ],
+    [
+     "lx.000049"
+    ]
+   ],
+   "mechanism": "compound",
+   "register": [
+    "R0",
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7"
+   ],
+   "scope": {
+    "dialect": "negotiation",
+    "version": "0.1"
+   },
+   "validity": "from the dialect's release, without end",
+   "provenance": "generated from its stems by tools/build_registers.py",
+   "acceptance status": "released",
+   "version": {
+    "introduced": "0.1",
+    "deprecated": null
+   },
+   "key": "deal"
+  },
+  {
+   "machine identifier": "jg.negotiation.003",
+   "term": "leverage",
+   "orthographic form": "radaharur",
+   "phonological form": "/ɾadahaɾuɾ/",
+   "grammatical category": "jargon",
+   "sort": "s.sort.kind",
+   "semantic type": {
+    "sort": "s.sort.kind",
+    "arguments": []
+   },
+   "definition": "the property of being as [have] states",
+   "argument structure": [],
+   "formed from": [
+    [
+     "lx.000055",
+     "lx.000109"
+    ]
+   ],
+   "mechanism": "property",
+   "register": [
+    "R0",
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7"
+   ],
+   "scope": {
+    "dialect": "negotiation",
+    "version": "0.1"
+   },
+   "validity": "from the dialect's release, without end",
+   "provenance": "generated from its stems by tools/build_registers.py",
+   "acceptance status": "released",
+   "version": {
+    "introduced": "0.1",
+    "deprecated": null
+   },
+   "key": "leverage"
+  },
+  {
+   "machine identifier": "jg.negotiation.004",
+   "term": "concession",
+   "orthographic form": "rukitirodur",
+   "phonological form": "/ɾukitiɾoduɾ/",
+   "grammatical category": "jargon",
+   "sort": "s.sort.event",
+   "semantic type": {
+    "sort": "s.sort.event",
+    "arguments": [
+     "actor"
+    ]
+   },
+   "definition": "[become less], with [what is asked in exchange] as its undergoer",
+   "argument structure": [
+    {
+     "role": "actor",
+     "sort": "s.sort.agent"
+    }
+   ],
+   "formed from": [
+    [
+     "lx.000041"
+    ],
+    [
+     "lx.000063"
+    ]
+   ],
+   "mechanism": "compound",
+   "register": [
+    "R0",
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7"
+   ],
+   "scope": {
+    "dialect": "negotiation",
+    "version": "0.1"
+   },
+   "validity": "from the dialect's release, without end",
+   "provenance": "generated from its stems by tools/build_registers.py",
+   "acceptance status": "released",
+   "version": {
+    "introduced": "0.1",
+    "deprecated": null
+   },
+   "key": "concession"
+  },
+  {
+   "machine identifier": "jg.negotiation.005",
+   "term": "stalemate",
+   "orthographic form": "rabudonar",
+   "phonological form": "/ɾabudonaɾ/",
+   "grammatical category": "jargon",
+   "sort": "s.sort.state",
+   "semantic type": {
+    "sort": "s.sort.state",
+    "arguments": [
+     "actor",
+     "content"
+    ]
+   },
+   "definition": "the state [stay until something happens] brings about",
+   "argument structure": [
+    {
+     "role": "actor",
+     "sort": "s.sort.agent"
+    },
+    {
+     "role": "content",
+     "sort": "s.sort.situation"
+    }
+   ],
+   "formed from": [
+    [
+     "lx.000053",
+     "lx.000099"
+    ]
+   ],
+   "mechanism": "result",
+   "register": [
+    "R0",
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7"
+   ],
+   "scope": {
+    "dialect": "negotiation",
+    "version": "0.1"
+   },
+   "validity": "from the dialect's release, without end",
+   "provenance": "generated from its stems by tools/build_registers.py",
+   "acceptance status": "released",
+   "version": {
+    "introduced": "0.1",
+    "deprecated": null
+   },
+   "key": "stalemate"
+  },
+  {
+   "machine identifier": "jg.negotiation.006",
+   "term": "reservation price",
+   "orthographic form": "rodurinukohup",
+   "phonological form": "/ɾoduɾinukohup/",
+   "grammatical category": "jargon",
+   "sort": "s.sort.kind",
+   "semantic type": {
+    "sort": "s.sort.kind",
+    "arguments": []
+   },
+   "definition": "[what is asked in exchange], bearing on [a bound that something does not or must not pass]",
+   "argument structure": [],
+   "formed from": [
+    [
+     "lx.000063"
+    ],
+    [
+     "lx.000278"
+    ]
+   ],
+   "mechanism": "compound",
+   "register": [
+    "R0",
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7"
+   ],
+   "scope": {
+    "dialect": "negotiation",
+    "version": "0.2"
+   },
+   "validity": "from the dialect's release, without end",
+   "provenance": "generated from its stems by tools/build_version1.py",
+   "acceptance status": "released",
+   "version": {
+    "introduced": "0.2",
+    "deprecated": null
+   },
+   "key": "reservation price"
+  },
+  {
+   "machine identifier": "jg.negotiation.007",
+   "term": "mediator",
+   "orthographic form": "ragurahehinulowah",
+   "phonological form": "/ɾaɡuɾahehinulowah/",
+   "grammatical category": "jargon",
+   "sort": "s.sort.agent",
+   "semantic type": {
+    "sort": "s.sort.agent",
+    "arguments": []
+   },
+   "definition": "[the one that is actor of [make an action easier for someone]], bearing on [exchange one thing for another]",
+   "argument structure": [],
+   "formed from": [
+    [
+     "lx.000052",
+     "lx.000096"
+    ],
+    [
+     "lx.000339"
+    ]
+   ],
+   "mechanism": "compound",
+   "register": [
+    "R0",
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7"
+   ],
+   "scope": {
+    "dialect": "negotiation",
+    "version": "0.2"
+   },
+   "validity": "from the dialect's release, without end",
+   "provenance": "generated from its stems by tools/build_version1.py",
+   "acceptance status": "released",
+   "version": {
+    "introduced": "0.2",
+    "deprecated": null
+   },
+   "key": "mediator"
+  },
+  {
+   "machine identifier": "jg.negotiation.008",
+   "term": "contract",
+   "orthographic form": "nutobibinukonom",
+   "phonological form": "/nutobibinukonom/",
+   "grammatical category": "jargon",
+   "sort": "s.sort.object",
+   "semantic type": {
+    "sort": "s.sort.object",
+    "arguments": []
+   },
+   "definition": "[a record written to be read as a whole], bearing on [be bound to pay or return something]",
+   "argument structure": [],
+   "formed from": [
+    [
+     "lx.000251"
+    ],
+    [
+     "lx.000334"
+    ]
+   ],
+   "mechanism": "compound",
+   "register": [
+    "R0",
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7"
+   ],
+   "scope": {
+    "dialect": "negotiation",
+    "version": "0.2"
+   },
+   "validity": "from the dialect's release, without end",
+   "provenance": "generated from its stems by tools/build_version1.py",
+   "acceptance status": "released",
+   "version": {
+    "introduced": "0.2",
+    "deprecated": null
+   },
+   "key": "contract"
+  },
+  {
+   "machine identifier": "jg.negotiation.009",
+   "term": "rapport",
+   "orthographic form": "nuyemigumop",
+   "phonological form": "/nujemiɡumop/",
+   "grammatical category": "jargon",
+   "sort": "s.sort.reified-referent",
+   "semantic type": {
+    "sort": "s.sort.reified-referent",
+    "arguments": []
+   },
+   "definition": "[rely on someone to be honest and able], as a process under way, named as a referent",
+   "argument structure": [],
+   "formed from": [
+    [
+     "lx.000467",
+     "lx.000108"
+    ]
+   ],
+   "mechanism": "process",
+   "register": [
+    "R0",
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7"
+   ],
+   "scope": {
+    "dialect": "negotiation",
+    "version": "0.2"
+   },
+   "validity": "from the dialect's release, without end",
+   "provenance": "generated from its stems by tools/build_version1.py",
+   "acceptance status": "released",
+   "version": {
+    "introduced": "0.2",
+    "deprecated": null
+   },
+   "key": "rapport"
+  },
+  {
+   "machine identifier": "jg.negotiation.010",
+   "term": "trade-off",
+   "orthographic form": "nulanehiritir",
+   "phonological form": "/nulanehiɾitiɾ/",
+   "grammatical category": "jargon",
+   "sort": "s.sort.event",
+   "semantic type": {
+    "sort": "s.sort.event",
+    "arguments": [
+     "holder"
+    ]
+   },
+   "definition": "[stop having something without meaning to], with [be for the good of someone] as its undergoer",
+   "argument structure": [
+    {
+     "role": "holder",
+     "sort": "s.sort.agent"
+    }
+   ],
+   "formed from": [
+    [
+     "lx.000331"
+    ],
+    [
+     "lx.000010"
+    ]
+   ],
+   "mechanism": "compound",
+   "register": [
+    "R0",
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7"
+   ],
+   "scope": {
+    "dialect": "negotiation",
+    "version": "0.2"
+   },
+   "validity": "from the dialect's release, without end",
+   "provenance": "generated from its stems by tools/build_version1.py",
+   "acceptance status": "released",
+   "version": {
+    "introduced": "0.2",
+    "deprecated": null
+   },
+   "key": "trade-off"
+  }
+ ],
+ "digest": "498613383"
+}

@@ -1,0 +1,56 @@
+{
+ "machine identifier": "lx.000191",
+ "root": "lx.000065",
+ "phonological form": "/ɾakut/",
+ "orthographic form": "rakut",
+ "grammatical category": "conventional sense",
+ "sort": "s.sort.event",
+ "semantic type": {
+  "sort": "s.sort.event",
+  "arguments": [
+   "undergoer"
+  ]
+ },
+ "definition": "become fixed and no longer open to change",
+ "semantic primitives": [
+  "s.sort.event"
+ ],
+ "argument structure": [
+  {
+   "role": "undergoer",
+   "sort": "s.sort.proposition"
+  }
+ ],
+ "derivational behaviour": [],
+ "register": [
+  "R0",
+  "R1",
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7"
+ ],
+ "collocations": [],
+ "synonyms": [],
+ "antonyms": [],
+ "related concepts": [
+  "lx.000065"
+ ],
+ "examples": [],
+ "version": {
+  "introduced": "0.5",
+  "deprecated": null
+ },
+ "key": "settle",
+ "sense of": "lx.000065",
+ "frame": {
+  "role": "g.situations-and-contents.participation.undergoer",
+  "filler": "situation"
+ },
+ "motivating mapping": "mp.000003",
+ "kind": "conventional figurative",
+ "constructed history": "Constructed history: water that freezes keeps its shape, and a content no participant may change any longer was said to freeze; the release of a design whose decisions could no longer move fixed the sense.",
+ "declared loss": []
+}

@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.situations-and-contents.aspect.interrupted",
+ "orthographic form": "beyu",
+ "phonological form": "/beju/",
+ "grammatical category": "aspect",
+ "gloss": "INTERRUPTED",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

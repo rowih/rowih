@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.ambiguity-and-figures.register.formal",
+ "orthographic form": "lohe",
+ "phonological form": "/lohe/",
+ "grammatical category": "register",
+ "gloss": "FORMAL",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.6"
+ }
+}

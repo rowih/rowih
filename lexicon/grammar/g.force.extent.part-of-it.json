@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.force.extent.part-of-it",
+ "orthographic form": "kiduku",
+ "phonological form": "/kiduku/",
+ "grammatical category": "extent",
+ "gloss": "PART-OF-IT",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

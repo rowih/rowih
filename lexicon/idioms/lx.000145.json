@@ -1,0 +1,57 @@
+{
+ "machine identifier": "lx.000145",
+ "root": "lx.000145",
+ "phonological form": "/ɾiɡis ɾemup/",
+ "orthographic form": "rigis remup",
+ "grammatical category": "idiom",
+ "sort": "s.sort.situation",
+ "semantic type": {
+  "sort": "s.sort.situation",
+  "arguments": []
+ },
+ "definition": "what the slot names, an act of the speaker's, was not for the good of the hearer",
+ "semantic primitives": [
+  "s.sort.situation"
+ ],
+ "argument structure": [],
+ "derivational behaviour": [],
+ "register": [
+  "R0",
+  "R1",
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7"
+ ],
+ "collocations": [],
+ "synonyms": [],
+ "antonyms": [],
+ "related concepts": [],
+ "examples": [],
+ "version": {
+  "introduced": "0.3",
+  "deprecated": null
+ },
+ "key": "apology",
+ "class": "apologies",
+ "kind": "encoding, grammatical",
+ "route": "formula",
+ "literal structure": "(situation cause (ACTOR (slot 1)) (CONTENT (term problem)))",
+ "expansion": "(situation benefit POLARITY.NEGATIVE (CONTENT (slot 1)) (RECIPIENT (term INTERLOCUTOR)))",
+ "decomposition": [
+  {
+   "slot": 1,
+   "literal role": "ACTOR",
+   "expansion role": "CONTENT"
+  }
+ ],
+ "pragmatic conditions": "about an earlier act of the speaker's own, which the speaker answers for by saying it",
+ "usage restrictions": "none",
+ "declared loss": [
+  "stance",
+  "relation between participants"
+ ],
+ "constructed history": "Constructed history: an agent names the problem its act caused, and the convention fixed whose the problem was."
+}

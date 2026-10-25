@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.force.bindingness.bound",
+ "orthographic form": "kesoha",
+ "phonological form": "/kesoha/",
+ "grammatical category": "bindingness",
+ "gloss": "BOUND",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

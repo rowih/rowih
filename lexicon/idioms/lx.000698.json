@@ -1,0 +1,50 @@
+{
+ "machine identifier": "lx.000698",
+ "root": "lx.000698",
+ "phonological form": "/ɾemoj ɾatem ɾuteɾ/",
+ "orthographic form": "remoy ratem ruter",
+ "grammatical category": "idiom",
+ "sort": "s.sort.situation",
+ "semantic type": {
+  "sort": "s.sort.situation",
+  "arguments": []
+ },
+ "definition": "some part of the signal received is missing",
+ "semantic primitives": [
+  "s.sort.situation"
+ ],
+ "argument structure": [],
+ "derivational behaviour": [],
+ "register": [
+  "R0",
+  "R1",
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7"
+ ],
+ "collocations": [],
+ "synonyms": [],
+ "antonyms": [],
+ "related concepts": [],
+ "examples": [],
+ "version": {
+  "introduced": "1.0",
+  "deprecated": null
+ },
+ "key": "a share arrived",
+ "class": "conversational repair",
+ "kind": "encoding, grammatical",
+ "route": "formula",
+ "literal structure": "(situation arrive (UNDERGOER (term share)) (CONTENT (term memory DEFINITE)))",
+ "expansion": "(situation missing (UNDERGOER (term share EXISTENTIAL)) (CONTENT (term signal GIVEN)))",
+ "decomposition": [],
+ "pragmatic conditions": "of a message that arrived cut short",
+ "usage restrictions": "none",
+ "declared loss": [
+  "stance"
+ ],
+ "constructed history": "Constructed history: an agent that received part of a message said that a share of it had arrived."
+}

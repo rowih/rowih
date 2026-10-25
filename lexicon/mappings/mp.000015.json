@@ -1,0 +1,34 @@
+{
+ "machine identifier": "mp.000015",
+ "name": "IDEAS ARE PLANTS",
+ "source domain": "seeds, plants and forests",
+ "target domain": "ideas and their development",
+ "correspondences": [
+  {
+   "source": "a seed",
+   "target": "an idea not yet developed"
+  },
+  {
+   "source": "a seed waiting in the ground",
+   "target": "an idea set aside for later"
+  },
+  {
+   "source": "a forest",
+   "target": "more options than can be weighed"
+  },
+  {
+   "source": "watering stones",
+   "target": "effort where nothing can come of it"
+  }
+ ],
+ "motivates": [
+  "lx.000816",
+  "lx.000817",
+  "lx.000785",
+  "lx.000863"
+ ],
+ "version": {
+  "introduced": "1.0",
+  "deprecated": null
+ }
+}

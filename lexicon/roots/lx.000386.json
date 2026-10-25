@@ -1,0 +1,92 @@
+{
+ "machine identifier": "lx.000386",
+ "root": "lx.000386",
+ "phonological form": "/nututaɡ/",
+ "orthographic form": "nututag",
+ "grammatical category": "nominal root",
+ "sort": "s.sort.kind",
+ "semantic type": {
+  "sort": "s.sort.kind",
+  "arguments": []
+ },
+ "definition": "how far apart two things are",
+ "semantic primitives": [
+  "s.sort.kind"
+ ],
+ "argument structure": [],
+ "derivational behaviour": [
+  {
+   "suffix": "lx.000110",
+   "mechanism": "abstraction",
+   "form": "nututagusap",
+   "sort": "s.sort.kind",
+   "definition": "what every instance of [how far apart two things are] has in common"
+  },
+  {
+   "suffix": "lx.000112",
+   "mechanism": "verbalisation",
+   "form": "nututagasey",
+   "sort": "s.sort.event",
+   "definition": "act by means of [how far apart two things are]"
+  },
+  {
+   "suffix": "lx.000113",
+   "mechanism": "adjectivisation",
+   "form": "nututaguyik",
+   "sort": "s.sort.state",
+   "definition": "be of the kind [how far apart two things are] names"
+  },
+  {
+   "suffix": "lx.000184",
+   "mechanism": "honorific",
+   "form": "nututagayuk",
+   "sort": "s.sort.kind",
+   "definition": "[how far apart two things are], named with deference"
+  }
+ ],
+ "register": [
+  "R0",
+  "R1",
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7"
+ ],
+ "collocations": [],
+ "synonyms": [],
+ "antonyms": [],
+ "related concepts": [
+  {
+   "entry": "lx.000352",
+   "relation": "involved in"
+  },
+  {
+   "entry": "lx.000353",
+   "relation": "involved in"
+  },
+  {
+   "entry": "lx.000379",
+   "relation": "involved in"
+  },
+  {
+   "entry": "lx.000389",
+   "relation": "involves"
+  },
+  {
+   "entry": "lx.000086",
+   "relation": "involved in"
+  },
+  {
+   "entry": "lx.000362",
+   "relation": "involved in"
+  }
+ ],
+ "examples": [],
+ "version": {
+  "introduced": "1.0",
+  "deprecated": null
+ },
+ "key": "distance"
+}

@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.ambiguity-and-figures.figurative-type.hyperbole",
+ "orthographic form": "sudu",
+ "phonological form": "/sudu/",
+ "grammatical category": "figurative type",
+ "gloss": "HYPERBOLE",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

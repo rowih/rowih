@@ -1,0 +1,38 @@
+{
+ "machine identifier": "lx.000199",
+ "root": "lx.000199",
+ "phonological form": "/ɾiɡad/",
+ "orthographic form": "rigad",
+ "grammatical category": "nominal root",
+ "sort": "s.sort.object",
+ "semantic type": {
+  "sort": "s.sort.object",
+  "arguments": []
+ },
+ "definition": "a part of the language that a release adds and an implementation may lack, named by its number in the protocol register",
+ "semantic primitives": [
+  "s.sort.object"
+ ],
+ "argument structure": [],
+ "derivational behaviour": [],
+ "register": [
+  "R0",
+  "R1",
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7"
+ ],
+ "collocations": [],
+ "synonyms": [],
+ "antonyms": [],
+ "related concepts": [],
+ "examples": [],
+ "version": {
+  "introduced": "0.7",
+  "deprecated": null
+ },
+ "key": "feature"
+}

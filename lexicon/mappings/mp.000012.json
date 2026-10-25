@@ -1,0 +1,32 @@
+{
+ "machine identifier": "mp.000012",
+ "name": "AN AGENT'S LINEAGE IS A RIVER",
+ "source domain": "a river and its branches",
+ "target domain": "a model and the agents descended from it",
+ "correspondences": [
+  {
+   "source": "the river",
+   "target": "a lineage of agents"
+  },
+  {
+   "source": "its water",
+   "target": "what the lineage learned from"
+  },
+  {
+   "source": "a fork in the river",
+   "target": "a fork of an agent"
+  },
+  {
+   "source": "drinking the same water",
+   "target": "sharing a model"
+  }
+ ],
+ "motivates": [
+  "lx.000781",
+  "lx.000782"
+ ],
+ "version": {
+  "introduced": "1.0",
+  "deprecated": null
+ }
+}

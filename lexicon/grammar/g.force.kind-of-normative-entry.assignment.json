@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.force.kind-of-normative-entry.assignment",
+ "orthographic form": "kegipa",
+ "phonological form": "/keɡipa/",
+ "grammatical category": "kind of normative entry",
+ "gloss": "ASSIGNMENT",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

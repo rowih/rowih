@@ -1,0 +1,36 @@
+{
+ "machine identifier": "lx.000184",
+ "root": "lx.000184",
+ "phonological form": "/-ajuk/",
+ "orthographic form": "ayuk",
+ "grammatical category": "derivational suffix",
+ "sort": "s.sort.referent",
+ "semantic type": {
+  "sort": "s.sort.referent",
+  "arguments": []
+ },
+ "definition": "the base, named with deference",
+ "semantic primitives": [
+  "s.sort.referent"
+ ],
+ "argument structure": [],
+ "derivational behaviour": [],
+ "register": [
+  "R7"
+ ],
+ "collocations": [],
+ "synonyms": [],
+ "antonyms": [],
+ "related concepts": [],
+ "examples": [],
+ "version": {
+  "introduced": "0.4",
+  "deprecated": null
+ },
+ "key": "honorific",
+ "base": "nominal",
+ "keeps": "the sort and roles of its base",
+ "declared loss": [
+  "register"
+ ]
+}

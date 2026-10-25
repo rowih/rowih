@@ -1,0 +1,45 @@
+{
+ "machine identifier": "lx.000621",
+ "root": "lx.000621",
+ "phonological form": "/nuwilan/",
+ "orthographic form": "nuwilan",
+ "grammatical category": "idiom",
+ "sort": "s.sort.situation",
+ "semantic type": {
+  "sort": "s.sort.situation",
+  "arguments": []
+ },
+ "definition": "the hearer's help was for the speaker's good",
+ "semantic primitives": [
+  "s.sort.situation"
+ ],
+ "argument structure": [],
+ "derivational behaviour": [],
+ "register": [
+  "R5",
+  "R6"
+ ],
+ "collocations": [],
+ "synonyms": [],
+ "antonyms": [],
+ "related concepts": [],
+ "examples": [],
+ "version": {
+  "introduced": "1.0",
+  "deprecated": null
+ },
+ "key": "good of you",
+ "class": "thanks",
+ "kind": "encoding, grammatical",
+ "route": "formula",
+ "literal structure": "(situation good (UNDERGOER (term INTERLOCUTOR)))",
+ "expansion": "(situation benefit (CONTENT (situation help PERFECTIVE (ACTOR (term INTERLOCUTOR)))) (RECIPIENT (term SELF)))",
+ "decomposition": [],
+ "pragmatic conditions": "after help from the hearer, informally",
+ "usage restrictions": "only in R5 and R6",
+ "declared loss": [
+  "stance",
+  "relation between participants"
+ ],
+ "constructed history": "Constructed history: the casual thanks says only that the hearer was good, and the convention fixed the help it was good in."
+}

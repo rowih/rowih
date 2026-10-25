@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.attitudes-and-aims.execution-phase.abandoned",
+ "orthographic form": "bani",
+ "phonological form": "/bani/",
+ "grammatical category": "execution phase",
+ "gloss": "ABANDONED",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

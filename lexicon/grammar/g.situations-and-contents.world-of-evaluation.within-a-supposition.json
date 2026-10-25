@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.situations-and-contents.world-of-evaluation.within-a-supposition",
+ "orthographic form": "gega",
+ "phonological form": "/ɡeɡa/",
+ "grammatical category": "world of evaluation",
+ "gloss": "WORLD-OF-EVALUATION.WITHIN-A-SUPPOSITION",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

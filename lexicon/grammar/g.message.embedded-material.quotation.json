@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.message.embedded-material.quotation",
+ "orthographic form": "wihi",
+ "phonological form": "/wihi/",
+ "grammatical category": "embedded material",
+ "gloss": "QUOTATION",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

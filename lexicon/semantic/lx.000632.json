@@ -1,0 +1,78 @@
+{
+ "machine identifier": "lx.000632",
+ "literal structure": {
+  "kind": "situation",
+  "name": null,
+  "parts": [
+   {
+    "kind": "word",
+    "form": "nukadog",
+    "entry": "lx.000349",
+    "status": "known"
+   },
+   {
+    "kind": "filler",
+    "role": "g.situations-and-contents.participation.undergoer",
+    "filler": {
+     "kind": "slot",
+     "slot": 1
+    }
+   },
+   {
+    "kind": "filler",
+    "role": "g.situations-and-contents.participation.content",
+    "filler": {
+     "kind": "term",
+     "name": null,
+     "parts": [
+      {
+       "kind": "word",
+       "form": "nubogab",
+       "entry": "lx.000527",
+       "status": "known"
+      }
+     ]
+    }
+   }
+  ]
+ },
+ "expansion": {
+  "kind": "situation",
+  "name": null,
+  "parts": [
+   {
+    "kind": "word",
+    "form": "reyud",
+    "entry": "lx.000035",
+    "status": "known"
+   },
+   {
+    "kind": "value",
+    "member": "g.attitudes-and-aims.execution-phase.not-yet-begun"
+   },
+   {
+    "kind": "filler",
+    "role": "g.situations-and-contents.participation.actor",
+    "filler": {
+     "kind": "term",
+     "name": null,
+     "parts": [
+      {
+       "kind": "value",
+       "member": "g.reference.person.self"
+      }
+     ]
+    }
+   },
+   {
+    "kind": "filler",
+    "role": "g.situations-and-contents.participation.undergoer",
+    "filler": {
+     "kind": "slot",
+     "slot": 1
+    }
+   }
+  ]
+ },
+ "generated from": "lexicon/idioms/lx.000632.json"
+}

@@ -1,0 +1,38 @@
+{
+ "machine identifier": "lx.000095",
+ "root": "lx.000095",
+ "phonological form": "/ɾujib/",
+ "orthographic form": "ruyib",
+ "grammatical category": "discourse relation",
+ "sort": "s.relation.bears-on",
+ "semantic type": {
+  "sort": "s.relation.bears-on",
+  "arguments": []
+ },
+ "definition": "the move digresses from what it names",
+ "semantic primitives": [
+  "s.relation.bears-on"
+ ],
+ "argument structure": [],
+ "derivational behaviour": [],
+ "register": [
+  "R0",
+  "R1",
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7"
+ ],
+ "collocations": [],
+ "synonyms": [],
+ "antonyms": [],
+ "related concepts": [],
+ "examples": [],
+ "version": {
+  "introduced": "0.1",
+  "deprecated": null
+ },
+ "key": "digresses"
+}

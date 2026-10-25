@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.situations-and-contents.aspect.iterative",
+ "orthographic form": "bine",
+ "phonological form": "/bine/",
+ "grammatical category": "aspect",
+ "gloss": "ITERATIVE",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

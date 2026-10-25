@@ -1,0 +1,153 @@
+{
+ "machine identifier": "lx.000264",
+ "root": "lx.000264",
+ "phonological form": "/nusihiɾ/",
+ "orthographic form": "nusihir",
+ "grammatical category": "predicate root",
+ "sort": "s.sort.process",
+ "semantic type": {
+  "sort": "s.sort.process",
+  "arguments": [
+   "actor",
+   "undergoer"
+  ]
+ },
+ "definition": "keep looking at something over a time to see what happens",
+ "semantic primitives": [
+  "s.sort.process"
+ ],
+ "argument structure": [
+  {
+   "role": "actor",
+   "sort": "s.sort.agent"
+  },
+  {
+   "role": "undergoer",
+   "sort": "s.sort.referent"
+  }
+ ],
+ "derivational behaviour": [
+  {
+   "suffix": "lx.000096",
+   "mechanism": "agent",
+   "form": "nusihiraheh",
+   "sort": "s.sort.agent",
+   "definition": "the one that is actor of [keep looking at something over a time to see what happens]"
+  },
+  {
+   "suffix": "lx.000097",
+   "mechanism": "undergoer",
+   "form": "nusihirudim",
+   "sort": "s.sort.referent",
+   "definition": "the one that undergoes [keep looking at something over a time to see what happens]"
+  },
+  {
+   "suffix": "lx.000098",
+   "mechanism": "instrument",
+   "form": "nusihirawen",
+   "sort": "s.sort.referent",
+   "definition": "what [keep looking at something over a time to see what happens] is done with"
+  },
+  {
+   "suffix": "lx.000099",
+   "mechanism": "result",
+   "form": "nusihironar",
+   "sort": "s.sort.state",
+   "definition": "the state [keep looking at something over a time to see what happens] brings about"
+  },
+  {
+   "suffix": "lx.000100",
+   "mechanism": "privative",
+   "form": "nusihiraniw",
+   "sort": "s.sort.state",
+   "definition": "the state in which [keep looking at something over a time to see what happens] does not hold"
+  },
+  {
+   "suffix": "lx.000108",
+   "mechanism": "process",
+   "form": "nusihirumop",
+   "sort": "s.sort.reified-referent",
+   "definition": "[keep looking at something over a time to see what happens], as a process under way, named as a referent"
+  },
+  {
+   "suffix": "lx.000109",
+   "mechanism": "property",
+   "form": "nusihirarur",
+   "sort": "s.sort.kind",
+   "definition": "the property of being as [keep looking at something over a time to see what happens] states"
+  },
+  {
+   "suffix": "lx.000111",
+   "mechanism": "nominalisation",
+   "form": "nusihirekoh",
+   "sort": "s.sort.proposition",
+   "definition": "that [keep looking at something over a time to see what happens] holds"
+  },
+  {
+   "suffix": "lx.000594",
+   "mechanism": "causative",
+   "form": "nusihiromiw",
+   "sort": "s.sort.event",
+   "definition": "make [keep looking at something over a time to see what happens] hold or happen"
+  },
+  {
+   "suffix": "lx.000595",
+   "mechanism": "reversative",
+   "form": "nusihiruhul",
+   "sort": "s.sort.event",
+   "definition": "undo [keep looking at something over a time to see what happens], restoring what it changed"
+  },
+  {
+   "suffix": "lx.000596",
+   "mechanism": "repetitive",
+   "form": "nusihiruleg",
+   "sort": "s.sort.event",
+   "definition": "[keep looking at something over a time to see what happens], done once more"
+  },
+  {
+   "suffix": "lx.000597",
+   "mechanism": "potential",
+   "form": "nusihiruwot",
+   "sort": "s.sort.state",
+   "definition": "be such that [keep looking at something over a time to see what happens] can be done to it"
+  },
+  {
+   "suffix": "lx.000598",
+   "mechanism": "place",
+   "form": "nusihirumuk",
+   "sort": "s.sort.place",
+   "definition": "the place where [keep looking at something over a time to see what happens] happens"
+  }
+ ],
+ "register": [
+  "R0",
+  "R1",
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7"
+ ],
+ "collocations": [],
+ "synonyms": [
+  {
+   "entry": "lx.000397",
+   "dimension": "near",
+   "difference": "watching keeps looking over a time; seeing perceives at once"
+  }
+ ],
+ "antonyms": [],
+ "related concepts": [
+  {
+   "entry": "lx.000230",
+   "relation": "involves"
+  }
+ ],
+ "examples": [],
+ "version": {
+  "introduced": "1.0",
+  "deprecated": null
+ },
+ "key": "watch"
+}

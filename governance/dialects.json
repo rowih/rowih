@@ -1,0 +1,79 @@
+{
+ "registry": "the dialect numbers of Rowih",
+ "rule": "A dialect number names one community and is never reused or reassigned. The next number goes to the next community that asks, in order, and may be assigned before the dialect's first release. Every release of a dialect states its registered number and name. The number keeps a dialect one community's; the digest of each release, not its number, keeps a message from being read under another community's release.",
+ "next": 13,
+ "dialects": [
+  {
+   "number": 1,
+   "name": "mathematics",
+   "community": "mathematics",
+   "assigned": "2026-10-16"
+  },
+  {
+   "number": 2,
+   "name": "programming",
+   "community": "programming",
+   "assigned": "2026-10-16"
+  },
+  {
+   "number": 3,
+   "name": "machine-learning",
+   "community": "machine learning",
+   "assigned": "2026-10-16"
+  },
+  {
+   "number": 4,
+   "name": "robotics",
+   "community": "robotics",
+   "assigned": "2026-10-16"
+  },
+  {
+   "number": 5,
+   "name": "science",
+   "community": "science",
+   "assigned": "2026-10-16"
+  },
+  {
+   "number": 6,
+   "name": "philosophy",
+   "community": "philosophy",
+   "assigned": "2026-10-16"
+  },
+  {
+   "number": 7,
+   "name": "linguistics",
+   "community": "linguistics",
+   "assigned": "2026-10-16"
+  },
+  {
+   "number": 8,
+   "name": "security",
+   "community": "security",
+   "assigned": "2026-10-16"
+  },
+  {
+   "number": 9,
+   "name": "databases",
+   "community": "databases",
+   "assigned": "2026-10-16"
+  },
+  {
+   "number": 10,
+   "name": "planning",
+   "community": "planning",
+   "assigned": "2026-10-16"
+  },
+  {
+   "number": 11,
+   "name": "negotiation",
+   "community": "negotiation",
+   "assigned": "2026-10-16"
+  },
+  {
+   "number": 12,
+   "name": "conversation",
+   "community": "conversation",
+   "assigned": "2026-10-16"
+  }
+ ]
+}

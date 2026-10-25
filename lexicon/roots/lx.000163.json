@@ -1,0 +1,42 @@
+{
+ "machine identifier": "lx.000163",
+ "root": "lx.000163",
+ "phonological form": "/ɾujoɡ/",
+ "orthographic form": "ruyog",
+ "grammatical category": "nominal root",
+ "sort": "s.sort.object",
+ "semantic type": {
+  "sort": "s.sort.object",
+  "arguments": []
+ },
+ "definition": "a system an agent uses (the technical vocabulary)",
+ "semantic primitives": [
+  "s.sort.object"
+ ],
+ "argument structure": [],
+ "derivational behaviour": [],
+ "register": [
+  "R0",
+  "R1",
+  "R4"
+ ],
+ "collocations": [],
+ "synonyms": [
+  "lx.000164",
+  "lx.000165",
+  "lx.000006"
+ ],
+ "antonyms": [],
+ "related concepts": [],
+ "examples": [],
+ "version": {
+  "introduced": "0.4",
+  "deprecated": null
+ },
+ "key": "daemon",
+ "synonym of": "lx.000006",
+ "vocabulary": "technical",
+ "declared loss": [
+  "register"
+ ]
+}

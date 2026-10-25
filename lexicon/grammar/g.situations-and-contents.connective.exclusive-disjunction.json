@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.situations-and-contents.connective.exclusive-disjunction",
+ "orthographic form": "gima",
+ "phonological form": "/ɡima/",
+ "grammatical category": "connective",
+ "gloss": "EXCLUSIVE-DISJUNCTION",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

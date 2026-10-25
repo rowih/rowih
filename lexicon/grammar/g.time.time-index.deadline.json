@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.time.time-index.deadline",
+ "orthographic form": "diyiho",
+ "phonological form": "/dijiho/",
+ "grammatical category": "time index",
+ "gloss": "DEADLINE",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

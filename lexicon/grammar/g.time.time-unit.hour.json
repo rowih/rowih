@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.time.time-unit.hour",
+ "orthographic form": "dewahi",
+ "phonological form": "/dewahi/",
+ "grammatical category": "time unit",
+ "gloss": "HOUR",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

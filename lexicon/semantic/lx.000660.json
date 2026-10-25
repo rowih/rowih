@@ -1,0 +1,90 @@
+{
+ "machine identifier": "lx.000660",
+ "literal structure": {
+  "kind": "situation",
+  "name": null,
+  "parts": [
+   {
+    "kind": "word",
+    "form": "nusapub",
+    "entry": "lx.000206",
+    "status": "known"
+   },
+   {
+    "kind": "filler",
+    "role": "g.situations-and-contents.participation.actor",
+    "filler": {
+     "kind": "term",
+     "name": null,
+     "parts": [
+      {
+       "kind": "value",
+       "member": "g.reference.person.interlocutor"
+      }
+     ]
+    }
+   },
+   {
+    "kind": "filler",
+    "role": "g.situations-and-contents.participation.undergoer",
+    "filler": {
+     "kind": "slot",
+     "slot": 1
+    }
+   },
+   {
+    "kind": "filler",
+    "role": "g.situations-and-contents.participation.content",
+    "filler": {
+     "kind": "term",
+     "name": null,
+     "parts": [
+      {
+       "kind": "word",
+       "form": "nuwagun",
+       "entry": "lx.000486",
+       "status": "known"
+      }
+     ]
+    }
+   }
+  ]
+ },
+ "expansion": {
+  "kind": "situation",
+  "name": null,
+  "parts": [
+   {
+    "kind": "value",
+    "member": "g.attitudes-and-aims.kind-of-attitude.credence"
+   },
+   {
+    "kind": "value",
+    "member": "g.situations-and-contents.kind-of-question.constituent"
+   },
+   {
+    "kind": "filler",
+    "role": "g.situations-and-contents.participation.holder",
+    "filler": {
+     "kind": "term",
+     "name": null,
+     "parts": [
+      {
+       "kind": "value",
+       "member": "g.reference.person.interlocutor"
+      }
+     ]
+    }
+   },
+   {
+    "kind": "filler",
+    "role": "g.situations-and-contents.participation.content",
+    "filler": {
+     "kind": "slot",
+     "slot": 1
+    }
+   }
+  ]
+ },
+ "generated from": "lexicon/idioms/lx.000660.json"
+}

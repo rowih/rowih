@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.numbers.numeral.negative",
+ "orthographic form": "nide",
+ "phonological form": "/nide/",
+ "grammatical category": "numeral",
+ "gloss": "NUMERAL.NEGATIVE",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

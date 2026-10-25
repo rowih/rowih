@@ -1,0 +1,151 @@
+{
+ "machine identifier": "lx.000446",
+ "root": "lx.000446",
+ "phonological form": "/nubidoɾ/",
+ "orthographic form": "nubidor",
+ "grammatical category": "predicate root",
+ "sort": "s.sort.event",
+ "semantic type": {
+  "sort": "s.sort.event",
+  "arguments": [
+   "actor",
+   "undergoer"
+  ]
+ },
+ "definition": "say that someone or something is good",
+ "semantic primitives": [
+  "s.sort.event"
+ ],
+ "argument structure": [
+  {
+   "role": "actor",
+   "sort": "s.sort.agent"
+  },
+  {
+   "role": "undergoer",
+   "sort": "s.sort.referent"
+  }
+ ],
+ "derivational behaviour": [
+  {
+   "suffix": "lx.000096",
+   "mechanism": "agent",
+   "form": "nubidoraheh",
+   "sort": "s.sort.agent",
+   "definition": "the one that is actor of [say that someone or something is good]"
+  },
+  {
+   "suffix": "lx.000097",
+   "mechanism": "undergoer",
+   "form": "nubidorudim",
+   "sort": "s.sort.referent",
+   "definition": "the one that undergoes [say that someone or something is good]"
+  },
+  {
+   "suffix": "lx.000098",
+   "mechanism": "instrument",
+   "form": "nubidorawen",
+   "sort": "s.sort.referent",
+   "definition": "what [say that someone or something is good] is done with"
+  },
+  {
+   "suffix": "lx.000099",
+   "mechanism": "result",
+   "form": "nubidoronar",
+   "sort": "s.sort.state",
+   "definition": "the state [say that someone or something is good] brings about"
+  },
+  {
+   "suffix": "lx.000100",
+   "mechanism": "privative",
+   "form": "nubidoraniw",
+   "sort": "s.sort.state",
+   "definition": "the state in which [say that someone or something is good] does not hold"
+  },
+  {
+   "suffix": "lx.000108",
+   "mechanism": "process",
+   "form": "nubidorumop",
+   "sort": "s.sort.reified-referent",
+   "definition": "[say that someone or something is good], as a process under way, named as a referent"
+  },
+  {
+   "suffix": "lx.000109",
+   "mechanism": "property",
+   "form": "nubidorarur",
+   "sort": "s.sort.kind",
+   "definition": "the property of being as [say that someone or something is good] states"
+  },
+  {
+   "suffix": "lx.000111",
+   "mechanism": "nominalisation",
+   "form": "nubidorekoh",
+   "sort": "s.sort.proposition",
+   "definition": "that [say that someone or something is good] holds"
+  },
+  {
+   "suffix": "lx.000594",
+   "mechanism": "causative",
+   "form": "nubidoromiw",
+   "sort": "s.sort.event",
+   "definition": "make [say that someone or something is good] hold or happen"
+  },
+  {
+   "suffix": "lx.000595",
+   "mechanism": "reversative",
+   "form": "nubidoruhul",
+   "sort": "s.sort.event",
+   "definition": "undo [say that someone or something is good], restoring what it changed"
+  },
+  {
+   "suffix": "lx.000596",
+   "mechanism": "repetitive",
+   "form": "nubidoruleg",
+   "sort": "s.sort.event",
+   "definition": "[say that someone or something is good], done once more"
+  },
+  {
+   "suffix": "lx.000597",
+   "mechanism": "potential",
+   "form": "nubidoruwot",
+   "sort": "s.sort.state",
+   "definition": "be such that [say that someone or something is good] can be done to it"
+  },
+  {
+   "suffix": "lx.000598",
+   "mechanism": "place",
+   "form": "nubidorumuk",
+   "sort": "s.sort.place",
+   "definition": "the place where [say that someone or something is good] happens"
+  }
+ ],
+ "register": [
+  "R0",
+  "R1",
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7"
+ ],
+ "collocations": [],
+ "synonyms": [],
+ "antonyms": [
+  {
+   "entry": "lx.000445"
+  }
+ ],
+ "related concepts": [
+  {
+   "entry": "lx.000436",
+   "relation": "involved in"
+  }
+ ],
+ "examples": [],
+ "version": {
+  "introduced": "1.0",
+  "deprecated": null
+ },
+ "key": "praise"
+}

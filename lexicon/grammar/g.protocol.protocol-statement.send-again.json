@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.protocol.protocol-statement.send-again",
+ "orthographic form": "luki",
+ "phonological form": "/luki/",
+ "grammatical category": "protocol statement",
+ "gloss": "SEND-AGAIN",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.9"
+ }
+}

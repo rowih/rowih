@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.force.kind-of-setting.relation",
+ "orthographic form": "kigimi",
+ "phonological form": "/kiɡimi/",
+ "grammatical category": "kind of setting",
+ "gloss": "RELATION",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.reference.person.system",
+ "orthographic form": "sari",
+ "phonological form": "/saɾi/",
+ "grammatical category": "person",
+ "gloss": "SYSTEM",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

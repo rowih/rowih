@@ -1,0 +1,140 @@
+{
+ "machine identifier": "lx.000354",
+ "root": "lx.000354",
+ "phonological form": "/nuɡunut/",
+ "orthographic form": "nugunut",
+ "grammatical category": "predicate root",
+ "sort": "s.sort.state",
+ "semantic type": {
+  "sort": "s.sort.state",
+  "arguments": [
+   "undergoer",
+   "content"
+  ]
+ },
+ "definition": "be with one thing on one side and another on the other",
+ "semantic primitives": [
+  "s.sort.state"
+ ],
+ "argument structure": [
+  {
+   "role": "undergoer",
+   "sort": "s.sort.referent"
+  },
+  {
+   "role": "content",
+   "sort": "s.sort.referent"
+  }
+ ],
+ "derivational behaviour": [
+  {
+   "suffix": "lx.000097",
+   "mechanism": "undergoer",
+   "form": "nugunutudim",
+   "sort": "s.sort.referent",
+   "definition": "the one that undergoes [be with one thing on one side and another on the other]"
+  },
+  {
+   "suffix": "lx.000098",
+   "mechanism": "instrument",
+   "form": "nugunutawen",
+   "sort": "s.sort.referent",
+   "definition": "what [be with one thing on one side and another on the other] is done with"
+  },
+  {
+   "suffix": "lx.000099",
+   "mechanism": "result",
+   "form": "nugunutonar",
+   "sort": "s.sort.state",
+   "definition": "the state [be with one thing on one side and another on the other] brings about"
+  },
+  {
+   "suffix": "lx.000100",
+   "mechanism": "privative",
+   "form": "nugunutaniw",
+   "sort": "s.sort.state",
+   "definition": "the state in which [be with one thing on one side and another on the other] does not hold"
+  },
+  {
+   "suffix": "lx.000108",
+   "mechanism": "process",
+   "form": "nugunutumop",
+   "sort": "s.sort.reified-referent",
+   "definition": "[be with one thing on one side and another on the other], as a process under way, named as a referent"
+  },
+  {
+   "suffix": "lx.000109",
+   "mechanism": "property",
+   "form": "nugunutarur",
+   "sort": "s.sort.kind",
+   "definition": "the property of being as [be with one thing on one side and another on the other] states"
+  },
+  {
+   "suffix": "lx.000111",
+   "mechanism": "nominalisation",
+   "form": "nugunutekoh",
+   "sort": "s.sort.proposition",
+   "definition": "that [be with one thing on one side and another on the other] holds"
+  },
+  {
+   "suffix": "lx.000594",
+   "mechanism": "causative",
+   "form": "nugunutomiw",
+   "sort": "s.sort.event",
+   "definition": "make [be with one thing on one side and another on the other] hold or happen"
+  },
+  {
+   "suffix": "lx.000595",
+   "mechanism": "reversative",
+   "form": "nugunutuhul",
+   "sort": "s.sort.event",
+   "definition": "undo [be with one thing on one side and another on the other], restoring what it changed"
+  },
+  {
+   "suffix": "lx.000596",
+   "mechanism": "repetitive",
+   "form": "nugunutuleg",
+   "sort": "s.sort.event",
+   "definition": "[be with one thing on one side and another on the other], done once more"
+  },
+  {
+   "suffix": "lx.000597",
+   "mechanism": "potential",
+   "form": "nugunutuwot",
+   "sort": "s.sort.state",
+   "definition": "be such that [be with one thing on one side and another on the other] can be done to it"
+  },
+  {
+   "suffix": "lx.000598",
+   "mechanism": "place",
+   "form": "nugunutumuk",
+   "sort": "s.sort.place",
+   "definition": "the place where [be with one thing on one side and another on the other] happens"
+  }
+ ],
+ "register": [
+  "R0",
+  "R1",
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7"
+ ],
+ "collocations": [],
+ "synonyms": [],
+ "antonyms": [],
+ "related concepts": [
+  {
+   "entry": "lx.000372",
+   "relation": "involves"
+  }
+ ],
+ "examples": [],
+ "version": {
+  "introduced": "1.0",
+  "deprecated": null
+ },
+ "key": "between"
+}

@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.attitudes-and-aims.kind-of-attitude.goal",
+ "orthographic form": "peba",
+ "phonological form": "/peba/",
+ "grammatical category": "kind of attitude",
+ "gloss": "GOAL",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

@@ -1,0 +1,39 @@
+{
+ "machine identifier": "lx.000090",
+ "root": "lx.000090",
+ "phonological form": "/ɾumot/",
+ "orthographic form": "rumot",
+ "grammatical category": "unit of measure",
+ "sort": "s.value.number",
+ "semantic type": {
+  "sort": "s.value.number",
+  "arguments": []
+ },
+ "definition": "the standard atmosphere, 101325 pascal",
+ "semantic primitives": [
+  "s.value.number"
+ ],
+ "argument structure": [],
+ "derivational behaviour": [],
+ "register": [
+  "R0",
+  "R1",
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7"
+ ],
+ "collocations": [],
+ "synonyms": [],
+ "antonyms": [],
+ "related concepts": [],
+ "examples": [],
+ "version": {
+  "introduced": "0.1",
+  "deprecated": null
+ },
+ "key": "atmosphere",
+ "dimension": "pressure"
+}

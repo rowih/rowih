@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.ambiguity-and-figures.declared-loss.relation-between-participants",
+ "orthographic form": "lira",
+ "phonological form": "/liɾa/",
+ "grammatical category": "declared loss",
+ "gloss": "RELATION-BETWEEN-PARTICIPANTS",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.5"
+ }
+}

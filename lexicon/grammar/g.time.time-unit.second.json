@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.time.time-unit.second",
+ "orthographic form": "diroya",
+ "phonological form": "/diɾoja/",
+ "grammatical category": "time unit",
+ "gloss": "SECOND",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

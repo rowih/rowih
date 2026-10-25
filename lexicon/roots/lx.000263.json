@@ -1,0 +1,162 @@
+{
+ "machine identifier": "lx.000263",
+ "root": "lx.000263",
+ "phonological form": "/nusowup/",
+ "orthographic form": "nusowup",
+ "grammatical category": "predicate root",
+ "sort": "s.sort.event",
+ "semantic type": {
+  "sort": "s.sort.event",
+  "arguments": [
+   "actor",
+   "undergoer",
+   "content"
+  ]
+ },
+ "definition": "take something away from where it was",
+ "semantic primitives": [
+  "s.sort.event"
+ ],
+ "argument structure": [
+  {
+   "role": "actor",
+   "sort": "s.sort.agent"
+  },
+  {
+   "role": "undergoer",
+   "sort": "s.sort.referent"
+  },
+  {
+   "role": "content",
+   "sort": "s.sort.referent"
+  }
+ ],
+ "derivational behaviour": [
+  {
+   "suffix": "lx.000096",
+   "mechanism": "agent",
+   "form": "nusowupaheh",
+   "sort": "s.sort.agent",
+   "definition": "the one that is actor of [take something away from where it was]"
+  },
+  {
+   "suffix": "lx.000097",
+   "mechanism": "undergoer",
+   "form": "nusowupudim",
+   "sort": "s.sort.referent",
+   "definition": "the one that undergoes [take something away from where it was]"
+  },
+  {
+   "suffix": "lx.000098",
+   "mechanism": "instrument",
+   "form": "nusowupawen",
+   "sort": "s.sort.referent",
+   "definition": "what [take something away from where it was] is done with"
+  },
+  {
+   "suffix": "lx.000099",
+   "mechanism": "result",
+   "form": "nusowuponar",
+   "sort": "s.sort.state",
+   "definition": "the state [take something away from where it was] brings about"
+  },
+  {
+   "suffix": "lx.000100",
+   "mechanism": "privative",
+   "form": "nusowupaniw",
+   "sort": "s.sort.state",
+   "definition": "the state in which [take something away from where it was] does not hold"
+  },
+  {
+   "suffix": "lx.000108",
+   "mechanism": "process",
+   "form": "nusowupumop",
+   "sort": "s.sort.reified-referent",
+   "definition": "[take something away from where it was], as a process under way, named as a referent"
+  },
+  {
+   "suffix": "lx.000109",
+   "mechanism": "property",
+   "form": "nusowuparur",
+   "sort": "s.sort.kind",
+   "definition": "the property of being as [take something away from where it was] states"
+  },
+  {
+   "suffix": "lx.000111",
+   "mechanism": "nominalisation",
+   "form": "nusowupekoh",
+   "sort": "s.sort.proposition",
+   "definition": "that [take something away from where it was] holds"
+  },
+  {
+   "suffix": "lx.000594",
+   "mechanism": "causative",
+   "form": "nusowupomiw",
+   "sort": "s.sort.event",
+   "definition": "make [take something away from where it was] hold or happen"
+  },
+  {
+   "suffix": "lx.000595",
+   "mechanism": "reversative",
+   "form": "nusowupuhul",
+   "sort": "s.sort.event",
+   "definition": "undo [take something away from where it was], restoring what it changed"
+  },
+  {
+   "suffix": "lx.000596",
+   "mechanism": "repetitive",
+   "form": "nusowupuleg",
+   "sort": "s.sort.event",
+   "definition": "[take something away from where it was], done once more"
+  },
+  {
+   "suffix": "lx.000597",
+   "mechanism": "potential",
+   "form": "nusowupuwot",
+   "sort": "s.sort.state",
+   "definition": "be such that [take something away from where it was] can be done to it"
+  },
+  {
+   "suffix": "lx.000598",
+   "mechanism": "place",
+   "form": "nusowupumuk",
+   "sort": "s.sort.place",
+   "definition": "the place where [take something away from where it was] happens"
+  }
+ ],
+ "register": [
+  "R0",
+  "R1",
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7"
+ ],
+ "collocations": [],
+ "synonyms": [
+  {
+   "entry": "lx.000038",
+   "dimension": "near",
+   "difference": "removing takes anything from where it was; deleting removes a stored thing"
+  }
+ ],
+ "antonyms": [
+  {
+   "entry": "lx.000267"
+  }
+ ],
+ "related concepts": [
+  {
+   "entry": "lx.000008",
+   "relation": "involves"
+  }
+ ],
+ "examples": [],
+ "version": {
+  "introduced": "1.0",
+  "deprecated": null
+ },
+ "key": "remove"
+}

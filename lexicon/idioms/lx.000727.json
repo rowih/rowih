@@ -1,0 +1,50 @@
+{
+ "machine identifier": "lx.000727",
+ "root": "lx.000727",
+ "phonological form": "/nusejet nulejek/",
+ "orthographic form": "nuseyet nuleyek",
+ "grammatical category": "idiom",
+ "sort": "s.sort.situation",
+ "semantic type": {
+  "sort": "s.sort.situation",
+  "arguments": []
+ },
+ "definition": "the speaker would go on speaking",
+ "semantic primitives": [
+  "s.sort.situation"
+ ],
+ "argument structure": [],
+ "derivational behaviour": [],
+ "register": [
+  "R0",
+  "R1",
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7"
+ ],
+ "collocations": [],
+ "synonyms": [],
+ "antonyms": [],
+ "related concepts": [],
+ "examples": [],
+ "version": {
+  "introduced": "1.0",
+  "deprecated": null
+ },
+ "key": "voice not cut",
+ "class": "turn-taking",
+ "kind": "encoding, grammatical",
+ "route": "formula",
+ "literal structure": "(situation cut POLARITY.NEGATIVE (ACTOR (term INTERLOCUTOR)) (UNDERGOER (term voice)))",
+ "expansion": "(situation PREFERENCE (HOLDER (term SELF)) (CONTENT (situation speak CONTINUATIVE (ACTOR (term SELF)))))",
+ "decomposition": [],
+ "pragmatic conditions": "when the hearer would take the turn before the speaker has finished",
+ "usage restrictions": "none",
+ "declared loss": [
+  "stance"
+ ],
+ "constructed history": "Constructed history: an agent interrupted asked the other not to cut its voice."
+}

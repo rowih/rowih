@@ -1,0 +1,58 @@
+{
+ "machine identifier": "lx.000774",
+ "literal structure": [
+  "lx.000051",
+  "lx.000051"
+ ],
+ "expansion": {
+  "kind": "situation",
+  "name": null,
+  "parts": [
+   {
+    "kind": "word",
+    "form": "rubom",
+    "entry": "lx.000051",
+    "status": "known"
+   },
+   {
+    "kind": "value",
+    "member": "g.situations-and-contents.aspect.perfective"
+   },
+   {
+    "kind": "filler",
+    "role": "g.situations-and-contents.participation.actor",
+    "filler": {
+     "kind": "term",
+     "name": null,
+     "parts": [
+      {
+       "kind": "value",
+       "member": "g.reference.person.self"
+      }
+     ]
+    }
+   },
+   {
+    "kind": "filler",
+    "role": "g.situations-and-contents.participation.undergoer",
+    "filler": {
+     "kind": "term",
+     "name": null,
+     "parts": [
+      {
+       "kind": "word",
+       "form": "nunuben",
+       "entry": "lx.000344",
+       "status": "known"
+      },
+      {
+       "kind": "value",
+       "member": "g.reference.discourse-status.given"
+      }
+     ]
+    }
+   }
+  ]
+ },
+ "generated from": "lexicon/idioms/lx.000774.json"
+}

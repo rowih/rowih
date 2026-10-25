@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.situations-and-contents.aspect.habitual",
+ "orthographic form": "bili",
+ "phonological form": "/bili/",
+ "grammatical category": "aspect",
+ "gloss": "HABITUAL",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

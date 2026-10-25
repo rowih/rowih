@@ -1,0 +1,94 @@
+{
+ "machine identifier": "lx.000612",
+ "literal structure": {
+  "kind": "situation",
+  "name": null,
+  "parts": [
+   {
+    "kind": "word",
+    "form": "nugesar",
+    "entry": "lx.000310",
+    "status": "known"
+   },
+   {
+    "kind": "filler",
+    "role": "g.situations-and-contents.participation.undergoer",
+    "filler": {
+     "kind": "term",
+     "name": null,
+     "parts": [
+      {
+       "kind": "word",
+       "form": "nusemog",
+       "entry": "lx.000484",
+       "status": "known"
+      },
+      {
+       "kind": "value",
+       "member": "g.situations-and-contents.quantifier.definite"
+      }
+     ]
+    }
+   }
+  ]
+ },
+ "expansion": {
+  "kind": "situation",
+  "name": null,
+  "parts": [
+   {
+    "kind": "value",
+    "member": "g.attitudes-and-aims.kind-of-attitude.desire"
+   },
+   {
+    "kind": "filler",
+    "role": "g.situations-and-contents.participation.holder",
+    "filler": {
+     "kind": "term",
+     "name": null,
+     "parts": [
+      {
+       "kind": "value",
+       "member": "g.reference.person.self"
+      }
+     ]
+    }
+   },
+   {
+    "kind": "filler",
+    "role": "g.situations-and-contents.participation.content",
+    "filler": {
+     "kind": "situation",
+     "name": null,
+     "parts": [
+      {
+       "kind": "word",
+       "form": "nuwenut",
+       "entry": "lx.000252",
+       "status": "known"
+      },
+      {
+       "kind": "value",
+       "member": "g.attitudes-and-aims.execution-phase.completed"
+      },
+      {
+       "kind": "filler",
+       "role": "g.situations-and-contents.participation.actor",
+       "filler": {
+        "kind": "term",
+        "name": null,
+        "parts": [
+         {
+          "kind": "value",
+          "member": "g.reference.person.interlocutor"
+         }
+        ]
+       }
+      }
+     ]
+    }
+   }
+  ]
+ },
+ "generated from": "lexicon/idioms/lx.000612.json"
+}

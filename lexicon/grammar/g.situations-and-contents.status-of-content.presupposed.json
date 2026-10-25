@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.situations-and-contents.status-of-content.presupposed",
+ "orthographic form": "buho",
+ "phonological form": "/buho/",
+ "grammatical category": "status of content",
+ "gloss": "PRESUPPOSED",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.situations-and-contents.participation.instrument",
+ "orthographic form": "bose",
+ "phonological form": "/bose/",
+ "grammatical category": "participation",
+ "gloss": "INSTRUMENT",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

@@ -1,0 +1,46 @@
+{
+ "machine identifier": "lx.000106",
+ "root": "lx.000106",
+ "phonological form": "/ɾokaɾ/",
+ "orthographic form": "rokar",
+ "grammatical category": "predicate root",
+ "sort": "s.sort.state",
+ "semantic type": {
+  "sort": "s.sort.state",
+  "arguments": [
+   "actor"
+  ]
+ },
+ "definition": "accept each position one receives by not objecting to it within the duration the event time states",
+ "semantic primitives": [
+  "s.sort.state"
+ ],
+ "argument structure": [
+  {
+   "role": "actor",
+   "sort": "s.sort.agent"
+  }
+ ],
+ "derivational behaviour": [],
+ "register": [
+  "R0",
+  "R1",
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7"
+ ],
+ "collocations": [],
+ "synonyms": [],
+ "antonyms": [],
+ "related concepts": [],
+ "examples": [],
+ "version": {
+  "introduced": "0.2",
+  "deprecated": "1.0"
+ },
+ "key": "assent",
+ "replaced by": "lx.000873"
+}

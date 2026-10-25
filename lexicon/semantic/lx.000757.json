@@ -1,0 +1,118 @@
+{
+ "machine identifier": "lx.000757",
+ "literal structure": {
+  "kind": "situation",
+  "name": null,
+  "parts": [
+   {
+    "kind": "word",
+    "form": "rupow",
+    "entry": "lx.000046",
+    "status": "known"
+   },
+   {
+    "kind": "value",
+    "member": "g.situations-and-contents.aspect.iterative"
+   },
+   {
+    "kind": "filler",
+    "role": "g.situations-and-contents.participation.undergoer",
+    "filler": {
+     "kind": "term",
+     "name": null,
+     "parts": [
+      {
+       "kind": "word",
+       "form": "nubogab",
+       "entry": "lx.000527",
+       "status": "known"
+      }
+     ]
+    }
+   }
+  ]
+ },
+ "expansion": {
+  "kind": "situation",
+  "name": null,
+  "parts": [
+   {
+    "kind": "value",
+    "member": "g.attitudes-and-aims.kind-of-attitude.preference"
+   },
+   {
+    "kind": "filler",
+    "role": "g.situations-and-contents.participation.holder",
+    "filler": {
+     "kind": "term",
+     "name": null,
+     "parts": [
+      {
+       "kind": "value",
+       "member": "g.reference.person.self"
+      }
+     ]
+    }
+   },
+   {
+    "kind": "filler",
+    "role": "g.situations-and-contents.participation.content",
+    "filler": {
+     "kind": "situation",
+     "name": null,
+     "parts": [
+      {
+       "kind": "word",
+       "form": "roded",
+       "entry": "lx.000037",
+       "status": "known"
+      },
+      {
+       "kind": "value",
+       "member": "g.situations-and-contents.aspect.inceptive"
+      },
+      {
+       "kind": "filler",
+       "role": "g.situations-and-contents.participation.actor",
+       "filler": {
+        "kind": "term",
+        "name": null,
+        "parts": [
+         {
+          "kind": "value",
+          "member": "g.reference.person.inclusive-collective"
+         },
+         {
+          "kind": "value",
+          "member": "g.reference.reading-of-a-collective.joint"
+         }
+        ]
+       }
+      },
+      {
+       "kind": "filler",
+       "role": "g.situations-and-contents.participation.undergoer",
+       "filler": {
+        "kind": "term",
+        "name": null,
+        "parts": [
+         {
+          "kind": "word",
+          "form": "runay",
+          "entry": "lx.000007",
+          "status": "known"
+         },
+         {
+          "kind": "value",
+          "member": "g.reference.discourse-status.new"
+         }
+        ]
+       }
+      }
+     ]
+    }
+   }
+  ]
+ },
+ "generated from": "lexicon/idioms/lx.000757.json"
+}

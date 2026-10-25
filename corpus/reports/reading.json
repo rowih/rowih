@@ -1,0 +1,206 @@
+{
+ "rule": "a reader that has read none of the language's documents, given the key, reads twenty strings of five components drawn at random from a fixed seed at each of 48, 24 and 12 pixels to a component; a size is legible to it where it reads at least 95 per cent of its components correctly, and the measure of distance is borne out where its confusions fall on the pairs at the least distance more often than those pairs' share of all pairs",
+ "reader": "Claude Opus 5.5 (claude-opus-5-5), run as a separate agent given only the key's order and the four images",
+ "read": "2026-10-18",
+ "seed": 20261018,
+ "sizes": {
+  "48": {
+   "components": 100,
+   "read correctly": 100,
+   "share": 1.0,
+   "is legible": true,
+   "unread": 0
+  },
+  "24": {
+   "components": 100,
+   "read correctly": 100,
+   "share": 1.0,
+   "is legible": true,
+   "unread": 0
+  },
+  "12": {
+   "components": 100,
+   "read correctly": 44,
+   "share": 0.44,
+   "is legible": false,
+   "unread": 39
+  }
+ },
+ "confusions": [
+  {
+   "drawn": "a",
+   "read": "b",
+   "times": 1,
+   "distance": 0.8
+  },
+  {
+   "drawn": "a",
+   "read": "k",
+   "times": 1,
+   "distance": 0.667
+  },
+  {
+   "drawn": "b",
+   "read": "a",
+   "times": 1,
+   "distance": 0.8
+  },
+  {
+   "drawn": "b",
+   "read": "g",
+   "times": 1,
+   "distance": 0.667
+  },
+  {
+   "drawn": "b",
+   "read": "n",
+   "times": 1,
+   "distance": 0.8
+  },
+  {
+   "drawn": "d",
+   "read": "l",
+   "times": 1,
+   "distance": 0.667
+  },
+  {
+   "drawn": "e",
+   "read": "b",
+   "times": 1,
+   "distance": 0.889
+  },
+  {
+   "drawn": "i",
+   "read": "w",
+   "times": 1,
+   "distance": 0.667
+  },
+  {
+   "drawn": "l",
+   "read": "i",
+   "times": 1,
+   "distance": 0.8
+  },
+  {
+   "drawn": "l",
+   "read": "p",
+   "times": 1,
+   "distance": 0.667
+  },
+  {
+   "drawn": "n",
+   "read": "i",
+   "times": 1,
+   "distance": 0.667
+  },
+  {
+   "drawn": "p",
+   "read": "i",
+   "times": 1,
+   "distance": 0.667
+  },
+  {
+   "drawn": "s",
+   "read": "m",
+   "times": 1,
+   "distance": 0.75
+  },
+  {
+   "drawn": "u",
+   "read": "m",
+   "times": 1,
+   "distance": 0.667
+  },
+  {
+   "drawn": "u",
+   "read": "t",
+   "times": 2,
+   "distance": 0.667
+  },
+  {
+   "drawn": "w",
+   "read": "b",
+   "times": 1,
+   "distance": 0.667
+  }
+ ],
+ "measure": {
+  "pairs": 171,
+  "least distance": 0.667,
+  "pairs at the least distance": 72,
+  "mean distance of all pairs": 0.753,
+  "confusions": 17,
+  "confusions at the least distance": 11,
+  "mean distance of the confused pairs": 0.716,
+  "is borne out": true
+ },
+ "reading": {
+  "48": [
+   "mrkai",
+   "obnts",
+   "sugoi",
+   "tndbk",
+   "unmoi",
+   "kbepk",
+   "obgku",
+   "tutro",
+   "blbut",
+   "kaine",
+   "eihim",
+   "peumm",
+   "pdibl",
+   "ymtpw",
+   "wambu",
+   "kndmi",
+   "kiwum",
+   "hiyga",
+   "amosy",
+   "erkpn"
+  ],
+  "24": [
+   "ntiuo",
+   "rdsyt",
+   "eoyoh",
+   "yinwb",
+   "oandd",
+   "bhmdg",
+   "tutyg",
+   "ssysy",
+   "rouym",
+   "tugur",
+   "ltirt",
+   "ammdn",
+   "uwytd",
+   "ssrla",
+   "tsoop",
+   "nditt",
+   "ukpis",
+   "sdbyy",
+   "ygdmo",
+   "ygodd"
+  ],
+  "12": [
+   "?pkb?",
+   "tbwi?",
+   "bwti?",
+   "nwba?",
+   "hp?m?",
+   "gsbl?",
+   "?tg?p",
+   "b?tg?",
+   "dobg?",
+   "n?bp?",
+   "wm??l",
+   "a???p",
+   "do???",
+   "?igpt",
+   "?m?t?",
+   "l??l?",
+   "e??do",
+   "?rd??",
+   "oi?td",
+   "?m?b?"
+  ]
+ },
+ "remarks": "At 48 every component could be read. The only pairs that needed a second look were k against a (they differ in where the diamond sits and how the strokes leave it) and r against u. At 24 the shapes were still mostly readable, but s against y and p against h were less certain, because their distinguishing strokes are only a few pixels long. At 12 most components blurred together and the boundaries between neighbouring components were often unclear: in several rows I could make out only four shapes, so the positions of my ? marks there are approximate, and even the letters I gave at that size have low confidence."
+}

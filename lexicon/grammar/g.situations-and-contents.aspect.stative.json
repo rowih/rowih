@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.situations-and-contents.aspect.stative",
+ "orthographic form": "bawu",
+ "phonological form": "/bawu/",
+ "grammatical category": "aspect",
+ "gloss": "STATIVE",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

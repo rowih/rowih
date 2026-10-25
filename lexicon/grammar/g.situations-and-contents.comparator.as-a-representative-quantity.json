@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.situations-and-contents.comparator.as-a-representative-quantity",
+ "orthographic form": "guku",
+ "phonological form": "/ɡuku/",
+ "grammatical category": "comparator",
+ "gloss": "AS-A-REPRESENTATIVE-QUANTITY",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

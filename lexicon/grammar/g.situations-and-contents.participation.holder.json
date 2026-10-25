@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.situations-and-contents.participation.holder",
+ "orthographic form": "bori",
+ "phonological form": "/boɾi/",
+ "grammatical category": "participation",
+ "gloss": "HOLDER",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.reference.person.exclusive-collective",
+ "orthographic form": "sase",
+ "phonological form": "/sase/",
+ "grammatical category": "person",
+ "gloss": "EXCLUSIVE-COLLECTIVE",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

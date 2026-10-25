@@ -1,0 +1,55 @@
+{
+ "machine identifier": "lx.000029",
+ "root": "lx.000029",
+ "phonological form": "/ɾinaɾ/",
+ "orthographic form": "rinar",
+ "grammatical category": "predicate root",
+ "sort": "s.sort.event",
+ "semantic type": {
+  "sort": "s.sort.event",
+  "arguments": [
+   "actor",
+   "instrument",
+   "content"
+  ]
+ },
+ "definition": "employ something for a purpose",
+ "semantic primitives": [
+  "s.sort.event"
+ ],
+ "argument structure": [
+  {
+   "role": "actor",
+   "sort": "s.sort.agent"
+  },
+  {
+   "role": "instrument",
+   "sort": "s.sort.referent"
+  },
+  {
+   "role": "content",
+   "sort": "s.sort.situation"
+  }
+ ],
+ "derivational behaviour": [],
+ "register": [
+  "R0",
+  "R1",
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7"
+ ],
+ "collocations": [],
+ "synonyms": [],
+ "antonyms": [],
+ "related concepts": [],
+ "examples": [],
+ "version": {
+  "introduced": "0.1",
+  "deprecated": null
+ },
+ "key": "use"
+}

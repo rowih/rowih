@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.time.time-unit.month",
+ "orthographic form": "dubotu",
+ "phonological form": "/dubotu/",
+ "grammatical category": "time unit",
+ "gloss": "MONTH",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

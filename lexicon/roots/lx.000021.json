@@ -1,0 +1,38 @@
+{
+ "machine identifier": "lx.000021",
+ "root": "lx.000021",
+ "phonological form": "/ɾopad/",
+ "orthographic form": "ropad",
+ "grammatical category": "nominal root",
+ "sort": "s.sort.capability",
+ "semantic type": {
+  "sort": "s.sort.capability",
+  "arguments": []
+ },
+ "definition": "something an agent can do",
+ "semantic primitives": [
+  "s.sort.capability"
+ ],
+ "argument structure": [],
+ "derivational behaviour": [],
+ "register": [
+  "R0",
+  "R1",
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7"
+ ],
+ "collocations": [],
+ "synonyms": [],
+ "antonyms": [],
+ "related concepts": [],
+ "examples": [],
+ "version": {
+  "introduced": "0.1",
+  "deprecated": null
+ },
+ "key": "capability"
+}

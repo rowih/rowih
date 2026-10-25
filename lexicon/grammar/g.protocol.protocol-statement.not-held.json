@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.protocol.protocol-statement.not-held",
+ "orthographic form": "ludo",
+ "phonological form": "/ludo/",
+ "grammatical category": "protocol statement",
+ "gloss": "NOT-HELD",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.9"
+ }
+}

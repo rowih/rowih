@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.reference.discourse-status.inferable",
+ "orthographic form": "mopo",
+ "phonological form": "/mopo/",
+ "grammatical category": "discourse status",
+ "gloss": "INFERABLE",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

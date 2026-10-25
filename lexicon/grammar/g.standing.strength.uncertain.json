@@ -1,0 +1,16 @@
+{
+ "machine identifier": "g.standing.strength.uncertain",
+ "orthographic form": "tusido",
+ "phonological form": "/tusido/",
+ "grammatical category": "strength",
+ "gloss": "UNCERTAIN",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ },
+ "interval": {
+  "lower": "0.33",
+  "upper": "0.66",
+  "lower open": false
+ }
+}

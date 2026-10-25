@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.situations-and-contents.information-structure.focus",
+ "orthographic form": "gasi",
+ "phonological form": "/ɡasi/",
+ "grammatical category": "information structure",
+ "gloss": "FOCUS",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

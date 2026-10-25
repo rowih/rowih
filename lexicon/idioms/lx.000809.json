@@ -1,0 +1,49 @@
+{
+ "machine identifier": "lx.000809",
+ "root": "lx.000809",
+ "phonological form": "/nuniɡun ɾoduɾ/",
+ "orthographic form": "nunigun rodur",
+ "grammatical category": "idiom",
+ "sort": "s.sort.situation",
+ "semantic type": {
+  "sort": "s.sort.situation",
+  "arguments": []
+ },
+ "definition": "the price keeps changing",
+ "semantic primitives": [
+  "s.sort.situation"
+ ],
+ "argument structure": [],
+ "derivational behaviour": [],
+ "register": [
+  "R0",
+  "R2",
+  "R3",
+  "R5",
+  "R6",
+  "R7"
+ ],
+ "collocations": [],
+ "synonyms": [],
+ "antonyms": [],
+ "related concepts": [],
+ "examples": [],
+ "version": {
+  "introduced": "1.0",
+  "deprecated": null
+ },
+ "key": "price walking",
+ "class": "negotiation idioms",
+ "kind": "decoding, grammatical",
+ "route": "figure",
+ "literal structure": "(situation walk (ACTOR (term price)))",
+ "expansion": "(situation change ITERATIVE (UNDERGOER (term price DEFINITE)))",
+ "decomposition": [],
+ "pragmatic conditions": "of a party whose price moves from one offer to the next",
+ "usage restrictions": "none",
+ "declared loss": [
+  "stance",
+  "wording"
+ ],
+ "constructed history": "Constructed history: a price that would not stay where it was put was said to walk."
+}

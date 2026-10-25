@@ -1,0 +1,205 @@
+{
+ "version": "0.3",
+ "symbols": [
+  {
+   "index": 0,
+   "letter": "p",
+   "kind": "consonant",
+   "ipa": "p",
+   "espeak": "p",
+   "code point": "U+F3A0"
+  },
+  {
+   "index": 1,
+   "letter": "t",
+   "kind": "consonant",
+   "ipa": "t",
+   "espeak": "t",
+   "code point": "U+F3A1"
+  },
+  {
+   "index": 2,
+   "letter": "k",
+   "kind": "consonant",
+   "ipa": "k",
+   "espeak": "k",
+   "code point": "U+F3A2"
+  },
+  {
+   "index": 3,
+   "letter": "b",
+   "kind": "consonant",
+   "ipa": "b",
+   "espeak": "b",
+   "code point": "U+F3A3"
+  },
+  {
+   "index": 4,
+   "letter": "d",
+   "kind": "consonant",
+   "ipa": "d",
+   "espeak": "d",
+   "code point": "U+F3A4"
+  },
+  {
+   "index": 5,
+   "letter": "g",
+   "kind": "consonant",
+   "ipa": "ɡ",
+   "espeak": "g",
+   "code point": "U+F3A5"
+  },
+  {
+   "index": 6,
+   "letter": "m",
+   "kind": "consonant",
+   "ipa": "m",
+   "espeak": "m",
+   "code point": "U+F3A6"
+  },
+  {
+   "index": 7,
+   "letter": "n",
+   "kind": "consonant",
+   "ipa": "n",
+   "espeak": "n",
+   "code point": "U+F3A7"
+  },
+  {
+   "index": 8,
+   "letter": "s",
+   "kind": "consonant",
+   "ipa": "s",
+   "espeak": "s",
+   "code point": "U+F3A8"
+  },
+  {
+   "index": 9,
+   "letter": "l",
+   "kind": "consonant",
+   "ipa": "l",
+   "espeak": "l",
+   "code point": "U+F3A9"
+  },
+  {
+   "index": 10,
+   "letter": "r",
+   "kind": "consonant",
+   "ipa": "ɾ",
+   "espeak": "*",
+   "code point": "U+F3AA"
+  },
+  {
+   "index": 11,
+   "letter": "w",
+   "kind": "consonant",
+   "ipa": "w",
+   "espeak": "w",
+   "code point": "U+F3AB"
+  },
+  {
+   "index": 12,
+   "letter": "y",
+   "kind": "consonant",
+   "ipa": "j",
+   "espeak": "j",
+   "code point": "U+F3AC"
+  },
+  {
+   "index": 13,
+   "letter": "h",
+   "kind": "consonant",
+   "ipa": "h",
+   "espeak": "h",
+   "code point": "U+F3AD"
+  },
+  {
+   "index": 14,
+   "letter": "a",
+   "kind": "vowel",
+   "ipa": "a",
+   "espeak": "a",
+   "code point": "U+F3AE"
+  },
+  {
+   "index": 15,
+   "letter": "e",
+   "kind": "vowel",
+   "ipa": "e",
+   "espeak": "e",
+   "code point": "U+F3AF"
+  },
+  {
+   "index": 16,
+   "letter": "i",
+   "kind": "vowel",
+   "ipa": "i",
+   "espeak": "i",
+   "code point": "U+F3B0"
+  },
+  {
+   "index": 17,
+   "letter": "o",
+   "kind": "vowel",
+   "ipa": "o",
+   "espeak": "o",
+   "code point": "U+F3B1"
+  },
+  {
+   "index": 18,
+   "letter": "u",
+   "kind": "vowel",
+   "ipa": "u",
+   "espeak": "u",
+   "code point": "U+F3B2"
+  }
+ ],
+ "code point range": [
+  "U+F3A0",
+  "U+F3B2"
+ ],
+ "espeak voice": "sw",
+ "prosody": {
+  "flat": {
+   "rate": 175,
+   "pitch": 50,
+   "range": 0,
+   "word gap": 0
+  },
+  "neutral": {
+   "rate": 175,
+   "pitch": 50,
+   "range": 50,
+   "word gap": 0
+  },
+  "expressive": {
+   "rate": 165,
+   "pitch": 55,
+   "range": 90,
+   "word gap": 0
+  },
+  "measured": {
+   "rate": 140,
+   "pitch": 45,
+   "range": 35,
+   "word gap": 2
+  }
+ },
+ "pause between lines": 400,
+ "stress": "primary stress on the first syllable of every word",
+ "syllables": "CV, and CVC at the end of a word whose last symbol is a consonant",
+ "word shapes": {
+  "rule": "every word alternates consonant and vowel from a consonant, and its first syllable fixes its length: the onset alone, except where the first syllables name the syllable, so the lexicon is a prefix code",
+  "onsets": {
+   "6": "ktd",
+   "5": "hr",
+   "4": "nypbgmswl"
+  },
+  "first syllables": {
+   "7": [
+    "nu"
+   ]
+  },
+  "content words": "a root, then any number of suffixes (VCVC, the first vowel not i), with i linking each further root of a compound"
+ }
+}

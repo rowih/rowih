@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.attitudes-and-aims.kind-of-attitude.belief",
+ "orthographic form": "paka",
+ "phonological form": "/paka/",
+ "grammatical category": "kind of attitude",
+ "gloss": "BELIEF",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

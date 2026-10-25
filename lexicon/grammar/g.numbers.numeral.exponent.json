@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.numbers.numeral.exponent",
+ "orthographic form": "niso",
+ "phonological form": "/niso/",
+ "grammatical category": "numeral",
+ "gloss": "EXPONENT",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

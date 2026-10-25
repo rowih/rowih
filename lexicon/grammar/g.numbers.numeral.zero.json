@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.numbers.numeral.zero",
+ "orthographic form": "napa",
+ "phonological form": "/napa/",
+ "grammatical category": "numeral",
+ "gloss": "ZERO",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

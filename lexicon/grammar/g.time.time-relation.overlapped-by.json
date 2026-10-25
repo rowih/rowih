@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.time.time-relation.overlapped-by",
+ "orthographic form": "dubime",
+ "phonological form": "/dubime/",
+ "grammatical category": "time relation",
+ "gloss": "OVERLAPPED-BY",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

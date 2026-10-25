@@ -1,0 +1,76 @@
+{
+ "machine identifier": "lx.000239",
+ "root": "lx.000239",
+ "phonological form": "/nujaɾit/",
+ "orthographic form": "nuyarit",
+ "grammatical category": "nominal root",
+ "sort": "s.sort.expression",
+ "semantic type": {
+  "sort": "s.sort.expression",
+  "arguments": []
+ },
+ "definition": "a unit of a human language that expresses a whole statement, question or request",
+ "semantic primitives": [
+  "s.sort.expression"
+ ],
+ "argument structure": [],
+ "derivational behaviour": [
+  {
+   "suffix": "lx.000110",
+   "mechanism": "abstraction",
+   "form": "nuyaritusap",
+   "sort": "s.sort.kind",
+   "definition": "what every instance of [a unit of a human language that expresses a whole statement, question or request] has in common"
+  },
+  {
+   "suffix": "lx.000112",
+   "mechanism": "verbalisation",
+   "form": "nuyaritasey",
+   "sort": "s.sort.event",
+   "definition": "act by means of [a unit of a human language that expresses a whole statement, question or request]"
+  },
+  {
+   "suffix": "lx.000113",
+   "mechanism": "adjectivisation",
+   "form": "nuyarituyik",
+   "sort": "s.sort.state",
+   "definition": "be of the kind [a unit of a human language that expresses a whole statement, question or request] names"
+  },
+  {
+   "suffix": "lx.000184",
+   "mechanism": "honorific",
+   "form": "nuyaritayuk",
+   "sort": "s.sort.expression",
+   "definition": "[a unit of a human language that expresses a whole statement, question or request], named with deference"
+  }
+ ],
+ "register": [
+  "R0",
+  "R1",
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7"
+ ],
+ "collocations": [],
+ "synonyms": [],
+ "antonyms": [],
+ "related concepts": [
+  {
+   "entry": "lx.000240",
+   "relation": "has part"
+  },
+  {
+   "entry": "lx.000238",
+   "relation": "part of"
+  }
+ ],
+ "examples": [],
+ "version": {
+  "introduced": "1.0",
+  "deprecated": null
+ },
+ "key": "sentence"
+}

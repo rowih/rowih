@@ -1,0 +1,132 @@
+{
+ "machine identifier": "lx.000716",
+ "literal structure": {
+  "kind": "situation",
+  "name": null,
+  "parts": [
+   {
+    "kind": "word",
+    "form": "nuyeyil",
+    "entry": "lx.000392",
+    "status": "known"
+   },
+   {
+    "kind": "filler",
+    "role": "g.situations-and-contents.participation.undergoer",
+    "filler": {
+     "kind": "term",
+     "name": null,
+     "parts": [
+      {
+       "kind": "word",
+       "form": "rites",
+       "entry": "lx.000022",
+       "status": "known"
+      }
+     ]
+    }
+   },
+   {
+    "kind": "filler",
+    "role": "g.situations-and-contents.participation.content",
+    "filler": {
+     "kind": "term",
+     "name": null,
+     "parts": [
+      {
+       "kind": "value",
+       "member": "g.reference.person.interlocutor"
+      }
+     ]
+    }
+   }
+  ]
+ },
+ "expansion": {
+  "kind": "situation",
+  "name": null,
+  "parts": [
+   {
+    "kind": "word",
+    "form": "riwop",
+    "entry": "lx.000012",
+    "status": "known"
+   },
+   {
+    "kind": "filler",
+    "role": "g.situations-and-contents.participation.holder",
+    "filler": {
+     "kind": "term",
+     "name": null,
+     "parts": [
+      {
+       "kind": "value",
+       "member": "g.reference.person.self"
+      }
+     ]
+    }
+   },
+   {
+    "kind": "filler",
+    "role": "g.situations-and-contents.participation.content",
+    "filler": {
+     "kind": "situation",
+     "name": null,
+     "parts": [
+      {
+       "kind": "word",
+       "form": "robet",
+       "entry": "lx.000049",
+       "status": "known"
+      },
+      {
+       "kind": "filler",
+       "role": "g.situations-and-contents.participation.actor",
+       "filler": {
+        "kind": "term",
+        "name": null,
+        "parts": [
+         {
+          "kind": "value",
+          "member": "g.reference.person.self"
+         }
+        ]
+       }
+      },
+      {
+       "kind": "filler",
+       "role": "g.situations-and-contents.participation.undergoer",
+       "filler": {
+        "kind": "term",
+        "name": null,
+        "parts": [
+         {
+          "kind": "word",
+          "form": "resep",
+          "entry": "lx.000026",
+          "status": "known"
+         }
+        ]
+       }
+      },
+      {
+       "kind": "filler",
+       "role": "g.situations-and-contents.participation.recipient",
+       "filler": {
+        "kind": "term",
+        "name": null,
+        "parts": [
+         {
+          "kind": "value",
+          "member": "g.reference.person.interlocutor"
+         }
+        ]
+       }
+      }
+     ]
+    }
+   }
+  ]
+ },
+ "generated from": "lexicon/idioms/lx.000716.json"
+}

@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.reference.expected-status-of-an-entry.in-force",
+ "orthographic form": "sire",
+ "phonological form": "/siɾe/",
+ "grammatical category": "expected status of an entry",
+ "gloss": "EXPECTED-STATUS-OF-AN-ENTRY.IN-FORCE",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

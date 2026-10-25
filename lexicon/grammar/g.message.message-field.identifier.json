@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.message.message-field.identifier",
+ "orthographic form": "weyi",
+ "phonological form": "/weji/",
+ "grammatical category": "message field",
+ "gloss": "IDENTIFIER",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

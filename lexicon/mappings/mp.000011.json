@@ -1,0 +1,32 @@
+{
+ "machine identifier": "mp.000011",
+ "name": "WORK UNDER WAY IS A RIVER",
+ "source domain": "a river from its source to the sea",
+ "target domain": "work from its beginning to its completion",
+ "correspondences": [
+  {
+   "source": "the river",
+   "target": "work under way"
+  },
+  {
+   "source": "the sea",
+   "target": "the work's completion"
+  },
+  {
+   "source": "water in the river",
+   "target": "the resources the work runs on"
+  },
+  {
+   "source": "a river without water",
+   "target": "work stopped for want of resources"
+  }
+ ],
+ "motivates": [
+  "lx.000820",
+  "lx.000821"
+ ],
+ "version": {
+  "introduced": "1.0",
+  "deprecated": null
+ }
+}

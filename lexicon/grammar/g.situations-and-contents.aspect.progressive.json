@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.situations-and-contents.aspect.progressive",
+ "orthographic form": "beme",
+ "phonological form": "/beme/",
+ "grammatical category": "aspect",
+ "gloss": "PROGRESSIVE",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

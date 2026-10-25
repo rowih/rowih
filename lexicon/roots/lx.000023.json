@@ -1,0 +1,50 @@
+{
+ "machine identifier": "lx.000023",
+ "root": "lx.000023",
+ "phonological form": "/ɾunod/",
+ "orthographic form": "runod",
+ "grammatical category": "predicate root",
+ "sort": "s.sort.event",
+ "semantic type": {
+  "sort": "s.sort.event",
+  "arguments": [
+   "actor",
+   "undergoer"
+  ]
+ },
+ "definition": "carry out an operation",
+ "semantic primitives": [
+  "s.sort.event"
+ ],
+ "argument structure": [
+  {
+   "role": "actor",
+   "sort": "s.sort.agent"
+  },
+  {
+   "role": "undergoer",
+   "sort": "s.sort.referent"
+  }
+ ],
+ "derivational behaviour": [],
+ "register": [
+  "R0",
+  "R1",
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7"
+ ],
+ "collocations": [],
+ "synonyms": [],
+ "antonyms": [],
+ "related concepts": [],
+ "examples": [],
+ "version": {
+  "introduced": "0.1",
+  "deprecated": null
+ },
+ "key": "execute"
+}

@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.situations-and-contents.quantifier.distributive",
+ "orthographic form": "goho",
+ "phonological form": "/ɡoho/",
+ "grammatical category": "quantifier",
+ "gloss": "QUANTIFIER.DISTRIBUTIVE",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

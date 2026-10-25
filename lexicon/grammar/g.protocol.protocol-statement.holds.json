@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.protocol.protocol-statement.holds",
+ "orthographic form": "lupe",
+ "phonological form": "/lupe/",
+ "grammatical category": "protocol statement",
+ "gloss": "HOLDS",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.9"
+ }
+}

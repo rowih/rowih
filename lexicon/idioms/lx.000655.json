@@ -1,0 +1,56 @@
+{
+ "machine identifier": "lx.000655",
+ "root": "lx.000655",
+ "phonological form": "/nukepuh ɾowew/",
+ "orthographic form": "nukepuh rowew",
+ "grammatical category": "idiom",
+ "sort": "s.sort.situation",
+ "semantic type": {
+  "sort": "s.sort.situation",
+  "arguments": []
+ },
+ "definition": "which release holds what the slot names",
+ "semantic primitives": [
+  "s.sort.situation"
+ ],
+ "argument structure": [],
+ "derivational behaviour": [],
+ "register": [
+  "R0",
+  "R1",
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7"
+ ],
+ "collocations": [],
+ "synonyms": [],
+ "antonyms": [],
+ "related concepts": [],
+ "examples": [],
+ "version": {
+  "introduced": "1.0",
+  "deprecated": null
+ },
+ "key": "version sought",
+ "class": "requests for clarification",
+ "kind": "encoding, grammatical",
+ "route": "formula",
+ "literal structure": "(situation search (ACTOR (term SELF)) (UNDERGOER (slot 1)) (CONTENT (term version)))",
+ "expansion": "(situation contain CONSTITUENT (CONTENT (slot 1)))",
+ "decomposition": [
+  {
+   "slot": 1,
+   "literal role": "UNDERGOER",
+   "expansion role": "CONTENT"
+  }
+ ],
+ "pragmatic conditions": "in a question naming a word or a form the speaker does not hold",
+ "usage restrictions": "none",
+ "declared loss": [
+  "stance"
+ ],
+ "constructed history": "Constructed history: an agent that met a word it did not hold searched the releases for it, and saying so asked the hearer which release the word came from."
+}

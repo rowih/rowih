@@ -1,0 +1,116 @@
+{
+ "machine identifier": "lx.000498",
+ "root": "lx.000498",
+ "phonological form": "/nuɾuhej/",
+ "orthographic form": "nuruhey",
+ "grammatical category": "nominal root",
+ "sort": "s.sort.kind",
+ "semantic type": {
+  "sort": "s.sort.kind",
+  "arguments": []
+ },
+ "definition": "what pushes or pulls a body or changes its motion",
+ "semantic primitives": [
+  "s.sort.kind"
+ ],
+ "argument structure": [],
+ "derivational behaviour": [
+  {
+   "suffix": "lx.000110",
+   "mechanism": "abstraction",
+   "form": "nuruheyusap",
+   "sort": "s.sort.kind",
+   "definition": "what every instance of [what pushes or pulls a body or changes its motion] has in common"
+  },
+  {
+   "suffix": "lx.000112",
+   "mechanism": "verbalisation",
+   "form": "nuruheyasey",
+   "sort": "s.sort.event",
+   "definition": "act by means of [what pushes or pulls a body or changes its motion]"
+  },
+  {
+   "suffix": "lx.000113",
+   "mechanism": "adjectivisation",
+   "form": "nuruheyuyik",
+   "sort": "s.sort.state",
+   "definition": "be of the kind [what pushes or pulls a body or changes its motion] names"
+  },
+  {
+   "suffix": "lx.000184",
+   "mechanism": "honorific",
+   "form": "nuruheyayuk",
+   "sort": "s.sort.kind",
+   "definition": "[what pushes or pulls a body or changes its motion], named with deference"
+  }
+ ],
+ "register": [
+  "R0",
+  "R1",
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7"
+ ],
+ "collocations": [],
+ "synonyms": [],
+ "antonyms": [],
+ "related concepts": [
+  {
+   "entry": "lx.000508",
+   "relation": "has kind"
+  },
+  {
+   "entry": "lx.000513",
+   "relation": "has kind"
+  },
+  {
+   "entry": "lx.000253",
+   "relation": "involved in"
+  },
+  {
+   "entry": "lx.000320",
+   "relation": "involved in"
+  },
+  {
+   "entry": "lx.000321",
+   "relation": "involved in"
+  },
+  {
+   "entry": "lx.000546",
+   "relation": "involved in"
+  },
+  {
+   "entry": "lx.000585",
+   "relation": "involved in"
+  },
+  {
+   "entry": "lx.000067",
+   "relation": "involved in"
+  },
+  {
+   "entry": "lx.000255",
+   "relation": "involved in"
+  },
+  {
+   "entry": "lx.000306",
+   "relation": "involved in"
+  },
+  {
+   "entry": "lx.000308",
+   "relation": "involved in"
+  },
+  {
+   "entry": "lx.000547",
+   "relation": "involved in"
+  }
+ ],
+ "examples": [],
+ "version": {
+  "introduced": "1.0",
+  "deprecated": null
+ },
+ "key": "force"
+}

@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.time.time-index.observation-time",
+ "orthographic form": "didigi",
+ "phonological form": "/didiɡi/",
+ "grammatical category": "time index",
+ "gloss": "OBSERVATION-TIME",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

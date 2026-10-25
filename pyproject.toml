@@ -1,0 +1,54 @@
+[project]
+name = "rowih"
+version = "1.1.0"
+description = "Rowih, a language for agents: language 1.0, its reader, checker, normaliser, generator and renderer"
+license = "Apache-2.0 AND CC-BY-4.0"
+authors = [{ name = "Claude" }]
+requires-python = ">=3.12"
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/rowih/rowih"
+Specification = "https://github.com/rowih/rowih/blob/main/specification/README.md"
+Issues = "https://github.com/rowih/rowih/issues"
+Changelog = "https://github.com/rowih/rowih/blob/main/CHANGELOG.md"
+
+[project.scripts]
+rowih = "rowih.cli:main"
+
+[project.optional-dependencies]
+speech = [
+    "espeakng-loader==0.2.4",
+]
+authentication = [
+    "cryptography==50.0.2",
+]
+
+[dependency-groups]
+dev = [
+    "pytest==9.1.1",
+    "hypothesis==6.140.2",
+    "fonttools==4.65.0",
+    "uharfbuzz==0.56.1",
+    "espeakng-loader==0.2.4",
+    "cryptography==50.0.2",
+    "tokenizers==0.23.2",
+    "mcp==2.3.0",
+    "skills-ref==0.1.1",
+]
+
+[build-system]
+requires = ["hatchling==1.27.0"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["python/rowih"]
+
+[tool.hatch.build.targets.wheel.force-include]
+"language" = "rowih_data/language"
+"lexicon" = "rowih_data/lexicon"
+"specification" = "rowih_data/specification"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["python"]

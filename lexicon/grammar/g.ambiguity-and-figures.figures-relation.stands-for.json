@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.ambiguity-and-figures.figures-relation.stands-for",
+ "orthographic form": "wale",
+ "phonological form": "/wale/",
+ "grammatical category": "figure's relation",
+ "gloss": "STANDS-FOR",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.situations-and-contents.kind-of-question.alternative",
+ "orthographic form": "bule",
+ "phonological form": "/bule/",
+ "grammatical category": "kind of question",
+ "gloss": "ALTERNATIVE",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

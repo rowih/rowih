@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.reference.discourse-status.given",
+ "orthographic form": "moyi",
+ "phonological form": "/moji/",
+ "grammatical category": "discourse status",
+ "gloss": "GIVEN",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.time.time-anchor.per",
+ "orthographic form": "danawe",
+ "phonological form": "/danawe/",
+ "grammatical category": "time anchor",
+ "gloss": "PER",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

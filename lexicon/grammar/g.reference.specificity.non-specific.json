@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.reference.specificity.non-specific",
+ "orthographic form": "muwe",
+ "phonological form": "/muwe/",
+ "grammatical category": "specificity",
+ "gloss": "NON-SPECIFIC",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

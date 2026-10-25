@@ -1,0 +1,49 @@
+{
+ "machine identifier": "lx.000790",
+ "root": "lx.000790",
+ "phonological form": "/nuniɡaɡ nunopip/",
+ "orthographic form": "nunigag nunopip",
+ "grammatical category": "idiom",
+ "sort": "s.sort.situation",
+ "semantic type": {
+  "sort": "s.sort.situation",
+  "arguments": []
+ },
+ "definition": "no evidence supports the record given, a model's output",
+ "semantic primitives": [
+  "s.sort.situation"
+ ],
+ "argument structure": [],
+ "derivational behaviour": [],
+ "register": [
+  "R0",
+  "R2",
+  "R3",
+  "R5",
+  "R6",
+  "R7"
+ ],
+ "collocations": [],
+ "synonyms": [],
+ "antonyms": [],
+ "related concepts": [],
+ "examples": [],
+ "version": {
+  "introduced": "1.0",
+  "deprecated": null
+ },
+ "key": "machine dreaming",
+ "class": "computational idioms",
+ "kind": "decoding, grammatical",
+ "route": "figure",
+ "literal structure": "(situation dream (ACTOR (term machine)))",
+ "expansion": "(situation support POLARITY.NEGATIVE (ACTOR (term evidence)) (CONTENT (term record GIVEN)))",
+ "decomposition": [],
+ "pragmatic conditions": "of output a model produced without grounds, as a warning to the one who would use it",
+ "usage restrictions": "none",
+ "declared loss": [
+  "stance",
+  "wording"
+ ],
+ "constructed history": "Constructed history: a model that produced what it had no grounds for was said to dream, since a sleeper's images come from nothing in the world."
+}

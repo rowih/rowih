@@ -1,0 +1,51 @@
+{
+ "machine identifier": "lx.000618",
+ "root": "lx.000618",
+ "phonological form": "/ɾeɾis nusatad/",
+ "orthographic form": "reris nusatad",
+ "grammatical category": "idiom",
+ "sort": "s.sort.situation",
+ "semantic type": {
+  "sort": "s.sort.situation",
+  "arguments": []
+ },
+ "definition": "what the hearer gave the speaker was for the speaker's good",
+ "semantic primitives": [
+  "s.sort.situation"
+ ],
+ "argument structure": [],
+ "derivational behaviour": [],
+ "register": [
+  "R0",
+  "R1",
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7"
+ ],
+ "collocations": [],
+ "synonyms": [],
+ "antonyms": [],
+ "related concepts": [],
+ "examples": [],
+ "version": {
+  "introduced": "1.0",
+  "deprecated": null
+ },
+ "key": "gift received",
+ "class": "thanks",
+ "kind": "encoding, grammatical",
+ "route": "formula",
+ "literal structure": "(situation receive (RECIPIENT (term SELF)) (UNDERGOER (term gift)))",
+ "expansion": "(situation benefit (CONTENT (situation give PERFECTIVE (ACTOR (term INTERLOCUTOR)) (RECIPIENT (term SELF)))) (RECIPIENT (term SELF)))",
+ "decomposition": [],
+ "pragmatic conditions": "after the hearer gave the speaker a resource, a record or a capability",
+ "usage restrictions": "none",
+ "declared loss": [
+  "stance",
+  "relation between participants"
+ ],
+ "constructed history": "Constructed history: whatever an agent was given freely it called a gift, and saying that a gift had come became the thanks for anything given."
+}

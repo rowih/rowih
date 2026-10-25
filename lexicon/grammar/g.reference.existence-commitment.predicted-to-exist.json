@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.reference.existence-commitment.predicted-to-exist",
+ "orthographic form": "meri",
+ "phonological form": "/meɾi/",
+ "grammatical category": "existence commitment",
+ "gloss": "PREDICTED-TO-EXIST",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

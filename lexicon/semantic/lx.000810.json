@@ -1,0 +1,128 @@
+{
+ "machine identifier": "lx.000810",
+ "literal structure": {
+  "kind": "situation",
+  "name": null,
+  "parts": [
+   {
+    "kind": "word",
+    "form": "radah",
+    "entry": "lx.000055",
+    "status": "known"
+   },
+   {
+    "kind": "filler",
+    "role": "g.situations-and-contents.participation.holder",
+    "filler": {
+     "kind": "term",
+     "name": null,
+     "parts": [
+      {
+       "kind": "word",
+       "form": "rodur",
+       "entry": "lx.000063",
+       "status": "known"
+      },
+      {
+       "kind": "value",
+       "member": "g.situations-and-contents.quantifier.definite"
+      }
+     ]
+    }
+   },
+   {
+    "kind": "filler",
+    "role": "g.situations-and-contents.participation.undergoer",
+    "filler": {
+     "kind": "term",
+     "name": null,
+     "parts": [
+      {
+       "kind": "word",
+       "form": "nubogab",
+       "entry": "lx.000527",
+       "status": "known"
+      }
+     ]
+    }
+   }
+  ]
+ },
+ "expansion": {
+  "kind": "situation",
+  "name": null,
+  "parts": [
+   {
+    "kind": "word",
+    "form": "riwop",
+    "entry": "lx.000012",
+    "status": "known"
+   },
+   {
+    "kind": "filler",
+    "role": "g.situations-and-contents.participation.holder",
+    "filler": {
+     "kind": "term",
+     "name": null,
+     "parts": [
+      {
+       "kind": "value",
+       "member": "g.reference.person.self"
+      }
+     ]
+    }
+   },
+   {
+    "kind": "filler",
+    "role": "g.situations-and-contents.participation.content",
+    "filler": {
+     "kind": "situation",
+     "name": null,
+     "parts": [
+      {
+       "kind": "word",
+       "form": "rubap",
+       "entry": "lx.000039",
+       "status": "known"
+      },
+      {
+       "kind": "filler",
+       "role": "g.situations-and-contents.participation.undergoer",
+       "filler": {
+        "kind": "term",
+        "name": null,
+        "parts": [
+         {
+          "kind": "word",
+          "form": "rodur",
+          "entry": "lx.000063",
+          "status": "known"
+         },
+         {
+          "kind": "value",
+          "member": "g.situations-and-contents.quantifier.definite"
+         }
+        ]
+       }
+      },
+      {
+       "kind": "filler",
+       "role": "g.situations-and-contents.participation.actor",
+       "filler": {
+        "kind": "term",
+        "name": null,
+        "parts": [
+         {
+          "kind": "value",
+          "member": "g.reference.person.self"
+         }
+        ]
+       }
+      }
+     ]
+    }
+   }
+  ]
+ },
+ "generated from": "lexicon/idioms/lx.000810.json"
+}

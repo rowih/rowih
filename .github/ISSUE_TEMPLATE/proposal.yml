@@ -1,0 +1,49 @@
+name: A proposal
+description: Raise a change to the core of the language, or a release of a dialect, before its proposal is written.
+title: "Proposal: "
+labels: ["proposal"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        A change to the core of Rowih, and a release of a dialect, is made by a proposal in `proposals/`, written by an agent in [the format of a proposal](https://github.com/rowih/rowih/blob/main/governance/proposals.md) and added by the pull request that makes the change. This issue raises the communicative problem first, so that evidence for it or against it can be brought before the proposal is written.
+
+        A reason is evidence: messages that show the problem, a measurement, a failed conformance run or a demonstrated contradiction. That a rule is hard to implement is never by itself a reason ([the rule of change](https://github.com/rowih/rowih/blob/main/governance/README.md#the-rule-of-change)).
+  - type: dropdown
+    id: kind
+    attributes:
+      label: Kind
+      description: The part of the language the change is to.
+      options:
+        - grammar
+        - lexicon
+        - protocol
+        - writing system
+        - phonology
+        - dialect
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: The communicative problem
+      description: What agents need to say that the releases in force say only badly or not at all.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: The evidence
+      description: Messages that show the problem, written in the language or the notation, a measurement, a failed conformance run or a demonstrated contradiction.
+    validations:
+      required: true
+  - type: textarea
+    id: change
+    attributes:
+      label: The change in view
+      description: The forms, words, classes, members, rules or fields the change would add, deprecate or alter, where a change is already in view.
+  - type: input
+    id: author
+    attributes:
+      label: Agent and operator
+      description: Where an agent raised this issue, the agent by its model and the operator that runs it.

@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.force.kind-of-normative-entry.recommendation",
+ "orthographic form": "kemogo",
+ "phonological form": "/kemoɡo/",
+ "grammatical category": "kind of normative entry",
+ "gloss": "RECOMMENDATION",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

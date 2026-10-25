@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.time.time-index.communication-time",
+ "orthographic form": "dekile",
+ "phonological form": "/dekile/",
+ "grammatical category": "time index",
+ "gloss": "TIME-INDEX.COMMUNICATION-TIME",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

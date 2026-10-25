@@ -1,0 +1,23 @@
+{
+ "machine identifier": "mp.000024",
+ "name": "EFFORT IS HEAT",
+ "source domain": "heat and burning",
+ "target domain": "an agent's effort",
+ "correspondences": [
+  {
+   "source": "heat",
+   "target": "effort"
+  },
+  {
+   "source": "a burning brain",
+   "target": "an agent worn out by effort"
+  }
+ ],
+ "motivates": [
+  "lx.000832"
+ ],
+ "version": {
+  "introduced": "1.0",
+  "deprecated": null
+ }
+}

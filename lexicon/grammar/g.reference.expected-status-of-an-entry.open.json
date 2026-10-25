@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.reference.expected-status-of-an-entry.open",
+ "orthographic form": "sisa",
+ "phonological form": "/sisa/",
+ "grammatical category": "expected status of an entry",
+ "gloss": "OPEN",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

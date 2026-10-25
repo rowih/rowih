@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.situations-and-contents.comparator.exactly",
+ "orthographic form": "gusa",
+ "phonological form": "/ɡusa/",
+ "grammatical category": "comparator",
+ "gloss": "EXACTLY",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

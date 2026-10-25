@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.ambiguity-and-figures.register.playful",
+ "orthographic form": "lobo",
+ "phonological form": "/lobo/",
+ "grammatical category": "register",
+ "gloss": "PLAYFUL",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.6"
+ }
+}

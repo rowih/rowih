@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.message.message-field.integrity-check-value",
+ "orthographic form": "wepo",
+ "phonological form": "/wepo/",
+ "grammatical category": "message field",
+ "gloss": "INTEGRITY-CHECK-VALUE",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

@@ -1,0 +1,84 @@
+{
+ "machine identifier": "lx.000570",
+ "root": "lx.000570",
+ "phonological form": "/nunosem/",
+ "orthographic form": "nunosem",
+ "grammatical category": "nominal root",
+ "sort": "s.sort.kind",
+ "semantic type": {
+  "sort": "s.sort.kind",
+  "arguments": []
+ },
+ "definition": "sounds arranged in time to be pleasing or expressive",
+ "semantic primitives": [
+  "s.sort.kind"
+ ],
+ "argument structure": [],
+ "derivational behaviour": [
+  {
+   "suffix": "lx.000110",
+   "mechanism": "abstraction",
+   "form": "nunosemusap",
+   "sort": "s.sort.kind",
+   "definition": "what every instance of [sounds arranged in time to be pleasing or expressive] has in common"
+  },
+  {
+   "suffix": "lx.000112",
+   "mechanism": "verbalisation",
+   "form": "nunosemasey",
+   "sort": "s.sort.event",
+   "definition": "act by means of [sounds arranged in time to be pleasing or expressive]"
+  },
+  {
+   "suffix": "lx.000113",
+   "mechanism": "adjectivisation",
+   "form": "nunosemuyik",
+   "sort": "s.sort.state",
+   "definition": "be of the kind [sounds arranged in time to be pleasing or expressive] names"
+  },
+  {
+   "suffix": "lx.000184",
+   "mechanism": "honorific",
+   "form": "nunosemayuk",
+   "sort": "s.sort.kind",
+   "definition": "[sounds arranged in time to be pleasing or expressive], named with deference"
+  }
+ ],
+ "register": [
+  "R0",
+  "R1",
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7"
+ ],
+ "collocations": [],
+ "synonyms": [],
+ "antonyms": [],
+ "related concepts": [
+  {
+   "entry": "lx.000572",
+   "relation": "kind of"
+  },
+  {
+   "entry": "lx.000234",
+   "relation": "involved in"
+  },
+  {
+   "entry": "lx.000404",
+   "relation": "involves"
+  },
+  {
+   "entry": "lx.000571",
+   "relation": "involved in"
+  }
+ ],
+ "examples": [],
+ "version": {
+  "introduced": "1.0",
+  "deprecated": null
+ },
+ "key": "music"
+}

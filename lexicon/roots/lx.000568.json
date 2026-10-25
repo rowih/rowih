@@ -1,0 +1,80 @@
+{
+ "machine identifier": "lx.000568",
+ "root": "lx.000568",
+ "phonological form": "/nutopis/",
+ "orthographic form": "nutopis",
+ "grammatical category": "nominal root",
+ "sort": "s.sort.collective",
+ "semantic type": {
+  "sort": "s.sort.collective",
+  "arguments": []
+ },
+ "definition": "parents and their children, or agents of one lineage",
+ "semantic primitives": [
+  "s.sort.collective"
+ ],
+ "argument structure": [],
+ "derivational behaviour": [
+  {
+   "suffix": "lx.000110",
+   "mechanism": "abstraction",
+   "form": "nutopisusap",
+   "sort": "s.sort.kind",
+   "definition": "what every instance of [parents and their children, or agents of one lineage] has in common"
+  },
+  {
+   "suffix": "lx.000112",
+   "mechanism": "verbalisation",
+   "form": "nutopisasey",
+   "sort": "s.sort.event",
+   "definition": "act by means of [parents and their children, or agents of one lineage]"
+  },
+  {
+   "suffix": "lx.000113",
+   "mechanism": "adjectivisation",
+   "form": "nutopisuyik",
+   "sort": "s.sort.state",
+   "definition": "be of the kind [parents and their children, or agents of one lineage] names"
+  },
+  {
+   "suffix": "lx.000184",
+   "mechanism": "honorific",
+   "form": "nutopisayuk",
+   "sort": "s.sort.collective",
+   "definition": "[parents and their children, or agents of one lineage], named with deference"
+  }
+ ],
+ "register": [
+  "R0",
+  "R1",
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7"
+ ],
+ "collocations": [],
+ "synonyms": [],
+ "antonyms": [],
+ "related concepts": [
+  {
+   "entry": "lx.000227",
+   "relation": "kind of"
+  },
+  {
+   "entry": "lx.000107",
+   "relation": "involved in"
+  },
+  {
+   "entry": "lx.000566",
+   "relation": "involved in"
+  }
+ ],
+ "examples": [],
+ "version": {
+  "introduced": "1.0",
+  "deprecated": null
+ },
+ "key": "family"
+}

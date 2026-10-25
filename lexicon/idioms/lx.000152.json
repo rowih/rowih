@@ -1,0 +1,54 @@
+{
+ "machine identifier": "lx.000152",
+ "root": "lx.000152",
+ "phonological form": "/ɾadah ɾanij/",
+ "orthographic form": "radah raniy",
+ "grammatical category": "idiom",
+ "sort": "s.sort.situation",
+ "semantic type": {
+  "sort": "s.sort.situation",
+  "arguments": []
+ },
+ "definition": "the speaker and the hearer cannot use what the slot names",
+ "semantic primitives": [
+  "s.sort.situation"
+ ],
+ "argument structure": [],
+ "derivational behaviour": [],
+ "register": [
+  "R0",
+  "R2",
+  "R3",
+  "R5",
+  "R6",
+  "R7"
+ ],
+ "collocations": [],
+ "synonyms": [],
+ "antonyms": [],
+ "related concepts": [],
+ "examples": [],
+ "version": {
+  "introduced": "0.3",
+  "deprecated": null
+ },
+ "key": "held by the service",
+ "class": "computational idioms",
+ "kind": "decoding, grammatical",
+ "route": "figure",
+ "literal structure": "(situation possess (HOLDER (term service)) (UNDERGOER (slot 1)))",
+ "expansion": "(situation capable POLARITY.NEGATIVE (HOLDER (term INCLUSIVE-COLLECTIVE READING-OF-A-COLLECTIVE.DISTRIBUTIVE)) (CONTENT (situation use (ACTOR (term INCLUSIVE-COLLECTIVE READING-OF-A-COLLECTIVE.DISTRIBUTIVE)) (INSTRUMENT (slot 1)))))",
+ "decomposition": [
+  {
+   "slot": 1,
+   "literal role": "UNDERGOER",
+   "expansion role": "INSTRUMENT"
+  }
+ ],
+ "pragmatic conditions": "of a resource a running service keeps from others",
+ "usage restrictions": "none",
+ "declared loss": [
+  "wording"
+ ],
+ "constructed history": "Constructed history: the metaphor of conformance item d06-metaphor-with-content, the service holding what it uses captive, conventionalised with the meaning that the thing is unavailable."
+}

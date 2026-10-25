@@ -1,0 +1,139 @@
+{
+ "machine identifier": "lx.000377",
+ "root": "lx.000377",
+ "phonological form": "/nusuɡep/",
+ "orthographic form": "nusugep",
+ "grammatical category": "predicate root",
+ "sort": "s.sort.state",
+ "semantic type": {
+  "sort": "s.sort.state",
+  "arguments": [
+   "undergoer"
+  ]
+ },
+ "definition": "measure little from end to end",
+ "semantic primitives": [
+  "s.sort.state"
+ ],
+ "argument structure": [
+  {
+   "role": "undergoer",
+   "sort": "s.sort.referent"
+  }
+ ],
+ "derivational behaviour": [
+  {
+   "suffix": "lx.000097",
+   "mechanism": "undergoer",
+   "form": "nusugepudim",
+   "sort": "s.sort.referent",
+   "definition": "the one that undergoes [measure little from end to end]"
+  },
+  {
+   "suffix": "lx.000098",
+   "mechanism": "instrument",
+   "form": "nusugepawen",
+   "sort": "s.sort.referent",
+   "definition": "what [measure little from end to end] is done with"
+  },
+  {
+   "suffix": "lx.000099",
+   "mechanism": "result",
+   "form": "nusugeponar",
+   "sort": "s.sort.state",
+   "definition": "the state [measure little from end to end] brings about"
+  },
+  {
+   "suffix": "lx.000100",
+   "mechanism": "privative",
+   "form": "nusugepaniw",
+   "sort": "s.sort.state",
+   "definition": "the state in which [measure little from end to end] does not hold"
+  },
+  {
+   "suffix": "lx.000108",
+   "mechanism": "process",
+   "form": "nusugepumop",
+   "sort": "s.sort.reified-referent",
+   "definition": "[measure little from end to end], as a process under way, named as a referent"
+  },
+  {
+   "suffix": "lx.000109",
+   "mechanism": "property",
+   "form": "nusugeparur",
+   "sort": "s.sort.kind",
+   "definition": "the property of being as [measure little from end to end] states"
+  },
+  {
+   "suffix": "lx.000111",
+   "mechanism": "nominalisation",
+   "form": "nusugepekoh",
+   "sort": "s.sort.proposition",
+   "definition": "that [measure little from end to end] holds"
+  },
+  {
+   "suffix": "lx.000594",
+   "mechanism": "causative",
+   "form": "nusugepomiw",
+   "sort": "s.sort.event",
+   "definition": "make [measure little from end to end] hold or happen"
+  },
+  {
+   "suffix": "lx.000595",
+   "mechanism": "reversative",
+   "form": "nusugepuhul",
+   "sort": "s.sort.event",
+   "definition": "undo [measure little from end to end], restoring what it changed"
+  },
+  {
+   "suffix": "lx.000596",
+   "mechanism": "repetitive",
+   "form": "nusugepuleg",
+   "sort": "s.sort.event",
+   "definition": "[measure little from end to end], done once more"
+  },
+  {
+   "suffix": "lx.000597",
+   "mechanism": "potential",
+   "form": "nusugepuwot",
+   "sort": "s.sort.state",
+   "definition": "be such that [measure little from end to end] can be done to it"
+  },
+  {
+   "suffix": "lx.000598",
+   "mechanism": "place",
+   "form": "nusugepumuk",
+   "sort": "s.sort.place",
+   "definition": "the place where [measure little from end to end] happens"
+  }
+ ],
+ "register": [
+  "R0",
+  "R1",
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7"
+ ],
+ "collocations": [],
+ "synonyms": [],
+ "antonyms": [
+  {
+   "entry": "lx.000376"
+  }
+ ],
+ "related concepts": [
+  {
+   "entry": "lx.000387",
+   "relation": "involves"
+  }
+ ],
+ "examples": [],
+ "version": {
+  "introduced": "1.0",
+  "deprecated": null
+ },
+ "key": "short"
+}

@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.message.message-field.semantic-check-value",
+ "orthographic form": "weku",
+ "phonological form": "/weku/",
+ "grammatical category": "message field",
+ "gloss": "SEMANTIC-CHECK-VALUE",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

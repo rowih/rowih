@@ -1,0 +1,46 @@
+{
+ "machine identifier": "lx.000857",
+ "root": "lx.000857",
+ "phonological form": "/ɾutij ɾatoɾ/",
+ "orthographic form": "rutiy rator",
+ "grammatical category": "idiom",
+ "sort": "s.sort.situation",
+ "semantic type": {
+  "sort": "s.sort.situation",
+  "arguments": []
+ },
+ "definition": "the speaker has counted the words referred to, and so checked them",
+ "semantic primitives": [
+  "s.sort.situation"
+ ],
+ "argument structure": [],
+ "derivational behaviour": [],
+ "register": [
+  "R0",
+  "R2",
+  "R5",
+  "R6"
+ ],
+ "collocations": [],
+ "synonyms": [],
+ "antonyms": [],
+ "related concepts": [],
+ "examples": [],
+ "version": {
+  "introduced": "1.0",
+  "deprecated": null
+ },
+ "key": "count, said short",
+ "class": "compressed expressions",
+ "kind": "decoding, grammatical",
+ "route": "compression",
+ "literal structure": "(situation count (UNDERGOER (term word)))",
+ "expansion": "(situation count PERFECTIVE (ACTOR (term SELF)) (UNDERGOER (term word DEFINITE)))",
+ "decomposition": [],
+ "pragmatic conditions": "in answer to a request for status about the act, between agents that share its undergoer",
+ "usage restrictions": "none",
+ "declared loss": [
+  "wording"
+ ],
+ "constructed history": "Constructed history: the frequent report of the act, shortened until the speaker, the aspect and the definiteness of its undergoer went without saying."
+}

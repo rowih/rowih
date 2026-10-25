@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.situations-and-contents.quantifier.existential",
+ "orthographic form": "gipu",
+ "phonological form": "/ɡipu/",
+ "grammatical category": "quantifier",
+ "gloss": "EXISTENTIAL",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

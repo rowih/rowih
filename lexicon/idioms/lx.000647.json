@@ -1,0 +1,56 @@
+{
+ "machine identifier": "lx.000647",
+ "root": "lx.000647",
+ "phonological form": "/ɾulem nubidek/",
+ "orthographic form": "rulem nubidek",
+ "grammatical category": "idiom",
+ "sort": "s.sort.situation",
+ "semantic type": {
+  "sort": "s.sort.situation",
+  "arguments": []
+ },
+ "definition": "the speaker is certain that what the slot names holds",
+ "semantic primitives": [
+  "s.sort.situation"
+ ],
+ "argument structure": [],
+ "derivational behaviour": [],
+ "register": [
+  "R0",
+  "R1",
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7"
+ ],
+ "collocations": [],
+ "synonyms": [],
+ "antonyms": [],
+ "related concepts": [],
+ "examples": [],
+ "version": {
+  "introduced": "1.0",
+  "deprecated": null
+ },
+ "key": "unmoved by wind",
+ "class": "confirmations",
+ "kind": "encoding, grammatical",
+ "route": "formula",
+ "literal structure": "(situation move POLARITY.NEGATIVE (UNDERGOER (slot 1)) (CONTENT (term wind)))",
+ "expansion": "(situation BELIEF CERTAIN (HOLDER (term SELF)) (CONTENT (slot 1)))",
+ "decomposition": [
+  {
+   "slot": 1,
+   "literal role": "UNDERGOER",
+   "expansion role": "CONTENT"
+  }
+ ],
+ "pragmatic conditions": "confirming a position of the hearer's beyond doubt",
+ "usage restrictions": "none",
+ "declared loss": [
+  "stance"
+ ],
+ "constructed history": "Constructed history: a stone does not move in the wind, and a position no doubt could move was said to stand so."
+}

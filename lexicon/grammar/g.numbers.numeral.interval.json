@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.numbers.numeral.interval",
+ "orthographic form": "niru",
+ "phonological form": "/niɾu/",
+ "grammatical category": "numeral",
+ "gloss": "INTERVAL",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

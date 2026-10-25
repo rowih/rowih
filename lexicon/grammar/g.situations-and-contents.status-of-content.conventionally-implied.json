@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.situations-and-contents.status-of-content.conventionally-implied",
+ "orthographic form": "butu",
+ "phonological form": "/butu/",
+ "grammatical category": "status of content",
+ "gloss": "CONVENTIONALLY-IMPLIED",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

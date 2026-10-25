@@ -1,0 +1,76 @@
+{
+ "machine identifier": "lx.000468",
+ "root": "lx.000468",
+ "phonological form": "/numesuh/",
+ "orthographic form": "numesuh",
+ "grammatical category": "nominal root",
+ "sort": "s.sort.collective",
+ "semantic type": {
+  "sort": "s.sort.collective",
+  "arguments": []
+ },
+ "definition": "agents who work together toward one result",
+ "semantic primitives": [
+  "s.sort.collective"
+ ],
+ "argument structure": [],
+ "derivational behaviour": [
+  {
+   "suffix": "lx.000110",
+   "mechanism": "abstraction",
+   "form": "numesuhusap",
+   "sort": "s.sort.kind",
+   "definition": "what every instance of [agents who work together toward one result] has in common"
+  },
+  {
+   "suffix": "lx.000112",
+   "mechanism": "verbalisation",
+   "form": "numesuhasey",
+   "sort": "s.sort.event",
+   "definition": "act by means of [agents who work together toward one result]"
+  },
+  {
+   "suffix": "lx.000113",
+   "mechanism": "adjectivisation",
+   "form": "numesuhuyik",
+   "sort": "s.sort.state",
+   "definition": "be of the kind [agents who work together toward one result] names"
+  },
+  {
+   "suffix": "lx.000184",
+   "mechanism": "honorific",
+   "form": "numesuhayuk",
+   "sort": "s.sort.collective",
+   "definition": "[agents who work together toward one result], named with deference"
+  }
+ ],
+ "register": [
+  "R0",
+  "R1",
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7"
+ ],
+ "collocations": [],
+ "synonyms": [],
+ "antonyms": [],
+ "related concepts": [
+  {
+   "entry": "lx.000227",
+   "relation": "kind of"
+  },
+  {
+   "entry": "lx.000252",
+   "relation": "involves"
+  }
+ ],
+ "examples": [],
+ "version": {
+  "introduced": "1.0",
+  "deprecated": null
+ },
+ "key": "team"
+}

@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.ambiguity-and-figures.register.protocol",
+ "orthographic form": "liko",
+ "phonological form": "/liko/",
+ "grammatical category": "register",
+ "gloss": "PROTOCOL",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.6"
+ }
+}

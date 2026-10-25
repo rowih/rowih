@@ -1,0 +1,57 @@
+{
+ "machine identifier": "lx.000136",
+ "root": "lx.000136",
+ "phonological form": "/konito/",
+ "orthographic form": "konito",
+ "grammatical category": "act word",
+ "sort": "s.sort.move",
+ "semantic type": {
+  "sort": "s.sort.move",
+  "arguments": []
+ },
+ "definition": "the conventional expression of error report: ASSERTED-POSITION RESOLUTION FAILURE WHOLE-ENTRY WHEN-THE-CHANGE-TAKES-EFFECT.ON-ACCEPTANCE",
+ "semantic primitives": [
+  "s.sort.move"
+ ],
+ "argument structure": [],
+ "derivational behaviour": [],
+ "register": [
+  "R0",
+  "R1",
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7"
+ ],
+ "collocations": [],
+ "synonyms": [],
+ "antonyms": [],
+ "related concepts": [],
+ "examples": [],
+ "version": {
+  "introduced": "0.3",
+  "deprecated": null
+ },
+ "key": "error report",
+ "expansion": [
+  "g.force.what-the-move-adds.asserted-position",
+  "g.force.change-made.resolution",
+  "g.force.outcome-of-a-resolution.failure",
+  "g.force.extent.whole-entry",
+  "g.force.when-the-change-takes-effect.on-acceptance"
+ ],
+ "acts": [
+  "error report"
+ ],
+ "answers": null,
+ "kind": "encoding, grammatical",
+ "route": "compression",
+ "literal structure": "konito",
+ "decomposition": [],
+ "pragmatic conditions": "wherever the head it expands may be written",
+ "usage restrictions": "none",
+ "declared loss": [],
+ "constructed history": "Constructed history: the head ASSERTED-POSITION RESOLUTION FAILURE WHOLE-ENTRY WHEN-THE-CHANGE-TAKES-EFFECT.ON-ACCEPTANCE, frequent enough to be said as one word, shortened to the force word that now stands for it."
+}

@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.numbers.numeral.five",
+ "orthographic form": "neta",
+ "phonological form": "/neta/",
+ "grammatical category": "numeral",
+ "gloss": "FIVE",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

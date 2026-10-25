@@ -1,0 +1,484 @@
+{
+ "dialect": "linguistics",
+ "number": 7,
+ "community": "linguistics",
+ "version": "0.2",
+ "date": "2026-10-17",
+ "formed from lexicon": "1.0",
+ "reading": "each term means the composition of its stems, as the rules of word formation give it",
+ "terms": [
+  {
+   "machine identifier": "jg.linguistics.001",
+   "term": "lexeme",
+   "orthographic form": "ratorusap",
+   "phonological form": "/ɾatoɾusap/",
+   "grammatical category": "jargon",
+   "sort": "s.sort.kind",
+   "semantic type": {
+    "sort": "s.sort.kind",
+    "arguments": []
+   },
+   "definition": "what every instance of [a word of the language] has in common",
+   "argument structure": [],
+   "formed from": [
+    [
+     "lx.000079",
+     "lx.000110"
+    ]
+   ],
+   "mechanism": "abstraction",
+   "register": [
+    "R0",
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7"
+   ],
+   "scope": {
+    "dialect": "linguistics",
+    "version": "0.1"
+   },
+   "validity": "from the dialect's release, without end",
+   "provenance": "generated from its stems by tools/build_registers.py",
+   "acceptance status": "released",
+   "version": {
+    "introduced": "0.1",
+    "deprecated": null
+   },
+   "key": "lexeme"
+  },
+  {
+   "machine identifier": "jg.linguistics.002",
+   "term": "interpretation",
+   "orthographic form": "rolabonar",
+   "phonological form": "/ɾolabonaɾ/",
+   "grammatical category": "jargon",
+   "sort": "s.sort.state",
+   "semantic type": {
+    "sort": "s.sort.state",
+    "arguments": [
+     "actor",
+     "undergoer",
+     "content"
+    ]
+   },
+   "definition": "the state [assign a meaning to an expression] brings about",
+   "argument structure": [
+    {
+     "role": "actor",
+     "sort": "s.sort.agent"
+    },
+    {
+     "role": "undergoer",
+     "sort": "s.sort.referent"
+    },
+    {
+     "role": "content",
+     "sort": "s.sort.proposition"
+    }
+   ],
+   "formed from": [
+    [
+     "lx.000033",
+     "lx.000099"
+    ]
+   ],
+   "mechanism": "result",
+   "register": [
+    "R0",
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7"
+   ],
+   "scope": {
+    "dialect": "linguistics",
+    "version": "0.1"
+   },
+   "validity": "from the dialect's release, without end",
+   "provenance": "generated from its stems by tools/build_registers.py",
+   "acceptance status": "released",
+   "version": {
+    "introduced": "0.1",
+    "deprecated": null
+   },
+   "key": "interpretation"
+  },
+  {
+   "machine identifier": "jg.linguistics.003",
+   "term": "meaningfulness",
+   "orthographic form": "rebitarur",
+   "phonological form": "/ɾebitaɾuɾ/",
+   "grammatical category": "jargon",
+   "sort": "s.sort.kind",
+   "semantic type": {
+    "sort": "s.sort.kind",
+    "arguments": []
+   },
+   "definition": "the property of being as [have a content as meaning] states",
+   "argument structure": [],
+   "formed from": [
+    [
+     "lx.000034",
+     "lx.000109"
+    ]
+   ],
+   "mechanism": "property",
+   "register": [
+    "R0",
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7"
+   ],
+   "scope": {
+    "dialect": "linguistics",
+    "version": "0.1"
+   },
+   "validity": "from the dialect's release, without end",
+   "provenance": "generated from its stems by tools/build_registers.py",
+   "acceptance status": "released",
+   "version": {
+    "introduced": "0.1",
+    "deprecated": null
+   },
+   "key": "meaningfulness"
+  },
+  {
+   "machine identifier": "jg.linguistics.004",
+   "term": "corpus",
+   "orthographic form": "runayiregab",
+   "phonological form": "/ɾunajiɾeɡab/",
+   "grammatical category": "jargon",
+   "sort": "s.sort.object",
+   "semantic type": {
+    "sort": "s.sort.object",
+    "arguments": []
+   },
+   "definition": "[a stored record], bearing on [a system of communication]",
+   "argument structure": [],
+   "formed from": [
+    [
+     "lx.000007"
+    ],
+    [
+     "lx.000081"
+    ]
+   ],
+   "mechanism": "compound",
+   "register": [
+    "R0",
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7"
+   ],
+   "scope": {
+    "dialect": "linguistics",
+    "version": "0.1"
+   },
+   "validity": "from the dialect's release, without end",
+   "provenance": "generated from its stems by tools/build_registers.py",
+   "acceptance status": "released",
+   "version": {
+    "introduced": "0.1",
+    "deprecated": null
+   },
+   "key": "corpus"
+  },
+  {
+   "machine identifier": "jg.linguistics.005",
+   "term": "writer",
+   "orthographic form": "rurohaheh",
+   "phonological form": "/ɾuɾohaheh/",
+   "grammatical category": "jargon",
+   "sort": "s.sort.agent",
+   "semantic type": {
+    "sort": "s.sort.agent",
+    "arguments": []
+   },
+   "definition": "the one that is actor of [set something down]",
+   "argument structure": [],
+   "formed from": [
+    [
+     "lx.000036",
+     "lx.000096"
+    ]
+   ],
+   "mechanism": "agent",
+   "register": [
+    "R0",
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7"
+   ],
+   "scope": {
+    "dialect": "linguistics",
+    "version": "0.1"
+   },
+   "validity": "from the dialect's release, without end",
+   "provenance": "generated from its stems by tools/build_registers.py",
+   "acceptance status": "released",
+   "version": {
+    "introduced": "0.1",
+    "deprecated": null
+   },
+   "key": "writer"
+  },
+  {
+   "machine identifier": "jg.linguistics.006",
+   "term": "syntax",
+   "orthographic form": "numusuginuyarit",
+   "phonological form": "/numusuɡinujaɾit/",
+   "grammatical category": "jargon",
+   "sort": "s.sort.kind",
+   "semantic type": {
+    "sort": "s.sort.kind",
+    "arguments": []
+   },
+   "definition": "[the rules by which a language forms its expressions], bearing on [a unit of a human language that expresses a whole statement, question or request]",
+   "argument structure": [],
+   "formed from": [
+    [
+     "lx.000243"
+    ],
+    [
+     "lx.000239"
+    ]
+   ],
+   "mechanism": "compound",
+   "register": [
+    "R0",
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7"
+   ],
+   "scope": {
+    "dialect": "linguistics",
+    "version": "0.2"
+   },
+   "validity": "from the dialect's release, without end",
+   "provenance": "generated from its stems by tools/build_version1.py",
+   "acceptance status": "released",
+   "version": {
+    "introduced": "0.2",
+    "deprecated": null
+   },
+   "key": "syntax"
+  },
+  {
+   "machine identifier": "jg.linguistics.007",
+   "term": "phoneme",
+   "orthographic form": "numiyuhinusitik",
+   "phonological form": "/numijuhinusitik/",
+   "grammatical category": "jargon",
+   "sort": "s.sort.kind",
+   "semantic type": {
+    "sort": "s.sort.kind",
+    "arguments": []
+   },
+   "definition": "[what is heard], bearing on [a written mark that stands for a sound, a number or an idea]",
+   "argument structure": [],
+   "formed from": [
+    [
+     "lx.000404"
+    ],
+    [
+     "lx.000241"
+    ]
+   ],
+   "mechanism": "compound",
+   "register": [
+    "R0",
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7"
+   ],
+   "scope": {
+    "dialect": "linguistics",
+    "version": "0.2"
+   },
+   "validity": "from the dialect's release, without end",
+   "provenance": "generated from its stems by tools/build_version1.py",
+   "acceptance status": "released",
+   "version": {
+    "introduced": "0.2",
+    "deprecated": null
+   },
+   "key": "phoneme"
+  },
+  {
+   "machine identifier": "jg.linguistics.008",
+   "term": "semantics",
+   "orthographic form": "nukopegirowih",
+   "phonological form": "/nukopeɡiɾowih/",
+   "grammatical category": "jargon",
+   "sort": "s.sort.kind",
+   "semantic type": {
+    "sort": "s.sort.kind",
+    "arguments": []
+   },
+   "definition": "[an explanation of how something works, supported by evidence], bearing on [what an expression means]",
+   "argument structure": [],
+   "formed from": [
+    [
+     "lx.000509"
+    ],
+    [
+     "lx.000080"
+    ]
+   ],
+   "mechanism": "compound",
+   "register": [
+    "R0",
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7"
+   ],
+   "scope": {
+    "dialect": "linguistics",
+    "version": "0.2"
+   },
+   "validity": "from the dialect's release, without end",
+   "provenance": "generated from its stems by tools/build_version1.py",
+   "acceptance status": "released",
+   "version": {
+    "introduced": "0.2",
+    "deprecated": null
+   },
+   "key": "semantics"
+  },
+  {
+   "machine identifier": "jg.linguistics.009",
+   "term": "translation",
+   "orthographic form": "nulidesonar",
+   "phonological form": "/nulidesonaɾ/",
+   "grammatical category": "jargon",
+   "sort": "s.sort.state",
+   "semantic type": {
+    "sort": "s.sort.state",
+    "arguments": [
+     "actor",
+     "undergoer",
+     "content"
+    ]
+   },
+   "definition": "the state [express in one language what was expressed in another] brings about",
+   "argument structure": [
+    {
+     "role": "actor",
+     "sort": "s.sort.agent"
+    },
+    {
+     "role": "undergoer",
+     "sort": "s.sort.referent"
+    },
+    {
+     "role": "content",
+     "sort": "s.sort.referent"
+    }
+   ],
+   "formed from": [
+    [
+     "lx.000236",
+     "lx.000099"
+    ]
+   ],
+   "mechanism": "result",
+   "register": [
+    "R0",
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7"
+   ],
+   "scope": {
+    "dialect": "linguistics",
+    "version": "0.2"
+   },
+   "validity": "from the dialect's release, without end",
+   "provenance": "generated from its stems by tools/build_version1.py",
+   "acceptance status": "released",
+   "version": {
+    "introduced": "0.2",
+    "deprecated": null
+   },
+   "key": "translation"
+  },
+  {
+   "machine identifier": "jg.linguistics.010",
+   "term": "speaker",
+   "orthographic form": "nukogemaheh",
+   "phonological form": "/nukoɡemaheh/",
+   "grammatical category": "jargon",
+   "sort": "s.sort.agent",
+   "semantic type": {
+    "sort": "s.sort.agent",
+    "arguments": []
+   },
+   "definition": "the one that is actor of [use language aloud]",
+   "argument structure": [],
+   "formed from": [
+    [
+     "lx.000233",
+     "lx.000096"
+    ]
+   ],
+   "mechanism": "agent",
+   "register": [
+    "R0",
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7"
+   ],
+   "scope": {
+    "dialect": "linguistics",
+    "version": "0.2"
+   },
+   "validity": "from the dialect's release, without end",
+   "provenance": "generated from its stems by tools/build_version1.py",
+   "acceptance status": "released",
+   "version": {
+    "introduced": "0.2",
+    "deprecated": null
+   },
+   "key": "speaker"
+  }
+ ],
+ "digest": "726583995"
+}

@@ -1,0 +1,151 @@
+{
+ "machine identifier": "lx.000470",
+ "root": "lx.000470",
+ "phonological form": "/nukunos/",
+ "orthographic form": "nukunos",
+ "grammatical category": "predicate root",
+ "sort": "s.sort.process",
+ "semantic type": {
+  "sort": "s.sort.process",
+  "arguments": [
+   "actor",
+   "undergoer"
+  ]
+ },
+ "definition": "struggle against someone with force",
+ "semantic primitives": [
+  "s.sort.process"
+ ],
+ "argument structure": [
+  {
+   "role": "actor",
+   "sort": "s.sort.agent"
+  },
+  {
+   "role": "undergoer",
+   "sort": "s.sort.agent"
+  }
+ ],
+ "derivational behaviour": [
+  {
+   "suffix": "lx.000096",
+   "mechanism": "agent",
+   "form": "nukunosaheh",
+   "sort": "s.sort.agent",
+   "definition": "the one that is actor of [struggle against someone with force]"
+  },
+  {
+   "suffix": "lx.000097",
+   "mechanism": "undergoer",
+   "form": "nukunosudim",
+   "sort": "s.sort.agent",
+   "definition": "the one that undergoes [struggle against someone with force]"
+  },
+  {
+   "suffix": "lx.000098",
+   "mechanism": "instrument",
+   "form": "nukunosawen",
+   "sort": "s.sort.referent",
+   "definition": "what [struggle against someone with force] is done with"
+  },
+  {
+   "suffix": "lx.000099",
+   "mechanism": "result",
+   "form": "nukunosonar",
+   "sort": "s.sort.state",
+   "definition": "the state [struggle against someone with force] brings about"
+  },
+  {
+   "suffix": "lx.000100",
+   "mechanism": "privative",
+   "form": "nukunosaniw",
+   "sort": "s.sort.state",
+   "definition": "the state in which [struggle against someone with force] does not hold"
+  },
+  {
+   "suffix": "lx.000108",
+   "mechanism": "process",
+   "form": "nukunosumop",
+   "sort": "s.sort.reified-referent",
+   "definition": "[struggle against someone with force], as a process under way, named as a referent"
+  },
+  {
+   "suffix": "lx.000109",
+   "mechanism": "property",
+   "form": "nukunosarur",
+   "sort": "s.sort.kind",
+   "definition": "the property of being as [struggle against someone with force] states"
+  },
+  {
+   "suffix": "lx.000111",
+   "mechanism": "nominalisation",
+   "form": "nukunosekoh",
+   "sort": "s.sort.proposition",
+   "definition": "that [struggle against someone with force] holds"
+  },
+  {
+   "suffix": "lx.000594",
+   "mechanism": "causative",
+   "form": "nukunosomiw",
+   "sort": "s.sort.event",
+   "definition": "make [struggle against someone with force] hold or happen"
+  },
+  {
+   "suffix": "lx.000595",
+   "mechanism": "reversative",
+   "form": "nukunosuhul",
+   "sort": "s.sort.event",
+   "definition": "undo [struggle against someone with force], restoring what it changed"
+  },
+  {
+   "suffix": "lx.000596",
+   "mechanism": "repetitive",
+   "form": "nukunosuleg",
+   "sort": "s.sort.event",
+   "definition": "[struggle against someone with force], done once more"
+  },
+  {
+   "suffix": "lx.000597",
+   "mechanism": "potential",
+   "form": "nukunosuwot",
+   "sort": "s.sort.state",
+   "definition": "be such that [struggle against someone with force] can be done to it"
+  },
+  {
+   "suffix": "lx.000598",
+   "mechanism": "place",
+   "form": "nukunosumuk",
+   "sort": "s.sort.place",
+   "definition": "the place where [struggle against someone with force] happens"
+  }
+ ],
+ "register": [
+  "R0",
+  "R1",
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7"
+ ],
+ "collocations": [],
+ "synonyms": [],
+ "antonyms": [],
+ "related concepts": [
+  {
+   "entry": "lx.000473",
+   "relation": "involves"
+  },
+  {
+   "entry": "lx.000471",
+   "relation": "involved in"
+  }
+ ],
+ "examples": [],
+ "version": {
+  "introduced": "1.0",
+  "deprecated": null
+ },
+ "key": "fight"
+}

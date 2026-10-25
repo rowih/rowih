@@ -1,0 +1,42 @@
+{
+ "machine identifier": "lx.000104",
+ "root": "lx.000104",
+ "phonological form": "/ɡiseuɡow/",
+ "orthographic form": "giseugow",
+ "grammatical category": "derivation",
+ "sort": "s.sort.proposition",
+ "semantic type": {
+  "sort": "s.sort.proposition",
+  "arguments": []
+ },
+ "definition": "a content named by the part it plays in a condition",
+ "semantic primitives": [
+  "s.sort.proposition"
+ ],
+ "argument structure": [],
+ "derivational behaviour": [],
+ "register": [
+  "R0",
+  "R1",
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7"
+ ],
+ "collocations": [],
+ "synonyms": [],
+ "antonyms": [],
+ "related concepts": [],
+ "examples": [],
+ "version": {
+  "introduced": "0.1",
+  "deprecated": null
+ },
+ "key": "proviso",
+ "formed from": [
+  "g.situations-and-contents.connective.condition",
+  "lx.000101"
+ ]
+}

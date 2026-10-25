@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.ambiguity-and-figures.precision-bound-declaration.precision-bound",
+ "orthographic form": "sura",
+ "phonological form": "/suɾa/",
+ "grammatical category": "precision-bound declaration",
+ "gloss": "PRECISION-BOUND",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.force.outcome-of-a-resolution.failure",
+ "orthographic form": "kutomi",
+ "phonological form": "/kutomi/",
+ "grammatical category": "outcome of a resolution",
+ "gloss": "FAILURE",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

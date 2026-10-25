@@ -1,0 +1,64 @@
+{
+ "machine identifier": "lx.000786",
+ "literal structure": {
+  "kind": "situation",
+  "name": null,
+  "parts": [
+   {
+    "kind": "word",
+    "form": "nuyuhid",
+    "entry": "lx.000315",
+    "status": "known"
+   },
+   {
+    "kind": "value",
+    "member": "g.situations-and-contents.aspect.iterative"
+   },
+   {
+    "kind": "filler",
+    "role": "g.situations-and-contents.participation.undergoer",
+    "filler": {
+     "kind": "slot",
+     "slot": 1
+    }
+   },
+   {
+    "kind": "filler",
+    "role": "g.situations-and-contents.participation.content",
+    "filler": {
+     "kind": "term",
+     "name": null,
+     "parts": [
+      {
+       "kind": "word",
+       "form": "nunebet",
+       "entry": "lx.000526",
+       "status": "known"
+      }
+     ]
+    }
+   }
+  ]
+ },
+ "expansion": {
+  "kind": "situation",
+  "name": null,
+  "parts": [
+   {
+    "kind": "word",
+    "form": "nudigop",
+    "entry": "lx.000299",
+    "status": "known"
+   },
+   {
+    "kind": "filler",
+    "role": "g.situations-and-contents.participation.undergoer",
+    "filler": {
+     "kind": "slot",
+     "slot": 1
+    }
+   }
+  ]
+ },
+ "generated from": "lexicon/idioms/lx.000786.json"
+}

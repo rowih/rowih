@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.standing.provenance-link.relayer",
+ "orthographic form": "tanudo",
+ "phonological form": "/tanudo/",
+ "grammatical category": "provenance link",
+ "gloss": "RELAYER",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

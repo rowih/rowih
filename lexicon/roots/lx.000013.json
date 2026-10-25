@@ -1,0 +1,50 @@
+{
+ "machine identifier": "lx.000013",
+ "root": "lx.000013",
+ "phonological form": "/ɾoɡen/",
+ "orthographic form": "rogen",
+ "grammatical category": "predicate root",
+ "sort": "s.sort.state",
+ "semantic type": {
+  "sort": "s.sort.state",
+  "arguments": [
+   "holder",
+   "content"
+  ]
+ },
+ "definition": "be without a tool an action needs",
+ "semantic primitives": [
+  "s.sort.state"
+ ],
+ "argument structure": [
+  {
+   "role": "holder",
+   "sort": "s.sort.agent"
+  },
+  {
+   "role": "content",
+   "sort": "s.sort.situation"
+  }
+ ],
+ "derivational behaviour": [],
+ "register": [
+  "R0",
+  "R1",
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7"
+ ],
+ "collocations": [],
+ "synonyms": [],
+ "antonyms": [],
+ "related concepts": [],
+ "examples": [],
+ "version": {
+  "introduced": "0.1",
+  "deprecated": null
+ },
+ "key": "lack tool"
+}

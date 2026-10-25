@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.protocol.protocol-statement.understands",
+ "orthographic form": "yiwu",
+ "phonological form": "/jiwu/",
+ "grammatical category": "protocol statement",
+ "gloss": "UNDERSTANDS",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.10"
+ }
+}

@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.reference.person.interlocutor",
+ "orthographic form": "muto",
+ "phonological form": "/muto/",
+ "grammatical category": "person",
+ "gloss": "INTERLOCUTOR",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

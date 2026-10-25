@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.numbers.numeral.seven",
+ "orthographic form": "negi",
+ "phonological form": "/neɡi/",
+ "grammatical category": "numeral",
+ "gloss": "SEVEN",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

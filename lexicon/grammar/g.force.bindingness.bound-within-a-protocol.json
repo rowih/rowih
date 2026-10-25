@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.force.bindingness.bound-within-a-protocol",
+ "orthographic form": "kuhapu",
+ "phonological form": "/kuhapu/",
+ "grammatical category": "bindingness",
+ "gloss": "BOUND-WITHIN-A-PROTOCOL",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.attitudes-and-aims.execution-phase.failed",
+ "orthographic form": "bage",
+ "phonological form": "/baɡe/",
+ "grammatical category": "execution phase",
+ "gloss": "FAILED",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

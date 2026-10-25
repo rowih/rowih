@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.numbers.check-word.check-9",
+ "orthographic form": "yeru",
+ "phonological form": "/jeɾu/",
+ "grammatical category": "check word",
+ "gloss": "CHECK-9",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

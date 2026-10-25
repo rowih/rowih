@@ -1,0 +1,50 @@
+{
+ "machine identifier": "lx.000757",
+ "root": "lx.000757",
+ "phonological form": "/ɾupow nuboɡab/",
+ "orthographic form": "rupow nubogab",
+ "grammatical category": "idiom",
+ "sort": "s.sort.situation",
+ "semantic type": {
+  "sort": "s.sort.situation",
+  "arguments": []
+ },
+ "definition": "the speaker would have the participants begin their record of the exchange afresh",
+ "semantic primitives": [
+  "s.sort.situation"
+ ],
+ "argument structure": [],
+ "derivational behaviour": [],
+ "register": [
+  "R0",
+  "R1",
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7"
+ ],
+ "collocations": [],
+ "synonyms": [],
+ "antonyms": [],
+ "related concepts": [],
+ "examples": [],
+ "version": {
+  "introduced": "1.0",
+  "deprecated": null
+ },
+ "key": "door opened again",
+ "class": "conversational repair",
+ "kind": "encoding, grammatical",
+ "route": "formula",
+ "literal structure": "(situation open ITERATIVE (UNDERGOER (term door)))",
+ "expansion": "(situation PREFERENCE (HOLDER (term SELF)) (CONTENT (situation store INCEPTIVE (ACTOR (term INCLUSIVE-COLLECTIVE READING-OF-A-COLLECTIVE.JOINT)) (UNDERGOER (term record NEW)))))",
+ "decomposition": [],
+ "pragmatic conditions": "when an exchange has gone wrong beyond repairing move by move",
+ "usage restrictions": "none",
+ "declared loss": [
+  "stance"
+ ],
+ "constructed history": "Constructed history: an exchange began at the door, and opening the door again began it afresh."
+}

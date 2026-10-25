@@ -1,0 +1,31 @@
+{
+ "machine identifier": "mp.000001",
+ "name": "IDEAS ARE OBJECTS",
+ "source domain": "objects held and handed over",
+ "target domain": "contents understood and told",
+ "correspondences": [
+  {
+   "source": "an object",
+   "target": "a content"
+  },
+  {
+   "source": "getting hold of an object",
+   "target": "coming to understand a content"
+  },
+  {
+   "source": "the one who holds the object",
+   "target": "the one who understands the content"
+  },
+  {
+   "source": "handing an object over",
+   "target": "making a content understood"
+  }
+ ],
+ "motivates": [
+  "lx.000189"
+ ],
+ "version": {
+  "introduced": "0.5",
+  "deprecated": null
+ }
+}

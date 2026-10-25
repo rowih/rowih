@@ -1,0 +1,128 @@
+{
+ "machine identifier": "lx.000312",
+ "root": "lx.000312",
+ "phonological form": "/nuniɡun/",
+ "orthographic form": "nunigun",
+ "grammatical category": "predicate root",
+ "sort": "s.sort.process",
+ "semantic type": {
+  "sort": "s.sort.process",
+  "arguments": [
+   "actor"
+  ]
+ },
+ "definition": "move along on legs",
+ "semantic primitives": [
+  "s.sort.process"
+ ],
+ "argument structure": [
+  {
+   "role": "actor",
+   "sort": "s.sort.referent"
+  }
+ ],
+ "derivational behaviour": [
+  {
+   "suffix": "lx.000096",
+   "mechanism": "agent",
+   "form": "nunigunaheh",
+   "sort": "s.sort.referent",
+   "definition": "the one that is actor of [move along on legs]"
+  },
+  {
+   "suffix": "lx.000098",
+   "mechanism": "instrument",
+   "form": "nunigunawen",
+   "sort": "s.sort.referent",
+   "definition": "what [move along on legs] is done with"
+  },
+  {
+   "suffix": "lx.000099",
+   "mechanism": "result",
+   "form": "nunigunonar",
+   "sort": "s.sort.state",
+   "definition": "the state [move along on legs] brings about"
+  },
+  {
+   "suffix": "lx.000100",
+   "mechanism": "privative",
+   "form": "nunigunaniw",
+   "sort": "s.sort.state",
+   "definition": "the state in which [move along on legs] does not hold"
+  },
+  {
+   "suffix": "lx.000108",
+   "mechanism": "process",
+   "form": "nunigunumop",
+   "sort": "s.sort.reified-referent",
+   "definition": "[move along on legs], as a process under way, named as a referent"
+  },
+  {
+   "suffix": "lx.000109",
+   "mechanism": "property",
+   "form": "nunigunarur",
+   "sort": "s.sort.kind",
+   "definition": "the property of being as [move along on legs] states"
+  },
+  {
+   "suffix": "lx.000111",
+   "mechanism": "nominalisation",
+   "form": "nunigunekoh",
+   "sort": "s.sort.proposition",
+   "definition": "that [move along on legs] holds"
+  },
+  {
+   "suffix": "lx.000594",
+   "mechanism": "causative",
+   "form": "nunigunomiw",
+   "sort": "s.sort.event",
+   "definition": "make [move along on legs] hold or happen"
+  },
+  {
+   "suffix": "lx.000595",
+   "mechanism": "reversative",
+   "form": "nunigunuhul",
+   "sort": "s.sort.event",
+   "definition": "undo [move along on legs], restoring what it changed"
+  },
+  {
+   "suffix": "lx.000596",
+   "mechanism": "repetitive",
+   "form": "nunigunuleg",
+   "sort": "s.sort.event",
+   "definition": "[move along on legs], done once more"
+  },
+  {
+   "suffix": "lx.000598",
+   "mechanism": "place",
+   "form": "nunigunumuk",
+   "sort": "s.sort.place",
+   "definition": "the place where [move along on legs] happens"
+  }
+ ],
+ "register": [
+  "R0",
+  "R1",
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7"
+ ],
+ "collocations": [],
+ "synonyms": [],
+ "antonyms": [],
+ "related concepts": [
+  {
+   "entry": "lx.000874",
+   "relation": "kind of"
+  }
+ ],
+ "examples": [],
+ "version": {
+  "introduced": "1.0",
+  "deprecated": null
+ },
+ "key": "walk"
+}

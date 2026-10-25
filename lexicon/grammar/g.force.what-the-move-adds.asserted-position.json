@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.force.what-the-move-adds.asserted-position",
+ "orthographic form": "kotepu",
+ "phonological form": "/kotepu/",
+ "grammatical category": "what the move adds",
+ "gloss": "ASSERTED-POSITION",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

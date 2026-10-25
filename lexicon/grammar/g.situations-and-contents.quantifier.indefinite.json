@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.situations-and-contents.quantifier.indefinite",
+ "orthographic form": "gole",
+ "phonological form": "/ɡole/",
+ "grammatical category": "quantifier",
+ "gloss": "INDEFINITE",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

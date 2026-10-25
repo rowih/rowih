@@ -1,0 +1,76 @@
+{
+ "machine identifier": "lx.000539",
+ "root": "lx.000539",
+ "phonological form": "/nuliɾej/",
+ "orthographic form": "nulirey",
+ "grammatical category": "nominal root",
+ "sort": "s.sort.object",
+ "semantic type": {
+  "sort": "s.sort.object",
+  "arguments": []
+ },
+ "definition": "the organ that pumps blood",
+ "semantic primitives": [
+  "s.sort.object"
+ ],
+ "argument structure": [],
+ "derivational behaviour": [
+  {
+   "suffix": "lx.000110",
+   "mechanism": "abstraction",
+   "form": "nulireyusap",
+   "sort": "s.sort.kind",
+   "definition": "what every instance of [the organ that pumps blood] has in common"
+  },
+  {
+   "suffix": "lx.000112",
+   "mechanism": "verbalisation",
+   "form": "nulireyasey",
+   "sort": "s.sort.event",
+   "definition": "act by means of [the organ that pumps blood]"
+  },
+  {
+   "suffix": "lx.000113",
+   "mechanism": "adjectivisation",
+   "form": "nulireyuyik",
+   "sort": "s.sort.state",
+   "definition": "be of the kind [the organ that pumps blood] names"
+  },
+  {
+   "suffix": "lx.000184",
+   "mechanism": "honorific",
+   "form": "nulireyayuk",
+   "sort": "s.sort.object",
+   "definition": "[the organ that pumps blood], named with deference"
+  }
+ ],
+ "register": [
+  "R0",
+  "R1",
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7"
+ ],
+ "collocations": [],
+ "synonyms": [],
+ "antonyms": [],
+ "related concepts": [
+  {
+   "entry": "lx.000534",
+   "relation": "part of"
+  },
+  {
+   "entry": "lx.000541",
+   "relation": "involved in"
+  }
+ ],
+ "examples": [],
+ "version": {
+  "introduced": "1.0",
+  "deprecated": null
+ },
+ "key": "heart"
+}

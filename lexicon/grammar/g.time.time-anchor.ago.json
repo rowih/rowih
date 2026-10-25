@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.time.time-anchor.ago",
+ "orthographic form": "dadoka",
+ "phonological form": "/dadoka/",
+ "grammatical category": "time anchor",
+ "gloss": "AGO",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

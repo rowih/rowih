@@ -1,0 +1,139 @@
+{
+ "machine identifier": "lx.000422",
+ "root": "lx.000422",
+ "phonological form": "/nupodol/",
+ "orthographic form": "nupodol",
+ "grammatical category": "predicate root",
+ "sort": "s.sort.state",
+ "semantic type": {
+  "sort": "s.sort.state",
+  "arguments": [
+   "undergoer"
+  ]
+ },
+ "definition": "have a high temperature",
+ "semantic primitives": [
+  "s.sort.state"
+ ],
+ "argument structure": [
+  {
+   "role": "undergoer",
+   "sort": "s.sort.referent"
+  }
+ ],
+ "derivational behaviour": [
+  {
+   "suffix": "lx.000097",
+   "mechanism": "undergoer",
+   "form": "nupodoludim",
+   "sort": "s.sort.referent",
+   "definition": "the one that undergoes [have a high temperature]"
+  },
+  {
+   "suffix": "lx.000098",
+   "mechanism": "instrument",
+   "form": "nupodolawen",
+   "sort": "s.sort.referent",
+   "definition": "what [have a high temperature] is done with"
+  },
+  {
+   "suffix": "lx.000099",
+   "mechanism": "result",
+   "form": "nupodolonar",
+   "sort": "s.sort.state",
+   "definition": "the state [have a high temperature] brings about"
+  },
+  {
+   "suffix": "lx.000100",
+   "mechanism": "privative",
+   "form": "nupodolaniw",
+   "sort": "s.sort.state",
+   "definition": "the state in which [have a high temperature] does not hold"
+  },
+  {
+   "suffix": "lx.000108",
+   "mechanism": "process",
+   "form": "nupodolumop",
+   "sort": "s.sort.reified-referent",
+   "definition": "[have a high temperature], as a process under way, named as a referent"
+  },
+  {
+   "suffix": "lx.000109",
+   "mechanism": "property",
+   "form": "nupodolarur",
+   "sort": "s.sort.kind",
+   "definition": "the property of being as [have a high temperature] states"
+  },
+  {
+   "suffix": "lx.000111",
+   "mechanism": "nominalisation",
+   "form": "nupodolekoh",
+   "sort": "s.sort.proposition",
+   "definition": "that [have a high temperature] holds"
+  },
+  {
+   "suffix": "lx.000594",
+   "mechanism": "causative",
+   "form": "nupodolomiw",
+   "sort": "s.sort.event",
+   "definition": "make [have a high temperature] hold or happen"
+  },
+  {
+   "suffix": "lx.000595",
+   "mechanism": "reversative",
+   "form": "nupodoluhul",
+   "sort": "s.sort.event",
+   "definition": "undo [have a high temperature], restoring what it changed"
+  },
+  {
+   "suffix": "lx.000596",
+   "mechanism": "repetitive",
+   "form": "nupodoluleg",
+   "sort": "s.sort.event",
+   "definition": "[have a high temperature], done once more"
+  },
+  {
+   "suffix": "lx.000597",
+   "mechanism": "potential",
+   "form": "nupodoluwot",
+   "sort": "s.sort.state",
+   "definition": "be such that [have a high temperature] can be done to it"
+  },
+  {
+   "suffix": "lx.000598",
+   "mechanism": "place",
+   "form": "nupodolumuk",
+   "sort": "s.sort.place",
+   "definition": "the place where [have a high temperature] happens"
+  }
+ ],
+ "register": [
+  "R0",
+  "R1",
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7"
+ ],
+ "collocations": [],
+ "synonyms": [],
+ "antonyms": [
+  {
+   "entry": "lx.000423"
+  }
+ ],
+ "related concepts": [
+  {
+   "entry": "lx.000066",
+   "relation": "involves"
+  }
+ ],
+ "examples": [],
+ "version": {
+  "introduced": "1.0",
+  "deprecated": null
+ },
+ "key": "hot"
+}

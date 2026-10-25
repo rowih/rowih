@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.force.kind-of-issue.question",
+ "orthographic form": "kuwona",
+ "phonological form": "/kuwona/",
+ "grammatical category": "kind of issue",
+ "gloss": "QUESTION",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

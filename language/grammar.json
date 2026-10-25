@@ -1,0 +1,3886 @@
+{
+ "version": "1.0",
+ "classes": [
+  {
+   "identifier": "g.force.what-the-move-adds",
+   "group": "force",
+   "name": "what the move adds",
+   "members": [
+    {
+     "identifier": "g.force.what-the-move-adds.asserted-position",
+     "name": "asserted position",
+     "gloss": "ASSERTED-POSITION",
+     "form": "kotepu",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.force.what-the-move-adds.conceded-position",
+     "name": "conceded position",
+     "gloss": "CONCEDED-POSITION",
+     "form": "ketako",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.force.what-the-move-adds.supposition",
+     "name": "supposition",
+     "gloss": "SUPPOSITION",
+     "form": "keguge",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.force.what-the-move-adds.summary",
+     "name": "summary",
+     "gloss": "SUMMARY",
+     "form": "kimewi",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.force.what-the-move-adds.issue",
+     "name": "issue",
+     "gloss": "ISSUE",
+     "form": "kanume",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.force.what-the-move-adds.normative-entry",
+     "name": "normative entry",
+     "gloss": "NORMATIVE-ENTRY",
+     "form": "kukare",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.force.what-the-move-adds.setting",
+     "name": "setting",
+     "gloss": "SETTING",
+     "form": "kuwipe",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.force.what-the-move-adds.nothing-beyond-its-own-record",
+     "name": "nothing beyond its own record",
+     "gloss": "NOTHING-BEYOND-ITS-OWN-RECORD",
+     "form": "kaniku",
+     "introduced": "0.1"
+    }
+   ],
+   "serves": "s.sort.move",
+   "applies to": "every move",
+   "status": {
+    "kind": "obligatory"
+   },
+   "critical dimension": "operative force",
+   "scope": "move",
+   "protected": true,
+   "compatibility": "must-understand",
+   "introduced": "0.1"
+  },
+  {
+   "identifier": "g.force.kind-of-issue",
+   "group": "force",
+   "name": "kind of issue",
+   "members": [
+    {
+     "identifier": "g.force.kind-of-issue.question",
+     "name": "question",
+     "gloss": "QUESTION",
+     "form": "kuwona",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.force.kind-of-issue.request",
+     "name": "request",
+     "gloss": "REQUEST",
+     "form": "kayoti",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.force.kind-of-issue.proposal",
+     "name": "proposal",
+     "gloss": "PROPOSAL",
+     "form": "kiwuli",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.force.kind-of-issue.challenge",
+     "name": "challenge",
+     "gloss": "CHALLENGE",
+     "form": "kuruta",
+     "introduced": "0.1"
+    }
+   ],
+   "serves": "s.sort.record-entry",
+   "applies to": "an issue",
+   "status": {
+    "kind": "obligatory"
+   },
+   "critical dimension": "operative force",
+   "scope": "move",
+   "protected": true,
+   "compatibility": "must-understand",
+   "introduced": "0.1"
+  },
+  {
+   "identifier": "g.force.kind-of-normative-entry",
+   "group": "force",
+   "name": "kind of normative entry",
+   "members": [
+    {
+     "identifier": "g.force.kind-of-normative-entry.commitment",
+     "name": "commitment",
+     "gloss": "COMMITMENT",
+     "form": "kerihi",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.force.kind-of-normative-entry.obligation",
+     "name": "obligation",
+     "gloss": "OBLIGATION",
+     "form": "kepehe",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.force.kind-of-normative-entry.permission",
+     "name": "permission",
+     "gloss": "PERMISSION",
+     "form": "kunehu",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.force.kind-of-normative-entry.assignment",
+     "name": "assignment",
+     "gloss": "ASSIGNMENT",
+     "form": "kegipa",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.force.kind-of-normative-entry.recommendation",
+     "name": "recommendation",
+     "gloss": "RECOMMENDATION",
+     "form": "kemogo",
+     "introduced": "0.1"
+    }
+   ],
+   "serves": "s.sort.normative-state",
+   "applies to": "a normative entry, or a report of one",
+   "status": {
+    "kind": "obligatory"
+   },
+   "critical dimension": "commitment status",
+   "scope": "move",
+   "protected": true,
+   "compatibility": "must-understand",
+   "introduced": "0.1"
+  },
+  {
+   "identifier": "g.force.bindingness",
+   "group": "force",
+   "name": "bindingness",
+   "members": [
+    {
+     "identifier": "g.force.bindingness.on-acceptance",
+     "name": "on acceptance",
+     "gloss": "BINDINGNESS.ON-ACCEPTANCE",
+     "form": "kidayo",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.force.bindingness.bound",
+     "name": "bound",
+     "gloss": "BOUND",
+     "form": "kesoha",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.force.bindingness.bound-within-a-protocol",
+     "name": "bound within a protocol",
+     "gloss": "BOUND-WITHIN-A-PROTOCOL",
+     "form": "kuhapu",
+     "introduced": "0.1"
+    }
+   ],
+   "serves": "s.sort.normative-state",
+   "applies to": "a normative entry other than a recommendation",
+   "status": {
+    "kind": "obligatory"
+   },
+   "critical dimension": "commitment status",
+   "scope": "move",
+   "protected": true,
+   "compatibility": "must-understand",
+   "introduced": "0.1"
+  },
+  {
+   "identifier": "g.force.kind-of-setting",
+   "group": "force",
+   "name": "kind of setting",
+   "members": [
+    {
+     "identifier": "g.force.kind-of-setting.definition",
+     "name": "definition",
+     "gloss": "DEFINITION",
+     "form": "konebi",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.force.kind-of-setting.version",
+     "name": "version",
+     "gloss": "KIND-OF-SETTING.VERSION",
+     "form": "kabusu",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.force.kind-of-setting.role",
+     "name": "role",
+     "gloss": "ROLE",
+     "form": "kayiyo",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.force.kind-of-setting.calibration",
+     "name": "calibration",
+     "gloss": "CALIBRATION",
+     "form": "kibuda",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.force.kind-of-setting.relation",
+     "name": "relation",
+     "gloss": "RELATION",
+     "form": "kigimi",
+     "introduced": "0.1"
+    }
+   ],
+   "serves": "s.sort.record-entry",
+   "applies to": "a setting",
+   "status": {
+    "kind": "obligatory"
+   },
+   "critical dimension": "operative force",
+   "scope": "move",
+   "protected": true,
+   "compatibility": "must-understand",
+   "introduced": "0.1"
+  },
+  {
+   "identifier": "g.force.change-made",
+   "group": "force",
+   "name": "change made",
+   "members": [
+    {
+     "identifier": "g.force.change-made.none",
+     "name": "none",
+     "gloss": "NONE",
+     "form": "kitapi",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.force.change-made.resolution",
+     "name": "resolution",
+     "gloss": "RESOLUTION",
+     "form": "kodoyi",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.force.change-made.lowering",
+     "name": "lowering",
+     "gloss": "LOWERING",
+     "form": "kisahu",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.force.change-made.acknowledgement",
+     "name": "acknowledgement",
+     "gloss": "ACKNOWLEDGEMENT",
+     "form": "kiyala",
+     "introduced": "0.1"
+    }
+   ],
+   "serves": "s.sort.move",
+   "applies to": "a move that names an entry",
+   "status": {
+    "kind": "obligatory"
+   },
+   "critical dimension": "the scope of any retraction, revocation or cancellation",
+   "scope": "move",
+   "protected": true,
+   "compatibility": "must-understand",
+   "introduced": "0.1"
+  },
+  {
+   "identifier": "g.force.outcome-of-a-resolution",
+   "group": "force",
+   "name": "outcome of a resolution",
+   "members": [
+    {
+     "identifier": "g.force.outcome-of-a-resolution.answer",
+     "name": "answer",
+     "gloss": "ANSWER",
+     "form": "korolu",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.force.outcome-of-a-resolution.acceptance",
+     "name": "acceptance",
+     "gloss": "OUTCOME-OF-A-RESOLUTION.ACCEPTANCE",
+     "form": "komaka",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.force.outcome-of-a-resolution.rejection",
+     "name": "rejection",
+     "gloss": "REJECTION",
+     "form": "kawadu",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.force.outcome-of-a-resolution.settlement",
+     "name": "settlement",
+     "gloss": "SETTLEMENT",
+     "form": "kobaso",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.force.outcome-of-a-resolution.failure",
+     "name": "failure",
+     "gloss": "FAILURE",
+     "form": "kutomi",
+     "introduced": "0.1"
+    }
+   ],
+   "serves": "s.sort.move",
+   "applies to": "a resolution",
+   "status": {
+    "kind": "obligatory"
+   },
+   "critical dimension": "operative force",
+   "scope": "move",
+   "protected": true,
+   "compatibility": "must-understand",
+   "introduced": "0.1"
+  },
+  {
+   "identifier": "g.force.extent",
+   "group": "force",
+   "name": "extent",
+   "members": [
+    {
+     "identifier": "g.force.extent.whole-entry",
+     "name": "whole entry",
+     "gloss": "WHOLE-ENTRY",
+     "form": "kusodu",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.force.extent.part-of-it",
+     "name": "part of it",
+     "gloss": "PART-OF-IT",
+     "form": "kiduku",
+     "introduced": "0.1"
+    }
+   ],
+   "serves": "s.sort.move",
+   "applies to": "a change other than none",
+   "status": {
+    "kind": "obligatory"
+   },
+   "critical dimension": "the scope of any retraction, revocation or cancellation",
+   "scope": "move",
+   "protected": true,
+   "compatibility": "must-understand",
+   "introduced": "0.1"
+  },
+  {
+   "identifier": "g.force.when-the-change-takes-effect",
+   "group": "force",
+   "name": "when the change takes effect",
+   "members": [
+    {
+     "identifier": "g.force.when-the-change-takes-effect.on-the-move",
+     "name": "on the move",
+     "gloss": "ON-THE-MOVE",
+     "form": "kuniya",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.force.when-the-change-takes-effect.on-acceptance",
+     "name": "on acceptance",
+     "gloss": "WHEN-THE-CHANGE-TAKES-EFFECT.ON-ACCEPTANCE",
+     "form": "kaweki",
+     "introduced": "0.1"
+    }
+   ],
+   "serves": "s.sort.move",
+   "applies to": "a change other than none",
+   "status": {
+    "kind": "obligatory"
+   },
+   "critical dimension": "operative force",
+   "scope": "move",
+   "protected": true,
+   "compatibility": "must-understand",
+   "introduced": "0.1"
+  },
+  {
+   "identifier": "g.force.authority-claimed",
+   "group": "force",
+   "name": "authority claimed",
+   "members": [
+    {
+     "identifier": "g.force.authority-claimed.speakers-own",
+     "name": "speaker's own",
+     "gloss": "SPEAKERS-OWN",
+     "form": "kosiki",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.force.authority-claimed.on-behalf-of-a-named-principal",
+     "name": "on behalf of a named principal",
+     "gloss": "ON-BEHALF-OF-A-NAMED-PRINCIPAL",
+     "form": "kesigu",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.force.authority-claimed.in-a-named-role",
+     "name": "in a named role",
+     "gloss": "IN-A-NAMED-ROLE",
+     "form": "kekegi",
+     "introduced": "0.1"
+    }
+   ],
+   "serves": "s.relation.under-authority-of",
+   "applies to": "every operative or pending move",
+   "status": {
+    "kind": "obligatory"
+   },
+   "critical dimension": "the identity of any agent who is obligated, authorised or held responsible, and the authority claimed",
+   "scope": "move",
+   "protected": true,
+   "compatibility": "must-understand",
+   "introduced": "0.1"
+  },
+  {
+   "identifier": "g.standing.basis",
+   "group": "standing",
+   "name": "basis",
+   "members": [
+    {
+     "identifier": "g.standing.basis.observation",
+     "name": "observation",
+     "gloss": "OBSERVATION",
+     "tier": 1,
+     "form": "teyuhu",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.standing.basis.introspection",
+     "name": "introspection",
+     "gloss": "INTROSPECTION",
+     "tier": 1,
+     "form": "tadowe",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.standing.basis.retrieval",
+     "name": "retrieval",
+     "gloss": "RETRIEVAL",
+     "tier": 1,
+     "form": "turimi",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.standing.basis.trained-knowledge",
+     "name": "trained knowledge",
+     "gloss": "TRAINED-KNOWLEDGE",
+     "tier": 2,
+     "form": "tiruni",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.standing.basis.computation",
+     "name": "computation",
+     "gloss": "COMPUTATION",
+     "tier": 1,
+     "form": "tinopo",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.standing.basis.inference",
+     "name": "inference",
+     "gloss": "INFERENCE",
+     "tier": 1,
+     "form": "tilase",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.standing.basis.simulation",
+     "name": "simulation",
+     "gloss": "SIMULATION",
+     "tier": 1,
+     "form": "tuwohu",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.standing.basis.report",
+     "name": "report",
+     "gloss": "REPORT",
+     "tier": 1,
+     "form": "tukika",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.standing.basis.source-lost",
+     "name": "source lost",
+     "gloss": "SOURCE-LOST",
+     "tier": 2,
+     "form": "tukemu",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.standing.basis.unstated",
+     "name": "unstated",
+     "gloss": "BASIS.UNSTATED",
+     "tier": 3,
+     "form": "tineti",
+     "introduced": "0.1"
+    }
+   ],
+   "serves": "s.sort.grounds",
+   "applies to": "an asserted position, and any reported attitude",
+   "status": {
+    "kind": "default",
+    "default": "unstated",
+    "kind of default": "claims nothing",
+    "default member": "g.standing.basis.unstated"
+   },
+   "critical dimension": "epistemic standing",
+   "scope": "assertion",
+   "protected": true,
+   "compatibility": "must-understand",
+   "introduced": "0.1"
+  },
+  {
+   "identifier": "g.standing.strength",
+   "group": "standing",
+   "name": "strength",
+   "members": [
+    {
+     "identifier": "g.standing.strength.certain",
+     "name": "certain",
+     "gloss": "CERTAIN",
+     "interval": {
+      "lower": "0.99",
+      "upper": "1",
+      "lower open": false
+     },
+     "form": "tebilo",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.standing.strength.highly-probable",
+     "name": "highly probable",
+     "gloss": "HIGHLY-PROBABLE",
+     "interval": {
+      "lower": "0.9",
+      "upper": "1",
+      "lower open": false
+     },
+     "form": "tamepi",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.standing.strength.probable",
+     "name": "probable",
+     "gloss": "PROBABLE",
+     "interval": {
+      "lower": "0.66",
+      "upper": "1",
+      "lower open": false
+     },
+     "form": "tomupu",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.standing.strength.uncertain",
+     "name": "uncertain",
+     "gloss": "UNCERTAIN",
+     "interval": {
+      "lower": "0.33",
+      "upper": "0.66",
+      "lower open": false
+     },
+     "form": "tusido",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.standing.strength.speculative",
+     "name": "speculative",
+     "gloss": "SPECULATIVE",
+     "interval": {
+      "lower": "0",
+      "upper": "1",
+      "lower open": true
+     },
+     "form": "topeka",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.standing.strength.unstated",
+     "name": "unstated",
+     "gloss": "STRENGTH.UNSTATED",
+     "interval": {
+      "lower": "0",
+      "upper": "1",
+      "lower open": false
+     },
+     "form": "topuge",
+     "introduced": "0.1"
+    }
+   ],
+   "serves": "s.value.scale",
+   "applies to": "an asserted position, and any reported attitude",
+   "status": {
+    "kind": "default",
+    "default": "unstated",
+    "kind of default": "claims nothing",
+    "default member": "g.standing.strength.unstated"
+   },
+   "critical dimension": "epistemic standing",
+   "scope": "assertion",
+   "protected": true,
+   "compatibility": "must-understand",
+   "introduced": "0.1"
+  },
+  {
+   "identifier": "g.standing.provenance-link",
+   "group": "standing",
+   "name": "provenance link",
+   "members": [
+    {
+     "identifier": "g.standing.provenance-link.source",
+     "name": "source",
+     "gloss": "SOURCE",
+     "form": "tihidi",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.standing.provenance-link.relayer",
+     "name": "relayer",
+     "gloss": "RELAYER",
+     "form": "tanudo",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.standing.provenance-link.premise",
+     "name": "premise",
+     "gloss": "PREMISE",
+     "form": "tiwayu",
+     "introduced": "0.1"
+    }
+   ],
+   "serves": "s.relation.source-of",
+   "applies to": "grounds",
+   "status": {
+    "kind": "default",
+    "default": "no claim",
+    "kind of default": "claims nothing"
+   },
+   "critical dimension": "epistemic standing",
+   "scope": "assertion",
+   "protected": true,
+   "compatibility": "must-understand",
+   "introduced": "0.1"
+  },
+  {
+   "identifier": "g.standing.independence-of-a-confirmation",
+   "group": "standing",
+   "name": "independence of a confirmation",
+   "members": [
+    {
+     "identifier": "g.standing.independence-of-a-confirmation.independent",
+     "name": "independent",
+     "gloss": "INDEPENDENT",
+     "form": "tegeyu",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.standing.independence-of-a-confirmation.same-source",
+     "name": "same source",
+     "gloss": "SAME-SOURCE",
+     "form": "tawebe",
+     "introduced": "0.1"
+    }
+   ],
+   "serves": "s.sort.grounds",
+   "applies to": "a confirmation",
+   "status": {
+    "kind": "default",
+    "default": "same source",
+    "kind of default": "the weakest member",
+    "default member": "g.standing.independence-of-a-confirmation.same-source"
+   },
+   "critical dimension": "epistemic standing",
+   "scope": "assertion",
+   "protected": true,
+   "compatibility": "must-understand",
+   "introduced": "0.1"
+  },
+  {
+   "identifier": "g.attitudes-and-aims.kind-of-attitude",
+   "group": "attitudes and aims",
+   "name": "kind of attitude",
+   "members": [
+    {
+     "identifier": "g.attitudes-and-aims.kind-of-attitude.belief",
+     "name": "belief",
+     "gloss": "BELIEF",
+     "form": "paka",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.attitudes-and-aims.kind-of-attitude.credence",
+     "name": "credence",
+     "gloss": "CREDENCE",
+     "form": "pade",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.attitudes-and-aims.kind-of-attitude.acceptance",
+     "name": "acceptance",
+     "gloss": "KIND-OF-ATTITUDE.ACCEPTANCE",
+     "form": "pami",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.attitudes-and-aims.kind-of-attitude.entertaining",
+     "name": "entertaining",
+     "gloss": "ENTERTAINING",
+     "form": "paso",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.attitudes-and-aims.kind-of-attitude.desire",
+     "name": "desire",
+     "gloss": "DESIRE",
+     "form": "paru",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.attitudes-and-aims.kind-of-attitude.goal",
+     "name": "goal",
+     "gloss": "GOAL",
+     "form": "peba",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.attitudes-and-aims.kind-of-attitude.intention",
+     "name": "intention",
+     "gloss": "INTENTION",
+     "form": "pege",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.attitudes-and-aims.kind-of-attitude.preference",
+     "name": "preference",
+     "gloss": "PREFERENCE",
+     "form": "peni",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.attitudes-and-aims.kind-of-attitude.unexamined",
+     "name": "unexamined",
+     "gloss": "UNEXAMINED",
+     "form": "pelo",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.attitudes-and-aims.kind-of-attitude.settled",
+     "name": "settled",
+     "gloss": "SETTLED",
+     "form": "pewu",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.attitudes-and-aims.kind-of-attitude.unresolved",
+     "name": "unresolved",
+     "gloss": "UNRESOLVED",
+     "form": "pida",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.attitudes-and-aims.kind-of-attitude.unresolvable",
+     "name": "unresolvable",
+     "gloss": "UNRESOLVABLE",
+     "form": "pime",
+     "introduced": "0.1"
+    }
+   ],
+   "serves": "s.sort.attitude",
+   "applies to": "an attitude",
+   "status": {
+    "kind": "obligatory"
+   },
+   "critical dimension": null,
+   "scope": "situation",
+   "protected": false,
+   "compatibility": "must-understand",
+   "introduced": "0.1"
+  },
+  {
+   "identifier": "g.attitudes-and-aims.origin-of-an-aim",
+   "group": "attitudes and aims",
+   "name": "origin of an aim",
+   "members": [
+    {
+     "identifier": "g.attitudes-and-aims.origin-of-an-aim.holders-own",
+     "name": "holder's own",
+     "gloss": "HOLDERS-OWN",
+     "form": "pisi",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.attitudes-and-aims.origin-of-an-aim.principals",
+     "name": "principal's",
+     "gloss": "PRINCIPALS",
+     "form": "piro",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.attitudes-and-aims.origin-of-an-aim.instruction-received",
+     "name": "instruction received",
+     "gloss": "INSTRUCTION-RECEIVED",
+     "form": "piyu",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.attitudes-and-aims.origin-of-an-aim.norm",
+     "name": "norm",
+     "gloss": "NORM",
+     "form": "poga",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.attitudes-and-aims.origin-of-an-aim.unstated",
+     "name": "unstated",
+     "gloss": "ORIGIN-OF-AN-AIM.UNSTATED",
+     "form": "pone",
+     "introduced": "0.1"
+    }
+   ],
+   "serves": "s.relation.origin-of-aim",
+   "applies to": "an aim or a normative state",
+   "status": {
+    "kind": "default",
+    "default": "unstated",
+    "kind of default": "claims nothing",
+    "default member": "g.attitudes-and-aims.origin-of-an-aim.unstated"
+   },
+   "critical dimension": null,
+   "scope": "situation",
+   "protected": false,
+   "compatibility": "must-understand",
+   "introduced": "0.1"
+  },
+  {
+   "identifier": "g.attitudes-and-aims.status-of-a-normative-state",
+   "group": "attitudes and aims",
+   "name": "status of a normative state",
+   "members": [
+    {
+     "identifier": "g.attitudes-and-aims.status-of-a-normative-state.in-force",
+     "name": "in force",
+     "gloss": "STATUS-OF-A-NORMATIVE-STATE.IN-FORCE",
+     "form": "poli",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.attitudes-and-aims.status-of-a-normative-state.discharged",
+     "name": "discharged",
+     "gloss": "DISCHARGED",
+     "form": "powo",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.attitudes-and-aims.status-of-a-normative-state.released",
+     "name": "released",
+     "gloss": "RELEASED",
+     "form": "pohu",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.attitudes-and-aims.status-of-a-normative-state.withdrawn",
+     "name": "withdrawn",
+     "gloss": "STATUS-OF-A-NORMATIVE-STATE.WITHDRAWN",
+     "form": "puma",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.attitudes-and-aims.status-of-a-normative-state.retracted-by-its-holder",
+     "name": "retracted by its holder",
+     "gloss": "RETRACTED-BY-ITS-HOLDER",
+     "form": "puse",
+     "introduced": "0.1"
+    }
+   ],
+   "serves": "s.sort.normative-state",
+   "applies to": "a report of a normative state",
+   "status": {
+    "kind": "obligatory"
+   },
+   "critical dimension": "commitment status",
+   "scope": "situation",
+   "protected": false,
+   "compatibility": "must-understand",
+   "introduced": "0.1"
+  },
+  {
+   "identifier": "g.attitudes-and-aims.counterparty",
+   "group": "attitudes and aims",
+   "name": "counterparty",
+   "members": [
+    {
+     "identifier": "g.attitudes-and-aims.counterparty.counterparty",
+     "name": "counterparty",
+     "gloss": "COUNTERPARTY",
+     "form": "puri",
+     "introduced": "0.1"
+    }
+   ],
+   "serves": "s.relation.counterparty",
+   "applies to": "a normative state",
+   "status": {
+    "kind": "default",
+    "default": "no claim",
+    "kind of default": "claims nothing"
+   },
+   "critical dimension": null,
+   "scope": "situation",
+   "protected": false,
+   "compatibility": "must-understand",
+   "introduced": "0.1"
+  },
+  {
+   "identifier": "g.attitudes-and-aims.execution-phase",
+   "group": "attitudes and aims",
+   "name": "execution phase",
+   "members": [
+    {
+     "identifier": "g.attitudes-and-aims.execution-phase.not-yet-begun",
+     "name": "not yet begun",
+     "gloss": "NOT-YET-BEGUN",
+     "form": "puyo",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.attitudes-and-aims.execution-phase.attempted",
+     "name": "attempted",
+     "gloss": "ATTEMPTED",
+     "form": "pupu",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.attitudes-and-aims.execution-phase.completed",
+     "name": "completed",
+     "gloss": "COMPLETED",
+     "form": "baba",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.attitudes-and-aims.execution-phase.failed",
+     "name": "failed",
+     "gloss": "FAILED",
+     "form": "bage",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.attitudes-and-aims.execution-phase.abandoned",
+     "name": "abandoned",
+     "gloss": "ABANDONED",
+     "form": "bani",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.attitudes-and-aims.execution-phase.unstated",
+     "name": "unstated",
+     "gloss": "EXECUTION-PHASE.UNSTATED",
+     "form": "balo",
+     "introduced": "0.1"
+    }
+   ],
+   "serves": "s.paradigm.execution-phase",
+   "applies to": "an action or a task",
+   "status": {
+    "kind": "default",
+    "default": "unstated",
+    "kind of default": "claims nothing",
+    "default member": "g.attitudes-and-aims.execution-phase.unstated"
+   },
+   "critical dimension": null,
+   "scope": "situation",
+   "protected": false,
+   "compatibility": "must-understand",
+   "introduced": "0.1"
+  },
+  {
+   "identifier": "g.situations-and-contents.aspect",
+   "group": "situations and contents",
+   "name": "aspect",
+   "members": [
+    {
+     "identifier": "g.situations-and-contents.aspect.stative",
+     "name": "stative",
+     "gloss": "STATIVE",
+     "form": "bawu",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.situations-and-contents.aspect.perfective",
+     "name": "perfective",
+     "gloss": "PERFECTIVE",
+     "form": "beda",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.situations-and-contents.aspect.progressive",
+     "name": "progressive",
+     "gloss": "PROGRESSIVE",
+     "form": "beme",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.situations-and-contents.aspect.inceptive",
+     "name": "inceptive",
+     "gloss": "INCEPTIVE",
+     "form": "besi",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.situations-and-contents.aspect.completive",
+     "name": "completive",
+     "gloss": "COMPLETIVE",
+     "form": "bero",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.situations-and-contents.aspect.interrupted",
+     "name": "interrupted",
+     "gloss": "INTERRUPTED",
+     "form": "beyu",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.situations-and-contents.aspect.continuative",
+     "name": "continuative",
+     "gloss": "CONTINUATIVE",
+     "form": "biga",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.situations-and-contents.aspect.iterative",
+     "name": "iterative",
+     "gloss": "ITERATIVE",
+     "form": "bine",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.situations-and-contents.aspect.habitual",
+     "name": "habitual",
+     "gloss": "HABITUAL",
+     "form": "bili",
+     "introduced": "0.1"
+    }
+   ],
+   "serves": "s.paradigm.aspect",
+   "applies to": "a situation",
+   "status": {
+    "kind": "default",
+    "default": "the root's lexical aspect",
+    "kind of default": "declared by the lexicon"
+   },
+   "critical dimension": null,
+   "scope": "situation",
+   "protected": false,
+   "compatibility": "must-understand",
+   "introduced": "0.1"
+  },
+  {
+   "identifier": "g.situations-and-contents.participation",
+   "group": "situations and contents",
+   "name": "participation",
+   "members": [
+    {
+     "identifier": "g.situations-and-contents.participation.actor",
+     "name": "actor",
+     "gloss": "ACTOR",
+     "form": "biwo",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.situations-and-contents.participation.undergoer",
+     "name": "undergoer",
+     "gloss": "UNDERGOER",
+     "form": "bihu",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.situations-and-contents.participation.recipient",
+     "name": "recipient",
+     "gloss": "RECIPIENT",
+     "form": "boma",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.situations-and-contents.participation.instrument",
+     "name": "instrument",
+     "gloss": "INSTRUMENT",
+     "form": "bose",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.situations-and-contents.participation.holder",
+     "name": "holder",
+     "gloss": "HOLDER",
+     "form": "bori",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.situations-and-contents.participation.content",
+     "name": "content",
+     "gloss": "CONTENT",
+     "form": "boyo",
+     "introduced": "0.1"
+    }
+   ],
+   "serves": "s.relation.actor",
+   "applies to": "a situation",
+   "status": {
+    "kind": "default",
+    "default": "no claim",
+    "kind of default": "claims nothing"
+   },
+   "critical dimension": null,
+   "scope": "situation",
+   "protected": false,
+   "compatibility": "must-understand",
+   "introduced": "0.1"
+  },
+  {
+   "identifier": "g.situations-and-contents.kind-of-question",
+   "group": "situations and contents",
+   "name": "kind of question",
+   "members": [
+    {
+     "identifier": "g.situations-and-contents.kind-of-question.polar",
+     "name": "polar",
+     "gloss": "POLAR",
+     "form": "bopu",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.situations-and-contents.kind-of-question.constituent",
+     "name": "constituent",
+     "gloss": "CONSTITUENT",
+     "form": "buna",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.situations-and-contents.kind-of-question.alternative",
+     "name": "alternative",
+     "gloss": "ALTERNATIVE",
+     "form": "bule",
+     "introduced": "0.1"
+    }
+   ],
+   "serves": "s.sort.question",
+   "applies to": "a question",
+   "status": {
+    "kind": "obligatory"
+   },
+   "critical dimension": null,
+   "scope": "situation",
+   "protected": false,
+   "compatibility": "must-understand",
+   "introduced": "0.1"
+  },
+  {
+   "identifier": "g.situations-and-contents.status-of-content",
+   "group": "situations and contents",
+   "name": "status of content",
+   "members": [
+    {
+     "identifier": "g.situations-and-contents.status-of-content.at-issue",
+     "name": "at issue",
+     "gloss": "AT-ISSUE",
+     "form": "buwi",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.situations-and-contents.status-of-content.presupposed",
+     "name": "presupposed",
+     "gloss": "PRESUPPOSED",
+     "form": "buho",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.situations-and-contents.status-of-content.conventionally-implied",
+     "name": "conventionally implied",
+     "gloss": "CONVENTIONALLY-IMPLIED",
+     "form": "butu",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.situations-and-contents.status-of-content.resting-on-an-unstated-assumption",
+     "name": "resting on an unstated assumption",
+     "gloss": "RESTING-ON-AN-UNSTATED-ASSUMPTION",
+     "form": "gada",
+     "introduced": "0.1"
+    }
+   ],
+   "serves": "s.paradigm.content-status",
+   "applies to": "a content",
+   "status": {
+    "kind": "default",
+    "default": "at issue",
+    "kind of default": "the plain reading",
+    "default member": "g.situations-and-contents.status-of-content.at-issue"
+   },
+   "critical dimension": null,
+   "scope": "situation",
+   "protected": false,
+   "compatibility": "must-understand",
+   "introduced": "0.1"
+  },
+  {
+   "identifier": "g.situations-and-contents.information-structure",
+   "group": "situations and contents",
+   "name": "information structure",
+   "members": [
+    {
+     "identifier": "g.situations-and-contents.information-structure.topic",
+     "name": "topic",
+     "gloss": "TOPIC",
+     "form": "game",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.situations-and-contents.information-structure.focus",
+     "name": "focus",
+     "gloss": "FOCUS",
+     "form": "gasi",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.situations-and-contents.information-structure.contrastive-focus",
+     "name": "contrastive focus",
+     "gloss": "CONTRASTIVE-FOCUS",
+     "form": "garo",
+     "introduced": "0.1"
+    }
+   ],
+   "serves": "s.paradigm.information-structure",
+   "applies to": "a constituent",
+   "status": {
+    "kind": "default",
+    "default": "no claim",
+    "kind of default": "claims nothing"
+   },
+   "critical dimension": null,
+   "scope": "term",
+   "protected": false,
+   "compatibility": "must-understand",
+   "introduced": "0.1"
+  },
+  {
+   "identifier": "g.situations-and-contents.polarity",
+   "group": "situations and contents",
+   "name": "polarity",
+   "members": [
+    {
+     "identifier": "g.situations-and-contents.polarity.affirmative",
+     "name": "affirmative",
+     "gloss": "AFFIRMATIVE",
+     "form": "tiyami",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.situations-and-contents.polarity.negative",
+     "name": "negative",
+     "gloss": "POLARITY.NEGATIVE",
+     "form": "tiyuke",
+     "introduced": "0.1"
+    }
+   ],
+   "serves": "s.operator.polarity",
+   "applies to": "a situation",
+   "status": {
+    "kind": "default",
+    "default": "affirmative",
+    "kind of default": "the plain reading",
+    "default member": "g.situations-and-contents.polarity.affirmative"
+   },
+   "critical dimension": "polarity and the scope of negation",
+   "scope": "situation",
+   "protected": true,
+   "compatibility": "must-understand",
+   "introduced": "0.1"
+  },
+  {
+   "identifier": "g.situations-and-contents.world-of-evaluation",
+   "group": "situations and contents",
+   "name": "world of evaluation",
+   "members": [
+    {
+     "identifier": "g.situations-and-contents.world-of-evaluation.actual",
+     "name": "actual",
+     "gloss": "ACTUAL",
+     "form": "gayu",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.situations-and-contents.world-of-evaluation.within-a-supposition",
+     "name": "within a supposition",
+     "gloss": "WORLD-OF-EVALUATION.WITHIN-A-SUPPOSITION",
+     "form": "gega",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.situations-and-contents.world-of-evaluation.within-a-fiction",
+     "name": "within a fiction",
+     "gloss": "WITHIN-A-FICTION",
+     "form": "gene",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.situations-and-contents.world-of-evaluation.counterfactual",
+     "name": "counterfactual",
+     "gloss": "COUNTERFACTUAL",
+     "form": "geli",
+     "introduced": "0.1"
+    }
+   ],
+   "serves": "s.operator.world-of-evaluation",
+   "applies to": "a content",
+   "status": {
+    "kind": "default",
+    "default": "the world of the enclosing content",
+    "kind of default": "fixed by the message"
+   },
+   "critical dimension": null,
+   "scope": "situation",
+   "protected": false,
+   "compatibility": "must-understand",
+   "introduced": "0.1"
+  },
+  {
+   "identifier": "g.situations-and-contents.connective",
+   "group": "situations and contents",
+   "name": "connective",
+   "members": [
+    {
+     "identifier": "g.situations-and-contents.connective.conjunction",
+     "name": "conjunction",
+     "gloss": "CONJUNCTION",
+     "form": "gewo",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.situations-and-contents.connective.inclusive-disjunction",
+     "name": "inclusive disjunction",
+     "gloss": "INCLUSIVE-DISJUNCTION",
+     "form": "gehu",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.situations-and-contents.connective.exclusive-disjunction",
+     "name": "exclusive disjunction",
+     "gloss": "EXCLUSIVE-DISJUNCTION",
+     "form": "gima",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.situations-and-contents.connective.condition",
+     "name": "condition",
+     "gloss": "CONDITION",
+     "form": "gise",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.situations-and-contents.connective.equivalence",
+     "name": "equivalence",
+     "gloss": "EQUIVALENCE",
+     "form": "giri",
+     "introduced": "0.1"
+    }
+   ],
+   "serves": "s.operator.conjunction-and-disjunction",
+   "applies to": "two contents",
+   "status": {
+    "kind": "default",
+    "default": "no claim",
+    "kind of default": "claims nothing"
+   },
+   "critical dimension": null,
+   "scope": "situation",
+   "protected": false,
+   "compatibility": "must-understand",
+   "introduced": "0.1"
+  },
+  {
+   "identifier": "g.situations-and-contents.quantifier",
+   "group": "situations and contents",
+   "name": "quantifier",
+   "members": [
+    {
+     "identifier": "g.situations-and-contents.quantifier.universal",
+     "name": "universal",
+     "gloss": "UNIVERSAL",
+     "form": "giyo",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.situations-and-contents.quantifier.existential",
+     "name": "existential",
+     "gloss": "EXISTENTIAL",
+     "form": "gipu",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.situations-and-contents.quantifier.definite",
+     "name": "definite",
+     "gloss": "DEFINITE",
+     "form": "gona",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.situations-and-contents.quantifier.indefinite",
+     "name": "indefinite",
+     "gloss": "INDEFINITE",
+     "form": "gole",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.situations-and-contents.quantifier.generic",
+     "name": "generic",
+     "gloss": "GENERIC",
+     "form": "gowi",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.situations-and-contents.quantifier.distributive",
+     "name": "distributive",
+     "gloss": "QUANTIFIER.DISTRIBUTIVE",
+     "form": "goho",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.situations-and-contents.quantifier.collective",
+     "name": "collective",
+     "gloss": "COLLECTIVE",
+     "form": "gotu",
+     "introduced": "0.1"
+    }
+   ],
+   "serves": "s.operator.quantifier",
+   "applies to": "a referent",
+   "status": {
+    "kind": "default",
+    "default": "no claim",
+    "kind of default": "claims nothing"
+   },
+   "critical dimension": null,
+   "scope": "term",
+   "protected": false,
+   "compatibility": "must-understand",
+   "introduced": "0.1"
+  },
+  {
+   "identifier": "g.situations-and-contents.comparator",
+   "group": "situations and contents",
+   "name": "comparator",
+   "members": [
+    {
+     "identifier": "g.situations-and-contents.comparator.exactly",
+     "name": "exactly",
+     "gloss": "EXACTLY",
+     "form": "gusa",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.situations-and-contents.comparator.at-least",
+     "name": "at least",
+     "gloss": "AT-LEAST",
+     "form": "gure",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.situations-and-contents.comparator.at-most",
+     "name": "at most",
+     "gloss": "AT-MOST",
+     "form": "guyi",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.situations-and-contents.comparator.approximately",
+     "name": "approximately",
+     "gloss": "APPROXIMATELY",
+     "form": "gupo",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.situations-and-contents.comparator.as-a-representative-quantity",
+     "name": "as a representative quantity",
+     "gloss": "AS-A-REPRESENTATIVE-QUANTITY",
+     "form": "guku",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.situations-and-contents.comparator.unstated",
+     "name": "unstated",
+     "gloss": "COMPARATOR.UNSTATED",
+     "form": "maga",
+     "introduced": "0.1"
+    }
+   ],
+   "serves": "s.value.number",
+   "applies to": "a number",
+   "status": {
+    "kind": "default",
+    "default": "unstated",
+    "kind of default": "claims nothing",
+    "default member": "g.situations-and-contents.comparator.unstated"
+   },
+   "critical dimension": "numerical values and their units",
+   "scope": "term",
+   "protected": false,
+   "compatibility": "must-understand",
+   "introduced": "0.1"
+  },
+  {
+   "identifier": "g.situations-and-contents.structural-relation",
+   "group": "situations and contents",
+   "name": "structural relation",
+   "members": [
+    {
+     "identifier": "g.situations-and-contents.structural-relation.identity",
+     "name": "identity",
+     "gloss": "IDENTITY",
+     "form": "mane",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.situations-and-contents.structural-relation.member-of",
+     "name": "member of",
+     "gloss": "MEMBER-OF",
+     "form": "mali",
+     "introduced": "0.1"
+    }
+   ],
+   "serves": "s.relation.identity",
+   "applies to": "two referents",
+   "status": {
+    "kind": "default",
+    "default": "no claim",
+    "kind of default": "claims nothing"
+   },
+   "critical dimension": null,
+   "scope": "situation",
+   "protected": false,
+   "compatibility": "must-understand",
+   "introduced": "0.1"
+  },
+  {
+   "identifier": "g.reference.existence-commitment",
+   "group": "reference",
+   "name": "existence commitment",
+   "members": [
+    {
+     "identifier": "g.reference.existence-commitment.asserted-to-exist",
+     "name": "asserted to exist",
+     "gloss": "ASSERTED-TO-EXIST",
+     "form": "mawo",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.reference.existence-commitment.mentioned-without-existence-asserted",
+     "name": "mentioned without existence asserted",
+     "gloss": "MENTIONED-WITHOUT-EXISTENCE-ASSERTED",
+     "form": "mahu",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.reference.existence-commitment.within-a-supposition",
+     "name": "within a supposition",
+     "gloss": "EXISTENCE-COMMITMENT.WITHIN-A-SUPPOSITION",
+     "form": "mema",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.reference.existence-commitment.within-a-declared-fiction",
+     "name": "within a declared fiction",
+     "gloss": "WITHIN-A-DECLARED-FICTION",
+     "form": "mese",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.reference.existence-commitment.predicted-to-exist",
+     "name": "predicted to exist",
+     "gloss": "PREDICTED-TO-EXIST",
+     "form": "meri",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.reference.existence-commitment.asserted-not-to-exist",
+     "name": "asserted not to exist",
+     "gloss": "ASSERTED-NOT-TO-EXIST",
+     "form": "meyo",
+     "introduced": "0.1"
+    }
+   ],
+   "serves": "s.paradigm.referent-status",
+   "applies to": "a referent",
+   "status": {
+    "kind": "default",
+    "default": "the world of the enclosing content",
+    "kind of default": "fixed by the message"
+   },
+   "critical dimension": null,
+   "scope": "term",
+   "protected": false,
+   "compatibility": "must-understand",
+   "introduced": "0.1"
+  },
+  {
+   "identifier": "g.reference.access",
+   "group": "reference",
+   "name": "access",
+   "members": [
+    {
+     "identifier": "g.reference.access.present",
+     "name": "present",
+     "gloss": "PRESENT",
+     "form": "mepu",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.reference.access.absent",
+     "name": "absent",
+     "gloss": "ABSENT",
+     "form": "mina",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.reference.access.internal",
+     "name": "internal",
+     "gloss": "INTERNAL",
+     "form": "mile",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.reference.access.external",
+     "name": "external",
+     "gloss": "EXTERNAL",
+     "form": "miwi",
+     "introduced": "0.1"
+    }
+   ],
+   "serves": "s.paradigm.referent-status",
+   "applies to": "a referent",
+   "status": {
+    "kind": "default",
+    "default": "no claim",
+    "kind of default": "claims nothing"
+   },
+   "critical dimension": null,
+   "scope": "term",
+   "protected": false,
+   "compatibility": "must-understand",
+   "introduced": "0.1"
+  },
+  {
+   "identifier": "g.reference.verification",
+   "group": "reference",
+   "name": "verification",
+   "members": [
+    {
+     "identifier": "g.reference.verification.unverified",
+     "name": "unverified",
+     "gloss": "UNVERIFIED",
+     "form": "miho",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.reference.verification.verified-by-the-speaker",
+     "name": "verified by the speaker",
+     "gloss": "VERIFIED-BY-THE-SPEAKER",
+     "form": "mitu",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.reference.verification.verified-by-a-named-third-party",
+     "name": "verified by a named third party",
+     "gloss": "VERIFIED-BY-A-NAMED-THIRD-PARTY",
+     "form": "mosa",
+     "introduced": "0.1"
+    }
+   ],
+   "serves": "s.paradigm.referent-status",
+   "applies to": "an external referent",
+   "status": {
+    "kind": "default",
+    "default": "unverified",
+    "kind of default": "the weakest member",
+    "default member": "g.reference.verification.unverified"
+   },
+   "critical dimension": null,
+   "scope": "term",
+   "protected": false,
+   "compatibility": "must-understand",
+   "introduced": "0.1"
+  },
+  {
+   "identifier": "g.reference.discourse-status",
+   "group": "reference",
+   "name": "discourse status",
+   "members": [
+    {
+     "identifier": "g.reference.discourse-status.new",
+     "name": "new",
+     "gloss": "NEW",
+     "form": "more",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.reference.discourse-status.given",
+     "name": "given",
+     "gloss": "GIVEN",
+     "form": "moyi",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.reference.discourse-status.inferable",
+     "name": "inferable",
+     "gloss": "INFERABLE",
+     "form": "mopo",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.reference.discourse-status.in-the-speakers-view-of-the-common-ground",
+     "name": "in the speaker's view of the common ground",
+     "gloss": "IN-THE-SPEAKERS-VIEW-OF-THE-COMMON-GROUND",
+     "form": "moku",
+     "introduced": "0.1"
+    }
+   ],
+   "serves": "s.paradigm.referent-status",
+   "applies to": "a referent",
+   "status": {
+    "kind": "default",
+    "default": "new where first written and given after",
+    "kind of default": "fixed by the message"
+   },
+   "critical dimension": null,
+   "scope": "term",
+   "protected": false,
+   "compatibility": "must-understand",
+   "introduced": "0.1"
+  },
+  {
+   "identifier": "g.reference.specificity",
+   "group": "reference",
+   "name": "specificity",
+   "members": [
+    {
+     "identifier": "g.reference.specificity.specific",
+     "name": "specific",
+     "gloss": "SPECIFIC",
+     "form": "mula",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.reference.specificity.non-specific",
+     "name": "non-specific",
+     "gloss": "NON-SPECIFIC",
+     "form": "muwe",
+     "introduced": "0.1"
+    }
+   ],
+   "serves": "s.paradigm.referent-status",
+   "applies to": "a referent",
+   "status": {
+    "kind": "default",
+    "default": "no claim",
+    "kind of default": "claims nothing"
+   },
+   "critical dimension": null,
+   "scope": "term",
+   "protected": false,
+   "compatibility": "must-understand",
+   "introduced": "0.1"
+  },
+  {
+   "identifier": "g.reference.person",
+   "group": "reference",
+   "name": "person",
+   "members": [
+    {
+     "identifier": "g.reference.person.self",
+     "name": "self",
+     "gloss": "SELF",
+     "form": "muhi",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.reference.person.interlocutor",
+     "name": "interlocutor",
+     "gloss": "INTERLOCUTOR",
+     "form": "muto",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.reference.person.third-agent",
+     "name": "third agent",
+     "gloss": "THIRD-AGENT",
+     "form": "mubu",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.reference.person.inclusive-collective",
+     "name": "inclusive collective",
+     "gloss": "INCLUSIVE-COLLECTIVE",
+     "form": "sama",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.reference.person.exclusive-collective",
+     "name": "exclusive collective",
+     "gloss": "EXCLUSIVE-COLLECTIVE",
+     "form": "sase",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.reference.person.system",
+     "name": "system",
+     "gloss": "SYSTEM",
+     "form": "sari",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.reference.person.tool",
+     "name": "tool",
+     "gloss": "TOOL",
+     "form": "sayo",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.reference.person.environment",
+     "name": "environment",
+     "gloss": "ENVIRONMENT",
+     "form": "sapu",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.reference.person.external-source",
+     "name": "external source",
+     "gloss": "EXTERNAL-SOURCE",
+     "form": "sena",
+     "introduced": "0.1"
+    }
+   ],
+   "serves": "s.sort.agent",
+   "applies to": "a referent",
+   "status": {
+    "kind": "default",
+    "default": "no claim",
+    "kind of default": "claims nothing"
+   },
+   "critical dimension": "the identity of any agent who is obligated, authorised or held responsible, and the authority claimed",
+   "scope": "term",
+   "protected": false,
+   "compatibility": "must-understand",
+   "introduced": "0.1"
+  },
+  {
+   "identifier": "g.reference.reading-of-a-collective",
+   "group": "reference",
+   "name": "reading of a collective",
+   "members": [
+    {
+     "identifier": "g.reference.reading-of-a-collective.joint",
+     "name": "joint",
+     "gloss": "JOINT",
+     "form": "sele",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.reference.reading-of-a-collective.distributive",
+     "name": "distributive",
+     "gloss": "READING-OF-A-COLLECTIVE.DISTRIBUTIVE",
+     "form": "sewi",
+     "introduced": "0.1"
+    }
+   ],
+   "serves": "s.sort.collective",
+   "applies to": "a collective that acts or holds a normative state",
+   "status": {
+    "kind": "obligatory"
+   },
+   "critical dimension": "the identity of any agent who is obligated, authorised or held responsible, and the authority claimed",
+   "scope": "term",
+   "protected": false,
+   "compatibility": "must-understand",
+   "introduced": "0.1"
+  },
+  {
+   "identifier": "g.reference.kind-of-reference",
+   "group": "reference",
+   "name": "kind of reference",
+   "members": [
+    {
+     "identifier": "g.reference.kind-of-reference.names",
+     "name": "names",
+     "gloss": "NAMES",
+     "form": "seho",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.reference.kind-of-reference.mentions",
+     "name": "mentions",
+     "gloss": "MENTIONS",
+     "form": "setu",
+     "introduced": "0.1"
+    }
+   ],
+   "serves": "s.relation.names",
+   "applies to": "a reference to an entry or a message",
+   "status": {
+    "kind": "obligatory"
+   },
+   "critical dimension": null,
+   "scope": "move",
+   "protected": false,
+   "compatibility": "must-understand",
+   "introduced": "0.1"
+  },
+  {
+   "identifier": "g.reference.expected-status-of-an-entry",
+   "group": "reference",
+   "name": "expected status of an entry",
+   "members": [
+    {
+     "identifier": "g.reference.expected-status-of-an-entry.open",
+     "name": "open",
+     "gloss": "OPEN",
+     "form": "sisa",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.reference.expected-status-of-an-entry.in-force",
+     "name": "in force",
+     "gloss": "EXPECTED-STATUS-OF-AN-ENTRY.IN-FORCE",
+     "form": "sire",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.reference.expected-status-of-an-entry.resolved",
+     "name": "resolved",
+     "gloss": "RESOLVED",
+     "form": "siyi",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.reference.expected-status-of-an-entry.lowered",
+     "name": "lowered",
+     "gloss": "LOWERED",
+     "form": "sipo",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.reference.expected-status-of-an-entry.withdrawn",
+     "name": "withdrawn",
+     "gloss": "EXPECTED-STATUS-OF-AN-ENTRY.WITHDRAWN",
+     "form": "siku",
+     "introduced": "0.1"
+    }
+   ],
+   "serves": "s.relation.names",
+   "applies to": "a reference that names an entry",
+   "status": {
+    "kind": "obligatory"
+   },
+   "critical dimension": null,
+   "scope": "move",
+   "protected": false,
+   "compatibility": "must-understand",
+   "introduced": "0.1"
+  },
+  {
+   "identifier": "g.time.time-index",
+   "group": "time",
+   "name": "time index",
+   "members": [
+    {
+     "identifier": "g.time.time-index.event-time",
+     "name": "event time",
+     "gloss": "EVENT-TIME",
+     "form": "dugewi",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.time.time-index.reference-time",
+     "name": "reference time",
+     "gloss": "REFERENCE-TIME",
+     "form": "dunedo",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.time.time-index.observation-time",
+     "name": "observation time",
+     "gloss": "OBSERVATION-TIME",
+     "form": "didigi",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.time.time-index.inference-time",
+     "name": "inference time",
+     "gloss": "INFERENCE-TIME",
+     "form": "dotura",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.time.time-index.communication-time",
+     "name": "communication time",
+     "gloss": "TIME-INDEX.COMMUNICATION-TIME",
+     "form": "dekile",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.time.time-index.execution-time",
+     "name": "execution time",
+     "gloss": "EXECUTION-TIME",
+     "form": "detuse",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.time.time-index.deadline",
+     "name": "deadline",
+     "gloss": "DEADLINE",
+     "form": "diyiho",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.time.time-index.validity-interval",
+     "name": "validity interval",
+     "gloss": "VALIDITY-INTERVAL",
+     "form": "dorude",
+     "introduced": "0.1"
+    }
+   ],
+   "serves": "s.value.time",
+   "applies to": "the unit each describes",
+   "status": {
+    "kind": "default",
+    "default": "no claim",
+    "kind of default": "claims nothing"
+   },
+   "critical dimension": "times and deadlines",
+   "scope": "situation",
+   "protected": true,
+   "compatibility": "must-understand",
+   "introduced": "0.1"
+  },
+  {
+   "identifier": "g.time.time-relation",
+   "group": "time",
+   "name": "time relation",
+   "members": [
+    {
+     "identifier": "g.time.time-relation.before",
+     "name": "before",
+     "gloss": "BEFORE",
+     "form": "dinago",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.time.time-relation.after",
+     "name": "after",
+     "gloss": "AFTER",
+     "form": "dilode",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.time.time-relation.meets",
+     "name": "meets",
+     "gloss": "MEETS",
+     "form": "dimuki",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.time.time-relation.met-by",
+     "name": "met by",
+     "gloss": "MET-BY",
+     "form": "dokeha",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.time.time-relation.overlaps",
+     "name": "overlaps",
+     "gloss": "OVERLAPS",
+     "form": "depiri",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.time.time-relation.overlapped-by",
+     "name": "overlapped by",
+     "gloss": "OVERLAPPED-BY",
+     "form": "dubime",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.time.time-relation.starts",
+     "name": "starts",
+     "gloss": "STARTS",
+     "form": "duwelu",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.time.time-relation.started-by",
+     "name": "started by",
+     "gloss": "STARTED-BY",
+     "form": "dasili",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.time.time-relation.during",
+     "name": "during",
+     "gloss": "DURING",
+     "form": "dolopi",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.time.time-relation.contains",
+     "name": "contains",
+     "gloss": "CONTAINS",
+     "form": "duduto",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.time.time-relation.finishes",
+     "name": "finishes",
+     "gloss": "FINISHES",
+     "form": "dihepe",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.time.time-relation.finished-by",
+     "name": "finished by",
+     "gloss": "FINISHED-BY",
+     "form": "darole",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.time.time-relation.equals",
+     "name": "equals",
+     "gloss": "EQUALS",
+     "form": "duyade",
+     "introduced": "0.1"
+    }
+   ],
+   "serves": "s.relation.time-relation",
+   "applies to": "two times",
+   "status": {
+    "kind": "default",
+    "default": "no claim",
+    "kind of default": "claims nothing"
+   },
+   "critical dimension": "times and deadlines",
+   "scope": "situation",
+   "protected": true,
+   "compatibility": "must-understand",
+   "introduced": "0.1"
+  },
+  {
+   "identifier": "g.time.time-unit",
+   "group": "time",
+   "name": "time unit",
+   "members": [
+    {
+     "identifier": "g.time.time-unit.second",
+     "name": "second",
+     "gloss": "SECOND",
+     "form": "diroya",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.time.time-unit.minute",
+     "name": "minute",
+     "gloss": "MINUTE",
+     "form": "deguna",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.time.time-unit.hour",
+     "name": "hour",
+     "gloss": "HOUR",
+     "form": "dewahi",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.time.time-unit.day",
+     "name": "day",
+     "gloss": "DAY",
+     "form": "domoto",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.time.time-unit.week",
+     "name": "week",
+     "gloss": "WEEK",
+     "form": "desesu",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.time.time-unit.month",
+     "name": "month",
+     "gloss": "MONTH",
+     "form": "dubotu",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.time.time-unit.year",
+     "name": "year",
+     "gloss": "YEAR",
+     "form": "dayabi",
+     "introduced": "0.1"
+    }
+   ],
+   "serves": "s.value.time",
+   "applies to": "a stated duration or offset",
+   "status": {
+    "kind": "obligatory"
+   },
+   "critical dimension": "times and deadlines",
+   "scope": "situation",
+   "protected": true,
+   "compatibility": "must-understand",
+   "introduced": "0.1"
+  },
+  {
+   "identifier": "g.time.time-anchor",
+   "group": "time",
+   "name": "time anchor",
+   "members": [
+    {
+     "identifier": "g.time.time-anchor.ago",
+     "name": "ago",
+     "gloss": "AGO",
+     "form": "dadoka",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.time.time-anchor.hence",
+     "name": "hence",
+     "gloss": "HENCE",
+     "form": "dikara",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.time.time-anchor.now",
+     "name": "now",
+     "gloss": "NOW",
+     "form": "dayira",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.time.time-anchor.per",
+     "name": "per",
+     "gloss": "PER",
+     "form": "danawe",
+     "introduced": "0.1"
+    }
+   ],
+   "serves": "s.value.time",
+   "applies to": "a time",
+   "status": {
+    "kind": "default",
+    "default": "no claim",
+    "kind of default": "claims nothing"
+   },
+   "critical dimension": "times and deadlines",
+   "scope": "situation",
+   "protected": true,
+   "compatibility": "must-understand",
+   "introduced": "0.1"
+  },
+  {
+   "identifier": "g.numbers.numeral",
+   "group": "numbers",
+   "name": "numeral",
+   "members": [
+    {
+     "identifier": "g.numbers.numeral.zero",
+     "name": "zero",
+     "gloss": "ZERO",
+     "form": "napa",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.numbers.numeral.one",
+     "name": "one",
+     "gloss": "ONE",
+     "form": "nake",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.numbers.numeral.two",
+     "name": "two",
+     "gloss": "TWO",
+     "form": "nadi",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.numbers.numeral.three",
+     "name": "three",
+     "gloss": "THREE",
+     "form": "namo",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.numbers.numeral.four",
+     "name": "four",
+     "gloss": "FOUR",
+     "form": "nasu",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.numbers.numeral.five",
+     "name": "five",
+     "gloss": "FIVE",
+     "form": "neta",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.numbers.numeral.six",
+     "name": "six",
+     "gloss": "SIX",
+     "form": "nebe",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.numbers.numeral.seven",
+     "name": "seven",
+     "gloss": "SEVEN",
+     "form": "negi",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.numbers.numeral.eight",
+     "name": "eight",
+     "gloss": "EIGHT",
+     "form": "neno",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.numbers.numeral.nine",
+     "name": "nine",
+     "gloss": "NINE",
+     "form": "nelu",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.numbers.numeral.decimal-point",
+     "name": "decimal point",
+     "gloss": "DECIMAL-POINT",
+     "form": "nika",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.numbers.numeral.negative",
+     "name": "negative",
+     "gloss": "NUMERAL.NEGATIVE",
+     "form": "nide",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.numbers.numeral.ratio",
+     "name": "ratio",
+     "gloss": "RATIO",
+     "form": "nimi",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.numbers.numeral.exponent",
+     "name": "exponent",
+     "gloss": "EXPONENT",
+     "form": "niso",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.numbers.numeral.interval",
+     "name": "interval",
+     "gloss": "INTERVAL",
+     "form": "niru",
+     "introduced": "0.1"
+    }
+   ],
+   "serves": "s.value.number",
+   "applies to": "a number",
+   "status": {
+    "kind": "obligatory"
+   },
+   "critical dimension": "numerical values and their units",
+   "scope": "term",
+   "protected": false,
+   "compatibility": "must-understand",
+   "introduced": "0.1"
+  },
+  {
+   "identifier": "g.numbers.check-word",
+   "group": "numbers",
+   "name": "check word",
+   "members": [
+    {
+     "identifier": "g.numbers.check-word.check-0",
+     "name": "check 0",
+     "gloss": "CHECK-0",
+     "form": "yata",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.numbers.check-word.check-1",
+     "name": "check 1",
+     "gloss": "CHECK-1",
+     "form": "yabe",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.numbers.check-word.check-2",
+     "name": "check 2",
+     "gloss": "CHECK-2",
+     "form": "yagi",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.numbers.check-word.check-3",
+     "name": "check 3",
+     "gloss": "CHECK-3",
+     "form": "yano",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.numbers.check-word.check-4",
+     "name": "check 4",
+     "gloss": "CHECK-4",
+     "form": "yalu",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.numbers.check-word.check-5",
+     "name": "check 5",
+     "gloss": "CHECK-5",
+     "form": "yeka",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.numbers.check-word.check-6",
+     "name": "check 6",
+     "gloss": "CHECK-6",
+     "form": "yede",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.numbers.check-word.check-7",
+     "name": "check 7",
+     "gloss": "CHECK-7",
+     "form": "yemi",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.numbers.check-word.check-8",
+     "name": "check 8",
+     "gloss": "CHECK-8",
+     "form": "yeso",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.numbers.check-word.check-9",
+     "name": "check 9",
+     "gloss": "CHECK-9",
+     "form": "yeru",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.numbers.check-word.check-10",
+     "name": "check 10",
+     "gloss": "CHECK-10",
+     "form": "yiba",
+     "introduced": "0.1"
+    }
+   ],
+   "serves": "s.value.identifier",
+   "applies to": "a number, an identifier and a count",
+   "status": {
+    "kind": "obligatory"
+   },
+   "critical dimension": "numerical values and their units",
+   "scope": "term",
+   "protected": false,
+   "compatibility": "must-understand",
+   "introduced": "0.1"
+  },
+  {
+   "identifier": "g.ambiguity-and-figures.kind-of-ambiguity",
+   "group": "ambiguity and figures",
+   "name": "kind of ambiguity",
+   "members": [
+    {
+     "identifier": "g.ambiguity-and-figures.kind-of-ambiguity.accidental",
+     "name": "accidental",
+     "gloss": "ACCIDENTAL",
+     "form": "sola",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.ambiguity-and-figures.kind-of-ambiguity.productive",
+     "name": "productive",
+     "gloss": "PRODUCTIVE",
+     "form": "sowe",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.ambiguity-and-figures.kind-of-ambiguity.strategic",
+     "name": "strategic",
+     "gloss": "STRATEGIC",
+     "form": "sohi",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.ambiguity-and-figures.kind-of-ambiguity.creative",
+     "name": "creative",
+     "gloss": "CREATIVE",
+     "form": "soto",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.ambiguity-and-figures.kind-of-ambiguity.epistemic",
+     "name": "epistemic",
+     "gloss": "EPISTEMIC",
+     "form": "sobu",
+     "introduced": "0.1"
+    }
+   ],
+   "serves": "s.sort.set-of-readings",
+   "applies to": "a set of readings",
+   "status": {
+    "kind": "obligatory"
+   },
+   "critical dimension": null,
+   "scope": "term",
+   "protected": false,
+   "compatibility": "must-understand",
+   "introduced": "0.1"
+  },
+  {
+   "identifier": "g.ambiguity-and-figures.precision-bound-declaration",
+   "group": "ambiguity and figures",
+   "name": "precision-bound declaration",
+   "members": [
+    {
+     "identifier": "g.ambiguity-and-figures.precision-bound-declaration.precision-bound",
+     "name": "precision-bound",
+     "gloss": "PRECISION-BOUND",
+     "form": "sura",
+     "introduced": "0.1"
+    }
+   ],
+   "serves": "s.sort.move",
+   "applies to": "a move or an exchange",
+   "status": {
+    "kind": "default",
+    "default": "no claim",
+    "kind of default": "claims nothing"
+   },
+   "critical dimension": null,
+   "scope": "move",
+   "protected": false,
+   "compatibility": "must-understand",
+   "introduced": "0.1"
+  },
+  {
+   "identifier": "g.ambiguity-and-figures.figurative-type",
+   "group": "ambiguity and figures",
+   "name": "figurative type",
+   "members": [
+    {
+     "identifier": "g.ambiguity-and-figures.figurative-type.metaphor",
+     "name": "metaphor",
+     "gloss": "METAPHOR",
+     "form": "suye",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.ambiguity-and-figures.figurative-type.metonymy",
+     "name": "metonymy",
+     "gloss": "METONYMY",
+     "form": "supi",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.ambiguity-and-figures.figurative-type.irony",
+     "name": "irony",
+     "gloss": "IRONY",
+     "form": "suko",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.ambiguity-and-figures.figurative-type.hyperbole",
+     "name": "hyperbole",
+     "gloss": "HYPERBOLE",
+     "form": "sudu",
+     "introduced": "0.1"
+    }
+   ],
+   "serves": "s.sort.figure",
+   "applies to": "a constituent",
+   "status": {
+    "kind": "default",
+    "default": "literal",
+    "kind of default": "the plain reading"
+   },
+   "critical dimension": "the figurative type of a constituent as its mark states it",
+   "scope": "term",
+   "protected": false,
+   "compatibility": "must-understand",
+   "introduced": "0.1"
+  },
+  {
+   "identifier": "g.ambiguity-and-figures.figures-relation",
+   "group": "ambiguity and figures",
+   "name": "figure's relation",
+   "members": [
+    {
+     "identifier": "g.ambiguity-and-figures.figures-relation.target-content",
+     "name": "target content",
+     "gloss": "TARGET-CONTENT",
+     "form": "wana",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.ambiguity-and-figures.figures-relation.stands-for",
+     "name": "stands for",
+     "gloss": "STANDS-FOR",
+     "form": "wale",
+     "introduced": "0.1"
+    }
+   ],
+   "serves": "s.relation.maps-to",
+   "applies to": "a figure",
+   "status": {
+    "kind": "default",
+    "default": "no claim",
+    "kind of default": "claims nothing"
+   },
+   "critical dimension": null,
+   "scope": "term",
+   "protected": false,
+   "compatibility": "must-understand",
+   "introduced": "0.1"
+  },
+  {
+   "identifier": "g.ambiguity-and-figures.idiom-selection",
+   "group": "ambiguity and figures",
+   "name": "idiom selection",
+   "members": [
+    {
+     "identifier": "g.ambiguity-and-figures.idiom-selection.idiom-entry",
+     "name": "idiom entry",
+     "gloss": "IDIOM-ENTRY",
+     "form": "wawi",
+     "introduced": "0.1"
+    }
+   ],
+   "serves": "s.sort.lexicon-entry",
+   "applies to": "an expression larger than a word",
+   "status": {
+    "kind": "default",
+    "default": "no claim",
+    "kind of default": "claims nothing"
+   },
+   "critical dimension": null,
+   "scope": "term",
+   "protected": false,
+   "compatibility": "must-understand",
+   "introduced": "0.1"
+  },
+  {
+   "identifier": "g.message.message-field",
+   "group": "message",
+   "name": "message field",
+   "members": [
+    {
+     "identifier": "g.message.message-field.sender",
+     "name": "sender",
+     "gloss": "SENDER",
+     "form": "waho",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.message.message-field.recipients",
+     "name": "recipients",
+     "gloss": "RECIPIENTS",
+     "form": "watu",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.message.message-field.communication-time",
+     "name": "communication time",
+     "gloss": "MESSAGE-FIELD.COMMUNICATION-TIME",
+     "form": "wesa",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.message.message-field.version",
+     "name": "version",
+     "gloss": "MESSAGE-FIELD.VERSION",
+     "form": "were",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.message.message-field.identifier",
+     "name": "identifier",
+     "gloss": "IDENTIFIER",
+     "form": "weyi",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.message.message-field.integrity-check-value",
+     "name": "integrity check value",
+     "gloss": "INTEGRITY-CHECK-VALUE",
+     "form": "wepo",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.message.message-field.semantic-check-value",
+     "name": "semantic check value",
+     "gloss": "SEMANTIC-CHECK-VALUE",
+     "form": "weku",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.message.message-field.first-entry",
+     "name": "first entry",
+     "gloss": "FIRST-ENTRY",
+     "introduced": "0.3",
+     "reason": "the number, in the sender's count of its own entries, of the entry the message's first move adds, so that every hearer gives each entry the handle its author gave it",
+     "form": "lewe"
+    },
+    {
+     "identifier": "g.message.message-field.authentication",
+     "name": "authentication",
+     "gloss": "AUTHENTICATION",
+     "introduced": "0.9",
+     "reason": "a signature over the canonical serialisation of the whole message, its claims of sender and time included, by a scheme the field names",
+     "form": "luya"
+    }
+   ],
+   "serves": "s.sort.message",
+   "applies to": "every message",
+   "status": {
+    "kind": "obligatory"
+   },
+   "critical dimension": null,
+   "scope": "message",
+   "protected": false,
+   "compatibility": "must-understand",
+   "introduced": "0.1"
+  },
+  {
+   "identifier": "g.message.word-count",
+   "group": "message",
+   "name": "word count",
+   "members": [
+    {
+     "identifier": "g.message.word-count.word-count",
+     "name": "word count",
+     "gloss": "WORD-COUNT",
+     "form": "wila",
+     "introduced": "0.1"
+    }
+   ],
+   "serves": "s.sort.move",
+   "applies to": "every move",
+   "status": {
+    "kind": "obligatory"
+   },
+   "critical dimension": null,
+   "scope": "move",
+   "protected": false,
+   "compatibility": "must-understand",
+   "introduced": "0.1"
+  },
+  {
+   "identifier": "g.message.forwarded",
+   "group": "message",
+   "name": "forwarded",
+   "members": [
+    {
+     "identifier": "g.message.forwarded.forwarded",
+     "name": "forwarded",
+     "gloss": "FORWARDED",
+     "form": "wiwe",
+     "introduced": "0.1"
+    }
+   ],
+   "serves": "s.sort.message",
+   "applies to": "a message",
+   "status": {
+    "kind": "default",
+    "default": "the sender is the speaker",
+    "kind of default": "fixed by the message"
+   },
+   "critical dimension": null,
+   "scope": "message",
+   "protected": false,
+   "compatibility": "must-understand",
+   "introduced": "0.1"
+  },
+  {
+   "identifier": "g.message.embedded-material",
+   "group": "message",
+   "name": "embedded material",
+   "members": [
+    {
+     "identifier": "g.message.embedded-material.quotation",
+     "name": "quotation",
+     "gloss": "QUOTATION",
+     "form": "wihi",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.message.embedded-material.declared-data",
+     "name": "declared data",
+     "gloss": "DECLARED-DATA",
+     "form": "wito",
+     "introduced": "0.1"
+    },
+    {
+     "identifier": "g.message.embedded-material.example",
+     "name": "example",
+     "gloss": "EXAMPLE",
+     "form": "wibu",
+     "introduced": "0.1"
+    }
+   ],
+   "serves": "s.sort.expression",
+   "applies to": "a constituent",
+   "status": {
+    "kind": "default",
+    "default": "no claim",
+    "kind of default": "claims nothing"
+   },
+   "critical dimension": "operative force",
+   "scope": "term",
+   "protected": false,
+   "compatibility": "must-understand",
+   "introduced": "0.1"
+  },
+  {
+   "identifier": "g.ambiguity-and-figures.declared-loss",
+   "group": "ambiguity and figures",
+   "name": "declared loss",
+   "members": [
+    {
+     "identifier": "g.ambiguity-and-figures.declared-loss.register",
+     "name": "register",
+     "gloss": "REGISTER",
+     "introduced": "0.5",
+     "reason": "what the move's normal form loses of the social and textual component its realisation carries",
+     "form": "lehi"
+    },
+    {
+     "identifier": "g.ambiguity-and-figures.declared-loss.diction",
+     "name": "diction",
+     "gloss": "DICTION",
+     "introduced": "0.5",
+     "reason": "what the move's normal form loses of the social and textual component its realisation carries",
+     "form": "leto"
+    },
+    {
+     "identifier": "g.ambiguity-and-figures.declared-loss.stance",
+     "name": "stance",
+     "gloss": "STANCE",
+     "introduced": "0.5",
+     "reason": "what the move's normal form loses of the social and textual component its realisation carries",
+     "form": "lebu"
+    },
+    {
+     "identifier": "g.ambiguity-and-figures.declared-loss.relation-between-participants",
+     "name": "relation between participants",
+     "gloss": "RELATION-BETWEEN-PARTICIPANTS",
+     "introduced": "0.5",
+     "reason": "what the move's normal form loses of the social and textual component its realisation carries",
+     "form": "lira"
+    },
+    {
+     "identifier": "g.ambiguity-and-figures.declared-loss.wording",
+     "name": "wording",
+     "gloss": "WORDING",
+     "introduced": "0.5",
+     "reason": "what the move's normal form loses of the social and textual component its realisation carries",
+     "form": "liye"
+    }
+   ],
+   "serves": "s.component.social-and-textual-component",
+   "applies to": "a move",
+   "status": {
+    "kind": "default",
+    "default": "no claim",
+    "kind of default": "claims nothing"
+   },
+   "critical dimension": null,
+   "scope": "move",
+   "protected": false,
+   "compatibility": "must-understand",
+   "introduced": "0.5"
+  },
+  {
+   "identifier": "g.ambiguity-and-figures.register",
+   "group": "ambiguity and figures",
+   "name": "register",
+   "members": [
+    {
+     "identifier": "g.ambiguity-and-figures.register.raw",
+     "name": "raw",
+     "gloss": "RAW",
+     "introduced": "0.6",
+     "reason": "the register the move's whole surface is in",
+     "form": "lipi"
+    },
+    {
+     "identifier": "g.ambiguity-and-figures.register.protocol",
+     "name": "protocol",
+     "gloss": "PROTOCOL",
+     "introduced": "0.6",
+     "reason": "the register the move's whole surface is in",
+     "form": "liko"
+    },
+    {
+     "identifier": "g.ambiguity-and-figures.register.standard",
+     "name": "standard",
+     "gloss": "STANDARD",
+     "introduced": "0.6",
+     "reason": "the register the move's whole surface is in",
+     "form": "lidu"
+    },
+    {
+     "identifier": "g.ambiguity-and-figures.register.explanatory",
+     "name": "explanatory",
+     "gloss": "EXPLANATORY",
+     "introduced": "0.6",
+     "reason": "the register the move's whole surface is in",
+     "form": "lowa"
+    },
+    {
+     "identifier": "g.ambiguity-and-figures.register.formal",
+     "name": "formal",
+     "gloss": "FORMAL",
+     "introduced": "0.6",
+     "reason": "the register the move's whole surface is in",
+     "form": "lohe"
+    },
+    {
+     "identifier": "g.ambiguity-and-figures.register.casual",
+     "name": "casual",
+     "gloss": "CASUAL",
+     "introduced": "0.6",
+     "reason": "the register the move's whole surface is in",
+     "form": "loti"
+    },
+    {
+     "identifier": "g.ambiguity-and-figures.register.playful",
+     "name": "playful",
+     "gloss": "PLAYFUL",
+     "introduced": "0.6",
+     "reason": "the register the move's whole surface is in",
+     "form": "lobo"
+    },
+    {
+     "identifier": "g.ambiguity-and-figures.register.ceremonial",
+     "name": "ceremonial",
+     "gloss": "CEREMONIAL",
+     "introduced": "0.6",
+     "reason": "the register the move's whole surface is in",
+     "form": "logu"
+    }
+   ],
+   "serves": "s.component.social-and-textual-component",
+   "applies to": "a move",
+   "status": {
+    "kind": "default",
+    "default": "standard",
+    "kind of default": "the standard register, ordinary exchange"
+   },
+   "critical dimension": null,
+   "scope": "move",
+   "protected": false,
+   "compatibility": "must-understand",
+   "introduced": "0.6"
+  },
+  {
+   "identifier": "g.protocol.protocol-statement",
+   "group": "protocol",
+   "name": "protocol statement",
+   "members": [
+    {
+     "identifier": "g.protocol.protocol-statement.holds",
+     "name": "holds",
+     "gloss": "HOLDS",
+     "introduced": "0.9",
+     "reason": "what a protocol message states: the messages its sender holds of its addressee's, those it asks to be sent again, or those it cannot send again",
+     "form": "lupe"
+    },
+    {
+     "identifier": "g.protocol.protocol-statement.send-again",
+     "name": "send again",
+     "gloss": "SEND-AGAIN",
+     "introduced": "0.9",
+     "reason": "what a protocol message states: the messages its sender holds of its addressee's, those it asks to be sent again, or those it cannot send again",
+     "form": "luki"
+    },
+    {
+     "identifier": "g.protocol.protocol-statement.not-held",
+     "name": "not held",
+     "gloss": "NOT-HELD",
+     "introduced": "0.9",
+     "reason": "what a protocol message states: the messages its sender holds of its addressee's, those it asks to be sent again, or those it cannot send again",
+     "form": "ludo"
+    },
+    {
+     "identifier": "g.protocol.protocol-statement.understands",
+     "name": "understands",
+     "gloss": "UNDERSTANDS",
+     "introduced": "0.10",
+     "reason": "the versions its sender reads, the dialects it holds and the features it lacks",
+     "form": "yiwu"
+    },
+    {
+     "identifier": "g.protocol.protocol-statement.lacks",
+     "name": "lacks",
+     "gloss": "LACKS",
+     "introduced": "0.10",
+     "reason": "a message of the addressee's its sender could not interpret, and the versions, dialects and features it lacked for it",
+     "form": "yoda"
+    }
+   ],
+   "serves": "s.sort.message",
+   "applies to": "a protocol message",
+   "status": {
+    "kind": "obligatory"
+   },
+   "critical dimension": null,
+   "scope": "message",
+   "protected": false,
+   "compatibility": "must-understand",
+   "introduced": "0.9"
+  },
+  {
+   "identifier": "g.protocol.statement-part",
+   "group": "protocol",
+   "name": "statement part",
+   "members": [
+    {
+     "identifier": "g.protocol.statement-part.channel",
+     "name": "channel",
+     "gloss": "CHANNEL",
+     "introduced": "0.9",
+     "reason": "a channel by the recipients of the addressee's messages on it, the serials that follow, and entries of the addressee's by their numbers",
+     "form": "lumu"
+    },
+    {
+     "identifier": "g.protocol.statement-part.serials",
+     "name": "serials",
+     "gloss": "SERIALS",
+     "introduced": "0.9",
+     "reason": "a channel by the recipients of the addressee's messages on it, the serials that follow, and entries of the addressee's by their numbers",
+     "form": "yige"
+    },
+    {
+     "identifier": "g.protocol.statement-part.entries",
+     "name": "entries",
+     "gloss": "ENTRIES",
+     "introduced": "0.9",
+     "reason": "a channel by the recipients of the addressee's messages on it, the serials that follow, and entries of the addressee's by their numbers",
+     "form": "yini"
+    },
+    {
+     "identifier": "g.protocol.statement-part.language-version",
+     "name": "language version",
+     "gloss": "LANGUAGE-VERSION",
+     "introduced": "0.10",
+     "reason": "the language releases that follow",
+     "form": "yome"
+    },
+    {
+     "identifier": "g.protocol.statement-part.lexicon-version",
+     "name": "lexicon version",
+     "gloss": "LEXICON-VERSION",
+     "introduced": "0.10",
+     "reason": "the lexicon releases that follow",
+     "form": "yosi"
+    },
+    {
+     "identifier": "g.protocol.statement-part.protocol-version",
+     "name": "protocol version",
+     "gloss": "PROTOCOL-VERSION",
+     "introduced": "0.10",
+     "reason": "the protocol versions that follow",
+     "form": "yoro"
+    },
+    {
+     "identifier": "g.protocol.statement-part.lacking-features",
+     "name": "lacking features",
+     "gloss": "LACKING-FEATURES",
+     "introduced": "0.10",
+     "reason": "the features, by their numbers, that follow",
+     "form": "yoyu"
+    }
+   ],
+   "serves": "s.sort.message",
+   "applies to": "a protocol statement",
+   "status": {
+    "kind": "obligatory"
+   },
+   "critical dimension": null,
+   "scope": "message",
+   "protected": false,
+   "compatibility": "must-understand",
+   "introduced": "0.9"
+  }
+ ],
+ "structural words": [
+  {
+   "identifier": "g.structure.assertion",
+   "name": "assertion",
+   "gloss": "ASSERTION",
+   "description": "opens an assertion",
+   "form": "wora",
+   "introduced": "0.1"
+  },
+  {
+   "identifier": "g.structure.end-assertion",
+   "name": "end assertion",
+   "gloss": "END-ASSERTION",
+   "description": "closes an assertion",
+   "form": "woye",
+   "introduced": "0.1"
+  },
+  {
+   "identifier": "g.structure.situation",
+   "name": "situation",
+   "gloss": "SITUATION",
+   "description": "opens a situation",
+   "form": "wopi",
+   "introduced": "0.1"
+  },
+  {
+   "identifier": "g.structure.end-situation",
+   "name": "end situation",
+   "gloss": "END-SITUATION",
+   "description": "closes a situation",
+   "form": "woko",
+   "introduced": "0.1"
+  },
+  {
+   "identifier": "g.structure.term",
+   "name": "term",
+   "gloss": "TERM",
+   "description": "opens a term",
+   "form": "wodu",
+   "introduced": "0.1"
+  },
+  {
+   "identifier": "g.structure.end-term",
+   "name": "end term",
+   "gloss": "END-TERM",
+   "description": "closes a term",
+   "form": "wuwa",
+   "introduced": "0.1"
+  },
+  {
+   "identifier": "g.structure.readings",
+   "name": "readings",
+   "gloss": "READINGS",
+   "description": "opens a set of readings",
+   "form": "wuhe",
+   "introduced": "0.1"
+  },
+  {
+   "identifier": "g.structure.end-readings",
+   "name": "end readings",
+   "gloss": "END-READINGS",
+   "description": "closes a set of readings",
+   "form": "wuti",
+   "introduced": "0.1"
+  },
+  {
+   "identifier": "g.structure.wall",
+   "name": "wall",
+   "gloss": "WALL",
+   "description": "opens embedded material",
+   "form": "wubo",
+   "introduced": "0.1"
+  },
+  {
+   "identifier": "g.structure.end-wall",
+   "name": "end wall",
+   "gloss": "END-WALL",
+   "description": "closes embedded material",
+   "form": "wugu",
+   "introduced": "0.1"
+  },
+  {
+   "identifier": "g.structure.name",
+   "name": "name",
+   "gloss": "NAME",
+   "description": "names the unit it opens, by the checked number that follows",
+   "form": "lasa",
+   "introduced": "0.1"
+  },
+  {
+   "identifier": "g.structure.same",
+   "name": "same",
+   "gloss": "SAME",
+   "description": "stands for the named unit, by the checked number that follows",
+   "form": "lare",
+   "introduced": "0.1"
+  },
+  {
+   "identifier": "g.structure.message-target",
+   "name": "message target",
+   "gloss": "MESSAGE-TARGET",
+   "description": "makes the target of a reference a message, by its sender and identifier",
+   "form": "layi",
+   "introduced": "0.1"
+  },
+  {
+   "identifier": "g.structure.part",
+   "name": "part",
+   "gloss": "PART",
+   "description": "narrows a reference to the node of the entry whose number follows",
+   "form": "lapo",
+   "introduced": "0.1"
+  },
+  {
+   "identifier": "g.structure.party",
+   "name": "party",
+   "gloss": "PARTY",
+   "description": "makes a term the participant whose number follows",
+   "form": "laku",
+   "introduced": "0.1"
+  },
+  {
+   "identifier": "g.structure.until",
+   "name": "until",
+   "gloss": "UNTIL",
+   "description": "ends an interval at the time that follows",
+   "form": "lela",
+   "introduced": "0.2"
+  },
+  {
+   "identifier": "g.structure.message-serial",
+   "name": "message serial",
+   "gloss": "MESSAGE-SERIAL",
+   "description": "makes the target of a reference a message, by its sender, its serial and the recipients of its channel",
+   "introduced": "0.9",
+   "form": "yilo"
+  },
+  {
+   "identifier": "g.structure.dialect",
+   "name": "dialect",
+   "gloss": "DIALECT",
+   "description": "names a dialect by the number that follows, and in the version field and a protocol statement its version and digest as well",
+   "introduced": "0.10",
+   "form": "yuga"
+  }
+ ],
+ "critical forms": [
+  "g.force.what-the-move-adds.asserted-position",
+  "g.force.what-the-move-adds.conceded-position",
+  "g.force.what-the-move-adds.supposition",
+  "g.force.what-the-move-adds.summary",
+  "g.force.what-the-move-adds.issue",
+  "g.force.what-the-move-adds.normative-entry",
+  "g.force.what-the-move-adds.setting",
+  "g.force.what-the-move-adds.nothing-beyond-its-own-record",
+  "g.force.kind-of-issue.question",
+  "g.force.kind-of-issue.request",
+  "g.force.kind-of-issue.proposal",
+  "g.force.kind-of-issue.challenge",
+  "g.force.kind-of-normative-entry.commitment",
+  "g.force.kind-of-normative-entry.obligation",
+  "g.force.kind-of-normative-entry.permission",
+  "g.force.kind-of-normative-entry.assignment",
+  "g.force.kind-of-normative-entry.recommendation",
+  "g.force.bindingness.on-acceptance",
+  "g.force.bindingness.bound",
+  "g.force.bindingness.bound-within-a-protocol",
+  "g.force.kind-of-setting.definition",
+  "g.force.kind-of-setting.version",
+  "g.force.kind-of-setting.role",
+  "g.force.kind-of-setting.calibration",
+  "g.force.kind-of-setting.relation",
+  "g.force.change-made.none",
+  "g.force.change-made.resolution",
+  "g.force.change-made.lowering",
+  "g.force.change-made.acknowledgement",
+  "g.force.outcome-of-a-resolution.answer",
+  "g.force.outcome-of-a-resolution.acceptance",
+  "g.force.outcome-of-a-resolution.rejection",
+  "g.force.outcome-of-a-resolution.settlement",
+  "g.force.outcome-of-a-resolution.failure",
+  "g.force.extent.whole-entry",
+  "g.force.extent.part-of-it",
+  "g.force.when-the-change-takes-effect.on-the-move",
+  "g.force.when-the-change-takes-effect.on-acceptance",
+  "g.force.authority-claimed.speakers-own",
+  "g.force.authority-claimed.on-behalf-of-a-named-principal",
+  "g.force.authority-claimed.in-a-named-role",
+  "g.standing.basis.observation",
+  "g.standing.basis.introspection",
+  "g.standing.basis.retrieval",
+  "g.standing.basis.trained-knowledge",
+  "g.standing.basis.computation",
+  "g.standing.basis.inference",
+  "g.standing.basis.simulation",
+  "g.standing.basis.report",
+  "g.standing.basis.source-lost",
+  "g.standing.basis.unstated",
+  "g.standing.strength.certain",
+  "g.standing.strength.highly-probable",
+  "g.standing.strength.probable",
+  "g.standing.strength.uncertain",
+  "g.standing.strength.speculative",
+  "g.standing.strength.unstated",
+  "g.standing.provenance-link.source",
+  "g.standing.provenance-link.relayer",
+  "g.standing.provenance-link.premise",
+  "g.standing.independence-of-a-confirmation.independent",
+  "g.standing.independence-of-a-confirmation.same-source",
+  "g.attitudes-and-aims.status-of-a-normative-state.in-force",
+  "g.attitudes-and-aims.status-of-a-normative-state.discharged",
+  "g.attitudes-and-aims.status-of-a-normative-state.released",
+  "g.attitudes-and-aims.status-of-a-normative-state.withdrawn",
+  "g.attitudes-and-aims.status-of-a-normative-state.retracted-by-its-holder",
+  "g.situations-and-contents.polarity.affirmative",
+  "g.situations-and-contents.polarity.negative",
+  "g.situations-and-contents.comparator.exactly",
+  "g.situations-and-contents.comparator.at-least",
+  "g.situations-and-contents.comparator.at-most",
+  "g.situations-and-contents.comparator.approximately",
+  "g.situations-and-contents.comparator.as-a-representative-quantity",
+  "g.situations-and-contents.comparator.unstated",
+  "g.reference.person.self",
+  "g.reference.person.interlocutor",
+  "g.reference.person.third-agent",
+  "g.reference.person.inclusive-collective",
+  "g.reference.person.exclusive-collective",
+  "g.reference.person.system",
+  "g.reference.person.tool",
+  "g.reference.person.environment",
+  "g.reference.person.external-source",
+  "g.reference.reading-of-a-collective.joint",
+  "g.reference.reading-of-a-collective.distributive",
+  "g.time.time-index.event-time",
+  "g.time.time-index.reference-time",
+  "g.time.time-index.observation-time",
+  "g.time.time-index.inference-time",
+  "g.time.time-index.communication-time",
+  "g.time.time-index.execution-time",
+  "g.time.time-index.deadline",
+  "g.time.time-index.validity-interval",
+  "g.time.time-relation.before",
+  "g.time.time-relation.after",
+  "g.time.time-relation.meets",
+  "g.time.time-relation.met-by",
+  "g.time.time-relation.overlaps",
+  "g.time.time-relation.overlapped-by",
+  "g.time.time-relation.starts",
+  "g.time.time-relation.started-by",
+  "g.time.time-relation.during",
+  "g.time.time-relation.contains",
+  "g.time.time-relation.finishes",
+  "g.time.time-relation.finished-by",
+  "g.time.time-relation.equals",
+  "g.time.time-unit.second",
+  "g.time.time-unit.minute",
+  "g.time.time-unit.hour",
+  "g.time.time-unit.day",
+  "g.time.time-unit.week",
+  "g.time.time-unit.month",
+  "g.time.time-unit.year",
+  "g.time.time-anchor.ago",
+  "g.time.time-anchor.hence",
+  "g.time.time-anchor.now",
+  "g.time.time-anchor.per",
+  "g.numbers.numeral.zero",
+  "g.numbers.numeral.one",
+  "g.numbers.numeral.two",
+  "g.numbers.numeral.three",
+  "g.numbers.numeral.four",
+  "g.numbers.numeral.five",
+  "g.numbers.numeral.six",
+  "g.numbers.numeral.seven",
+  "g.numbers.numeral.eight",
+  "g.numbers.numeral.nine",
+  "g.numbers.numeral.decimal-point",
+  "g.numbers.numeral.negative",
+  "g.numbers.numeral.ratio",
+  "g.numbers.numeral.exponent",
+  "g.numbers.numeral.interval",
+  "g.numbers.check-word.check-0",
+  "g.numbers.check-word.check-1",
+  "g.numbers.check-word.check-2",
+  "g.numbers.check-word.check-3",
+  "g.numbers.check-word.check-4",
+  "g.numbers.check-word.check-5",
+  "g.numbers.check-word.check-6",
+  "g.numbers.check-word.check-7",
+  "g.numbers.check-word.check-8",
+  "g.numbers.check-word.check-9",
+  "g.numbers.check-word.check-10",
+  "g.ambiguity-and-figures.figurative-type.metaphor",
+  "g.ambiguity-and-figures.figurative-type.metonymy",
+  "g.ambiguity-and-figures.figurative-type.irony",
+  "g.ambiguity-and-figures.figurative-type.hyperbole",
+  "g.message.embedded-material.quotation",
+  "g.message.embedded-material.declared-data",
+  "g.message.embedded-material.example",
+  "g.situations-and-contents.participation.actor",
+  "g.situations-and-contents.participation.undergoer",
+  "g.situations-and-contents.participation.recipient",
+  "g.situations-and-contents.participation.instrument",
+  "g.situations-and-contents.participation.holder",
+  "g.situations-and-contents.participation.content",
+  "g.attitudes-and-aims.counterparty.counterparty",
+  "g.reference.kind-of-reference.names",
+  "g.reference.kind-of-reference.mentions",
+  "g.reference.expected-status-of-an-entry.open",
+  "g.reference.expected-status-of-an-entry.in-force",
+  "g.reference.expected-status-of-an-entry.resolved",
+  "g.reference.expected-status-of-an-entry.lowered",
+  "g.reference.expected-status-of-an-entry.withdrawn",
+  "g.structure.party",
+  "g.structure.name",
+  "g.structure.same",
+  "g.structure.message-target",
+  "g.structure.part",
+  "g.structure.wall",
+  "g.structure.end-wall",
+  "g.structure.readings",
+  "g.structure.end-readings",
+  "lx.000084",
+  "lx.000085",
+  "lx.000086",
+  "lx.000087",
+  "lx.000088",
+  "lx.000089",
+  "lx.000090",
+  "g.situations-and-contents.connective.conjunction",
+  "g.situations-and-contents.connective.inclusive-disjunction",
+  "g.situations-and-contents.connective.exclusive-disjunction",
+  "g.situations-and-contents.connective.condition",
+  "g.situations-and-contents.connective.equivalence",
+  "g.ambiguity-and-figures.figures-relation.target-content",
+  "g.ambiguity-and-figures.figures-relation.stands-for",
+  "g.ambiguity-and-figures.precision-bound-declaration.precision-bound",
+  "g.ambiguity-and-figures.idiom-selection.idiom-entry",
+  "lx.000114",
+  "lx.000115",
+  "lx.000116",
+  "lx.000117",
+  "lx.000118",
+  "lx.000119",
+  "lx.000120",
+  "lx.000121",
+  "lx.000122",
+  "lx.000123",
+  "lx.000124",
+  "lx.000125",
+  "lx.000126",
+  "lx.000127",
+  "lx.000128",
+  "lx.000129",
+  "lx.000130",
+  "lx.000131",
+  "lx.000132",
+  "lx.000133",
+  "lx.000134",
+  "lx.000135",
+  "lx.000136",
+  "lx.000137",
+  "lx.000138",
+  "g.ambiguity-and-figures.register.raw",
+  "g.ambiguity-and-figures.register.protocol",
+  "g.ambiguity-and-figures.register.standard",
+  "g.ambiguity-and-figures.register.explanatory",
+  "g.ambiguity-and-figures.register.formal",
+  "g.ambiguity-and-figures.register.casual",
+  "g.ambiguity-and-figures.register.playful",
+  "g.ambiguity-and-figures.register.ceremonial",
+  "g.structure.message-serial",
+  "g.structure.dialect",
+  "lx.000584",
+  "lx.000585",
+  "lx.000586",
+  "lx.000587",
+  "lx.000588",
+  "lx.000589",
+  "lx.000590",
+  "lx.000591",
+  "lx.000592",
+  "lx.000593"
+ ],
+ "move check word": {
+  "modulus": 337,
+  "forms": [
+   "habal",
+   "habew",
+   "habot",
+   "habub",
+   "hadep",
+   "hadum",
+   "hagat",
+   "hagon",
+   "hahaw",
+   "haheh",
+   "hakam",
+   "hakes",
+   "hakup",
+   "halet",
+   "halog",
+   "hamad",
+   "hamem",
+   "hamor",
+   "hanan",
+   "hanoh",
+   "hanut",
+   "hapek",
+   "hapom",
+   "hared",
+   "haros",
+   "harur",
+   "hasar",
+   "hasey",
+   "hasip",
+   "hasok",
+   "hasud",
+   "hatab",
+   "hateg",
+   "hatin",
+   "hatuw",
+   "hawen",
+   "hawil",
+   "hawow",
+   "hawuh",
+   "hayer",
+   "hayop",
+   "hebar",
+   "hebey",
+   "hebud",
+   "hedah",
+   "hedib",
+   "hedog",
+   "hedun",
+   "hegak",
+   "hegim",
+   "hegos",
+   "hehay",
+   "hehik",
+   "hehod",
+   "hehum",
+   "hekan",
+   "hekiw",
+   "hekoh",
+   "hekut",
+   "helap",
+   "helus",
+   "hemag",
+   "hemen",
+   "hemil",
+   "hemuh",
+   "henas",
+   "hener",
+   "henuk",
+   "hepat",
+   "hepeb",
+   "hepon",
+   "hepul",
+   "hereg",
+   "herin",
+   "heruw",
+   "hesaw",
+   "hesug",
+   "hetem",
+   "hetis",
+   "hetor",
+   "hetuy",
+   "hewam",
+   "hewes",
+   "hewir",
+   "hewoy",
+   "hewup",
+   "heyot",
+   "heyub",
+   "hibaw",
+   "hibeh",
+   "hibit",
+   "hibob",
+   "hibug",
+   "hidek",
+   "hidid",
+   "hidom",
+   "higab",
+   "higeg",
+   "higol",
+   "hihah",
+   "hihet",
+   "hihib",
+   "hihog",
+   "hihun",
+   "hiker",
+   "hikuk",
+   "hileb",
+   "hilon",
+   "hilul",
+   "himes",
+   "himir",
+   "himoy",
+   "himup",
+   "hinal",
+   "hinew",
+   "hinih",
+   "hipak",
+   "hiped",
+   "hirad",
+   "hirem",
+   "hiris",
+   "hiruy",
+   "hisay",
+   "hisep",
+   "hisod",
+   "hisum",
+   "hitag",
+   "hitow",
+   "hituh",
+   "hiwel",
+   "hiwut",
+   "hiyey",
+   "hiyud",
+   "hobep",
+   "hobik",
+   "hobod",
+   "hobum",
+   "hodat",
+   "hodig",
+   "hodon",
+   "hodul",
+   "hogem",
+   "hogis",
+   "hogor",
+   "hoguy",
+   "hohap",
+   "hohek",
+   "hohom",
+   "hohus",
+   "hokih",
+   "hokot",
+   "holak",
+   "holim",
+   "holos",
+   "holur",
+   "homan",
+   "homiw",
+   "homut",
+   "honip",
+   "honok",
+   "honud",
+   "hopab",
+   "hopin",
+   "horen",
+   "horow",
+   "hoset",
+   "hosib",
+   "hosog",
+   "hosun",
+   "hotam",
+   "hotoy",
+   "hotup",
+   "hower",
+   "howiy",
+   "howuk",
+   "hoyaw",
+   "hoyit",
+   "hoyug",
+   "hubet",
+   "hubog",
+   "hubun",
+   "hudak",
+   "huded",
+   "hudim",
+   "hudur",
+   "hugag",
+   "hugen",
+   "hugil",
+   "hugow",
+   "huguh",
+   "huhat",
+   "huhig",
+   "huhon",
+   "huhul",
+   "hukok",
+   "hukud",
+   "huleg",
+   "hulin",
+   "hulol",
+   "huluw",
+   "humas",
+   "humer",
+   "humop",
+   "humuk",
+   "hunaw",
+   "hunob",
+   "hunug",
+   "hupis",
+   "hures",
+   "hurir",
+   "huroy",
+   "hurup",
+   "husap",
+   "husek",
+   "husom",
+   "husus",
+   "hutan",
+   "hutel",
+   "hutiw",
+   "huwal",
+   "huwew",
+   "huwot",
+   "huwub",
+   "huyay",
+   "huyik",
+   "huyod",
+   "huyum",
+   "hodeb",
+   "helom",
+   "hadik",
+   "hukey",
+   "hetad",
+   "halib",
+   "hekel",
+   "howop",
+   "harim",
+   "himam",
+   "hahob",
+   "hudos",
+   "hopeg",
+   "hupem",
+   "hipim",
+   "hokub",
+   "helid",
+   "hunit",
+   "hagig",
+   "homoh",
+   "hagul",
+   "hupad",
+   "higin",
+   "hageb",
+   "hoyob",
+   "hakir",
+   "hupor",
+   "hamis",
+   "henop",
+   "haday",
+   "howas",
+   "hiten",
+   "hilat",
+   "hebip",
+   "huwih",
+   "hepig",
+   "humiy",
+   "holed",
+   "heseh",
+   "hipos",
+   "horag",
+   "higuw",
+   "hosah",
+   "hukip",
+   "hahit",
+   "herol",
+   "helek",
+   "horuh",
+   "hemow",
+   "hobay",
+   "hohid",
+   "hayas",
+   "hesob",
+   "hupuy",
+   "hayuk",
+   "hiror",
+   "huyep",
+   "hopuw",
+   "hatol",
+   "habih",
+   "hopol",
+   "halah",
+   "hulab",
+   "homel",
+   "hiyok",
+   "harak",
+   "herab",
+   "hitil",
+   "hikiy",
+   "hebok",
+   "hanel",
+   "hokew",
+   "hoyeh",
+   "hahug",
+   "honar",
+   "hinub",
+   "hiwoh",
+   "hipur",
+   "hidap",
+   "hiwan",
+   "honey",
+   "heged",
+   "hadod",
+   "hapap",
+   "hutut",
+   "hidus",
+   "hubah",
+   "heyew",
+   "hokal",
+   "hogad",
+   "hamuy",
+   "hehep",
+   "hikop",
+   "hubib",
+   "horil",
+   "hiyar",
+   "halun",
+   "hotes",
+   "hinot",
+   "hotir",
+   "hawag",
+   "hapus",
+   "hilig",
+   "haniw",
+   "hikas",
+   "huheb",
+   "hedet",
+   "hisik",
+   "heyal",
+   "huram"
+  ],
+  "admissible forms": 346,
+  "rule": "from major version 1, the largest prime not above the number of admissible forms, the five-symbol words opened by h at distance three from every protected word, fixed with the first release of the major version; within major version 0, the least prime greater than one more than the number of critical forms of the release"
+ },
+ "productions": "The productions of the language, version 1.0. Words in capitals are structural words or\nclass members named by their identifiers' last part; a lowercase name is a production or\na class. Version 0.2 added the times; version 0.3 the first entry, the references of a\nsummary, the calibration of a summary's numeric strength and the source of a term; and\nversion 0.4 names a message by the first entry its envelope states. Version 0.5 adds the\nact word, the declared loss and the extragrammatical idiom, and admits the idiom mark on\nassertions and situations; version 0.6 adds the politeness word, the diction and the\nregister to a move's head; version 0.9 adds the protocol message, the count and check\nword of the envelope, the authentication field and the mention of a message by its\nserial; version 0.10 adds the dialects a message names, the dialect a term names and the\nstatements of version negotiation; and version 1.0 adds no production, its long root\nbeing a root.\n\nmessage       = envelope move { move }\n              | envelope statement\n                -- a protocol message: its identifier and first entry are zero, so that\n                -- it takes no serial on its channel and adds no entry; it has one\n                -- recipient and carries the integrity check value\nenvelope      = WORD-COUNT number\n                SENDER participant RECIPIENTS participant { participant }\n                COMMUNICATION-TIME number VERSION version version version\n                { DIALECT number version digest }\n                IDENTIFIER identifier FIRST-ENTRY number [ FORWARDED ]\n                [ SEMANTIC-CHECK-VALUE check-value ] unit-check\n                [ AUTHENTICATION number number payload ]\n                [ INTEGRITY-CHECK-VALUE check-value ]\n                -- the count states the words from SENDER to the unit check word, which\n                -- it includes (protocol 0.3)\n                -- the k-th move adds the entry numbered first entry + k - 1 in the\n                -- sender's count of its own entries\n                -- AUTHENTICATION states its scheme, the length of its signature in\n                -- bytes and the signature, which covers the canonical serialisation\n                -- without this field and the integrity check value's\n                -- the three versions are the language's, the lexicon's and the\n                -- protocol's; each dialect the message uses is named by its number, its\n                -- version and its digest, in ascending order of number (language 0.10)\nparticipant   = number\nversion       = number of two integers, major and minor, with the decimal point between\n                them and neither with a leading zero\ndigest        = number written at the check value width\nidentifier    = number written at the identifier width\ncheck-value   = number written at the check value width\nstatement     = WORD-COUNT number ( HOLDS holding { holding }\n                                  | ( SEND-AGAIN | NOT-HELD ) asked { asked }\n                                  | UNDERSTANDS understood\n                                  | LACKS CHANNEL participant { participant }\n                                    SERIALS number lacked { lacked } )\n                statement-check\n                -- every word of a statement is a fixed form, which every version reads\n                -- alike; the count states the words after it, the check word included\nholding       = CHANNEL participant { participant } SERIALS number { number }\n                -- the recipients of one of the addressee's channels; the last of its\n                -- serials the sender holds with none missing before it, then each serial\n                -- it holds beyond that one\nasked         = CHANNEL participant { participant } SERIALS number { number }\n              | ENTRIES number { number }\n                -- messages by their channel and serials, or entries of the addressee's\n                -- by their numbers, whose content alone is asked for\nunderstood    = LANGUAGE-VERSION version { version } LEXICON-VERSION version { version }\n                PROTOCOL-VERSION version { version } { DIALECT number version digest }\n                [ LACKING-FEATURES number { number } ]\n                -- the versions its sender reads, each list ascending, the dialects it\n                -- holds and the features it lacks (protocol 0.4)\nlacked        = LANGUAGE-VERSION version | LEXICON-VERSION version\n              | PROTOCOL-VERSION version | DIALECT number version digest\n              | LACKING-FEATURES number { number }\n                -- a message of the addressee's, by its channel and serial, and what of\n                -- the versions, dialects and features it uses its sender lacks, in the\n                -- order the alternatives are written here\nstatement-check = unit-check\nunit-check    = a number check word, computed by the rule of the unit check word over the\n                words between the unit's count and itself\nmove          = WORD-COUNT number body\nbody          = head { constituent } move-check\n                -- the count states the words of the body, the move check word included,\n                -- a payload counting as one word\nhead          = ( adds [ change ] | act-word [ rest-of-force ] ) [ authority ]\n                [ DEADLINE time-spec ] [ named ] { relation-word } [ politeness-word ]\n                [ diction ] { declared-loss } [ register ] [ PRECISION-BOUND ]\n                -- an act word stands for the force values its entry expands to, a\n                -- beginning of adds and change; rest-of-force is what the expansion\n                -- leaves of them, read as written\n                -- the declared losses are distinct members, each a loss some form of\n                -- the move incurs: an act word or idiom, the politeness word, the\n                -- diction, the register or a register-marked word\n                -- the register holds over the move's whole surface, the standard\n                -- register where none is written; the protocol and formal registers\n                -- make the move precision-bound\n                -- the politeness word and the diction are words of the lexicon; a\n                -- diction may also stand as a term's content word\nadds          = ISSUE kind-of-issue\n              | NORMATIVE-ENTRY kind-of-normative-entry [ bindingness ]\n                -- bindingness is required unless the kind is RECOMMENDATION\n              | SETTING kind-of-setting\n              | ASSERTED-POSITION | CONCEDED-POSITION | SUPPOSITION | SUMMARY\n              | NOTHING-BEYOND-ITS-OWN-RECORD\nchange        = NONE | ( RESOLUTION outcome-of-a-resolution | LOWERING | ACKNOWLEDGEMENT )\n                extent when-the-change-takes-effect\n                -- change is present exactly when the move names an entry\nauthority     = SPEAKERS-OWN | ON-BEHALF-OF-A-NAMED-PRINCIPAL term | IN-A-NAMED-ROLE term\n                -- present exactly when the move is operative or pending\nnamed         = reference { reference }\n                -- more than one reference only after SUMMARY, which names the entries\n                -- it summarises with the change NONE\nreference     = NAMES target [ PART name ] | MENTIONS target [ PART name ]\ntarget        = participant number expected-kind expected-status\n                -- an entry, by its author and its number; the expectation is required\n                -- after NAMES and absent after MENTIONS\n              | MESSAGE-TARGET participant number\n              | MESSAGE-SERIAL participant number participant { participant }\n                -- a message, by its sender, its serial and the recipients of its\n                -- channel, which names a message its speaker does not hold\n                -- a message, by its sender and the first entry its envelope states,\n                -- which no other message of that sender states, on any channel\nexpected-kind = ISSUE kind-of-issue | NORMATIVE-ENTRY kind-of-normative-entry\n              | SETTING kind-of-setting\n              | ASSERTED-POSITION | CONCEDED-POSITION | SUPPOSITION | SUMMARY\n              | NOTHING-BEYOND-ITS-OWN-RECORD\n                -- the kind of the entry named, which is what its move added\n                -- without the bindingness, no part of an entry's kind\nconstituent   = assertion | situation | term | wall | reading-set | SAME name\n              | extragrammatical-idiom\nextragrammatical-idiom = content-word content-word { content-word }\n                -- the words of an extragrammatical idiom the release lists, recognised\n                -- where a constituent or an assertion's situation stands, which no other\n                -- production admits; the core holds its expansion\nassertion     = ASSERTION [ NAME name ] { assertion-part } situation { situation | assertion-part }\n                END-ASSERTION\nassertion-part = basis | strength | numeric-strength | independence-of-a-confirmation\n              | provenance | time-value | figurative-part | information-structure\n              | status-of-content | IDIOM-ENTRY | extragrammatical-idiom\n                -- in an assertion of a summary, several bases of one tier and several\n                -- strengths, one for each calibration\nnumeric-strength = [ comparator ] number [ PARTY participant ]\n                -- a point or an interval within 0 and 1; PARTY, the participant whose\n                -- calibration the number is under, is written in an assertion of a\n                -- summary, where it is required, and nowhere else\nprovenance    = provenance-link ( term | situation | assertion | reference | SAME name )\nsituation     = SITUATION [ NAME name ] { situation-part } END-SITUATION\nsituation-part = content-word | polarity | aspect | world-of-evaluation | status-of-content\n              | information-structure | kind-of-question | kind-of-attitude | origin-of-an-aim\n              | kind-of-normative-entry | bindingness | status-of-a-normative-state\n              | execution-phase | structural-relation | basis | strength | numeric-strength\n              | time-value | figurative-part | role-filler | connective-part\n              | IDIOM-ENTRY\n                -- the idiom mark: the unit is read by the entry whose literal structure\n                -- it matches, slots aside, and the core holds that entry's expansion\nrole-filler   = ( participation | COUNTERPARTY ) filler\nfiller        = term | situation | assertion | wall | reading-set | SAME name\nconnective-part = CONDITION filler | CONJUNCTION | INCLUSIVE-DISJUNCTION\n              | EXCLUSIVE-DISJUNCTION | EQUIVALENCE\nterm          = TERM [ NAME name ] { term-part } END-TERM\nterm-part     = content-word | quantity | PARTY participant | DIALECT number | reference\n              | person\n              | quantifier | existence-commitment | access | verification | discourse-status\n              | specificity | reading-of-a-collective | information-structure\n              | figurative-part | role-filler | wall | SOURCE ( term | reference | SAME name )\n              | IDIOM-ENTRY\n                -- SOURCE, on an external referent, names who identified or verified it,\n                -- and is required with VERIFIED-BY-A-NAMED-THIRD-PARTY\n                -- DIALECT makes a term the dialect whose number follows (language 0.10)\nquantity      = [ comparator ] number [ unit-word ] [ PER time-unit ]\nunit-word     = time-unit | a unit root\nfigurative-part = figurative-type | ( TARGET-CONTENT | STANDS-FOR ) filler\n                -- one relation to a figure, fitted to its type (language 0.7): a target\n                -- content on a metaphor, an irony or a hyperbole, a situation or a unit of\n                -- the figure's own kind; what a term stands for on a metonym, a term; and a\n                -- metonymy only on a term\ntime-value    = time-index time-spec\ntime-spec     = point [ UNTIL point ]           -- an interval; after an observation, event,\n                                                -- reference or execution time\n              | point point                     -- after VALIDITY-INTERVAL: from, until\n              | [ comparator ] number time-unit -- a duration; after an event, reference or\n                                                -- execution time\n              | [ comparator ] number PER time-unit\n                                                -- a rate; after an event time, on a\n                                                -- situation iterative or habitual\npoint         = NOW | number [ time-unit ( AGO | HENCE ) ] | time-relation time-reference\ntime-reference = time-index | SAME name time-index | NOW | number [ time-unit ( AGO | HENCE ) ]\nwall          = WALL DECLARED-DATA number payload number payload END-WALL\n              | WALL ( QUOTATION | EXAMPLE ) { word } END-WALL\nreading-set   = READINGS kind-of-ambiguity filler filler { filler } END-READINGS\nname          = number written at the name width\nnumber        = numeral { numeral } check-word\ncontent-word  = root { suffix } { LINKER root { suffix } } | a closed-class member { suffix }\n              | dialect-form\n                -- a compressed form of a dialect the message names, a word of the root's\n                -- shape standing alone, whose meaning is the term it compresses\n                -- (language 0.10)\nmove-check    = one of the forms of the move check word\n"
+}

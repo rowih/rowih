@@ -1,0 +1,92 @@
+{
+ "machine identifier": "lx.000496",
+ "root": "lx.000496",
+ "phonological form": "/nujibij/",
+ "orthographic form": "nuyibiy",
+ "grammatical category": "nominal root",
+ "sort": "s.sort.kind",
+ "semantic type": {
+  "sort": "s.sort.kind",
+  "arguments": []
+ },
+ "definition": "what physical things are made of",
+ "semantic primitives": [
+  "s.sort.kind"
+ ],
+ "argument structure": [],
+ "derivational behaviour": [
+  {
+   "suffix": "lx.000110",
+   "mechanism": "abstraction",
+   "form": "nuyibiyusap",
+   "sort": "s.sort.kind",
+   "definition": "what every instance of [what physical things are made of] has in common"
+  },
+  {
+   "suffix": "lx.000112",
+   "mechanism": "verbalisation",
+   "form": "nuyibiyasey",
+   "sort": "s.sort.event",
+   "definition": "act by means of [what physical things are made of]"
+  },
+  {
+   "suffix": "lx.000113",
+   "mechanism": "adjectivisation",
+   "form": "nuyibiyuyik",
+   "sort": "s.sort.state",
+   "definition": "be of the kind [what physical things are made of] names"
+  },
+  {
+   "suffix": "lx.000184",
+   "mechanism": "honorific",
+   "form": "nuyibiyayuk",
+   "sort": "s.sort.kind",
+   "definition": "[what physical things are made of], named with deference"
+  }
+ ],
+ "register": [
+  "R0",
+  "R1",
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7"
+ ],
+ "collocations": [],
+ "synonyms": [],
+ "antonyms": [],
+ "related concepts": [
+  {
+   "entry": "lx.000502",
+   "relation": "has kind"
+  },
+  {
+   "entry": "lx.000503",
+   "relation": "has kind"
+  },
+  {
+   "entry": "lx.000504",
+   "relation": "has kind"
+  },
+  {
+   "entry": "lx.000505",
+   "relation": "has kind"
+  },
+  {
+   "entry": "lx.000501",
+   "relation": "involved in"
+  },
+  {
+   "entry": "lx.000500",
+   "relation": "involved in"
+  }
+ ],
+ "examples": [],
+ "version": {
+  "introduced": "1.0",
+  "deprecated": null
+ },
+ "key": "matter"
+}

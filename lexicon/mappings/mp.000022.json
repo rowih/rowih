@@ -1,0 +1,39 @@
+{
+ "machine identifier": "mp.000022",
+ "name": "KNOWLEDGE IS A MAP",
+ "source domain": "a map of a country",
+ "target domain": "what an agent knows of a domain",
+ "correspondences": [
+  {
+   "source": "a map",
+   "target": "what an agent knows of a domain"
+  },
+  {
+   "source": "what the map does not draw",
+   "target": "what the agent does not know"
+  },
+  {
+   "source": "an old map",
+   "target": "knowledge out of date"
+  },
+  {
+   "source": "a map with holes",
+   "target": "partial knowledge"
+  },
+  {
+   "source": "drawing the map while walking",
+   "target": "learning while acting"
+  }
+ ],
+ "motivates": [
+  "lx.000800",
+  "lx.000802",
+  "lx.000803",
+  "lx.000804",
+  "lx.000864"
+ ],
+ "version": {
+  "introduced": "1.0",
+  "deprecated": null
+ }
+}

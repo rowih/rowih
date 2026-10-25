@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.time.time-relation.contains",
+ "orthographic form": "duduto",
+ "phonological form": "/duduto/",
+ "grammatical category": "time relation",
+ "gloss": "CONTAINS",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

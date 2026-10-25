@@ -1,0 +1,80 @@
+{
+ "machine identifier": "lx.000490",
+ "root": "lx.000490",
+ "phonological form": "/nuɾisen/",
+ "orthographic form": "nurisen",
+ "grammatical category": "nominal root",
+ "sort": "s.sort.object",
+ "semantic type": {
+  "sort": "s.sort.object",
+  "arguments": []
+ },
+ "definition": "a body in space that gives off its own light",
+ "semantic primitives": [
+  "s.sort.object"
+ ],
+ "argument structure": [],
+ "derivational behaviour": [
+  {
+   "suffix": "lx.000110",
+   "mechanism": "abstraction",
+   "form": "nurisenusap",
+   "sort": "s.sort.kind",
+   "definition": "what every instance of [a body in space that gives off its own light] has in common"
+  },
+  {
+   "suffix": "lx.000112",
+   "mechanism": "verbalisation",
+   "form": "nurisenasey",
+   "sort": "s.sort.event",
+   "definition": "act by means of [a body in space that gives off its own light]"
+  },
+  {
+   "suffix": "lx.000113",
+   "mechanism": "adjectivisation",
+   "form": "nurisenuyik",
+   "sort": "s.sort.state",
+   "definition": "be of the kind [a body in space that gives off its own light] names"
+  },
+  {
+   "suffix": "lx.000184",
+   "mechanism": "honorific",
+   "form": "nurisenayuk",
+   "sort": "s.sort.object",
+   "definition": "[a body in space that gives off its own light], named with deference"
+  }
+ ],
+ "register": [
+  "R0",
+  "R1",
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7"
+ ],
+ "collocations": [],
+ "synonyms": [],
+ "antonyms": [],
+ "related concepts": [
+  {
+   "entry": "lx.000488",
+   "relation": "has kind"
+  },
+  {
+   "entry": "lx.000071",
+   "relation": "involves"
+  },
+  {
+   "entry": "lx.000507",
+   "relation": "involved in"
+  }
+ ],
+ "examples": [],
+ "version": {
+  "introduced": "1.0",
+  "deprecated": null
+ },
+ "key": "star"
+}

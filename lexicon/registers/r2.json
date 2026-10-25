@@ -1,0 +1,37 @@
+{
+ "code": "R2",
+ "name": "standard",
+ "member": "g.ambiguity-and-figures.register.standard",
+ "use": "ordinary exchange",
+ "modes admitted": [
+  "full explicitness",
+  "normal expression",
+  "compression",
+  "idiom"
+ ],
+ "devices admitted": [
+  "declared defaults",
+  "inheritance",
+  "conventional expressions",
+  "shared context",
+  "dialect forms",
+  "idioms"
+ ],
+ "precision-bound by default": false,
+ "settings": {
+  "vocabulary": "standard",
+  "morphology": "full",
+  "syntax": "free",
+  "ellipsis": "declared defaults, inheritance, shared context",
+  "politeness": "neutral",
+  "discourse structure": "as the exchange needs",
+  "compression": "conventional expressions, dialect forms, idioms",
+  "prosody": "neutral",
+  "orthography": "native"
+ },
+ "vocabulary": null,
+ "politeness word": null,
+ "formulas admitted": true,
+ "order": "free",
+ "maxima": "language/protocol.json"
+}

@@ -1,0 +1,46 @@
+{
+ "machine identifier": "lx.000113",
+ "root": "lx.000113",
+ "phonological form": "/-ujik/",
+ "orthographic form": "uyik",
+ "grammatical category": "derivational suffix",
+ "sort": "s.sort.state",
+ "semantic type": {
+  "sort": "s.sort.state",
+  "arguments": [
+   "undergoer"
+  ]
+ },
+ "definition": "be of the kind the base names",
+ "semantic primitives": [
+  "s.sort.state"
+ ],
+ "argument structure": [
+  {
+   "role": "undergoer",
+   "sort": "s.sort.referent"
+  }
+ ],
+ "derivational behaviour": [],
+ "register": [
+  "R0",
+  "R1",
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7"
+ ],
+ "collocations": [],
+ "synonyms": [],
+ "antonyms": [],
+ "related concepts": [],
+ "examples": [],
+ "version": {
+  "introduced": "0.3",
+  "deprecated": null
+ },
+ "key": "adjectivisation",
+ "base": "nominal"
+}

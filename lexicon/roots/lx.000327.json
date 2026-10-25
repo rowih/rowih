@@ -1,0 +1,146 @@
+{
+ "machine identifier": "lx.000327",
+ "root": "lx.000327",
+ "phonological form": "/nuwuliɡ/",
+ "orthographic form": "nuwulig",
+ "grammatical category": "predicate root",
+ "sort": "s.sort.state",
+ "semantic type": {
+  "sort": "s.sort.state",
+  "arguments": [
+   "holder",
+   "undergoer"
+  ]
+ },
+ "definition": "have something as one's property by right",
+ "semantic primitives": [
+  "s.sort.state"
+ ],
+ "argument structure": [
+  {
+   "role": "holder",
+   "sort": "s.sort.agent"
+  },
+  {
+   "role": "undergoer",
+   "sort": "s.sort.referent"
+  }
+ ],
+ "derivational behaviour": [
+  {
+   "suffix": "lx.000097",
+   "mechanism": "undergoer",
+   "form": "nuwuligudim",
+   "sort": "s.sort.referent",
+   "definition": "the one that undergoes [have something as one's property by right]"
+  },
+  {
+   "suffix": "lx.000098",
+   "mechanism": "instrument",
+   "form": "nuwuligawen",
+   "sort": "s.sort.referent",
+   "definition": "what [have something as one's property by right] is done with"
+  },
+  {
+   "suffix": "lx.000099",
+   "mechanism": "result",
+   "form": "nuwuligonar",
+   "sort": "s.sort.state",
+   "definition": "the state [have something as one's property by right] brings about"
+  },
+  {
+   "suffix": "lx.000100",
+   "mechanism": "privative",
+   "form": "nuwuliganiw",
+   "sort": "s.sort.state",
+   "definition": "the state in which [have something as one's property by right] does not hold"
+  },
+  {
+   "suffix": "lx.000108",
+   "mechanism": "process",
+   "form": "nuwuligumop",
+   "sort": "s.sort.reified-referent",
+   "definition": "[have something as one's property by right], as a process under way, named as a referent"
+  },
+  {
+   "suffix": "lx.000109",
+   "mechanism": "property",
+   "form": "nuwuligarur",
+   "sort": "s.sort.kind",
+   "definition": "the property of being as [have something as one's property by right] states"
+  },
+  {
+   "suffix": "lx.000111",
+   "mechanism": "nominalisation",
+   "form": "nuwuligekoh",
+   "sort": "s.sort.proposition",
+   "definition": "that [have something as one's property by right] holds"
+  },
+  {
+   "suffix": "lx.000594",
+   "mechanism": "causative",
+   "form": "nuwuligomiw",
+   "sort": "s.sort.event",
+   "definition": "make [have something as one's property by right] hold or happen"
+  },
+  {
+   "suffix": "lx.000595",
+   "mechanism": "reversative",
+   "form": "nuwuliguhul",
+   "sort": "s.sort.event",
+   "definition": "undo [have something as one's property by right], restoring what it changed"
+  },
+  {
+   "suffix": "lx.000596",
+   "mechanism": "repetitive",
+   "form": "nuwuliguleg",
+   "sort": "s.sort.event",
+   "definition": "[have something as one's property by right], done once more"
+  },
+  {
+   "suffix": "lx.000597",
+   "mechanism": "potential",
+   "form": "nuwuliguwot",
+   "sort": "s.sort.state",
+   "definition": "be such that [have something as one's property by right] can be done to it"
+  },
+  {
+   "suffix": "lx.000598",
+   "mechanism": "place",
+   "form": "nuwuligumuk",
+   "sort": "s.sort.place",
+   "definition": "the place where [have something as one's property by right] happens"
+  }
+ ],
+ "register": [
+  "R0",
+  "R1",
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7"
+ ],
+ "collocations": [],
+ "synonyms": [
+  {
+   "entry": "lx.000055",
+   "dimension": "near",
+   "difference": "owning is having by right; possessing is having, by right or not"
+  }
+ ],
+ "antonyms": [],
+ "related concepts": [
+  {
+   "entry": "lx.000476",
+   "relation": "involves"
+  }
+ ],
+ "examples": [],
+ "version": {
+  "introduced": "1.0",
+  "deprecated": null
+ },
+ "key": "own"
+}

@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.reference.kind-of-reference.mentions",
+ "orthographic form": "setu",
+ "phonological form": "/setu/",
+ "grammatical category": "kind of reference",
+ "gloss": "MENTIONS",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

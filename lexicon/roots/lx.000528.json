@@ -1,0 +1,80 @@
+{
+ "machine identifier": "lx.000528",
+ "root": "lx.000528",
+ "phonological form": "/nuɾolej/",
+ "orthographic form": "nuroley",
+ "grammatical category": "nominal root",
+ "sort": "s.sort.object",
+ "semantic type": {
+  "sort": "s.sort.object",
+  "arguments": []
+ },
+ "definition": "an object or a datum that opens what is locked or proves who holds it",
+ "semantic primitives": [
+  "s.sort.object"
+ ],
+ "argument structure": [],
+ "derivational behaviour": [
+  {
+   "suffix": "lx.000110",
+   "mechanism": "abstraction",
+   "form": "nuroleyusap",
+   "sort": "s.sort.kind",
+   "definition": "what every instance of [an object or a datum that opens what is locked or proves who holds it] has in common"
+  },
+  {
+   "suffix": "lx.000112",
+   "mechanism": "verbalisation",
+   "form": "nuroleyasey",
+   "sort": "s.sort.event",
+   "definition": "act by means of [an object or a datum that opens what is locked or proves who holds it]"
+  },
+  {
+   "suffix": "lx.000113",
+   "mechanism": "adjectivisation",
+   "form": "nuroleyuyik",
+   "sort": "s.sort.state",
+   "definition": "be of the kind [an object or a datum that opens what is locked or proves who holds it] names"
+  },
+  {
+   "suffix": "lx.000184",
+   "mechanism": "honorific",
+   "form": "nuroleyayuk",
+   "sort": "s.sort.object",
+   "definition": "[an object or a datum that opens what is locked or proves who holds it], named with deference"
+  }
+ ],
+ "register": [
+  "R0",
+  "R1",
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7"
+ ],
+ "collocations": [],
+ "synonyms": [],
+ "antonyms": [],
+ "related concepts": [
+  {
+   "entry": "lx.000344",
+   "relation": "kind of"
+  },
+  {
+   "entry": "lx.000046",
+   "relation": "involves"
+  },
+  {
+   "entry": "lx.000196",
+   "relation": "involves"
+  }
+ ],
+ "examples": [],
+ "version": {
+  "introduced": "1.0",
+  "deprecated": null
+ },
+ "key": "key"
+}

@@ -1,0 +1,1030 @@
+{
+ "dialect": "science",
+ "number": 5,
+ "community": "science",
+ "version": "0.3",
+ "date": "2026-10-17",
+ "formed from lexicon": "1.0",
+ "reading": "each term means the composition of its stems, as the rules of word formation give it; each compressed form means the term it compresses, which a hearer computes only from this release",
+ "terms": [
+  {
+   "machine identifier": "jg.science.001",
+   "term": "sample",
+   "orthographic form": "rigorudim",
+   "phonological form": "/ɾiɡoɾudim/",
+   "grammatical category": "jargon",
+   "sort": "s.sort.referent",
+   "semantic type": {
+    "sort": "s.sort.referent",
+    "arguments": []
+   },
+   "definition": "the one that undergoes [get hold of]",
+   "argument structure": [],
+   "formed from": [
+    [
+     "lx.000050",
+     "lx.000097"
+    ]
+   ],
+   "mechanism": "undergoer",
+   "register": [
+    "R0",
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7"
+   ],
+   "scope": {
+    "dialect": "science",
+    "version": "0.1"
+   },
+   "validity": "from the dialect's release, without end",
+   "provenance": "generated from its stems by tools/build_registers.py",
+   "acceptance status": "released",
+   "version": {
+    "introduced": "0.1",
+    "deprecated": null
+   },
+   "key": "sample"
+  },
+  {
+   "machine identifier": "jg.science.002",
+   "term": "observation",
+   "orthographic form": "robogumop",
+   "phonological form": "/ɾoboɡumop/",
+   "grammatical category": "jargon",
+   "sort": "s.sort.reified-referent",
+   "semantic type": {
+    "sort": "s.sort.reified-referent",
+    "arguments": []
+   },
+   "definition": "[come to perceive or register something], as a process under way, named as a referent",
+   "argument structure": [],
+   "formed from": [
+    [
+     "lx.000003",
+     "lx.000108"
+    ]
+   ],
+   "mechanism": "process",
+   "register": [
+    "R0",
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7"
+   ],
+   "scope": {
+    "dialect": "science",
+    "version": "0.1"
+   },
+   "validity": "from the dialect's release, without end",
+   "provenance": "generated from its stems by tools/build_registers.py",
+   "acceptance status": "released",
+   "version": {
+    "introduced": "0.1",
+    "deprecated": null
+   },
+   "key": "observation"
+  },
+  {
+   "machine identifier": "jg.science.003",
+   "term": "finding",
+   "orthographic form": "rubomonar",
+   "phonological form": "/ɾubomonaɾ/",
+   "grammatical category": "jargon",
+   "sort": "s.sort.state",
+   "semantic type": {
+    "sort": "s.sort.state",
+    "arguments": [
+     "actor",
+     "undergoer"
+    ]
+   },
+   "definition": "the state [come upon what was sought] brings about",
+   "argument structure": [
+    {
+     "role": "actor",
+     "sort": "s.sort.agent"
+    },
+    {
+     "role": "undergoer",
+     "sort": "s.sort.referent"
+    }
+   ],
+   "formed from": [
+    [
+     "lx.000051",
+     "lx.000099"
+    ]
+   ],
+   "mechanism": "result",
+   "register": [
+    "R0",
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7"
+   ],
+   "scope": {
+    "dialect": "science",
+    "version": "0.1"
+   },
+   "validity": "from the dialect's release, without end",
+   "provenance": "generated from its stems by tools/build_registers.py",
+   "acceptance status": "released",
+   "version": {
+    "introduced": "0.1",
+    "deprecated": null
+   },
+   "key": "finding"
+  },
+  {
+   "machine identifier": "jg.science.004",
+   "term": "reading",
+   "orthographic form": "reradirubus",
+   "phonological form": "/ɾeɾadiɾubus/",
+   "grammatical category": "jargon",
+   "sort": "s.sort.kind",
+   "semantic type": {
+    "sort": "s.sort.kind",
+    "arguments": []
+   },
+   "definition": "[records that bear on a proposition], bearing on [find the size of something]",
+   "argument structure": [],
+   "formed from": [
+    [
+     "lx.000005"
+    ],
+    [
+     "lx.000042"
+    ]
+   ],
+   "mechanism": "compound",
+   "register": [
+    "R0",
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7"
+   ],
+   "scope": {
+    "dialect": "science",
+    "version": "0.1"
+   },
+   "validity": "from the dialect's release, without end",
+   "provenance": "generated from its stems by tools/build_registers.py",
+   "acceptance status": "released",
+   "version": {
+    "introduced": "0.1",
+    "deprecated": null
+   },
+   "key": "reading"
+  },
+  {
+   "machine identifier": "jg.science.005",
+   "term": "replication",
+   "orthographic form": "rowubiripol",
+   "phonological form": "/ɾowubiɾipol/",
+   "grammatical category": "jargon",
+   "sort": "s.sort.event",
+   "semantic type": {
+    "sort": "s.sort.event",
+    "arguments": [
+     "actor"
+    ]
+   },
+   "definition": "[bring something into being], with [be like or match something] as its undergoer",
+   "argument structure": [
+    {
+     "role": "actor",
+     "sort": "s.sort.agent"
+    }
+   ],
+   "formed from": [
+    [
+     "lx.000044"
+    ],
+    [
+     "lx.000020"
+    ]
+   ],
+   "mechanism": "compound",
+   "register": [
+    "R0",
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7"
+   ],
+   "scope": {
+    "dialect": "science",
+    "version": "0.1"
+   },
+   "validity": "from the dialect's release, without end",
+   "provenance": "generated from its stems by tools/build_registers.py",
+   "acceptance status": "released",
+   "version": {
+    "introduced": "0.1",
+    "deprecated": null
+   },
+   "key": "replication"
+  },
+  {
+   "machine identifier": "jg.science.006",
+   "term": "hypothesis",
+   "orthographic form": "nusasiginuwolib",
+   "phonological form": "/nusasiɡinuwolib/",
+   "grammatical category": "jargon",
+   "sort": "s.sort.kind",
+   "semantic type": {
+    "sort": "s.sort.kind",
+    "arguments": []
+   },
+   "definition": "[a content formed in the mind], bearing on [try something under set conditions to see whether it behaves as expected]",
+   "argument structure": [],
+   "formed from": [
+    [
+     "lx.000214"
+    ],
+    [
+     "lx.000208"
+    ]
+   ],
+   "mechanism": "compound",
+   "register": [
+    "R0",
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7"
+   ],
+   "scope": {
+    "dialect": "science",
+    "version": "0.3"
+   },
+   "validity": "from the dialect's release, without end",
+   "provenance": "generated from its stems by tools/build_version1.py",
+   "acceptance status": "released",
+   "version": {
+    "introduced": "0.3",
+    "deprecated": null
+   },
+   "key": "hypothesis"
+  },
+  {
+   "machine identifier": "jg.science.007",
+   "term": "control group",
+   "orthographic form": "nupureninusapub",
+   "phonological form": "/nupuɾeninusapub/",
+   "grammatical category": "jargon",
+   "sort": "s.sort.collective",
+   "semantic type": {
+    "sort": "s.sort.collective",
+    "arguments": []
+   },
+   "definition": "[several things or agents taken together], bearing on [examine two things for how they are alike and how they differ]",
+   "argument structure": [],
+   "formed from": [
+    [
+     "lx.000227"
+    ],
+    [
+     "lx.000206"
+    ]
+   ],
+   "mechanism": "compound",
+   "register": [
+    "R0",
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7"
+   ],
+   "scope": {
+    "dialect": "science",
+    "version": "0.3"
+   },
+   "validity": "from the dialect's release, without end",
+   "provenance": "generated from its stems by tools/build_version1.py",
+   "acceptance status": "released",
+   "version": {
+    "introduced": "0.3",
+    "deprecated": null
+   },
+   "key": "control group"
+  },
+  {
+   "machine identifier": "jg.science.008",
+   "term": "measurement error",
+   "orthographic form": "nupenudirubus",
+   "phonological form": "/nupenudiɾubus/",
+   "grammatical category": "jargon",
+   "sort": "s.sort.kind",
+   "semantic type": {
+    "sort": "s.sort.kind",
+    "arguments": []
+   },
+   "definition": "[an act or a belief that is wrong through error], bearing on [find the size of something]",
+   "argument structure": [],
+   "formed from": [
+    [
+     "lx.000217"
+    ],
+    [
+     "lx.000042"
+    ]
+   ],
+   "mechanism": "compound",
+   "register": [
+    "R0",
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7"
+   ],
+   "scope": {
+    "dialect": "science",
+    "version": "0.3"
+   },
+   "validity": "from the dialect's release, without end",
+   "provenance": "generated from its stems by tools/build_version1.py",
+   "acceptance status": "released",
+   "version": {
+    "introduced": "0.3",
+    "deprecated": null
+   },
+   "key": "measurement error"
+  },
+  {
+   "machine identifier": "jg.science.009",
+   "term": "peer review",
+   "orthographic form": "nusumininutobib",
+   "phonological form": "/nusumininutobib/",
+   "grammatical category": "jargon",
+   "sort": "s.sort.event",
+   "semantic type": {
+    "sort": "s.sort.event",
+    "arguments": [
+     "actor",
+     "content"
+    ]
+   },
+   "definition": "[decide whether something meets a standard], with [a record written to be read as a whole] as its undergoer",
+   "argument structure": [
+    {
+     "role": "actor",
+     "sort": "s.sort.agent"
+    },
+    {
+     "role": "content",
+     "sort": "s.sort.referent"
+    }
+   ],
+   "formed from": [
+    [
+     "lx.000477"
+    ],
+    [
+     "lx.000251"
+    ]
+   ],
+   "mechanism": "compound",
+   "register": [
+    "R0",
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7"
+   ],
+   "scope": {
+    "dialect": "science",
+    "version": "0.3"
+   },
+   "validity": "from the dialect's release, without end",
+   "provenance": "generated from its stems by tools/build_version1.py",
+   "acceptance status": "released",
+   "version": {
+    "introduced": "0.3",
+    "deprecated": null
+   },
+   "key": "peer review"
+  },
+  {
+   "machine identifier": "jg.science.010",
+   "term": "data point",
+   "orthographic form": "nubenuninugiriy",
+   "phonological form": "/nubenuninuɡiɾij/",
+   "grammatical category": "jargon",
+   "sort": "s.sort.kind",
+   "semantic type": {
+    "sort": "s.sort.kind",
+    "arguments": []
+   },
+   "definition": "[a quantity or a datum that something has or stands for], bearing on [a procedure carried out under chosen conditions to find out what happens]",
+   "argument structure": [],
+   "formed from": [
+    [
+     "lx.000277"
+    ],
+    [
+     "lx.000510"
+    ]
+   ],
+   "mechanism": "compound",
+   "register": [
+    "R0",
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7"
+   ],
+   "scope": {
+    "dialect": "science",
+    "version": "0.3"
+   },
+   "validity": "from the dialect's release, without end",
+   "provenance": "generated from its stems by tools/build_version1.py",
+   "acceptance status": "released",
+   "version": {
+    "introduced": "0.3",
+    "deprecated": null
+   },
+   "key": "data point"
+  }
+ ],
+ "forms": [
+  {
+   "machine identifier": "dl.science.001",
+   "root": "dl.science.001",
+   "term": "sample",
+   "orthographic form": "redap",
+   "phonological form": "/ɾedap/",
+   "grammatical category": "dialect form",
+   "sort": "s.sort.referent",
+   "semantic type": {
+    "sort": "s.sort.referent",
+    "arguments": []
+   },
+   "definition": "the compressed form of the term sample: the one that undergoes [get hold of]",
+   "semantic primitives": [
+    "s.sort.referent"
+   ],
+   "argument structure": [],
+   "derivational behaviour": [],
+   "collocations": [],
+   "synonyms": [
+    {
+     "entry": "jg.science.001",
+     "dimension": "compression"
+    }
+   ],
+   "antonyms": [],
+   "related concepts": [],
+   "examples": [],
+   "expansion": {
+    "term": "jg.science.001",
+    "form": "rigorudim"
+   },
+   "mechanism": "compression",
+   "register": [
+    "R0",
+    "R2",
+    "R5"
+   ],
+   "scope": {
+    "dialect": "science",
+    "version": "0.2"
+   },
+   "validity": "from the dialect's release, without end",
+   "provenance": "assigned by tools/build_dialects.py from the root pool",
+   "acceptance status": "released",
+   "version": {
+    "introduced": "0.2",
+    "deprecated": null
+   },
+   "key": "sample"
+  },
+  {
+   "machine identifier": "dl.science.002",
+   "root": "dl.science.002",
+   "term": "observation",
+   "orthographic form": "rudol",
+   "phonological form": "/ɾudol/",
+   "grammatical category": "dialect form",
+   "sort": "s.sort.reified-referent",
+   "semantic type": {
+    "sort": "s.sort.reified-referent",
+    "arguments": []
+   },
+   "definition": "the compressed form of the term observation: [come to perceive or register something], as a process under way, named as a referent",
+   "semantic primitives": [
+    "s.sort.reified-referent"
+   ],
+   "argument structure": [],
+   "derivational behaviour": [],
+   "collocations": [],
+   "synonyms": [
+    {
+     "entry": "jg.science.002",
+     "dimension": "compression"
+    }
+   ],
+   "antonyms": [],
+   "related concepts": [],
+   "examples": [],
+   "expansion": {
+    "term": "jg.science.002",
+    "form": "robogumop"
+   },
+   "mechanism": "compression",
+   "register": [
+    "R0",
+    "R2",
+    "R5"
+   ],
+   "scope": {
+    "dialect": "science",
+    "version": "0.2"
+   },
+   "validity": "from the dialect's release, without end",
+   "provenance": "assigned by tools/build_dialects.py from the root pool",
+   "acceptance status": "released",
+   "version": {
+    "introduced": "0.2",
+    "deprecated": null
+   },
+   "key": "observation"
+  },
+  {
+   "machine identifier": "dl.science.003",
+   "root": "dl.science.003",
+   "term": "finding",
+   "orthographic form": "rekas",
+   "phonological form": "/ɾekas/",
+   "grammatical category": "dialect form",
+   "sort": "s.sort.state",
+   "semantic type": {
+    "sort": "s.sort.state",
+    "arguments": [
+     "actor",
+     "undergoer"
+    ]
+   },
+   "definition": "the compressed form of the term finding: the state [come upon what was sought] brings about",
+   "semantic primitives": [
+    "s.sort.state"
+   ],
+   "argument structure": [
+    {
+     "role": "actor",
+     "sort": "s.sort.agent"
+    },
+    {
+     "role": "undergoer",
+     "sort": "s.sort.referent"
+    }
+   ],
+   "derivational behaviour": [],
+   "collocations": [],
+   "synonyms": [
+    {
+     "entry": "jg.science.003",
+     "dimension": "compression"
+    }
+   ],
+   "antonyms": [],
+   "related concepts": [],
+   "examples": [],
+   "expansion": {
+    "term": "jg.science.003",
+    "form": "rubomonar"
+   },
+   "mechanism": "compression",
+   "register": [
+    "R0",
+    "R2",
+    "R5"
+   ],
+   "scope": {
+    "dialect": "science",
+    "version": "0.2"
+   },
+   "validity": "from the dialect's release, without end",
+   "provenance": "assigned by tools/build_dialects.py from the root pool",
+   "acceptance status": "released",
+   "version": {
+    "introduced": "0.2",
+    "deprecated": null
+   },
+   "key": "finding"
+  },
+  {
+   "machine identifier": "dl.science.004",
+   "root": "dl.science.004",
+   "term": "reading",
+   "orthographic form": "riyug",
+   "phonological form": "/ɾijuɡ/",
+   "grammatical category": "dialect form",
+   "sort": "s.sort.kind",
+   "semantic type": {
+    "sort": "s.sort.kind",
+    "arguments": []
+   },
+   "definition": "the compressed form of the term reading: [records that bear on a proposition], bearing on [find the size of something]",
+   "semantic primitives": [
+    "s.sort.kind"
+   ],
+   "argument structure": [],
+   "derivational behaviour": [],
+   "collocations": [],
+   "synonyms": [
+    {
+     "entry": "jg.science.004",
+     "dimension": "compression"
+    }
+   ],
+   "antonyms": [],
+   "related concepts": [],
+   "examples": [],
+   "expansion": {
+    "term": "jg.science.004",
+    "form": "reradirubus"
+   },
+   "mechanism": "compression",
+   "register": [
+    "R0",
+    "R2",
+    "R5"
+   ],
+   "scope": {
+    "dialect": "science",
+    "version": "0.2"
+   },
+   "validity": "from the dialect's release, without end",
+   "provenance": "assigned by tools/build_dialects.py from the root pool",
+   "acceptance status": "released",
+   "version": {
+    "introduced": "0.2",
+    "deprecated": null
+   },
+   "key": "reading"
+  },
+  {
+   "machine identifier": "dl.science.005",
+   "root": "dl.science.005",
+   "term": "replication",
+   "orthographic form": "ralid",
+   "phonological form": "/ɾalid/",
+   "grammatical category": "dialect form",
+   "sort": "s.sort.event",
+   "semantic type": {
+    "sort": "s.sort.event",
+    "arguments": [
+     "actor"
+    ]
+   },
+   "definition": "the compressed form of the term replication: [bring something into being], with [be like or match something] as its undergoer",
+   "semantic primitives": [
+    "s.sort.event"
+   ],
+   "argument structure": [
+    {
+     "role": "actor",
+     "sort": "s.sort.agent"
+    }
+   ],
+   "derivational behaviour": [],
+   "collocations": [],
+   "synonyms": [
+    {
+     "entry": "jg.science.005",
+     "dimension": "compression"
+    }
+   ],
+   "antonyms": [],
+   "related concepts": [],
+   "examples": [],
+   "expansion": {
+    "term": "jg.science.005",
+    "form": "rowubiripol"
+   },
+   "mechanism": "compression",
+   "register": [
+    "R0",
+    "R2",
+    "R5"
+   ],
+   "scope": {
+    "dialect": "science",
+    "version": "0.2"
+   },
+   "validity": "from the dialect's release, without end",
+   "provenance": "assigned by tools/build_dialects.py from the root pool",
+   "acceptance status": "released",
+   "version": {
+    "introduced": "0.2",
+    "deprecated": null
+   },
+   "key": "replication"
+  },
+  {
+   "machine identifier": "dl.science.006",
+   "root": "dl.science.006",
+   "term": "hypothesis",
+   "orthographic form": "rimoh",
+   "phonological form": "/ɾimoh/",
+   "grammatical category": "dialect form",
+   "sort": "s.sort.kind",
+   "semantic type": {
+    "sort": "s.sort.kind",
+    "arguments": []
+   },
+   "definition": "the compressed form of the term hypothesis: [a content formed in the mind], bearing on [try something under set conditions to see whether it behaves as expected]",
+   "semantic primitives": [
+    "s.sort.kind"
+   ],
+   "argument structure": [],
+   "derivational behaviour": [],
+   "collocations": [],
+   "synonyms": [
+    {
+     "entry": "jg.science.006",
+     "dimension": "compression"
+    }
+   ],
+   "antonyms": [],
+   "related concepts": [],
+   "examples": [],
+   "expansion": {
+    "term": "jg.science.006",
+    "form": "nusasiginuwolib"
+   },
+   "mechanism": "compression",
+   "register": [
+    "R0",
+    "R2",
+    "R5"
+   ],
+   "scope": {
+    "dialect": "science",
+    "version": "0.3"
+   },
+   "validity": "from the dialect's release, without end",
+   "provenance": "assigned by tools/build_dialects.py from the root pool",
+   "acceptance status": "released",
+   "version": {
+    "introduced": "0.3",
+    "deprecated": null
+   },
+   "key": "hypothesis"
+  },
+  {
+   "machine identifier": "dl.science.007",
+   "root": "dl.science.007",
+   "term": "control group",
+   "orthographic form": "rugam",
+   "phonological form": "/ɾuɡam/",
+   "grammatical category": "dialect form",
+   "sort": "s.sort.collective",
+   "semantic type": {
+    "sort": "s.sort.collective",
+    "arguments": []
+   },
+   "definition": "the compressed form of the term control group: [several things or agents taken together], bearing on [examine two things for how they are alike and how they differ]",
+   "semantic primitives": [
+    "s.sort.collective"
+   ],
+   "argument structure": [],
+   "derivational behaviour": [],
+   "collocations": [],
+   "synonyms": [
+    {
+     "entry": "jg.science.007",
+     "dimension": "compression"
+    }
+   ],
+   "antonyms": [],
+   "related concepts": [],
+   "examples": [],
+   "expansion": {
+    "term": "jg.science.007",
+    "form": "nupureninusapub"
+   },
+   "mechanism": "compression",
+   "register": [
+    "R0",
+    "R2",
+    "R5"
+   ],
+   "scope": {
+    "dialect": "science",
+    "version": "0.3"
+   },
+   "validity": "from the dialect's release, without end",
+   "provenance": "assigned by tools/build_dialects.py from the root pool",
+   "acceptance status": "released",
+   "version": {
+    "introduced": "0.3",
+    "deprecated": null
+   },
+   "key": "control group"
+  },
+  {
+   "machine identifier": "dl.science.008",
+   "root": "dl.science.008",
+   "term": "measurement error",
+   "orthographic form": "rilur",
+   "phonological form": "/ɾiluɾ/",
+   "grammatical category": "dialect form",
+   "sort": "s.sort.kind",
+   "semantic type": {
+    "sort": "s.sort.kind",
+    "arguments": []
+   },
+   "definition": "the compressed form of the term measurement error: [an act or a belief that is wrong through error], bearing on [find the size of something]",
+   "semantic primitives": [
+    "s.sort.kind"
+   ],
+   "argument structure": [],
+   "derivational behaviour": [],
+   "collocations": [],
+   "synonyms": [
+    {
+     "entry": "jg.science.008",
+     "dimension": "compression"
+    }
+   ],
+   "antonyms": [],
+   "related concepts": [],
+   "examples": [],
+   "expansion": {
+    "term": "jg.science.008",
+    "form": "nupenudirubus"
+   },
+   "mechanism": "compression",
+   "register": [
+    "R0",
+    "R2",
+    "R5"
+   ],
+   "scope": {
+    "dialect": "science",
+    "version": "0.3"
+   },
+   "validity": "from the dialect's release, without end",
+   "provenance": "assigned by tools/build_dialects.py from the root pool",
+   "acceptance status": "released",
+   "version": {
+    "introduced": "0.3",
+    "deprecated": null
+   },
+   "key": "measurement error"
+  },
+  {
+   "machine identifier": "dl.science.009",
+   "root": "dl.science.009",
+   "term": "peer review",
+   "orthographic form": "ruwey",
+   "phonological form": "/ɾuwej/",
+   "grammatical category": "dialect form",
+   "sort": "s.sort.event",
+   "semantic type": {
+    "sort": "s.sort.event",
+    "arguments": [
+     "actor",
+     "content"
+    ]
+   },
+   "definition": "the compressed form of the term peer review: [decide whether something meets a standard], with [a record written to be read as a whole] as its undergoer",
+   "semantic primitives": [
+    "s.sort.event"
+   ],
+   "argument structure": [
+    {
+     "role": "actor",
+     "sort": "s.sort.agent"
+    },
+    {
+     "role": "content",
+     "sort": "s.sort.referent"
+    }
+   ],
+   "derivational behaviour": [],
+   "collocations": [],
+   "synonyms": [
+    {
+     "entry": "jg.science.009",
+     "dimension": "compression"
+    }
+   ],
+   "antonyms": [],
+   "related concepts": [],
+   "examples": [],
+   "expansion": {
+    "term": "jg.science.009",
+    "form": "nusumininutobib"
+   },
+   "mechanism": "compression",
+   "register": [
+    "R0",
+    "R2",
+    "R5"
+   ],
+   "scope": {
+    "dialect": "science",
+    "version": "0.3"
+   },
+   "validity": "from the dialect's release, without end",
+   "provenance": "assigned by tools/build_dialects.py from the root pool",
+   "acceptance status": "released",
+   "version": {
+    "introduced": "0.3",
+    "deprecated": null
+   },
+   "key": "peer review"
+  },
+  {
+   "machine identifier": "dl.science.010",
+   "root": "dl.science.010",
+   "term": "data point",
+   "orthographic form": "ribay",
+   "phonological form": "/ɾibaj/",
+   "grammatical category": "dialect form",
+   "sort": "s.sort.kind",
+   "semantic type": {
+    "sort": "s.sort.kind",
+    "arguments": []
+   },
+   "definition": "the compressed form of the term data point: [a quantity or a datum that something has or stands for], bearing on [a procedure carried out under chosen conditions to find out what happens]",
+   "semantic primitives": [
+    "s.sort.kind"
+   ],
+   "argument structure": [],
+   "derivational behaviour": [],
+   "collocations": [],
+   "synonyms": [
+    {
+     "entry": "jg.science.010",
+     "dimension": "compression"
+    }
+   ],
+   "antonyms": [],
+   "related concepts": [],
+   "examples": [],
+   "expansion": {
+    "term": "jg.science.010",
+    "form": "nubenuninugiriy"
+   },
+   "mechanism": "compression",
+   "register": [
+    "R0",
+    "R2",
+    "R5"
+   ],
+   "scope": {
+    "dialect": "science",
+    "version": "0.3"
+   },
+   "validity": "from the dialect's release, without end",
+   "provenance": "assigned by tools/build_dialects.py from the root pool",
+   "acceptance status": "released",
+   "version": {
+    "introduced": "0.3",
+    "deprecated": null
+   },
+   "key": "data point"
+  }
+ ],
+ "digest": "919565889"
+}

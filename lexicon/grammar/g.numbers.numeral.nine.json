@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.numbers.numeral.nine",
+ "orthographic form": "nelu",
+ "phonological form": "/nelu/",
+ "grammatical category": "numeral",
+ "gloss": "NINE",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

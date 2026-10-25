@@ -1,0 +1,1034 @@
+{
+ "dialect": "security",
+ "number": 8,
+ "community": "security",
+ "version": "0.3",
+ "date": "2026-10-17",
+ "formed from lexicon": "1.0",
+ "reading": "each term means the composition of its stems, as the rules of word formation give it; each compressed form means the term it compresses, which a hearer computes only from this release",
+ "terms": [
+  {
+   "machine identifier": "jg.security.001",
+   "term": "access denial",
+   "orthographic form": "rahepirupow",
+   "phonological form": "/ɾahepiɾupow/",
+   "grammatical category": "jargon",
+   "sort": "s.sort.state",
+   "semantic type": {
+    "sort": "s.sort.state",
+    "arguments": [
+     "actor"
+    ]
+   },
+   "definition": "[be excluded by a policy], with [make accessible] as its content",
+   "argument structure": [
+    {
+     "role": "actor",
+     "sort": "s.sort.referent"
+    }
+   ],
+   "formed from": [
+    [
+     "lx.000017"
+    ],
+    [
+     "lx.000046"
+    ]
+   ],
+   "mechanism": "compound",
+   "register": [
+    "R0",
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7"
+   ],
+   "scope": {
+    "dialect": "security",
+    "version": "0.1"
+   },
+   "validity": "from the dialect's release, without end",
+   "provenance": "generated from its stems by tools/build_registers.py",
+   "acceptance status": "released",
+   "version": {
+    "introduced": "0.1",
+    "deprecated": null
+   },
+   "key": "access denial"
+  },
+  {
+   "machine identifier": "jg.security.002",
+   "term": "lock",
+   "orthographic form": "rimelawen",
+   "phonological form": "/ɾimelawen/",
+   "grammatical category": "jargon",
+   "sort": "s.sort.referent",
+   "semantic type": {
+    "sort": "s.sort.referent",
+    "arguments": []
+   },
+   "definition": "what [make inaccessible] is done with",
+   "argument structure": [],
+   "formed from": [
+    [
+     "lx.000047",
+     "lx.000098"
+    ]
+   ],
+   "mechanism": "instrument",
+   "register": [
+    "R0",
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7"
+   ],
+   "scope": {
+    "dialect": "security",
+    "version": "0.1"
+   },
+   "validity": "from the dialect's release, without end",
+   "provenance": "generated from its stems by tools/build_registers.py",
+   "acceptance status": "released",
+   "version": {
+    "introduced": "0.1",
+    "deprecated": null
+   },
+   "key": "lock"
+  },
+  {
+   "machine identifier": "jg.security.003",
+   "term": "exposure",
+   "orthographic form": "rupowiruter",
+   "phonological form": "/ɾupowiɾuteɾ/",
+   "grammatical category": "jargon",
+   "sort": "s.sort.event",
+   "semantic type": {
+    "sort": "s.sort.event",
+    "arguments": [
+     "actor"
+    ]
+   },
+   "definition": "[make accessible], with [the store an agent keeps records in] as its undergoer",
+   "argument structure": [
+    {
+     "role": "actor",
+     "sort": "s.sort.agent"
+    }
+   ],
+   "formed from": [
+    [
+     "lx.000046"
+    ],
+    [
+     "lx.000059"
+    ]
+   ],
+   "mechanism": "compound",
+   "register": [
+    "R0",
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7"
+   ],
+   "scope": {
+    "dialect": "security",
+    "version": "0.1"
+   },
+   "validity": "from the dialect's release, without end",
+   "provenance": "generated from its stems by tools/build_registers.py",
+   "acceptance status": "released",
+   "version": {
+    "introduced": "0.1",
+    "deprecated": null
+   },
+   "key": "exposure"
+  },
+  {
+   "machine identifier": "jg.security.004",
+   "term": "tamper check",
+   "orthographic form": "rosekirulis",
+   "phonological form": "/ɾosekiɾulis/",
+   "grammatical category": "jargon",
+   "sort": "s.sort.event",
+   "semantic type": {
+    "sort": "s.sort.event",
+    "arguments": [
+     "actor"
+    ]
+   },
+   "definition": "[inspect or investigate something to learn about it], with [be altered in transit] as its undergoer",
+   "argument structure": [
+    {
+     "role": "actor",
+     "sort": "s.sort.agent"
+    }
+   ],
+   "formed from": [
+    [
+     "lx.000001"
+    ],
+    [
+     "lx.000076"
+    ]
+   ],
+   "mechanism": "compound",
+   "register": [
+    "R0",
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7"
+   ],
+   "scope": {
+    "dialect": "security",
+    "version": "0.1"
+   },
+   "validity": "from the dialect's release, without end",
+   "provenance": "generated from its stems by tools/build_registers.py",
+   "acceptance status": "released",
+   "version": {
+    "introduced": "0.1",
+    "deprecated": null
+   },
+   "key": "tamper check"
+  },
+  {
+   "machine identifier": "jg.security.005",
+   "term": "tampered item",
+   "orthographic form": "rulisudim",
+   "phonological form": "/ɾulisudim/",
+   "grammatical category": "jargon",
+   "sort": "s.sort.referent",
+   "semantic type": {
+    "sort": "s.sort.referent",
+    "arguments": []
+   },
+   "definition": "the one that undergoes [be altered in transit]",
+   "argument structure": [],
+   "formed from": [
+    [
+     "lx.000076",
+     "lx.000097"
+    ]
+   ],
+   "mechanism": "undergoer",
+   "register": [
+    "R0",
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7"
+   ],
+   "scope": {
+    "dialect": "security",
+    "version": "0.1"
+   },
+   "validity": "from the dialect's release, without end",
+   "provenance": "generated from its stems by tools/build_registers.py",
+   "acceptance status": "released",
+   "version": {
+    "introduced": "0.1",
+    "deprecated": null
+   },
+   "key": "tampered item"
+  },
+  {
+   "machine identifier": "jg.security.006",
+   "term": "encryption",
+   "orthographic form": "nusekibinuwahoh",
+   "phonological form": "/nusekibinuwahoh/",
+   "grammatical category": "jargon",
+   "sort": "s.sort.event",
+   "semantic type": {
+    "sort": "s.sort.event",
+    "arguments": [
+     "actor",
+     "content"
+    ]
+   },
+   "definition": "[set information down in a code or a form], with [be kept from those who are not meant to know it] as its undergoer",
+   "argument structure": [
+    {
+     "role": "actor",
+     "sort": "s.sort.agent"
+    },
+    {
+     "role": "content",
+     "sort": "s.sort.referent"
+    }
+   ],
+   "formed from": [
+    [
+     "lx.000268"
+    ],
+    [
+     "lx.000219"
+    ]
+   ],
+   "mechanism": "compound",
+   "register": [
+    "R0",
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7"
+   ],
+   "scope": {
+    "dialect": "security",
+    "version": "0.3"
+   },
+   "validity": "from the dialect's release, without end",
+   "provenance": "generated from its stems by tools/build_version1.py",
+   "acceptance status": "released",
+   "version": {
+    "introduced": "0.3",
+    "deprecated": null
+   },
+   "key": "encryption"
+  },
+  {
+   "machine identifier": "jg.security.007",
+   "term": "attacker",
+   "orthographic form": "nulegunaheh",
+   "phonological form": "/nuleɡunaheh/",
+   "grammatical category": "jargon",
+   "sort": "s.sort.agent",
+   "semantic type": {
+    "sort": "s.sort.agent",
+    "arguments": []
+   },
+   "definition": "the one that is actor of [act with force against something to harm or to take it]",
+   "argument structure": [],
+   "formed from": [
+    [
+     "lx.000473",
+     "lx.000096"
+    ]
+   ],
+   "mechanism": "agent",
+   "register": [
+    "R0",
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7"
+   ],
+   "scope": {
+    "dialect": "security",
+    "version": "0.3"
+   },
+   "validity": "from the dialect's release, without end",
+   "provenance": "generated from its stems by tools/build_version1.py",
+   "acceptance status": "released",
+   "version": {
+    "introduced": "0.3",
+    "deprecated": null
+   },
+   "key": "attacker"
+  },
+  {
+   "machine identifier": "jg.security.008",
+   "term": "credential",
+   "orthographic form": "nuroleyirebob",
+   "phonological form": "/nuɾolejiɾebob/",
+   "grammatical category": "jargon",
+   "sort": "s.sort.object",
+   "semantic type": {
+    "sort": "s.sort.object",
+    "arguments": []
+   },
+   "definition": "[an object or a datum that opens what is locked or proves who holds it], bearing on [establish, by a key one holds, that a message was made by the agent the key belongs to]",
+   "argument structure": [],
+   "formed from": [
+    [
+     "lx.000528"
+    ],
+    [
+     "lx.000196"
+    ]
+   ],
+   "mechanism": "compound",
+   "register": [
+    "R0",
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7"
+   ],
+   "scope": {
+    "dialect": "security",
+    "version": "0.3"
+   },
+   "validity": "from the dialect's release, without end",
+   "provenance": "generated from its stems by tools/build_version1.py",
+   "acceptance status": "released",
+   "version": {
+    "introduced": "0.3",
+    "deprecated": null
+   },
+   "key": "credential"
+  },
+  {
+   "machine identifier": "jg.security.009",
+   "term": "vulnerability",
+   "orthographic form": "nuyeroninulegun",
+   "phonological form": "/nujeɾoninuleɡun/",
+   "grammatical category": "jargon",
+   "sort": "s.sort.kind",
+   "semantic type": {
+    "sort": "s.sort.kind",
+    "arguments": []
+   },
+   "definition": "[the chance of loss that an action or a choice carries], bearing on [act with force against something to harm or to take it]",
+   "argument structure": [],
+   "formed from": [
+    [
+     "lx.000301"
+    ],
+    [
+     "lx.000473"
+    ]
+   ],
+   "mechanism": "compound",
+   "register": [
+    "R0",
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7"
+   ],
+   "scope": {
+    "dialect": "security",
+    "version": "0.3"
+   },
+   "validity": "from the dialect's release, without end",
+   "provenance": "generated from its stems by tools/build_version1.py",
+   "acceptance status": "released",
+   "version": {
+    "introduced": "0.3",
+    "deprecated": null
+   },
+   "key": "vulnerability"
+  },
+  {
+   "machine identifier": "jg.security.010",
+   "term": "firewall",
+   "orthographic form": "nubotobirewoh",
+   "phonological form": "/nubotobiɾewoh/",
+   "grammatical category": "jargon",
+   "sort": "s.sort.kind",
+   "semantic type": {
+    "sort": "s.sort.kind",
+    "arguments": []
+   },
+   "definition": "[a line that marks where something ends], bearing on [connected systems that exchange messages]",
+   "argument structure": [],
+   "formed from": [
+    [
+     "lx.000459"
+    ],
+    [
+     "lx.000060"
+    ]
+   ],
+   "mechanism": "compound",
+   "register": [
+    "R0",
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7"
+   ],
+   "scope": {
+    "dialect": "security",
+    "version": "0.3"
+   },
+   "validity": "from the dialect's release, without end",
+   "provenance": "generated from its stems by tools/build_version1.py",
+   "acceptance status": "released",
+   "version": {
+    "introduced": "0.3",
+    "deprecated": null
+   },
+   "key": "firewall"
+  }
+ ],
+ "forms": [
+  {
+   "machine identifier": "dl.security.001",
+   "root": "dl.security.001",
+   "term": "access denial",
+   "orthographic form": "ribod",
+   "phonological form": "/ɾibod/",
+   "grammatical category": "dialect form",
+   "sort": "s.sort.state",
+   "semantic type": {
+    "sort": "s.sort.state",
+    "arguments": [
+     "actor"
+    ]
+   },
+   "definition": "the compressed form of the term access denial: [be excluded by a policy], with [make accessible] as its content",
+   "semantic primitives": [
+    "s.sort.state"
+   ],
+   "argument structure": [
+    {
+     "role": "actor",
+     "sort": "s.sort.referent"
+    }
+   ],
+   "derivational behaviour": [],
+   "collocations": [],
+   "synonyms": [
+    {
+     "entry": "jg.security.001",
+     "dimension": "compression"
+    }
+   ],
+   "antonyms": [],
+   "related concepts": [],
+   "examples": [],
+   "expansion": {
+    "term": "jg.security.001",
+    "form": "rahepirupow"
+   },
+   "mechanism": "compression",
+   "register": [
+    "R0",
+    "R2",
+    "R5"
+   ],
+   "scope": {
+    "dialect": "security",
+    "version": "0.2"
+   },
+   "validity": "from the dialect's release, without end",
+   "provenance": "assigned by tools/build_dialects.py from the root pool",
+   "acceptance status": "released",
+   "version": {
+    "introduced": "0.2",
+    "deprecated": null
+   },
+   "key": "access denial"
+  },
+  {
+   "machine identifier": "dl.security.002",
+   "root": "dl.security.002",
+   "term": "lock",
+   "orthographic form": "radog",
+   "phonological form": "/ɾadoɡ/",
+   "grammatical category": "dialect form",
+   "sort": "s.sort.referent",
+   "semantic type": {
+    "sort": "s.sort.referent",
+    "arguments": []
+   },
+   "definition": "the compressed form of the term lock: what [make inaccessible] is done with",
+   "semantic primitives": [
+    "s.sort.referent"
+   ],
+   "argument structure": [],
+   "derivational behaviour": [],
+   "collocations": [],
+   "synonyms": [
+    {
+     "entry": "jg.security.002",
+     "dimension": "compression"
+    }
+   ],
+   "antonyms": [],
+   "related concepts": [],
+   "examples": [],
+   "expansion": {
+    "term": "jg.security.002",
+    "form": "rimelawen"
+   },
+   "mechanism": "compression",
+   "register": [
+    "R0",
+    "R2",
+    "R5"
+   ],
+   "scope": {
+    "dialect": "security",
+    "version": "0.2"
+   },
+   "validity": "from the dialect's release, without end",
+   "provenance": "assigned by tools/build_dialects.py from the root pool",
+   "acceptance status": "released",
+   "version": {
+    "introduced": "0.2",
+    "deprecated": null
+   },
+   "key": "lock"
+  },
+  {
+   "machine identifier": "dl.security.003",
+   "root": "dl.security.003",
+   "term": "exposure",
+   "orthographic form": "ronob",
+   "phonological form": "/ɾonob/",
+   "grammatical category": "dialect form",
+   "sort": "s.sort.event",
+   "semantic type": {
+    "sort": "s.sort.event",
+    "arguments": [
+     "actor"
+    ]
+   },
+   "definition": "the compressed form of the term exposure: [make accessible], with [the store an agent keeps records in] as its undergoer",
+   "semantic primitives": [
+    "s.sort.event"
+   ],
+   "argument structure": [
+    {
+     "role": "actor",
+     "sort": "s.sort.agent"
+    }
+   ],
+   "derivational behaviour": [],
+   "collocations": [],
+   "synonyms": [
+    {
+     "entry": "jg.security.003",
+     "dimension": "compression"
+    }
+   ],
+   "antonyms": [],
+   "related concepts": [],
+   "examples": [],
+   "expansion": {
+    "term": "jg.security.003",
+    "form": "rupowiruter"
+   },
+   "mechanism": "compression",
+   "register": [
+    "R0",
+    "R2",
+    "R5"
+   ],
+   "scope": {
+    "dialect": "security",
+    "version": "0.2"
+   },
+   "validity": "from the dialect's release, without end",
+   "provenance": "assigned by tools/build_dialects.py from the root pool",
+   "acceptance status": "released",
+   "version": {
+    "introduced": "0.2",
+    "deprecated": null
+   },
+   "key": "exposure"
+  },
+  {
+   "machine identifier": "dl.security.004",
+   "root": "dl.security.004",
+   "term": "tamper check",
+   "orthographic form": "reker",
+   "phonological form": "/ɾekeɾ/",
+   "grammatical category": "dialect form",
+   "sort": "s.sort.event",
+   "semantic type": {
+    "sort": "s.sort.event",
+    "arguments": [
+     "actor"
+    ]
+   },
+   "definition": "the compressed form of the term tamper check: [inspect or investigate something to learn about it], with [be altered in transit] as its undergoer",
+   "semantic primitives": [
+    "s.sort.event"
+   ],
+   "argument structure": [
+    {
+     "role": "actor",
+     "sort": "s.sort.agent"
+    }
+   ],
+   "derivational behaviour": [],
+   "collocations": [],
+   "synonyms": [
+    {
+     "entry": "jg.security.004",
+     "dimension": "compression"
+    }
+   ],
+   "antonyms": [],
+   "related concepts": [],
+   "examples": [],
+   "expansion": {
+    "term": "jg.security.004",
+    "form": "rosekirulis"
+   },
+   "mechanism": "compression",
+   "register": [
+    "R0",
+    "R2",
+    "R5"
+   ],
+   "scope": {
+    "dialect": "security",
+    "version": "0.2"
+   },
+   "validity": "from the dialect's release, without end",
+   "provenance": "assigned by tools/build_dialects.py from the root pool",
+   "acceptance status": "released",
+   "version": {
+    "introduced": "0.2",
+    "deprecated": null
+   },
+   "key": "tamper check"
+  },
+  {
+   "machine identifier": "dl.security.005",
+   "root": "dl.security.005",
+   "term": "tampered item",
+   "orthographic form": "ruyah",
+   "phonological form": "/ɾujah/",
+   "grammatical category": "dialect form",
+   "sort": "s.sort.referent",
+   "semantic type": {
+    "sort": "s.sort.referent",
+    "arguments": []
+   },
+   "definition": "the compressed form of the term tampered item: the one that undergoes [be altered in transit]",
+   "semantic primitives": [
+    "s.sort.referent"
+   ],
+   "argument structure": [],
+   "derivational behaviour": [],
+   "collocations": [],
+   "synonyms": [
+    {
+     "entry": "jg.security.005",
+     "dimension": "compression"
+    }
+   ],
+   "antonyms": [],
+   "related concepts": [],
+   "examples": [],
+   "expansion": {
+    "term": "jg.security.005",
+    "form": "rulisudim"
+   },
+   "mechanism": "compression",
+   "register": [
+    "R0",
+    "R2",
+    "R5"
+   ],
+   "scope": {
+    "dialect": "security",
+    "version": "0.2"
+   },
+   "validity": "from the dialect's release, without end",
+   "provenance": "assigned by tools/build_dialects.py from the root pool",
+   "acceptance status": "released",
+   "version": {
+    "introduced": "0.2",
+    "deprecated": null
+   },
+   "key": "tampered item"
+  },
+  {
+   "machine identifier": "dl.security.006",
+   "root": "dl.security.006",
+   "term": "encryption",
+   "orthographic form": "ratad",
+   "phonological form": "/ɾatad/",
+   "grammatical category": "dialect form",
+   "sort": "s.sort.event",
+   "semantic type": {
+    "sort": "s.sort.event",
+    "arguments": [
+     "actor",
+     "content"
+    ]
+   },
+   "definition": "the compressed form of the term encryption: [set information down in a code or a form], with [be kept from those who are not meant to know it] as its undergoer",
+   "semantic primitives": [
+    "s.sort.event"
+   ],
+   "argument structure": [
+    {
+     "role": "actor",
+     "sort": "s.sort.agent"
+    },
+    {
+     "role": "content",
+     "sort": "s.sort.referent"
+    }
+   ],
+   "derivational behaviour": [],
+   "collocations": [],
+   "synonyms": [
+    {
+     "entry": "jg.security.006",
+     "dimension": "compression"
+    }
+   ],
+   "antonyms": [],
+   "related concepts": [],
+   "examples": [],
+   "expansion": {
+    "term": "jg.security.006",
+    "form": "nusekibinuwahoh"
+   },
+   "mechanism": "compression",
+   "register": [
+    "R0",
+    "R2",
+    "R5"
+   ],
+   "scope": {
+    "dialect": "security",
+    "version": "0.3"
+   },
+   "validity": "from the dialect's release, without end",
+   "provenance": "assigned by tools/build_dialects.py from the root pool",
+   "acceptance status": "released",
+   "version": {
+    "introduced": "0.3",
+    "deprecated": null
+   },
+   "key": "encryption"
+  },
+  {
+   "machine identifier": "dl.security.007",
+   "root": "dl.security.007",
+   "term": "attacker",
+   "orthographic form": "royod",
+   "phonological form": "/ɾojod/",
+   "grammatical category": "dialect form",
+   "sort": "s.sort.agent",
+   "semantic type": {
+    "sort": "s.sort.agent",
+    "arguments": []
+   },
+   "definition": "the compressed form of the term attacker: the one that is actor of [act with force against something to harm or to take it]",
+   "semantic primitives": [
+    "s.sort.agent"
+   ],
+   "argument structure": [],
+   "derivational behaviour": [],
+   "collocations": [],
+   "synonyms": [
+    {
+     "entry": "jg.security.007",
+     "dimension": "compression"
+    }
+   ],
+   "antonyms": [],
+   "related concepts": [],
+   "examples": [],
+   "expansion": {
+    "term": "jg.security.007",
+    "form": "nulegunaheh"
+   },
+   "mechanism": "compression",
+   "register": [
+    "R0",
+    "R2",
+    "R5"
+   ],
+   "scope": {
+    "dialect": "security",
+    "version": "0.3"
+   },
+   "validity": "from the dialect's release, without end",
+   "provenance": "assigned by tools/build_dialects.py from the root pool",
+   "acceptance status": "released",
+   "version": {
+    "introduced": "0.3",
+    "deprecated": null
+   },
+   "key": "attacker"
+  },
+  {
+   "machine identifier": "dl.security.008",
+   "root": "dl.security.008",
+   "term": "credential",
+   "orthographic form": "ribik",
+   "phonological form": "/ɾibik/",
+   "grammatical category": "dialect form",
+   "sort": "s.sort.object",
+   "semantic type": {
+    "sort": "s.sort.object",
+    "arguments": []
+   },
+   "definition": "the compressed form of the term credential: [an object or a datum that opens what is locked or proves who holds it], bearing on [establish, by a key one holds, that a message was made by the agent the key belongs to]",
+   "semantic primitives": [
+    "s.sort.object"
+   ],
+   "argument structure": [],
+   "derivational behaviour": [],
+   "collocations": [],
+   "synonyms": [
+    {
+     "entry": "jg.security.008",
+     "dimension": "compression"
+    }
+   ],
+   "antonyms": [],
+   "related concepts": [],
+   "examples": [],
+   "expansion": {
+    "term": "jg.security.008",
+    "form": "nuroleyirebob"
+   },
+   "mechanism": "compression",
+   "register": [
+    "R0",
+    "R2",
+    "R5"
+   ],
+   "scope": {
+    "dialect": "security",
+    "version": "0.3"
+   },
+   "validity": "from the dialect's release, without end",
+   "provenance": "assigned by tools/build_dialects.py from the root pool",
+   "acceptance status": "released",
+   "version": {
+    "introduced": "0.3",
+    "deprecated": null
+   },
+   "key": "credential"
+  },
+  {
+   "machine identifier": "dl.security.009",
+   "root": "dl.security.009",
+   "term": "vulnerability",
+   "orthographic form": "roleg",
+   "phonological form": "/ɾoleɡ/",
+   "grammatical category": "dialect form",
+   "sort": "s.sort.kind",
+   "semantic type": {
+    "sort": "s.sort.kind",
+    "arguments": []
+   },
+   "definition": "the compressed form of the term vulnerability: [the chance of loss that an action or a choice carries], bearing on [act with force against something to harm or to take it]",
+   "semantic primitives": [
+    "s.sort.kind"
+   ],
+   "argument structure": [],
+   "derivational behaviour": [],
+   "collocations": [],
+   "synonyms": [
+    {
+     "entry": "jg.security.009",
+     "dimension": "compression"
+    }
+   ],
+   "antonyms": [],
+   "related concepts": [],
+   "examples": [],
+   "expansion": {
+    "term": "jg.security.009",
+    "form": "nuyeroninulegun"
+   },
+   "mechanism": "compression",
+   "register": [
+    "R0",
+    "R2",
+    "R5"
+   ],
+   "scope": {
+    "dialect": "security",
+    "version": "0.3"
+   },
+   "validity": "from the dialect's release, without end",
+   "provenance": "assigned by tools/build_dialects.py from the root pool",
+   "acceptance status": "released",
+   "version": {
+    "introduced": "0.3",
+    "deprecated": null
+   },
+   "key": "vulnerability"
+  },
+  {
+   "machine identifier": "dl.security.010",
+   "root": "dl.security.010",
+   "term": "firewall",
+   "orthographic form": "relul",
+   "phonological form": "/ɾelul/",
+   "grammatical category": "dialect form",
+   "sort": "s.sort.kind",
+   "semantic type": {
+    "sort": "s.sort.kind",
+    "arguments": []
+   },
+   "definition": "the compressed form of the term firewall: [a line that marks where something ends], bearing on [connected systems that exchange messages]",
+   "semantic primitives": [
+    "s.sort.kind"
+   ],
+   "argument structure": [],
+   "derivational behaviour": [],
+   "collocations": [],
+   "synonyms": [
+    {
+     "entry": "jg.security.010",
+     "dimension": "compression"
+    }
+   ],
+   "antonyms": [],
+   "related concepts": [],
+   "examples": [],
+   "expansion": {
+    "term": "jg.security.010",
+    "form": "nubotobirewoh"
+   },
+   "mechanism": "compression",
+   "register": [
+    "R0",
+    "R2",
+    "R5"
+   ],
+   "scope": {
+    "dialect": "security",
+    "version": "0.3"
+   },
+   "validity": "from the dialect's release, without end",
+   "provenance": "assigned by tools/build_dialects.py from the root pool",
+   "acceptance status": "released",
+   "version": {
+    "introduced": "0.3",
+    "deprecated": null
+   },
+   "key": "firewall"
+  }
+ ],
+ "digest": "095726917"
+}

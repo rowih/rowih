@@ -1,0 +1,139 @@
+{
+ "machine identifier": "lx.000289",
+ "root": "lx.000289",
+ "phonological form": "/nujisaɡ/",
+ "orthographic form": "nuyisag",
+ "grammatical category": "predicate root",
+ "sort": "s.sort.state",
+ "semantic type": {
+  "sort": "s.sort.state",
+  "arguments": [
+   "undergoer"
+  ]
+ },
+ "definition": "follow no pattern that can be predicted",
+ "semantic primitives": [
+  "s.sort.state"
+ ],
+ "argument structure": [
+  {
+   "role": "undergoer",
+   "sort": "s.sort.referent"
+  }
+ ],
+ "derivational behaviour": [
+  {
+   "suffix": "lx.000097",
+   "mechanism": "undergoer",
+   "form": "nuyisagudim",
+   "sort": "s.sort.referent",
+   "definition": "the one that undergoes [follow no pattern that can be predicted]"
+  },
+  {
+   "suffix": "lx.000098",
+   "mechanism": "instrument",
+   "form": "nuyisagawen",
+   "sort": "s.sort.referent",
+   "definition": "what [follow no pattern that can be predicted] is done with"
+  },
+  {
+   "suffix": "lx.000099",
+   "mechanism": "result",
+   "form": "nuyisagonar",
+   "sort": "s.sort.state",
+   "definition": "the state [follow no pattern that can be predicted] brings about"
+  },
+  {
+   "suffix": "lx.000100",
+   "mechanism": "privative",
+   "form": "nuyisaganiw",
+   "sort": "s.sort.state",
+   "definition": "the state in which [follow no pattern that can be predicted] does not hold"
+  },
+  {
+   "suffix": "lx.000108",
+   "mechanism": "process",
+   "form": "nuyisagumop",
+   "sort": "s.sort.reified-referent",
+   "definition": "[follow no pattern that can be predicted], as a process under way, named as a referent"
+  },
+  {
+   "suffix": "lx.000109",
+   "mechanism": "property",
+   "form": "nuyisagarur",
+   "sort": "s.sort.kind",
+   "definition": "the property of being as [follow no pattern that can be predicted] states"
+  },
+  {
+   "suffix": "lx.000111",
+   "mechanism": "nominalisation",
+   "form": "nuyisagekoh",
+   "sort": "s.sort.proposition",
+   "definition": "that [follow no pattern that can be predicted] holds"
+  },
+  {
+   "suffix": "lx.000594",
+   "mechanism": "causative",
+   "form": "nuyisagomiw",
+   "sort": "s.sort.event",
+   "definition": "make [follow no pattern that can be predicted] hold or happen"
+  },
+  {
+   "suffix": "lx.000595",
+   "mechanism": "reversative",
+   "form": "nuyisaguhul",
+   "sort": "s.sort.event",
+   "definition": "undo [follow no pattern that can be predicted], restoring what it changed"
+  },
+  {
+   "suffix": "lx.000596",
+   "mechanism": "repetitive",
+   "form": "nuyisaguleg",
+   "sort": "s.sort.event",
+   "definition": "[follow no pattern that can be predicted], done once more"
+  },
+  {
+   "suffix": "lx.000597",
+   "mechanism": "potential",
+   "form": "nuyisaguwot",
+   "sort": "s.sort.state",
+   "definition": "be such that [follow no pattern that can be predicted] can be done to it"
+  },
+  {
+   "suffix": "lx.000598",
+   "mechanism": "place",
+   "form": "nuyisagumuk",
+   "sort": "s.sort.place",
+   "definition": "the place where [follow no pattern that can be predicted] happens"
+  }
+ ],
+ "register": [
+  "R0",
+  "R1",
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7"
+ ],
+ "collocations": [],
+ "synonyms": [],
+ "antonyms": [],
+ "related concepts": [
+  {
+   "entry": "lx.000288",
+   "relation": "involves"
+  },
+  {
+   "entry": "lx.000427",
+   "relation": "involved in"
+  }
+ ],
+ "examples": [],
+ "version": {
+  "introduced": "1.0",
+  "deprecated": null
+ },
+ "key": "random"
+}

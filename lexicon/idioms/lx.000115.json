@@ -1,0 +1,54 @@
+{
+ "machine identifier": "lx.000115",
+ "root": "lx.000115",
+ "phonological form": "/kijetu/",
+ "orthographic form": "kiyetu",
+ "grammatical category": "act word",
+ "sort": "s.sort.move",
+ "semantic type": {
+  "sort": "s.sort.move",
+  "arguments": []
+ },
+ "definition": "the conventional expression of request: ISSUE REQUEST",
+ "semantic primitives": [
+  "s.sort.move"
+ ],
+ "argument structure": [],
+ "derivational behaviour": [],
+ "register": [
+  "R0",
+  "R1",
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7"
+ ],
+ "collocations": [],
+ "synonyms": [],
+ "antonyms": [],
+ "related concepts": [],
+ "examples": [],
+ "version": {
+  "introduced": "0.3",
+  "deprecated": null
+ },
+ "key": "request",
+ "expansion": [
+  "g.force.what-the-move-adds.issue",
+  "g.force.kind-of-issue.request"
+ ],
+ "acts": [
+  "request"
+ ],
+ "answers": null,
+ "kind": "encoding, grammatical",
+ "route": "compression",
+ "literal structure": "kiyetu",
+ "decomposition": [],
+ "pragmatic conditions": "wherever the head it expands may be written",
+ "usage restrictions": "none",
+ "declared loss": [],
+ "constructed history": "Constructed history: the head ISSUE REQUEST, frequent enough to be said as one word, shortened to the force word that now stands for it."
+}

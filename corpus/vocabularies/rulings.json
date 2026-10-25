@@ -1,0 +1,222 @@
+{
+ "note": "the rulings of the resemblance audit: each close match judged related in meaning to the word it matches, each match a list or a sense label marks and judged not offensive, and each word redesigned",
+ "related": [
+  {
+   "word": "ramow",
+   "language": "Esperanto",
+   "match": "ramo",
+   "reason": "a hydraulic ram, the second sense of ramo, is a kind of actuator, the compressed form's meaning in the robotics dialect"
+  },
+  {
+   "word": "rokar",
+   "language": "Marathi",
+   "match": "होकार",
+   "reason": "hokār means assent, the root's own concept"
+  },
+  {
+   "word": "rokar",
+   "language": "Japanese",
+   "match": "了解",
+   "reason": "ryōkai means consent or agreement, a near-synonym of assent"
+  },
+  {
+   "word": "rulem",
+   "language": "French",
+   "match": "rouler",
+   "reason": "rouler, to roll or to go along, is a manner of the root's change of place"
+  },
+  {
+   "word": "radun",
+   "language": "German",
+   "match": "Ladung",
+   "reason": "Ladung means cargo or load, the compressed form's meaning, a robot's payload"
+  }
+ ],
+ "not offensive": [
+  {
+   "word": "ralid",
+   "language": "English",
+   "match": "ride",
+   "reason": "the vulgar sense is one slang sense of 33; ride is an everyday word"
+  },
+  {
+   "word": "raniy",
+   "language": "Urdu",
+   "match": "رانی",
+   "reason": "rani means queen; the derogatory senses are secondary uses"
+  },
+  {
+   "word": "ratad",
+   "language": "Spanish",
+   "match": "rata",
+   "reason": "rata means rat; the derogatory senses are colloquial extensions of the animal word"
+  },
+  {
+   "word": "ratem",
+   "language": "French",
+   "match": "raté",
+   "reason": "raté is first the participle failed; the derogatory noun, a loser, is a colloquial extension"
+  },
+  {
+   "word": "ratis",
+   "language": "English",
+   "match": "rice",
+   "reason": "the slur sense is a specialised slang use of one of twelve senses; rice is an everyday word"
+  },
+  {
+   "word": "regin",
+   "language": "English",
+   "match": "pegging",
+   "reason": "listed as a bad word for a slang sexual sense; its senses in Wiktionary are fastening with pegs and pegs collectively"
+  },
+  {
+   "word": "remir",
+   "language": "Turkish",
+   "match": "kömür",
+   "reason": "kömür means coal; the slur sense is labelled rare"
+  },
+  {
+   "word": "retil",
+   "language": "English",
+   "match": "rail",
+   "reason": "the vulgar sense is one slang sense of 22; rail is an everyday word"
+  },
+  {
+   "word": "rimel",
+   "language": "French",
+   "match": "femelle",
+   "reason": "femelle means female of a species; it is derogatory only said of a woman"
+  },
+  {
+   "word": "rimiw",
+   "language": "English",
+   "match": "rimming",
+   "reason": "listed as a bad word; rimming is first the participle of rim, an everyday verb, and the match differs in its final consonant, w for the velar nasal"
+  },
+  {
+   "word": "rinar",
+   "language": "French",
+   "match": "richard",
+   "reason": "the form is above all the given name Richard, which the frequency list counts since it ignores case; the common noun, moneybags, is informal and mildly pejorative"
+  },
+  {
+   "word": "robet",
+   "language": "French",
+   "match": "robert",
+   "reason": "the form is above all the given name Robert, which the frequency list counts since it ignores case; the slang common noun is used chiefly in the plural"
+  },
+  {
+   "word": "robet",
+   "language": "French",
+   "match": "robin",
+   "reason": "the derogatory sense, lawyer, is archaic"
+  },
+  {
+   "word": "robog",
+   "language": "Portuguese",
+   "match": "roubo",
+   "reason": "roubo means theft; the derogatory sense, a rip-off, is figurative"
+  },
+  {
+   "word": "robun",
+   "language": "Portuguese",
+   "match": "roubo",
+   "reason": "roubo means theft; the derogatory sense, a rip-off, is figurative"
+  },
+  {
+   "word": "rolab",
+   "language": "Portuguese",
+   "match": "rola",
+   "reason": "rola is first a dove and the everyday verb form rolls or happens; the vulgar Brazilian sense is one of several"
+  },
+  {
+   "word": "rosek",
+   "language": "Japanese",
+   "match": "両性",
+   "reason": "listed as a bad word; ryōsei means both sexes or amphoteric and is not offensive"
+  },
+  {
+   "word": "rotan",
+   "language": "Japanese",
+   "match": "ローター",
+   "reason": "listed as a bad word for the sense love egg; rōtā is first a rotor"
+  }
+ ],
+ "redesigned": [
+  {
+   "key": "assent",
+   "entry": "lx.000106",
+   "form": "rokar",
+   "new entry": "lx.000873",
+   "new form": "nukohay",
+   "matches": [
+    "Marathi होकार",
+    "Japanese 了解"
+   ],
+   "reason": "related in meaning; a root of lexicon 0.2, deprecated in lexicon 1.0 and replaced by a long root, as every root of lexicon 1.0 is"
+  },
+  {
+   "key": "move",
+   "entry": "lx.000048",
+   "form": "rulem",
+   "new entry": "lx.000874",
+   "new form": "nudarah",
+   "matches": [
+    "French rouler"
+   ],
+   "reason": "related in meaning; a root of lexicon 0.1, deprecated in lexicon 1.0 and replaced by a long root, as every root of lexicon 1.0 is"
+  },
+  {
+   "key": "data point",
+   "entry": "dl.science.010",
+   "form": "rolol",
+   "new entry": "dl.science.010",
+   "new form": "ribay",
+   "matches": [
+    "Indonesian tolol"
+   ],
+   "reason": "offensive; a compressed form of the science dialect's release 0.3, formed from lexicon 1.0, given a new form"
+  },
+  {
+   "key": "actuator",
+   "entry": "dl.robotics.001",
+   "form": "ramow",
+   "new entry": "dl.robotics.011",
+   "new form": "rubid",
+   "matches": [
+    "Esperanto ramo"
+   ],
+   "reason": "related in meaning, and its term formed on the replaced root move; a compressed form of the robotics dialect's release 0.2, deprecated in release 0.3 with its term, and replaced"
+  },
+  {
+   "key": "odometry",
+   "entry": "dl.robotics.004",
+   "form": "rabey",
+   "new entry": "dl.robotics.012",
+   "new form": "rumih",
+   "matches": [],
+   "reason": "its term formed on the replaced root move; deprecated in the robotics dialect's release 0.3 with its term, and replaced"
+  },
+  {
+   "key": "payload",
+   "entry": "dl.robotics.005",
+   "form": "rokey",
+   "new entry": "dl.robotics.013",
+   "new form": "rosus",
+   "matches": [],
+   "reason": "its term formed on the replaced root move; deprecated in the robotics dialect's release 0.3 with its term, and replaced; the form the short code gives next, reyip, matched English rape and is rejected"
+  }
+ ],
+ "rejected in the course of the audit": [
+  {
+   "form": "reyip",
+   "matched": "English rape",
+   "reason": "offensive; drawn for a robotics form while the replacements took short forms, and skipped since"
+  },
+  {
+   "form": "radun",
+   "matched": "German Ladung",
+   "reason": "related in meaning to payload; drawn for the payload's form while the replacements took short forms, and kept from every later draw"
+  }
+ ]
+}

@@ -1,0 +1,12 @@
+{
+ "machine identifier": "g.standing.basis.source-lost",
+ "orthographic form": "tukemu",
+ "phonological form": "/tukemu/",
+ "grammatical category": "basis",
+ "gloss": "SOURCE-LOST",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ },
+ "tier": 2
+}

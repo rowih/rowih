@@ -1,0 +1,32 @@
+{
+ "code": "R4",
+ "name": "formal",
+ "member": "g.ambiguity-and-figures.register.formal",
+ "use": "specification and proof",
+ "modes admitted": [
+  "full explicitness",
+  "normal expression"
+ ],
+ "devices admitted": [
+  "declared defaults",
+  "inheritance",
+  "conventional expressions"
+ ],
+ "precision-bound by default": true,
+ "settings": {
+  "vocabulary": "technical",
+  "morphology": "full",
+  "syntax": "canonical",
+  "ellipsis": "declared defaults, inheritance",
+  "politeness": "neutral",
+  "discourse structure": "sectioned",
+  "compression": "conventional expressions",
+  "prosody": "measured",
+  "orthography": "native"
+ },
+ "vocabulary": "technical",
+ "politeness word": null,
+ "formulas admitted": true,
+ "order": "canonical",
+ "maxima": "language/protocol.json"
+}

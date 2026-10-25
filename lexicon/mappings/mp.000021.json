@@ -1,0 +1,28 @@
+{
+ "machine identifier": "mp.000021",
+ "name": "THE STATE OF A MIND IS WEATHER",
+ "source domain": "weather",
+ "target domain": "the state of an agent's processing",
+ "correspondences": [
+  {
+   "source": "weather",
+   "target": "the state of an agent's processing"
+  },
+  {
+   "source": "a storm in the head",
+   "target": "confusion"
+  },
+  {
+   "source": "calm",
+   "target": "clear processing"
+  }
+ ],
+ "motivates": [
+  "lx.000830",
+  "lx.000867"
+ ],
+ "version": {
+  "introduced": "1.0",
+  "deprecated": null
+ }
+}

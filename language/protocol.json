@@ -1,0 +1,259 @@
+{
+ "version": "0.5",
+ "name width": 2,
+ "identifier width": 6,
+ "check value width": 9,
+ "message fields": [
+  "sender",
+  "recipients",
+  "communication time",
+  "version",
+  "identifier",
+  "first entry",
+  "forwarded",
+  "semantic check value",
+  "authentication",
+  "integrity check value"
+ ],
+ "field order": "the order of `message fields`; forwarded, the semantic check value and authentication may be absent, and the integrity check value is required on every message that carries an operative or a pending move and on every protocol message",
+ "first entry": "the number, in the sender's count of its own entries from one, of the entry the message's first move adds; the k-th move adds the entry numbered first entry + k - 1 (protocol 0.2)",
+ "media type": "text/prs.rowih",
+ "encoding parameter": [
+  "transliteration",
+  "native"
+ ],
+ "envelope": "a unit with its own count and check word, the fields from the sender to the semantic check value inside it, and the authentication and the integrity check value after it (protocol 0.3)",
+ "protocol message": "a message whose identifier and first entry are zero, which takes no serial on its channel and adds no entry, carries one statement in place of moves, has one recipient and carries the integrity check value (protocol 0.3)",
+ "fixed forms": {
+  "g.numbers.numeral.zero": "napa",
+  "g.numbers.numeral.one": "nake",
+  "g.numbers.numeral.two": "nadi",
+  "g.numbers.numeral.three": "namo",
+  "g.numbers.numeral.four": "nasu",
+  "g.numbers.numeral.five": "neta",
+  "g.numbers.numeral.six": "nebe",
+  "g.numbers.numeral.seven": "negi",
+  "g.numbers.numeral.eight": "neno",
+  "g.numbers.numeral.nine": "nelu",
+  "g.numbers.numeral.decimal-point": "nika",
+  "g.numbers.numeral.negative": "nide",
+  "g.numbers.numeral.ratio": "nimi",
+  "g.numbers.numeral.exponent": "niso",
+  "g.numbers.numeral.interval": "niru",
+  "g.numbers.check-word.check-0": "yata",
+  "g.numbers.check-word.check-1": "yabe",
+  "g.numbers.check-word.check-2": "yagi",
+  "g.numbers.check-word.check-3": "yano",
+  "g.numbers.check-word.check-4": "yalu",
+  "g.numbers.check-word.check-5": "yeka",
+  "g.numbers.check-word.check-6": "yede",
+  "g.numbers.check-word.check-7": "yemi",
+  "g.numbers.check-word.check-8": "yeso",
+  "g.numbers.check-word.check-9": "yeru",
+  "g.numbers.check-word.check-10": "yiba",
+  "g.message.message-field.sender": "waho",
+  "g.message.message-field.recipients": "watu",
+  "g.message.message-field.communication-time": "wesa",
+  "g.message.message-field.version": "were",
+  "g.message.message-field.identifier": "weyi",
+  "g.message.message-field.integrity-check-value": "wepo",
+  "g.message.message-field.semantic-check-value": "weku",
+  "g.message.message-field.first-entry": "lewe",
+  "g.message.message-field.authentication": "luya",
+  "g.message.word-count.word-count": "wila",
+  "g.message.forwarded.forwarded": "wiwe",
+  "g.protocol.protocol-statement.holds": "lupe",
+  "g.protocol.protocol-statement.send-again": "luki",
+  "g.protocol.protocol-statement.not-held": "ludo",
+  "g.protocol.protocol-statement.understands": "yiwu",
+  "g.protocol.protocol-statement.lacks": "yoda",
+  "g.protocol.statement-part.channel": "lumu",
+  "g.protocol.statement-part.serials": "yige",
+  "g.protocol.statement-part.entries": "yini",
+  "g.protocol.statement-part.language-version": "yome",
+  "g.protocol.statement-part.lexicon-version": "yosi",
+  "g.protocol.statement-part.protocol-version": "yoro",
+  "g.protocol.statement-part.lacking-features": "yoyu",
+  "g.structure.dialect": "yuga"
+ },
+ "fixed from": "0.3",
+ "fixed widths": {
+  "identifier width": 6,
+  "check value width": 9
+ },
+ "unit check word": {
+  "modulus": 11,
+  "codes": {
+   "g.numbers.check-word": 7,
+   "g.protocol.protocol-statement.holds": 1,
+   "g.protocol.protocol-statement.send-again": 2,
+   "g.protocol.protocol-statement.not-held": 3,
+   "g.protocol.statement-part.channel": 4,
+   "g.protocol.statement-part.serials": 5,
+   "g.protocol.statement-part.entries": 6,
+   "g.message.message-field": 8,
+   "g.message.forwarded": 8,
+   "g.numbers.numeral.decimal-point": 9,
+   "g.numbers.numeral.negative": 10,
+   "g.numbers.numeral.ratio": 10,
+   "g.numbers.numeral.exponent": 10,
+   "g.numbers.numeral.interval": 10,
+   "g.protocol.protocol-statement.understands": 1,
+   "g.protocol.protocol-statement.lacks": 2,
+   "g.protocol.statement-part.language-version": 4,
+   "g.protocol.statement-part.lexicon-version": 5,
+   "g.protocol.statement-part.protocol-version": 6,
+   "g.protocol.statement-part.lacking-features": 3,
+   "g.structure.dialect": 8
+  },
+  "applies to": "the envelope and the statement of a protocol message",
+  "rule": "each word between the unit's count and its check word, at position i from 0, adds its code times (i mod 10) + 1, a member's own code before its class's, and a word with neither adds 0; the sum modulo 11 is written as the number check word of that value"
+ },
+ "repair defaults": {
+  "quiet interval": 30,
+  "interval before sending again": 120,
+  "times sent again": 4
+ },
+ "authentication schemes": {
+  "1": {
+   "name": "Ed25519",
+   "specification": "RFC 8032 § 5.1, pure Ed25519",
+   "signature bytes": 64,
+   "public key bytes": 32
+  }
+ },
+ "authentication": "the signature covers the canonical serialisation of the message without its authentication and integrity check value fields; the integrity check value covers the signature",
+ "fixed forms added": {
+  "0.4": [
+   "g.protocol.protocol-statement.lacks",
+   "g.protocol.protocol-statement.understands",
+   "g.protocol.statement-part.lacking-features",
+   "g.protocol.statement-part.language-version",
+   "g.protocol.statement-part.lexicon-version",
+   "g.protocol.statement-part.protocol-version",
+   "g.structure.dialect"
+  ]
+ },
+ "features": [
+  {
+   "number": 1,
+   "name": "time spans",
+   "introduced": "0.2",
+   "flag": "must-understand",
+   "reason": "an interval's end, a time",
+   "structural": [
+    "g.structure.until"
+   ]
+  },
+  {
+   "number": 2,
+   "name": "act words",
+   "introduced": "0.5",
+   "flag": "must-understand",
+   "reason": "a word that stands for force values",
+   "categories": [
+    "act word"
+   ]
+  },
+  {
+   "number": 3,
+   "name": "idioms",
+   "introduced": "0.5",
+   "flag": "must-understand",
+   "reason": "an expression whose meaning is its entry's expansion",
+   "categories": [
+    "idiom"
+   ]
+  },
+  {
+   "number": 4,
+   "name": "declared losses",
+   "introduced": "0.5",
+   "flag": "may-ignore",
+   "reason": "a record of the social and textual component, which the normal form sets aside",
+   "classes": [
+    "g.ambiguity-and-figures.declared-loss"
+   ]
+  },
+  {
+   "number": 5,
+   "name": "registers",
+   "introduced": "0.6",
+   "flag": "must-understand",
+   "reason": "two registers make a move precision-bound",
+   "classes": [
+    "g.ambiguity-and-figures.register"
+   ]
+  },
+  {
+   "number": 6,
+   "name": "politeness words",
+   "introduced": "0.6",
+   "flag": "may-ignore",
+   "reason": "a record of the social and textual component, in a move's head",
+   "categories": [
+    "politeness word"
+   ]
+  },
+  {
+   "number": 7,
+   "name": "dictions",
+   "introduced": "0.6",
+   "flag": "may-ignore",
+   "reason": "a record of the social and textual component, in a move's head; a diction written as a term's content word is content, which a reader lacking it keeps opaque",
+   "categories": [
+    "diction"
+   ]
+  },
+  {
+   "number": 8,
+   "name": "conventional senses",
+   "introduced": "0.7",
+   "flag": "must-understand",
+   "reason": "a sense shares its root's form, so a reader lacking it would read the root literally",
+   "categories": [
+    "conventional sense"
+   ]
+  },
+  {
+   "number": 9,
+   "name": "mention by serial",
+   "introduced": "0.9",
+   "flag": "must-understand",
+   "reason": "what a reference names",
+   "structural": [
+    "g.structure.message-serial"
+   ]
+  },
+  {
+   "number": 10,
+   "name": "authentication",
+   "introduced": "0.9",
+   "flag": "may-ignore",
+   "reason": "the integrity check value covers the signature, so a reader that passes over it still tells damage; it verifies nothing, as a reader without the sender's key",
+   "fields": [
+    "g.message.message-field.authentication"
+   ]
+  },
+  {
+   "number": 11,
+   "name": "dialects",
+   "introduced": "0.10",
+   "flag": "must-understand",
+   "reason": "a dialect form means its expansion only to a reader holding its dialect",
+   "structural": [
+    "g.structure.dialect"
+   ]
+  }
+ ],
+ "feature rule": "a word belongs to a feature by its class, its own identifier or the grammatical category of its lexicon entry, and a conventional sense where a frame selects it; a reader lacking a may-ignore feature passes over its words in a move's head and keeps a word of it standing as content opaque, and a reader lacking a must-understand feature rejects every move that uses it",
+ "language releases": "language/releases.json",
+ "maxima": {
+  "nesting": 5,
+  "message words": 155,
+  "readings": 2,
+  "provenance links": 2,
+  "definition expansion": 1,
+  "rule": "the least values that admit every item of the conformance corpus, the attitude items, the adversarial messages and the ambiguity test set, in normal expression and in full explicitness; every register declares these in protocol 0.5"
+ }
+}

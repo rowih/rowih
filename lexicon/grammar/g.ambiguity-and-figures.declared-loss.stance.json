@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.ambiguity-and-figures.declared-loss.stance",
+ "orthographic form": "lebu",
+ "phonological form": "/lebu/",
+ "grammatical category": "declared loss",
+ "gloss": "STANCE",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.5"
+ }
+}

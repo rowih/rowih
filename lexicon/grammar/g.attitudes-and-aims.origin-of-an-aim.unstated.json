@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.attitudes-and-aims.origin-of-an-aim.unstated",
+ "orthographic form": "pone",
+ "phonological form": "/pone/",
+ "grammatical category": "origin of an aim",
+ "gloss": "ORIGIN-OF-AN-AIM.UNSTATED",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

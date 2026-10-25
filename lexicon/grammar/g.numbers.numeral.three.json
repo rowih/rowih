@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.numbers.numeral.three",
+ "orthographic form": "namo",
+ "phonological form": "/namo/",
+ "grammatical category": "numeral",
+ "gloss": "THREE",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

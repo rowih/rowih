@@ -1,0 +1,54 @@
+{
+ "machine identifier": "lx.000166",
+ "root": "lx.000166",
+ "phonological form": "/ɾikew/",
+ "orthographic form": "rikew",
+ "grammatical category": "predicate root",
+ "sort": "s.sort.event",
+ "semantic type": {
+  "sort": "s.sort.event",
+  "arguments": [
+   "actor",
+   "undergoer"
+  ]
+ },
+ "definition": "inspect or investigate something to learn about it (the technical vocabulary)",
+ "semantic primitives": [
+  "s.sort.event"
+ ],
+ "argument structure": [
+  {
+   "role": "actor",
+   "sort": "s.sort.agent"
+  },
+  {
+   "role": "undergoer",
+   "sort": "s.sort.referent"
+  }
+ ],
+ "derivational behaviour": [],
+ "register": [
+  "R0",
+  "R1",
+  "R4"
+ ],
+ "collocations": [],
+ "synonyms": [
+  "lx.000167",
+  "lx.000168",
+  "lx.000001"
+ ],
+ "antonyms": [],
+ "related concepts": [],
+ "examples": [],
+ "version": {
+  "introduced": "0.4",
+  "deprecated": null
+ },
+ "key": "audit",
+ "synonym of": "lx.000001",
+ "vocabulary": "technical",
+ "declared loss": [
+  "register"
+ ]
+}

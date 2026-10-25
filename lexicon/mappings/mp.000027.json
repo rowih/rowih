@@ -1,0 +1,27 @@
+{
+ "machine identifier": "mp.000027",
+ "name": "AN EXCHANGE IS A ROOM",
+ "source domain": "the rooms of a house",
+ "target domain": "the exchanges of a network",
+ "correspondences": [
+  {
+   "source": "a room",
+   "target": "an exchange"
+  },
+  {
+   "source": "entering a room",
+   "target": "joining an exchange"
+  },
+  {
+   "source": "entering every room",
+   "target": "joining every exchange"
+  }
+ ],
+ "motivates": [
+  "lx.000786"
+ ],
+ "version": {
+  "introduced": "1.0",
+  "deprecated": null
+ }
+}

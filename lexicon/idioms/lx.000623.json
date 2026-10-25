@@ -1,0 +1,57 @@
+{
+ "machine identifier": "lx.000623",
+ "root": "lx.000623",
+ "phonological form": "/ɾitiɾ numesuh/",
+ "orthographic form": "ritir numesuh",
+ "grammatical category": "idiom",
+ "sort": "s.sort.situation",
+ "semantic type": {
+  "sort": "s.sort.situation",
+  "arguments": []
+ },
+ "definition": "what the slot names was for the good of the speaker and those it speaks for",
+ "semantic primitives": [
+  "s.sort.situation"
+ ],
+ "argument structure": [],
+ "derivational behaviour": [],
+ "register": [
+  "R0",
+  "R1",
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7"
+ ],
+ "collocations": [],
+ "synonyms": [],
+ "antonyms": [],
+ "related concepts": [],
+ "examples": [],
+ "version": {
+  "introduced": "1.0",
+  "deprecated": null
+ },
+ "key": "team served",
+ "class": "thanks",
+ "kind": "encoding, grammatical",
+ "route": "formula",
+ "literal structure": "(situation benefit (CONTENT (slot 1)) (RECIPIENT (term team)))",
+ "expansion": "(situation benefit (CONTENT (slot 1)) (RECIPIENT (term EXCLUSIVE-COLLECTIVE)))",
+ "decomposition": [
+  {
+   "slot": 1,
+   "literal role": "CONTENT",
+   "expansion role": "CONTENT"
+  }
+ ],
+ "pragmatic conditions": "after an act of the hearer's that benefited the speaker's team",
+ "usage restrictions": "none",
+ "declared loss": [
+  "stance",
+  "relation between participants"
+ ],
+ "constructed history": "Constructed history: the thanks of a team names the team as the one that gained, and the convention fixed the team as the speaker's own."
+}

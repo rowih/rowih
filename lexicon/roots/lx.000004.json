@@ -1,0 +1,50 @@
+{
+ "machine identifier": "lx.000004",
+ "root": "lx.000004",
+ "phonological form": "/ɾudin/",
+ "orthographic form": "rudin",
+ "grammatical category": "predicate root",
+ "sort": "s.sort.process",
+ "semantic type": {
+  "sort": "s.sort.process",
+  "arguments": [
+   "undergoer",
+   "actor"
+  ]
+ },
+ "definition": "be under way as a process",
+ "semantic primitives": [
+  "s.sort.process"
+ ],
+ "argument structure": [
+  {
+   "role": "undergoer",
+   "sort": "s.sort.referent"
+  },
+  {
+   "role": "actor",
+   "sort": "s.sort.agent"
+  }
+ ],
+ "derivational behaviour": [],
+ "register": [
+  "R0",
+  "R1",
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7"
+ ],
+ "collocations": [],
+ "synonyms": [],
+ "antonyms": [],
+ "related concepts": [],
+ "examples": [],
+ "version": {
+  "introduced": "0.1",
+  "deprecated": null
+ },
+ "key": "run"
+}

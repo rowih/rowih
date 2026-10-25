@@ -1,0 +1,39 @@
+{
+ "machine identifier": "lx.000111",
+ "root": "lx.000111",
+ "phonological form": "/-ekoh/",
+ "orthographic form": "ekoh",
+ "grammatical category": "derivational suffix",
+ "sort": "s.sort.proposition",
+ "semantic type": {
+  "sort": "s.sort.proposition",
+  "arguments": []
+ },
+ "definition": "that the base holds",
+ "semantic primitives": [
+  "s.sort.proposition"
+ ],
+ "argument structure": [],
+ "derivational behaviour": [],
+ "register": [
+  "R0",
+  "R1",
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7"
+ ],
+ "collocations": [],
+ "synonyms": [],
+ "antonyms": [],
+ "related concepts": [],
+ "examples": [],
+ "version": {
+  "introduced": "0.3",
+  "deprecated": null
+ },
+ "key": "nominalisation",
+ "base": "predicate"
+}

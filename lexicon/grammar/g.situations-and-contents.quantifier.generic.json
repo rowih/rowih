@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.situations-and-contents.quantifier.generic",
+ "orthographic form": "gowi",
+ "phonological form": "/ɡowi/",
+ "grammatical category": "quantifier",
+ "gloss": "GENERIC",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

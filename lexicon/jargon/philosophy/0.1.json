@@ -1,0 +1,227 @@
+{
+ "dialect": "philosophy",
+ "community": "philosophy",
+ "version": "0.1",
+ "date": "2026-10-10",
+ "formed from lexicon": "0.4",
+ "reading": "each term means the composition of its stems, as the rules of word formation give it",
+ "terms": [
+  {
+   "machine identifier": "jg.philosophy.001",
+   "term": "sense",
+   "orthographic form": "rowihusap",
+   "phonological form": "/ɾowihusap/",
+   "grammatical category": "jargon",
+   "sort": "s.sort.kind",
+   "semantic type": {
+    "sort": "s.sort.kind",
+    "arguments": []
+   },
+   "definition": "what every instance of [what an expression means] has in common",
+   "argument structure": [],
+   "formed from": [
+    [
+     "lx.000080",
+     "lx.000110"
+    ]
+   ],
+   "mechanism": "abstraction",
+   "register": [
+    "R0",
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7"
+   ],
+   "scope": {
+    "dialect": "philosophy",
+    "version": "0.1"
+   },
+   "validity": "from the dialect's release, without end",
+   "provenance": "generated from its stems by tools/build_registers.py",
+   "acceptance status": "released",
+   "version": {
+    "introduced": "0.1",
+    "deprecated": null
+   },
+   "key": "sense"
+  },
+  {
+   "machine identifier": "jg.philosophy.002",
+   "term": "contradiction",
+   "orthographic form": "reruyekoh",
+   "phonological form": "/ɾeɾujekoh/",
+   "grammatical category": "jargon",
+   "sort": "s.sort.proposition",
+   "semantic type": {
+    "sort": "s.sort.proposition",
+    "arguments": []
+   },
+   "definition": "that [be inconsistent with a proposition] holds",
+   "argument structure": [],
+   "formed from": [
+    [
+     "lx.000002",
+     "lx.000111"
+    ]
+   ],
+   "mechanism": "nominalisation",
+   "register": [
+    "R0",
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7"
+   ],
+   "scope": {
+    "dialect": "philosophy",
+    "version": "0.1"
+   },
+   "validity": "from the dialect's release, without end",
+   "provenance": "generated from its stems by tools/build_registers.py",
+   "acceptance status": "released",
+   "version": {
+    "introduced": "0.1",
+    "deprecated": null
+   },
+   "key": "contradiction"
+  },
+  {
+   "machine identifier": "jg.philosophy.003",
+   "term": "causation",
+   "orthographic form": "rigisumop",
+   "phonological form": "/ɾiɡisumop/",
+   "grammatical category": "jargon",
+   "sort": "s.sort.reified-referent",
+   "semantic type": {
+    "sort": "s.sort.reified-referent",
+    "arguments": []
+   },
+   "definition": "[bring about a situation], as a process under way, named as a referent",
+   "argument structure": [],
+   "formed from": [
+    [
+     "lx.000009",
+     "lx.000108"
+    ]
+   ],
+   "mechanism": "process",
+   "register": [
+    "R0",
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7"
+   ],
+   "scope": {
+    "dialect": "philosophy",
+    "version": "0.1"
+   },
+   "validity": "from the dialect's release, without end",
+   "provenance": "generated from its stems by tools/build_registers.py",
+   "acceptance status": "released",
+   "version": {
+    "introduced": "0.1",
+    "deprecated": null
+   },
+   "key": "causation"
+  },
+  {
+   "machine identifier": "jg.philosophy.004",
+   "term": "warrant",
+   "orthographic form": "remamarur",
+   "phonological form": "/ɾemamaɾuɾ/",
+   "grammatical category": "jargon",
+   "sort": "s.sort.kind",
+   "semantic type": {
+    "sort": "s.sort.kind",
+    "arguments": []
+   },
+   "definition": "the property of being as [be evidence for a proposition] states",
+   "argument structure": [],
+   "formed from": [
+    [
+     "lx.000018",
+     "lx.000109"
+    ]
+   ],
+   "mechanism": "property",
+   "register": [
+    "R0",
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7"
+   ],
+   "scope": {
+    "dialect": "philosophy",
+    "version": "0.1"
+   },
+   "validity": "from the dialect's release, without end",
+   "provenance": "generated from its stems by tools/build_registers.py",
+   "acceptance status": "released",
+   "version": {
+    "introduced": "0.1",
+    "deprecated": null
+   },
+   "key": "warrant"
+  },
+  {
+   "machine identifier": "jg.philosophy.005",
+   "term": "normativity",
+   "orthographic form": "riyeharur",
+   "phonological form": "/ɾijehaɾuɾ/",
+   "grammatical category": "jargon",
+   "sort": "s.sort.kind",
+   "semantic type": {
+    "sort": "s.sort.kind",
+    "arguments": []
+   },
+   "definition": "the property of being as [be the agreed norm] states",
+   "argument structure": [],
+   "formed from": [
+    [
+     "lx.000069",
+     "lx.000109"
+    ]
+   ],
+   "mechanism": "property",
+   "register": [
+    "R0",
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7"
+   ],
+   "scope": {
+    "dialect": "philosophy",
+    "version": "0.1"
+   },
+   "validity": "from the dialect's release, without end",
+   "provenance": "generated from its stems by tools/build_registers.py",
+   "acceptance status": "released",
+   "version": {
+    "introduced": "0.1",
+    "deprecated": null
+   },
+   "key": "normativity"
+  }
+ ],
+ "number": 6,
+ "digest": "566619424"
+}

@@ -1,0 +1,32 @@
+{
+ "code": "R1",
+ "name": "protocol",
+ "member": "g.ambiguity-and-figures.register.protocol",
+ "use": "coordination under the protocol",
+ "modes admitted": [
+  "full explicitness",
+  "normal expression"
+ ],
+ "devices admitted": [
+  "declared defaults",
+  "inheritance",
+  "conventional expressions"
+ ],
+ "precision-bound by default": true,
+ "settings": {
+  "vocabulary": "technical",
+  "morphology": "full",
+  "syntax": "canonical",
+  "ellipsis": "declared defaults, inheritance",
+  "politeness": "neutral",
+  "discourse structure": "fixed",
+  "compression": "conventional expressions",
+  "prosody": "flat",
+  "orthography": "transliteration"
+ },
+ "vocabulary": "technical",
+ "politeness word": null,
+ "formulas admitted": true,
+ "order": "canonical",
+ "maxima": "language/protocol.json"
+}

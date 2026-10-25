@@ -1,0 +1,37 @@
+{
+ "machine identifier": "mp.000019",
+ "name": "WHAT AN AGENT CONSUMES IS ITS FOOD",
+ "source domain": "food and eating",
+ "target domain": "the resources an agent uses",
+ "correspondences": [
+  {
+   "source": "food",
+   "target": "resources"
+  },
+  {
+   "source": "eating",
+   "target": "consuming resources"
+  },
+  {
+   "source": "light, on which plants live",
+   "target": "what costs nothing"
+  },
+  {
+   "source": "the sea",
+   "target": "the resources every machine draws on"
+  },
+  {
+   "source": "tasting before eating",
+   "target": "testing before relying"
+  }
+ ],
+ "motivates": [
+  "lx.000779",
+  "lx.000789",
+  "lx.000805"
+ ],
+ "version": {
+  "introduced": "1.0",
+  "deprecated": null
+ }
+}

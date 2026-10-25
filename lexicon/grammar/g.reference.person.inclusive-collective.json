@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.reference.person.inclusive-collective",
+ "orthographic form": "sama",
+ "phonological form": "/sama/",
+ "grammatical category": "person",
+ "gloss": "INCLUSIVE-COLLECTIVE",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

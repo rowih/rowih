@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.reference.reading-of-a-collective.distributive",
+ "orthographic form": "sewi",
+ "phonological form": "/sewi/",
+ "grammatical category": "reading of a collective",
+ "gloss": "READING-OF-A-COLLECTIVE.DISTRIBUTIVE",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

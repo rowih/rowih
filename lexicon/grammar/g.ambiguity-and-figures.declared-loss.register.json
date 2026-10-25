@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.ambiguity-and-figures.declared-loss.register",
+ "orthographic form": "lehi",
+ "phonological form": "/lehi/",
+ "grammatical category": "declared loss",
+ "gloss": "REGISTER",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.5"
+ }
+}

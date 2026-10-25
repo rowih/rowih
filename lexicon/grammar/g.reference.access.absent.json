@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.reference.access.absent",
+ "orthographic form": "mina",
+ "phonological form": "/mina/",
+ "grammatical category": "access",
+ "gloss": "ABSENT",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

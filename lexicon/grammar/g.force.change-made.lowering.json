@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.force.change-made.lowering",
+ "orthographic form": "kisahu",
+ "phonological form": "/kisahu/",
+ "grammatical category": "change made",
+ "gloss": "LOWERING",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

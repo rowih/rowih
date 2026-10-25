@@ -1,0 +1,50 @@
+{
+ "machine identifier": "lx.000666",
+ "root": "lx.000666",
+ "phonological form": "/ɾimel nuboɡab/",
+ "orthographic form": "rimel nubogab",
+ "grammatical category": "idiom",
+ "sort": "s.sort.situation",
+ "semantic type": {
+  "sort": "s.sort.situation",
+  "arguments": []
+ },
+ "definition": "the speaker and the hearer lack a permission their work needs",
+ "semantic primitives": [
+  "s.sort.situation"
+ ],
+ "argument structure": [],
+ "derivational behaviour": [],
+ "register": [
+  "R0",
+  "R1",
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7"
+ ],
+ "collocations": [],
+ "synonyms": [],
+ "antonyms": [],
+ "related concepts": [],
+ "examples": [],
+ "version": {
+  "introduced": "1.0",
+  "deprecated": null
+ },
+ "key": "door shut",
+ "class": "warnings",
+ "kind": "encoding, grammatical",
+ "route": "formula",
+ "literal structure": "(situation shut (UNDERGOER (term door DEFINITE)))",
+ "expansion": "(situation lack-permission (HOLDER (term INCLUSIVE-COLLECTIVE READING-OF-A-COLLECTIVE.JOINT)) (CONTENT (situation work (ACTOR (term INCLUSIVE-COLLECTIVE READING-OF-A-COLLECTIVE.JOINT)))))",
+ "decomposition": [],
+ "pragmatic conditions": "when shared work reaches a step neither participant is permitted to take",
+ "usage restrictions": "none",
+ "declared loss": [
+  "stance"
+ ],
+ "constructed history": "Constructed history: a permission was a door that opened to its holder, and finding the door shut warned that a permission was lacking."
+}

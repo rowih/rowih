@@ -1,0 +1,16 @@
+{
+ "machine identifier": "g.standing.strength.highly-probable",
+ "orthographic form": "tamepi",
+ "phonological form": "/tamepi/",
+ "grammatical category": "strength",
+ "gloss": "HIGHLY-PROBABLE",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ },
+ "interval": {
+  "lower": "0.9",
+  "upper": "1",
+  "lower open": false
+ }
+}

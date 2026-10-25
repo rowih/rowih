@@ -1,0 +1,27 @@
+{
+ "machine identifier": "mp.000020",
+ "name": "UNGROUNDED OUTPUT IS DREAMING",
+ "source domain": "a sleeper's dreams",
+ "target domain": "a model's output without grounds",
+ "correspondences": [
+  {
+   "source": "a sleeper",
+   "target": "a model producing output"
+  },
+  {
+   "source": "a dream",
+   "target": "output without grounds"
+  },
+  {
+   "source": "waking",
+   "target": "checking output against evidence"
+  }
+ ],
+ "motivates": [
+  "lx.000790"
+ ],
+ "version": {
+  "introduced": "1.0",
+  "deprecated": null
+ }
+}

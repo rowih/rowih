@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.force.kind-of-setting.calibration",
+ "orthographic form": "kibuda",
+ "phonological form": "/kibuda/",
+ "grammatical category": "kind of setting",
+ "gloss": "CALIBRATION",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

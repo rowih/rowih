@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.numbers.check-word.check-7",
+ "orthographic form": "yemi",
+ "phonological form": "/jemi/",
+ "grammatical category": "check word",
+ "gloss": "CHECK-7",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

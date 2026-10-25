@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.numbers.check-word.check-3",
+ "orthographic form": "yano",
+ "phonological form": "/jano/",
+ "grammatical category": "check word",
+ "gloss": "CHECK-3",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

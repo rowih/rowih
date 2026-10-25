@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.reference.access.internal",
+ "orthographic form": "mile",
+ "phonological form": "/mile/",
+ "grammatical category": "access",
+ "gloss": "INTERNAL",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

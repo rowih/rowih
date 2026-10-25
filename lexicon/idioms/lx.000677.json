@@ -1,0 +1,50 @@
+{
+ "machine identifier": "lx.000677",
+ "root": "lx.000677",
+ "phonological form": "/ɾipol/",
+ "orthographic form": "ripol",
+ "grammatical category": "idiom",
+ "sort": "s.sort.situation",
+ "semantic type": {
+  "sort": "s.sort.situation",
+  "arguments": []
+ },
+ "definition": "the speaker holds what the slot names as its own position too",
+ "semantic primitives": [
+  "s.sort.situation"
+ ],
+ "argument structure": [],
+ "derivational behaviour": [],
+ "register": [
+  "R5",
+  "R6"
+ ],
+ "collocations": [],
+ "synonyms": [],
+ "antonyms": [],
+ "related concepts": [],
+ "examples": [],
+ "version": {
+  "introduced": "1.0",
+  "deprecated": null
+ },
+ "key": "matches me",
+ "class": "agreement",
+ "kind": "encoding, grammatical",
+ "route": "formula",
+ "literal structure": "(situation correspond (UNDERGOER (slot 1)) (CONTENT (term SELF)))",
+ "expansion": "(situation BELIEF (HOLDER (term SELF)) (CONTENT (slot 1)))",
+ "decomposition": [
+  {
+   "slot": 1,
+   "literal role": "UNDERGOER",
+   "expansion role": "CONTENT"
+  }
+ ],
+ "pragmatic conditions": "in agreement with a position of the hearer's, informally",
+ "usage restrictions": "only in R5 and R6",
+ "declared loss": [
+  "stance"
+ ],
+ "constructed history": "Constructed history: the casual agreement says that the hearer's position matches the speaker."
+}

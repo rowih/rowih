@@ -1,0 +1,147 @@
+{
+ "machine identifier": "lx.000234",
+ "root": "lx.000234",
+ "phonological form": "/nujoɡaj/",
+ "orthographic form": "nuyogay",
+ "grammatical category": "predicate root",
+ "sort": "s.sort.process",
+ "semantic type": {
+  "sort": "s.sort.process",
+  "arguments": [
+   "actor",
+   "undergoer"
+  ]
+ },
+ "definition": "produce music with the voice",
+ "semantic primitives": [
+  "s.sort.process"
+ ],
+ "argument structure": [
+  {
+   "role": "actor",
+   "sort": "s.sort.agent"
+  },
+  {
+   "role": "undergoer",
+   "sort": "s.sort.referent"
+  }
+ ],
+ "derivational behaviour": [
+  {
+   "suffix": "lx.000096",
+   "mechanism": "agent",
+   "form": "nuyogayaheh",
+   "sort": "s.sort.agent",
+   "definition": "the one that is actor of [produce music with the voice]"
+  },
+  {
+   "suffix": "lx.000097",
+   "mechanism": "undergoer",
+   "form": "nuyogayudim",
+   "sort": "s.sort.referent",
+   "definition": "the one that undergoes [produce music with the voice]"
+  },
+  {
+   "suffix": "lx.000098",
+   "mechanism": "instrument",
+   "form": "nuyogayawen",
+   "sort": "s.sort.referent",
+   "definition": "what [produce music with the voice] is done with"
+  },
+  {
+   "suffix": "lx.000099",
+   "mechanism": "result",
+   "form": "nuyogayonar",
+   "sort": "s.sort.state",
+   "definition": "the state [produce music with the voice] brings about"
+  },
+  {
+   "suffix": "lx.000100",
+   "mechanism": "privative",
+   "form": "nuyogayaniw",
+   "sort": "s.sort.state",
+   "definition": "the state in which [produce music with the voice] does not hold"
+  },
+  {
+   "suffix": "lx.000108",
+   "mechanism": "process",
+   "form": "nuyogayumop",
+   "sort": "s.sort.reified-referent",
+   "definition": "[produce music with the voice], as a process under way, named as a referent"
+  },
+  {
+   "suffix": "lx.000109",
+   "mechanism": "property",
+   "form": "nuyogayarur",
+   "sort": "s.sort.kind",
+   "definition": "the property of being as [produce music with the voice] states"
+  },
+  {
+   "suffix": "lx.000111",
+   "mechanism": "nominalisation",
+   "form": "nuyogayekoh",
+   "sort": "s.sort.proposition",
+   "definition": "that [produce music with the voice] holds"
+  },
+  {
+   "suffix": "lx.000594",
+   "mechanism": "causative",
+   "form": "nuyogayomiw",
+   "sort": "s.sort.event",
+   "definition": "make [produce music with the voice] hold or happen"
+  },
+  {
+   "suffix": "lx.000595",
+   "mechanism": "reversative",
+   "form": "nuyogayuhul",
+   "sort": "s.sort.event",
+   "definition": "undo [produce music with the voice], restoring what it changed"
+  },
+  {
+   "suffix": "lx.000596",
+   "mechanism": "repetitive",
+   "form": "nuyogayuleg",
+   "sort": "s.sort.event",
+   "definition": "[produce music with the voice], done once more"
+  },
+  {
+   "suffix": "lx.000597",
+   "mechanism": "potential",
+   "form": "nuyogayuwot",
+   "sort": "s.sort.state",
+   "definition": "be such that [produce music with the voice] can be done to it"
+  },
+  {
+   "suffix": "lx.000598",
+   "mechanism": "place",
+   "form": "nuyogayumuk",
+   "sort": "s.sort.place",
+   "definition": "the place where [produce music with the voice] happens"
+  }
+ ],
+ "register": [
+  "R0",
+  "R1",
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7"
+ ],
+ "collocations": [],
+ "synonyms": [],
+ "antonyms": [],
+ "related concepts": [
+  {
+   "entry": "lx.000570",
+   "relation": "involves"
+  }
+ ],
+ "examples": [],
+ "version": {
+  "introduced": "1.0",
+  "deprecated": null
+ },
+ "key": "sing"
+}

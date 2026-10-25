@@ -1,0 +1,12 @@
+{
+ "machine identifier": "g.standing.basis.inference",
+ "orthographic form": "tilase",
+ "phonological form": "/tilase/",
+ "grammatical category": "basis",
+ "gloss": "INFERENCE",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ },
+ "tier": 1
+}

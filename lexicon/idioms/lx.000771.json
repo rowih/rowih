@@ -1,0 +1,51 @@
+{
+ "machine identifier": "lx.000771",
+ "root": "lx.000771",
+ "phonological form": "/nuhitah nuhitah/",
+ "orthographic form": "nuhitah nuhitah",
+ "grammatical category": "idiom",
+ "sort": "s.sort.situation",
+ "semantic type": {
+  "sort": "s.sort.situation",
+  "arguments": []
+ },
+ "definition": "the speaker is still thinking the matter over",
+ "semantic primitives": [
+  "s.sort.situation"
+ ],
+ "argument structure": [],
+ "derivational behaviour": [],
+ "register": [
+  "R0",
+  "R2",
+  "R3",
+  "R5",
+  "R6",
+  "R7"
+ ],
+ "collocations": [],
+ "synonyms": [],
+ "antonyms": [],
+ "related concepts": [],
+ "examples": [],
+ "version": {
+  "introduced": "1.0",
+  "deprecated": null
+ },
+ "key": "think think",
+ "class": "conversational idioms",
+ "kind": "decoding, extragrammatical",
+ "route": "drift",
+ "literal structure": [
+  "think",
+  "think"
+ ],
+ "expansion": "(situation think CONTINUATIVE (ACTOR (term SELF)))",
+ "decomposition": [],
+ "pragmatic conditions": "in answer to a request for a view the speaker has not yet formed",
+ "usage restrictions": "excluded from R1 and R4",
+ "declared loss": [
+  "wording"
+ ],
+ "constructed history": "Constructed history: from the early stage of the language in which a root said twice marked continuation on a process and completion on an event; the grammar now writes both with the aspect, and the doubled root of think survives with the others of its kind."
+}

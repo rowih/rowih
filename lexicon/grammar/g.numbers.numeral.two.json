@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.numbers.numeral.two",
+ "orthographic form": "nadi",
+ "phonological form": "/nadi/",
+ "grammatical category": "numeral",
+ "gloss": "TWO",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.ambiguity-and-figures.idiom-selection.idiom-entry",
+ "orthographic form": "wawi",
+ "phonological form": "/wawi/",
+ "grammatical category": "idiom selection",
+ "gloss": "IDIOM-ENTRY",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

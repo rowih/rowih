@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.time.time-index.inference-time",
+ "orthographic form": "dotura",
+ "phonological form": "/dotuɾa/",
+ "grammatical category": "time index",
+ "gloss": "INFERENCE-TIME",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

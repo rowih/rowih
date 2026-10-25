@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.situations-and-contents.kind-of-question.polar",
+ "orthographic form": "bopu",
+ "phonological form": "/bopu/",
+ "grammatical category": "kind of question",
+ "gloss": "POLAR",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

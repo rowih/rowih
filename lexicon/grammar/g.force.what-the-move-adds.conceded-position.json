@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.force.what-the-move-adds.conceded-position",
+ "orthographic form": "ketako",
+ "phonological form": "/ketako/",
+ "grammatical category": "what the move adds",
+ "gloss": "CONCEDED-POSITION",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

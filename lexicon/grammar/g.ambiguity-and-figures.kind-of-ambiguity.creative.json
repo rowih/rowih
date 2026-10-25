@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.ambiguity-and-figures.kind-of-ambiguity.creative",
+ "orthographic form": "soto",
+ "phonological form": "/soto/",
+ "grammatical category": "kind of ambiguity",
+ "gloss": "CREATIVE",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

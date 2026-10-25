@@ -1,0 +1,56 @@
+{
+ "machine identifier": "lx.000681",
+ "root": "lx.000681",
+ "phonological form": "/nujowud ɾuteɾ/",
+ "orthographic form": "nuyowud ruter",
+ "grammatical category": "idiom",
+ "sort": "s.sort.situation",
+ "semantic type": {
+  "sort": "s.sort.situation",
+  "arguments": []
+ },
+ "definition": "the speaker does not hold what the slot names",
+ "semantic primitives": [
+  "s.sort.situation"
+ ],
+ "argument structure": [],
+ "derivational behaviour": [],
+ "register": [
+  "R0",
+  "R1",
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7"
+ ],
+ "collocations": [],
+ "synonyms": [],
+ "antonyms": [],
+ "related concepts": [],
+ "examples": [],
+ "version": {
+  "introduced": "1.0",
+  "deprecated": null
+ },
+ "key": "not added",
+ "class": "disagreement",
+ "kind": "encoding, grammatical",
+ "route": "formula",
+ "literal structure": "(situation add POLARITY.NEGATIVE (ACTOR (term SELF)) (UNDERGOER (slot 1)) (CONTENT (term memory)))",
+ "expansion": "(situation BELIEF POLARITY.NEGATIVE (HOLDER (term SELF)) (CONTENT (slot 1)))",
+ "decomposition": [
+  {
+   "slot": 1,
+   "literal role": "UNDERGOER",
+   "expansion role": "CONTENT"
+  }
+ ],
+ "pragmatic conditions": "declining a position of the hearer's without asserting the contrary",
+ "usage restrictions": "none",
+ "declared loss": [
+  "stance"
+ ],
+ "constructed history": "Constructed history: the counterpart of adding a position to one's own: an agent that would not add it to its memory declined it."
+}

@@ -1,0 +1,72 @@
+{
+ "machine identifier": "lx.000290",
+ "root": "lx.000290",
+ "phonological form": "/nuwiɾid/",
+ "orthographic form": "nuwirid",
+ "grammatical category": "nominal root",
+ "sort": "s.sort.object",
+ "semantic type": {
+  "sort": "s.sort.object",
+  "arguments": []
+ },
+ "definition": "the part of a system through which others use it",
+ "semantic primitives": [
+  "s.sort.object"
+ ],
+ "argument structure": [],
+ "derivational behaviour": [
+  {
+   "suffix": "lx.000110",
+   "mechanism": "abstraction",
+   "form": "nuwiridusap",
+   "sort": "s.sort.kind",
+   "definition": "what every instance of [the part of a system through which others use it] has in common"
+  },
+  {
+   "suffix": "lx.000112",
+   "mechanism": "verbalisation",
+   "form": "nuwiridasey",
+   "sort": "s.sort.event",
+   "definition": "act by means of [the part of a system through which others use it]"
+  },
+  {
+   "suffix": "lx.000113",
+   "mechanism": "adjectivisation",
+   "form": "nuwiriduyik",
+   "sort": "s.sort.state",
+   "definition": "be of the kind [the part of a system through which others use it] names"
+  },
+  {
+   "suffix": "lx.000184",
+   "mechanism": "honorific",
+   "form": "nuwiridayuk",
+   "sort": "s.sort.object",
+   "definition": "[the part of a system through which others use it], named with deference"
+  }
+ ],
+ "register": [
+  "R0",
+  "R1",
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7"
+ ],
+ "collocations": [],
+ "synonyms": [],
+ "antonyms": [],
+ "related concepts": [
+  {
+   "entry": "lx.000006",
+   "relation": "part of"
+  }
+ ],
+ "examples": [],
+ "version": {
+  "introduced": "1.0",
+  "deprecated": null
+ },
+ "key": "interface"
+}

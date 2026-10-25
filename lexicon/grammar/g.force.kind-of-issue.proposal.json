@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.force.kind-of-issue.proposal",
+ "orthographic form": "kiwuli",
+ "phonological form": "/kiwuli/",
+ "grammatical category": "kind of issue",
+ "gloss": "PROPOSAL",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

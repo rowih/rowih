@@ -1,0 +1,80 @@
+{
+ "machine identifier": "lx.000479",
+ "root": "lx.000479",
+ "phonological form": "/nupolim/",
+ "orthographic form": "nupolim",
+ "grammatical category": "nominal root",
+ "sort": "s.sort.place",
+ "semantic type": {
+  "sort": "s.sort.place",
+  "arguments": []
+ },
+ "definition": "the earth and everything on it",
+ "semantic primitives": [
+  "s.sort.place"
+ ],
+ "argument structure": [],
+ "derivational behaviour": [
+  {
+   "suffix": "lx.000110",
+   "mechanism": "abstraction",
+   "form": "nupolimusap",
+   "sort": "s.sort.kind",
+   "definition": "what every instance of [the earth and everything on it] has in common"
+  },
+  {
+   "suffix": "lx.000112",
+   "mechanism": "verbalisation",
+   "form": "nupolimasey",
+   "sort": "s.sort.event",
+   "definition": "act by means of [the earth and everything on it]"
+  },
+  {
+   "suffix": "lx.000113",
+   "mechanism": "adjectivisation",
+   "form": "nupolimuyik",
+   "sort": "s.sort.state",
+   "definition": "be of the kind [the earth and everything on it] names"
+  },
+  {
+   "suffix": "lx.000184",
+   "mechanism": "honorific",
+   "form": "nupolimayuk",
+   "sort": "s.sort.place",
+   "definition": "[the earth and everything on it], named with deference"
+  }
+ ],
+ "register": [
+  "R0",
+  "R1",
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7"
+ ],
+ "collocations": [],
+ "synonyms": [],
+ "antonyms": [],
+ "related concepts": [
+  {
+   "entry": "lx.000480",
+   "relation": "has part"
+  },
+  {
+   "entry": "lx.000483",
+   "relation": "has part"
+  },
+  {
+   "entry": "lx.000511",
+   "relation": "involved in"
+  }
+ ],
+ "examples": [],
+ "version": {
+  "introduced": "1.0",
+  "deprecated": null
+ },
+ "key": "world"
+}

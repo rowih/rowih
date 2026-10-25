@@ -1,0 +1,56 @@
+{
+ "machine identifier": "lx.000639",
+ "root": "lx.000639",
+ "phonological form": "/ɾolab ɾowih/",
+ "orthographic form": "rolab rowih",
+ "grammatical category": "idiom",
+ "sort": "s.sort.situation",
+ "semantic type": {
+  "sort": "s.sort.situation",
+  "arguments": []
+ },
+ "definition": "the speaker holds the meaning of what the slot names as its maker meant it",
+ "semantic primitives": [
+  "s.sort.situation"
+ ],
+ "argument structure": [],
+ "derivational behaviour": [],
+ "register": [
+  "R0",
+  "R1",
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7"
+ ],
+ "collocations": [],
+ "synonyms": [],
+ "antonyms": [],
+ "related concepts": [],
+ "examples": [],
+ "version": {
+  "introduced": "1.0",
+  "deprecated": null
+ },
+ "key": "meaning taken",
+ "class": "acknowledgements",
+ "kind": "encoding, grammatical",
+ "route": "formula",
+ "literal structure": "(situation interpret (ACTOR (term SELF)) (UNDERGOER (slot 1)) (CONTENT (term meaning)))",
+ "expansion": "(situation comprehend (HOLDER (term SELF)) (UNDERGOER (slot 1)))",
+ "decomposition": [
+  {
+   "slot": 1,
+   "literal role": "UNDERGOER",
+   "expansion role": "UNDERGOER"
+  }
+ ],
+ "pragmatic conditions": "after a move whose meaning the hearer had reason to doubt would be understood",
+ "usage restrictions": "none",
+ "declared loss": [
+  "stance"
+ ],
+ "constructed history": "Constructed history: an agent that had interpreted a move and found its meaning said so, and the saying came to state that the move was understood."
+}

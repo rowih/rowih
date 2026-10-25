@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.reference.person.tool",
+ "orthographic form": "sayo",
+ "phonological form": "/sajo/",
+ "grammatical category": "person",
+ "gloss": "TOOL",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

@@ -1,0 +1,129 @@
+{
+ "rule": "a reader of a release reads the messages of each release it lists under `reads` with the meaning that release gave them, and a message of a language release names a lexicon release no earlier than its `least lexicon`; from major version 1 a release reads every earlier release of its major version",
+ "language": [
+  {
+   "language": "0.1",
+   "date": "2026-10-05",
+   "protocol": "0.1",
+   "lexicon": "0.1",
+   "reads": [
+    "0.1"
+   ]
+  },
+  {
+   "language": "0.2",
+   "date": "2026-10-05",
+   "protocol": "0.1",
+   "lexicon": "0.1",
+   "reads": [
+    "0.2"
+   ]
+  },
+  {
+   "language": "0.3",
+   "date": "2026-10-09",
+   "protocol": "0.2",
+   "lexicon": "0.1",
+   "reads": [
+    "0.3"
+   ]
+  },
+  {
+   "language": "0.4",
+   "date": "2026-10-10",
+   "protocol": "0.2",
+   "lexicon": "0.2",
+   "reads": [
+    "0.4"
+   ]
+  },
+  {
+   "language": "0.5",
+   "date": "2026-10-10",
+   "protocol": "0.2",
+   "lexicon": "0.3",
+   "reads": [
+    "0.5"
+   ]
+  },
+  {
+   "language": "0.6",
+   "date": "2026-10-10",
+   "protocol": "0.2",
+   "lexicon": "0.4",
+   "reads": [
+    "0.6"
+   ]
+  },
+  {
+   "language": "0.7",
+   "date": "2026-10-11",
+   "protocol": "0.2",
+   "lexicon": "0.5",
+   "reads": [
+    "0.7"
+   ]
+  },
+  {
+   "language": "0.8",
+   "date": "2026-10-11",
+   "protocol": "0.2",
+   "lexicon": "0.5",
+   "reads": [
+    "0.8"
+   ]
+  },
+  {
+   "language": "0.9",
+   "date": "2026-10-13",
+   "protocol": "0.3",
+   "lexicon": "0.6",
+   "reads": [
+    "0.9"
+   ],
+   "least lexicon": "0.6"
+  },
+  {
+   "language": "0.10",
+   "date": "2026-10-16",
+   "protocol": "0.4",
+   "lexicon": "0.7",
+   "reads": [
+    "0.9",
+    "0.10"
+   ],
+   "least lexicon": "0.7"
+  },
+  {
+   "language": "1.0",
+   "date": "2026-10-19",
+   "protocol": "0.5",
+   "lexicon": "1.0",
+   "reads": [
+    "1.0"
+   ],
+   "least lexicon": "1.0"
+  }
+ ],
+ "protocol": [
+  {
+   "protocol": "0.3",
+   "reads": [
+    "0.3"
+   ]
+  },
+  {
+   "protocol": "0.4",
+   "reads": [
+    "0.3",
+    "0.4"
+   ]
+  },
+  {
+   "protocol": "0.5",
+   "reads": [
+    "0.5"
+   ]
+  }
+ ]
+}

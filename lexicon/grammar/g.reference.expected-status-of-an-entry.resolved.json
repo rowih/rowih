@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.reference.expected-status-of-an-entry.resolved",
+ "orthographic form": "siyi",
+ "phonological form": "/siji/",
+ "grammatical category": "expected status of an entry",
+ "gloss": "RESOLVED",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

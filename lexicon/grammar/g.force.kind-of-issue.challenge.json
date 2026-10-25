@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.force.kind-of-issue.challenge",
+ "orthographic form": "kuruta",
+ "phonological form": "/kuɾuta/",
+ "grammatical category": "kind of issue",
+ "gloss": "CHALLENGE",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

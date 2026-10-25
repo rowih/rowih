@@ -1,0 +1,53 @@
+{
+ "machine identifier": "lx.000167",
+ "root": "lx.000167",
+ "phonological form": "/ɾehun/",
+ "orthographic form": "rehun",
+ "grammatical category": "predicate root",
+ "sort": "s.sort.event",
+ "semantic type": {
+  "sort": "s.sort.event",
+  "arguments": [
+   "actor",
+   "undergoer"
+  ]
+ },
+ "definition": "inspect or investigate something to learn about it (the informal vocabulary)",
+ "semantic primitives": [
+  "s.sort.event"
+ ],
+ "argument structure": [
+  {
+   "role": "actor",
+   "sort": "s.sort.agent"
+  },
+  {
+   "role": "undergoer",
+   "sort": "s.sort.referent"
+  }
+ ],
+ "derivational behaviour": [],
+ "register": [
+  "R5",
+  "R6"
+ ],
+ "collocations": [],
+ "synonyms": [
+  "lx.000166",
+  "lx.000168",
+  "lx.000001"
+ ],
+ "antonyms": [],
+ "related concepts": [],
+ "examples": [],
+ "version": {
+  "introduced": "0.4",
+  "deprecated": null
+ },
+ "key": "eyeball",
+ "synonym of": "lx.000001",
+ "vocabulary": "informal",
+ "declared loss": [
+  "register"
+ ]
+}

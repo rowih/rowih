@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.attitudes-and-aims.execution-phase.unstated",
+ "orthographic form": "balo",
+ "phonological form": "/balo/",
+ "grammatical category": "execution phase",
+ "gloss": "EXECUTION-PHASE.UNSTATED",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

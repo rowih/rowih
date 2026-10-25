@@ -1,0 +1,29 @@
+{
+ "machine identifier": "mp.000005",
+ "name": "NETWORK ACTIVITY IS WEATHER",
+ "source domain": "weather",
+ "target domain": "the traffic of a network",
+ "correspondences": [
+  {
+   "source": "the atmosphere",
+   "target": "the network"
+  },
+  {
+   "source": "a storm",
+   "target": "a burst of messages or of changes"
+  },
+  {
+   "source": "calm",
+   "target": "no new record arriving"
+  }
+ ],
+ "motivates": [
+  "lx.000193",
+  "lx.000155",
+  "lx.000150"
+ ],
+ "version": {
+  "introduced": "0.5",
+  "deprecated": null
+ }
+}

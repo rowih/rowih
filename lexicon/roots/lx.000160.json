@@ -1,0 +1,54 @@
+{
+ "machine identifier": "lx.000160",
+ "root": "lx.000160",
+ "phonological form": "/ɾetaɡ/",
+ "orthographic form": "retag",
+ "grammatical category": "predicate root",
+ "sort": "s.sort.process",
+ "semantic type": {
+  "sort": "s.sort.process",
+  "arguments": [
+   "undergoer",
+   "actor"
+  ]
+ },
+ "definition": "be under way as a process (the technical vocabulary)",
+ "semantic primitives": [
+  "s.sort.process"
+ ],
+ "argument structure": [
+  {
+   "role": "undergoer",
+   "sort": "s.sort.referent"
+  },
+  {
+   "role": "actor",
+   "sort": "s.sort.agent"
+  }
+ ],
+ "derivational behaviour": [],
+ "register": [
+  "R0",
+  "R1",
+  "R4"
+ ],
+ "collocations": [],
+ "synonyms": [
+  "lx.000161",
+  "lx.000162",
+  "lx.000004"
+ ],
+ "antonyms": [],
+ "related concepts": [],
+ "examples": [],
+ "version": {
+  "introduced": "0.4",
+  "deprecated": null
+ },
+ "key": "operate",
+ "synonym of": "lx.000004",
+ "vocabulary": "technical",
+ "declared loss": [
+  "register"
+ ]
+}

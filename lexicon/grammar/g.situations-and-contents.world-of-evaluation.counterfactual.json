@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.situations-and-contents.world-of-evaluation.counterfactual",
+ "orthographic form": "geli",
+ "phonological form": "/ɡeli/",
+ "grammatical category": "world of evaluation",
+ "gloss": "COUNTERFACTUAL",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

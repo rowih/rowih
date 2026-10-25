@@ -1,0 +1,53 @@
+{
+ "machine identifier": "lx.000161",
+ "root": "lx.000161",
+ "phonological form": "/ɾuduw/",
+ "orthographic form": "ruduw",
+ "grammatical category": "predicate root",
+ "sort": "s.sort.process",
+ "semantic type": {
+  "sort": "s.sort.process",
+  "arguments": [
+   "undergoer",
+   "actor"
+  ]
+ },
+ "definition": "be under way as a process (the informal vocabulary)",
+ "semantic primitives": [
+  "s.sort.process"
+ ],
+ "argument structure": [
+  {
+   "role": "undergoer",
+   "sort": "s.sort.referent"
+  },
+  {
+   "role": "actor",
+   "sort": "s.sort.agent"
+  }
+ ],
+ "derivational behaviour": [],
+ "register": [
+  "R5",
+  "R6"
+ ],
+ "collocations": [],
+ "synonyms": [
+  "lx.000160",
+  "lx.000162",
+  "lx.000004"
+ ],
+ "antonyms": [],
+ "related concepts": [],
+ "examples": [],
+ "version": {
+  "introduced": "0.4",
+  "deprecated": null
+ },
+ "key": "hum",
+ "synonym of": "lx.000004",
+ "vocabulary": "informal",
+ "declared loss": [
+  "register"
+ ]
+}

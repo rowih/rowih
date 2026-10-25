@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.time.time-relation.finishes",
+ "orthographic form": "dihepe",
+ "phonological form": "/dihepe/",
+ "grammatical category": "time relation",
+ "gloss": "FINISHES",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

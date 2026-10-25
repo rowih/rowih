@@ -1,0 +1,27 @@
+{
+ "machine identifier": "mp.000007",
+ "name": "WHAT IS UNAVAILABLE IS HELD CAPTIVE",
+ "source domain": "captivity",
+ "target domain": "the availability of a resource",
+ "correspondences": [
+  {
+   "source": "a captor",
+   "target": "the system that keeps a resource"
+  },
+  {
+   "source": "a captive",
+   "target": "the resource kept"
+  },
+  {
+   "source": "release",
+   "target": "making the resource available"
+  }
+ ],
+ "motivates": [
+  "lx.000152"
+ ],
+ "version": {
+  "introduced": "0.5",
+  "deprecated": null
+ }
+}

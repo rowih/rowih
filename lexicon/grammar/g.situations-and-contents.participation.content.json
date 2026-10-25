@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.situations-and-contents.participation.content",
+ "orthographic form": "boyo",
+ "phonological form": "/bojo/",
+ "grammatical category": "participation",
+ "gloss": "CONTENT",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

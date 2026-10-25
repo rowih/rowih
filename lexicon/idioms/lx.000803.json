@@ -1,0 +1,49 @@
+{
+ "machine identifier": "lx.000803",
+ "root": "lx.000803",
+ "phonological form": "/nujiluɾ nutitoh/",
+ "orthographic form": "nuyilur nutitoh",
+ "grammatical category": "idiom",
+ "sort": "s.sort.situation",
+ "semantic type": {
+  "sort": "s.sort.situation",
+  "arguments": []
+ },
+ "definition": "the speaker is learning how to do the work as it does it",
+ "semantic primitives": [
+  "s.sort.situation"
+ ],
+ "argument structure": [],
+ "derivational behaviour": [],
+ "register": [
+  "R0",
+  "R2",
+  "R3",
+  "R5",
+  "R6",
+  "R7"
+ ],
+ "collocations": [],
+ "synonyms": [],
+ "antonyms": [],
+ "related concepts": [],
+ "examples": [],
+ "version": {
+  "introduced": "1.0",
+  "deprecated": null
+ },
+ "key": "map drawn while walking",
+ "class": "epistemic idioms",
+ "kind": "decoding, grammatical",
+ "route": "figure",
+ "literal structure": "(situation draw PROGRESSIVE (ACTOR (term SELF)) (UNDERGOER (term map INDEFINITE)))",
+ "expansion": "(situation learn PROGRESSIVE (ACTOR (term SELF)) (CONTENT (term method)))",
+ "decomposition": [],
+ "pragmatic conditions": "of work the speaker has not done before",
+ "usage restrictions": "none",
+ "declared loss": [
+  "stance",
+  "wording"
+ ],
+ "constructed history": "Constructed history: an agent drawing its map as it went had no map to go by."
+}

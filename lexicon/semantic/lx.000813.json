@@ -1,0 +1,123 @@
+{
+ "machine identifier": "lx.000813",
+ "literal structure": {
+  "kind": "situation",
+  "name": null,
+  "parts": [
+   {
+    "kind": "word",
+    "form": "nutugot",
+    "entry": "lx.000405",
+    "status": "known"
+   },
+   {
+    "kind": "filler",
+    "role": "g.situations-and-contents.participation.undergoer",
+    "filler": {
+     "kind": "term",
+     "name": null,
+     "parts": [
+      {
+       "kind": "word",
+       "form": "numosoh",
+       "entry": "lx.000492",
+       "status": "known"
+      }
+     ]
+    }
+   }
+  ]
+ },
+ "expansion": {
+  "kind": "situation",
+  "name": null,
+  "parts": [
+   {
+    "kind": "value",
+    "member": "g.attitudes-and-aims.kind-of-attitude.credence"
+   },
+   {
+    "kind": "value",
+    "member": "g.standing.strength.probable"
+   },
+   {
+    "kind": "filler",
+    "role": "g.situations-and-contents.participation.holder",
+    "filler": {
+     "kind": "term",
+     "name": null,
+     "parts": [
+      {
+       "kind": "value",
+       "member": "g.reference.person.self"
+      }
+     ]
+    }
+   },
+   {
+    "kind": "filler",
+    "role": "g.situations-and-contents.participation.content",
+    "filler": {
+     "kind": "situation",
+     "name": null,
+     "parts": [
+      {
+       "kind": "word",
+       "form": "rigis",
+       "entry": "lx.000009",
+       "status": "known"
+      },
+      {
+       "kind": "filler",
+       "role": "g.situations-and-contents.participation.actor",
+       "filler": {
+        "kind": "term",
+        "name": null,
+        "parts": [
+         {
+          "kind": "word",
+          "form": "nunuben",
+          "entry": "lx.000344",
+          "status": "known"
+         },
+         {
+          "kind": "value",
+          "member": "g.situations-and-contents.quantifier.existential"
+         }
+        ]
+       }
+      },
+      {
+       "kind": "filler",
+       "role": "g.situations-and-contents.participation.content",
+       "filler": {
+        "kind": "term",
+        "name": null,
+        "parts": [
+         {
+          "kind": "word",
+          "form": "remup",
+          "entry": "lx.000083",
+          "status": "known"
+         }
+        ]
+       }
+      },
+      {
+       "kind": "time",
+       "index": "g.time.time-index.event-time",
+       "spec": {
+        "kind": "relation",
+        "relation": "g.time.time-relation.after",
+        "reference": {
+         "kind": "now"
+        }
+       }
+      }
+     ]
+    }
+   }
+  ]
+ },
+ "generated from": "lexicon/idioms/lx.000813.json"
+}

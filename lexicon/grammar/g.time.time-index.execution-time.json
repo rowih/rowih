@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.time.time-index.execution-time",
+ "orthographic form": "detuse",
+ "phonological form": "/detuse/",
+ "grammatical category": "time index",
+ "gloss": "EXECUTION-TIME",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

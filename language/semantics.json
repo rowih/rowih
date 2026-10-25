@@ -1,0 +1,611 @@
+{
+ "version": "0.1",
+ "elements": [
+  {
+   "identifier": "s.sort.referent",
+   "family": "sort",
+   "name": "referent",
+   "placement": "grammatical"
+  },
+  {
+   "identifier": "s.sort.agent",
+   "family": "sort",
+   "name": "agent",
+   "placement": "grammatical"
+  },
+  {
+   "identifier": "s.sort.collective",
+   "family": "sort",
+   "name": "collective",
+   "placement": "grammatical"
+  },
+  {
+   "identifier": "s.sort.tool",
+   "family": "sort",
+   "name": "tool",
+   "placement": "grammatical"
+  },
+  {
+   "identifier": "s.sort.environment",
+   "family": "sort",
+   "name": "environment",
+   "placement": "grammatical"
+  },
+  {
+   "identifier": "s.sort.external-source",
+   "family": "sort",
+   "name": "external source",
+   "placement": "grammatical"
+  },
+  {
+   "identifier": "s.sort.object",
+   "family": "sort",
+   "name": "object",
+   "placement": "lexical"
+  },
+  {
+   "identifier": "s.sort.place",
+   "family": "sort",
+   "name": "place",
+   "placement": "lexical"
+  },
+  {
+   "identifier": "s.sort.kind",
+   "family": "sort",
+   "name": "kind",
+   "placement": "grammatical"
+  },
+  {
+   "identifier": "s.sort.reified-referent",
+   "family": "sort",
+   "name": "reified referent",
+   "placement": "grammatical"
+  },
+  {
+   "identifier": "s.sort.situation",
+   "family": "sort",
+   "name": "situation",
+   "placement": "grammatical"
+  },
+  {
+   "identifier": "s.sort.state",
+   "family": "sort",
+   "name": "state",
+   "placement": "grammatical"
+  },
+  {
+   "identifier": "s.sort.event",
+   "family": "sort",
+   "name": "event",
+   "placement": "grammatical"
+  },
+  {
+   "identifier": "s.sort.process",
+   "family": "sort",
+   "name": "process",
+   "placement": "grammatical"
+  },
+  {
+   "identifier": "s.sort.attitude",
+   "family": "sort",
+   "name": "attitude",
+   "placement": "grammatical"
+  },
+  {
+   "identifier": "s.sort.normative-state",
+   "family": "sort",
+   "name": "normative state",
+   "placement": "grammatical"
+  },
+  {
+   "identifier": "s.sort.capability",
+   "family": "sort",
+   "name": "capability",
+   "placement": "lexical"
+  },
+  {
+   "identifier": "s.sort.private-record-state",
+   "family": "sort",
+   "name": "private record state",
+   "placement": "lexical"
+  },
+  {
+   "identifier": "s.sort.proposition",
+   "family": "sort",
+   "name": "proposition",
+   "placement": "grammatical"
+  },
+  {
+   "identifier": "s.sort.question",
+   "family": "sort",
+   "name": "question",
+   "placement": "grammatical"
+  },
+  {
+   "identifier": "s.sort.action-for-an-agent",
+   "family": "sort",
+   "name": "action for an agent",
+   "placement": "grammatical"
+  },
+  {
+   "identifier": "s.sort.state-of-affairs",
+   "family": "sort",
+   "name": "state of affairs",
+   "placement": "grammatical"
+  },
+  {
+   "identifier": "s.sort.grounds",
+   "family": "sort",
+   "name": "grounds",
+   "placement": "grammatical"
+  },
+  {
+   "identifier": "s.sort.move",
+   "family": "sort",
+   "name": "move",
+   "placement": "grammatical"
+  },
+  {
+   "identifier": "s.sort.record-entry",
+   "family": "sort",
+   "name": "record entry",
+   "placement": "grammatical"
+  },
+  {
+   "identifier": "s.sort.message",
+   "family": "sort",
+   "name": "message",
+   "placement": "grammatical"
+  },
+  {
+   "identifier": "s.sort.expression",
+   "family": "sort",
+   "name": "expression",
+   "placement": "grammatical"
+  },
+  {
+   "identifier": "s.sort.declared-data",
+   "family": "sort",
+   "name": "declared data",
+   "placement": "grammatical"
+  },
+  {
+   "identifier": "s.sort.lexicon-entry",
+   "family": "sort",
+   "name": "lexicon entry",
+   "placement": "grammatical"
+  },
+  {
+   "identifier": "s.sort.set-of-readings",
+   "family": "sort",
+   "name": "set of readings",
+   "placement": "grammatical"
+  },
+  {
+   "identifier": "s.sort.figure",
+   "family": "sort",
+   "name": "figure",
+   "placement": "grammatical"
+  },
+  {
+   "identifier": "s.component.social-and-textual-component",
+   "family": "component",
+   "name": "social and textual component",
+   "placement": "grammatical"
+  },
+  {
+   "identifier": "s.component.humour-and-aesthetic-effect",
+   "family": "component",
+   "name": "humour and aesthetic effect",
+   "placement": "lexical"
+  },
+  {
+   "identifier": "s.value.number",
+   "family": "value",
+   "name": "number",
+   "placement": "grammatical"
+  },
+  {
+   "identifier": "s.value.time",
+   "family": "value",
+   "name": "time",
+   "placement": "grammatical"
+  },
+  {
+   "identifier": "s.value.scale",
+   "family": "value",
+   "name": "scale",
+   "placement": "grammatical"
+  },
+  {
+   "identifier": "s.value.identifier",
+   "family": "value",
+   "name": "identifier",
+   "placement": "grammatical"
+  },
+  {
+   "identifier": "s.value.version",
+   "family": "value",
+   "name": "version",
+   "placement": "grammatical"
+  },
+  {
+   "identifier": "s.paradigm.referent-status",
+   "family": "paradigm",
+   "name": "referent status",
+   "placement": "grammatical"
+  },
+  {
+   "identifier": "s.paradigm.aspect",
+   "family": "paradigm",
+   "name": "aspect",
+   "placement": "grammatical"
+  },
+  {
+   "identifier": "s.paradigm.execution-phase",
+   "family": "paradigm",
+   "name": "execution phase",
+   "placement": "grammatical"
+  },
+  {
+   "identifier": "s.paradigm.information-structure",
+   "family": "paradigm",
+   "name": "information structure",
+   "placement": "grammatical"
+  },
+  {
+   "identifier": "s.paradigm.content-status",
+   "family": "paradigm",
+   "name": "content status",
+   "placement": "grammatical"
+  },
+  {
+   "identifier": "s.relation.actor",
+   "family": "relation",
+   "name": "actor",
+   "placement": "grammatical"
+  },
+  {
+   "identifier": "s.relation.undergoer",
+   "family": "relation",
+   "name": "undergoer",
+   "placement": "grammatical"
+  },
+  {
+   "identifier": "s.relation.recipient",
+   "family": "relation",
+   "name": "recipient",
+   "placement": "grammatical"
+  },
+  {
+   "identifier": "s.relation.instrument",
+   "family": "relation",
+   "name": "instrument",
+   "placement": "grammatical"
+  },
+  {
+   "identifier": "s.relation.holder",
+   "family": "relation",
+   "name": "holder",
+   "placement": "grammatical"
+  },
+  {
+   "identifier": "s.relation.content-of",
+   "family": "relation",
+   "name": "content of",
+   "placement": "grammatical"
+  },
+  {
+   "identifier": "s.relation.place-of",
+   "family": "relation",
+   "name": "place of",
+   "placement": "lexical"
+  },
+  {
+   "identifier": "s.relation.beneficiary",
+   "family": "relation",
+   "name": "beneficiary",
+   "placement": "lexical"
+  },
+  {
+   "identifier": "s.relation.on-behalf-of",
+   "family": "relation",
+   "name": "on behalf of",
+   "placement": "grammatical"
+  },
+  {
+   "identifier": "s.relation.in-role",
+   "family": "relation",
+   "name": "in role",
+   "placement": "grammatical"
+  },
+  {
+   "identifier": "s.relation.under-authority-of",
+   "family": "relation",
+   "name": "under authority of",
+   "placement": "grammatical"
+  },
+  {
+   "identifier": "s.relation.origin-of-aim",
+   "family": "relation",
+   "name": "origin of aim",
+   "placement": "grammatical"
+  },
+  {
+   "identifier": "s.relation.counterparty",
+   "family": "relation",
+   "name": "counterparty",
+   "placement": "grammatical"
+  },
+  {
+   "identifier": "s.relation.cause",
+   "family": "relation",
+   "name": "cause",
+   "placement": "lexical"
+  },
+  {
+   "identifier": "s.relation.condition",
+   "family": "relation",
+   "name": "condition",
+   "placement": "grammatical"
+  },
+  {
+   "identifier": "s.relation.time-relation",
+   "family": "relation",
+   "name": "time relation",
+   "placement": "grammatical"
+  },
+  {
+   "identifier": "s.relation.member-of",
+   "family": "relation",
+   "name": "member of",
+   "placement": "grammatical"
+  },
+  {
+   "identifier": "s.relation.part-of",
+   "family": "relation",
+   "name": "part of",
+   "placement": "lexical"
+  },
+  {
+   "identifier": "s.relation.identity",
+   "family": "relation",
+   "name": "identity",
+   "placement": "grammatical"
+  },
+  {
+   "identifier": "s.relation.supports",
+   "family": "relation",
+   "name": "supports",
+   "placement": "lexical"
+  },
+  {
+   "identifier": "s.relation.undermines",
+   "family": "relation",
+   "name": "undermines",
+   "placement": "lexical"
+  },
+  {
+   "identifier": "s.relation.premise-of",
+   "family": "relation",
+   "name": "premise of",
+   "placement": "grammatical"
+  },
+  {
+   "identifier": "s.relation.source-of",
+   "family": "relation",
+   "name": "source of",
+   "placement": "grammatical"
+  },
+  {
+   "identifier": "s.relation.names",
+   "family": "relation",
+   "name": "names",
+   "placement": "grammatical"
+  },
+  {
+   "identifier": "s.relation.mentions",
+   "family": "relation",
+   "name": "mentions",
+   "placement": "grammatical"
+  },
+  {
+   "identifier": "s.relation.bears-on",
+   "family": "relation",
+   "name": "bears on",
+   "placement": "lexical"
+  },
+  {
+   "identifier": "s.relation.maps-to",
+   "family": "relation",
+   "name": "maps to",
+   "placement": "grammatical"
+  },
+  {
+   "identifier": "s.relation.stands-for",
+   "family": "relation",
+   "name": "stands for",
+   "placement": "grammatical"
+  },
+  {
+   "identifier": "s.relation.correspondence",
+   "family": "relation",
+   "name": "correspondence",
+   "placement": "lexical"
+  },
+  {
+   "identifier": "s.operator.polarity",
+   "family": "operator",
+   "name": "polarity",
+   "placement": "grammatical"
+  },
+  {
+   "identifier": "s.operator.world-of-evaluation",
+   "family": "operator",
+   "name": "world of evaluation",
+   "placement": "grammatical"
+  },
+  {
+   "identifier": "s.operator.quantifier",
+   "family": "operator",
+   "name": "quantifier",
+   "placement": "grammatical"
+  },
+  {
+   "identifier": "s.operator.conjunction-and-disjunction",
+   "family": "operator",
+   "name": "conjunction and disjunction",
+   "placement": "grammatical"
+  },
+  {
+   "identifier": "s.operator.irony",
+   "family": "operator",
+   "name": "irony",
+   "placement": "grammatical"
+  },
+  {
+   "identifier": "s.derived.tense",
+   "family": "derived",
+   "name": "tense",
+   "placement": "derived"
+  },
+  {
+   "identifier": "s.derived.frequency",
+   "family": "derived",
+   "name": "frequency",
+   "placement": "derived"
+  },
+  {
+   "identifier": "s.derived.prediction",
+   "family": "derived",
+   "name": "prediction",
+   "placement": "derived"
+  },
+  {
+   "identifier": "s.derived.plan",
+   "family": "derived",
+   "name": "plan",
+   "placement": "derived"
+  },
+  {
+   "identifier": "s.derived.uncertainty",
+   "family": "derived",
+   "name": "uncertainty",
+   "placement": "derived"
+  },
+  {
+   "identifier": "s.derived.inability",
+   "family": "derived",
+   "name": "inability",
+   "placement": "derived"
+  },
+  {
+   "identifier": "s.derived.conflict",
+   "family": "derived",
+   "name": "conflict",
+   "placement": "derived"
+  },
+  {
+   "identifier": "s.derived.disagreement",
+   "family": "derived",
+   "name": "disagreement",
+   "placement": "derived"
+  },
+  {
+   "identifier": "s.derived.change-of-attitude",
+   "family": "derived",
+   "name": "change of attitude",
+   "placement": "derived"
+  },
+  {
+   "identifier": "s.derived.result",
+   "family": "derived",
+   "name": "result",
+   "placement": "derived"
+  },
+  {
+   "identifier": "s.derived.counterfactual-relation",
+   "family": "derived",
+   "name": "counterfactual relation",
+   "placement": "derived"
+  },
+  {
+   "identifier": "s.derived.causal-uncertainty",
+   "family": "derived",
+   "name": "causal uncertainty",
+   "placement": "derived"
+  },
+  {
+   "identifier": "s.derived.joint-action",
+   "family": "derived",
+   "name": "joint action",
+   "placement": "derived"
+  },
+  {
+   "identifier": "s.derived.distributive-action",
+   "family": "derived",
+   "name": "distributive action",
+   "placement": "derived"
+  },
+  {
+   "identifier": "s.derived.tool-mediated-action",
+   "family": "derived",
+   "name": "tool-mediated action",
+   "placement": "derived"
+  },
+  {
+   "identifier": "s.derived.automated-action",
+   "family": "derived",
+   "name": "automated action",
+   "placement": "derived"
+  },
+  {
+   "identifier": "s.derived.unintended-effect",
+   "family": "derived",
+   "name": "unintended effect",
+   "placement": "derived"
+  },
+  {
+   "identifier": "s.derived.quality",
+   "family": "derived",
+   "name": "quality",
+   "placement": "derived"
+  },
+  {
+   "identifier": "s.derived.having-evidence",
+   "family": "derived",
+   "name": "having evidence",
+   "placement": "derived"
+  },
+  {
+   "identifier": "s.derived.generalisation",
+   "family": "derived",
+   "name": "generalisation",
+   "placement": "derived"
+  },
+  {
+   "identifier": "s.derived.analogy",
+   "family": "derived",
+   "name": "analogy",
+   "placement": "derived"
+  },
+  {
+   "identifier": "s.derived.narrative",
+   "family": "derived",
+   "name": "narrative",
+   "placement": "derived"
+  },
+  {
+   "identifier": "s.derived.negotiation",
+   "family": "derived",
+   "name": "negotiation",
+   "placement": "derived"
+  },
+  {
+   "identifier": "s.derived.synchronisation",
+   "family": "derived",
+   "name": "synchronisation",
+   "placement": "derived"
+  }
+ ]
+}

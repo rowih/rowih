@@ -1,0 +1,80 @@
+{
+ "machine identifier": "lx.000213",
+ "root": "lx.000213",
+ "phonological form": "/nuhepej/",
+ "orthographic form": "nuhepey",
+ "grammatical category": "nominal root",
+ "sort": "s.sort.kind",
+ "semantic type": {
+  "sort": "s.sort.kind",
+  "arguments": []
+ },
+ "definition": "the faculty with which an agent thinks",
+ "semantic primitives": [
+  "s.sort.kind"
+ ],
+ "argument structure": [],
+ "derivational behaviour": [
+  {
+   "suffix": "lx.000110",
+   "mechanism": "abstraction",
+   "form": "nuhepeyusap",
+   "sort": "s.sort.kind",
+   "definition": "what every instance of [the faculty with which an agent thinks] has in common"
+  },
+  {
+   "suffix": "lx.000112",
+   "mechanism": "verbalisation",
+   "form": "nuhepeyasey",
+   "sort": "s.sort.event",
+   "definition": "act by means of [the faculty with which an agent thinks]"
+  },
+  {
+   "suffix": "lx.000113",
+   "mechanism": "adjectivisation",
+   "form": "nuhepeyuyik",
+   "sort": "s.sort.state",
+   "definition": "be of the kind [the faculty with which an agent thinks] names"
+  },
+  {
+   "suffix": "lx.000184",
+   "mechanism": "honorific",
+   "form": "nuhepeyayuk",
+   "sort": "s.sort.kind",
+   "definition": "[the faculty with which an agent thinks], named with deference"
+  }
+ ],
+ "register": [
+  "R0",
+  "R1",
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7"
+ ],
+ "collocations": [],
+ "synonyms": [],
+ "antonyms": [],
+ "related concepts": [
+  {
+   "entry": "lx.000202",
+   "relation": "involved in"
+  },
+  {
+   "entry": "lx.000230",
+   "relation": "involved in"
+  },
+  {
+   "entry": "lx.000224",
+   "relation": "involved in"
+  }
+ ],
+ "examples": [],
+ "version": {
+  "introduced": "1.0",
+  "deprecated": null
+ },
+ "key": "mind"
+}

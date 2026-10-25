@@ -1,0 +1,80 @@
+{
+ "machine identifier": "lx.000323",
+ "root": "lx.000323",
+ "phonological form": "/nuwewiɡ/",
+ "orthographic form": "nuwewig",
+ "grammatical category": "nominal root",
+ "sort": "s.sort.object",
+ "semantic type": {
+  "sort": "s.sort.object",
+  "arguments": []
+ },
+ "definition": "a machine that carries people or goods",
+ "semantic primitives": [
+  "s.sort.object"
+ ],
+ "argument structure": [],
+ "derivational behaviour": [
+  {
+   "suffix": "lx.000110",
+   "mechanism": "abstraction",
+   "form": "nuwewigusap",
+   "sort": "s.sort.kind",
+   "definition": "what every instance of [a machine that carries people or goods] has in common"
+  },
+  {
+   "suffix": "lx.000112",
+   "mechanism": "verbalisation",
+   "form": "nuwewigasey",
+   "sort": "s.sort.event",
+   "definition": "act by means of [a machine that carries people or goods]"
+  },
+  {
+   "suffix": "lx.000113",
+   "mechanism": "adjectivisation",
+   "form": "nuwewiguyik",
+   "sort": "s.sort.state",
+   "definition": "be of the kind [a machine that carries people or goods] names"
+  },
+  {
+   "suffix": "lx.000184",
+   "mechanism": "honorific",
+   "form": "nuwewigayuk",
+   "sort": "s.sort.object",
+   "definition": "[a machine that carries people or goods], named with deference"
+  }
+ ],
+ "register": [
+  "R0",
+  "R1",
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7"
+ ],
+ "collocations": [],
+ "synonyms": [],
+ "antonyms": [],
+ "related concepts": [
+  {
+   "entry": "lx.000292",
+   "relation": "kind of"
+  },
+  {
+   "entry": "lx.000324",
+   "relation": "has part"
+  },
+  {
+   "entry": "lx.000324",
+   "relation": "involves"
+  }
+ ],
+ "examples": [],
+ "version": {
+  "introduced": "1.0",
+  "deprecated": null
+ },
+ "key": "vehicle"
+}

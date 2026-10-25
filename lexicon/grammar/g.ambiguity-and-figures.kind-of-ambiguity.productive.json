@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.ambiguity-and-figures.kind-of-ambiguity.productive",
+ "orthographic form": "sowe",
+ "phonological form": "/sowe/",
+ "grammatical category": "kind of ambiguity",
+ "gloss": "PRODUCTIVE",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

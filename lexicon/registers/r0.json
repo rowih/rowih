@@ -1,0 +1,35 @@
+{
+ "code": "R0",
+ "name": "raw",
+ "member": "g.ambiguity-and-figures.register.raw",
+ "use": "exchange among agents of one system",
+ "modes admitted": [
+  "full explicitness",
+  "normal expression",
+  "compression"
+ ],
+ "devices admitted": [
+  "declared defaults",
+  "inheritance",
+  "conventional expressions",
+  "shared context",
+  "dialect forms"
+ ],
+ "precision-bound by default": false,
+ "settings": {
+  "vocabulary": "technical",
+  "morphology": "minimal",
+  "syntax": "canonical",
+  "ellipsis": "declared defaults, inheritance, shared context",
+  "politeness": "none",
+  "discourse structure": "none",
+  "compression": "conventional expressions, dialect forms",
+  "prosody": "flat",
+  "orthography": "transliteration"
+ },
+ "vocabulary": "technical",
+ "politeness word": null,
+ "formulas admitted": false,
+ "order": "canonical",
+ "maxima": "language/protocol.json"
+}

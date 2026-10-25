@@ -1,0 +1,23 @@
+{
+ "machine identifier": "mp.000009",
+ "name": "WHAT COSTS NOTHING IS WATER",
+ "source domain": "water",
+ "target domain": "price",
+ "correspondences": [
+  {
+   "source": "water",
+   "target": "what costs nothing"
+  },
+  {
+   "source": "drawing water",
+   "target": "receiving without paying"
+  }
+ ],
+ "motivates": [
+  "lx.000154"
+ ],
+ "version": {
+  "introduced": "0.5",
+  "deprecated": null
+ }
+}

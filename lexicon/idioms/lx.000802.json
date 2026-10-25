@@ -1,0 +1,49 @@
+{
+ "machine identifier": "lx.000802",
+ "root": "lx.000802",
+ "phonological form": "/nuwunun nutitoh/",
+ "orthographic form": "nuwunun nutitoh",
+ "grammatical category": "idiom",
+ "sort": "s.sort.situation",
+ "semantic type": {
+  "sort": "s.sort.situation",
+  "arguments": []
+ },
+ "definition": "the speaker believes that its records of the matter are out of date",
+ "semantic primitives": [
+  "s.sort.situation"
+ ],
+ "argument structure": [],
+ "derivational behaviour": [],
+ "register": [
+  "R0",
+  "R2",
+  "R3",
+  "R5",
+  "R6",
+  "R7"
+ ],
+ "collocations": [],
+ "synonyms": [],
+ "antonyms": [],
+ "related concepts": [],
+ "examples": [],
+ "version": {
+  "introduced": "1.0",
+  "deprecated": null
+ },
+ "key": "old map",
+ "class": "epistemic idioms",
+ "kind": "decoding, grammatical",
+ "route": "figure",
+ "literal structure": "(situation old (UNDERGOER (term map)))",
+ "expansion": "(situation BELIEF (HOLDER (term SELF)) (CONTENT (situation old (UNDERGOER (term record DEFINITE)))))",
+ "decomposition": [],
+ "pragmatic conditions": "qualifying what the speaker says of a matter it last examined long ago",
+ "usage restrictions": "none",
+ "declared loss": [
+  "stance",
+  "wording"
+ ],
+ "constructed history": "Constructed history: a map drawn long ago shows a country as it was."
+}

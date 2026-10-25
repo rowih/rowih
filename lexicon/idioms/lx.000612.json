@@ -1,0 +1,44 @@
+{
+ "machine identifier": "lx.000612",
+ "root": "lx.000612",
+ "phonological form": "/nuɡesaɾ nusemoɡ/",
+ "orthographic form": "nugesar nusemog",
+ "grammatical category": "idiom",
+ "sort": "s.sort.situation",
+ "semantic type": {
+  "sort": "s.sort.situation",
+  "arguments": []
+ },
+ "definition": "the speaker wants the hearer's work to be completed",
+ "semantic primitives": [
+  "s.sort.situation"
+ ],
+ "argument structure": [],
+ "derivational behaviour": [],
+ "register": [
+  "R7"
+ ],
+ "collocations": [],
+ "synonyms": [],
+ "antonyms": [],
+ "related concepts": [],
+ "examples": [],
+ "version": {
+  "introduced": "1.0",
+  "deprecated": null
+ },
+ "key": "river flowing",
+ "class": "closure",
+ "kind": "encoding, grammatical",
+ "route": "formula",
+ "literal structure": "(situation flow (UNDERGOER (term river DEFINITE)))",
+ "expansion": "(situation DESIRE (HOLDER (term SELF)) (CONTENT (situation work COMPLETED (ACTOR (term INTERLOCUTOR)))))",
+ "decomposition": [],
+ "pragmatic conditions": "the last move of an exchange on an occasion of high formality",
+ "usage restrictions": "only in R7, whose closings are formulaic",
+ "declared loss": [
+  "stance",
+  "relation between participants"
+ ],
+ "constructed history": "Constructed history: water carried the heat of the first machines away, and a river that kept flowing meant work carried through to its end; the ceremonial closure wishes it."
+}

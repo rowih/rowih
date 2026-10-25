@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.numbers.check-word.check-6",
+ "orthographic form": "yede",
+ "phonological form": "/jede/",
+ "grammatical category": "check word",
+ "gloss": "CHECK-6",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

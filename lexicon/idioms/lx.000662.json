@@ -1,0 +1,50 @@
+{
+ "machine identifier": "lx.000662",
+ "root": "lx.000662",
+ "phonological form": "/nuɾuɾah nulopik/",
+ "orthographic form": "nururah nulopik",
+ "grammatical category": "idiom",
+ "sort": "s.sort.situation",
+ "semantic type": {
+  "sort": "s.sort.situation",
+  "arguments": []
+ },
+ "definition": "the work the speaker and the hearer share must be dealt with soon",
+ "semantic primitives": [
+  "s.sort.situation"
+ ],
+ "argument structure": [],
+ "derivational behaviour": [],
+ "register": [
+  "R0",
+  "R1",
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7"
+ ],
+ "collocations": [],
+ "synonyms": [],
+ "antonyms": [],
+ "related concepts": [],
+ "examples": [],
+ "version": {
+  "introduced": "1.0",
+  "deprecated": null
+ },
+ "key": "night approaching",
+ "class": "warnings",
+ "kind": "encoding, grammatical",
+ "route": "formula",
+ "literal structure": "(situation approach (UNDERGOER (term night)) (CONTENT (term INCLUSIVE-COLLECTIVE)))",
+ "expansion": "(situation urgent (UNDERGOER (situation work (ACTOR (term INCLUSIVE-COLLECTIVE READING-OF-A-COLLECTIVE.JOINT)))))",
+ "decomposition": [],
+ "pragmatic conditions": "when a deadline of shared work is near",
+ "usage restrictions": "none",
+ "declared loss": [
+  "stance"
+ ],
+ "constructed history": "Constructed history: the early machines were shut down at night, so that work had to be done before it, and saying that night approached warned that a deadline was near."
+}

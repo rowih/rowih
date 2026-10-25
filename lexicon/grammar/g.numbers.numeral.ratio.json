@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.numbers.numeral.ratio",
+ "orthographic form": "nimi",
+ "phonological form": "/nimi/",
+ "grammatical category": "numeral",
+ "gloss": "RATIO",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

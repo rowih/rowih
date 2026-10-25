@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.ambiguity-and-figures.register.ceremonial",
+ "orthographic form": "logu",
+ "phonological form": "/loɡu/",
+ "grammatical category": "register",
+ "gloss": "CEREMONIAL",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.6"
+ }
+}

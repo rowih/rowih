@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.situations-and-contents.comparator.unstated",
+ "orthographic form": "maga",
+ "phonological form": "/maɡa/",
+ "grammatical category": "comparator",
+ "gloss": "COMPARATOR.UNSTATED",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

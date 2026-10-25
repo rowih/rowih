@@ -1,0 +1,72 @@
+{
+ "machine identifier": "lx.000580",
+ "root": "lx.000580",
+ "phonological form": "/nuɡudes/",
+ "orthographic form": "nugudes",
+ "grammatical category": "discourse relation",
+ "sort": "s.relation.bears-on",
+ "semantic type": {
+  "sort": "s.relation.bears-on",
+  "arguments": []
+ },
+ "definition": "the move limits or makes conditional what it names",
+ "semantic primitives": [
+  "s.relation.bears-on"
+ ],
+ "argument structure": [],
+ "derivational behaviour": [
+  {
+   "suffix": "lx.000110",
+   "mechanism": "abstraction",
+   "form": "nugudesusap",
+   "sort": "s.sort.kind",
+   "definition": "what every instance of [the move limits or makes conditional what it names] has in common"
+  },
+  {
+   "suffix": "lx.000112",
+   "mechanism": "verbalisation",
+   "form": "nugudesasey",
+   "sort": "s.sort.event",
+   "definition": "act by means of [the move limits or makes conditional what it names]"
+  },
+  {
+   "suffix": "lx.000113",
+   "mechanism": "adjectivisation",
+   "form": "nugudesuyik",
+   "sort": "s.sort.state",
+   "definition": "be of the kind [the move limits or makes conditional what it names] names"
+  },
+  {
+   "suffix": "lx.000184",
+   "mechanism": "honorific",
+   "form": "nugudesayuk",
+   "sort": "s.relation.bears-on",
+   "definition": "[the move limits or makes conditional what it names], named with deference"
+  }
+ ],
+ "register": [
+  "R0",
+  "R1",
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7"
+ ],
+ "collocations": [],
+ "synonyms": [],
+ "antonyms": [],
+ "related concepts": [
+  {
+   "entry": "lx.000278",
+   "relation": "involves"
+  }
+ ],
+ "examples": [],
+ "version": {
+  "introduced": "1.0",
+  "deprecated": null
+ },
+ "key": "qualifies"
+}

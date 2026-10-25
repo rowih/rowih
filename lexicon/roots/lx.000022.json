@@ -1,0 +1,38 @@
+{
+ "machine identifier": "lx.000022",
+ "root": "lx.000022",
+ "phonological form": "/ɾites/",
+ "orthographic form": "rites",
+ "grammatical category": "nominal root",
+ "sort": "s.sort.private-record-state",
+ "semantic type": {
+  "sort": "s.sort.private-record-state",
+  "arguments": []
+ },
+ "definition": "the amount of a resource an agent has left",
+ "semantic primitives": [
+  "s.sort.private-record-state"
+ ],
+ "argument structure": [],
+ "derivational behaviour": [],
+ "register": [
+  "R0",
+  "R1",
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7"
+ ],
+ "collocations": [],
+ "synonyms": [],
+ "antonyms": [],
+ "related concepts": [],
+ "examples": [],
+ "version": {
+  "introduced": "0.1",
+  "deprecated": null
+ },
+ "key": "budget"
+}

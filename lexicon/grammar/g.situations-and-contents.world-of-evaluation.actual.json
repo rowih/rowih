@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.situations-and-contents.world-of-evaluation.actual",
+ "orthographic form": "gayu",
+ "phonological form": "/ɡaju/",
+ "grammatical category": "world of evaluation",
+ "gloss": "ACTUAL",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

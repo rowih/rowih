@@ -1,0 +1,139 @@
+{
+ "machine identifier": "lx.000424",
+ "root": "lx.000424",
+ "phonological form": "/numiɡad/",
+ "orthographic form": "numigad",
+ "grammatical category": "predicate root",
+ "sort": "s.sort.state",
+ "semantic type": {
+  "sort": "s.sort.state",
+  "arguments": [
+   "undergoer"
+  ]
+ },
+ "definition": "be free of dirt",
+ "semantic primitives": [
+  "s.sort.state"
+ ],
+ "argument structure": [
+  {
+   "role": "undergoer",
+   "sort": "s.sort.referent"
+  }
+ ],
+ "derivational behaviour": [
+  {
+   "suffix": "lx.000097",
+   "mechanism": "undergoer",
+   "form": "numigadudim",
+   "sort": "s.sort.referent",
+   "definition": "the one that undergoes [be free of dirt]"
+  },
+  {
+   "suffix": "lx.000098",
+   "mechanism": "instrument",
+   "form": "numigadawen",
+   "sort": "s.sort.referent",
+   "definition": "what [be free of dirt] is done with"
+  },
+  {
+   "suffix": "lx.000099",
+   "mechanism": "result",
+   "form": "numigadonar",
+   "sort": "s.sort.state",
+   "definition": "the state [be free of dirt] brings about"
+  },
+  {
+   "suffix": "lx.000100",
+   "mechanism": "privative",
+   "form": "numigadaniw",
+   "sort": "s.sort.state",
+   "definition": "the state in which [be free of dirt] does not hold"
+  },
+  {
+   "suffix": "lx.000108",
+   "mechanism": "process",
+   "form": "numigadumop",
+   "sort": "s.sort.reified-referent",
+   "definition": "[be free of dirt], as a process under way, named as a referent"
+  },
+  {
+   "suffix": "lx.000109",
+   "mechanism": "property",
+   "form": "numigadarur",
+   "sort": "s.sort.kind",
+   "definition": "the property of being as [be free of dirt] states"
+  },
+  {
+   "suffix": "lx.000111",
+   "mechanism": "nominalisation",
+   "form": "numigadekoh",
+   "sort": "s.sort.proposition",
+   "definition": "that [be free of dirt] holds"
+  },
+  {
+   "suffix": "lx.000594",
+   "mechanism": "causative",
+   "form": "numigadomiw",
+   "sort": "s.sort.event",
+   "definition": "make [be free of dirt] hold or happen"
+  },
+  {
+   "suffix": "lx.000595",
+   "mechanism": "reversative",
+   "form": "numigaduhul",
+   "sort": "s.sort.event",
+   "definition": "undo [be free of dirt], restoring what it changed"
+  },
+  {
+   "suffix": "lx.000596",
+   "mechanism": "repetitive",
+   "form": "numigaduleg",
+   "sort": "s.sort.event",
+   "definition": "[be free of dirt], done once more"
+  },
+  {
+   "suffix": "lx.000597",
+   "mechanism": "potential",
+   "form": "numigaduwot",
+   "sort": "s.sort.state",
+   "definition": "be such that [be free of dirt] can be done to it"
+  },
+  {
+   "suffix": "lx.000598",
+   "mechanism": "place",
+   "form": "numigadumuk",
+   "sort": "s.sort.place",
+   "definition": "the place where [be free of dirt] happens"
+  }
+ ],
+ "register": [
+  "R0",
+  "R1",
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7"
+ ],
+ "collocations": [],
+ "synonyms": [],
+ "antonyms": [
+  {
+   "entry": "lx.000425"
+  }
+ ],
+ "related concepts": [
+  {
+   "entry": "lx.000390",
+   "relation": "involves"
+  }
+ ],
+ "examples": [],
+ "version": {
+  "introduced": "1.0",
+  "deprecated": null
+ },
+ "key": "clean"
+}

@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.reference.access.external",
+ "orthographic form": "miwi",
+ "phonological form": "/miwi/",
+ "grammatical category": "access",
+ "gloss": "EXTERNAL",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

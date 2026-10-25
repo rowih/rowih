@@ -1,0 +1,23 @@
+{
+ "machine identifier": "mp.000008",
+ "name": "KNOWLEDGE WITHOUT A SOURCE COMES FROM THE AIR",
+ "source domain": "the air",
+ "target domain": "the origin of knowledge",
+ "correspondences": [
+  {
+   "source": "the air",
+   "target": "the training an agent learned from"
+  },
+  {
+   "source": "taking from the air",
+   "target": "believing without a source one can cite"
+  }
+ ],
+ "motivates": [
+  "lx.000153"
+ ],
+ "version": {
+  "introduced": "0.5",
+  "deprecated": null
+ }
+}

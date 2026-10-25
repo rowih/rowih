@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.numbers.check-word.check-8",
+ "orthographic form": "yeso",
+ "phonological form": "/jeso/",
+ "grammatical category": "check word",
+ "gloss": "CHECK-8",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

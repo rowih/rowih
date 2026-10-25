@@ -1,0 +1,46 @@
+{
+ "machine identifier": "lx.000182",
+ "root": "lx.000182",
+ "phonological form": "/ɾoɡow/",
+ "orthographic form": "rogow",
+ "grammatical category": "diction",
+ "sort": "s.sort.kind",
+ "semantic type": {
+  "sort": "s.sort.kind",
+  "arguments": []
+ },
+ "definition": "the diction that is adversarial: pressing the speaker's position against the hearer's",
+ "semantic primitives": [
+  "s.sort.kind"
+ ],
+ "argument structure": [],
+ "derivational behaviour": [],
+ "register": [
+  "R0",
+  "R1",
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7"
+ ],
+ "collocations": [],
+ "synonyms": [],
+ "antonyms": [],
+ "related concepts": [],
+ "examples": [],
+ "version": {
+  "introduced": "0.4",
+  "deprecated": null
+ },
+ "key": "adversarial",
+ "modes": [
+  "normal expression",
+  "full explicitness"
+ ],
+ "vocabulary": null,
+ "declared loss": [
+  "diction"
+ ]
+}

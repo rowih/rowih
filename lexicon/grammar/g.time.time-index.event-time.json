@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.time.time-index.event-time",
+ "orthographic form": "dugewi",
+ "phonological form": "/duɡewi/",
+ "grammatical category": "time index",
+ "gloss": "EVENT-TIME",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

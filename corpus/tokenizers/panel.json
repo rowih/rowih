@@ -1,0 +1,134 @@
+{
+ "name": "rowih tokenizer panel",
+ "version": 1,
+ "pinned": "2026-10-13",
+ "rule": "decoding the encoding of a transliteration, with no special tokens added and none skipped, returns it byte for byte",
+ "members": [
+  {
+   "name": "o200k harmony",
+   "family": "OpenAI GPT-4o, o-series and gpt-oss",
+   "repository": "openai/gpt-oss-20b",
+   "revision": "6cee5e81ee83917806bbde320786a8fb61efebee",
+   "file": "tokenizer.json",
+   "sha256": "0614fe83cadab421296e664e1f48f4261fa8fef6e03e63bb75c20f38e37d07d3",
+   "bytes": 27868174
+  },
+  {
+   "name": "cl100k",
+   "family": "OpenAI GPT-4 and Microsoft Phi-4",
+   "repository": "microsoft/phi-4",
+   "revision": "2db69c1c3e91a05d2c64a3185acfbaf36f744e25",
+   "file": "tokenizer.json",
+   "sha256": "9f38d05d9d25756bb2f181ab5a0cebcd59e638df10336fc7ed1010f7296d0298",
+   "bytes": 4253055
+  },
+  {
+   "name": "qwen2",
+   "family": "Qwen 2.5",
+   "repository": "Qwen/Qwen2.5-7B-Instruct",
+   "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+   "file": "tokenizer.json",
+   "sha256": "c0382117ea329cdf097041132f6d735924b697924d6f6fc3945713e96ce87539",
+   "bytes": 7031645
+  },
+  {
+   "name": "deepseek-v3",
+   "family": "DeepSeek V3",
+   "repository": "deepseek-ai/DeepSeek-V3",
+   "revision": "e815299b0bcbac849fa540c768ef21845365c9eb",
+   "file": "tokenizer.json",
+   "sha256": "621ac2e32d0dba658404412318818aaa8ce8cda492e59830109d8da6b517fb41",
+   "bytes": 7847652
+  },
+  {
+   "name": "tekken",
+   "family": "Mistral NeMo",
+   "repository": "mistralai/Mistral-Nemo-Instruct-2407",
+   "revision": "04d8a90549d23fc6bd7f642064003592df51e9b3",
+   "file": "tokenizer.json",
+   "sha256": "e11c71726323d33da7b8d6f6f269f1988931c0a52b7122bcdd8c05042974e0db",
+   "bytes": 9264445
+  },
+  {
+   "name": "mistral v3",
+   "family": "Mistral 7B v0.3",
+   "repository": "mistralai/Mistral-7B-Instruct-v0.3",
+   "revision": "c170c708c41dac9275d15a8fff4eca08d52bab71",
+   "file": "tokenizer.json",
+   "sha256": "e553af6fff7d7ad76e830608b218c5c0b0822998d5a1a96099a74cd3c1cb1a49",
+   "bytes": 1961548
+  },
+  {
+   "name": "llama 2 sentencepiece",
+   "family": "Microsoft Phi-3.5",
+   "repository": "microsoft/Phi-3.5-mini-instruct",
+   "revision": "2fe192450127e6a83f7441aef6e3ca586c338b77",
+   "file": "tokenizer.json",
+   "sha256": "9e2ae3d66819f163cdcfedba5078f3a3af8118c2712491ed60912f77886bda6f",
+   "bytes": 1844408
+  },
+  {
+   "name": "dolma2",
+   "family": "AllenAI OLMo 2",
+   "repository": "allenai/OLMo-2-1124-7B-Instruct",
+   "revision": "470b1fba1ae01581f270116362ee4aa1b97f4c84",
+   "file": "tokenizer.json",
+   "sha256": "73fd5254624f39a88e3faac6a8e11300fc3c735ed37880d4f4f08db898eaecca",
+   "bytes": 7137177
+  },
+  {
+   "name": "granite",
+   "family": "IBM Granite 3.1",
+   "repository": "ibm-granite/granite-3.1-8b-instruct",
+   "revision": "4009206d5fc95d2e65a7b7633e159d6e97e25d35",
+   "file": "tokenizer.json",
+   "sha256": "ed944c0b3d71e2d651a5ba0f8e7b350faff30031c8e3353de70b12b9c1bf5654",
+   "bytes": 3475806
+  },
+  {
+   "name": "smollm2",
+   "family": "Hugging Face SmolLM2",
+   "repository": "HuggingFaceTB/SmolLM2-1.7B-Instruct",
+   "revision": "31b70e2e869a7173562077fd711b654946d38674",
+   "file": "tokenizer.json",
+   "sha256": "9ca9acddb6525a194ec8ac7a87f24fbba7232a9a15ffa1af0c1224fcd888e47c",
+   "bytes": 2104556
+  },
+  {
+   "name": "glm-4.5",
+   "family": "Z.ai GLM 4.5",
+   "repository": "zai-org/GLM-4.5",
+   "revision": "cbb2c7cfb52fa128a9660cb1a7a78e017899e115",
+   "file": "tokenizer.json",
+   "sha256": "9340665016419c825c4bdabbcc9acc43b7ca2c68ce142724afa829abb1be5efd",
+   "bytes": 19970699
+  },
+  {
+   "name": "falcon3",
+   "family": "TII Falcon 3",
+   "repository": "tiiuae/Falcon3-7B-Instruct",
+   "revision": "1e57a0ecd176c7c139f289c60a74e57f887c3dfb",
+   "file": "tokenizer.json",
+   "sha256": "96c1b62711ea59cb36cf4ab46cc551fc64b2168ac0a288448026088fb9ec7f4a",
+   "bytes": 9780754
+  },
+  {
+   "name": "gpt-neox",
+   "family": "EleutherAI GPT-NeoX and Pythia",
+   "repository": "EleutherAI/gpt-neox-20b",
+   "revision": "c292233c833e336628618a88a648727eb3dff0a7",
+   "file": "tokenizer.json",
+   "sha256": "c24618a1b3e6a38167beff1c72cffd126c3a66254347304b50547d12c5f25624",
+   "bytes": 2113710
+  }
+ ],
+ "control": {
+  "name": "t5",
+  "family": "Google T5, a control: its normaliser rewrites whitespace",
+  "repository": "google-t5/t5-base",
+  "revision": "a9723ea7f1b39c1eae772870f3b547bf6ef7e6c1",
+  "file": "tokenizer.json",
+  "sha256": "d2acde0d8d71dd30a711834b07781b9c89feaac33fd332f60507699282740066",
+  "bytes": 1389353
+ }
+}

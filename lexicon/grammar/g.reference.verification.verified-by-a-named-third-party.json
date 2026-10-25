@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.reference.verification.verified-by-a-named-third-party",
+ "orthographic form": "mosa",
+ "phonological form": "/mosa/",
+ "grammatical category": "verification",
+ "gloss": "VERIFIED-BY-A-NAMED-THIRD-PARTY",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

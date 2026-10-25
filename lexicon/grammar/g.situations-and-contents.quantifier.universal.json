@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.situations-and-contents.quantifier.universal",
+ "orthographic form": "giyo",
+ "phonological form": "/ɡijo/",
+ "grammatical category": "quantifier",
+ "gloss": "UNIVERSAL",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

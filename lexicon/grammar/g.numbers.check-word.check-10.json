@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.numbers.check-word.check-10",
+ "orthographic form": "yiba",
+ "phonological form": "/jiba/",
+ "grammatical category": "check word",
+ "gloss": "CHECK-10",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

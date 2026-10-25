@@ -1,0 +1,16 @@
+{
+ "machine identifier": "g.standing.strength.unstated",
+ "orthographic form": "topuge",
+ "phonological form": "/topuɡe/",
+ "grammatical category": "strength",
+ "gloss": "STRENGTH.UNSTATED",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ },
+ "interval": {
+  "lower": "0",
+  "upper": "1",
+  "lower open": false
+ }
+}

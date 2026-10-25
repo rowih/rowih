@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.time.time-relation.overlaps",
+ "orthographic form": "depiri",
+ "phonological form": "/depiɾi/",
+ "grammatical category": "time relation",
+ "gloss": "OVERLAPS",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

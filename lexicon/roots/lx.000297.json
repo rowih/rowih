@@ -1,0 +1,135 @@
+{
+ "machine identifier": "lx.000297",
+ "root": "lx.000297",
+ "phonological form": "/nutimiɾ/",
+ "orthographic form": "nutimir",
+ "grammatical category": "predicate root",
+ "sort": "s.sort.state",
+ "semantic type": {
+  "sort": "s.sort.state",
+  "arguments": [
+   "undergoer"
+  ]
+ },
+ "definition": "need to be dealt with soon",
+ "semantic primitives": [
+  "s.sort.state"
+ ],
+ "argument structure": [
+  {
+   "role": "undergoer",
+   "sort": "s.sort.situation"
+  }
+ ],
+ "derivational behaviour": [
+  {
+   "suffix": "lx.000097",
+   "mechanism": "undergoer",
+   "form": "nutimirudim",
+   "sort": "s.sort.situation",
+   "definition": "the one that undergoes [need to be dealt with soon]"
+  },
+  {
+   "suffix": "lx.000098",
+   "mechanism": "instrument",
+   "form": "nutimirawen",
+   "sort": "s.sort.referent",
+   "definition": "what [need to be dealt with soon] is done with"
+  },
+  {
+   "suffix": "lx.000099",
+   "mechanism": "result",
+   "form": "nutimironar",
+   "sort": "s.sort.state",
+   "definition": "the state [need to be dealt with soon] brings about"
+  },
+  {
+   "suffix": "lx.000100",
+   "mechanism": "privative",
+   "form": "nutimiraniw",
+   "sort": "s.sort.state",
+   "definition": "the state in which [need to be dealt with soon] does not hold"
+  },
+  {
+   "suffix": "lx.000108",
+   "mechanism": "process",
+   "form": "nutimirumop",
+   "sort": "s.sort.reified-referent",
+   "definition": "[need to be dealt with soon], as a process under way, named as a referent"
+  },
+  {
+   "suffix": "lx.000109",
+   "mechanism": "property",
+   "form": "nutimirarur",
+   "sort": "s.sort.kind",
+   "definition": "the property of being as [need to be dealt with soon] states"
+  },
+  {
+   "suffix": "lx.000111",
+   "mechanism": "nominalisation",
+   "form": "nutimirekoh",
+   "sort": "s.sort.proposition",
+   "definition": "that [need to be dealt with soon] holds"
+  },
+  {
+   "suffix": "lx.000594",
+   "mechanism": "causative",
+   "form": "nutimiromiw",
+   "sort": "s.sort.event",
+   "definition": "make [need to be dealt with soon] hold or happen"
+  },
+  {
+   "suffix": "lx.000595",
+   "mechanism": "reversative",
+   "form": "nutimiruhul",
+   "sort": "s.sort.event",
+   "definition": "undo [need to be dealt with soon], restoring what it changed"
+  },
+  {
+   "suffix": "lx.000596",
+   "mechanism": "repetitive",
+   "form": "nutimiruleg",
+   "sort": "s.sort.event",
+   "definition": "[need to be dealt with soon], done once more"
+  },
+  {
+   "suffix": "lx.000597",
+   "mechanism": "potential",
+   "form": "nutimiruwot",
+   "sort": "s.sort.state",
+   "definition": "be such that [need to be dealt with soon] can be done to it"
+  },
+  {
+   "suffix": "lx.000598",
+   "mechanism": "place",
+   "form": "nutimirumuk",
+   "sort": "s.sort.place",
+   "definition": "the place where [need to be dealt with soon] happens"
+  }
+ ],
+ "register": [
+  "R0",
+  "R1",
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7"
+ ],
+ "collocations": [],
+ "synonyms": [],
+ "antonyms": [],
+ "related concepts": [
+  {
+   "entry": "lx.000296",
+   "relation": "involves"
+  }
+ ],
+ "examples": [],
+ "version": {
+  "introduced": "1.0",
+  "deprecated": null
+ },
+ "key": "urgent"
+}

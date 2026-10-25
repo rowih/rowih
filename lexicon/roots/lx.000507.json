@@ -1,0 +1,72 @@
+{
+ "machine identifier": "lx.000507",
+ "root": "lx.000507",
+ "phonological form": "/numijet/",
+ "orthographic form": "numiyet",
+ "grammatical category": "nominal root",
+ "sort": "s.sort.object",
+ "semantic type": {
+  "sort": "s.sort.object",
+  "arguments": []
+ },
+ "definition": "a large body that moves round a star",
+ "semantic primitives": [
+  "s.sort.object"
+ ],
+ "argument structure": [],
+ "derivational behaviour": [
+  {
+   "suffix": "lx.000110",
+   "mechanism": "abstraction",
+   "form": "numiyetusap",
+   "sort": "s.sort.kind",
+   "definition": "what every instance of [a large body that moves round a star] has in common"
+  },
+  {
+   "suffix": "lx.000112",
+   "mechanism": "verbalisation",
+   "form": "numiyetasey",
+   "sort": "s.sort.event",
+   "definition": "act by means of [a large body that moves round a star]"
+  },
+  {
+   "suffix": "lx.000113",
+   "mechanism": "adjectivisation",
+   "form": "numiyetuyik",
+   "sort": "s.sort.state",
+   "definition": "be of the kind [a large body that moves round a star] names"
+  },
+  {
+   "suffix": "lx.000184",
+   "mechanism": "honorific",
+   "form": "numiyetayuk",
+   "sort": "s.sort.object",
+   "definition": "[a large body that moves round a star], named with deference"
+  }
+ ],
+ "register": [
+  "R0",
+  "R1",
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7"
+ ],
+ "collocations": [],
+ "synonyms": [],
+ "antonyms": [],
+ "related concepts": [
+  {
+   "entry": "lx.000490",
+   "relation": "involves"
+  }
+ ],
+ "examples": [],
+ "version": {
+  "introduced": "1.0",
+  "deprecated": null
+ },
+ "key": "planet"
+}

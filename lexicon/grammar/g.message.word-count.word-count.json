@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.message.word-count.word-count",
+ "orthographic form": "wila",
+ "phonological form": "/wila/",
+ "grammatical category": "word count",
+ "gloss": "WORD-COUNT",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

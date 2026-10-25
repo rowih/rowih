@@ -1,0 +1,38 @@
+{
+ "machine identifier": "lx.000093",
+ "root": "lx.000093",
+ "phonological form": "/ɾeten/",
+ "orthographic form": "reten",
+ "grammatical category": "discourse relation",
+ "sort": "s.relation.bears-on",
+ "semantic type": {
+  "sort": "s.relation.bears-on",
+  "arguments": []
+ },
+ "definition": "the move contrasts with what it names",
+ "semantic primitives": [
+  "s.relation.bears-on"
+ ],
+ "argument structure": [],
+ "derivational behaviour": [],
+ "register": [
+  "R0",
+  "R1",
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7"
+ ],
+ "collocations": [],
+ "synonyms": [],
+ "antonyms": [],
+ "related concepts": [],
+ "examples": [],
+ "version": {
+  "introduced": "0.1",
+  "deprecated": null
+ },
+ "key": "contrasts"
+}

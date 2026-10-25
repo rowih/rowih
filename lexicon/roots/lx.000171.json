@@ -1,0 +1,34 @@
+{
+ "machine identifier": "lx.000171",
+ "root": "lx.000171",
+ "phonological form": "/ɾumal/",
+ "orthographic form": "rumal",
+ "grammatical category": "politeness word",
+ "sort": "s.sort.move",
+ "semantic type": {
+  "sort": "s.sort.move",
+  "arguments": []
+ },
+ "definition": "the move is addressed with elaborate deference, as on an occasion of high formality",
+ "semantic primitives": [
+  "s.sort.move"
+ ],
+ "argument structure": [],
+ "derivational behaviour": [],
+ "register": [
+  "R7"
+ ],
+ "collocations": [],
+ "synonyms": [],
+ "antonyms": [],
+ "related concepts": [],
+ "examples": [],
+ "version": {
+  "introduced": "0.4",
+  "deprecated": null
+ },
+ "key": "deferential",
+ "declared loss": [
+  "relation between participants"
+ ]
+}

@@ -1,0 +1,56 @@
+{
+ "machine identifier": "lx.000194",
+ "root": "lx.000071",
+ "phonological form": "/ɾasaw/",
+ "orthographic form": "rasaw",
+ "grammatical category": "conventional sense",
+ "sort": "s.sort.kind",
+ "semantic type": {
+  "sort": "s.sort.kind",
+  "arguments": [
+   "content"
+  ]
+ },
+ "definition": "what makes a content plain to the one who considers it",
+ "semantic primitives": [
+  "s.sort.kind"
+ ],
+ "argument structure": [
+  {
+   "role": "content",
+   "sort": "s.sort.proposition"
+  }
+ ],
+ "derivational behaviour": [],
+ "register": [
+  "R0",
+  "R1",
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7"
+ ],
+ "collocations": [],
+ "synonyms": [],
+ "antonyms": [],
+ "related concepts": [
+  "lx.000071"
+ ],
+ "examples": [],
+ "version": {
+  "introduced": "0.5",
+  "deprecated": null
+ },
+ "key": "clarity",
+ "sense of": "lx.000071",
+ "frame": {
+  "role": "g.situations-and-contents.participation.content",
+  "filler": "situation"
+ },
+ "motivating mapping": "mp.000006",
+ "kind": "conventional figurative",
+ "constructed history": "Constructed history: what makes a content plain lets it be seen, as light lets a thing be seen, and the light on a content came to mean what makes it plain.",
+ "declared loss": []
+}

@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.force.outcome-of-a-resolution.acceptance",
+ "orthographic form": "komaka",
+ "phonological form": "/komaka/",
+ "grammatical category": "outcome of a resolution",
+ "gloss": "OUTCOME-OF-A-RESOLUTION.ACCEPTANCE",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

@@ -1,0 +1,92 @@
+{
+ "machine identifier": "lx.000408",
+ "root": "lx.000408",
+ "phonological form": "/nuɡamak/",
+ "orthographic form": "nugamak",
+ "grammatical category": "nominal root",
+ "sort": "s.sort.kind",
+ "semantic type": {
+  "sort": "s.sort.kind",
+  "arguments": []
+ },
+ "definition": "how something looks by the light it gives off or reflects",
+ "semantic primitives": [
+  "s.sort.kind"
+ ],
+ "argument structure": [],
+ "derivational behaviour": [
+  {
+   "suffix": "lx.000110",
+   "mechanism": "abstraction",
+   "form": "nugamakusap",
+   "sort": "s.sort.kind",
+   "definition": "what every instance of [how something looks by the light it gives off or reflects] has in common"
+  },
+  {
+   "suffix": "lx.000112",
+   "mechanism": "verbalisation",
+   "form": "nugamakasey",
+   "sort": "s.sort.event",
+   "definition": "act by means of [how something looks by the light it gives off or reflects]"
+  },
+  {
+   "suffix": "lx.000113",
+   "mechanism": "adjectivisation",
+   "form": "nugamakuyik",
+   "sort": "s.sort.state",
+   "definition": "be of the kind [how something looks by the light it gives off or reflects] names"
+  },
+  {
+   "suffix": "lx.000184",
+   "mechanism": "honorific",
+   "form": "nugamakayuk",
+   "sort": "s.sort.kind",
+   "definition": "[how something looks by the light it gives off or reflects], named with deference"
+  }
+ ],
+ "register": [
+  "R0",
+  "R1",
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7"
+ ],
+ "collocations": [],
+ "synonyms": [],
+ "antonyms": [],
+ "related concepts": [
+  {
+   "entry": "lx.000409",
+   "relation": "involved in"
+  },
+  {
+   "entry": "lx.000410",
+   "relation": "involved in"
+  },
+  {
+   "entry": "lx.000411",
+   "relation": "involved in"
+  },
+  {
+   "entry": "lx.000412",
+   "relation": "involved in"
+  },
+  {
+   "entry": "lx.000413",
+   "relation": "involved in"
+  },
+  {
+   "entry": "lx.000414",
+   "relation": "involved in"
+  }
+ ],
+ "examples": [],
+ "version": {
+  "introduced": "1.0",
+  "deprecated": null
+ },
+ "key": "colour"
+}

@@ -1,0 +1,58 @@
+{
+ "machine identifier": "mp.000016",
+ "name": "NEGOTIATION IS A MARKET",
+ "source domain": "a market where goods are bought and sold",
+ "target domain": "a negotiation",
+ "correspondences": [
+  {
+   "source": "a market",
+   "target": "a negotiation"
+  },
+  {
+   "source": "a price",
+   "target": "the terms a party asks"
+  },
+  {
+   "source": "selling water",
+   "target": "charging for what costs the seller nothing"
+  },
+  {
+   "source": "an empty market",
+   "target": "a negotiation in which no party moves"
+  },
+  {
+   "source": "every hand full",
+   "target": "a trade every party gains by"
+  },
+  {
+   "source": "a walking price",
+   "target": "terms that keep changing"
+  },
+  {
+   "source": "a door in a price",
+   "target": "room to move"
+  },
+  {
+   "source": "a gift with a price",
+   "target": "a concession with conditions"
+  },
+  {
+   "source": "prices meeting",
+   "target": "terms both parties accept"
+  }
+ ],
+ "motivates": [
+  "lx.000806",
+  "lx.000807",
+  "lx.000808",
+  "lx.000809",
+  "lx.000810",
+  "lx.000811",
+  "lx.000812",
+  "lx.000866"
+ ],
+ "version": {
+  "introduced": "1.0",
+  "deprecated": null
+ }
+}

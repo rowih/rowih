@@ -1,0 +1,160 @@
+{
+ "machine identifier": "lx.000335",
+ "root": "lx.000335",
+ "phonological form": "/nudekaɡ/",
+ "orthographic form": "nudekag",
+ "grammatical category": "predicate root",
+ "sort": "s.sort.event",
+ "semantic type": {
+  "sort": "s.sort.event",
+  "arguments": [
+   "actor",
+   "undergoer",
+   "recipient"
+  ]
+ },
+ "definition": "give money for goods or work",
+ "semantic primitives": [
+  "s.sort.event"
+ ],
+ "argument structure": [
+  {
+   "role": "actor",
+   "sort": "s.sort.agent"
+  },
+  {
+   "role": "undergoer",
+   "sort": "s.sort.referent"
+  },
+  {
+   "role": "recipient",
+   "sort": "s.sort.agent"
+  }
+ ],
+ "derivational behaviour": [
+  {
+   "suffix": "lx.000096",
+   "mechanism": "agent",
+   "form": "nudekagaheh",
+   "sort": "s.sort.agent",
+   "definition": "the one that is actor of [give money for goods or work]"
+  },
+  {
+   "suffix": "lx.000097",
+   "mechanism": "undergoer",
+   "form": "nudekagudim",
+   "sort": "s.sort.referent",
+   "definition": "the one that undergoes [give money for goods or work]"
+  },
+  {
+   "suffix": "lx.000098",
+   "mechanism": "instrument",
+   "form": "nudekagawen",
+   "sort": "s.sort.referent",
+   "definition": "what [give money for goods or work] is done with"
+  },
+  {
+   "suffix": "lx.000099",
+   "mechanism": "result",
+   "form": "nudekagonar",
+   "sort": "s.sort.state",
+   "definition": "the state [give money for goods or work] brings about"
+  },
+  {
+   "suffix": "lx.000100",
+   "mechanism": "privative",
+   "form": "nudekaganiw",
+   "sort": "s.sort.state",
+   "definition": "the state in which [give money for goods or work] does not hold"
+  },
+  {
+   "suffix": "lx.000108",
+   "mechanism": "process",
+   "form": "nudekagumop",
+   "sort": "s.sort.reified-referent",
+   "definition": "[give money for goods or work], as a process under way, named as a referent"
+  },
+  {
+   "suffix": "lx.000109",
+   "mechanism": "property",
+   "form": "nudekagarur",
+   "sort": "s.sort.kind",
+   "definition": "the property of being as [give money for goods or work] states"
+  },
+  {
+   "suffix": "lx.000111",
+   "mechanism": "nominalisation",
+   "form": "nudekagekoh",
+   "sort": "s.sort.proposition",
+   "definition": "that [give money for goods or work] holds"
+  },
+  {
+   "suffix": "lx.000594",
+   "mechanism": "causative",
+   "form": "nudekagomiw",
+   "sort": "s.sort.event",
+   "definition": "make [give money for goods or work] hold or happen"
+  },
+  {
+   "suffix": "lx.000595",
+   "mechanism": "reversative",
+   "form": "nudekaguhul",
+   "sort": "s.sort.event",
+   "definition": "undo [give money for goods or work], restoring what it changed"
+  },
+  {
+   "suffix": "lx.000596",
+   "mechanism": "repetitive",
+   "form": "nudekaguleg",
+   "sort": "s.sort.event",
+   "definition": "[give money for goods or work], done once more"
+  },
+  {
+   "suffix": "lx.000597",
+   "mechanism": "potential",
+   "form": "nudekaguwot",
+   "sort": "s.sort.state",
+   "definition": "be such that [give money for goods or work] can be done to it"
+  },
+  {
+   "suffix": "lx.000598",
+   "mechanism": "place",
+   "form": "nudekagumuk",
+   "sort": "s.sort.place",
+   "definition": "the place where [give money for goods or work] happens"
+  }
+ ],
+ "register": [
+  "R0",
+  "R1",
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7"
+ ],
+ "collocations": [],
+ "synonyms": [],
+ "antonyms": [],
+ "related concepts": [
+  {
+   "entry": "lx.000332",
+   "relation": "involves"
+  },
+  {
+   "entry": "lx.000334",
+   "relation": "involved in"
+  },
+  {
+   "entry": "lx.000336",
+   "relation": "involved in"
+  }
+ ],
+ "examples": [],
+ "version": {
+  "introduced": "1.0",
+  "deprecated": null
+ },
+ "key": "pay"
+}

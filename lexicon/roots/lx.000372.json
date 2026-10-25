@@ -1,0 +1,96 @@
+{
+ "machine identifier": "lx.000372",
+ "root": "lx.000372",
+ "phonological form": "/nunohab/",
+ "orthographic form": "nunohab",
+ "grammatical category": "nominal root",
+ "sort": "s.sort.kind",
+ "semantic type": {
+  "sort": "s.sort.kind",
+  "arguments": []
+ },
+ "definition": "one of the surfaces or parts that bound something",
+ "semantic primitives": [
+  "s.sort.kind"
+ ],
+ "argument structure": [],
+ "derivational behaviour": [
+  {
+   "suffix": "lx.000110",
+   "mechanism": "abstraction",
+   "form": "nunohabusap",
+   "sort": "s.sort.kind",
+   "definition": "what every instance of [one of the surfaces or parts that bound something] has in common"
+  },
+  {
+   "suffix": "lx.000112",
+   "mechanism": "verbalisation",
+   "form": "nunohabasey",
+   "sort": "s.sort.event",
+   "definition": "act by means of [one of the surfaces or parts that bound something]"
+  },
+  {
+   "suffix": "lx.000113",
+   "mechanism": "adjectivisation",
+   "form": "nunohabuyik",
+   "sort": "s.sort.state",
+   "definition": "be of the kind [one of the surfaces or parts that bound something] names"
+  },
+  {
+   "suffix": "lx.000184",
+   "mechanism": "honorific",
+   "form": "nunohabayuk",
+   "sort": "s.sort.kind",
+   "definition": "[one of the surfaces or parts that bound something], named with deference"
+  }
+ ],
+ "register": [
+  "R0",
+  "R1",
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7"
+ ],
+ "collocations": [],
+ "synonyms": [],
+ "antonyms": [],
+ "related concepts": [
+  {
+   "entry": "lx.000349",
+   "relation": "involved in"
+  },
+  {
+   "entry": "lx.000354",
+   "relation": "involved in"
+  },
+  {
+   "entry": "lx.000355",
+   "relation": "involved in"
+  },
+  {
+   "entry": "lx.000356",
+   "relation": "involved in"
+  },
+  {
+   "entry": "lx.000390",
+   "relation": "involves"
+  },
+  {
+   "entry": "lx.000347",
+   "relation": "involved in"
+  },
+  {
+   "entry": "lx.000348",
+   "relation": "involved in"
+  }
+ ],
+ "examples": [],
+ "version": {
+  "introduced": "1.0",
+  "deprecated": null
+ },
+ "key": "side"
+}

@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.protocol.statement-part.protocol-version",
+ "orthographic form": "yoro",
+ "phonological form": "/joɾo/",
+ "grammatical category": "statement part",
+ "gloss": "PROTOCOL-VERSION",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.10"
+ }
+}

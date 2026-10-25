@@ -1,0 +1,36 @@
+{
+ "code": "R6",
+ "name": "playful",
+ "member": "g.ambiguity-and-figures.register.playful",
+ "use": "humour and play",
+ "modes admitted": [
+  "normal expression",
+  "idiom",
+  "creative expression"
+ ],
+ "devices admitted": [
+  "declared defaults",
+  "inheritance",
+  "conventional expressions",
+  "idioms",
+  "marked figures",
+  "creative ambiguity"
+ ],
+ "precision-bound by default": false,
+ "settings": {
+  "vocabulary": "informal",
+  "morphology": "full",
+  "syntax": "marked",
+  "ellipsis": "declared defaults, inheritance",
+  "politeness": "familiar",
+  "discourse structure": "loose",
+  "compression": "conventional expressions, idioms, marked figures",
+  "prosody": "expressive",
+  "orthography": "native"
+ },
+ "vocabulary": "informal",
+ "politeness word": "familiar",
+ "formulas admitted": true,
+ "order": "free",
+ "maxima": "language/protocol.json"
+}

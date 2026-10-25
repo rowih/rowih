@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.time.time-relation.before",
+ "orthographic form": "dinago",
+ "phonological form": "/dinaɡo/",
+ "grammatical category": "time relation",
+ "gloss": "BEFORE",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

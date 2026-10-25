@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.time.time-relation.meets",
+ "orthographic form": "dimuki",
+ "phonological form": "/dimuki/",
+ "grammatical category": "time relation",
+ "gloss": "MEETS",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

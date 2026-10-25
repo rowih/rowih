@@ -1,0 +1,38 @@
+{
+ "machine identifier": "lx.000092",
+ "root": "lx.000092",
+ "phonological form": "/ɾikih/",
+ "orthographic form": "rikih",
+ "grammatical category": "discourse relation",
+ "sort": "s.relation.bears-on",
+ "semantic type": {
+  "sort": "s.relation.bears-on",
+  "arguments": []
+ },
+ "definition": "the move restates what it names",
+ "semantic primitives": [
+  "s.relation.bears-on"
+ ],
+ "argument structure": [],
+ "derivational behaviour": [],
+ "register": [
+  "R0",
+  "R1",
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7"
+ ],
+ "collocations": [],
+ "synonyms": [],
+ "antonyms": [],
+ "related concepts": [],
+ "examples": [],
+ "version": {
+  "introduced": "0.1",
+  "deprecated": null
+ },
+ "key": "restates"
+}

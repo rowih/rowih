@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.ambiguity-and-figures.figurative-type.metaphor",
+ "orthographic form": "suye",
+ "phonological form": "/suje/",
+ "grammatical category": "figurative type",
+ "gloss": "METAPHOR",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.attitudes-and-aims.kind-of-attitude.preference",
+ "orthographic form": "peni",
+ "phonological form": "/peni/",
+ "grammatical category": "kind of attitude",
+ "gloss": "PREFERENCE",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

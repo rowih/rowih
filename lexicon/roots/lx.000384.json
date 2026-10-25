@@ -1,0 +1,80 @@
+{
+ "machine identifier": "lx.000384",
+ "root": "lx.000384",
+ "phonological form": "/nutoɾop/",
+ "orthographic form": "nutorop",
+ "grammatical category": "nominal root",
+ "sort": "s.sort.object",
+ "semantic type": {
+  "sort": "s.sort.object",
+  "arguments": []
+ },
+ "definition": "a long thin mark or edge",
+ "semantic primitives": [
+  "s.sort.object"
+ ],
+ "argument structure": [],
+ "derivational behaviour": [
+  {
+   "suffix": "lx.000110",
+   "mechanism": "abstraction",
+   "form": "nutoropusap",
+   "sort": "s.sort.kind",
+   "definition": "what every instance of [a long thin mark or edge] has in common"
+  },
+  {
+   "suffix": "lx.000112",
+   "mechanism": "verbalisation",
+   "form": "nutoropasey",
+   "sort": "s.sort.event",
+   "definition": "act by means of [a long thin mark or edge]"
+  },
+  {
+   "suffix": "lx.000113",
+   "mechanism": "adjectivisation",
+   "form": "nutoropuyik",
+   "sort": "s.sort.state",
+   "definition": "be of the kind [a long thin mark or edge] names"
+  },
+  {
+   "suffix": "lx.000184",
+   "mechanism": "honorific",
+   "form": "nutoropayuk",
+   "sort": "s.sort.object",
+   "definition": "[a long thin mark or edge], named with deference"
+  }
+ ],
+ "register": [
+  "R0",
+  "R1",
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7"
+ ],
+ "collocations": [],
+ "synonyms": [],
+ "antonyms": [],
+ "related concepts": [
+  {
+   "entry": "lx.000383",
+   "relation": "has kind"
+  },
+  {
+   "entry": "lx.000257",
+   "relation": "involved in"
+  },
+  {
+   "entry": "lx.000382",
+   "relation": "involved in"
+  }
+ ],
+ "examples": [],
+ "version": {
+  "introduced": "1.0",
+  "deprecated": null
+ },
+ "key": "line"
+}

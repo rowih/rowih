@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.force.authority-claimed.on-behalf-of-a-named-principal",
+ "orthographic form": "kesigu",
+ "phonological form": "/kesiɡu/",
+ "grammatical category": "authority claimed",
+ "gloss": "ON-BEHALF-OF-A-NAMED-PRINCIPAL",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

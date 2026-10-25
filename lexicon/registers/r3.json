@@ -1,0 +1,35 @@
+{
+ "code": "R3",
+ "name": "explanatory",
+ "member": "g.ambiguity-and-figures.register.explanatory",
+ "use": "explanation to a human reader",
+ "modes admitted": [
+  "full explicitness",
+  "normal expression",
+  "creative expression"
+ ],
+ "devices admitted": [
+  "declared defaults",
+  "inheritance",
+  "conventional expressions",
+  "marked figures",
+  "creative ambiguity"
+ ],
+ "precision-bound by default": false,
+ "settings": {
+  "vocabulary": "plain",
+  "morphology": "full",
+  "syntax": "free",
+  "ellipsis": "declared defaults, inheritance",
+  "politeness": "courteous",
+  "discourse structure": "signposted",
+  "compression": "conventional expressions, marked figures",
+  "prosody": "expressive",
+  "orthography": "native"
+ },
+ "vocabulary": null,
+ "politeness word": "courteous",
+ "formulas admitted": true,
+ "order": "free",
+ "maxima": "language/protocol.json"
+}

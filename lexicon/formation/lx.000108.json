@@ -1,0 +1,39 @@
+{
+ "machine identifier": "lx.000108",
+ "root": "lx.000108",
+ "phonological form": "/-umop/",
+ "orthographic form": "umop",
+ "grammatical category": "derivational suffix",
+ "sort": "s.sort.reified-referent",
+ "semantic type": {
+  "sort": "s.sort.reified-referent",
+  "arguments": []
+ },
+ "definition": "the base, as a process under way, named as a referent",
+ "semantic primitives": [
+  "s.sort.reified-referent"
+ ],
+ "argument structure": [],
+ "derivational behaviour": [],
+ "register": [
+  "R0",
+  "R1",
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7"
+ ],
+ "collocations": [],
+ "synonyms": [],
+ "antonyms": [],
+ "related concepts": [],
+ "examples": [],
+ "version": {
+  "introduced": "0.3",
+  "deprecated": null
+ },
+ "key": "process",
+ "base": "predicate"
+}

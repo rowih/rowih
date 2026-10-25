@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.numbers.check-word.check-2",
+ "orthographic form": "yagi",
+ "phonological form": "/jaɡi/",
+ "grammatical category": "check word",
+ "gloss": "CHECK-2",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

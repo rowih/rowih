@@ -1,0 +1,54 @@
+{
+ "machine identifier": "lx.000125",
+ "root": "lx.000125",
+ "phonological form": "/kupewa/",
+ "orthographic form": "kupewa",
+ "grammatical category": "act word",
+ "sort": "s.sort.move",
+ "semantic type": {
+  "sort": "s.sort.move",
+  "arguments": []
+ },
+ "definition": "the conventional expression of declaration (assigning a role): SETTING ROLE",
+ "semantic primitives": [
+  "s.sort.move"
+ ],
+ "argument structure": [],
+ "derivational behaviour": [],
+ "register": [
+  "R0",
+  "R1",
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7"
+ ],
+ "collocations": [],
+ "synonyms": [],
+ "antonyms": [],
+ "related concepts": [],
+ "examples": [],
+ "version": {
+  "introduced": "0.3",
+  "deprecated": null
+ },
+ "key": "role assignment",
+ "expansion": [
+  "g.force.what-the-move-adds.setting",
+  "g.force.kind-of-setting.role"
+ ],
+ "acts": [
+  "declaration (assigning a role)"
+ ],
+ "answers": null,
+ "kind": "encoding, grammatical",
+ "route": "compression",
+ "literal structure": "kupewa",
+ "decomposition": [],
+ "pragmatic conditions": "wherever the head it expands may be written",
+ "usage restrictions": "none",
+ "declared loss": [],
+ "constructed history": "Constructed history: the head SETTING ROLE, frequent enough to be said as one word, shortened to the force word that now stands for it."
+}

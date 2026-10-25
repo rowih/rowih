@@ -1,0 +1,56 @@
+{
+ "machine identifier": "lx.000670",
+ "root": "lx.000670",
+ "phonological form": "/nuɾokoh nuduɡus/",
+ "orthographic form": "nurokoh nudugus",
+ "grammatical category": "idiom",
+ "sort": "s.sort.situation",
+ "semantic type": {
+  "sort": "s.sort.situation",
+  "arguments": []
+ },
+ "definition": "once what the slot names is done, neither participant can put right what it changes",
+ "semantic primitives": [
+  "s.sort.situation"
+ ],
+ "argument structure": [],
+ "derivational behaviour": [],
+ "register": [
+  "R0",
+  "R1",
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7"
+ ],
+ "collocations": [],
+ "synonyms": [],
+ "antonyms": [],
+ "related concepts": [],
+ "examples": [],
+ "version": {
+  "introduced": "1.0",
+  "deprecated": null
+ },
+ "key": "no way back",
+ "class": "warnings",
+ "kind": "encoding, grammatical",
+ "route": "formula",
+ "literal structure": "(situation return POLARITY.NEGATIVE (UNDERGOER (slot 1)) (CONTENT (term path)))",
+ "expansion": "(situation capable POLARITY.NEGATIVE (HOLDER (term INCLUSIVE-COLLECTIVE READING-OF-A-COLLECTIVE.JOINT)) (CONTENT (situation repair (UNDERGOER (slot 1)))))",
+ "decomposition": [
+  {
+   "slot": 1,
+   "literal role": "UNDERGOER",
+   "expansion role": "UNDERGOER"
+  }
+ ],
+ "pragmatic conditions": "before an action that cannot be undone",
+ "usage restrictions": "none",
+ "declared loss": [
+  "stance"
+ ],
+ "constructed history": "Constructed history: what could not be undone was said to have no path back, and naming it so warned before it was done."
+}

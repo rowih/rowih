@@ -1,0 +1,12 @@
+{
+ "machine identifier": "g.standing.basis.observation",
+ "orthographic form": "teyuhu",
+ "phonological form": "/tejuhu/",
+ "grammatical category": "basis",
+ "gloss": "OBSERVATION",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ },
+ "tier": 1
+}

@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.situations-and-contents.connective.equivalence",
+ "orthographic form": "giri",
+ "phonological form": "/ɡiɾi/",
+ "grammatical category": "connective",
+ "gloss": "EQUIVALENCE",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

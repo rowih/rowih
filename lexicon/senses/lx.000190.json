@@ -1,0 +1,61 @@
+{
+ "machine identifier": "lx.000190",
+ "root": "lx.000056",
+ "phonological form": "/ɾemoj/",
+ "orthographic form": "remoy",
+ "grammatical category": "conventional sense",
+ "sort": "s.sort.event",
+ "semantic type": {
+  "sort": "s.sort.event",
+  "arguments": [
+   "undergoer",
+   "content"
+  ]
+ },
+ "definition": "come to hold a content as the end of one's reasoning",
+ "semantic primitives": [
+  "s.sort.event"
+ ],
+ "argument structure": [
+  {
+   "role": "undergoer",
+   "sort": "s.sort.agent"
+  },
+  {
+   "role": "content",
+   "sort": "s.sort.proposition"
+  }
+ ],
+ "derivational behaviour": [],
+ "register": [
+  "R0",
+  "R1",
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7"
+ ],
+ "collocations": [],
+ "synonyms": [],
+ "antonyms": [],
+ "related concepts": [
+  "lx.000056"
+ ],
+ "examples": [],
+ "version": {
+  "introduced": "0.5",
+  "deprecated": null
+ },
+ "key": "conclude",
+ "sense of": "lx.000056",
+ "frame": {
+  "role": "g.situations-and-contents.participation.content",
+  "filler": "situation"
+ },
+ "motivating mapping": "mp.000002",
+ "kind": "conventional figurative",
+ "constructed history": "Constructed history: reasoning was said to travel from its premises to what follows, as a message travels a network from node to node, and the content an inference reaches came to be the place it arrives at.",
+ "declared loss": []
+}

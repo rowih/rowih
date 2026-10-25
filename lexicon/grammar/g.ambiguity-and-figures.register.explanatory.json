@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.ambiguity-and-figures.register.explanatory",
+ "orthographic form": "lowa",
+ "phonological form": "/lowa/",
+ "grammatical category": "register",
+ "gloss": "EXPLANATORY",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.6"
+ }
+}

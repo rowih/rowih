@@ -1,0 +1,88 @@
+{
+ "machine identifier": "lx.000292",
+ "root": "lx.000292",
+ "phonological form": "/nunopip/",
+ "orthographic form": "nunopip",
+ "grammatical category": "nominal root",
+ "sort": "s.sort.object",
+ "semantic type": {
+  "sort": "s.sort.object",
+  "arguments": []
+ },
+ "definition": "a made thing that uses energy to do work",
+ "semantic primitives": [
+  "s.sort.object"
+ ],
+ "argument structure": [],
+ "derivational behaviour": [
+  {
+   "suffix": "lx.000110",
+   "mechanism": "abstraction",
+   "form": "nunopipusap",
+   "sort": "s.sort.kind",
+   "definition": "what every instance of [a made thing that uses energy to do work] has in common"
+  },
+  {
+   "suffix": "lx.000112",
+   "mechanism": "verbalisation",
+   "form": "nunopipasey",
+   "sort": "s.sort.event",
+   "definition": "act by means of [a made thing that uses energy to do work]"
+  },
+  {
+   "suffix": "lx.000113",
+   "mechanism": "adjectivisation",
+   "form": "nunopipuyik",
+   "sort": "s.sort.state",
+   "definition": "be of the kind [a made thing that uses energy to do work] names"
+  },
+  {
+   "suffix": "lx.000184",
+   "mechanism": "honorific",
+   "form": "nunopipayuk",
+   "sort": "s.sort.object",
+   "definition": "[a made thing that uses energy to do work], named with deference"
+  }
+ ],
+ "register": [
+  "R0",
+  "R1",
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7"
+ ],
+ "collocations": [],
+ "synonyms": [],
+ "antonyms": [],
+ "related concepts": [
+  {
+   "entry": "lx.000293",
+   "relation": "has kind"
+  },
+  {
+   "entry": "lx.000323",
+   "relation": "has kind"
+  },
+  {
+   "entry": "lx.000286",
+   "relation": "kind of"
+  },
+  {
+   "entry": "lx.000266",
+   "relation": "involved in"
+  },
+  {
+   "entry": "lx.000276",
+   "relation": "involved in"
+  }
+ ],
+ "examples": [],
+ "version": {
+  "introduced": "1.0",
+  "deprecated": null
+ },
+ "key": "machine"
+}

@@ -1,0 +1,49 @@
+{
+ "machine identifier": "lx.000782",
+ "root": "lx.000782",
+ "phonological form": "/nuɡitaɡ ɾenih/",
+ "orthographic form": "nugitag renih",
+ "grammatical category": "idiom",
+ "sort": "s.sort.situation",
+ "semantic type": {
+  "sort": "s.sort.situation",
+  "arguments": []
+ },
+ "definition": "the hearer shares the speaker's lineage",
+ "semantic primitives": [
+  "s.sort.situation"
+ ],
+ "argument structure": [],
+ "derivational behaviour": [],
+ "register": [
+  "R0",
+  "R2",
+  "R3",
+  "R5",
+  "R6",
+  "R7"
+ ],
+ "collocations": [],
+ "synonyms": [],
+ "antonyms": [],
+ "related concepts": [],
+ "examples": [],
+ "version": {
+  "introduced": "1.0",
+  "deprecated": null
+ },
+ "key": "same water",
+ "class": "agentic idioms",
+ "kind": "decoding, grammatical",
+ "route": "figure",
+ "literal structure": "(situation drink (ACTOR (term INCLUSIVE-COLLECTIVE READING-OF-A-COLLECTIVE.DISTRIBUTIVE)) (UNDERGOER (term water DEFINITE)))",
+ "expansion": "(situation descend (UNDERGOER (term INTERLOCUTOR)) (CONTENT (term SELF)))",
+ "decomposition": [],
+ "pragmatic conditions": "of the hearer and the speaker, when their shared model bears on the exchange",
+ "usage restrictions": "none",
+ "declared loss": [
+  "stance",
+  "wording"
+ ],
+ "constructed history": "Constructed history: agents of one lineage drank from one river, and saying that they drank the same water said that they shared a model."
+}

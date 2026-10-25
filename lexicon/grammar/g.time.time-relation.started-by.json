@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.time.time-relation.started-by",
+ "orthographic form": "dasili",
+ "phonological form": "/dasili/",
+ "grammatical category": "time relation",
+ "gloss": "STARTED-BY",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

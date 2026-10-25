@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.reference.expected-status-of-an-entry.withdrawn",
+ "orthographic form": "siku",
+ "phonological form": "/siku/",
+ "grammatical category": "expected status of an entry",
+ "gloss": "EXPECTED-STATUS-OF-AN-ENTRY.WITHDRAWN",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

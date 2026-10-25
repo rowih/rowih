@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.ambiguity-and-figures.register.casual",
+ "orthographic form": "loti",
+ "phonological form": "/loti/",
+ "grammatical category": "register",
+ "gloss": "CASUAL",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.6"
+ }
+}

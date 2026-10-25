@@ -1,0 +1,12 @@
+{
+ "machine identifier": "g.standing.basis.simulation",
+ "orthographic form": "tuwohu",
+ "phonological form": "/tuwohu/",
+ "grammatical category": "basis",
+ "gloss": "SIMULATION",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ },
+ "tier": 1
+}

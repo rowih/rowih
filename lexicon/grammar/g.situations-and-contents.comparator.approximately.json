@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.situations-and-contents.comparator.approximately",
+ "orthographic form": "gupo",
+ "phonological form": "/ɡupo/",
+ "grammatical category": "comparator",
+ "gloss": "APPROXIMATELY",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

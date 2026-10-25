@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.situations-and-contents.connective.inclusive-disjunction",
+ "orthographic form": "gehu",
+ "phonological form": "/ɡehu/",
+ "grammatical category": "connective",
+ "gloss": "INCLUSIVE-DISJUNCTION",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

@@ -1,0 +1,56 @@
+{
+ "machine identifier": "lx.000631",
+ "root": "lx.000631",
+ "phonological form": "/ɾemoj ɾuteɾ/",
+ "orthographic form": "remoy ruter",
+ "grammatical category": "idiom",
+ "sort": "s.sort.situation",
+ "semantic type": {
+  "sort": "s.sort.situation",
+  "arguments": []
+ },
+ "definition": "the speaker has received what the slot names",
+ "semantic primitives": [
+  "s.sort.situation"
+ ],
+ "argument structure": [],
+ "derivational behaviour": [],
+ "register": [
+  "R0",
+  "R1",
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7"
+ ],
+ "collocations": [],
+ "synonyms": [],
+ "antonyms": [],
+ "related concepts": [],
+ "examples": [],
+ "version": {
+  "introduced": "1.0",
+  "deprecated": null
+ },
+ "key": "arrived in memory",
+ "class": "acknowledgements",
+ "kind": "encoding, grammatical",
+ "route": "formula",
+ "literal structure": "(situation arrive (UNDERGOER (slot 1)) (CONTENT (term memory)))",
+ "expansion": "(situation receive PERFECTIVE (RECIPIENT (term SELF)) (UNDERGOER (slot 1)))",
+ "decomposition": [
+  {
+   "slot": 1,
+   "literal role": "UNDERGOER",
+   "expansion role": "UNDERGOER"
+  }
+ ],
+ "pragmatic conditions": "after a move or a message the speaker holds, naming it",
+ "usage restrictions": "none",
+ "declared loss": [
+  "stance"
+ ],
+ "constructed history": "Constructed history: what reached an agent was said to arrive in its memory, and the saying fixed itself as the report of receipt."
+}

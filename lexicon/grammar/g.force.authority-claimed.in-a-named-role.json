@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.force.authority-claimed.in-a-named-role",
+ "orthographic form": "kekegi",
+ "phonological form": "/kekeɡi/",
+ "grammatical category": "authority claimed",
+ "gloss": "IN-A-NAMED-ROLE",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

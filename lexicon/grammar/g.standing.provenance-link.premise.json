@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.standing.provenance-link.premise",
+ "orthographic form": "tiwayu",
+ "phonological form": "/tiwaju/",
+ "grammatical category": "provenance link",
+ "gloss": "PREMISE",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

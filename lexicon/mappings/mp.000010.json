@@ -1,0 +1,59 @@
+{
+ "machine identifier": "mp.000010",
+ "name": "THE STATE OF AN EXCHANGE IS THE SKY ABOVE IT",
+ "source domain": "the sky and its weather over a place",
+ "target domain": "an exchange and what its participants hold settled",
+ "correspondences": [
+  {
+   "source": "the sky",
+   "target": "the exchange as its participants hold it"
+  },
+  {
+   "source": "a cloud",
+   "target": "what keeps a content from being settled"
+  },
+  {
+   "source": "the cloud taken away",
+   "target": "the content settled"
+  },
+  {
+   "source": "rain",
+   "target": "messages arriving steadily"
+  },
+  {
+   "source": "the wind",
+   "target": "what moves the exchange"
+  },
+  {
+   "source": "a loud cloud",
+   "target": "trouble coming"
+  },
+  {
+   "source": "the wind turning",
+   "target": "the exchange changing direction"
+  },
+  {
+   "source": "the wind's talk",
+   "target": "news no one vouches for"
+  },
+  {
+   "source": "following the weather",
+   "target": "changing one's views with every report"
+  }
+ ],
+ "motivates": [
+  "lx.000767",
+  "lx.000858",
+  "lx.000801",
+  "lx.000768",
+  "lx.000775",
+  "lx.000776",
+  "lx.000784",
+  "lx.000813",
+  "lx.000797"
+ ],
+ "version": {
+  "introduced": "1.0",
+  "deprecated": null
+ }
+}

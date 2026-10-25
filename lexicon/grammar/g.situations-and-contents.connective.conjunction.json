@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.situations-and-contents.connective.conjunction",
+ "orthographic form": "gewo",
+ "phonological form": "/ɡewo/",
+ "grammatical category": "connective",
+ "gloss": "CONJUNCTION",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

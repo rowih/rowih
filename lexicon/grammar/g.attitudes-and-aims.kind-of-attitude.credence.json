@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.attitudes-and-aims.kind-of-attitude.credence",
+ "orthographic form": "pade",
+ "phonological form": "/pade/",
+ "grammatical category": "kind of attitude",
+ "gloss": "CREDENCE",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

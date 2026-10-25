@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.time.time-index.validity-interval",
+ "orthographic form": "dorude",
+ "phonological form": "/doɾude/",
+ "grammatical category": "time index",
+ "gloss": "VALIDITY-INTERVAL",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

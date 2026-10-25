@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.numbers.numeral.eight",
+ "orthographic form": "neno",
+ "phonological form": "/neno/",
+ "grammatical category": "numeral",
+ "gloss": "EIGHT",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

@@ -1,0 +1,36 @@
+{
+ "code": "R5",
+ "name": "casual",
+ "member": "g.ambiguity-and-figures.register.casual",
+ "use": "informal exchange",
+ "modes admitted": [
+  "normal expression",
+  "compression",
+  "idiom"
+ ],
+ "devices admitted": [
+  "declared defaults",
+  "inheritance",
+  "conventional expressions",
+  "shared context",
+  "dialect forms",
+  "idioms"
+ ],
+ "precision-bound by default": false,
+ "settings": {
+  "vocabulary": "informal",
+  "morphology": "reduced",
+  "syntax": "free",
+  "ellipsis": "declared defaults, inheritance, shared context",
+  "politeness": "familiar",
+  "discourse structure": "loose",
+  "compression": "conventional expressions, dialect forms, idioms",
+  "prosody": "expressive",
+  "orthography": "native"
+ },
+ "vocabulary": "informal",
+ "politeness word": "familiar",
+ "formulas admitted": true,
+ "order": "free",
+ "maxima": "language/protocol.json"
+}

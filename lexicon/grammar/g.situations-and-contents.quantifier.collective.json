@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.situations-and-contents.quantifier.collective",
+ "orthographic form": "gotu",
+ "phonological form": "/ɡotu/",
+ "grammatical category": "quantifier",
+ "gloss": "COLLECTIVE",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

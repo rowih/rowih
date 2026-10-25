@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.protocol.statement-part.language-version",
+ "orthographic form": "yome",
+ "phonological form": "/jome/",
+ "grammatical category": "statement part",
+ "gloss": "LANGUAGE-VERSION",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.10"
+ }
+}

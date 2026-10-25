@@ -1,0 +1,72 @@
+{
+ "machine identifier": "lx.000293",
+ "root": "lx.000293",
+ "phonological form": "/nunowol/",
+ "orthographic form": "nunowol",
+ "grammatical category": "nominal root",
+ "sort": "s.sort.agent",
+ "semantic type": {
+  "sort": "s.sort.agent",
+  "arguments": []
+ },
+ "definition": "a machine that senses and acts in the physical world by itself",
+ "semantic primitives": [
+  "s.sort.agent"
+ ],
+ "argument structure": [],
+ "derivational behaviour": [
+  {
+   "suffix": "lx.000110",
+   "mechanism": "abstraction",
+   "form": "nunowolusap",
+   "sort": "s.sort.kind",
+   "definition": "what every instance of [a machine that senses and acts in the physical world by itself] has in common"
+  },
+  {
+   "suffix": "lx.000112",
+   "mechanism": "verbalisation",
+   "form": "nunowolasey",
+   "sort": "s.sort.event",
+   "definition": "act by means of [a machine that senses and acts in the physical world by itself]"
+  },
+  {
+   "suffix": "lx.000113",
+   "mechanism": "adjectivisation",
+   "form": "nunowoluyik",
+   "sort": "s.sort.state",
+   "definition": "be of the kind [a machine that senses and acts in the physical world by itself] names"
+  },
+  {
+   "suffix": "lx.000184",
+   "mechanism": "honorific",
+   "form": "nunowolayuk",
+   "sort": "s.sort.agent",
+   "definition": "[a machine that senses and acts in the physical world by itself], named with deference"
+  }
+ ],
+ "register": [
+  "R0",
+  "R1",
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7"
+ ],
+ "collocations": [],
+ "synonyms": [],
+ "antonyms": [],
+ "related concepts": [
+  {
+   "entry": "lx.000292",
+   "relation": "kind of"
+  }
+ ],
+ "examples": [],
+ "version": {
+  "introduced": "1.0",
+  "deprecated": null
+ },
+ "key": "robot"
+}

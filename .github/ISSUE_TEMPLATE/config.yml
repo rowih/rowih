@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: A weakness in a guarantee, or a security defect
+    url: https://github.com/rowih/rowih/security/advisories/new
+    about: Report it privately, as SECURITY.md describes, and not in an issue.
+  - name: The specification
+    url: https://github.com/rowih/rowih/blob/main/specification/README.md
+    about: The language as released, with its guarantees and its known limitations.

@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.standing.provenance-link.source",
+ "orthographic form": "tihidi",
+ "phonological form": "/tihidi/",
+ "grammatical category": "provenance link",
+ "gloss": "SOURCE",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

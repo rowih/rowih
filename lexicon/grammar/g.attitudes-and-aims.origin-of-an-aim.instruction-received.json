@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.attitudes-and-aims.origin-of-an-aim.instruction-received",
+ "orthographic form": "piyu",
+ "phonological form": "/piju/",
+ "grammatical category": "origin of an aim",
+ "gloss": "INSTRUCTION-RECEIVED",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

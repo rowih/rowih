@@ -1,0 +1,23 @@
+{
+ "machine identifier": "mp.000023",
+ "name": "A SPREADING FAULT IS FIRE",
+ "source domain": "fire",
+ "target domain": "faults in a system",
+ "correspondences": [
+  {
+   "source": "fire",
+   "target": "a fault"
+  },
+  {
+   "source": "fire moving",
+   "target": "a fault spreading to other parts"
+  }
+ ],
+ "motivates": [
+  "lx.000822"
+ ],
+ "version": {
+  "introduced": "1.0",
+  "deprecated": null
+ }
+}

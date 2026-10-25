@@ -1,0 +1,49 @@
+{
+ "machine identifier": "lx.000807",
+ "root": "lx.000807",
+ "phonological form": "/nujodon nulonoh/",
+ "orthographic form": "nuyodon nulonoh",
+ "grammatical category": "idiom",
+ "sort": "s.sort.situation",
+ "semantic type": {
+  "sort": "s.sort.situation",
+  "arguments": []
+ },
+ "definition": "the negotiation does not go forward",
+ "semantic primitives": [
+  "s.sort.situation"
+ ],
+ "argument structure": [],
+ "derivational behaviour": [],
+ "register": [
+  "R0",
+  "R2",
+  "R3",
+  "R5",
+  "R6",
+  "R7"
+ ],
+ "collocations": [],
+ "synonyms": [],
+ "antonyms": [],
+ "related concepts": [],
+ "examples": [],
+ "version": {
+  "introduced": "1.0",
+  "deprecated": null
+ },
+ "key": "empty market",
+ "class": "negotiation idioms",
+ "kind": "decoding, grammatical",
+ "route": "figure",
+ "literal structure": "(situation empty (UNDERGOER (term market)))",
+ "expansion": "(situation progress POLARITY.NEGATIVE (UNDERGOER (situation trade (ACTOR (term INCLUSIVE-COLLECTIVE READING-OF-A-COLLECTIVE.JOINT)))))",
+ "decomposition": [],
+ "pragmatic conditions": "of a negotiation in which neither party has moved for a while",
+ "usage restrictions": "none",
+ "declared loss": [
+  "stance",
+  "wording"
+ ],
+ "constructed history": "Constructed history: a market where no one was buying or selling stood empty."
+}

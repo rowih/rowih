@@ -1,0 +1,92 @@
+{
+ "machine identifier": "lx.000391",
+ "root": "lx.000391",
+ "phonological form": "/numeset/",
+ "orthographic form": "numeset",
+ "grammatical category": "nominal root",
+ "sort": "s.sort.kind",
+ "semantic type": {
+  "sort": "s.sort.kind",
+  "arguments": []
+ },
+ "definition": "the way something faces or moves",
+ "semantic primitives": [
+  "s.sort.kind"
+ ],
+ "argument structure": [],
+ "derivational behaviour": [
+  {
+   "suffix": "lx.000110",
+   "mechanism": "abstraction",
+   "form": "numesetusap",
+   "sort": "s.sort.kind",
+   "definition": "what every instance of [the way something faces or moves] has in common"
+  },
+  {
+   "suffix": "lx.000112",
+   "mechanism": "verbalisation",
+   "form": "numesetasey",
+   "sort": "s.sort.event",
+   "definition": "act by means of [the way something faces or moves]"
+  },
+  {
+   "suffix": "lx.000113",
+   "mechanism": "adjectivisation",
+   "form": "numesetuyik",
+   "sort": "s.sort.state",
+   "definition": "be of the kind [the way something faces or moves] names"
+  },
+  {
+   "suffix": "lx.000184",
+   "mechanism": "honorific",
+   "form": "numesetayuk",
+   "sort": "s.sort.kind",
+   "definition": "[the way something faces or moves], named with deference"
+  }
+ ],
+ "register": [
+  "R0",
+  "R1",
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7"
+ ],
+ "collocations": [],
+ "synonyms": [],
+ "antonyms": [],
+ "related concepts": [
+  {
+   "entry": "lx.000357",
+   "relation": "has kind"
+  },
+  {
+   "entry": "lx.000358",
+   "relation": "has kind"
+  },
+  {
+   "entry": "lx.000359",
+   "relation": "has kind"
+  },
+  {
+   "entry": "lx.000360",
+   "relation": "has kind"
+  },
+  {
+   "entry": "lx.000303",
+   "relation": "involved in"
+  },
+  {
+   "entry": "lx.000874",
+   "relation": "involves"
+  }
+ ],
+ "examples": [],
+ "version": {
+  "introduced": "1.0",
+  "deprecated": null
+ },
+ "key": "direction"
+}

@@ -1,0 +1,33 @@
+{
+ "machine identifier": "mp.000014",
+ "name": "A HARD PROBLEM IS A MOUNTAIN",
+ "source domain": "a mountain to be climbed",
+ "target domain": "a hard problem",
+ "correspondences": [
+  {
+   "source": "a mountain",
+   "target": "a hard problem"
+  },
+  {
+   "source": "its top",
+   "target": "the solution"
+  },
+  {
+   "source": "a mountain hidden behind another",
+   "target": "a problem that solving another reveals"
+  },
+  {
+   "source": "a small mountain",
+   "target": "a problem smaller than it looked"
+  }
+ ],
+ "motivates": [
+  "lx.000814",
+  "lx.000815",
+  "lx.000862"
+ ],
+ "version": {
+  "introduced": "1.0",
+  "deprecated": null
+ }
+}

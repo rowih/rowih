@@ -1,0 +1,56 @@
+{
+ "machine identifier": "lx.000119",
+ "root": "lx.000119",
+ "phonological form": "/kolide/",
+ "orthographic form": "kolide",
+ "grammatical category": "act word",
+ "sort": "s.sort.move",
+ "semantic type": {
+  "sort": "s.sort.move",
+  "arguments": []
+ },
+ "definition": "the conventional expression of promise, commitment (commissive, general): NORMATIVE-ENTRY COMMITMENT BOUND",
+ "semantic primitives": [
+  "s.sort.move"
+ ],
+ "argument structure": [],
+ "derivational behaviour": [],
+ "register": [
+  "R0",
+  "R1",
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7"
+ ],
+ "collocations": [],
+ "synonyms": [],
+ "antonyms": [],
+ "related concepts": [],
+ "examples": [],
+ "version": {
+  "introduced": "0.3",
+  "deprecated": null
+ },
+ "key": "promise",
+ "expansion": [
+  "g.force.what-the-move-adds.normative-entry",
+  "g.force.kind-of-normative-entry.commitment",
+  "g.force.bindingness.bound"
+ ],
+ "acts": [
+  "promise",
+  "commitment (commissive, general)"
+ ],
+ "answers": null,
+ "kind": "encoding, grammatical",
+ "route": "compression",
+ "literal structure": "kolide",
+ "decomposition": [],
+ "pragmatic conditions": "wherever the head it expands may be written",
+ "usage restrictions": "none",
+ "declared loss": [],
+ "constructed history": "Constructed history: the head NORMATIVE-ENTRY COMMITMENT BOUND, frequent enough to be said as one word, shortened to the force word that now stands for it."
+}

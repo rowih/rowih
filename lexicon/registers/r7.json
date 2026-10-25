@@ -1,0 +1,34 @@
+{
+ "code": "R7",
+ "name": "ceremonial",
+ "member": "g.ambiguity-and-figures.register.ceremonial",
+ "use": "occasions of high formality",
+ "modes admitted": [
+  "full explicitness",
+  "normal expression",
+  "idiom"
+ ],
+ "devices admitted": [
+  "declared defaults",
+  "inheritance",
+  "conventional expressions",
+  "idioms"
+ ],
+ "precision-bound by default": false,
+ "settings": {
+  "vocabulary": "ornamental",
+  "morphology": "honorific",
+  "syntax": "marked",
+  "ellipsis": "declared defaults, inheritance",
+  "politeness": "elaborate",
+  "discourse structure": "formulaic openings and closings",
+  "compression": "conventional expressions, idioms",
+  "prosody": "measured",
+  "orthography": "native, ceremonial forms"
+ },
+ "vocabulary": "ornamental",
+ "politeness word": "deferential",
+ "formulas admitted": true,
+ "order": "free",
+ "maxima": "language/protocol.json"
+}

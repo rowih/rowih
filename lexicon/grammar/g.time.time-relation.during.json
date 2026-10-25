@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.time.time-relation.during",
+ "orthographic form": "dolopi",
+ "phonological form": "/dolopi/",
+ "grammatical category": "time relation",
+ "gloss": "DURING",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

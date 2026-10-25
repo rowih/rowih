@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.force.kind-of-normative-entry.permission",
+ "orthographic form": "kunehu",
+ "phonological form": "/kunehu/",
+ "grammatical category": "kind of normative entry",
+ "gloss": "PERMISSION",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

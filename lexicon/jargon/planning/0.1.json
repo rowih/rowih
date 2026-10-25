@@ -1,0 +1,267 @@
+{
+ "dialect": "planning",
+ "community": "planning",
+ "version": "0.1",
+ "date": "2026-10-10",
+ "formed from lexicon": "0.4",
+ "reading": "each term means the composition of its stems, as the rules of word formation give it",
+ "terms": [
+  {
+   "machine identifier": "jg.planning.001",
+   "term": "allocation",
+   "orthographic form": "rilimonar",
+   "phonological form": "/ɾilimonaɾ/",
+   "grammatical category": "jargon",
+   "sort": "s.sort.state",
+   "semantic type": {
+    "sort": "s.sort.state",
+    "arguments": [
+     "actor",
+     "undergoer",
+     "recipient"
+    ]
+   },
+   "definition": "the state [assign a share of a resource] brings about",
+   "argument structure": [
+    {
+     "role": "actor",
+     "sort": "s.sort.agent"
+    },
+    {
+     "role": "undergoer",
+     "sort": "s.sort.referent"
+    },
+    {
+     "role": "recipient",
+     "sort": "s.sort.agent"
+    }
+   ],
+   "formed from": [
+    [
+     "lx.000025",
+     "lx.000099"
+    ]
+   ],
+   "mechanism": "result",
+   "register": [
+    "R0",
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7"
+   ],
+   "scope": {
+    "dialect": "planning",
+    "version": "0.1"
+   },
+   "validity": "from the dialect's release, without end",
+   "provenance": "generated from its stems by tools/build_registers.py",
+   "acceptance status": "released",
+   "version": {
+    "introduced": "0.1",
+    "deprecated": null
+   },
+   "key": "allocation"
+  },
+  {
+   "machine identifier": "jg.planning.002",
+   "term": "dependency",
+   "orthographic form": "rudabekoh",
+   "phonological form": "/ɾudabekoh/",
+   "grammatical category": "jargon",
+   "sort": "s.sort.proposition",
+   "semantic type": {
+    "sort": "s.sort.proposition",
+    "arguments": []
+   },
+   "definition": "that [require something] holds",
+   "argument structure": [],
+   "formed from": [
+    [
+     "lx.000028",
+     "lx.000111"
+    ]
+   ],
+   "mechanism": "nominalisation",
+   "register": [
+    "R0",
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7"
+   ],
+   "scope": {
+    "dialect": "planning",
+    "version": "0.1"
+   },
+   "validity": "from the dialect's release, without end",
+   "provenance": "generated from its stems by tools/build_registers.py",
+   "acceptance status": "released",
+   "version": {
+    "introduced": "0.1",
+    "deprecated": null
+   },
+   "key": "dependency"
+  },
+  {
+   "machine identifier": "jg.planning.003",
+   "term": "milestone",
+   "orthographic form": "remoyonar",
+   "phonological form": "/ɾemojonaɾ/",
+   "grammatical category": "jargon",
+   "sort": "s.sort.state",
+   "semantic type": {
+    "sort": "s.sort.state",
+    "arguments": [
+     "undergoer",
+     "content"
+    ]
+   },
+   "definition": "the state [reach a place] brings about",
+   "argument structure": [
+    {
+     "role": "undergoer",
+     "sort": "s.sort.referent"
+    },
+    {
+     "role": "content",
+     "sort": "s.sort.referent"
+    }
+   ],
+   "formed from": [
+    [
+     "lx.000056",
+     "lx.000099"
+    ]
+   ],
+   "mechanism": "result",
+   "register": [
+    "R0",
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7"
+   ],
+   "scope": {
+    "dialect": "planning",
+    "version": "0.1"
+   },
+   "validity": "from the dialect's release, without end",
+   "provenance": "generated from its stems by tools/build_registers.py",
+   "acceptance status": "released",
+   "version": {
+    "introduced": "0.1",
+    "deprecated": null
+   },
+   "key": "milestone"
+  },
+  {
+   "machine identifier": "jg.planning.004",
+   "term": "backlog",
+   "orthographic form": "rabudiritup",
+   "phonological form": "/ɾabudiɾitup/",
+   "grammatical category": "jargon",
+   "sort": "s.sort.process",
+   "semantic type": {
+    "sort": "s.sort.process",
+    "arguments": [
+     "actor"
+    ]
+   },
+   "definition": "[stay until something happens], with [an operation a system can carry out] as its content",
+   "argument structure": [
+    {
+     "role": "actor",
+     "sort": "s.sort.agent"
+    }
+   ],
+   "formed from": [
+    [
+     "lx.000053"
+    ],
+    [
+     "lx.000024"
+    ]
+   ],
+   "mechanism": "compound",
+   "register": [
+    "R0",
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7"
+   ],
+   "scope": {
+    "dialect": "planning",
+    "version": "0.1"
+   },
+   "validity": "from the dialect's release, without end",
+   "provenance": "generated from its stems by tools/build_registers.py",
+   "acceptance status": "released",
+   "version": {
+    "introduced": "0.1",
+    "deprecated": null
+   },
+   "key": "backlog"
+  },
+  {
+   "machine identifier": "jg.planning.005",
+   "term": "resource plan",
+   "orthographic form": "resepirilim",
+   "phonological form": "/ɾesepiɾilim/",
+   "grammatical category": "jargon",
+   "sort": "s.sort.kind",
+   "semantic type": {
+    "sort": "s.sort.kind",
+    "arguments": []
+   },
+   "definition": "[something consumed in doing work], bearing on [assign a share of a resource]",
+   "argument structure": [],
+   "formed from": [
+    [
+     "lx.000026"
+    ],
+    [
+     "lx.000025"
+    ]
+   ],
+   "mechanism": "compound",
+   "register": [
+    "R0",
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7"
+   ],
+   "scope": {
+    "dialect": "planning",
+    "version": "0.1"
+   },
+   "validity": "from the dialect's release, without end",
+   "provenance": "generated from its stems by tools/build_registers.py",
+   "acceptance status": "released",
+   "version": {
+    "introduced": "0.1",
+    "deprecated": null
+   },
+   "key": "resource plan"
+  }
+ ],
+ "number": 10,
+ "digest": "441104741"
+}

@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.force.kind-of-setting.definition",
+ "orthographic form": "konebi",
+ "phonological form": "/konebi/",
+ "grammatical category": "kind of setting",
+ "gloss": "DEFINITION",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.situations-and-contents.information-structure.topic",
+ "orthographic form": "game",
+ "phonological form": "/ɡame/",
+ "grammatical category": "information structure",
+ "gloss": "TOPIC",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

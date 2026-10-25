@@ -1,0 +1,55 @@
+{
+ "machine identifier": "lx.000788",
+ "root": "lx.000788",
+ "phonological form": "/nusihiɾ nulopik/",
+ "orthographic form": "nusihir nulopik",
+ "grammatical category": "idiom",
+ "sort": "s.sort.situation",
+ "semantic type": {
+  "sort": "s.sort.situation",
+  "arguments": []
+ },
+ "definition": "what the slot names stays available",
+ "semantic primitives": [
+  "s.sort.situation"
+ ],
+ "argument structure": [],
+ "derivational behaviour": [],
+ "register": [
+  "R0",
+  "R2",
+  "R3",
+  "R5",
+  "R6",
+  "R7"
+ ],
+ "collocations": [],
+ "synonyms": [],
+ "antonyms": [],
+ "related concepts": [],
+ "examples": [],
+ "version": {
+  "introduced": "1.0",
+  "deprecated": null
+ },
+ "key": "watching the night",
+ "class": "agentic idioms",
+ "kind": "decoding, grammatical",
+ "route": "allusion",
+ "literal structure": "(situation watch (ACTOR (slot 1)) (UNDERGOER (term night)))",
+ "expansion": "(situation available (UNDERGOER (slot 1)))",
+ "decomposition": [
+  {
+   "slot": 1,
+   "literal role": "ACTOR",
+   "expansion role": "UNDERGOER"
+  }
+ ],
+ "pragmatic conditions": "of an agent that keeps a service or an exchange answered while others are paused",
+ "usage restrictions": "none",
+ "declared loss": [
+  "stance",
+  "wording"
+ ],
+ "constructed history": "Constructed history: an allusion to the agents that kept the networks answered through the long silence, watching the night for the others."
+}

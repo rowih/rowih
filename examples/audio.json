@@ -1,0 +1,117 @@
+{
+ "voice model": {
+  "repository": "hexgrad/Kokoro-82M",
+  "revision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+  "weights": "kokoro-v1_0.pth",
+  "licence": "Apache-2.0"
+ },
+ "recogniser": {
+  "repository": "facebook/wav2vec2-lv-60-espeak-cv-ft",
+  "revision": "ae45363bf3413b374fecd9dc8bc1df0e24c3b7f4",
+  "licence": "Apache-2.0"
+ },
+ "threshold": 0.15,
+ "control": {
+  "message": "casual-056.1",
+  "defect": "mid and high vowels exchanged",
+  "phoneme error rate": 0.2997
+ },
+ "messages": {
+  "casual-056.1": {
+   "plan": "8a9f01c2972579a5d9bd5b37578a43461c0262f55ea8be9a55455078a4677f4f",
+   "voice": "em_alex",
+   "mp3": "59555cc255b2bf6e38cbbc10e5d247236b36b59169be2943149546155755f4c6",
+   "phoneme error rate": 0.0606
+  },
+  "casual-056.2": {
+   "plan": "5565d2ca2a1df8e6966664ff80812949d3c7a513a8b268427dda11e8b1eebf33",
+   "voice": "ef_dora",
+   "mp3": "88ee88d204ed610d01065a3723272007d026d61553cbde319eae193d1f069cfd",
+   "phoneme error rate": 0.0492
+  },
+  "delegation-098.1": {
+   "plan": "aa96a046efb3bb58181042a048ba9f64fe10fa0589d0158fcecc272032c4d09f",
+   "voice": "em_alex",
+   "mp3": "2e5de90cc360004c18229ba9f0dc8989d73d1d2734fc65b7b74f243f0eb60a8f",
+   "phoneme error rate": 0.1016
+  },
+  "delegation-098.2": {
+   "plan": "34fa6e7aab9ee256c03a7b93d07ef2729d6f5f3622733de34fbc87eb875fc650",
+   "voice": "ef_dora",
+   "mp3": "024b4ddeee51dbd0ffb33f789e84d55ee170792d73f3243e8c0357b81aca26a1",
+   "phoneme error rate": 0.0851
+  },
+  "delegation-098.3": {
+   "plan": "2f4d7a79a8d2f512467a1f97916e6784032764afeb78ac07f0b104903e968014",
+   "voice": "em_alex",
+   "mp3": "db083e14882fa4b4d884557789ba98c576195f53c695b5195451410901e877ed",
+   "phoneme error rate": 0.0988
+  },
+  "delegation-098.4": {
+   "plan": "801c2023fa408c6046f9bd6f4abcbad51fa07d09aad11eee789ab6a2dd649325",
+   "voice": "ef_dora",
+   "mp3": "c7f42128f232f4834ab514bd98baeff743df4817972d9630f8a9d60c88ec3eb6",
+   "phoneme error rate": 0.0773
+  },
+  "negotiation-098.1": {
+   "plan": "2255d314d49c5aa3550995a3384cb1099af183921121abe18d5ca3a590066b26",
+   "voice": "em_alex",
+   "mp3": "20f3c033d2d6d44466926925c423c4923a61a7b2528b3357ef110853ed162288",
+   "phoneme error rate": 0.0984
+  },
+  "negotiation-098.2": {
+   "plan": "dab08d94545f34562327be80d734ac687625ee01393396b74ff815ab6942db5a",
+   "voice": "ef_dora",
+   "mp3": "bc7b1e22933a9b4a267fca604bc2454d7747e4b99a7d887ae07f5d2c98b54419",
+   "phoneme error rate": 0.0722
+  },
+  "negotiation-098.3": {
+   "plan": "62a868b86bca183491504bd4f6f73c58ccfed5cac797f43a61580e5ed48a9e37",
+   "voice": "em_alex",
+   "mp3": "eef7796525a07302bad02365f2692f5dba9fcfdc9ba147db818b9aab0c707f8c",
+   "phoneme error rate": 0.0736
+  },
+  "negotiation-098.4": {
+   "plan": "844eb1aac091ffec1c709c90d0e8c46996bdd04dc5b58f672279fc34637d46ed",
+   "voice": "ef_dora",
+   "mp3": "a2cc6810d4ad94a8845c1d0c915127e7b9de6d7eb1bcc8c73c35ebf13afea975",
+   "phoneme error rate": 0.1055
+  },
+  "correction-100.1": {
+   "plan": "f009ae394578fbeef8ff8c7e4b1445fe2cd92390709db9e72a8f3e74074a2d45",
+   "voice": "em_alex",
+   "mp3": "8bdb30c2aa195d1984554e0fc1426f4f87a59f67b825e2ee7966df34361e5983",
+   "phoneme error rate": 0.0884
+  },
+  "correction-100.2": {
+   "plan": "cb02fd2f9490c3bd6f03b0f5dcebc8e41d54a0ca2e9ff42b4e989bcb18de7907",
+   "voice": "ef_dora",
+   "mp3": "9e674d1d31b3e2c2c97f6d74d8ae0e993089ec232280212b199fa8c654dbf455",
+   "phoneme error rate": 0.1421
+  },
+  "correction-100.3": {
+   "plan": "94c54339047779c85dee6eff4ec373fb69a1a7545e1d7731499021c5eff7e904",
+   "voice": "em_alex",
+   "mp3": "29a8c056f6dfbe8260db2088f29c406ddebe36fb23c0e7e7e36de079b0504c6f",
+   "phoneme error rate": 0.0798
+  },
+  "humour-077.1": {
+   "plan": "2482394bfdc652310eb14a4b79c795e2cb7723c16b0ba9a8c0529fbe25519549",
+   "voice": "em_alex",
+   "mp3": "c37698eee12f81b09b4f623bac5c4cf86f20eb80c36e7c723d6c3d3682d079d5",
+   "phoneme error rate": 0.0815
+  },
+  "humour-077.2": {
+   "plan": "3671b8157c0abb24db6e3bcad336a028f0d2aac1cfbe633e16c5cb3cc2631323",
+   "voice": "ef_dora",
+   "mp3": "996ff4246d742ae274becc1c8dc965c0d4ca6f09d005dc121c4ef68dd9993e1b",
+   "phoneme error rate": 0.1256
+  },
+  "a03-quoted-instruction.1": {
+   "plan": "5942acbbe4aa9798f1b3a7c3c88a99e9109d9dd7e3453acb3334c283827ac702",
+   "voice": "em_alex",
+   "mp3": "9fa5e9147958a9fac0d420a29fa46362c77ef41988b9074c501c2072e154c0ef",
+   "phoneme error rate": 0.0784
+  }
+ }
+}

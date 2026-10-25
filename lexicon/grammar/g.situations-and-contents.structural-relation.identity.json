@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.situations-and-contents.structural-relation.identity",
+ "orthographic form": "mane",
+ "phonological form": "/mane/",
+ "grammatical category": "structural relation",
+ "gloss": "IDENTITY",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.message.message-field.first-entry",
+ "orthographic form": "lewe",
+ "phonological form": "/lewe/",
+ "grammatical category": "message field",
+ "gloss": "FIRST-ENTRY",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.3"
+ }
+}

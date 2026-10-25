@@ -1,0 +1,49 @@
+{
+ "machine identifier": "lx.000814",
+ "root": "lx.000814",
+ "phonological form": "/nuniɾip nulibeɡ nulibeɡ/",
+ "orthographic form": "nunirip nulibeg nulibeg",
+ "grammatical category": "idiom",
+ "sort": "s.sort.situation",
+ "semantic type": {
+  "sort": "s.sort.situation",
+  "arguments": []
+ },
+ "definition": "solving the problem given brings a new problem into view",
+ "semantic primitives": [
+  "s.sort.situation"
+ ],
+ "argument structure": [],
+ "derivational behaviour": [],
+ "register": [
+  "R0",
+  "R2",
+  "R3",
+  "R5",
+  "R6",
+  "R7"
+ ],
+ "collocations": [],
+ "synonyms": [],
+ "antonyms": [],
+ "related concepts": [],
+ "examples": [],
+ "version": {
+  "introduced": "1.0",
+  "deprecated": null
+ },
+ "key": "mountain hiding a mountain",
+ "class": "metaphorical expressions",
+ "kind": "decoding, grammatical",
+ "route": "figure",
+ "literal structure": "(situation hide (ACTOR (term mountain)) (UNDERGOER (term mountain)))",
+ "expansion": "(situation cause (ACTOR (situation solve (UNDERGOER (term problem GIVEN)))) (CONTENT (situation appear (UNDERGOER (term problem NEW)))))",
+ "decomposition": [],
+ "pragmatic conditions": "when work on one problem reveals another",
+ "usage restrictions": "none",
+ "declared loss": [
+  "stance",
+  "wording"
+ ],
+ "constructed history": "Constructed history: a hard problem was a mountain, and behind the first mountain climbed there was often a second it had hidden."
+}

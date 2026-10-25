@@ -1,0 +1,38 @@
+{
+ "machine identifier": "lx.000200",
+ "root": "lx.000200",
+ "phonological form": "/ɾiɾen/",
+ "orthographic form": "riren",
+ "grammatical category": "nominal root",
+ "sort": "s.sort.object",
+ "semantic type": {
+  "sort": "s.sort.object",
+  "arguments": []
+ },
+ "definition": "a variety of the language that a community uses, adding terms and compressed forms without changing what any form of the language means",
+ "semantic primitives": [
+  "s.sort.object"
+ ],
+ "argument structure": [],
+ "derivational behaviour": [],
+ "register": [
+  "R0",
+  "R1",
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7"
+ ],
+ "collocations": [],
+ "synonyms": [],
+ "antonyms": [],
+ "related concepts": [],
+ "examples": [],
+ "version": {
+  "introduced": "0.7",
+  "deprecated": null
+ },
+ "key": "dialect"
+}

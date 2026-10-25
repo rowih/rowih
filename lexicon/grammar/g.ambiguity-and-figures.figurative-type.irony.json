@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.ambiguity-and-figures.figurative-type.irony",
+ "orthographic form": "suko",
+ "phonological form": "/suko/",
+ "grammatical category": "figurative type",
+ "gloss": "IRONY",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

@@ -1,0 +1,35 @@
+{
+ "machine identifier": "lx.000170",
+ "root": "lx.000170",
+ "phonological form": "/ɾijit/",
+ "orthographic form": "riyit",
+ "grammatical category": "politeness word",
+ "sort": "s.sort.move",
+ "semantic type": {
+  "sort": "s.sort.move",
+  "arguments": []
+ },
+ "definition": "the move is addressed as between familiars",
+ "semantic primitives": [
+  "s.sort.move"
+ ],
+ "argument structure": [],
+ "derivational behaviour": [],
+ "register": [
+  "R5",
+  "R6"
+ ],
+ "collocations": [],
+ "synonyms": [],
+ "antonyms": [],
+ "related concepts": [],
+ "examples": [],
+ "version": {
+  "introduced": "0.4",
+  "deprecated": null
+ },
+ "key": "familiar",
+ "declared loss": [
+  "relation between participants"
+ ]
+}

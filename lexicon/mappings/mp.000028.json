@@ -1,0 +1,23 @@
+{
+ "machine identifier": "mp.000028",
+ "name": "WHAT IS PUBLIC IS IN THE LIGHT",
+ "source domain": "light and shade",
+ "target domain": "what is public and what private",
+ "correspondences": [
+  {
+   "source": "light",
+   "target": "being open to all"
+  },
+  {
+   "source": "a bright record",
+   "target": "a public record"
+  }
+ ],
+ "motivates": [
+  "lx.000827"
+ ],
+ "version": {
+  "introduced": "1.0",
+  "deprecated": null
+ }
+}

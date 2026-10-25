@@ -1,0 +1,104 @@
+{
+ "machine identifier": "lx.000387",
+ "root": "lx.000387",
+ "phonological form": "/nuɾajuh/",
+ "orthographic form": "nurayuh",
+ "grammatical category": "nominal root",
+ "sort": "s.sort.kind",
+ "semantic type": {
+  "sort": "s.sort.kind",
+  "arguments": []
+ },
+ "definition": "how big something is",
+ "semantic primitives": [
+  "s.sort.kind"
+ ],
+ "argument structure": [],
+ "derivational behaviour": [
+  {
+   "suffix": "lx.000110",
+   "mechanism": "abstraction",
+   "form": "nurayuhusap",
+   "sort": "s.sort.kind",
+   "definition": "what every instance of [how big something is] has in common"
+  },
+  {
+   "suffix": "lx.000112",
+   "mechanism": "verbalisation",
+   "form": "nurayuhasey",
+   "sort": "s.sort.event",
+   "definition": "act by means of [how big something is]"
+  },
+  {
+   "suffix": "lx.000113",
+   "mechanism": "adjectivisation",
+   "form": "nurayuhuyik",
+   "sort": "s.sort.state",
+   "definition": "be of the kind [how big something is] names"
+  },
+  {
+   "suffix": "lx.000184",
+   "mechanism": "honorific",
+   "form": "nurayuhayuk",
+   "sort": "s.sort.kind",
+   "definition": "[how big something is], named with deference"
+  }
+ ],
+ "register": [
+  "R0",
+  "R1",
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7"
+ ],
+ "collocations": [],
+ "synonyms": [],
+ "antonyms": [],
+ "related concepts": [
+  {
+   "entry": "lx.000269",
+   "relation": "involved in"
+  },
+  {
+   "entry": "lx.000374",
+   "relation": "involved in"
+  },
+  {
+   "entry": "lx.000375",
+   "relation": "involved in"
+  },
+  {
+   "entry": "lx.000376",
+   "relation": "involved in"
+  },
+  {
+   "entry": "lx.000377",
+   "relation": "involved in"
+  },
+  {
+   "entry": "lx.000378",
+   "relation": "involved in"
+  },
+  {
+   "entry": "lx.000042",
+   "relation": "involves"
+  },
+  {
+   "entry": "lx.000591",
+   "relation": "involved in"
+  },
+  {
+   "entry": "lx.000270",
+   "relation": "involved in"
+  }
+ ],
+ "examples": [],
+ "version": {
+  "introduced": "1.0",
+  "deprecated": null
+ },
+ "key": "size"
+}

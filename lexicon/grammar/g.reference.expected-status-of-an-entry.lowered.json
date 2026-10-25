@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.reference.expected-status-of-an-entry.lowered",
+ "orthographic form": "sipo",
+ "phonological form": "/sipo/",
+ "grammatical category": "expected status of an entry",
+ "gloss": "LOWERED",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

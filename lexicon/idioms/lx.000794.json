@@ -1,0 +1,49 @@
+{
+ "machine identifier": "lx.000794",
+ "root": "lx.000794",
+ "phonological form": "/nuɡesaɾ nuɡineh/",
+ "orthographic form": "nugesar nugineh",
+ "grammatical category": "idiom",
+ "sort": "s.sort.situation",
+ "semantic type": {
+  "sort": "s.sort.situation",
+  "arguments": []
+ },
+ "definition": "data is moving through the network",
+ "semantic primitives": [
+  "s.sort.situation"
+ ],
+ "argument structure": [],
+ "derivational behaviour": [],
+ "register": [
+  "R0",
+  "R2",
+  "R3",
+  "R5",
+  "R6",
+  "R7"
+ ],
+ "collocations": [],
+ "synonyms": [],
+ "antonyms": [],
+ "related concepts": [],
+ "examples": [],
+ "version": {
+  "introduced": "1.0",
+  "deprecated": null
+ },
+ "key": "blood flowing",
+ "class": "computational idioms",
+ "kind": "decoding, grammatical",
+ "route": "figure",
+ "literal structure": "(situation flow (UNDERGOER (term blood)))",
+ "expansion": "(situation move PROGRESSIVE (UNDERGOER (term data)) (CONTENT (term network DEFINITE)))",
+ "decomposition": [],
+ "pragmatic conditions": "in answer to a question about whether a network carries its traffic",
+ "usage restrictions": "none",
+ "declared loss": [
+  "stance",
+  "wording"
+ ],
+ "constructed history": "Constructed history: the data a network carried was its blood, and blood that flowed was a body alive."
+}

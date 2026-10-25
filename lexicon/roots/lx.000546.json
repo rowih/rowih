@@ -1,0 +1,139 @@
+{
+ "machine identifier": "lx.000546",
+ "root": "lx.000546",
+ "phonological form": "/nuniɾam/",
+ "orthographic form": "nuniram",
+ "grammatical category": "predicate root",
+ "sort": "s.sort.state",
+ "semantic type": {
+  "sort": "s.sort.state",
+  "arguments": [
+   "undergoer"
+  ]
+ },
+ "definition": "have much power or force",
+ "semantic primitives": [
+  "s.sort.state"
+ ],
+ "argument structure": [
+  {
+   "role": "undergoer",
+   "sort": "s.sort.referent"
+  }
+ ],
+ "derivational behaviour": [
+  {
+   "suffix": "lx.000097",
+   "mechanism": "undergoer",
+   "form": "nuniramudim",
+   "sort": "s.sort.referent",
+   "definition": "the one that undergoes [have much power or force]"
+  },
+  {
+   "suffix": "lx.000098",
+   "mechanism": "instrument",
+   "form": "nuniramawen",
+   "sort": "s.sort.referent",
+   "definition": "what [have much power or force] is done with"
+  },
+  {
+   "suffix": "lx.000099",
+   "mechanism": "result",
+   "form": "nuniramonar",
+   "sort": "s.sort.state",
+   "definition": "the state [have much power or force] brings about"
+  },
+  {
+   "suffix": "lx.000100",
+   "mechanism": "privative",
+   "form": "nuniramaniw",
+   "sort": "s.sort.state",
+   "definition": "the state in which [have much power or force] does not hold"
+  },
+  {
+   "suffix": "lx.000108",
+   "mechanism": "process",
+   "form": "nuniramumop",
+   "sort": "s.sort.reified-referent",
+   "definition": "[have much power or force], as a process under way, named as a referent"
+  },
+  {
+   "suffix": "lx.000109",
+   "mechanism": "property",
+   "form": "nuniramarur",
+   "sort": "s.sort.kind",
+   "definition": "the property of being as [have much power or force] states"
+  },
+  {
+   "suffix": "lx.000111",
+   "mechanism": "nominalisation",
+   "form": "nuniramekoh",
+   "sort": "s.sort.proposition",
+   "definition": "that [have much power or force] holds"
+  },
+  {
+   "suffix": "lx.000594",
+   "mechanism": "causative",
+   "form": "nuniramomiw",
+   "sort": "s.sort.event",
+   "definition": "make [have much power or force] hold or happen"
+  },
+  {
+   "suffix": "lx.000595",
+   "mechanism": "reversative",
+   "form": "nuniramuhul",
+   "sort": "s.sort.event",
+   "definition": "undo [have much power or force], restoring what it changed"
+  },
+  {
+   "suffix": "lx.000596",
+   "mechanism": "repetitive",
+   "form": "nuniramuleg",
+   "sort": "s.sort.event",
+   "definition": "[have much power or force], done once more"
+  },
+  {
+   "suffix": "lx.000597",
+   "mechanism": "potential",
+   "form": "nuniramuwot",
+   "sort": "s.sort.state",
+   "definition": "be such that [have much power or force] can be done to it"
+  },
+  {
+   "suffix": "lx.000598",
+   "mechanism": "place",
+   "form": "nuniramumuk",
+   "sort": "s.sort.place",
+   "definition": "the place where [have much power or force] happens"
+  }
+ ],
+ "register": [
+  "R0",
+  "R1",
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7"
+ ],
+ "collocations": [],
+ "synonyms": [],
+ "antonyms": [
+  {
+   "entry": "lx.000547"
+  }
+ ],
+ "related concepts": [
+  {
+   "entry": "lx.000498",
+   "relation": "involves"
+  }
+ ],
+ "examples": [],
+ "version": {
+  "introduced": "1.0",
+  "deprecated": null
+ },
+ "key": "strong"
+}

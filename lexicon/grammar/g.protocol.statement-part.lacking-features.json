@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.protocol.statement-part.lacking-features",
+ "orthographic form": "yoyu",
+ "phonological form": "/joju/",
+ "grammatical category": "statement part",
+ "gloss": "LACKING-FEATURES",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.10"
+ }
+}

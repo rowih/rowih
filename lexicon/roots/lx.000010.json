@@ -1,0 +1,50 @@
+{
+ "machine identifier": "lx.000010",
+ "root": "lx.000010",
+ "phonological form": "/ɾitiɾ/",
+ "orthographic form": "ritir",
+ "grammatical category": "predicate root",
+ "sort": "s.sort.state",
+ "semantic type": {
+  "sort": "s.sort.state",
+  "arguments": [
+   "content",
+   "recipient"
+  ]
+ },
+ "definition": "be for the good of someone",
+ "semantic primitives": [
+  "s.sort.state"
+ ],
+ "argument structure": [
+  {
+   "role": "content",
+   "sort": "s.sort.situation"
+  },
+  {
+   "role": "recipient",
+   "sort": "s.sort.referent"
+  }
+ ],
+ "derivational behaviour": [],
+ "register": [
+  "R0",
+  "R1",
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7"
+ ],
+ "collocations": [],
+ "synonyms": [],
+ "antonyms": [],
+ "related concepts": [],
+ "examples": [],
+ "version": {
+  "introduced": "0.1",
+  "deprecated": null
+ },
+ "key": "benefit"
+}

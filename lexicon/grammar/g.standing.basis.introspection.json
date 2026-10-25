@@ -1,0 +1,12 @@
+{
+ "machine identifier": "g.standing.basis.introspection",
+ "orthographic form": "tadowe",
+ "phonological form": "/tadowe/",
+ "grammatical category": "basis",
+ "gloss": "INTROSPECTION",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ },
+ "tier": 1
+}

@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.numbers.numeral.six",
+ "orthographic form": "nebe",
+ "phonological form": "/nebe/",
+ "grammatical category": "numeral",
+ "gloss": "SIX",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

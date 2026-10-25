@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.protocol.statement-part.lexicon-version",
+ "orthographic form": "yosi",
+ "phonological form": "/josi/",
+ "grammatical category": "statement part",
+ "gloss": "LEXICON-VERSION",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.10"
+ }
+}

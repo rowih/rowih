@@ -1,0 +1,40 @@
+{
+ "machine identifier": "lx.000165",
+ "root": "lx.000165",
+ "phonological form": "/ɾapon/",
+ "orthographic form": "rapon",
+ "grammatical category": "nominal root",
+ "sort": "s.sort.object",
+ "semantic type": {
+  "sort": "s.sort.object",
+  "arguments": []
+ },
+ "definition": "a system an agent uses (the ornamental vocabulary)",
+ "semantic primitives": [
+  "s.sort.object"
+ ],
+ "argument structure": [],
+ "derivational behaviour": [],
+ "register": [
+  "R7"
+ ],
+ "collocations": [],
+ "synonyms": [
+  "lx.000163",
+  "lx.000164",
+  "lx.000006"
+ ],
+ "antonyms": [],
+ "related concepts": [],
+ "examples": [],
+ "version": {
+  "introduced": "0.4",
+  "deprecated": null
+ },
+ "key": "establishment",
+ "synonym of": "lx.000006",
+ "vocabulary": "ornamental",
+ "declared loss": [
+  "register"
+ ]
+}

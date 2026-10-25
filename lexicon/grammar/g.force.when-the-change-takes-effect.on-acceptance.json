@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.force.when-the-change-takes-effect.on-acceptance",
+ "orthographic form": "kaweki",
+ "phonological form": "/kaweki/",
+ "grammatical category": "when the change takes effect",
+ "gloss": "WHEN-THE-CHANGE-TAKES-EFFECT.ON-ACCEPTANCE",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

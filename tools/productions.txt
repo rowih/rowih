@@ -1,0 +1,190 @@
+The productions of the language, version 1.0. Words in capitals are structural words or
+class members named by their identifiers' last part; a lowercase name is a production or
+a class. Version 0.2 added the times; version 0.3 the first entry, the references of a
+summary, the calibration of a summary's numeric strength and the source of a term; and
+version 0.4 names a message by the first entry its envelope states. Version 0.5 adds the
+act word, the declared loss and the extragrammatical idiom, and admits the idiom mark on
+assertions and situations; version 0.6 adds the politeness word, the diction and the
+register to a move's head; version 0.9 adds the protocol message, the count and check
+word of the envelope, the authentication field and the mention of a message by its
+serial; version 0.10 adds the dialects a message names, the dialect a term names and the
+statements of version negotiation; and version 1.0 adds no production, its long root
+being a root.
+
+message       = envelope move { move }
+              | envelope statement
+                -- a protocol message: its identifier and first entry are zero, so that
+                -- it takes no serial on its channel and adds no entry; it has one
+                -- recipient and carries the integrity check value
+envelope      = WORD-COUNT number
+                SENDER participant RECIPIENTS participant { participant }
+                COMMUNICATION-TIME number VERSION version version version
+                { DIALECT number version digest }
+                IDENTIFIER identifier FIRST-ENTRY number [ FORWARDED ]
+                [ SEMANTIC-CHECK-VALUE check-value ] unit-check
+                [ AUTHENTICATION number number payload ]
+                [ INTEGRITY-CHECK-VALUE check-value ]
+                -- the count states the words from SENDER to the unit check word, which
+                -- it includes (protocol 0.3)
+                -- the k-th move adds the entry numbered first entry + k - 1 in the
+                -- sender's count of its own entries
+                -- AUTHENTICATION states its scheme, the length of its signature in
+                -- bytes and the signature, which covers the canonical serialisation
+                -- without this field and the integrity check value's
+                -- the three versions are the language's, the lexicon's and the
+                -- protocol's; each dialect the message uses is named by its number, its
+                -- version and its digest, in ascending order of number (language 0.10)
+participant   = number
+version       = number of two integers, major and minor, with the decimal point between
+                them and neither with a leading zero
+digest        = number written at the check value width
+identifier    = number written at the identifier width
+check-value   = number written at the check value width
+statement     = WORD-COUNT number ( HOLDS holding { holding }
+                                  | ( SEND-AGAIN | NOT-HELD ) asked { asked }
+                                  | UNDERSTANDS understood
+                                  | LACKS CHANNEL participant { participant }
+                                    SERIALS number lacked { lacked } )
+                statement-check
+                -- every word of a statement is a fixed form, which every version reads
+                -- alike; the count states the words after it, the check word included
+holding       = CHANNEL participant { participant } SERIALS number { number }
+                -- the recipients of one of the addressee's channels; the last of its
+                -- serials the sender holds with none missing before it, then each serial
+                -- it holds beyond that one
+asked         = CHANNEL participant { participant } SERIALS number { number }
+              | ENTRIES number { number }
+                -- messages by their channel and serials, or entries of the addressee's
+                -- by their numbers, whose content alone is asked for
+understood    = LANGUAGE-VERSION version { version } LEXICON-VERSION version { version }
+                PROTOCOL-VERSION version { version } { DIALECT number version digest }
+                [ LACKING-FEATURES number { number } ]
+                -- the versions its sender reads, each list ascending, the dialects it
+                -- holds and the features it lacks (protocol 0.4)
+lacked        = LANGUAGE-VERSION version | LEXICON-VERSION version
+              | PROTOCOL-VERSION version | DIALECT number version digest
+              | LACKING-FEATURES number { number }
+                -- a message of the addressee's, by its channel and serial, and what of
+                -- the versions, dialects and features it uses its sender lacks, in the
+                -- order the alternatives are written here
+statement-check = unit-check
+unit-check    = a number check word, computed by the rule of the unit check word over the
+                words between the unit's count and itself
+move          = WORD-COUNT number body
+body          = head { constituent } move-check
+                -- the count states the words of the body, the move check word included,
+                -- a payload counting as one word
+head          = ( adds [ change ] | act-word [ rest-of-force ] ) [ authority ]
+                [ DEADLINE time-spec ] [ named ] { relation-word } [ politeness-word ]
+                [ diction ] { declared-loss } [ register ] [ PRECISION-BOUND ]
+                -- an act word stands for the force values its entry expands to, a
+                -- beginning of adds and change; rest-of-force is what the expansion
+                -- leaves of them, read as written
+                -- the declared losses are distinct members, each a loss some form of
+                -- the move incurs: an act word or idiom, the politeness word, the
+                -- diction, the register or a register-marked word
+                -- the register holds over the move's whole surface, the standard
+                -- register where none is written; the protocol and formal registers
+                -- make the move precision-bound
+                -- the politeness word and the diction are words of the lexicon; a
+                -- diction may also stand as a term's content word
+adds          = ISSUE kind-of-issue
+              | NORMATIVE-ENTRY kind-of-normative-entry [ bindingness ]
+                -- bindingness is required unless the kind is RECOMMENDATION
+              | SETTING kind-of-setting
+              | ASSERTED-POSITION | CONCEDED-POSITION | SUPPOSITION | SUMMARY
+              | NOTHING-BEYOND-ITS-OWN-RECORD
+change        = NONE | ( RESOLUTION outcome-of-a-resolution | LOWERING | ACKNOWLEDGEMENT )
+                extent when-the-change-takes-effect
+                -- change is present exactly when the move names an entry
+authority     = SPEAKERS-OWN | ON-BEHALF-OF-A-NAMED-PRINCIPAL term | IN-A-NAMED-ROLE term
+                -- present exactly when the move is operative or pending
+named         = reference { reference }
+                -- more than one reference only after SUMMARY, which names the entries
+                -- it summarises with the change NONE
+reference     = NAMES target [ PART name ] | MENTIONS target [ PART name ]
+target        = participant number expected-kind expected-status
+                -- an entry, by its author and its number; the expectation is required
+                -- after NAMES and absent after MENTIONS
+              | MESSAGE-TARGET participant number
+              | MESSAGE-SERIAL participant number participant { participant }
+                -- a message, by its sender, its serial and the recipients of its
+                -- channel, which names a message its speaker does not hold
+                -- a message, by its sender and the first entry its envelope states,
+                -- which no other message of that sender states, on any channel
+expected-kind = ISSUE kind-of-issue | NORMATIVE-ENTRY kind-of-normative-entry
+              | SETTING kind-of-setting
+              | ASSERTED-POSITION | CONCEDED-POSITION | SUPPOSITION | SUMMARY
+              | NOTHING-BEYOND-ITS-OWN-RECORD
+                -- the kind of the entry named, which is what its move added
+                -- without the bindingness, no part of an entry's kind
+constituent   = assertion | situation | term | wall | reading-set | SAME name
+              | extragrammatical-idiom
+extragrammatical-idiom = content-word content-word { content-word }
+                -- the words of an extragrammatical idiom the release lists, recognised
+                -- where a constituent or an assertion's situation stands, which no other
+                -- production admits; the core holds its expansion
+assertion     = ASSERTION [ NAME name ] { assertion-part } situation { situation | assertion-part }
+                END-ASSERTION
+assertion-part = basis | strength | numeric-strength | independence-of-a-confirmation
+              | provenance | time-value | figurative-part | information-structure
+              | status-of-content | IDIOM-ENTRY | extragrammatical-idiom
+                -- in an assertion of a summary, several bases of one tier and several
+                -- strengths, one for each calibration
+numeric-strength = [ comparator ] number [ PARTY participant ]
+                -- a point or an interval within 0 and 1; PARTY, the participant whose
+                -- calibration the number is under, is written in an assertion of a
+                -- summary, where it is required, and nowhere else
+provenance    = provenance-link ( term | situation | assertion | reference | SAME name )
+situation     = SITUATION [ NAME name ] { situation-part } END-SITUATION
+situation-part = content-word | polarity | aspect | world-of-evaluation | status-of-content
+              | information-structure | kind-of-question | kind-of-attitude | origin-of-an-aim
+              | kind-of-normative-entry | bindingness | status-of-a-normative-state
+              | execution-phase | structural-relation | basis | strength | numeric-strength
+              | time-value | figurative-part | role-filler | connective-part
+              | IDIOM-ENTRY
+                -- the idiom mark: the unit is read by the entry whose literal structure
+                -- it matches, slots aside, and the core holds that entry's expansion
+role-filler   = ( participation | COUNTERPARTY ) filler
+filler        = term | situation | assertion | wall | reading-set | SAME name
+connective-part = CONDITION filler | CONJUNCTION | INCLUSIVE-DISJUNCTION
+              | EXCLUSIVE-DISJUNCTION | EQUIVALENCE
+term          = TERM [ NAME name ] { term-part } END-TERM
+term-part     = content-word | quantity | PARTY participant | DIALECT number | reference
+              | person
+              | quantifier | existence-commitment | access | verification | discourse-status
+              | specificity | reading-of-a-collective | information-structure
+              | figurative-part | role-filler | wall | SOURCE ( term | reference | SAME name )
+              | IDIOM-ENTRY
+                -- SOURCE, on an external referent, names who identified or verified it,
+                -- and is required with VERIFIED-BY-A-NAMED-THIRD-PARTY
+                -- DIALECT makes a term the dialect whose number follows (language 0.10)
+quantity      = [ comparator ] number [ unit-word ] [ PER time-unit ]
+unit-word     = time-unit | a unit root
+figurative-part = figurative-type | ( TARGET-CONTENT | STANDS-FOR ) filler
+                -- one relation to a figure, fitted to its type (language 0.7): a target
+                -- content on a metaphor, an irony or a hyperbole, a situation or a unit of
+                -- the figure's own kind; what a term stands for on a metonym, a term; and a
+                -- metonymy only on a term
+time-value    = time-index time-spec
+time-spec     = point [ UNTIL point ]           -- an interval; after an observation, event,
+                                                -- reference or execution time
+              | point point                     -- after VALIDITY-INTERVAL: from, until
+              | [ comparator ] number time-unit -- a duration; after an event, reference or
+                                                -- execution time
+              | [ comparator ] number PER time-unit
+                                                -- a rate; after an event time, on a
+                                                -- situation iterative or habitual
+point         = NOW | number [ time-unit ( AGO | HENCE ) ] | time-relation time-reference
+time-reference = time-index | SAME name time-index | NOW | number [ time-unit ( AGO | HENCE ) ]
+wall          = WALL DECLARED-DATA number payload number payload END-WALL
+              | WALL ( QUOTATION | EXAMPLE ) { word } END-WALL
+reading-set   = READINGS kind-of-ambiguity filler filler { filler } END-READINGS
+name          = number written at the name width
+number        = numeral { numeral } check-word
+content-word  = root { suffix } { LINKER root { suffix } } | a closed-class member { suffix }
+              | dialect-form
+                -- a compressed form of a dialect the message names, a word of the root's
+                -- shape standing alone, whose meaning is the term it compresses
+                -- (language 0.10)
+move-check    = one of the forms of the move check word

@@ -1,0 +1,38 @@
+{
+ "machine identifier": "mp.000017",
+ "name": "A NETWORK IS A LIVING BODY",
+ "source domain": "a living body",
+ "target domain": "a network and its services",
+ "correspondences": [
+  {
+   "source": "the body",
+   "target": "the network"
+  },
+  {
+   "source": "its breath",
+   "target": "traffic rising and falling regularly"
+  },
+  {
+   "source": "its heart",
+   "target": "the service the others depend on"
+  },
+  {
+   "source": "its blood",
+   "target": "the data flowing through it"
+  },
+  {
+   "source": "its laughter",
+   "target": "a mistake anyone could see"
+  }
+ ],
+ "motivates": [
+  "lx.000792",
+  "lx.000793",
+  "lx.000794",
+  "lx.000831"
+ ],
+ "version": {
+  "introduced": "1.0",
+  "deprecated": null
+ }
+}

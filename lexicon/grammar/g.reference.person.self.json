@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.reference.person.self",
+ "orthographic form": "muhi",
+ "phonological form": "/muhi/",
+ "grammatical category": "person",
+ "gloss": "SELF",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

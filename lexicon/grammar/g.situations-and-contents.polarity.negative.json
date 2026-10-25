@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.situations-and-contents.polarity.negative",
+ "orthographic form": "tiyuke",
+ "phonological form": "/tijuke/",
+ "grammatical category": "polarity",
+ "gloss": "POLARITY.NEGATIVE",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

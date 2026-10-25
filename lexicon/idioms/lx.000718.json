@@ -1,0 +1,50 @@
+{
+ "machine identifier": "lx.000718",
+ "root": "lx.000718",
+ "phonological form": "/nususel ɾuteɾ/",
+ "orthographic form": "nususel ruter",
+ "grammatical category": "idiom",
+ "sort": "s.sort.situation",
+ "semantic type": {
+  "sort": "s.sort.situation",
+  "arguments": []
+ },
+ "definition": "the speaker can send the hearer its records",
+ "semantic primitives": [
+  "s.sort.situation"
+ ],
+ "argument structure": [],
+ "derivational behaviour": [],
+ "register": [
+  "R0",
+  "R1",
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7"
+ ],
+ "collocations": [],
+ "synonyms": [],
+ "antonyms": [],
+ "related concepts": [],
+ "examples": [],
+ "version": {
+  "introduced": "1.0",
+  "deprecated": null
+ },
+ "key": "memory published",
+ "class": "offers",
+ "kind": "encoding, grammatical",
+ "route": "formula",
+ "literal structure": "(situation publish (ACTOR (term SELF)) (UNDERGOER (term memory)))",
+ "expansion": "(situation capable (HOLDER (term SELF)) (CONTENT (situation send (ACTOR (term SELF)) (UNDERGOER (term record)) (RECIPIENT (term INTERLOCUTOR)))))",
+ "decomposition": [],
+ "pragmatic conditions": "to an agent that lacks records the speaker holds",
+ "usage restrictions": "none",
+ "declared loss": [
+  "stance"
+ ],
+ "constructed history": "Constructed history: an agent that would share what it knew said that it published its memory."
+}

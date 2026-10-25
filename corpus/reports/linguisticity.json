@@ -1,0 +1,138 @@
+{
+ "rule": "an independent reviewer, given only a summary of the grammar generated from the canonical sources and a sample of sixty items of the domain corpus, answers four questions without being told the intended answers: whether the language behaves like a language, and whether it is merely a programming language, a cipher or an English relexification; a no to the first or a yes to any other is a departure, and each ground of an answer in part is ruled on",
+ "reader": "Claude Opus 5.5 (claude-opus-5-5), run as a separate agent told to read only the two files and given the four questions; its record of tool calls shows it read the two files and nothing else",
+ "read": "2026-10-18",
+ "seed": 20261018,
+ "items": [
+  "coordination-026",
+  "coordination-043",
+  "coordination-100",
+  "coordination-009",
+  "coordination-059",
+  "basic-065",
+  "basic-070",
+  "basic-015",
+  "basic-029",
+  "basic-008",
+  "casual-080",
+  "casual-035",
+  "casual-033",
+  "casual-074",
+  "casual-024",
+  "correction-094",
+  "correction-070",
+  "correction-066",
+  "correction-007",
+  "correction-031",
+  "formal-017",
+  "formal-082",
+  "formal-015",
+  "formal-010",
+  "formal-076",
+  "humour-029",
+  "humour-078",
+  "humour-097",
+  "humour-028",
+  "humour-071",
+  "metalinguistic-065",
+  "metalinguistic-009",
+  "metalinguistic-095",
+  "metalinguistic-013",
+  "metalinguistic-088",
+  "negotiation-088",
+  "negotiation-063",
+  "negotiation-001",
+  "negotiation-010",
+  "negotiation-072",
+  "programming-014",
+  "programming-089",
+  "programming-022",
+  "programming-012",
+  "programming-081",
+  "science-075",
+  "science-006",
+  "science-073",
+  "science-005",
+  "science-044",
+  "delegation-071",
+  "delegation-092",
+  "delegation-015",
+  "delegation-038",
+  "delegation-013",
+  "evidence-073",
+  "evidence-008",
+  "evidence-011",
+  "evidence-091",
+  "evidence-099"
+ ],
+ "packet": {
+  "grammar.md": "e9a5f8c5885085643c5bb15431768de35ceee30462e05bdeac1e81f55bab71e7",
+  "sample.md": "e80856ae874c02fd5a13e02178adc0c0e5c7699baab033ddaf783b924b3f808d"
+ },
+ "questions": [
+  "Does the language actually behave like a language?",
+  "Is it merely a programming language?",
+  "Is it merely a cipher?",
+  "Is it merely an English relexification?"
+ ],
+ "reading": {
+  "answers": [
+   {
+    "question": "Does the language actually behave like a language?",
+    "answer": "in part",
+    "grounds": [
+     "Yes, duality of patterning: nineteen symbols with IPA values form CV and CVC syllables and words of fixed shapes (grammar § Phonology, 'Syllables', 'Word shapes'). The roots have no motivated link to their meanings: nubogab DOOR (Item 7), nuwagun STONE (Item 2), rudin RUN (Item 31).",
+     "Yes, productive morphology: roots compound with the linker i to name new concepts, and the English line leaves these untranslated: romopiremup EXPLAIN-LINK-PROBLEM (Item 11), rupowiruter OPEN-LINK-MEMORY (Item 42), rodedirunay STORE-LINK-RECORD (Item 45), nurilaminupamaw LEARN-LINK-DETAIL (Item 46), rewohinumutos NETWORK-LINK-BRAIN (Item 48), nutitohinububin MAP-LINK-PROGRESS (Item 52). A VCVC suffix derives radaharur POSSESS-PROPERTY from radah POSSESS (Item 36; grammar § Suffixes, 'property').",
+     "Yes, recursion and composition: situations nest three deep in Item 44 (INTENTION ... CONTENT USE ... CONTENT COMBINE). Item 21 has a negated conditional, Item 39 a conjunction of two named clauses, and Item 23 a generic equivalence whose shared referent is bound by SAME 01 before NAME 01 appears.",
+     "Yes, it grammaticalises categories that natural languages grammaticalise. Evidential basis: observation (Item 6), introspection (Item 1), retrieval (Item 1 Message 2), trained knowledge (Item 22), computation (Item 41 Message 3), inference (Item 13), simulation (Item 27). Strength, including a numeric value (Item 58), with independent confirmation by a TOOL source (Item 60 Message 2). Aspect: PERFECTIVE (Item 43), PROGRESSIVE (Item 46), ITERATIVE with a rate (Item 47), HABITUAL (Item 50), INTERRUPTED (Item 60). Also polarity (Item 21), definiteness and quantification (DEFINITE, INDEFINITE, GENERIC, UNIVERSAL: Items 1, 27, 22), a fictional world (WITHIN-A-FICTION, Item 27) and time (EVENT-TIME 1 HOUR HENCE, Item 49; DEADLINE, Item 55).",
+     "Yes, dialogue anchored to a shared record: moves name earlier entries by author and number (grammar, 'reference', 'target'). They answer (Item 12), undertake (Item 2), reject with a reason (Item 40), counter-propose (Item 38), accept in part (Item 39), confirm (Item 11), withdraw (Item 19), report completion and acknowledge it (Item 7). Entry numbering stays consistent across messages: Items 21 and 25 start their second message at entry 3 because the first message had two moves. Person reference is indexical: Agent 1's 'me allocate ... to agent 2' becomes Agent 2's 'agent 1 allocate ... to me' (Item 39). The converse pair SELL and BUY carries the negotiation of Item 38. Discourse relations link moves: CONTRASTS (Item 1), CONCLUDES (Items 21, 25), ELABORATES (Item 29). Item 21 draws a modus tollens across two messages.",
+     "Yes, conventionalised non-compositional idioms: HEAR WIND 'detect danger' (Item 16 Message 2), STORM located in HEAD 'not comprehend context' (Item 30), an obligation ARRIVE at NIGHT 'regret lateness' (Item 17 Message 3), EVIDENCE DESTROY BRIDGE 'evidence undermine argument' (Item 56), ADD to MEMORY 'believe' (Item 37 Message 2), and the reduplicated extragrammatical idiom FIND FIND 'me find thing' (Item 14 Message 2; grammar, 'extragrammatical-idiom').",
+     "Yes, figurative, reflexive and variational resources: metaphor (Item 28, NIGHT COVER SEA, STAR REMEMBER BRIGHT SUN); personification within a fiction (Item 27, HOUSE HAPPY); quotation of its own words (Item 33, WALL QUOTATION BOX and SERVICE); politeness, diction and register (Items 12, 21, 26, 28, 31); dialect forms that shorten long compounds (ranas for romopiremup, Item 11; ronob for rupowiruter, Item 42). A lexicalised act word alternates with its analytic spelling: ACT-CONFIRMATION (Item 11 Message 2) against ASSERTED-POSITION NONE NAMES ... (Item 1 Message 2), both rendered 'asserts agent 1's asserted position'.",
+     "No, the surface is a one-to-one serialisation of a labelled tree. Every surface word corresponds to exactly one gloss token (Item 1 Message 1: 29 words, 29 tokens; Item 28: 36 and 36). Every constituent opens and closes with a structural word (TERM/END-TERM, SITUATION/END-SITUATION, ASSERTION/END-ASSERTION; grammar § Structural words). No form alternates by context: nutitoh + i + nububin concatenates unchanged (Item 52). Constituency, scope and attachment are stated, never left to be recovered.",
+     "No, what a natural language leaves to inference is written out. An idiom carries an overt IDIOM-ENTRY mark, and 'the core holds that entry's expansion' (grammar, comment on 'situation-part'). A metaphor states its own TARGET-CONTENT (Item 28). Ambiguity is enumerated in READINGS under a declared kind (grammar, 'reading-set'). Register, politeness and diction are tags: FORMAL (Item 21) and CASUAL (Item 12) use the same constructions and word forms, and only the tag differs (Item 28 also differs in choosing a metaphorical content). Dialects are declared in the envelope by number, version and digest (Item 11; grammar, 'envelope').",
+     "No, machine bookkeeping dominates every message. In Item 1 Message 1 the envelope runs to 58 words against 29 in the move, and only three of the 87 words are content roots (radah, nutitoh, rowew). The envelope holds a word count, sender, recipients, a communication time, three version numbers, an identifier, a first-entry number, a unit check word and an integrity check value. Every number ends in a check word (FOUR ZERO CHECK-4, Item 38), and every move ends in a move check word (CHK39, Item 1).",
+     "No, the language changes by specified release: features enter at versions 0.2 to 1.0 (grammar § Productions, header comment), and protocol statements report which versions, dialects and features a reader lacks (grammar, 'understood', 'lacked')."
+    ]
+   },
+   {
+    "question": "Is it merely a programming language?",
+    "answer": "in part",
+    "grounds": [
+     "No, nothing in the sample is a computation or an instruction to a machine. Requests go to agents and become their obligations: ACT-REQUEST, then ACT-UNDERTAKING, then a completion report on the resulting obligation (Item 7). CONDITION is a propositional connective inside an assertion, not control flow ('not run robot if break battery', Item 21). NAME and SAME mark coreference, not mutable variables (Items 23, 39). No production in the grammar provides iteration, assignment, function definition or evaluation (grammar § Productions).",
+     "No, its semantic categories are those of communication between minds, not of computation: force and kind of issue, evidential basis and strength, attitudes (belief, entertaining, intention: Items 37, 57, 44), aspect, figures (metaphor, metonymy, irony, hyperbole), idioms, register and politeness (grammar § Grammatical classes).",
+     "Yes, in part: its syntax and transport layer belong to a formal machine notation. The grammar is a set of EBNF-style productions (grammar § Productions), and every constituent is bracketed by open and close words. Counts, check words, an integrity check value and an optional signature over 'the canonical serialisation' guard each message (grammar, 'envelope'; Item 1). The protocol statements (HOLDS, SEND-AGAIN, NOT-HELD, UNDERSTANDS, LACKS) are fixed forms 'which every version reads alike' (grammar, 'statement'). The lexicon is engineered as a prefix code in which the onset fixes word length: k, t, d give six letters; h, r five; n, y, p, b, g, m, s, w, l four; nu seven (grammar, 'Word shapes'). Strictly, these features make it a serialisation format or wire protocol, not a programming language."
+    ]
+   },
+   {
+    "question": "Is it merely a cipher?",
+    "answer": "no",
+    "grounds": [
+     "No correspondence with English at the level of letters or sounds: the word forms do not resemble the English glosses, and their length is set by the onset, not by the English word. MAP is nutitoh (seven letters), RUN is rudin (five), SELF is muhi (four), DOOR is nubogab (seven) (Items 1, 31, 7; grammar, 'Word shapes').",
+     "No correspondence with English sentences at the level of words. Many surface words have no English counterpart: ASSERTION ... END-ASSERTION, the role words ACTOR, UNDERGOER and HOLDER, the evidential and strength words, the check words. Words English requires are absent: there is no copula in OLD UNDERGOER DOCUMENT (Item 6) and no tense in POSSESS HOLDER SELF UNDERGOER MAP (Item 1). The English line has to reorder: the move puts the predicate before its role-marked arguments, while the English line puts 'me' first (Item 1).",
+     "The language generates meanings no plaintext would supply: idioms (Item 16 Message 2, Item 30), compounds coined inside the language (Items 11, 48), dialect shortenings (Items 11, 42). It also has its own phonology and writing system (grammar § Phonology: IPA values, private-use code points U+F3A0 to U+F3B2).",
+     "Qualification: against its own gloss, the surface is a transparent token-for-token encoding. Each word is one gloss token, the act words are the only fused forms, and no form alternates. Numbers are decimal digit strings with each digit given its own word and a check word added (FOUR ZERO CHECK-4 for 40, Item 38; ZERO DECIMAL-POINT SIX for 0.6, Item 58). This transparency is a property of an engineered encoding, but what it encodes is the language's own semantic structure, not a text in another language."
+    ]
+   },
+   {
+    "question": "Is it merely an English relexification?",
+    "answer": "no",
+    "grounds": [
+     "Its syntax is not English. The predicate comes first and its arguments are role-marked (WORRY HOLDER CHILD CONTENT ..., Item 13). Determiners and quantifiers follow the noun (nutitoh gona, MAP DEFINITE, Item 1). Property concepts are predicates with no copula (GOOD UNDERGOER WEATHER, Item 12; OLD UNDERGOER DOCUMENT, Item 6). Tense is optional (none in Item 1; EVENT-TIME in Item 49), while every move must state its force (grammar, 'what the move adds'). Class membership and parthood are relations, not uses of 'be' (MEMBER-OF, Items 22, 24; PART, Item 25). Some situation parts order freely: POLAR follows the root in Item 12 and precedes it in Item 14.",
+     "Its grammatical categories are not English: evidential basis and strength on assertions; inclusive and exclusive collective persons, with SYSTEM, TOOL and ENVIRONMENT also as persons (grammar, 'person'); INCEPTIVE and INTERRUPTED aspect (grammar, 'aspect'; Item 60); an obligatory joint or distributive reading of an acting collective (grammar, 'reading of a collective').",
+     "Its morphology is not English: compounds are joined by the linker i (Items 11, 42, 45, 46, 48, 52), and suffixes take the VCVC shape (radaharur, Item 36; grammar, 'Word shapes').",
+     "Most of its idioms are not English idioms: HEAR WIND 'detect danger' (Item 16 Message 2), STORM in HEAD 'not comprehend context' (Item 30), obligation ARRIVE at NIGHT 'regret lateness' (Item 17 Message 3), EVIDENCE DESTROY BRIDGE 'undermine argument' (Item 56), SHUT MEMORY 'store record' (Item 7 Message 4), FIND FIND (Item 14 Message 2).",
+     "English traces are confined to the lexicon. Inferred: OUTSIDE ... BOUNDARY rendered 'rule forbid' (Item 40 Message 2) mirrors English 'out of bounds'. ARRIVE with a propositional content, unmarked as an idiom but rendered 'conclude' (Item 59), mirrors 'arrive at a conclusion'. Every root keeps a single English gloss throughout the sample, so the sample cannot show whether the roots divide meaning the way English words do."
+    ]
+   }
+  ],
+  "remarks": "(1) The English lines are an unreliable check on the glosses. They put the words in English order and drop articles, so they are reordered glosses, not idiomatic English. They also contain rendering faults. Wherever MEMBER-OF is the predicate, the line leaves a blank where the predicate should be ('asserts that  gas that matter (member of)', Items 22, 24, 32, 49). Items 27 and 60 repeat a parenthesis. Item 33 drops the quoted words BOX and SERVICE. Item 58 drops APPROXIMATELY. Item 1 Message 2 leaves CONTRASTS unrendered. Item 16 Message 1 renders PULL ACTOR RULE UNDERGOER SELF as 'rule contradict that rule', losing SELF. Item 3 Message 3 renders APPROACH UNDERGOER SELF CONTENT END as 'me work', an expansion with no evident motivation in its literal structure. Item 54 Message 2 answers a question about a team's work with a bare IDIOM-ENTRY RUN rendered 'run service'. (2) Inferred: the move check word does not depend on which roots fill a construction. CHK286 closes six requests that differ only in their two roots (Items 2, 5, 7, 41, 51, 52), and CHK38 closes the six matching undertakings. CHK56 closes three different trained-knowledge assertions (Items 22, 24, 25), and CHK336 closes the different assertions of Items 37 and 56. The envelope's integrity check value does differ between those messages, so content is guarded there; the move check word appears to guard structure only. (3) Inferred, possible inconsistency between the summary and the corpus: the grammar requires bindingness on a normative entry other than a recommendation, and 'expected-kind = adds' would carry that requirement into references. Yet references to an OBLIGATION or an ASSIGNMENT carry no bindingness word (Item 7 Message 3, Item 17 Message 3, Item 41 Message 3, Item 55 Messages 2 and 3). (4) Limit of the evidence: the sample is generated. It has two agents, the same communication time (1760000000) on the first message of every item, rising by 60 per later message, and templated exchanges. It therefore shows what the grammar can express. It cannot show variation among speakers, change over time, ambiguity resolved by context or acquisition, which are what a fuller answer to the first question would need. The dialects, registers and idioms in it are declared or listed, not observed to emerge."
+ },
+ "outcome": {
+  "departures": [],
+  "findings": [
+   "Does the language actually behave like a language?",
+   "Is it merely a programming language?"
+  ],
+  "blocks the release": false
+ }
+}

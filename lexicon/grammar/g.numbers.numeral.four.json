@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.numbers.numeral.four",
+ "orthographic form": "nasu",
+ "phonological form": "/nasu/",
+ "grammatical category": "numeral",
+ "gloss": "FOUR",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

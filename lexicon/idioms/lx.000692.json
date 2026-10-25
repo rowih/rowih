@@ -1,0 +1,56 @@
+{
+ "machine identifier": "lx.000692",
+ "root": "lx.000692",
+ "phonological form": "/nuwonot/",
+ "orthographic form": "nuwonot",
+ "grammatical category": "idiom",
+ "sort": "s.sort.situation",
+ "semantic type": {
+  "sort": "s.sort.situation",
+  "arguments": []
+ },
+ "definition": "the speaker holds what the slot names from its records, without being sure of them",
+ "semantic primitives": [
+  "s.sort.situation"
+ ],
+ "argument structure": [],
+ "derivational behaviour": [],
+ "register": [
+  "R0",
+  "R1",
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7"
+ ],
+ "collocations": [],
+ "synonyms": [],
+ "antonyms": [],
+ "related concepts": [],
+ "examples": [],
+ "version": {
+  "introduced": "1.0",
+  "deprecated": null
+ },
+ "key": "remembering interrupted",
+ "class": "uncertainty",
+ "kind": "encoding, grammatical",
+ "route": "formula",
+ "literal structure": "(situation remember INTERRUPTED (EVENT-TIME BEFORE NOW) (ACTOR (term SELF)) (CONTENT (slot 1)))",
+ "expansion": "(situation BELIEF RETRIEVAL UNCERTAIN (HOLDER (term SELF)) (CONTENT (slot 1)))",
+ "decomposition": [
+  {
+   "slot": 1,
+   "literal role": "CONTENT",
+   "expansion role": "CONTENT"
+  }
+ ],
+ "pragmatic conditions": "of a content the speaker recalls in part",
+ "usage restrictions": "none",
+ "declared loss": [
+  "stance"
+ ],
+ "constructed history": "Constructed history: an agent whose records were damaged said that its remembering had been interrupted, and the saying came to mark a doubtful recollection."
+}

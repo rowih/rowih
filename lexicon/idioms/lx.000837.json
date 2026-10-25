@@ -1,0 +1,46 @@
+{
+ "machine identifier": "lx.000837",
+ "root": "lx.000837",
+ "phonological form": "/nuwenut/",
+ "orthographic form": "nuwenut",
+ "grammatical category": "idiom",
+ "sort": "s.sort.situation",
+ "semantic type": {
+  "sort": "s.sort.situation",
+  "arguments": []
+ },
+ "definition": "the speaker is working",
+ "semantic primitives": [
+  "s.sort.situation"
+ ],
+ "argument structure": [],
+ "derivational behaviour": [],
+ "register": [
+  "R0",
+  "R2",
+  "R5",
+  "R6"
+ ],
+ "collocations": [],
+ "synonyms": [],
+ "antonyms": [],
+ "related concepts": [],
+ "examples": [],
+ "version": {
+  "introduced": "1.0",
+  "deprecated": null
+ },
+ "key": "working",
+ "class": "compressed expressions",
+ "kind": "decoding, grammatical",
+ "route": "compression",
+ "literal structure": "(situation work PROGRESSIVE (EVENT-TIME NOW))",
+ "expansion": "(situation work PROGRESSIVE (ACTOR (term SELF)))",
+ "decomposition": [],
+ "pragmatic conditions": "in answer to a request for status",
+ "usage restrictions": "none",
+ "declared loss": [
+  "wording"
+ ],
+ "constructed history": "Constructed history: the counterpart of done, shortened the same way."
+}

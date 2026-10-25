@@ -1,0 +1,76 @@
+{
+ "machine identifier": "lx.000551",
+ "root": "lx.000551",
+ "phonological form": "/nulepes/",
+ "orthographic form": "nulepes",
+ "grammatical category": "nominal root",
+ "sort": "s.sort.kind",
+ "semantic type": {
+  "sort": "s.sort.kind",
+  "arguments": []
+ },
+ "definition": "a substance used to treat disease",
+ "semantic primitives": [
+  "s.sort.kind"
+ ],
+ "argument structure": [],
+ "derivational behaviour": [
+  {
+   "suffix": "lx.000110",
+   "mechanism": "abstraction",
+   "form": "nulepesusap",
+   "sort": "s.sort.kind",
+   "definition": "what every instance of [a substance used to treat disease] has in common"
+  },
+  {
+   "suffix": "lx.000112",
+   "mechanism": "verbalisation",
+   "form": "nulepesasey",
+   "sort": "s.sort.event",
+   "definition": "act by means of [a substance used to treat disease]"
+  },
+  {
+   "suffix": "lx.000113",
+   "mechanism": "adjectivisation",
+   "form": "nulepesuyik",
+   "sort": "s.sort.state",
+   "definition": "be of the kind [a substance used to treat disease] names"
+  },
+  {
+   "suffix": "lx.000184",
+   "mechanism": "honorific",
+   "form": "nulepesayuk",
+   "sort": "s.sort.kind",
+   "definition": "[a substance used to treat disease], named with deference"
+  }
+ ],
+ "register": [
+  "R0",
+  "R1",
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7"
+ ],
+ "collocations": [],
+ "synonyms": [],
+ "antonyms": [],
+ "related concepts": [
+  {
+   "entry": "lx.000502",
+   "relation": "kind of"
+  },
+  {
+   "entry": "lx.000550",
+   "relation": "involves"
+  }
+ ],
+ "examples": [],
+ "version": {
+  "introduced": "1.0",
+  "deprecated": null
+ },
+ "key": "medicine"
+}

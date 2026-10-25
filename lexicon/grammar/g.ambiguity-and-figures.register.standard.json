@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.ambiguity-and-figures.register.standard",
+ "orthographic form": "lidu",
+ "phonological form": "/lidu/",
+ "grammatical category": "register",
+ "gloss": "STANDARD",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.6"
+ }
+}

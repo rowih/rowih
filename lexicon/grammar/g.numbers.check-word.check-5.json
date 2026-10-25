@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.numbers.check-word.check-5",
+ "orthographic form": "yeka",
+ "phonological form": "/jeka/",
+ "grammatical category": "check word",
+ "gloss": "CHECK-5",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

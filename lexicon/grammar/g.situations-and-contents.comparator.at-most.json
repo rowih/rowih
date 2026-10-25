@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.situations-and-contents.comparator.at-most",
+ "orthographic form": "guyi",
+ "phonological form": "/ɡuji/",
+ "grammatical category": "comparator",
+ "gloss": "AT-MOST",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

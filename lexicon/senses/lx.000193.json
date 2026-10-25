@@ -1,0 +1,56 @@
+{
+ "machine identifier": "lx.000193",
+ "root": "lx.000070",
+ "phonological form": "/ɾosid/",
+ "orthographic form": "rosid",
+ "grammatical category": "conventional sense",
+ "sort": "s.sort.kind",
+ "semantic type": {
+  "sort": "s.sort.kind",
+  "arguments": [
+   "content"
+  ]
+ },
+ "definition": "many of what the content names, arriving in a short time",
+ "semantic primitives": [
+  "s.sort.kind"
+ ],
+ "argument structure": [
+  {
+   "role": "content",
+   "sort": "s.sort.referent"
+  }
+ ],
+ "derivational behaviour": [],
+ "register": [
+  "R0",
+  "R1",
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7"
+ ],
+ "collocations": [],
+ "synonyms": [],
+ "antonyms": [],
+ "related concepts": [
+  "lx.000070"
+ ],
+ "examples": [],
+ "version": {
+  "introduced": "0.5",
+  "deprecated": null
+ },
+ "key": "burst",
+ "sense of": "lx.000070",
+ "frame": {
+  "role": "g.situations-and-contents.participation.content",
+  "filler": "term"
+ },
+ "motivating mapping": "mp.000005",
+ "kind": "conventional figurative",
+ "constructed history": "Constructed history: networks were said to have weather, calm when nothing arrives and stormy when much arrives at once, and a storm of messages came to mean their burst without the weather.",
+ "declared loss": []
+}

@@ -1,0 +1,72 @@
+{
+ "machine identifier": "lx.000281",
+ "root": "lx.000281",
+ "phonological form": "/nutojom/",
+ "orthographic form": "nutoyom",
+ "grammatical category": "nominal root",
+ "sort": "s.sort.kind",
+ "semantic type": {
+  "sort": "s.sort.kind",
+  "arguments": []
+ },
+ "definition": "what states where something can be found or sent",
+ "semantic primitives": [
+  "s.sort.kind"
+ ],
+ "argument structure": [],
+ "derivational behaviour": [
+  {
+   "suffix": "lx.000110",
+   "mechanism": "abstraction",
+   "form": "nutoyomusap",
+   "sort": "s.sort.kind",
+   "definition": "what every instance of [what states where something can be found or sent] has in common"
+  },
+  {
+   "suffix": "lx.000112",
+   "mechanism": "verbalisation",
+   "form": "nutoyomasey",
+   "sort": "s.sort.event",
+   "definition": "act by means of [what states where something can be found or sent]"
+  },
+  {
+   "suffix": "lx.000113",
+   "mechanism": "adjectivisation",
+   "form": "nutoyomuyik",
+   "sort": "s.sort.state",
+   "definition": "be of the kind [what states where something can be found or sent] names"
+  },
+  {
+   "suffix": "lx.000184",
+   "mechanism": "honorific",
+   "form": "nutoyomayuk",
+   "sort": "s.sort.kind",
+   "definition": "[what states where something can be found or sent], named with deference"
+  }
+ ],
+ "register": [
+  "R0",
+  "R1",
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7"
+ ],
+ "collocations": [],
+ "synonyms": [],
+ "antonyms": [],
+ "related concepts": [
+  {
+   "entry": "lx.000008",
+   "relation": "involves"
+  }
+ ],
+ "examples": [],
+ "version": {
+  "introduced": "1.0",
+  "deprecated": null
+ },
+ "key": "address"
+}

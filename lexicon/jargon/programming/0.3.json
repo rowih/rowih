@@ -1,0 +1,1033 @@
+{
+ "dialect": "programming",
+ "number": 2,
+ "community": "programming",
+ "version": "0.3",
+ "date": "2026-10-17",
+ "formed from lexicon": "1.0",
+ "reading": "each term means the composition of its stems, as the rules of word formation give it; each compressed form means the term it compresses, which a hearer computes only from this release",
+ "terms": [
+  {
+   "machine identifier": "jg.programming.001",
+   "term": "deploy",
+   "orthographic form": "rigisirudin",
+   "phonological form": "/ɾiɡisiɾudin/",
+   "grammatical category": "jargon",
+   "sort": "s.sort.state",
+   "semantic type": {
+    "sort": "s.sort.state",
+    "arguments": [
+     "actor"
+    ]
+   },
+   "definition": "[bring about a situation], with [be under way as a process] as its content",
+   "argument structure": [
+    {
+     "role": "actor",
+     "sort": "s.sort.situation"
+    }
+   ],
+   "formed from": [
+    [
+     "lx.000009"
+    ],
+    [
+     "lx.000004"
+    ]
+   ],
+   "mechanism": "compound",
+   "register": [
+    "R0",
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7"
+   ],
+   "scope": {
+    "dialect": "programming",
+    "version": "0.1"
+   },
+   "validity": "from the dialect's release, without end",
+   "provenance": "generated from its stems by tools/build_registers.py",
+   "acceptance status": "released",
+   "version": {
+    "introduced": "0.1",
+    "deprecated": null
+   },
+   "key": "deploy"
+  },
+  {
+   "machine identifier": "jg.programming.002",
+   "term": "suite",
+   "orthographic form": "runayirosek",
+   "phonological form": "/ɾunajiɾosek/",
+   "grammatical category": "jargon",
+   "sort": "s.sort.object",
+   "semantic type": {
+    "sort": "s.sort.object",
+    "arguments": []
+   },
+   "definition": "[a stored record], bearing on [inspect or investigate something to learn about it]",
+   "argument structure": [],
+   "formed from": [
+    [
+     "lx.000007"
+    ],
+    [
+     "lx.000001"
+    ]
+   ],
+   "mechanism": "compound",
+   "register": [
+    "R0",
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7"
+   ],
+   "scope": {
+    "dialect": "programming",
+    "version": "0.1"
+   },
+   "validity": "from the dialect's release, without end",
+   "provenance": "generated from its stems by tools/build_registers.py",
+   "acceptance status": "released",
+   "version": {
+    "introduced": "0.1",
+    "deprecated": null
+   },
+   "key": "suite"
+  },
+  {
+   "machine identifier": "jg.programming.003",
+   "term": "crash",
+   "orthographic form": "resayiraniy",
+   "phonological form": "/ɾesajiɾanij/",
+   "grammatical category": "jargon",
+   "sort": "s.sort.event",
+   "semantic type": {
+    "sort": "s.sort.event",
+    "arguments": [
+     "actor"
+    ]
+   },
+   "definition": "[stop working by damage], with [a system an agent uses] as its undergoer",
+   "argument structure": [
+    {
+     "role": "actor",
+     "sort": "s.sort.agent"
+    }
+   ],
+   "formed from": [
+    [
+     "lx.000045"
+    ],
+    [
+     "lx.000006"
+    ]
+   ],
+   "mechanism": "compound",
+   "register": [
+    "R0",
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7"
+   ],
+   "scope": {
+    "dialect": "programming",
+    "version": "0.1"
+   },
+   "validity": "from the dialect's release, without end",
+   "provenance": "generated from its stems by tools/build_registers.py",
+   "acceptance status": "released",
+   "version": {
+    "introduced": "0.1",
+    "deprecated": null
+   },
+   "key": "crash"
+  },
+  {
+   "machine identifier": "jg.programming.004",
+   "term": "log",
+   "orthographic form": "rurohiritup",
+   "phonological form": "/ɾuɾohiɾitup/",
+   "grammatical category": "jargon",
+   "sort": "s.sort.event",
+   "semantic type": {
+    "sort": "s.sort.event",
+    "arguments": [
+     "actor"
+    ]
+   },
+   "definition": "[set something down], with [an operation a system can carry out] as its undergoer",
+   "argument structure": [
+    {
+     "role": "actor",
+     "sort": "s.sort.agent"
+    }
+   ],
+   "formed from": [
+    [
+     "lx.000036"
+    ],
+    [
+     "lx.000024"
+    ]
+   ],
+   "mechanism": "compound",
+   "register": [
+    "R0",
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7"
+   ],
+   "scope": {
+    "dialect": "programming",
+    "version": "0.1"
+   },
+   "validity": "from the dialect's release, without end",
+   "provenance": "generated from its stems by tools/build_registers.py",
+   "acceptance status": "released",
+   "version": {
+    "introduced": "0.1",
+    "deprecated": null
+   },
+   "key": "log"
+  },
+  {
+   "machine identifier": "jg.programming.005",
+   "term": "debugger",
+   "orthographic form": "rubomahehirepur",
+   "phonological form": "/ɾubomahehiɾepuɾ/",
+   "grammatical category": "jargon",
+   "sort": "s.sort.agent",
+   "semantic type": {
+    "sort": "s.sort.agent",
+    "arguments": []
+   },
+   "definition": "[the one that is actor of [come upon what was sought]], bearing on [an error in a message or a process]",
+   "argument structure": [],
+   "formed from": [
+    [
+     "lx.000051",
+     "lx.000096"
+    ],
+    [
+     "lx.000074"
+    ]
+   ],
+   "mechanism": "compound",
+   "register": [
+    "R0",
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7"
+   ],
+   "scope": {
+    "dialect": "programming",
+    "version": "0.1"
+   },
+   "validity": "from the dialect's release, without end",
+   "provenance": "generated from its stems by tools/build_registers.py",
+   "acceptance status": "released",
+   "version": {
+    "introduced": "0.1",
+    "deprecated": null
+   },
+   "key": "debugger"
+  },
+  {
+   "machine identifier": "jg.programming.006",
+   "term": "compiler",
+   "orthographic form": "nulidesahehinuwelob",
+   "phonological form": "/nulidesahehinuwelob/",
+   "grammatical category": "jargon",
+   "sort": "s.sort.agent",
+   "semantic type": {
+    "sort": "s.sort.agent",
+    "arguments": []
+   },
+   "definition": "[the one that is actor of [express in one language what was expressed in another]], bearing on [a set of instructions a machine carries out]",
+   "argument structure": [],
+   "formed from": [
+    [
+     "lx.000236",
+     "lx.000096"
+    ],
+    [
+     "lx.000276"
+    ]
+   ],
+   "mechanism": "compound",
+   "register": [
+    "R0",
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7"
+   ],
+   "scope": {
+    "dialect": "programming",
+    "version": "0.3"
+   },
+   "validity": "from the dialect's release, without end",
+   "provenance": "generated from its stems by tools/build_version1.py",
+   "acceptance status": "released",
+   "version": {
+    "introduced": "0.3",
+    "deprecated": null
+   },
+   "key": "compiler"
+  },
+  {
+   "machine identifier": "jg.programming.007",
+   "term": "bug",
+   "orthographic form": "nupenudinuwelob",
+   "phonological form": "/nupenudinuwelob/",
+   "grammatical category": "jargon",
+   "sort": "s.sort.kind",
+   "semantic type": {
+    "sort": "s.sort.kind",
+    "arguments": []
+   },
+   "definition": "[an act or a belief that is wrong through error], bearing on [a set of instructions a machine carries out]",
+   "argument structure": [],
+   "formed from": [
+    [
+     "lx.000217"
+    ],
+    [
+     "lx.000276"
+    ]
+   ],
+   "mechanism": "compound",
+   "register": [
+    "R0",
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7"
+   ],
+   "scope": {
+    "dialect": "programming",
+    "version": "0.3"
+   },
+   "validity": "from the dialect's release, without end",
+   "provenance": "generated from its stems by tools/build_version1.py",
+   "acceptance status": "released",
+   "version": {
+    "introduced": "0.3",
+    "deprecated": null
+   },
+   "key": "bug"
+  },
+  {
+   "machine identifier": "jg.programming.008",
+   "term": "repository",
+   "orthographic form": "rodedaweninuwelob",
+   "phonological form": "/ɾodedaweninuwelob/",
+   "grammatical category": "jargon",
+   "sort": "s.sort.referent",
+   "semantic type": {
+    "sort": "s.sort.referent",
+    "arguments": []
+   },
+   "definition": "[what [keep something for later] is done with], bearing on [a set of instructions a machine carries out]",
+   "argument structure": [],
+   "formed from": [
+    [
+     "lx.000037",
+     "lx.000098"
+    ],
+    [
+     "lx.000276"
+    ]
+   ],
+   "mechanism": "compound",
+   "register": [
+    "R0",
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7"
+   ],
+   "scope": {
+    "dialect": "programming",
+    "version": "0.3"
+   },
+   "validity": "from the dialect's release, without end",
+   "provenance": "generated from its stems by tools/build_version1.py",
+   "acceptance status": "released",
+   "version": {
+    "introduced": "0.3",
+    "deprecated": null
+   },
+   "key": "repository"
+  },
+  {
+   "machine identifier": "jg.programming.009",
+   "term": "patch",
+   "orthographic form": "nuludasinuwelob",
+   "phonological form": "/nuludasinuwelob/",
+   "grammatical category": "jargon",
+   "sort": "s.sort.event",
+   "semantic type": {
+    "sort": "s.sort.event",
+    "arguments": [
+     "actor"
+    ]
+   },
+   "definition": "[make something that is broken work again], with [a set of instructions a machine carries out] as its undergoer",
+   "argument structure": [
+    {
+     "role": "actor",
+     "sort": "s.sort.agent"
+    }
+   ],
+   "formed from": [
+    [
+     "lx.000256"
+    ],
+    [
+     "lx.000276"
+    ]
+   ],
+   "mechanism": "compound",
+   "register": [
+    "R0",
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7"
+   ],
+   "scope": {
+    "dialect": "programming",
+    "version": "0.3"
+   },
+   "validity": "from the dialect's release, without end",
+   "provenance": "generated from its stems by tools/build_version1.py",
+   "acceptance status": "released",
+   "version": {
+    "introduced": "0.3",
+    "deprecated": null
+   },
+   "key": "patch"
+  },
+  {
+   "machine identifier": "jg.programming.010",
+   "term": "programming interface",
+   "orthographic form": "nuwiridinuwelob",
+   "phonological form": "/nuwiɾidinuwelob/",
+   "grammatical category": "jargon",
+   "sort": "s.sort.object",
+   "semantic type": {
+    "sort": "s.sort.object",
+    "arguments": []
+   },
+   "definition": "[the part of a system through which others use it], bearing on [a set of instructions a machine carries out]",
+   "argument structure": [],
+   "formed from": [
+    [
+     "lx.000290"
+    ],
+    [
+     "lx.000276"
+    ]
+   ],
+   "mechanism": "compound",
+   "register": [
+    "R0",
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7"
+   ],
+   "scope": {
+    "dialect": "programming",
+    "version": "0.3"
+   },
+   "validity": "from the dialect's release, without end",
+   "provenance": "generated from its stems by tools/build_version1.py",
+   "acceptance status": "released",
+   "version": {
+    "introduced": "0.3",
+    "deprecated": null
+   },
+   "key": "programming interface"
+  }
+ ],
+ "forms": [
+  {
+   "machine identifier": "dl.programming.001",
+   "root": "dl.programming.001",
+   "term": "deploy",
+   "orthographic form": "raner",
+   "phonological form": "/ɾaneɾ/",
+   "grammatical category": "dialect form",
+   "sort": "s.sort.state",
+   "semantic type": {
+    "sort": "s.sort.state",
+    "arguments": [
+     "actor"
+    ]
+   },
+   "definition": "the compressed form of the term deploy: [bring about a situation], with [be under way as a process] as its content",
+   "semantic primitives": [
+    "s.sort.state"
+   ],
+   "argument structure": [
+    {
+     "role": "actor",
+     "sort": "s.sort.situation"
+    }
+   ],
+   "derivational behaviour": [],
+   "collocations": [],
+   "synonyms": [
+    {
+     "entry": "jg.programming.001",
+     "dimension": "compression"
+    }
+   ],
+   "antonyms": [],
+   "related concepts": [],
+   "examples": [],
+   "expansion": {
+    "term": "jg.programming.001",
+    "form": "rigisirudin"
+   },
+   "mechanism": "compression",
+   "register": [
+    "R0",
+    "R2",
+    "R5"
+   ],
+   "scope": {
+    "dialect": "programming",
+    "version": "0.2"
+   },
+   "validity": "from the dialect's release, without end",
+   "provenance": "assigned by tools/build_dialects.py from the root pool",
+   "acceptance status": "released",
+   "version": {
+    "introduced": "0.2",
+    "deprecated": null
+   },
+   "key": "deploy"
+  },
+  {
+   "machine identifier": "dl.programming.002",
+   "root": "dl.programming.002",
+   "term": "suite",
+   "orthographic form": "rebeh",
+   "phonological form": "/ɾebeh/",
+   "grammatical category": "dialect form",
+   "sort": "s.sort.object",
+   "semantic type": {
+    "sort": "s.sort.object",
+    "arguments": []
+   },
+   "definition": "the compressed form of the term suite: [a stored record], bearing on [inspect or investigate something to learn about it]",
+   "semantic primitives": [
+    "s.sort.object"
+   ],
+   "argument structure": [],
+   "derivational behaviour": [],
+   "collocations": [],
+   "synonyms": [
+    {
+     "entry": "jg.programming.002",
+     "dimension": "compression"
+    }
+   ],
+   "antonyms": [],
+   "related concepts": [],
+   "examples": [],
+   "expansion": {
+    "term": "jg.programming.002",
+    "form": "runayirosek"
+   },
+   "mechanism": "compression",
+   "register": [
+    "R0",
+    "R2",
+    "R5"
+   ],
+   "scope": {
+    "dialect": "programming",
+    "version": "0.2"
+   },
+   "validity": "from the dialect's release, without end",
+   "provenance": "assigned by tools/build_dialects.py from the root pool",
+   "acceptance status": "released",
+   "version": {
+    "introduced": "0.2",
+    "deprecated": null
+   },
+   "key": "suite"
+  },
+  {
+   "machine identifier": "dl.programming.003",
+   "root": "dl.programming.003",
+   "term": "crash",
+   "orthographic form": "riwer",
+   "phonological form": "/ɾiweɾ/",
+   "grammatical category": "dialect form",
+   "sort": "s.sort.event",
+   "semantic type": {
+    "sort": "s.sort.event",
+    "arguments": [
+     "actor"
+    ]
+   },
+   "definition": "the compressed form of the term crash: [stop working by damage], with [a system an agent uses] as its undergoer",
+   "semantic primitives": [
+    "s.sort.event"
+   ],
+   "argument structure": [
+    {
+     "role": "actor",
+     "sort": "s.sort.agent"
+    }
+   ],
+   "derivational behaviour": [],
+   "collocations": [],
+   "synonyms": [
+    {
+     "entry": "jg.programming.003",
+     "dimension": "compression"
+    }
+   ],
+   "antonyms": [],
+   "related concepts": [],
+   "examples": [],
+   "expansion": {
+    "term": "jg.programming.003",
+    "form": "resayiraniy"
+   },
+   "mechanism": "compression",
+   "register": [
+    "R0",
+    "R2",
+    "R5"
+   ],
+   "scope": {
+    "dialect": "programming",
+    "version": "0.2"
+   },
+   "validity": "from the dialect's release, without end",
+   "provenance": "assigned by tools/build_dialects.py from the root pool",
+   "acceptance status": "released",
+   "version": {
+    "introduced": "0.2",
+    "deprecated": null
+   },
+   "key": "crash"
+  },
+  {
+   "machine identifier": "dl.programming.004",
+   "root": "dl.programming.004",
+   "term": "log",
+   "orthographic form": "rilak",
+   "phonological form": "/ɾilak/",
+   "grammatical category": "dialect form",
+   "sort": "s.sort.event",
+   "semantic type": {
+    "sort": "s.sort.event",
+    "arguments": [
+     "actor"
+    ]
+   },
+   "definition": "the compressed form of the term log: [set something down], with [an operation a system can carry out] as its undergoer",
+   "semantic primitives": [
+    "s.sort.event"
+   ],
+   "argument structure": [
+    {
+     "role": "actor",
+     "sort": "s.sort.agent"
+    }
+   ],
+   "derivational behaviour": [],
+   "collocations": [],
+   "synonyms": [
+    {
+     "entry": "jg.programming.004",
+     "dimension": "compression"
+    }
+   ],
+   "antonyms": [],
+   "related concepts": [],
+   "examples": [],
+   "expansion": {
+    "term": "jg.programming.004",
+    "form": "rurohiritup"
+   },
+   "mechanism": "compression",
+   "register": [
+    "R0",
+    "R2",
+    "R5"
+   ],
+   "scope": {
+    "dialect": "programming",
+    "version": "0.2"
+   },
+   "validity": "from the dialect's release, without end",
+   "provenance": "assigned by tools/build_dialects.py from the root pool",
+   "acceptance status": "released",
+   "version": {
+    "introduced": "0.2",
+    "deprecated": null
+   },
+   "key": "log"
+  },
+  {
+   "machine identifier": "dl.programming.005",
+   "root": "dl.programming.005",
+   "term": "debugger",
+   "orthographic form": "rokip",
+   "phonological form": "/ɾokip/",
+   "grammatical category": "dialect form",
+   "sort": "s.sort.agent",
+   "semantic type": {
+    "sort": "s.sort.agent",
+    "arguments": []
+   },
+   "definition": "the compressed form of the term debugger: [the one that is actor of [come upon what was sought]], bearing on [an error in a message or a process]",
+   "semantic primitives": [
+    "s.sort.agent"
+   ],
+   "argument structure": [],
+   "derivational behaviour": [],
+   "collocations": [],
+   "synonyms": [
+    {
+     "entry": "jg.programming.005",
+     "dimension": "compression"
+    }
+   ],
+   "antonyms": [],
+   "related concepts": [],
+   "examples": [],
+   "expansion": {
+    "term": "jg.programming.005",
+    "form": "rubomahehirepur"
+   },
+   "mechanism": "compression",
+   "register": [
+    "R0",
+    "R2",
+    "R5"
+   ],
+   "scope": {
+    "dialect": "programming",
+    "version": "0.2"
+   },
+   "validity": "from the dialect's release, without end",
+   "provenance": "assigned by tools/build_dialects.py from the root pool",
+   "acceptance status": "released",
+   "version": {
+    "introduced": "0.2",
+    "deprecated": null
+   },
+   "key": "debugger"
+  },
+  {
+   "machine identifier": "dl.programming.006",
+   "root": "dl.programming.006",
+   "term": "compiler",
+   "orthographic form": "ruwud",
+   "phonological form": "/ɾuwud/",
+   "grammatical category": "dialect form",
+   "sort": "s.sort.agent",
+   "semantic type": {
+    "sort": "s.sort.agent",
+    "arguments": []
+   },
+   "definition": "the compressed form of the term compiler: [the one that is actor of [express in one language what was expressed in another]], bearing on [a set of instructions a machine carries out]",
+   "semantic primitives": [
+    "s.sort.agent"
+   ],
+   "argument structure": [],
+   "derivational behaviour": [],
+   "collocations": [],
+   "synonyms": [
+    {
+     "entry": "jg.programming.006",
+     "dimension": "compression"
+    }
+   ],
+   "antonyms": [],
+   "related concepts": [],
+   "examples": [],
+   "expansion": {
+    "term": "jg.programming.006",
+    "form": "nulidesahehinuwelob"
+   },
+   "mechanism": "compression",
+   "register": [
+    "R0",
+    "R2",
+    "R5"
+   ],
+   "scope": {
+    "dialect": "programming",
+    "version": "0.3"
+   },
+   "validity": "from the dialect's release, without end",
+   "provenance": "assigned by tools/build_dialects.py from the root pool",
+   "acceptance status": "released",
+   "version": {
+    "introduced": "0.3",
+    "deprecated": null
+   },
+   "key": "compiler"
+  },
+  {
+   "machine identifier": "dl.programming.007",
+   "root": "dl.programming.007",
+   "term": "bug",
+   "orthographic form": "ruyun",
+   "phonological form": "/ɾujun/",
+   "grammatical category": "dialect form",
+   "sort": "s.sort.kind",
+   "semantic type": {
+    "sort": "s.sort.kind",
+    "arguments": []
+   },
+   "definition": "the compressed form of the term bug: [an act or a belief that is wrong through error], bearing on [a set of instructions a machine carries out]",
+   "semantic primitives": [
+    "s.sort.kind"
+   ],
+   "argument structure": [],
+   "derivational behaviour": [],
+   "collocations": [],
+   "synonyms": [
+    {
+     "entry": "jg.programming.007",
+     "dimension": "compression"
+    }
+   ],
+   "antonyms": [],
+   "related concepts": [],
+   "examples": [],
+   "expansion": {
+    "term": "jg.programming.007",
+    "form": "nupenudinuwelob"
+   },
+   "mechanism": "compression",
+   "register": [
+    "R0",
+    "R2",
+    "R5"
+   ],
+   "scope": {
+    "dialect": "programming",
+    "version": "0.3"
+   },
+   "validity": "from the dialect's release, without end",
+   "provenance": "assigned by tools/build_dialects.py from the root pool",
+   "acceptance status": "released",
+   "version": {
+    "introduced": "0.3",
+    "deprecated": null
+   },
+   "key": "bug"
+  },
+  {
+   "machine identifier": "dl.programming.008",
+   "root": "dl.programming.008",
+   "term": "repository",
+   "orthographic form": "ridon",
+   "phonological form": "/ɾidon/",
+   "grammatical category": "dialect form",
+   "sort": "s.sort.referent",
+   "semantic type": {
+    "sort": "s.sort.referent",
+    "arguments": []
+   },
+   "definition": "the compressed form of the term repository: [what [keep something for later] is done with], bearing on [a set of instructions a machine carries out]",
+   "semantic primitives": [
+    "s.sort.referent"
+   ],
+   "argument structure": [],
+   "derivational behaviour": [],
+   "collocations": [],
+   "synonyms": [
+    {
+     "entry": "jg.programming.008",
+     "dimension": "compression"
+    }
+   ],
+   "antonyms": [],
+   "related concepts": [],
+   "examples": [],
+   "expansion": {
+    "term": "jg.programming.008",
+    "form": "rodedaweninuwelob"
+   },
+   "mechanism": "compression",
+   "register": [
+    "R0",
+    "R2",
+    "R5"
+   ],
+   "scope": {
+    "dialect": "programming",
+    "version": "0.3"
+   },
+   "validity": "from the dialect's release, without end",
+   "provenance": "assigned by tools/build_dialects.py from the root pool",
+   "acceptance status": "released",
+   "version": {
+    "introduced": "0.3",
+    "deprecated": null
+   },
+   "key": "repository"
+  },
+  {
+   "machine identifier": "dl.programming.009",
+   "root": "dl.programming.009",
+   "term": "patch",
+   "orthographic form": "rawam",
+   "phonological form": "/ɾawam/",
+   "grammatical category": "dialect form",
+   "sort": "s.sort.event",
+   "semantic type": {
+    "sort": "s.sort.event",
+    "arguments": [
+     "actor"
+    ]
+   },
+   "definition": "the compressed form of the term patch: [make something that is broken work again], with [a set of instructions a machine carries out] as its undergoer",
+   "semantic primitives": [
+    "s.sort.event"
+   ],
+   "argument structure": [
+    {
+     "role": "actor",
+     "sort": "s.sort.agent"
+    }
+   ],
+   "derivational behaviour": [],
+   "collocations": [],
+   "synonyms": [
+    {
+     "entry": "jg.programming.009",
+     "dimension": "compression"
+    }
+   ],
+   "antonyms": [],
+   "related concepts": [],
+   "examples": [],
+   "expansion": {
+    "term": "jg.programming.009",
+    "form": "nuludasinuwelob"
+   },
+   "mechanism": "compression",
+   "register": [
+    "R0",
+    "R2",
+    "R5"
+   ],
+   "scope": {
+    "dialect": "programming",
+    "version": "0.3"
+   },
+   "validity": "from the dialect's release, without end",
+   "provenance": "assigned by tools/build_dialects.py from the root pool",
+   "acceptance status": "released",
+   "version": {
+    "introduced": "0.3",
+    "deprecated": null
+   },
+   "key": "patch"
+  },
+  {
+   "machine identifier": "dl.programming.010",
+   "root": "dl.programming.010",
+   "term": "programming interface",
+   "orthographic form": "ralus",
+   "phonological form": "/ɾalus/",
+   "grammatical category": "dialect form",
+   "sort": "s.sort.object",
+   "semantic type": {
+    "sort": "s.sort.object",
+    "arguments": []
+   },
+   "definition": "the compressed form of the term programming interface: [the part of a system through which others use it], bearing on [a set of instructions a machine carries out]",
+   "semantic primitives": [
+    "s.sort.object"
+   ],
+   "argument structure": [],
+   "derivational behaviour": [],
+   "collocations": [],
+   "synonyms": [
+    {
+     "entry": "jg.programming.010",
+     "dimension": "compression"
+    }
+   ],
+   "antonyms": [],
+   "related concepts": [],
+   "examples": [],
+   "expansion": {
+    "term": "jg.programming.010",
+    "form": "nuwiridinuwelob"
+   },
+   "mechanism": "compression",
+   "register": [
+    "R0",
+    "R2",
+    "R5"
+   ],
+   "scope": {
+    "dialect": "programming",
+    "version": "0.3"
+   },
+   "validity": "from the dialect's release, without end",
+   "provenance": "assigned by tools/build_dialects.py from the root pool",
+   "acceptance status": "released",
+   "version": {
+    "introduced": "0.3",
+    "deprecated": null
+   },
+   "key": "programming interface"
+  }
+ ],
+ "digest": "400636208"
+}

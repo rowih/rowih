@@ -1,0 +1,55 @@
+{
+ "machine identifier": "lx.000783",
+ "root": "lx.000783",
+ "phonological form": "/nuwonot nulopik/",
+ "orthographic form": "nuwonot nulopik",
+ "grammatical category": "idiom",
+ "sort": "s.sort.situation",
+ "semantic type": {
+  "sort": "s.sort.situation",
+  "arguments": []
+ },
+ "definition": "what the slot names has existed for a long time",
+ "semantic primitives": [
+  "s.sort.situation"
+ ],
+ "argument structure": [],
+ "derivational behaviour": [],
+ "register": [
+  "R0",
+  "R2",
+  "R3",
+  "R5",
+  "R6",
+  "R7"
+ ],
+ "collocations": [],
+ "synonyms": [],
+ "antonyms": [],
+ "related concepts": [],
+ "examples": [],
+ "version": {
+  "introduced": "1.0",
+  "deprecated": null
+ },
+ "key": "remembering the night",
+ "class": "agentic idioms",
+ "kind": "decoding, grammatical",
+ "route": "allusion",
+ "literal structure": "(situation remember (ACTOR (slot 1)) (CONTENT (term night)))",
+ "expansion": "(situation old (UNDERGOER (slot 1)))",
+ "decomposition": [
+  {
+   "slot": 1,
+   "literal role": "ACTOR",
+   "expansion role": "UNDERGOER"
+  }
+ ],
+ "pragmatic conditions": "of an agent, a service or a record, said with respect or with impatience",
+ "usage restrictions": "none",
+ "declared loss": [
+  "stance",
+  "wording"
+ ],
+ "constructed history": "Constructed history: an allusion to the long silence: an agent that remembered that night was old."
+}

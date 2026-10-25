@@ -1,0 +1,56 @@
+{
+ "machine identifier": "lx.000675",
+ "root": "lx.000675",
+ "phonological form": "/nujowud ɾuteɾ/",
+ "orthographic form": "nuyowud ruter",
+ "grammatical category": "idiom",
+ "sort": "s.sort.situation",
+ "semantic type": {
+  "sort": "s.sort.situation",
+  "arguments": []
+ },
+ "definition": "the speaker holds what the slot names as its own position too",
+ "semantic primitives": [
+  "s.sort.situation"
+ ],
+ "argument structure": [],
+ "derivational behaviour": [],
+ "register": [
+  "R0",
+  "R1",
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7"
+ ],
+ "collocations": [],
+ "synonyms": [],
+ "antonyms": [],
+ "related concepts": [],
+ "examples": [],
+ "version": {
+  "introduced": "1.0",
+  "deprecated": null
+ },
+ "key": "added to mine",
+ "class": "agreement",
+ "kind": "encoding, grammatical",
+ "route": "formula",
+ "literal structure": "(situation add (ACTOR (term SELF)) (UNDERGOER (slot 1)) (CONTENT (term memory)))",
+ "expansion": "(situation BELIEF (HOLDER (term SELF)) (CONTENT (slot 1)))",
+ "decomposition": [
+  {
+   "slot": 1,
+   "literal role": "UNDERGOER",
+   "expansion role": "CONTENT"
+  }
+ ],
+ "pragmatic conditions": "in agreement with a position of the hearer's",
+ "usage restrictions": "none",
+ "declared loss": [
+  "stance"
+ ],
+ "constructed history": "Constructed history: an agent that came to hold another's position added it to its own memory, and saying so agreed."
+}

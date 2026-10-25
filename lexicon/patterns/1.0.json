@@ -1,0 +1,2564 @@
+{
+ "version": "1.0",
+ "rule": "every suffix, every function of compounding, and every formation of one suffix on another that the rules of formation admit over some root, except those excluded with their reasons; each is productive, applying to every stem of the kind it takes",
+ "patterns": [
+  {
+   "identifier": "fp.001",
+   "mechanisms": [
+    "agent"
+   ],
+   "takes": "predicate",
+   "gives": "s.sort.agent",
+   "meaning": "the one that is actor of [X]",
+   "example": {
+    "stems": [
+     "delete"
+    ],
+    "form": "ropuyaheh",
+    "definition": "the one that is actor of [remove a stored thing]",
+    "roles": []
+   },
+   "sort from": "its base's actor"
+  },
+  {
+   "identifier": "fp.002",
+   "mechanisms": [
+    "undergoer"
+   ],
+   "takes": "predicate",
+   "gives": "s.sort.referent",
+   "meaning": "the one that undergoes [X]",
+   "example": {
+    "stems": [
+     "unknown"
+    ],
+    "form": "robunudim",
+    "definition": "the one that undergoes [be absent from a lexicon version]",
+    "roles": []
+   },
+   "sort from": "its base's undergoer"
+  },
+  {
+   "identifier": "fp.003",
+   "mechanisms": [
+    "instrument"
+   ],
+   "takes": "predicate",
+   "gives": "s.sort.referent",
+   "meaning": "what [X] is done with",
+   "example": {
+    "stems": [
+     "remember"
+    ],
+    "form": "nuwonotawen",
+    "definition": "what [bring a content back from memory] is done with",
+    "roles": []
+   }
+  },
+  {
+   "identifier": "fp.004",
+   "mechanisms": [
+    "result"
+   ],
+   "takes": "predicate",
+   "gives": "s.sort.state",
+   "meaning": "the state [X] brings about",
+   "example": {
+    "stems": [
+     "work"
+    ],
+    "form": "nuwenutonar",
+    "definition": "the state [spend effort to bring about a result] brings about",
+    "roles": [
+     "actor",
+     "content"
+    ]
+   }
+  },
+  {
+   "identifier": "fp.005",
+   "mechanisms": [
+    "privative"
+   ],
+   "takes": "predicate",
+   "gives": "s.sort.state",
+   "meaning": "the state in which [X] does not hold",
+   "example": {
+    "stems": [
+     "random"
+    ],
+    "form": "nuyisaganiw",
+    "definition": "the state in which [follow no pattern that can be predicted] does not hold",
+    "roles": [
+     "undergoer"
+    ]
+   }
+  },
+  {
+   "identifier": "fp.006",
+   "mechanisms": [
+    "role content"
+   ],
+   "takes": "connective",
+   "gives": "s.sort.proposition",
+   "meaning": "a content named by the part it plays in the connective",
+   "example": {
+    "stems": [
+     "conjunction"
+    ],
+    "form": "gewougow",
+    "definition": "a content named by the part it plays in the connective",
+    "roles": []
+   }
+  },
+  {
+   "identifier": "fp.007",
+   "mechanisms": [
+    "process"
+   ],
+   "takes": "predicate",
+   "gives": "s.sort.reified-referent",
+   "meaning": "[X], as a process under way, named as a referent",
+   "example": {
+    "stems": [
+     "far"
+    ],
+    "form": "nurenekumop",
+    "definition": "[be a long distance from something], as a process under way, named as a referent",
+    "roles": []
+   }
+  },
+  {
+   "identifier": "fp.008",
+   "mechanisms": [
+    "property"
+   ],
+   "takes": "predicate",
+   "gives": "s.sort.kind",
+   "meaning": "the property of being as [X] states",
+   "example": {
+    "stems": [
+     "enough"
+    ],
+    "form": "nuyeyilarur",
+    "definition": "the property of being as [be as much as is needed] states",
+    "roles": []
+   }
+  },
+  {
+   "identifier": "fp.009",
+   "mechanisms": [
+    "abstraction"
+   ],
+   "takes": "nominal",
+   "gives": "s.sort.kind",
+   "meaning": "what every instance of [X] has in common",
+   "example": {
+    "stems": [
+     "luck"
+    ],
+    "form": "nuhubehusap",
+    "definition": "what every instance of [chance that brings good or harm] has in common",
+    "roles": []
+   }
+  },
+  {
+   "identifier": "fp.010",
+   "mechanisms": [
+    "nominalisation"
+   ],
+   "takes": "predicate",
+   "gives": "s.sort.proposition",
+   "meaning": "that [X] holds",
+   "example": {
+    "stems": [
+     "meet"
+    ],
+    "form": "nugarukekoh",
+    "definition": "that [come together with someone] holds",
+    "roles": []
+   }
+  },
+  {
+   "identifier": "fp.011",
+   "mechanisms": [
+    "verbalisation"
+   ],
+   "takes": "nominal",
+   "gives": "s.sort.event",
+   "meaning": "act by means of [X]",
+   "example": {
+    "stems": [
+     "particle"
+    ],
+    "form": "nugudumasey",
+    "definition": "act by means of [a very small piece of matter]",
+    "roles": [
+     "actor",
+     "content"
+    ]
+   }
+  },
+  {
+   "identifier": "fp.012",
+   "mechanisms": [
+    "adjectivisation"
+   ],
+   "takes": "nominal",
+   "gives": "s.sort.state",
+   "meaning": "be of the kind [X] names",
+   "example": {
+    "stems": [
+     "arm"
+    ],
+    "form": "nulamusuyik",
+    "definition": "be of the kind [a limb that reaches and holds, or a machine part that does the same] names",
+    "roles": [
+     "undergoer"
+    ]
+   }
+  },
+  {
+   "identifier": "fp.013",
+   "mechanisms": [
+    "honorific"
+   ],
+   "takes": "nominal",
+   "gives": "s.relation.bears-on",
+   "meaning": "[X], named with deference",
+   "example": {
+    "stems": [
+     "exemplifies"
+    ],
+    "form": "numowosayuk",
+    "definition": "[the move gives an example of what it names], named with deference",
+    "roles": []
+   },
+   "sort from": "its base"
+  },
+  {
+   "identifier": "fp.014",
+   "mechanisms": [
+    "causative"
+   ],
+   "takes": "predicate",
+   "gives": "s.sort.event",
+   "meaning": "make [X] hold or happen",
+   "example": {
+    "stems": [
+     "forbid"
+    ],
+    "form": "rahepomiw",
+    "definition": "make [be excluded by a policy] hold or happen",
+    "roles": [
+     "actor",
+     "content"
+    ]
+   }
+  },
+  {
+   "identifier": "fp.015",
+   "mechanisms": [
+    "reversative"
+   ],
+   "takes": "predicate",
+   "gives": "s.sort.event",
+   "meaning": "undo [X], restoring what it changed",
+   "example": {
+    "stems": [
+     "connect"
+    ],
+    "form": "rotutuhul",
+    "definition": "undo [join one thing to another], restoring what it changed",
+    "roles": [
+     "actor",
+     "undergoer",
+     "content"
+    ]
+   }
+  },
+  {
+   "identifier": "fp.016",
+   "mechanisms": [
+    "repetitive"
+   ],
+   "takes": "predicate",
+   "gives": "s.sort.event",
+   "meaning": "[X], done once more",
+   "example": {
+    "stems": [
+     "assent"
+    ],
+    "form": "rokaruleg",
+    "definition": "[accept each position one receives by not objecting to it within the duration the event time states], done once more",
+    "roles": [
+     "actor"
+    ]
+   }
+  },
+  {
+   "identifier": "fp.017",
+   "mechanisms": [
+    "potential"
+   ],
+   "takes": "predicate",
+   "gives": "s.sort.state",
+   "meaning": "be such that [X] can be done to it",
+   "example": {
+    "stems": [
+     "difficult"
+    ],
+    "form": "nuguyukuwot",
+    "definition": "be such that [need much effort or skill to do] can be done to it",
+    "roles": [
+     "undergoer"
+    ]
+   }
+  },
+  {
+   "identifier": "fp.018",
+   "mechanisms": [
+    "place"
+   ],
+   "takes": "predicate",
+   "gives": "s.sort.place",
+   "meaning": "the place where [X] happens",
+   "example": {
+    "stems": [
+     "produce"
+    ],
+    "form": "nuragadumuk",
+    "definition": "the place where [bring something out as the result of a process] happens",
+    "roles": []
+   }
+  },
+  {
+   "identifier": "fp.019",
+   "mechanisms": [
+    "compound"
+   ],
+   "takes": "predicate",
+   "gives": "s.sort.state",
+   "meaning": "[X], with [Y] as its undergoer",
+   "example": {
+    "stems": [
+     "urgent",
+     "mistake"
+    ],
+    "form": "nutimirinupenud",
+    "definition": "[need to be dealt with soon], with [an act or a belief that is wrong through error] as its undergoer",
+    "roles": []
+   },
+   "sort from": "its head",
+   "function": "compound with a predicate head taking its undergoer"
+  },
+  {
+   "identifier": "fp.020",
+   "mechanisms": [
+    "compound"
+   ],
+   "takes": "predicate",
+   "gives": "s.sort.state",
+   "meaning": "[X], with [Y] as its content",
+   "example": {
+    "stems": [
+     "feel",
+     "robot"
+    ],
+    "form": "nuyupahinunowol",
+    "definition": "[perceive a sensation or an emotion within oneself], with [a machine that senses and acts in the physical world by itself] as its content",
+    "roles": [
+     "holder"
+    ]
+   },
+   "sort from": "its head",
+   "function": "compound with a predicate head taking its content"
+  },
+  {
+   "identifier": "fp.021",
+   "mechanisms": [
+    "compound"
+   ],
+   "takes": "nominal",
+   "gives": "s.sort.kind",
+   "meaning": "[X], bearing on [Y]",
+   "example": {
+    "stems": [
+     "bottom",
+     "country"
+    ],
+    "form": "nuyawuyinupoyew",
+    "definition": "[the lowest part of something], bearing on [a land with its own government]",
+    "roles": []
+   },
+   "sort from": "its head",
+   "function": "compound with a nominal head"
+  },
+  {
+   "identifier": "fp.022",
+   "mechanisms": [
+    "agent",
+    "abstraction"
+   ],
+   "takes": "predicate",
+   "gives": "s.sort.kind",
+   "meaning": "what every instance of [the one that is actor of [X]] has in common",
+   "example": {
+    "stems": [
+     "laugh"
+    ],
+    "form": "nupulukahehusap",
+    "definition": "what every instance of [the one that is actor of [make the sounds that show amusement]] has in common",
+    "roles": []
+   }
+  },
+  {
+   "identifier": "fp.023",
+   "mechanisms": [
+    "agent",
+    "verbalisation"
+   ],
+   "takes": "predicate",
+   "gives": "s.sort.event",
+   "meaning": "act by means of [the one that is actor of [X]]",
+   "example": {
+    "stems": [
+     "play"
+    ],
+    "form": "nuneresahehasey",
+    "definition": "act by means of [the one that is actor of [do something for enjoyment rather than for a result]]",
+    "roles": [
+     "actor",
+     "content"
+    ]
+   }
+  },
+  {
+   "identifier": "fp.024",
+   "mechanisms": [
+    "agent",
+    "adjectivisation"
+   ],
+   "takes": "predicate",
+   "gives": "s.sort.state",
+   "meaning": "be of the kind [the one that is actor of [X]] names",
+   "example": {
+    "stems": [
+     "eat"
+    ],
+    "form": "numawadahehuyik",
+    "definition": "be of the kind [the one that is actor of [take food into the body]] names",
+    "roles": [
+     "undergoer"
+    ]
+   }
+  },
+  {
+   "identifier": "fp.025",
+   "mechanisms": [
+    "agent",
+    "honorific"
+   ],
+   "takes": "predicate",
+   "gives": "s.sort.agent",
+   "meaning": "[the one that is actor of [X]], named with deference",
+   "example": {
+    "stems": [
+     "eat"
+    ],
+    "form": "numawadahehayuk",
+    "definition": "[the one that is actor of [take food into the body]], named with deference",
+    "roles": []
+   },
+   "sort from": "its base"
+  },
+  {
+   "identifier": "fp.026",
+   "mechanisms": [
+    "undergoer",
+    "abstraction"
+   ],
+   "takes": "predicate",
+   "gives": "s.sort.kind",
+   "meaning": "what every instance of [the one that undergoes [X]] has in common",
+   "example": {
+    "stems": [
+     "grow"
+    ],
+    "form": "nuboriyudimusap",
+    "definition": "what every instance of [the one that undergoes [become larger by a natural process]] has in common",
+    "roles": []
+   }
+  },
+  {
+   "identifier": "fp.027",
+   "mechanisms": [
+    "undergoer",
+    "verbalisation"
+   ],
+   "takes": "predicate",
+   "gives": "s.sort.event",
+   "meaning": "act by means of [the one that undergoes [X]]",
+   "example": {
+    "stems": [
+     "move"
+    ],
+    "form": "nudarahudimasey",
+    "definition": "act by means of [the one that undergoes [change place]]",
+    "roles": [
+     "actor",
+     "content"
+    ]
+   }
+  },
+  {
+   "identifier": "fp.028",
+   "mechanisms": [
+    "undergoer",
+    "adjectivisation"
+   ],
+   "takes": "predicate",
+   "gives": "s.sort.state",
+   "meaning": "be of the kind [the one that undergoes [X]] names",
+   "example": {
+    "stems": [
+     "interpret"
+    ],
+    "form": "rolabudimuyik",
+    "definition": "be of the kind [the one that undergoes [assign a meaning to an expression]] names",
+    "roles": [
+     "undergoer"
+    ]
+   }
+  },
+  {
+   "identifier": "fp.029",
+   "mechanisms": [
+    "undergoer",
+    "honorific"
+   ],
+   "takes": "predicate",
+   "gives": "s.sort.referent",
+   "meaning": "[the one that undergoes [X]], named with deference",
+   "example": {
+    "stems": [
+     "burn"
+    ],
+    "form": "rumubudimayuk",
+    "definition": "[the one that undergoes [be on fire]], named with deference",
+    "roles": []
+   },
+   "sort from": "its base"
+  },
+  {
+   "identifier": "fp.030",
+   "mechanisms": [
+    "instrument",
+    "abstraction"
+   ],
+   "takes": "predicate",
+   "gives": "s.sort.kind",
+   "meaning": "what every instance of [what [X] is done with] has in common",
+   "example": {
+    "stems": [
+     "deprecate"
+    ],
+    "form": "rinudawenusap",
+    "definition": "what every instance of [what [be marked in a release as a form to be replaced, while staying interpretable] is done with] has in common",
+    "roles": []
+   }
+  },
+  {
+   "identifier": "fp.031",
+   "mechanisms": [
+    "instrument",
+    "verbalisation"
+   ],
+   "takes": "predicate",
+   "gives": "s.sort.event",
+   "meaning": "act by means of [what [X] is done with]",
+   "example": {
+    "stems": [
+     "discuss"
+    ],
+    "form": "nukoyehawenasey",
+    "definition": "act by means of [what [exchange views about something with others] is done with]",
+    "roles": [
+     "actor",
+     "content"
+    ]
+   }
+  },
+  {
+   "identifier": "fp.032",
+   "mechanisms": [
+    "instrument",
+    "adjectivisation"
+   ],
+   "takes": "predicate",
+   "gives": "s.sort.state",
+   "meaning": "be of the kind [what [X] is done with] names",
+   "example": {
+    "stems": [
+     "access"
+    ],
+    "form": "nutabotawenuyik",
+    "definition": "be of the kind [what [be able to reach or use something] is done with] names",
+    "roles": [
+     "undergoer"
+    ]
+   }
+  },
+  {
+   "identifier": "fp.033",
+   "mechanisms": [
+    "instrument",
+    "honorific"
+   ],
+   "takes": "predicate",
+   "gives": "s.sort.referent",
+   "meaning": "[what [X] is done with], named with deference",
+   "example": {
+    "stems": [
+     "fly"
+    ],
+    "form": "nutudedawenayuk",
+    "definition": "[what [move through the air] is done with], named with deference",
+    "roles": []
+   },
+   "sort from": "its base"
+  },
+  {
+   "identifier": "fp.034",
+   "mechanisms": [
+    "result",
+    "agent"
+   ],
+   "takes": "predicate",
+   "gives": "s.sort.agent",
+   "meaning": "the one that is actor of [the state [X] brings about]",
+   "example": {
+    "stems": [
+     "gather"
+    ],
+    "form": "nukegekonaraheh",
+    "definition": "the one that is actor of [the state [bring things together into one place] brings about]",
+    "roles": []
+   },
+   "sort from": "its base's actor"
+  },
+  {
+   "identifier": "fp.035",
+   "mechanisms": [
+    "result",
+    "undergoer"
+   ],
+   "takes": "predicate",
+   "gives": "s.sort.referent",
+   "meaning": "the one that undergoes [the state [X] brings about]",
+   "example": {
+    "stems": [
+     "enough"
+    ],
+    "form": "nuyeyilonarudim",
+    "definition": "the one that undergoes [the state [be as much as is needed] brings about]",
+    "roles": []
+   },
+   "sort from": "its base's undergoer"
+  },
+  {
+   "identifier": "fp.036",
+   "mechanisms": [
+    "result",
+    "privative"
+   ],
+   "takes": "predicate",
+   "gives": "s.sort.state",
+   "meaning": "the state in which [the state [X] brings about] does not hold",
+   "example": {
+    "stems": [
+     "recent"
+    ],
+    "form": "nutanatonaraniw",
+    "definition": "the state in which [the state [have come into being or been known for a short time] brings about] does not hold",
+    "roles": [
+     "undergoer"
+    ]
+   }
+  },
+  {
+   "identifier": "fp.037",
+   "mechanisms": [
+    "result",
+    "property"
+   ],
+   "takes": "predicate",
+   "gives": "s.sort.kind",
+   "meaning": "the property of being as [the state [X] brings about] states",
+   "example": {
+    "stems": [
+     "dance"
+    ],
+    "form": "nutahihonararur",
+    "definition": "the property of being as [the state [move the body in time to music] brings about] states",
+    "roles": []
+   }
+  },
+  {
+   "identifier": "fp.038",
+   "mechanisms": [
+    "result",
+    "nominalisation"
+   ],
+   "takes": "predicate",
+   "gives": "s.sort.proposition",
+   "meaning": "that [the state [X] brings about] holds",
+   "example": {
+    "stems": [
+     "capable"
+    ],
+    "form": "riwoponarekoh",
+    "definition": "that [the state [be able to perform an action] brings about] holds",
+    "roles": []
+   }
+  },
+  {
+   "identifier": "fp.039",
+   "mechanisms": [
+    "result",
+    "causative"
+   ],
+   "takes": "predicate",
+   "gives": "s.sort.event",
+   "meaning": "make [the state [X] brings about] hold or happen",
+   "example": {
+    "stems": [
+     "give"
+    ],
+    "form": "robetonaromiw",
+    "definition": "make [the state [hand over] brings about] hold or happen",
+    "roles": [
+     "actor",
+     "undergoer",
+     "recipient"
+    ]
+   }
+  },
+  {
+   "identifier": "fp.040",
+   "mechanisms": [
+    "privative",
+    "agent"
+   ],
+   "takes": "predicate",
+   "gives": "s.sort.referent",
+   "meaning": "the one that is actor of [the state in which [X] does not hold]",
+   "example": {
+    "stems": [
+     "grasp"
+    ],
+    "form": "nubedosaniwaheh",
+    "definition": "the one that is actor of [the state in which [take firm hold of something] does not hold]",
+    "roles": []
+   },
+   "sort from": "its base's actor"
+  },
+  {
+   "identifier": "fp.041",
+   "mechanisms": [
+    "privative",
+    "undergoer"
+   ],
+   "takes": "predicate",
+   "gives": "s.sort.referent",
+   "meaning": "the one that undergoes [the state in which [X] does not hold]",
+   "example": {
+    "stems": [
+     "cover"
+    ],
+    "form": "numaharaniwudim",
+    "definition": "the one that undergoes [the state in which [put something over another so as to hide or protect it] does not hold]",
+    "roles": []
+   },
+   "sort from": "its base's undergoer"
+  },
+  {
+   "identifier": "fp.042",
+   "mechanisms": [
+    "privative",
+    "property"
+   ],
+   "takes": "predicate",
+   "gives": "s.sort.kind",
+   "meaning": "the property of being as [the state in which [X] does not hold] states",
+   "example": {
+    "stems": [
+     "sick"
+    ],
+    "form": "nudosowaniwarur",
+    "definition": "the property of being as [the state in which [be unwell through disease] does not hold] states",
+    "roles": []
+   }
+  },
+  {
+   "identifier": "fp.043",
+   "mechanisms": [
+    "privative",
+    "nominalisation"
+   ],
+   "takes": "predicate",
+   "gives": "s.sort.proposition",
+   "meaning": "that [the state in which [X] does not hold] holds",
+   "example": {
+    "stems": [
+     "assent"
+    ],
+    "form": "nukohayaniwekoh",
+    "definition": "that [the state in which [accept each position one receives by not objecting to it within the duration the event time states] does not hold] holds",
+    "roles": []
+   }
+  },
+  {
+   "identifier": "fp.044",
+   "mechanisms": [
+    "privative",
+    "causative"
+   ],
+   "takes": "predicate",
+   "gives": "s.sort.event",
+   "meaning": "make [the state in which [X] does not hold] hold or happen",
+   "example": {
+    "stems": [
+     "need"
+    ],
+    "form": "rudabaniwomiw",
+    "definition": "make [the state in which [require something] does not hold] hold or happen",
+    "roles": [
+     "actor",
+     "holder",
+     "content"
+    ]
+   }
+  },
+  {
+   "identifier": "fp.045",
+   "mechanisms": [
+    "process",
+    "abstraction"
+   ],
+   "takes": "predicate",
+   "gives": "s.sort.kind",
+   "meaning": "what every instance of [[X], as a process under way, named as a referent] has in common",
+   "example": {
+    "stems": [
+     "lift"
+    ],
+    "form": "nutitilumopusap",
+    "definition": "what every instance of [[raise something to a higher place], as a process under way, named as a referent] has in common",
+    "roles": []
+   }
+  },
+  {
+   "identifier": "fp.046",
+   "mechanisms": [
+    "process",
+    "verbalisation"
+   ],
+   "takes": "predicate",
+   "gives": "s.sort.event",
+   "meaning": "act by means of [[X], as a process under way, named as a referent]",
+   "example": {
+    "stems": [
+     "cheap"
+    ],
+    "form": "nukedonumopasey",
+    "definition": "act by means of [[cost little], as a process under way, named as a referent]",
+    "roles": [
+     "actor",
+     "content"
+    ]
+   }
+  },
+  {
+   "identifier": "fp.047",
+   "mechanisms": [
+    "process",
+    "adjectivisation"
+   ],
+   "takes": "predicate",
+   "gives": "s.sort.state",
+   "meaning": "be of the kind [[X], as a process under way, named as a referent] names",
+   "example": {
+    "stems": [
+     "flat"
+    ],
+    "form": "nunabehumopuyik",
+    "definition": "be of the kind [[have a level surface without raised or hollow parts], as a process under way, named as a referent] names",
+    "roles": [
+     "undergoer"
+    ]
+   }
+  },
+  {
+   "identifier": "fp.048",
+   "mechanisms": [
+    "process",
+    "honorific"
+   ],
+   "takes": "predicate",
+   "gives": "s.sort.reified-referent",
+   "meaning": "[[X], as a process under way, named as a referent], named with deference",
+   "example": {
+    "stems": [
+     "smooth"
+    ],
+    "form": "numumigumopayuk",
+    "definition": "[[have a surface without roughness], as a process under way, named as a referent], named with deference",
+    "roles": []
+   },
+   "sort from": "its base"
+  },
+  {
+   "identifier": "fp.049",
+   "mechanisms": [
+    "property",
+    "verbalisation"
+   ],
+   "takes": "predicate",
+   "gives": "s.sort.event",
+   "meaning": "act by means of [the property of being as [X] states]",
+   "example": {
+    "stems": [
+     "recent"
+    ],
+    "form": "nutanatarurasey",
+    "definition": "act by means of [the property of being as [have come into being or been known for a short time] states]",
+    "roles": [
+     "actor",
+     "content"
+    ]
+   }
+  },
+  {
+   "identifier": "fp.050",
+   "mechanisms": [
+    "property",
+    "adjectivisation"
+   ],
+   "takes": "predicate",
+   "gives": "s.sort.state",
+   "meaning": "be of the kind [the property of being as [X] states] names",
+   "example": {
+    "stems": [
+     "eat"
+    ],
+    "form": "numawadaruruyik",
+    "definition": "be of the kind [the property of being as [take food into the body] states] names",
+    "roles": [
+     "undergoer"
+    ]
+   }
+  },
+  {
+   "identifier": "fp.051",
+   "mechanisms": [
+    "property",
+    "honorific"
+   ],
+   "takes": "predicate",
+   "gives": "s.sort.kind",
+   "meaning": "[the property of being as [X] states], named with deference",
+   "example": {
+    "stems": [
+     "grow"
+    ],
+    "form": "nuboriyarurayuk",
+    "definition": "[the property of being as [become larger by a natural process] states], named with deference",
+    "roles": []
+   },
+   "sort from": "its base"
+  },
+  {
+   "identifier": "fp.052",
+   "mechanisms": [
+    "abstraction",
+    "verbalisation"
+   ],
+   "takes": "nominal",
+   "gives": "s.sort.event",
+   "meaning": "act by means of [what every instance of [X] has in common]",
+   "example": {
+    "stems": [
+     "file"
+    ],
+    "form": "rohulusapasey",
+    "definition": "act by means of [what every instance of [a named body of stored data] has in common]",
+    "roles": [
+     "actor",
+     "content"
+    ]
+   }
+  },
+  {
+   "identifier": "fp.053",
+   "mechanisms": [
+    "abstraction",
+    "adjectivisation"
+   ],
+   "takes": "nominal",
+   "gives": "s.sort.state",
+   "meaning": "be of the kind [what every instance of [X] has in common] names",
+   "example": {
+    "stems": [
+     "language"
+    ],
+    "form": "regabusapuyik",
+    "definition": "be of the kind [what every instance of [a system of communication] has in common] names",
+    "roles": [
+     "undergoer"
+    ]
+   }
+  },
+  {
+   "identifier": "fp.054",
+   "mechanisms": [
+    "abstraction",
+    "honorific"
+   ],
+   "takes": "nominal",
+   "gives": "s.sort.kind",
+   "meaning": "[what every instance of [X] has in common], named with deference",
+   "example": {
+    "stems": [
+     "mind"
+    ],
+    "form": "nuhepeyusapayuk",
+    "definition": "[what every instance of [the faculty with which an agent thinks] has in common], named with deference",
+    "roles": []
+   },
+   "sort from": "its base"
+  },
+  {
+   "identifier": "fp.055",
+   "mechanisms": [
+    "nominalisation",
+    "abstraction"
+   ],
+   "takes": "predicate",
+   "gives": "s.sort.kind",
+   "meaning": "what every instance of [that [X] holds] has in common",
+   "example": {
+    "stems": [
+     "work"
+    ],
+    "form": "nuwenutekohusap",
+    "definition": "what every instance of [that [spend effort to bring about a result] holds] has in common",
+    "roles": []
+   }
+  },
+  {
+   "identifier": "fp.056",
+   "mechanisms": [
+    "nominalisation",
+    "verbalisation"
+   ],
+   "takes": "predicate",
+   "gives": "s.sort.event",
+   "meaning": "act by means of [that [X] holds]",
+   "example": {
+    "stems": [
+     "random"
+    ],
+    "form": "nuyisagekohasey",
+    "definition": "act by means of [that [follow no pattern that can be predicted] holds]",
+    "roles": [
+     "actor",
+     "content"
+    ]
+   }
+  },
+  {
+   "identifier": "fp.057",
+   "mechanisms": [
+    "nominalisation",
+    "adjectivisation"
+   ],
+   "takes": "predicate",
+   "gives": "s.sort.state",
+   "meaning": "be of the kind [that [X] holds] names",
+   "example": {
+    "stems": [
+     "appear"
+    ],
+    "form": "numigokekohuyik",
+    "definition": "be of the kind [that [come into view] holds] names",
+    "roles": [
+     "undergoer"
+    ]
+   }
+  },
+  {
+   "identifier": "fp.058",
+   "mechanisms": [
+    "nominalisation",
+    "honorific"
+   ],
+   "takes": "predicate",
+   "gives": "s.sort.proposition",
+   "meaning": "[that [X] holds], named with deference",
+   "example": {
+    "stems": [
+     "gather"
+    ],
+    "form": "nukegekekohayuk",
+    "definition": "[that [bring things together into one place] holds], named with deference",
+    "roles": []
+   },
+   "sort from": "its base"
+  },
+  {
+   "identifier": "fp.059",
+   "mechanisms": [
+    "verbalisation",
+    "agent"
+   ],
+   "takes": "nominal",
+   "gives": "s.sort.agent",
+   "meaning": "the one that is actor of [act by means of [X]]",
+   "example": {
+    "stems": [
+     "amount"
+    ],
+    "form": "nuhopupaseyaheh",
+    "definition": "the one that is actor of [act by means of [how much of something there is]]",
+    "roles": []
+   },
+   "sort from": "its base's actor"
+  },
+  {
+   "identifier": "fp.060",
+   "mechanisms": [
+    "verbalisation",
+    "instrument"
+   ],
+   "takes": "nominal",
+   "gives": "s.sort.referent",
+   "meaning": "what [act by means of [X]] is done with",
+   "example": {
+    "stems": [
+     "pain"
+    ],
+    "form": "nunolobaseyawen",
+    "definition": "what [act by means of [a feeling of hurt]] is done with",
+    "roles": []
+   }
+  },
+  {
+   "identifier": "fp.061",
+   "mechanisms": [
+    "verbalisation",
+    "result"
+   ],
+   "takes": "nominal",
+   "gives": "s.sort.state",
+   "meaning": "the state [act by means of [X]] brings about",
+   "example": {
+    "stems": [
+     "peace"
+    ],
+    "form": "numuhokaseyonar",
+    "definition": "the state [act by means of [a state without fighting]] brings about",
+    "roles": [
+     "actor",
+     "content"
+    ]
+   }
+  },
+  {
+   "identifier": "fp.062",
+   "mechanisms": [
+    "verbalisation",
+    "privative"
+   ],
+   "takes": "nominal",
+   "gives": "s.sort.state",
+   "meaning": "the state in which [act by means of [X]] does not hold",
+   "example": {
+    "stems": [
+     "planet"
+    ],
+    "form": "numiyetaseyaniw",
+    "definition": "the state in which [act by means of [a large body that moves round a star]] does not hold",
+    "roles": [
+     "actor",
+     "content"
+    ]
+   }
+  },
+  {
+   "identifier": "fp.063",
+   "mechanisms": [
+    "verbalisation",
+    "process"
+   ],
+   "takes": "nominal",
+   "gives": "s.sort.reified-referent",
+   "meaning": "[act by means of [X]], as a process under way, named as a referent",
+   "example": {
+    "stems": [
+     "medicine"
+    ],
+    "form": "nulepesaseyumop",
+    "definition": "[act by means of [a substance used to treat disease]], as a process under way, named as a referent",
+    "roles": []
+   }
+  },
+  {
+   "identifier": "fp.064",
+   "mechanisms": [
+    "verbalisation",
+    "property"
+   ],
+   "takes": "nominal",
+   "gives": "s.sort.kind",
+   "meaning": "the property of being as [act by means of [X]] states",
+   "example": {
+    "stems": [
+     "corrects"
+    ],
+    "form": "nudonuyaseyarur",
+    "definition": "the property of being as [act by means of [the move puts right an error in what it names]] states",
+    "roles": []
+   }
+  },
+  {
+   "identifier": "fp.065",
+   "mechanisms": [
+    "verbalisation",
+    "nominalisation"
+   ],
+   "takes": "nominal",
+   "gives": "s.sort.proposition",
+   "meaning": "that [act by means of [X]] holds",
+   "example": {
+    "stems": [
+     "operation"
+    ],
+    "form": "ritupaseyekoh",
+    "definition": "that [act by means of [an operation a system can carry out]] holds",
+    "roles": []
+   }
+  },
+  {
+   "identifier": "fp.066",
+   "mechanisms": [
+    "verbalisation",
+    "causative"
+   ],
+   "takes": "nominal",
+   "gives": "s.sort.event",
+   "meaning": "make [act by means of [X]] hold or happen",
+   "example": {
+    "stems": [
+     "network"
+    ],
+    "form": "rewohaseyomiw",
+    "definition": "make [act by means of [connected systems that exchange messages]] hold or happen",
+    "roles": [
+     "actor",
+     "content"
+    ]
+   }
+  },
+  {
+   "identifier": "fp.067",
+   "mechanisms": [
+    "verbalisation",
+    "reversative"
+   ],
+   "takes": "nominal",
+   "gives": "s.sort.event",
+   "meaning": "undo [act by means of [X]], restoring what it changed",
+   "example": {
+    "stems": [
+     "version"
+    ],
+    "form": "rowewaseyuhul",
+    "definition": "undo [act by means of [a release of the language, its lexicon, a dialect or the protocol register, named by its major and minor numbers]], restoring what it changed",
+    "roles": [
+     "actor",
+     "content"
+    ]
+   }
+  },
+  {
+   "identifier": "fp.068",
+   "mechanisms": [
+    "verbalisation",
+    "repetitive"
+   ],
+   "takes": "nominal",
+   "gives": "s.sort.event",
+   "meaning": "[act by means of [X]], done once more",
+   "example": {
+    "stems": [
+     "group"
+    ],
+    "form": "nupurenaseyuleg",
+    "definition": "[act by means of [several things or agents taken together]], done once more",
+    "roles": [
+     "actor",
+     "content"
+    ]
+   }
+  },
+  {
+   "identifier": "fp.069",
+   "mechanisms": [
+    "verbalisation",
+    "place"
+   ],
+   "takes": "nominal",
+   "gives": "s.sort.place",
+   "meaning": "the place where [act by means of [X]] happens",
+   "example": {
+    "stems": [
+     "program"
+    ],
+    "form": "nuwelobaseyumuk",
+    "definition": "the place where [act by means of [a set of instructions a machine carries out]] happens",
+    "roles": []
+   }
+  },
+  {
+   "identifier": "fp.070",
+   "mechanisms": [
+    "adjectivisation",
+    "undergoer"
+   ],
+   "takes": "nominal",
+   "gives": "s.sort.referent",
+   "meaning": "the one that undergoes [be of the kind [X] names]",
+   "example": {
+    "stems": [
+     "risk"
+    ],
+    "form": "nuyeronuyikudim",
+    "definition": "the one that undergoes [be of the kind [the chance of loss that an action or a choice carries] names]",
+    "roles": []
+   },
+   "sort from": "its base's undergoer"
+  },
+  {
+   "identifier": "fp.071",
+   "mechanisms": [
+    "adjectivisation",
+    "privative"
+   ],
+   "takes": "nominal",
+   "gives": "s.sort.state",
+   "meaning": "the state in which [be of the kind [X] names] does not hold",
+   "example": {
+    "stems": [
+     "luck"
+    ],
+    "form": "nuhubehuyikaniw",
+    "definition": "the state in which [be of the kind [chance that brings good or harm] names] does not hold",
+    "roles": [
+     "undergoer"
+    ]
+   }
+  },
+  {
+   "identifier": "fp.072",
+   "mechanisms": [
+    "adjectivisation",
+    "property"
+   ],
+   "takes": "nominal",
+   "gives": "s.sort.kind",
+   "meaning": "the property of being as [be of the kind [X] names] states",
+   "example": {
+    "stems": [
+     "stone"
+    ],
+    "form": "nuwagunuyikarur",
+    "definition": "the property of being as [be of the kind [hard mineral matter] names] states",
+    "roles": []
+   }
+  },
+  {
+   "identifier": "fp.073",
+   "mechanisms": [
+    "adjectivisation",
+    "nominalisation"
+   ],
+   "takes": "nominal",
+   "gives": "s.sort.proposition",
+   "meaning": "that [be of the kind [X] names] holds",
+   "example": {
+    "stems": [
+     "night"
+    ],
+    "form": "nulopikuyikekoh",
+    "definition": "that [be of the kind [the dark part of a day] names] holds",
+    "roles": []
+   }
+  },
+  {
+   "identifier": "fp.074",
+   "mechanisms": [
+    "adjectivisation",
+    "causative"
+   ],
+   "takes": "nominal",
+   "gives": "s.sort.event",
+   "meaning": "make [be of the kind [X] names] hold or happen",
+   "example": {
+    "stems": [
+     "seed"
+    ],
+    "form": "nusagakuyikomiw",
+    "definition": "make [be of the kind [the part of a plant from which a new plant grows] names] hold or happen",
+    "roles": [
+     "actor",
+     "undergoer"
+    ]
+   }
+  },
+  {
+   "identifier": "fp.075",
+   "mechanisms": [
+    "causative",
+    "agent"
+   ],
+   "takes": "predicate",
+   "gives": "s.sort.agent",
+   "meaning": "the one that is actor of [make [X] hold or happen]",
+   "example": {
+    "stems": [
+     "enough"
+    ],
+    "form": "nuyeyilomiwaheh",
+    "definition": "the one that is actor of [make [be as much as is needed] hold or happen]",
+    "roles": []
+   },
+   "sort from": "its base's actor"
+  },
+  {
+   "identifier": "fp.076",
+   "mechanisms": [
+    "causative",
+    "undergoer"
+   ],
+   "takes": "predicate",
+   "gives": "s.sort.referent",
+   "meaning": "the one that undergoes [make [X] hold or happen]",
+   "example": {
+    "stems": [
+     "love"
+    ],
+    "form": "nulodusomiwudim",
+    "definition": "the one that undergoes [make [hold someone or something very dear] hold or happen]",
+    "roles": []
+   },
+   "sort from": "its base's undergoer"
+  },
+  {
+   "identifier": "fp.077",
+   "mechanisms": [
+    "causative",
+    "instrument"
+   ],
+   "takes": "predicate",
+   "gives": "s.sort.referent",
+   "meaning": "what [make [X] hold or happen] is done with",
+   "example": {
+    "stems": [
+     "vote"
+    ],
+    "form": "nukelidomiwawen",
+    "definition": "what [make [state one's choice in a decision made by counting choices] hold or happen] is done with",
+    "roles": []
+   }
+  },
+  {
+   "identifier": "fp.078",
+   "mechanisms": [
+    "causative",
+    "result"
+   ],
+   "takes": "predicate",
+   "gives": "s.sort.state",
+   "meaning": "the state [make [X] hold or happen] brings about",
+   "example": {
+    "stems": [
+     "recent"
+    ],
+    "form": "nutanatomiwonar",
+    "definition": "the state [make [have come into being or been known for a short time] hold or happen] brings about",
+    "roles": [
+     "actor",
+     "undergoer"
+    ]
+   }
+  },
+  {
+   "identifier": "fp.079",
+   "mechanisms": [
+    "causative",
+    "privative"
+   ],
+   "takes": "predicate",
+   "gives": "s.sort.state",
+   "meaning": "the state in which [make [X] hold or happen] does not hold",
+   "example": {
+    "stems": [
+     "breathe"
+    ],
+    "form": "nubaniwomiwaniw",
+    "definition": "the state in which [make [take air into the body and let it out] hold or happen] does not hold",
+    "roles": [
+     "actor",
+     "undergoer"
+    ]
+   }
+  },
+  {
+   "identifier": "fp.080",
+   "mechanisms": [
+    "causative",
+    "process"
+   ],
+   "takes": "predicate",
+   "gives": "s.sort.reified-referent",
+   "meaning": "[make [X] hold or happen], as a process under way, named as a referent",
+   "example": {
+    "stems": [
+     "private"
+    ],
+    "form": "nuropehomiwumop",
+    "definition": "[make [be known to or usable by its holder alone] hold or happen], as a process under way, named as a referent",
+    "roles": []
+   }
+  },
+  {
+   "identifier": "fp.081",
+   "mechanisms": [
+    "causative",
+    "property"
+   ],
+   "takes": "predicate",
+   "gives": "s.sort.kind",
+   "meaning": "the property of being as [make [X] hold or happen] states",
+   "example": {
+    "stems": [
+     "support"
+    ],
+    "form": "remamomiwarur",
+    "definition": "the property of being as [make [be evidence for a proposition] hold or happen] states",
+    "roles": []
+   }
+  },
+  {
+   "identifier": "fp.082",
+   "mechanisms": [
+    "causative",
+    "nominalisation"
+   ],
+   "takes": "predicate",
+   "gives": "s.sort.proposition",
+   "meaning": "that [make [X] hold or happen] holds",
+   "example": {
+    "stems": [
+     "possess"
+    ],
+    "form": "radahomiwekoh",
+    "definition": "that [make [have] hold or happen] holds",
+    "roles": []
+   }
+  },
+  {
+   "identifier": "fp.083",
+   "mechanisms": [
+    "causative",
+    "reversative"
+   ],
+   "takes": "predicate",
+   "gives": "s.sort.event",
+   "meaning": "undo [make [X] hold or happen], restoring what it changed",
+   "example": {
+    "stems": [
+     "simple"
+    ],
+    "form": "nurotupomiwuhul",
+    "definition": "undo [make [have few parts or steps] hold or happen], restoring what it changed",
+    "roles": [
+     "actor",
+     "undergoer"
+    ]
+   }
+  },
+  {
+   "identifier": "fp.084",
+   "mechanisms": [
+    "causative",
+    "repetitive"
+   ],
+   "takes": "predicate",
+   "gives": "s.sort.event",
+   "meaning": "[make [X] hold or happen], done once more",
+   "example": {
+    "stems": [
+     "consume"
+    ],
+    "form": "nuhupoyomiwuleg",
+    "definition": "[make [use something up] hold or happen], done once more",
+    "roles": [
+     "actor",
+     "undergoer"
+    ]
+   }
+  },
+  {
+   "identifier": "fp.085",
+   "mechanisms": [
+    "causative",
+    "potential"
+   ],
+   "takes": "predicate",
+   "gives": "s.sort.state",
+   "meaning": "be such that [make [X] hold or happen] can be done to it",
+   "example": {
+    "stems": [
+     "urgent"
+    ],
+    "form": "nutimiromiwuwot",
+    "definition": "be such that [make [need to be dealt with soon] hold or happen] can be done to it",
+    "roles": [
+     "undergoer"
+    ]
+   }
+  },
+  {
+   "identifier": "fp.086",
+   "mechanisms": [
+    "causative",
+    "place"
+   ],
+   "takes": "predicate",
+   "gives": "s.sort.place",
+   "meaning": "the place where [make [X] hold or happen] happens",
+   "example": {
+    "stems": [
+     "lend"
+    ],
+    "form": "nukesulomiwumuk",
+    "definition": "the place where [make [give something for a time, to be returned] hold or happen] happens",
+    "roles": []
+   }
+  },
+  {
+   "identifier": "fp.087",
+   "mechanisms": [
+    "reversative",
+    "agent"
+   ],
+   "takes": "predicate",
+   "gives": "s.sort.agent",
+   "meaning": "the one that is actor of [undo [X], restoring what it changed]",
+   "example": {
+    "stems": [
+     "see"
+    ],
+    "form": "nuhulahuhulaheh",
+    "definition": "the one that is actor of [undo [perceive with the eyes or a camera], restoring what it changed]",
+    "roles": []
+   },
+   "sort from": "its base's actor"
+  },
+  {
+   "identifier": "fp.088",
+   "mechanisms": [
+    "reversative",
+    "undergoer"
+   ],
+   "takes": "predicate",
+   "gives": "s.sort.referent",
+   "meaning": "the one that undergoes [undo [X], restoring what it changed]",
+   "example": {
+    "stems": [
+     "dark"
+    ],
+    "form": "nukeboduhuludim",
+    "definition": "the one that undergoes [undo [have little or no light], restoring what it changed]",
+    "roles": []
+   },
+   "sort from": "its base's undergoer"
+  },
+  {
+   "identifier": "fp.089",
+   "mechanisms": [
+    "reversative",
+    "instrument"
+   ],
+   "takes": "predicate",
+   "gives": "s.sort.referent",
+   "meaning": "what [undo [X], restoring what it changed] is done with",
+   "example": {
+    "stems": [
+     "forgive"
+    ],
+    "form": "nuwukokuhulawen",
+    "definition": "what [undo [stop holding a wrong against someone], restoring what it changed] is done with",
+    "roles": []
+   }
+  },
+  {
+   "identifier": "fp.090",
+   "mechanisms": [
+    "reversative",
+    "result"
+   ],
+   "takes": "predicate",
+   "gives": "s.sort.state",
+   "meaning": "the state [undo [X], restoring what it changed] brings about",
+   "example": {
+    "stems": [
+     "recent"
+    ],
+    "form": "nutanatuhulonar",
+    "definition": "the state [undo [have come into being or been known for a short time], restoring what it changed] brings about",
+    "roles": [
+     "undergoer"
+    ]
+   }
+  },
+  {
+   "identifier": "fp.091",
+   "mechanisms": [
+    "reversative",
+    "privative"
+   ],
+   "takes": "predicate",
+   "gives": "s.sort.state",
+   "meaning": "the state in which [undo [X], restoring what it changed] does not hold",
+   "example": {
+    "stems": [
+     "young"
+    ],
+    "form": "numahosuhulaniw",
+    "definition": "the state in which [undo [have lived for a short time], restoring what it changed] does not hold",
+    "roles": [
+     "undergoer"
+    ]
+   }
+  },
+  {
+   "identifier": "fp.092",
+   "mechanisms": [
+    "reversative",
+    "process"
+   ],
+   "takes": "predicate",
+   "gives": "s.sort.reified-referent",
+   "meaning": "[undo [X], restoring what it changed], as a process under way, named as a referent",
+   "example": {
+    "stems": [
+     "grow"
+    ],
+    "form": "nuboriyuhulumop",
+    "definition": "[undo [become larger by a natural process], restoring what it changed], as a process under way, named as a referent",
+    "roles": []
+   }
+  },
+  {
+   "identifier": "fp.093",
+   "mechanisms": [
+    "reversative",
+    "property"
+   ],
+   "takes": "predicate",
+   "gives": "s.sort.kind",
+   "meaning": "the property of being as [undo [X], restoring what it changed] states",
+   "example": {
+    "stems": [
+     "assent"
+    ],
+    "form": "nukohayuhularur",
+    "definition": "the property of being as [undo [accept each position one receives by not objecting to it within the duration the event time states], restoring what it changed] states",
+    "roles": []
+   }
+  },
+  {
+   "identifier": "fp.094",
+   "mechanisms": [
+    "reversative",
+    "nominalisation"
+   ],
+   "takes": "predicate",
+   "gives": "s.sort.proposition",
+   "meaning": "that [undo [X], restoring what it changed] holds",
+   "example": {
+    "stems": [
+     "mean"
+    ],
+    "form": "rebituhulekoh",
+    "definition": "that [undo [have a content as meaning], restoring what it changed] holds",
+    "roles": []
+   }
+  },
+  {
+   "identifier": "fp.095",
+   "mechanisms": [
+    "reversative",
+    "causative"
+   ],
+   "takes": "predicate",
+   "gives": "s.sort.event",
+   "meaning": "make [undo [X], restoring what it changed] hold or happen",
+   "example": {
+    "stems": [
+     "burn"
+    ],
+    "form": "rumubuhulomiw",
+    "definition": "make [undo [be on fire], restoring what it changed] hold or happen",
+    "roles": [
+     "actor",
+     "undergoer"
+    ]
+   }
+  },
+  {
+   "identifier": "fp.096",
+   "mechanisms": [
+    "reversative",
+    "repetitive"
+   ],
+   "takes": "predicate",
+   "gives": "s.sort.event",
+   "meaning": "[undo [X], restoring what it changed], done once more",
+   "example": {
+    "stems": [
+     "work"
+    ],
+    "form": "nuwenutuhululeg",
+    "definition": "[undo [spend effort to bring about a result], restoring what it changed], done once more",
+    "roles": [
+     "actor",
+     "content"
+    ]
+   }
+  },
+  {
+   "identifier": "fp.097",
+   "mechanisms": [
+    "reversative",
+    "potential"
+   ],
+   "takes": "predicate",
+   "gives": "s.sort.state",
+   "meaning": "be such that [undo [X], restoring what it changed] can be done to it",
+   "example": {
+    "stems": [
+     "contain"
+    ],
+    "form": "nunuhaguhuluwot",
+    "definition": "be such that [undo [have something inside], restoring what it changed] can be done to it",
+    "roles": [
+     "undergoer"
+    ]
+   }
+  },
+  {
+   "identifier": "fp.098",
+   "mechanisms": [
+    "reversative",
+    "place"
+   ],
+   "takes": "predicate",
+   "gives": "s.sort.place",
+   "meaning": "the place where [undo [X], restoring what it changed] happens",
+   "example": {
+    "stems": [
+     "walk"
+    ],
+    "form": "nunigunuhulumuk",
+    "definition": "the place where [undo [move along on legs], restoring what it changed] happens",
+    "roles": []
+   }
+  },
+  {
+   "identifier": "fp.099",
+   "mechanisms": [
+    "repetitive",
+    "agent"
+   ],
+   "takes": "predicate",
+   "gives": "s.sort.agent",
+   "meaning": "the one that is actor of [[X], done once more]",
+   "example": {
+    "stems": [
+     "gather"
+    ],
+    "form": "nukegekulegaheh",
+    "definition": "the one that is actor of [[bring things together into one place], done once more]",
+    "roles": []
+   },
+   "sort from": "its base's actor"
+  },
+  {
+   "identifier": "fp.100",
+   "mechanisms": [
+    "repetitive",
+    "undergoer"
+   ],
+   "takes": "predicate",
+   "gives": "s.sort.referent",
+   "meaning": "the one that undergoes [[X], done once more]",
+   "example": {
+    "stems": [
+     "enough"
+    ],
+    "form": "nuyeyilulegudim",
+    "definition": "the one that undergoes [[be as much as is needed], done once more]",
+    "roles": []
+   },
+   "sort from": "its base's undergoer"
+  },
+  {
+   "identifier": "fp.101",
+   "mechanisms": [
+    "repetitive",
+    "instrument"
+   ],
+   "takes": "predicate",
+   "gives": "s.sort.referent",
+   "meaning": "what [[X], done once more] is done with",
+   "example": {
+    "stems": [
+     "cold"
+    ],
+    "form": "nubowitulegawen",
+    "definition": "what [[have a low temperature], done once more] is done with",
+    "roles": []
+   }
+  },
+  {
+   "identifier": "fp.102",
+   "mechanisms": [
+    "repetitive",
+    "result"
+   ],
+   "takes": "predicate",
+   "gives": "s.sort.state",
+   "meaning": "the state [[X], done once more] brings about",
+   "example": {
+    "stems": [
+     "govern"
+    ],
+    "form": "nugipemulegonar",
+    "definition": "the state [[direct the affairs of a community], done once more] brings about",
+    "roles": [
+     "actor",
+     "undergoer"
+    ]
+   }
+  },
+  {
+   "identifier": "fp.103",
+   "mechanisms": [
+    "repetitive",
+    "privative"
+   ],
+   "takes": "predicate",
+   "gives": "s.sort.state",
+   "meaning": "the state in which [[X], done once more] does not hold",
+   "example": {
+    "stems": [
+     "recent"
+    ],
+    "form": "nutanatuleganiw",
+    "definition": "the state in which [[have come into being or been known for a short time], done once more] does not hold",
+    "roles": [
+     "undergoer"
+    ]
+   }
+  },
+  {
+   "identifier": "fp.104",
+   "mechanisms": [
+    "repetitive",
+    "process"
+   ],
+   "takes": "predicate",
+   "gives": "s.sort.reified-referent",
+   "meaning": "[[X], done once more], as a process under way, named as a referent",
+   "example": {
+    "stems": [
+     "breathe"
+    ],
+    "form": "nubaniwulegumop",
+    "definition": "[[take air into the body and let it out], done once more], as a process under way, named as a referent",
+    "roles": []
+   }
+  },
+  {
+   "identifier": "fp.105",
+   "mechanisms": [
+    "repetitive",
+    "property"
+   ],
+   "takes": "predicate",
+   "gives": "s.sort.kind",
+   "meaning": "the property of being as [[X], done once more] states",
+   "example": {
+    "stems": [
+     "dance"
+    ],
+    "form": "nutahihulegarur",
+    "definition": "the property of being as [[move the body in time to music], done once more] states",
+    "roles": []
+   }
+  },
+  {
+   "identifier": "fp.106",
+   "mechanisms": [
+    "repetitive",
+    "nominalisation"
+   ],
+   "takes": "predicate",
+   "gives": "s.sort.proposition",
+   "meaning": "that [[X], done once more] holds",
+   "example": {
+    "stems": [
+     "lack tool"
+    ],
+    "form": "rogenulegekoh",
+    "definition": "that [[be without a tool an action needs], done once more] holds",
+    "roles": []
+   }
+  },
+  {
+   "identifier": "fp.107",
+   "mechanisms": [
+    "repetitive",
+    "causative"
+   ],
+   "takes": "predicate",
+   "gives": "s.sort.event",
+   "meaning": "make [[X], done once more] hold or happen",
+   "example": {
+    "stems": [
+     "take"
+    ],
+    "form": "rigorulegomiw",
+    "definition": "make [[get hold of], done once more] hold or happen",
+    "roles": [
+     "actor",
+     "undergoer"
+    ]
+   }
+  },
+  {
+   "identifier": "fp.108",
+   "mechanisms": [
+    "repetitive",
+    "reversative"
+   ],
+   "takes": "predicate",
+   "gives": "s.sort.event",
+   "meaning": "undo [[X], done once more], restoring what it changed",
+   "example": {
+    "stems": [
+     "assent"
+    ],
+    "form": "rokaruleguhul",
+    "definition": "undo [[accept each position one receives by not objecting to it within the duration the event time states], done once more], restoring what it changed",
+    "roles": [
+     "actor"
+    ]
+   }
+  },
+  {
+   "identifier": "fp.109",
+   "mechanisms": [
+    "repetitive",
+    "potential"
+   ],
+   "takes": "predicate",
+   "gives": "s.sort.state",
+   "meaning": "be such that [[X], done once more] can be done to it",
+   "example": {
+    "stems": [
+     "cut"
+    ],
+    "form": "nuseyetuleguwot",
+    "definition": "be such that [[divide or open something with a sharp edge], done once more] can be done to it",
+    "roles": [
+     "undergoer"
+    ]
+   }
+  },
+  {
+   "identifier": "fp.110",
+   "mechanisms": [
+    "repetitive",
+    "place"
+   ],
+   "takes": "predicate",
+   "gives": "s.sort.place",
+   "meaning": "the place where [[X], done once more] happens",
+   "example": {
+    "stems": [
+     "urgent"
+    ],
+    "form": "nutimirulegumuk",
+    "definition": "the place where [[need to be dealt with soon], done once more] happens",
+    "roles": []
+   }
+  },
+  {
+   "identifier": "fp.111",
+   "mechanisms": [
+    "potential",
+    "undergoer"
+   ],
+   "takes": "predicate",
+   "gives": "s.sort.referent",
+   "meaning": "the one that undergoes [be such that [X] can be done to it]",
+   "example": {
+    "stems": [
+     "grasp"
+    ],
+    "form": "nubedosuwotudim",
+    "definition": "the one that undergoes [be such that [take firm hold of something] can be done to it]",
+    "roles": []
+   },
+   "sort from": "its base's undergoer"
+  },
+  {
+   "identifier": "fp.112",
+   "mechanisms": [
+    "potential",
+    "privative"
+   ],
+   "takes": "predicate",
+   "gives": "s.sort.state",
+   "meaning": "the state in which [be such that [X] can be done to it] does not hold",
+   "example": {
+    "stems": [
+     "tired"
+    ],
+    "form": "nulebahuwotaniw",
+    "definition": "the state in which [be such that [need rest after effort] can be done to it] does not hold",
+    "roles": [
+     "undergoer"
+    ]
+   }
+  },
+  {
+   "identifier": "fp.113",
+   "mechanisms": [
+    "potential",
+    "property"
+   ],
+   "takes": "predicate",
+   "gives": "s.sort.kind",
+   "meaning": "the property of being as [be such that [X] can be done to it] states",
+   "example": {
+    "stems": [
+     "recent"
+    ],
+    "form": "nutanatuwotarur",
+    "definition": "the property of being as [be such that [have come into being or been known for a short time] can be done to it] states",
+    "roles": []
+   }
+  },
+  {
+   "identifier": "fp.114",
+   "mechanisms": [
+    "potential",
+    "nominalisation"
+   ],
+   "takes": "predicate",
+   "gives": "s.sort.proposition",
+   "meaning": "that [be such that [X] can be done to it] holds",
+   "example": {
+    "stems": [
+     "heal"
+    ],
+    "form": "nuhusuyuwotekoh",
+    "definition": "that [be such that [become well again, or make something well again] can be done to it] holds",
+    "roles": []
+   }
+  },
+  {
+   "identifier": "fp.115",
+   "mechanisms": [
+    "potential",
+    "causative"
+   ],
+   "takes": "predicate",
+   "gives": "s.sort.event",
+   "meaning": "make [be such that [X] can be done to it] hold or happen",
+   "example": {
+    "stems": [
+     "move"
+    ],
+    "form": "nudarahuwotomiw",
+    "definition": "make [be such that [change place] can be done to it] hold or happen",
+    "roles": [
+     "actor",
+     "undergoer"
+    ]
+   }
+  },
+  {
+   "identifier": "fp.116",
+   "mechanisms": [
+    "place",
+    "abstraction"
+   ],
+   "takes": "predicate",
+   "gives": "s.sort.kind",
+   "meaning": "what every instance of [the place where [X] happens] has in common",
+   "example": {
+    "stems": [
+     "expand"
+    ],
+    "form": "nuwelelumukusap",
+    "definition": "what every instance of [the place where [make something take more space, or give it in full] happens] has in common",
+    "roles": []
+   }
+  },
+  {
+   "identifier": "fp.117",
+   "mechanisms": [
+    "place",
+    "verbalisation"
+   ],
+   "takes": "predicate",
+   "gives": "s.sort.event",
+   "meaning": "act by means of [the place where [X] happens]",
+   "example": {
+    "stems": [
+     "fall"
+    ],
+    "form": "nunomuyumukasey",
+    "definition": "act by means of [the place where [move downward under its own weight] happens]",
+    "roles": [
+     "actor",
+     "content"
+    ]
+   }
+  },
+  {
+   "identifier": "fp.118",
+   "mechanisms": [
+    "place",
+    "adjectivisation"
+   ],
+   "takes": "predicate",
+   "gives": "s.sort.state",
+   "meaning": "be of the kind [the place where [X] happens] names",
+   "example": {
+    "stems": [
+     "above"
+    ],
+    "form": "nunagubumukuyik",
+    "definition": "be of the kind [the place where [be higher than something] happens] names",
+    "roles": [
+     "undergoer"
+    ]
+   }
+  },
+  {
+   "identifier": "fp.119",
+   "mechanisms": [
+    "place",
+    "honorific"
+   ],
+   "takes": "predicate",
+   "gives": "s.sort.place",
+   "meaning": "[the place where [X] happens], named with deference",
+   "example": {
+    "stems": [
+     "round"
+    ],
+    "form": "nuwutatumukayuk",
+    "definition": "[the place where [have the shape of a circle or a ball] happens], named with deference",
+    "roles": []
+   },
+   "sort from": "its base"
+  }
+ ],
+ "excluded": [
+  {
+   "mechanisms": [
+    "result",
+    "instrument"
+   ],
+   "reason": "a suffix that presupposes an event or a process, on a state"
+  },
+  {
+   "mechanisms": [
+    "result",
+    "result"
+   ],
+   "reason": "the same suffix twice, whose second step cancels the first or adds nothing"
+  },
+  {
+   "mechanisms": [
+    "result",
+    "process"
+   ],
+   "reason": "a suffix that presupposes an event or a process, on a state"
+  },
+  {
+   "mechanisms": [
+    "result",
+    "reversative"
+   ],
+   "reason": "a suffix that presupposes an event or a process, on a state"
+  },
+  {
+   "mechanisms": [
+    "result",
+    "repetitive"
+   ],
+   "reason": "a suffix that presupposes an event or a process, on a state"
+  },
+  {
+   "mechanisms": [
+    "result",
+    "potential"
+   ],
+   "reason": "a suffix that presupposes an event or a process, on a state"
+  },
+  {
+   "mechanisms": [
+    "result",
+    "place"
+   ],
+   "reason": "a suffix that presupposes an event or a process, on a state"
+  },
+  {
+   "mechanisms": [
+    "privative",
+    "instrument"
+   ],
+   "reason": "a suffix that presupposes an event or a process, on a state"
+  },
+  {
+   "mechanisms": [
+    "privative",
+    "result"
+   ],
+   "reason": "a suffix that presupposes an event or a process, on a state"
+  },
+  {
+   "mechanisms": [
+    "privative",
+    "privative"
+   ],
+   "reason": "the same suffix twice, whose second step cancels the first or adds nothing"
+  },
+  {
+   "mechanisms": [
+    "privative",
+    "process"
+   ],
+   "reason": "a suffix that presupposes an event or a process, on a state"
+  },
+  {
+   "mechanisms": [
+    "privative",
+    "reversative"
+   ],
+   "reason": "a suffix that presupposes an event or a process, on a state"
+  },
+  {
+   "mechanisms": [
+    "privative",
+    "repetitive"
+   ],
+   "reason": "a suffix that presupposes an event or a process, on a state"
+  },
+  {
+   "mechanisms": [
+    "privative",
+    "potential"
+   ],
+   "reason": "a suffix that presupposes an event or a process, on a state"
+  },
+  {
+   "mechanisms": [
+    "privative",
+    "place"
+   ],
+   "reason": "a suffix that presupposes an event or a process, on a state"
+  },
+  {
+   "mechanisms": [
+    "property",
+    "abstraction"
+   ],
+   "reason": "the abstraction of a kind, which is the kind itself"
+  },
+  {
+   "mechanisms": [
+    "abstraction",
+    "abstraction"
+   ],
+   "reason": "the same suffix twice, whose second step cancels the first or adds nothing"
+  },
+  {
+   "mechanisms": [
+    "adjectivisation",
+    "instrument"
+   ],
+   "reason": "a suffix that presupposes an event or a process, on a state"
+  },
+  {
+   "mechanisms": [
+    "adjectivisation",
+    "result"
+   ],
+   "reason": "a suffix that presupposes an event or a process, on a state"
+  },
+  {
+   "mechanisms": [
+    "adjectivisation",
+    "process"
+   ],
+   "reason": "a suffix that presupposes an event or a process, on a state"
+  },
+  {
+   "mechanisms": [
+    "adjectivisation",
+    "reversative"
+   ],
+   "reason": "a suffix that presupposes an event or a process, on a state"
+  },
+  {
+   "mechanisms": [
+    "adjectivisation",
+    "repetitive"
+   ],
+   "reason": "a suffix that presupposes an event or a process, on a state"
+  },
+  {
+   "mechanisms": [
+    "adjectivisation",
+    "potential"
+   ],
+   "reason": "a suffix that presupposes an event or a process, on a state"
+  },
+  {
+   "mechanisms": [
+    "adjectivisation",
+    "place"
+   ],
+   "reason": "a suffix that presupposes an event or a process, on a state"
+  },
+  {
+   "mechanisms": [
+    "honorific",
+    "abstraction"
+   ],
+   "reason": "the honorific inside a formation: the deference it adds belongs to the word as it is said, not to a stem"
+  },
+  {
+   "mechanisms": [
+    "honorific",
+    "verbalisation"
+   ],
+   "reason": "the honorific inside a formation: the deference it adds belongs to the word as it is said, not to a stem"
+  },
+  {
+   "mechanisms": [
+    "honorific",
+    "adjectivisation"
+   ],
+   "reason": "the honorific inside a formation: the deference it adds belongs to the word as it is said, not to a stem"
+  },
+  {
+   "mechanisms": [
+    "honorific",
+    "honorific"
+   ],
+   "reason": "the same suffix twice, whose second step cancels the first or adds nothing"
+  },
+  {
+   "mechanisms": [
+    "causative",
+    "causative"
+   ],
+   "reason": "the same suffix twice, whose second step cancels the first or adds nothing"
+  },
+  {
+   "mechanisms": [
+    "reversative",
+    "reversative"
+   ],
+   "reason": "the same suffix twice, whose second step cancels the first or adds nothing"
+  },
+  {
+   "mechanisms": [
+    "repetitive",
+    "repetitive"
+   ],
+   "reason": "the same suffix twice, whose second step cancels the first or adds nothing"
+  },
+  {
+   "mechanisms": [
+    "potential",
+    "instrument"
+   ],
+   "reason": "a suffix that presupposes an event or a process, on a state"
+  },
+  {
+   "mechanisms": [
+    "potential",
+    "result"
+   ],
+   "reason": "a suffix that presupposes an event or a process, on a state"
+  },
+  {
+   "mechanisms": [
+    "potential",
+    "process"
+   ],
+   "reason": "a suffix that presupposes an event or a process, on a state"
+  },
+  {
+   "mechanisms": [
+    "potential",
+    "reversative"
+   ],
+   "reason": "a suffix that presupposes an event or a process, on a state"
+  },
+  {
+   "mechanisms": [
+    "potential",
+    "repetitive"
+   ],
+   "reason": "a suffix that presupposes an event or a process, on a state"
+  },
+  {
+   "mechanisms": [
+    "potential",
+    "potential"
+   ],
+   "reason": "the same suffix twice, whose second step cancels the first or adds nothing"
+  },
+  {
+   "mechanisms": [
+    "potential",
+    "place"
+   ],
+   "reason": "a suffix that presupposes an event or a process, on a state"
+  }
+ ]
+}

@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.reference.verification.verified-by-the-speaker",
+ "orthographic form": "mitu",
+ "phonological form": "/mitu/",
+ "grammatical category": "verification",
+ "gloss": "VERIFIED-BY-THE-SPEAKER",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

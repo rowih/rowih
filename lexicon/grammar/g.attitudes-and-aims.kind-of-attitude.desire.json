@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.attitudes-and-aims.kind-of-attitude.desire",
+ "orthographic form": "paru",
+ "phonological form": "/paɾu/",
+ "grammatical category": "kind of attitude",
+ "gloss": "DESIRE",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

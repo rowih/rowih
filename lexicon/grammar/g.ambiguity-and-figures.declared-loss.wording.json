@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.ambiguity-and-figures.declared-loss.wording",
+ "orthographic form": "liye",
+ "phonological form": "/lije/",
+ "grammatical category": "declared loss",
+ "gloss": "WORDING",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.5"
+ }
+}

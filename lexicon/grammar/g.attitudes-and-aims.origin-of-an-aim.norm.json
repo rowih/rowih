@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.attitudes-and-aims.origin-of-an-aim.norm",
+ "orthographic form": "poga",
+ "phonological form": "/poɡa/",
+ "grammatical category": "origin of an aim",
+ "gloss": "NORM",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

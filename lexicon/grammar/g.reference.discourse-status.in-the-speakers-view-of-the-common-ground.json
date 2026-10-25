@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.reference.discourse-status.in-the-speakers-view-of-the-common-ground",
+ "orthographic form": "moku",
+ "phonological form": "/moku/",
+ "grammatical category": "discourse status",
+ "gloss": "IN-THE-SPEAKERS-VIEW-OF-THE-COMMON-GROUND",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

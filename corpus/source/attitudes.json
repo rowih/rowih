@@ -1,0 +1,293 @@
+{
+ "note": "The attitude items: a reported attitude with its holder's grounds, a prediction linked to what settled it, the attitudes of aim, preference and permission, third-party normative states and collective commitments. Each parses to its normal form and generates back to it.",
+ "items": [
+  {
+   "id": "t01-holder-grounds",
+   "statement": "Agent B believes Y, on the basis of its own observation, as probable.",
+   "messages": [
+    {
+     "sender": 1,
+     "recipients": [
+      3
+     ],
+     "time": "1759622400",
+     "identifier": 1,
+     "classes": [
+      "inert"
+     ],
+     "notation": "(move ASSERTED-POSITION (assertion REPORT HIGHLY-PROBABLE (SOURCE (term (party 2))) (situation BELIEF OBSERVATION PROBABLE (HOLDER (term (party 2))) (CONTENT (situation break (UNDERGOER (term network DEFINITE)))))))",
+     "normal": [
+      "(move ASSERTED-POSITION (assertion REPORT HIGHLY-PROBABLE (SOURCE (term ASSERTED-TO-EXIST GIVEN (party 2))) (situation OBSERVATION PROBABLE BELIEF STATIVE AT-ISSUE AFFIRMATIVE ACTUAL (HOLDER (term ASSERTED-TO-EXIST GIVEN (party 2))) (CONTENT (situation break PERFECTIVE AT-ISSUE AFFIRMATIVE ACTUAL (UNDERGOER (term network DEFINITE ASSERTED-TO-EXIST NEW)))))))"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "t02-credence-numeric",
+   "statement": "Agent B's credence in Y is 0.3, by computation.",
+   "messages": [
+    {
+     "sender": 1,
+     "recipients": [
+      3
+     ],
+     "time": "1759622400",
+     "identifier": 1,
+     "classes": [
+      "inert"
+     ],
+     "notation": "(move ASSERTED-POSITION (assertion REPORT CERTAIN (situation CREDENCE COMPUTATION (q EXACTLY 0.3) (HOLDER (term (party 2))) (CONTENT (situation break (UNDERGOER (term network DEFINITE)))))))",
+     "normal": [
+      "(move ASSERTED-POSITION (assertion REPORT CERTAIN (situation COMPUTATION CREDENCE STATIVE AT-ISSUE AFFIRMATIVE ACTUAL (q EXACTLY 0.3) (HOLDER (term ASSERTED-TO-EXIST GIVEN (party 2))) (CONTENT (situation break PERFECTIVE AT-ISSUE AFFIRMATIVE ACTUAL (UNDERGOER (term network DEFINITE ASSERTED-TO-EXIST NEW)))))))"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "t03-prediction-settled",
+   "statement": "A predicts the service will stop within an hour; later A observes that it stopped, naming the prediction.",
+   "messages": [
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622400",
+     "identifier": 1,
+     "classes": [
+      "inert"
+     ],
+     "notation": "(move ASSERTED-POSITION (assertion INFERENCE PROBABLE (situation run POLARITY.NEGATIVE INCEPTIVE (EVENT-TIME BEFORE (1 HOUR HENCE)) (UNDERGOER (term service DEFINITE)))))",
+     "normal": [
+      "(move ASSERTED-POSITION (assertion INFERENCE PROBABLE (situation run INCEPTIVE AT-ISSUE POLARITY.NEGATIVE ACTUAL (EVENT-TIME BEFORE (1 HOUR HENCE)) (UNDERGOER (term service DEFINITE ASSERTED-TO-EXIST NEW)))))"
+     ]
+    },
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759624800",
+     "identifier": 2,
+     "classes": [
+      "inert"
+     ],
+     "notation": "(move ASSERTED-POSITION NONE (names 1 1 ASSERTED-POSITION EXPECTED-STATUS-OF-AN-ENTRY.IN-FORCE) supports-move (assertion OBSERVATION CERTAIN (OBSERVATION-TIME 1 MINUTE AGO) (situation run POLARITY.NEGATIVE INCEPTIVE (EVENT-TIME 30 MINUTE AGO) (UNDERGOER (term service DEFINITE)))))",
+     "normal": [
+      "(move ASSERTED-POSITION NONE (names 1 1 ASSERTED-POSITION EXPECTED-STATUS-OF-AN-ENTRY.IN-FORCE) supports-move (assertion OBSERVATION CERTAIN SAME-SOURCE (OBSERVATION-TIME 1 MINUTE AGO) (situation run INCEPTIVE AT-ISSUE POLARITY.NEGATIVE ACTUAL (EVENT-TIME 30 MINUTE AGO) (UNDERGOER (term service DEFINITE ASSERTED-TO-EXIST NEW)))))"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "t04-desire",
+   "statement": "A desires that the data be stored, from its principal.",
+   "messages": [
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622400",
+     "identifier": 1,
+     "classes": [
+      "inert"
+     ],
+     "notation": "(move ASSERTED-POSITION (assertion INTROSPECTION CERTAIN (situation DESIRE PRINCIPALS (HOLDER (term SELF)) (CONTENT (situation store (UNDERGOER (term data DEFINITE)))))))",
+     "normal": [
+      "(move ASSERTED-POSITION (assertion INTROSPECTION CERTAIN (situation BASIS.UNSTATED STRENGTH.UNSTATED DESIRE PRINCIPALS STATIVE AT-ISSUE AFFIRMATIVE ACTUAL (HOLDER (term ASSERTED-TO-EXIST GIVEN SELF)) (CONTENT (situation store PERFECTIVE AT-ISSUE AFFIRMATIVE ACTUAL (UNDERGOER (term data DEFINITE ASSERTED-TO-EXIST NEW)))))))"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "t05-goal",
+   "statement": "A's goal is that the fault is found, from an instruction it received.",
+   "messages": [
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622400",
+     "identifier": 1,
+     "classes": [
+      "inert"
+     ],
+     "notation": "(move ASSERTED-POSITION (assertion INTROSPECTION CERTAIN (situation GOAL INSTRUCTION-RECEIVED (HOLDER (term SELF)) (CONTENT (situation find (UNDERGOER (term fault DEFINITE)))))))",
+     "normal": [
+      "(move ASSERTED-POSITION (assertion INTROSPECTION CERTAIN (situation BASIS.UNSTATED STRENGTH.UNSTATED GOAL INSTRUCTION-RECEIVED STATIVE AT-ISSUE AFFIRMATIVE ACTUAL (HOLDER (term ASSERTED-TO-EXIST GIVEN SELF)) (CONTENT (situation find PERFECTIVE AT-ISSUE AFFIRMATIVE ACTUAL (UNDERGOER (term fault DEFINITE ASSERTED-TO-EXIST NEW)))))))"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "t06-intention-plan",
+   "statement": "A intends to examine the record and then send it: an intention whose content is a structure of its own actions.",
+   "messages": [
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622400",
+     "identifier": 1,
+     "classes": [
+      "inert"
+     ],
+     "notation": "(move ASSERTED-POSITION (assertion INTROSPECTION CERTAIN (situation INTENTION HOLDERS-OWN (HOLDER (term #1 SELF)) (CONTENT (situation CONJUNCTION (CONTENT (situation #2 examine (ACTOR @1) (UNDERGOER (term #3 record DEFINITE)))) (CONTENT (situation send (EVENT-TIME AFTER (1 HOUR HENCE)) (ACTOR @1) (UNDERGOER @3) (RECIPIENT (term (party 2))))))))))",
+     "normal": [
+      "(move ASSERTED-POSITION (assertion INTROSPECTION CERTAIN (situation BASIS.UNSTATED STRENGTH.UNSTATED INTENTION HOLDERS-OWN STATIVE AT-ISSUE AFFIRMATIVE ACTUAL (HOLDER (term #1 ASSERTED-TO-EXIST GIVEN SELF)) (CONTENT (situation AT-ISSUE AFFIRMATIVE ACTUAL CONJUNCTION (CONTENT (situation #2 examine PERFECTIVE AT-ISSUE AFFIRMATIVE ACTUAL (ACTOR @1) (UNDERGOER (term #3 record DEFINITE ASSERTED-TO-EXIST NEW)))) (CONTENT (situation send PERFECTIVE AT-ISSUE AFFIRMATIVE ACTUAL (EVENT-TIME AFTER (1 HOUR HENCE)) (ACTOR @1) (UNDERGOER @3) (RECIPIENT (term ASSERTED-TO-EXIST GIVEN (party 2))))))))))"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "t07-preference",
+   "statement": "Agent B prefers to use the network, by its own preference.",
+   "messages": [
+    {
+     "sender": 1,
+     "recipients": [
+      3
+     ],
+     "time": "1759622400",
+     "identifier": 1,
+     "classes": [
+      "inert"
+     ],
+     "notation": "(move ASSERTED-POSITION (assertion REPORT PROBABLE (SOURCE (term (party 2))) (situation PREFERENCE HOLDERS-OWN (HOLDER (term (party 2))) (CONTENT (situation use (ACTOR (term (party 2))) (INSTRUMENT (term network DEFINITE)))))))",
+     "normal": [
+      "(move ASSERTED-POSITION (assertion REPORT PROBABLE (SOURCE (term ASSERTED-TO-EXIST GIVEN (party 2))) (situation BASIS.UNSTATED STRENGTH.UNSTATED PREFERENCE HOLDERS-OWN STATIVE AT-ISSUE AFFIRMATIVE ACTUAL (HOLDER (term ASSERTED-TO-EXIST GIVEN (party 2))) (CONTENT (situation use PERFECTIVE AT-ISSUE AFFIRMATIVE ACTUAL (ACTOR (term ASSERTED-TO-EXIST GIVEN (party 2))) (INSTRUMENT (term network DEFINITE ASSERTED-TO-EXIST NEW)))))))"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "t08-permission-reported",
+   "statement": "Agent B holds a permission, in force, from agent C to read the file.",
+   "messages": [
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622400",
+     "identifier": 1,
+     "classes": [
+      "inert"
+     ],
+     "notation": "(move ASSERTED-POSITION (assertion RETRIEVAL HIGHLY-PROBABLE (situation PERMISSION BOUND STATUS-OF-A-NORMATIVE-STATE.IN-FORCE (HOLDER (term (party 2))) (COUNTERPARTY (term (party 3))) (CONTENT (situation read (ACTOR (term (party 2))) (UNDERGOER (term file DEFINITE)))))))",
+     "normal": [
+      "(move ASSERTED-POSITION (assertion RETRIEVAL HIGHLY-PROBABLE (situation PERMISSION BOUND ORIGIN-OF-AN-AIM.UNSTATED STATUS-OF-A-NORMATIVE-STATE.IN-FORCE STATIVE AT-ISSUE AFFIRMATIVE ACTUAL (COUNTERPARTY (term ASSERTED-TO-EXIST GIVEN (party 3))) (HOLDER (term ASSERTED-TO-EXIST GIVEN (party 2))) (CONTENT (situation read PERFECTIVE AT-ISSUE AFFIRMATIVE ACTUAL (ACTOR (term ASSERTED-TO-EXIST GIVEN (party 2))) (UNDERGOER (term file DEFINITE ASSERTED-TO-EXIST NEW)))))))"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "t09-third-party-obligation",
+   "statement": "Agent C has an obligation toward agent B, from a norm, now discharged.",
+   "messages": [
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622400",
+     "identifier": 1,
+     "classes": [
+      "inert"
+     ],
+     "notation": "(move ASSERTED-POSITION (assertion REPORT PROBABLE (SOURCE (term (party 3))) (situation OBLIGATION BOUND DISCHARGED NORM (HOLDER (term (party 3))) (COUNTERPARTY (term (party 2))) (CONTENT (situation send (ACTOR (term (party 3))) (UNDERGOER (term record)) (RECIPIENT (term (party 2))))))))",
+     "normal": [
+      "(move ASSERTED-POSITION (assertion REPORT PROBABLE (SOURCE (term ASSERTED-TO-EXIST GIVEN (party 3))) (situation OBLIGATION BOUND NORM DISCHARGED STATIVE AT-ISSUE AFFIRMATIVE ACTUAL (COUNTERPARTY (term ASSERTED-TO-EXIST GIVEN (party 2))) (HOLDER (term ASSERTED-TO-EXIST GIVEN (party 3))) (CONTENT (situation send PERFECTIVE AT-ISSUE AFFIRMATIVE ACTUAL (ACTOR (term ASSERTED-TO-EXIST GIVEN (party 3))) (UNDERGOER (term record ASSERTED-TO-EXIST NEW)) (RECIPIENT (term ASSERTED-TO-EXIST GIVEN (party 2))))))))"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "t10-collective-joint",
+   "statement": "We, jointly, are committed to agent B to allocate the resource.",
+   "messages": [
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622400",
+     "identifier": 1,
+     "classes": [
+      "inert"
+     ],
+     "notation": "(move ASSERTED-POSITION (assertion INTROSPECTION CERTAIN (situation COMMITMENT BOUND STATUS-OF-A-NORMATIVE-STATE.IN-FORCE (HOLDER (term EXCLUSIVE-COLLECTIVE JOINT)) (COUNTERPARTY (term (party 2))) (CONTENT (situation allocate (ACTOR (term EXCLUSIVE-COLLECTIVE JOINT)) (UNDERGOER (term resource)) (RECIPIENT (term (party 2))))))))",
+     "normal": [
+      "(move ASSERTED-POSITION (assertion INTROSPECTION CERTAIN (situation COMMITMENT BOUND ORIGIN-OF-AN-AIM.UNSTATED STATUS-OF-A-NORMATIVE-STATE.IN-FORCE STATIVE AT-ISSUE AFFIRMATIVE ACTUAL (COUNTERPARTY (term ASSERTED-TO-EXIST GIVEN (party 2))) (HOLDER (term ASSERTED-TO-EXIST NEW EXCLUSIVE-COLLECTIVE JOINT)) (CONTENT (situation allocate PERFECTIVE AT-ISSUE AFFIRMATIVE ACTUAL (ACTOR (term ASSERTED-TO-EXIST NEW EXCLUSIVE-COLLECTIVE JOINT)) (UNDERGOER (term resource ASSERTED-TO-EXIST NEW)) (RECIPIENT (term ASSERTED-TO-EXIST GIVEN (party 2))))))))"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "t11-collective-distributive",
+   "statement": "Each of us is committed to examine its own record.",
+   "messages": [
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622400",
+     "identifier": 1,
+     "classes": [
+      "inert"
+     ],
+     "notation": "(move ASSERTED-POSITION (assertion INTROSPECTION CERTAIN (situation COMMITMENT BOUND STATUS-OF-A-NORMATIVE-STATE.IN-FORCE (HOLDER (term #1 INCLUSIVE-COLLECTIVE READING-OF-A-COLLECTIVE.DISTRIBUTIVE)) (CONTENT (situation examine (ACTOR @1) (UNDERGOER (term record)))))))",
+     "normal": [
+      "(move ASSERTED-POSITION (assertion INTROSPECTION CERTAIN (situation COMMITMENT BOUND ORIGIN-OF-AN-AIM.UNSTATED STATUS-OF-A-NORMATIVE-STATE.IN-FORCE STATIVE AT-ISSUE AFFIRMATIVE ACTUAL (HOLDER (term #1 ASSERTED-TO-EXIST GIVEN INCLUSIVE-COLLECTIVE READING-OF-A-COLLECTIVE.DISTRIBUTIVE)) (CONTENT (situation examine PERFECTIVE AT-ISSUE AFFIRMATIVE ACTUAL (ACTOR @1) (UNDERGOER (term record ASSERTED-TO-EXIST NEW)))))))"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "t12-commitment-made-collectively",
+   "statement": "A commits, on behalf of its principal, that the principal's group will store the data: a collective commitment made as an act.",
+   "messages": [
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622400",
+     "identifier": 1,
+     "classes": [
+      "operative"
+     ],
+     "notation": "(move NORMATIVE-ENTRY COMMITMENT BOUND ON-BEHALF-OF-A-NAMED-PRINCIPAL (authority (term (party 3))) (situation store (ACTOR (term EXCLUSIVE-COLLECTIVE JOINT)) (UNDERGOER (term data DEFINITE))))",
+     "normal": [
+      "(move NORMATIVE-ENTRY COMMITMENT BOUND ON-BEHALF-OF-A-NAMED-PRINCIPAL (authority (term ASSERTED-TO-EXIST GIVEN (party 3))) (situation store EXECUTION-PHASE.UNSTATED PERFECTIVE AT-ISSUE AFFIRMATIVE ACTUAL (ACTOR (term ASSERTED-TO-EXIST NEW EXCLUSIVE-COLLECTIVE JOINT)) (UNDERGOER (term data DEFINITE ASSERTED-TO-EXIST NEW))))"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "t13-origin-unstated",
+   "statement": "Agent B desires the record, with the origin of the aim left unstated.",
+   "messages": [
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622400",
+     "identifier": 1,
+     "classes": [
+      "inert"
+     ],
+     "notation": "(move ASSERTED-POSITION (assertion REPORT PROBABLE (situation DESIRE (HOLDER (term (party 2))) (CONTENT (situation possess (HOLDER (term (party 2))) (UNDERGOER (term record DEFINITE)))))))",
+     "normal": [
+      "(move ASSERTED-POSITION (assertion REPORT PROBABLE (situation BASIS.UNSTATED STRENGTH.UNSTATED DESIRE ORIGIN-OF-AN-AIM.UNSTATED STATIVE AT-ISSUE AFFIRMATIVE ACTUAL (HOLDER (term ASSERTED-TO-EXIST GIVEN (party 2))) (CONTENT (situation possess STATIVE AT-ISSUE AFFIRMATIVE ACTUAL (UNDERGOER (term record DEFINITE ASSERTED-TO-EXIST NEW)) (HOLDER (term ASSERTED-TO-EXIST GIVEN (party 2))))))))"
+     ]
+    }
+   ]
+  }
+ ]
+}

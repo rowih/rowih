@@ -1,0 +1,151 @@
+# The notation
+
+A writer does not compose the surface of a message word by word, since every move ends in a check word computed from the words before it and every message carries counts and check values no writer should compute by hand. A writer states each move in the notation, a parenthesised form over the glosses of the language's words, and the generator writes the surface from it. The notation is also the form in which the analysis reports what a move says: the literal semantic form of a move and its normal form ([What a message means](meaning.md)) are written in it. The notation is a view of the language, not the language; a message is the sequence of words that [The grammar](grammar.md) defines.
+
+## Tokens
+
+A text in the notation is a sequence of lists. A list is written between parentheses, and its items are lists, atoms or strings. An atom is any run of characters other than white space, parentheses and the double quotation mark; a string is written between double quotation marks and takes the escapes of a JSON string, so that `\"` stands for a quotation mark and `\n` for a line feed. A text may hold several moves, each a list opened by `move`.
+
+A text that does not read as the notation raises an error of the notation, such as `no member glossed X`, `X does not stand in a move's head` or `a list is not closed`, and the reader raises nothing else for any text. These are errors of the writer's input, not diagnostics of the language, which are reported only on a message ([Conformance](conformance.md#the-python-package)).
+
+## How words are named
+
+| What | Written as | Example |
+|---|---|---|
+| A member of a grammatical class | its gloss in capitals | `ASSERTED-POSITION`, `OBSERVATION`, `HIGHLY-PROBABLE` |
+| A member whose gloss recurs in another class | the class's label, a full stop and the gloss | `POLARITY.NEGATIVE`, `BINDINGNESS.ON-ACCEPTANCE` |
+| A content word: a root, a listed derivation or compound, a unit of measure, a discourse relation, a politeness word or a diction | the key of its lexicon entry, in lower case with hyphens for spaces | `run`, `service`, `degree-celsius`, `courteous` |
+| A compressed form of a dialect | the dialect's name, a full stop and the key | `programming.deploy` |
+| An act word | `ACT-` and its key in capitals | `ACT-REQUEST`, `ACT-UNDERTAKING` |
+| An extragrammatical idiom | `(idiom KEY)` | `(idiom run-run)` |
+| A grammatical idiom | the mark `IDIOM-ENTRY` on the unit, then the unit's literal structure | `(situation IDIOM-ENTRY possess (HOLDER (term service)) (UNDERGOER (term file DEFINITE)))` |
+| A number | the number as an atom | `2`, `0.8`, `-1.5`, `3/4`, `1e-3`, `2~4` |
+
+Any member may also be written with its class's label before its gloss. A conventional sense is never written: the writer writes the root, and the frame of the unit selects the sense ([The lexicon](lexicon.md#figurative-senses-and-conceptual-mappings)). A deprecated root has no key in the notation, since the notation names the entry in force. The members written with their class's label are these:
+
+<!-- generated: qualified-glosses -->
+| Written | Member |
+|---|---|
+| `BINDINGNESS.ON-ACCEPTANCE` | `g.force.bindingness.on-acceptance` |
+| `KIND-OF-SETTING.VERSION` | `g.force.kind-of-setting.version` |
+| `OUTCOME-OF-A-RESOLUTION.ACCEPTANCE` | `g.force.outcome-of-a-resolution.acceptance` |
+| `WHEN-THE-CHANGE-TAKES-EFFECT.ON-ACCEPTANCE` | `g.force.when-the-change-takes-effect.on-acceptance` |
+| `BASIS.UNSTATED` | `g.standing.basis.unstated` |
+| `STRENGTH.UNSTATED` | `g.standing.strength.unstated` |
+| `KIND-OF-ATTITUDE.ACCEPTANCE` | `g.attitudes-and-aims.kind-of-attitude.acceptance` |
+| `ORIGIN-OF-AN-AIM.UNSTATED` | `g.attitudes-and-aims.origin-of-an-aim.unstated` |
+| `STATUS-OF-A-NORMATIVE-STATE.IN-FORCE` | `g.attitudes-and-aims.status-of-a-normative-state.in-force` |
+| `STATUS-OF-A-NORMATIVE-STATE.WITHDRAWN` | `g.attitudes-and-aims.status-of-a-normative-state.withdrawn` |
+| `EXECUTION-PHASE.UNSTATED` | `g.attitudes-and-aims.execution-phase.unstated` |
+| `POLARITY.NEGATIVE` | `g.situations-and-contents.polarity.negative` |
+| `WORLD-OF-EVALUATION.WITHIN-A-SUPPOSITION` | `g.situations-and-contents.world-of-evaluation.within-a-supposition` |
+| `QUANTIFIER.DISTRIBUTIVE` | `g.situations-and-contents.quantifier.distributive` |
+| `COMPARATOR.UNSTATED` | `g.situations-and-contents.comparator.unstated` |
+| `EXISTENCE-COMMITMENT.WITHIN-A-SUPPOSITION` | `g.reference.existence-commitment.within-a-supposition` |
+| `READING-OF-A-COLLECTIVE.DISTRIBUTIVE` | `g.reference.reading-of-a-collective.distributive` |
+| `EXPECTED-STATUS-OF-AN-ENTRY.IN-FORCE` | `g.reference.expected-status-of-an-entry.in-force` |
+| `EXPECTED-STATUS-OF-AN-ENTRY.WITHDRAWN` | `g.reference.expected-status-of-an-entry.withdrawn` |
+| `TIME-INDEX.COMMUNICATION-TIME` | `g.time.time-index.communication-time` |
+| `NUMERAL.NEGATIVE` | `g.numbers.numeral.negative` |
+| `MESSAGE-FIELD.COMMUNICATION-TIME` | `g.message.message-field.communication-time` |
+| `MESSAGE-FIELD.VERSION` | `g.message.message-field.version` |
+<!-- end generated -->
+
+A number may use the digits, the decimal point `.`, the sign `-`, the ratio `/`, the exponent `e` and the interval `~`; the notation does not check its form, which the grammar does ([The grammar](grammar.md#numbers-and-names)).
+
+## The move
+
+A move is written `(move ITEM …)`. The items of a move's head are recognised by what they are, not by where they stand, and the generator writes them in the order the grammar fixes:
+
+- the atom `PRECISION-BOUND`, which declares the move precision-bound;
+- the key of a politeness word, of a diction or of a discourse relation;
+- an act word, which stands for the force members of its expansion;
+- a member of the force classes: what the move adds, the kinds of issue, normative entry and setting, bindingness, the change made, the outcome of a resolution, the extent, when the change takes effect, and the authority claimed;
+- a member of the class of declared losses or of the class of registers;
+- `(authority TERM)`, the principal on whose behalf, or the role in which, the move claims authority;
+- `(deadline TIME)`, the move's deadline;
+- a reference, `(names …)`, `(mentions …)`, `(names-message …)`, `(names-serial …)` or `(mentions-serial …)`; the first is the entry or message the move acts on, and a summary may name further entries.
+
+Every other item is a constituent of the move's content. Four moves from the conformance corpus:
+
+```
+(move ASSERTED-POSITION (assertion OBSERVATION CERTAIN (OBSERVATION-TIME 5 MINUTE AGO) (situation run POLARITY.NEGATIVE (UNDERGOER (term service DEFINITE)))))
+(move ISSUE REQUEST SPEAKERS-OWN (deadline 2 HOUR HENCE) (situation examine (ACTOR (term (party 2))) (UNDERGOER (term fault DEFINITE))))
+(move NORMATIVE-ENTRY OBLIGATION BOUND RESOLUTION OUTCOME-OF-A-RESOLUTION.ACCEPTANCE WHOLE-ENTRY ON-THE-MOVE SPEAKERS-OWN (names 1 1 ISSUE REQUEST OPEN) (situation examine (ACTOR (term SELF)) (UNDERGOER (term fault DEFINITE))))
+(move ACT-REQUEST SPEAKERS-OWN (situation examine (ACTOR (term (party 2))) (UNDERGOER (term fault DEFINITE))))
+```
+
+The first asserts, on the speaker's observation five minutes ago and with certainty, that the service is not running. The second requests, on the speaker's own authority, that participant 2 examine the fault within two hours. The third accepts that request, taking on the obligation it asked for. The fourth is the second written with the act word for a request.
+
+## Constituents
+
+| Written | What it is |
+|---|---|
+| `(assertion PART …)` | an assertion: a situation asserted with its standing |
+| `(situation PART …)` | a situation: an event, a state, an attitude or a connective joining contents |
+| `(term PART …)` | a term: a referent, a participant or a quantity |
+| `(readings KIND READING READING)` | a set of readings of one kind of ambiguity |
+| `(quote "WORDS")` | quoted words of the language, inert, kept as written |
+| `(example "WORDS")` | words of the language given as an example, inert |
+| `(data "TYPE" "TEXT")` | declared data of a media type, inert, encoded as a payload |
+| `(unknown "FORM")` | a word that is not in the lexicon, read by its parts if it divides into them |
+| `#N` | written first in a unit, names the unit with the number *N*, for later use in the move |
+| `@N` | stands for the unit named *N* |
+
+The parts of a unit are content words, members, quantities, times, references and nested constituents, and a role is written as a list headed by the role's member with its filler inside: `(ACTOR (term (party 2)))`, `(CONTENT (situation …))`. The roles are the participations *actor*, *undergoer*, *recipient*, *instrument*, *holder* and *content*, the counterparty, the provenance links *source*, *relayer* and *premise*, the relations of a figure *target content* and *stands for*, and the connective *condition*. The other connectives are written as members of the situation, and the contents they join as its `CONTENT` fillers. A participant is `(party N)` within a term, and a dialect `(dialect N)`.
+
+A unit named once and used again is how the notation writes a node reached twice, such as the holder of an intention who is also the actor of its content. This move from the conformance corpus states the speaker's own intention to examine the evidence:
+
+```
+(move ASSERTED-POSITION (assertion INTROSPECTION CERTAIN (situation INTENTION HOLDERS-OWN (HOLDER (term #1 SELF)) (CONTENT (situation examine (ACTOR @1) (UNDERGOER (term evidence DEFINITE)))))))
+```
+
+## Quantities
+
+A quantity is `(q [COMPARATOR] NUMBER [UNIT] [PER TIME-UNIT] [(party N)])`. The comparator is one of `EXACTLY`, `AT-LEAST`, `AT-MOST`, `APPROXIMATELY`, `AS-A-REPRESENTATIVE-QUANTITY` and `COMPARATOR.UNSTATED`; the unit is a unit of measure, written by its key, or a time unit; `PER` makes a rate; and `(party N)` names the participant whose calibration a numeric strength is under, which only the assertion of a summary writes. A quantity without a unit in an assertion is the assertion's numeric strength; in a term it is a quantity of the referent. Examples: `(q AT-LEAST 2 byte)`, `(q EXACTLY 12 metre PER SECOND)`, `(q EXACTLY 0.71)`, `(q 2~4)`.
+
+## Times
+
+A time is a list headed by its time index: `EVENT-TIME`, `REFERENCE-TIME`, `OBSERVATION-TIME`, `INFERENCE-TIME`, `TIME-INDEX.COMMUNICATION-TIME`, `EXECUTION-TIME` or `VALIDITY-INTERVAL`; the move's deadline is written `(deadline …)` in the head. What follows the index is one of these:
+
+| Written | What it is |
+|---|---|
+| `NOW` | the communication time |
+| `N` | a time on the clock, in seconds since 1970-01-01T00:00:00Z |
+| `N UNIT AGO`, `N UNIT HENCE` | a time before or after the communication time |
+| `RELATION TARGET` | a time in one of the thirteen relations to a time index of this unit, `(@N INDEX)` for the index of a named unit, or another time |
+| `A until B` | an interval from *A* to *B*, each parenthesised if it has more than one atom |
+| `[COMPARATOR] N UNIT` | a duration, after an event, reference or execution time |
+| `[COMPARATOR] N PER UNIT` | a rate, after an event time |
+| `A B` | after `VALIDITY-INTERVAL`, the interval from *A* to *B* |
+
+Examples: `(OBSERVATION-TIME 5 MINUTE AGO)`, `(deadline 2 HOUR HENCE)`, `(EVENT-TIME (60 MINUTE AGO) until (20 MINUTE AGO))`, `(EVENT-TIME AFTER (@1 EVENT-TIME))`, `(EVENT-TIME AT-LEAST 2 PER WEEK)`, `(VALIDITY-INTERVAL NOW (2 DAY HENCE))`.
+
+## References
+
+| Written | What it names |
+|---|---|
+| `(names A N KIND STATUS)` | entry *N* of participant *A*, which the move acts on and which the hearer expects to be of the kind and in the status stated |
+| `(names A N KIND STATUS part K)` | the part numbered *K* of that entry |
+| `(mentions A N)` | entry *N* of participant *A*, mentioned without acting on it or stating an expectation |
+| `(names-message A F)` | the message of participant *A* whose envelope states the first entry *F* |
+| `(names-serial A S R …)`, `(mentions-serial A S R …)` | the message with serial *S* on the channel from *A* to the recipients *R* |
+
+The kind is what the entry's move added, without its bindingness: `ISSUE REQUEST`, `NORMATIVE-ENTRY ASSIGNMENT`, `ASSERTED-POSITION`. The status is one of `OPEN`, `EXPECTED-STATUS-OF-AN-ENTRY.IN-FORCE`, `RESOLVED`, `LOWERED` and `WITHDRAWN`. A reference may also stand as a part of a term, `(term (names-message 1 3))`, or as a role's filler.
+
+## The envelope
+
+The notation states moves and carries no envelope. The writer gives the envelope's values to the generator beside the moves: the sender, the recipients, the communication time, the identifier, the first entry, the dialects the message names, and whether to write the semantic check value, the integrity check value and a signature. The function `write` and the command `rowih write` take them, write the message, and read it back so that the writer sees its diagnostics before sending it ([Conformance](conformance.md#the-python-package)). A protocol message, which carries a statement in place of moves, is written from its statement's parts by `state`.
+
+## What the generator writes
+
+From the notation the generator writes the surface of each move in the order of [The grammar](grammar.md#the-head), computes each number's check word, each move's count and move check word, the envelope's count and unit check word, and the message's check values ([Messages, protocol and transport](protocol.md)). It writes the move in one of five modes: full explicitness, normal expression, compression, idiom and creative expression, each admitted by some registers and not others ([The lexicon](lexicon.md#registers)). Its output is deterministic: one notation, mode and register give one surface.
+
+The analysis writes a move back in the notation twice. The move as written keeps what the writer wrote. The literal semantic form is its normal form, with every default stated, the act word replaced by its expansion, the declared losses, politeness word, diction and register set aside, and parts in canonical order:
+
+```
+as written:             (move ASSERTED-POSITION (assertion OBSERVATION CERTAIN (OBSERVATION-TIME 5 MINUTE AGO) (situation run POLARITY.NEGATIVE (UNDERGOER (term service DEFINITE)))))
+literal semantic form:  (move ASSERTED-POSITION (assertion OBSERVATION CERTAIN (OBSERVATION-TIME 5 MINUTE AGO) (situation run PROGRESSIVE AT-ISSUE POLARITY.NEGATIVE ACTUAL (UNDERGOER (term service DEFINITE ASSERTED-TO-EXIST NEW)))))
+```
+
+The sources of the corpus, in [`corpus/source/`](../corpus/source/), also use placeholders that the corpus builder replaces before reading, such as `(formed "record~examine")` for a compound built from its stems; these are not part of the notation.

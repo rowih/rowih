@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.message.message-field.sender",
+ "orthographic form": "waho",
+ "phonological form": "/waho/",
+ "grammatical category": "message field",
+ "gloss": "SENDER",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

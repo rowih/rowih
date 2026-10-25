@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.reference.existence-commitment.within-a-declared-fiction",
+ "orthographic form": "mese",
+ "phonological form": "/mese/",
+ "grammatical category": "existence commitment",
+ "gloss": "WITHIN-A-DECLARED-FICTION",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

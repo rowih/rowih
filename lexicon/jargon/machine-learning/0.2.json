@@ -1,0 +1,488 @@
+{
+ "dialect": "machine-learning",
+ "number": 3,
+ "community": "machine learning",
+ "version": "0.2",
+ "date": "2026-10-17",
+ "formed from lexicon": "1.0",
+ "reading": "each term means the composition of its stems, as the rules of word formation give it",
+ "terms": [
+  {
+   "machine identifier": "jg.machine-learning.001",
+   "term": "dataset",
+   "orthographic form": "ronawirunay",
+   "phonological form": "/ɾonawiɾunaj/",
+   "grammatical category": "jargon",
+   "sort": "s.sort.kind",
+   "semantic type": {
+    "sort": "s.sort.kind",
+    "arguments": []
+   },
+   "definition": "[stored or transmitted values], bearing on [a stored record]",
+   "argument structure": [],
+   "formed from": [
+    [
+     "lx.000058"
+    ],
+    [
+     "lx.000007"
+    ]
+   ],
+   "mechanism": "compound",
+   "register": [
+    "R0",
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7"
+   ],
+   "scope": {
+    "dialect": "machine-learning",
+    "version": "0.1"
+   },
+   "validity": "from the dialect's release, without end",
+   "provenance": "generated from its stems by tools/build_registers.py",
+   "acceptance status": "released",
+   "version": {
+    "introduced": "0.1",
+    "deprecated": null
+   },
+   "key": "dataset"
+  },
+  {
+   "machine identifier": "jg.machine-learning.002",
+   "term": "inference",
+   "orthographic form": "rolabumop",
+   "phonological form": "/ɾolabumop/",
+   "grammatical category": "jargon",
+   "sort": "s.sort.reified-referent",
+   "semantic type": {
+    "sort": "s.sort.reified-referent",
+    "arguments": []
+   },
+   "definition": "[assign a meaning to an expression], as a process under way, named as a referent",
+   "argument structure": [],
+   "formed from": [
+    [
+     "lx.000033",
+     "lx.000108"
+    ]
+   ],
+   "mechanism": "process",
+   "register": [
+    "R0",
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7"
+   ],
+   "scope": {
+    "dialect": "machine-learning",
+    "version": "0.1"
+   },
+   "validity": "from the dialect's release, without end",
+   "provenance": "generated from its stems by tools/build_registers.py",
+   "acceptance status": "released",
+   "version": {
+    "introduced": "0.1",
+    "deprecated": null
+   },
+   "key": "inference"
+  },
+  {
+   "machine identifier": "jg.machine-learning.003",
+   "term": "weight update",
+   "orthographic form": "rubapironaw",
+   "phonological form": "/ɾubapiɾonaw/",
+   "grammatical category": "jargon",
+   "sort": "s.sort.event",
+   "semantic type": {
+    "sort": "s.sort.event",
+    "arguments": [
+     "actor"
+    ]
+   },
+   "definition": "[become different], with [stored or transmitted values] as its undergoer",
+   "argument structure": [
+    {
+     "role": "actor",
+     "sort": "s.sort.agent"
+    }
+   ],
+   "formed from": [
+    [
+     "lx.000039"
+    ],
+    [
+     "lx.000058"
+    ]
+   ],
+   "mechanism": "compound",
+   "register": [
+    "R0",
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7"
+   ],
+   "scope": {
+    "dialect": "machine-learning",
+    "version": "0.1"
+   },
+   "validity": "from the dialect's release, without end",
+   "provenance": "generated from its stems by tools/build_registers.py",
+   "acceptance status": "released",
+   "version": {
+    "introduced": "0.1",
+    "deprecated": null
+   },
+   "key": "weight update"
+  },
+  {
+   "machine identifier": "jg.machine-learning.004",
+   "term": "training",
+   "orthographic form": "rubapiruter",
+   "phonological form": "/ɾubapiɾuteɾ/",
+   "grammatical category": "jargon",
+   "sort": "s.sort.event",
+   "semantic type": {
+    "sort": "s.sort.event",
+    "arguments": [
+     "actor"
+    ]
+   },
+   "definition": "[become different], with [the store an agent keeps records in] as its undergoer",
+   "argument structure": [
+    {
+     "role": "actor",
+     "sort": "s.sort.agent"
+    }
+   ],
+   "formed from": [
+    [
+     "lx.000039"
+    ],
+    [
+     "lx.000059"
+    ]
+   ],
+   "mechanism": "compound",
+   "register": [
+    "R0",
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7"
+   ],
+   "scope": {
+    "dialect": "machine-learning",
+    "version": "0.1"
+   },
+   "validity": "from the dialect's release, without end",
+   "provenance": "generated from its stems by tools/build_registers.py",
+   "acceptance status": "released",
+   "version": {
+    "introduced": "0.1",
+    "deprecated": null
+   },
+   "key": "training"
+  },
+  {
+   "machine identifier": "jg.machine-learning.005",
+   "term": "loss",
+   "orthographic form": "repurirubus",
+   "phonological form": "/ɾepuɾiɾubus/",
+   "grammatical category": "jargon",
+   "sort": "s.sort.kind",
+   "semantic type": {
+    "sort": "s.sort.kind",
+    "arguments": []
+   },
+   "definition": "[an error in a message or a process], bearing on [find the size of something]",
+   "argument structure": [],
+   "formed from": [
+    [
+     "lx.000074"
+    ],
+    [
+     "lx.000042"
+    ]
+   ],
+   "mechanism": "compound",
+   "register": [
+    "R0",
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7"
+   ],
+   "scope": {
+    "dialect": "machine-learning",
+    "version": "0.1"
+   },
+   "validity": "from the dialect's release, without end",
+   "provenance": "generated from its stems by tools/build_registers.py",
+   "acceptance status": "released",
+   "version": {
+    "introduced": "0.1",
+    "deprecated": null
+   },
+   "key": "loss"
+  },
+  {
+   "machine identifier": "jg.machine-learning.006",
+   "term": "neural network",
+   "orthographic form": "rewohinumutos",
+   "phonological form": "/ɾewohinumutos/",
+   "grammatical category": "jargon",
+   "sort": "s.sort.object",
+   "semantic type": {
+    "sort": "s.sort.object",
+    "arguments": []
+   },
+   "definition": "[connected systems that exchange messages], bearing on [the organ of thought]",
+   "argument structure": [],
+   "formed from": [
+    [
+     "lx.000060"
+    ],
+    [
+     "lx.000540"
+    ]
+   ],
+   "mechanism": "compound",
+   "register": [
+    "R0",
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7"
+   ],
+   "scope": {
+    "dialect": "machine-learning",
+    "version": "0.2"
+   },
+   "validity": "from the dialect's release, without end",
+   "provenance": "generated from its stems by tools/build_version1.py",
+   "acceptance status": "released",
+   "version": {
+    "introduced": "0.2",
+    "deprecated": null
+   },
+   "key": "neural network"
+  },
+  {
+   "machine identifier": "jg.machine-learning.007",
+   "term": "label",
+   "orthographic form": "nukuyuhironaw",
+   "phonological form": "/nukujuhiɾonaw/",
+   "grammatical category": "jargon",
+   "sort": "s.sort.object",
+   "semantic type": {
+    "sort": "s.sort.object",
+    "arguments": []
+   },
+   "definition": "[a thing whose presence stands for another thing], bearing on [stored or transmitted values]",
+   "argument structure": [],
+   "formed from": [
+    [
+     "lx.000242"
+    ],
+    [
+     "lx.000058"
+    ]
+   ],
+   "mechanism": "compound",
+   "register": [
+    "R0",
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7"
+   ],
+   "scope": {
+    "dialect": "machine-learning",
+    "version": "0.2"
+   },
+   "validity": "from the dialect's release, without end",
+   "provenance": "generated from its stems by tools/build_version1.py",
+   "acceptance status": "released",
+   "version": {
+    "introduced": "0.2",
+    "deprecated": null
+   },
+   "key": "label"
+  },
+  {
+   "machine identifier": "jg.machine-learning.008",
+   "term": "overfitting",
+   "orthographic form": "nurilaminupamaw",
+   "phonological form": "/nuɾilaminupamaw/",
+   "grammatical category": "jargon",
+   "sort": "s.sort.event",
+   "semantic type": {
+    "sort": "s.sort.event",
+    "arguments": [
+     "actor"
+    ]
+   },
+   "definition": "[come to hold a belief or a capability through experience or instruction], with [a small particular of something larger] as its content",
+   "argument structure": [
+    {
+     "role": "actor",
+     "sort": "s.sort.agent"
+    }
+   ],
+   "formed from": [
+    [
+     "lx.000204"
+    ],
+    [
+     "lx.000232"
+    ]
+   ],
+   "mechanism": "compound",
+   "register": [
+    "R0",
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7"
+   ],
+   "scope": {
+    "dialect": "machine-learning",
+    "version": "0.2"
+   },
+   "validity": "from the dialect's release, without end",
+   "provenance": "generated from its stems by tools/build_version1.py",
+   "acceptance status": "released",
+   "version": {
+    "introduced": "0.2",
+    "deprecated": null
+   },
+   "key": "overfitting"
+  },
+  {
+   "machine identifier": "jg.machine-learning.009",
+   "term": "embedding",
+   "orthographic form": "nudepahirator",
+   "phonological form": "/nudepahiɾatoɾ/",
+   "grammatical category": "jargon",
+   "sort": "s.sort.kind",
+   "semantic type": {
+    "sort": "s.sort.kind",
+    "arguments": []
+   },
+   "definition": "[the extent in which things are and move], bearing on [a word of the language]",
+   "argument structure": [],
+   "formed from": [
+    [
+     "lx.000389"
+    ],
+    [
+     "lx.000079"
+    ]
+   ],
+   "mechanism": "compound",
+   "register": [
+    "R0",
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7"
+   ],
+   "scope": {
+    "dialect": "machine-learning",
+    "version": "0.2"
+   },
+   "validity": "from the dialect's release, without end",
+   "provenance": "generated from its stems by tools/build_version1.py",
+   "acceptance status": "released",
+   "version": {
+    "introduced": "0.2",
+    "deprecated": null
+   },
+   "key": "embedding"
+  },
+  {
+   "machine identifier": "jg.machine-learning.010",
+   "term": "benchmark",
+   "orthographic form": "nuwolibinubahit",
+   "phonological form": "/nuwolibinubahit/",
+   "grammatical category": "jargon",
+   "sort": "s.sort.event",
+   "semantic type": {
+    "sort": "s.sort.event",
+    "arguments": [
+     "actor"
+    ]
+   },
+   "definition": "[try something under set conditions to see whether it behaves as expected], with [a simplified representation used to study or to predict what it represents] as its undergoer",
+   "argument structure": [
+    {
+     "role": "actor",
+     "sort": "s.sort.agent"
+    }
+   ],
+   "formed from": [
+    [
+     "lx.000208"
+    ],
+    [
+     "lx.000285"
+    ]
+   ],
+   "mechanism": "compound",
+   "register": [
+    "R0",
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7"
+   ],
+   "scope": {
+    "dialect": "machine-learning",
+    "version": "0.2"
+   },
+   "validity": "from the dialect's release, without end",
+   "provenance": "generated from its stems by tools/build_version1.py",
+   "acceptance status": "released",
+   "version": {
+    "introduced": "0.2",
+    "deprecated": null
+   },
+   "key": "benchmark"
+  }
+ ],
+ "digest": "765545834"
+}

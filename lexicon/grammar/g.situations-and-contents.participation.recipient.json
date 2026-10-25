@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.situations-and-contents.participation.recipient",
+ "orthographic form": "boma",
+ "phonological form": "/boma/",
+ "grammatical category": "participation",
+ "gloss": "RECIPIENT",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

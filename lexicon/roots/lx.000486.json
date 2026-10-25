@@ -1,0 +1,72 @@
+{
+ "machine identifier": "lx.000486",
+ "root": "lx.000486",
+ "phonological form": "/nuwaɡun/",
+ "orthographic form": "nuwagun",
+ "grammatical category": "nominal root",
+ "sort": "s.sort.kind",
+ "semantic type": {
+  "sort": "s.sort.kind",
+  "arguments": []
+ },
+ "definition": "hard mineral matter",
+ "semantic primitives": [
+  "s.sort.kind"
+ ],
+ "argument structure": [],
+ "derivational behaviour": [
+  {
+   "suffix": "lx.000110",
+   "mechanism": "abstraction",
+   "form": "nuwagunusap",
+   "sort": "s.sort.kind",
+   "definition": "what every instance of [hard mineral matter] has in common"
+  },
+  {
+   "suffix": "lx.000112",
+   "mechanism": "verbalisation",
+   "form": "nuwagunasey",
+   "sort": "s.sort.event",
+   "definition": "act by means of [hard mineral matter]"
+  },
+  {
+   "suffix": "lx.000113",
+   "mechanism": "adjectivisation",
+   "form": "nuwagunuyik",
+   "sort": "s.sort.state",
+   "definition": "be of the kind [hard mineral matter] names"
+  },
+  {
+   "suffix": "lx.000184",
+   "mechanism": "honorific",
+   "form": "nuwagunayuk",
+   "sort": "s.sort.kind",
+   "definition": "[hard mineral matter], named with deference"
+  }
+ ],
+ "register": [
+  "R0",
+  "R1",
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7"
+ ],
+ "collocations": [],
+ "synonyms": [],
+ "antonyms": [],
+ "related concepts": [
+  {
+   "entry": "lx.000502",
+   "relation": "kind of"
+  }
+ ],
+ "examples": [],
+ "version": {
+  "introduced": "1.0",
+  "deprecated": null
+ },
+ "key": "stone"
+}

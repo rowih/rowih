@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.situations-and-contents.comparator.at-least",
+ "orthographic form": "gure",
+ "phonological form": "/ɡuɾe/",
+ "grammatical category": "comparator",
+ "gloss": "AT-LEAST",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

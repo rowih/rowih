@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.situations-and-contents.aspect.perfective",
+ "orthographic form": "beda",
+ "phonological form": "/beda/",
+ "grammatical category": "aspect",
+ "gloss": "PERFECTIVE",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

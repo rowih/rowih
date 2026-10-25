@@ -1,0 +1,50 @@
+{
+ "machine identifier": "lx.000015",
+ "root": "lx.000015",
+ "phonological form": "/ɾokud/",
+ "orthographic form": "rokud",
+ "grammatical category": "predicate root",
+ "sort": "s.sort.state",
+ "semantic type": {
+  "sort": "s.sort.state",
+  "arguments": [
+   "holder",
+   "content"
+  ]
+ },
+ "definition": "have less of a resource than an action needs",
+ "semantic primitives": [
+  "s.sort.state"
+ ],
+ "argument structure": [
+  {
+   "role": "holder",
+   "sort": "s.sort.agent"
+  },
+  {
+   "role": "content",
+   "sort": "s.sort.situation"
+  }
+ ],
+ "derivational behaviour": [],
+ "register": [
+  "R0",
+  "R1",
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7"
+ ],
+ "collocations": [],
+ "synonyms": [],
+ "antonyms": [],
+ "related concepts": [],
+ "examples": [],
+ "version": {
+  "introduced": "0.1",
+  "deprecated": null
+ },
+ "key": "lack resource"
+}

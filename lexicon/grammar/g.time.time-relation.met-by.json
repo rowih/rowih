@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.time.time-relation.met-by",
+ "orthographic form": "dokeha",
+ "phonological form": "/dokeha/",
+ "grammatical category": "time relation",
+ "gloss": "MET-BY",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

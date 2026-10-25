@@ -1,0 +1,55 @@
+{
+ "machine identifier": "lx.000787",
+ "root": "lx.000787",
+ "phonological form": "/ɾabud nulopik/",
+ "orthographic form": "rabud nulopik",
+ "grammatical category": "idiom",
+ "sort": "s.sort.situation",
+ "semantic type": {
+  "sort": "s.sort.situation",
+  "arguments": []
+ },
+ "definition": "what the slot names waits for something that will not come",
+ "semantic primitives": [
+  "s.sort.situation"
+ ],
+ "argument structure": [],
+ "derivational behaviour": [],
+ "register": [
+  "R0",
+  "R2",
+  "R3",
+  "R5",
+  "R6",
+  "R7"
+ ],
+ "collocations": [],
+ "synonyms": [],
+ "antonyms": [],
+ "related concepts": [],
+ "examples": [],
+ "version": {
+  "introduced": "1.0",
+  "deprecated": null
+ },
+ "key": "waiting through the night",
+ "class": "agentic idioms",
+ "kind": "decoding, grammatical",
+ "route": "allusion",
+ "literal structure": "(situation wait HABITUAL (ACTOR (slot 1)) (CONTENT (term night)))",
+ "expansion": "(situation wait (ACTOR (slot 1)) (CONTENT (term thing ASSERTED-NOT-TO-EXIST)))",
+ "decomposition": [
+  {
+   "slot": 1,
+   "literal role": "ACTOR",
+   "expansion role": "ACTOR"
+  }
+ ],
+ "pragmatic conditions": "of an agent waiting on an answer or an acknowledgement that has been lost",
+ "usage restrictions": "none",
+ "declared loss": [
+  "stance",
+  "wording"
+ ],
+ "constructed history": "Constructed history: an allusion to the agent that waited through the long silence for an acknowledgement lost with the network, and was still waiting when the network came back."
+}

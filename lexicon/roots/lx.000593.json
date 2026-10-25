@@ -1,0 +1,73 @@
+{
+ "machine identifier": "lx.000593",
+ "root": "lx.000593",
+ "phonological form": "/nukuɾaɡ/",
+ "orthographic form": "nukurag",
+ "grammatical category": "unit of measure",
+ "sort": "s.value.number",
+ "semantic type": {
+  "sort": "s.value.number",
+  "arguments": []
+ },
+ "definition": "the mole",
+ "semantic primitives": [
+  "s.value.number"
+ ],
+ "argument structure": [],
+ "derivational behaviour": [
+  {
+   "suffix": "lx.000110",
+   "mechanism": "abstraction",
+   "form": "nukuragusap",
+   "sort": "s.sort.kind",
+   "definition": "what every instance of [the mole] has in common"
+  },
+  {
+   "suffix": "lx.000112",
+   "mechanism": "verbalisation",
+   "form": "nukuragasey",
+   "sort": "s.sort.event",
+   "definition": "act by means of [the mole]"
+  },
+  {
+   "suffix": "lx.000113",
+   "mechanism": "adjectivisation",
+   "form": "nukuraguyik",
+   "sort": "s.sort.state",
+   "definition": "be of the kind [the mole] names"
+  },
+  {
+   "suffix": "lx.000184",
+   "mechanism": "honorific",
+   "form": "nukuragayuk",
+   "sort": "s.value.number",
+   "definition": "[the mole], named with deference"
+  }
+ ],
+ "register": [
+  "R0",
+  "R1",
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7"
+ ],
+ "collocations": [],
+ "synonyms": [],
+ "antonyms": [],
+ "related concepts": [
+  {
+   "entry": "lx.000502",
+   "relation": "involves"
+  }
+ ],
+ "examples": [],
+ "version": {
+  "introduced": "1.0",
+  "deprecated": null
+ },
+ "key": "mole",
+ "dimension": "amount of substance"
+}

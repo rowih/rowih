@@ -1,0 +1,34 @@
+{
+ "machine identifier": "lx.000169",
+ "root": "lx.000169",
+ "phonological form": "/ɾuwok/",
+ "orthographic form": "ruwok",
+ "grammatical category": "politeness word",
+ "sort": "s.sort.move",
+ "semantic type": {
+  "sort": "s.sort.move",
+  "arguments": []
+ },
+ "definition": "the move is addressed with courtesy, as to a reader the speaker serves",
+ "semantic primitives": [
+  "s.sort.move"
+ ],
+ "argument structure": [],
+ "derivational behaviour": [],
+ "register": [
+  "R3"
+ ],
+ "collocations": [],
+ "synonyms": [],
+ "antonyms": [],
+ "related concepts": [],
+ "examples": [],
+ "version": {
+  "introduced": "0.4",
+  "deprecated": null
+ },
+ "key": "courteous",
+ "declared loss": [
+  "relation between participants"
+ ]
+}

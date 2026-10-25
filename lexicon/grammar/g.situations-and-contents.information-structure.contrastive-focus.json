@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.situations-and-contents.information-structure.contrastive-focus",
+ "orthographic form": "garo",
+ "phonological form": "/ɡaɾo/",
+ "grammatical category": "information structure",
+ "gloss": "CONTRASTIVE-FOCUS",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.numbers.numeral.one",
+ "orthographic form": "nake",
+ "phonological form": "/nake/",
+ "grammatical category": "numeral",
+ "gloss": "ONE",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

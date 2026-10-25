@@ -1,0 +1,147 @@
+{
+ "machine identifier": "lx.000531",
+ "root": "lx.000531",
+ "phonological form": "/nuɡitaɡ/",
+ "orthographic form": "nugitag",
+ "grammatical category": "predicate root",
+ "sort": "s.sort.event",
+ "semantic type": {
+  "sort": "s.sort.event",
+  "arguments": [
+   "actor",
+   "undergoer"
+  ]
+ },
+ "definition": "take a liquid into the body",
+ "semantic primitives": [
+  "s.sort.event"
+ ],
+ "argument structure": [
+  {
+   "role": "actor",
+   "sort": "s.sort.agent"
+  },
+  {
+   "role": "undergoer",
+   "sort": "s.sort.referent"
+  }
+ ],
+ "derivational behaviour": [
+  {
+   "suffix": "lx.000096",
+   "mechanism": "agent",
+   "form": "nugitagaheh",
+   "sort": "s.sort.agent",
+   "definition": "the one that is actor of [take a liquid into the body]"
+  },
+  {
+   "suffix": "lx.000097",
+   "mechanism": "undergoer",
+   "form": "nugitagudim",
+   "sort": "s.sort.referent",
+   "definition": "the one that undergoes [take a liquid into the body]"
+  },
+  {
+   "suffix": "lx.000098",
+   "mechanism": "instrument",
+   "form": "nugitagawen",
+   "sort": "s.sort.referent",
+   "definition": "what [take a liquid into the body] is done with"
+  },
+  {
+   "suffix": "lx.000099",
+   "mechanism": "result",
+   "form": "nugitagonar",
+   "sort": "s.sort.state",
+   "definition": "the state [take a liquid into the body] brings about"
+  },
+  {
+   "suffix": "lx.000100",
+   "mechanism": "privative",
+   "form": "nugitaganiw",
+   "sort": "s.sort.state",
+   "definition": "the state in which [take a liquid into the body] does not hold"
+  },
+  {
+   "suffix": "lx.000108",
+   "mechanism": "process",
+   "form": "nugitagumop",
+   "sort": "s.sort.reified-referent",
+   "definition": "[take a liquid into the body], as a process under way, named as a referent"
+  },
+  {
+   "suffix": "lx.000109",
+   "mechanism": "property",
+   "form": "nugitagarur",
+   "sort": "s.sort.kind",
+   "definition": "the property of being as [take a liquid into the body] states"
+  },
+  {
+   "suffix": "lx.000111",
+   "mechanism": "nominalisation",
+   "form": "nugitagekoh",
+   "sort": "s.sort.proposition",
+   "definition": "that [take a liquid into the body] holds"
+  },
+  {
+   "suffix": "lx.000594",
+   "mechanism": "causative",
+   "form": "nugitagomiw",
+   "sort": "s.sort.event",
+   "definition": "make [take a liquid into the body] hold or happen"
+  },
+  {
+   "suffix": "lx.000595",
+   "mechanism": "reversative",
+   "form": "nugitaguhul",
+   "sort": "s.sort.event",
+   "definition": "undo [take a liquid into the body], restoring what it changed"
+  },
+  {
+   "suffix": "lx.000596",
+   "mechanism": "repetitive",
+   "form": "nugitaguleg",
+   "sort": "s.sort.event",
+   "definition": "[take a liquid into the body], done once more"
+  },
+  {
+   "suffix": "lx.000597",
+   "mechanism": "potential",
+   "form": "nugitaguwot",
+   "sort": "s.sort.state",
+   "definition": "be such that [take a liquid into the body] can be done to it"
+  },
+  {
+   "suffix": "lx.000598",
+   "mechanism": "place",
+   "form": "nugitagumuk",
+   "sort": "s.sort.place",
+   "definition": "the place where [take a liquid into the body] happens"
+  }
+ ],
+ "register": [
+  "R0",
+  "R1",
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7"
+ ],
+ "collocations": [],
+ "synonyms": [],
+ "antonyms": [],
+ "related concepts": [
+  {
+   "entry": "lx.000504",
+   "relation": "involves"
+  }
+ ],
+ "examples": [],
+ "version": {
+  "introduced": "1.0",
+  "deprecated": null
+ },
+ "key": "drink"
+}

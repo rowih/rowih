@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.message.message-field.recipients",
+ "orthographic form": "watu",
+ "phonological form": "/watu/",
+ "grammatical category": "message field",
+ "gloss": "RECIPIENTS",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

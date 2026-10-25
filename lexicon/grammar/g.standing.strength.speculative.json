@@ -1,0 +1,16 @@
+{
+ "machine identifier": "g.standing.strength.speculative",
+ "orthographic form": "topeka",
+ "phonological form": "/topeka/",
+ "grammatical category": "strength",
+ "gloss": "SPECULATIVE",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ },
+ "interval": {
+  "lower": "0",
+  "upper": "1",
+  "lower open": true
+ }
+}

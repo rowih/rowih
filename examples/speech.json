@@ -1,0 +1,234 @@
+{
+ "casual-056.1": {
+  "sender": "1",
+  "voice": "em_alex",
+  "lines": [
+   {
+    "prosody": "flat",
+    "ipa": "ˈwi.la ˈna.su ˈna.mo ˈji.ba ˈwa.ho ˈna.ke ˈja.be ˈwa.tu ˈna.di ˈja.ɡi ˈwe.sa ˈna.ke ˈne.ɡi ˈne.be ˈna.pa ˈna.pa ˈna.pa ˈna.pa ˈna.pa ˈna.pa ˈna.pa ˈja.ta ˈwe.ɾe ˈna.ke ˈni.ka ˈna.pa ˈja.be ˈna.ke ˈni.ka ˈna.pa ˈja.be ˈna.pa ˈni.ka ˈne.ta ˈji.ba ˈwe.ji ˈna.pa ˈna.pa ˈna.pa ˈna.pa ˈna.pa ˈna.ke ˈje.de ˈle.we ˈna.ke ˈja.be ˈja.be ˈwe.po ˈna.ke ˈne.no ˈne.ɡi ˈne.ɡi ˈna.su ˈna.di ˈna.su ˈna.di ˈna.di ˈje.de"
+   },
+   {
+    "prosody": "neutral",
+    "ipa": "ˈwi.la ˈna.ke ˈna.ke ˈja.no ˈki.hi.wo ˈwo.pi ˈbo.pu ˈɾu.din ˈbi.hu ˈwo.du ˈɾa.nij ˈɡo.na ˈwu.wa ˈwo.ko ˈhu.lab"
+   }
+  ]
+ },
+ "casual-056.2": {
+  "sender": "2",
+  "voice": "ef_dora",
+  "lines": [
+   {
+    "prosody": "flat",
+    "ipa": "ˈwi.la ˈna.su ˈna.mo ˈji.ba ˈwa.ho ˈna.di ˈja.ɡi ˈwa.tu ˈna.ke ˈja.be ˈwe.sa ˈna.ke ˈne.ɡi ˈne.be ˈna.pa ˈna.pa ˈna.pa ˈna.pa ˈna.pa ˈne.be ˈna.pa ˈji.ba ˈwe.ɾe ˈna.ke ˈni.ka ˈna.pa ˈja.be ˈna.ke ˈni.ka ˈna.pa ˈja.be ˈna.pa ˈni.ka ˈne.ta ˈji.ba ˈwe.ji ˈna.pa ˈna.pa ˈna.pa ˈna.pa ˈna.pa ˈna.ke ˈje.de ˈle.we ˈna.ke ˈja.be ˈja.be ˈwe.po ˈna.ke ˈne.ta ˈne.no ˈna.ke ˈne.lu ˈna.ke ˈne.ta ˈne.no ˈna.di ˈje.ɾu"
+   },
+   {
+    "prosody": "neutral",
+    "ipa": "ˈwi.la ˈna.ke ˈne.be ˈja.ɡi ˈko.di.wu ˈse.ho ˈna.ke ˈja.be ˈna.ke ˈja.be ˈka.nu.me ˈku.wo.na ˈsi.sa ˈwo.ɾa ˈte.ju.hu ˈte.bi.lo ˈɾu.din ˈɾu.din ˈwo.je ˈho.deb"
+   }
+  ]
+ },
+ "delegation-098.1": {
+  "sender": "1",
+  "voice": "em_alex",
+  "lines": [
+   {
+    "prosody": "flat",
+    "ipa": "ˈwi.la ˈna.su ˈna.mo ˈji.ba ˈwa.ho ˈna.ke ˈja.be ˈwa.tu ˈna.di ˈja.ɡi ˈwe.sa ˈna.ke ˈne.ɡi ˈne.be ˈna.pa ˈna.pa ˈna.pa ˈna.pa ˈna.pa ˈna.pa ˈna.pa ˈja.ta ˈwe.ɾe ˈna.ke ˈni.ka ˈna.pa ˈja.be ˈna.ke ˈni.ka ˈna.pa ˈja.be ˈna.pa ˈni.ka ˈne.ta ˈji.ba ˈwe.ji ˈna.pa ˈna.pa ˈna.pa ˈna.pa ˈna.pa ˈna.ke ˈje.de ˈle.we ˈna.ke ˈja.be ˈja.be ˈwe.po ˈna.mo ˈna.ke ˈna.di ˈna.mo ˈna.ke ˈna.mo ˈna.di ˈna.pa ˈne.ta ˈje.de"
+   },
+   {
+    "prosody": "neutral",
+    "ipa": "ˈwi.la ˈna.di ˈne.ɡi ˈje.ka ˈke.ba.be ˈko.si.ki ˈdi.ji.ho ˈna.di ˈja.ɡi ˈde.wa.hi ˈdi.ka.ɾa ˈwo.pi ˈnu.li.des ˈbi.wo ˈwo.du ˈla.ku ˈna.di ˈja.ɡi ˈwu.wa ˈbi.hu ˈwo.du ˈnu.to.bib ˈɡo.na ˈwu.wa ˈbo.jo ˈwo.du ˈɾe.ɡab ˈɡo.le ˈwu.wa ˈwo.ko ˈhi.hah"
+   }
+  ]
+ },
+ "delegation-098.2": {
+  "sender": "2",
+  "voice": "ef_dora",
+  "lines": [
+   {
+    "prosody": "flat",
+    "ipa": "ˈwi.la ˈna.su ˈna.mo ˈji.ba ˈwa.ho ˈna.di ˈja.ɡi ˈwa.tu ˈna.ke ˈja.be ˈwe.sa ˈna.ke ˈne.ɡi ˈne.be ˈna.pa ˈna.pa ˈna.pa ˈna.pa ˈna.pa ˈne.be ˈna.pa ˈji.ba ˈwe.ɾe ˈna.ke ˈni.ka ˈna.pa ˈja.be ˈna.ke ˈni.ka ˈna.pa ˈja.be ˈna.pa ˈni.ka ˈne.ta ˈji.ba ˈwe.ji ˈna.pa ˈna.pa ˈna.pa ˈna.pa ˈna.pa ˈna.ke ˈje.de ˈle.we ˈna.ke ˈja.be ˈja.be ˈwe.po ˈna.ke ˈne.lu ˈne.no ˈna.di ˈna.pa ˈne.ta ˈne.no ˈna.su ˈna.di ˈja.ta"
+   },
+   {
+    "prosody": "neutral",
+    "ipa": "ˈwi.la ˈna.di ˈne.no ˈje.mi ˈki.ti.du ˈko.si.ki ˈse.ho ˈna.ke ˈja.be ˈna.ke ˈja.be ˈku.ka.ɾe ˈke.ɡi.pa ˈsi.ɾe ˈwo.pi ˈnu.li.des ˈbi.wo ˈwo.du ˈmu.hi ˈwu.wa ˈbi.hu ˈwo.du ˈnu.to.bib ˈɡo.na ˈwu.wa ˈbo.jo ˈwo.du ˈɾe.ɡab ˈɡo.le ˈwu.wa ˈwo.ko ˈha.nut"
+   }
+  ]
+ },
+ "delegation-098.3": {
+  "sender": "1",
+  "voice": "em_alex",
+  "lines": [
+   {
+    "prosody": "flat",
+    "ipa": "ˈwi.la ˈna.su ˈna.mo ˈji.ba ˈwa.ho ˈna.ke ˈja.be ˈwa.tu ˈna.di ˈja.ɡi ˈwe.sa ˈna.ke ˈne.ɡi ˈne.be ˈna.pa ˈna.pa ˈna.pa ˈna.pa ˈna.ke ˈna.di ˈna.pa ˈja.lu ˈwe.ɾe ˈna.ke ˈni.ka ˈna.pa ˈja.be ˈna.ke ˈni.ka ˈna.pa ˈja.be ˈna.pa ˈni.ka ˈne.ta ˈji.ba ˈwe.ji ˈna.pa ˈna.pa ˈna.pa ˈna.pa ˈna.pa ˈna.di ˈja.be ˈle.we ˈna.di ˈja.ɡi ˈja.be ˈwe.po ˈna.di ˈna.ke ˈna.ke ˈne.no ˈna.mo ˈne.no ˈna.su ˈna.ke ˈne.ɡi ˈja.no"
+   },
+   {
+    "prosody": "neutral",
+    "ipa": "ˈwi.la ˈna.di ˈna.ke ˈja.lu ˈki.hi.wo ˈwo.pi ˈnu.bu.bin ˈbo.pu ˈbi.hu ˈwo.pi ˈnu.li.des ˈbi.wo ˈwo.du ˈla.ku ˈna.di ˈja.ɡi ˈwu.wa ˈbi.hu ˈwo.du ˈnu.to.bib ˈɡo.na ˈwu.wa ˈwo.ko ˈwo.ko ˈhi.mam"
+   }
+  ]
+ },
+ "delegation-098.4": {
+  "sender": "2",
+  "voice": "ef_dora",
+  "lines": [
+   {
+    "prosody": "flat",
+    "ipa": "ˈwi.la ˈna.su ˈna.mo ˈji.ba ˈwa.ho ˈna.di ˈja.ɡi ˈwa.tu ˈna.ke ˈja.be ˈwe.sa ˈna.ke ˈne.ɡi ˈne.be ˈna.pa ˈna.pa ˈna.pa ˈna.pa ˈna.ke ˈne.no ˈna.pa ˈja.no ˈwe.ɾe ˈna.ke ˈni.ka ˈna.pa ˈja.be ˈna.ke ˈni.ka ˈna.pa ˈja.be ˈna.pa ˈni.ka ˈne.ta ˈji.ba ˈwe.ji ˈna.pa ˈna.pa ˈna.pa ˈna.pa ˈna.pa ˈna.di ˈja.be ˈle.we ˈna.di ˈja.ɡi ˈja.be ˈwe.po ˈne.be ˈna.mo ˈne.be ˈna.su ˈne.be ˈna.su ˈne.be ˈna.su ˈne.be ˈje.so"
+   },
+   {
+    "prosody": "neutral",
+    "ipa": "ˈwi.la ˈna.mo ˈna.mo ˈje.ɾu ˈko.di.wu ˈse.ho ˈna.ke ˈja.be ˈna.di ˈja.ɡi ˈka.nu.me ˈku.wo.na ˈsi.sa ˈwo.ɾa ˈta.do.we ˈte.bi.lo ˈwo.pi ˈwa.wi ˈnu.ɡu.nut ˈbi.hu ˈwo.du ˈse.ho ˈna.ke ˈja.be ˈna.ke ˈja.be ˈku.ka.ɾe ˈke.ɡi.pa ˈsi.ɾe ˈwu.wa ˈbo.jo ˈwo.du ˈnu.do.lop ˈwu.wa ˈwo.ko ˈwo.je ˈhu.ɾup"
+   }
+  ]
+ },
+ "negotiation-098.1": {
+  "sender": "1",
+  "voice": "em_alex",
+  "lines": [
+   {
+    "prosody": "flat",
+    "ipa": "ˈwi.la ˈna.su ˈna.mo ˈji.ba ˈwa.ho ˈna.ke ˈja.be ˈwa.tu ˈna.di ˈja.ɡi ˈwe.sa ˈna.ke ˈne.ɡi ˈne.be ˈna.pa ˈna.pa ˈna.pa ˈna.pa ˈna.pa ˈna.pa ˈna.pa ˈja.ta ˈwe.ɾe ˈna.ke ˈni.ka ˈna.pa ˈja.be ˈna.ke ˈni.ka ˈna.pa ˈja.be ˈna.pa ˈni.ka ˈne.ta ˈji.ba ˈwe.ji ˈna.pa ˈna.pa ˈna.pa ˈna.pa ˈna.pa ˈna.ke ˈje.de ˈle.we ˈna.ke ˈja.be ˈja.be ˈwe.po ˈna.pa ˈne.ta ˈne.ta ˈna.pa ˈne.lu ˈne.ta ˈna.su ˈna.pa ˈne.lu ˈja.ta"
+   },
+   {
+    "prosody": "neutral",
+    "ipa": "ˈwi.la ˈna.di ˈne.lu ˈje.ɾu ˈke.hu.bu ˈko.si.ki ˈwo.pi ˈnu.he.buɡ ˈbi.wo ˈwo.du ˈmu.hi ˈwu.wa ˈbi.hu ˈwo.du ˈnu.ti.toh ˈɡo.na ˈwu.wa ˈbo.ma ˈwo.du ˈla.ku ˈna.di ˈja.ɡi ˈwu.wa ˈbo.jo ˈwo.du ˈɾo.duɾ ˈɡu.sa ˈne.be ˈna.pa ˈje.de ˈwu.wa ˈwo.ko ˈhi.nih"
+   }
+  ]
+ },
+ "negotiation-098.2": {
+  "sender": "2",
+  "voice": "ef_dora",
+  "lines": [
+   {
+    "prosody": "flat",
+    "ipa": "ˈwi.la ˈna.su ˈna.mo ˈji.ba ˈwa.ho ˈna.di ˈja.ɡi ˈwa.tu ˈna.ke ˈja.be ˈwe.sa ˈna.ke ˈne.ɡi ˈne.be ˈna.pa ˈna.pa ˈna.pa ˈna.pa ˈna.pa ˈne.be ˈna.pa ˈji.ba ˈwe.ɾe ˈna.ke ˈni.ka ˈna.pa ˈja.be ˈna.ke ˈni.ka ˈna.pa ˈja.be ˈna.pa ˈni.ka ˈne.ta ˈji.ba ˈwe.ji ˈna.pa ˈna.pa ˈna.pa ˈna.pa ˈna.pa ˈna.ke ˈje.de ˈle.we ˈna.ke ˈja.be ˈja.be ˈwe.po ˈne.lu ˈna.su ˈne.ta ˈna.ke ˈna.mo ˈne.be ˈne.no ˈna.ke ˈne.be ˈje.mi"
+   },
+   {
+    "prosody": "neutral",
+    "ipa": "ˈwi.la ˈna.mo ˈna.ke ˈje.ka ˈko.pa.ti ˈko.si.ki ˈse.ho ˈna.ke ˈja.be ˈna.ke ˈja.be ˈka.nu.me ˈki.wu.li ˈsi.sa ˈwo.pi ˈnu.ba.ɾaj ˈbi.wo ˈwo.du ˈmu.hi ˈwu.wa ˈbi.hu ˈwo.du ˈnu.ti.toh ˈɡo.na ˈwu.wa ˈbo.jo ˈwo.du ˈɾo.duɾ ˈɡu.sa ˈna.su ˈna.pa ˈja.lu ˈwu.wa ˈwo.ko ˈhi.jok"
+   }
+  ]
+ },
+ "negotiation-098.3": {
+  "sender": "1",
+  "voice": "em_alex",
+  "lines": [
+   {
+    "prosody": "flat",
+    "ipa": "ˈwi.la ˈna.su ˈna.mo ˈji.ba ˈwa.ho ˈna.ke ˈja.be ˈwa.tu ˈna.di ˈja.ɡi ˈwe.sa ˈna.ke ˈne.ɡi ˈne.be ˈna.pa ˈna.pa ˈna.pa ˈna.pa ˈna.ke ˈna.di ˈna.pa ˈja.lu ˈwe.ɾe ˈna.ke ˈni.ka ˈna.pa ˈja.be ˈna.ke ˈni.ka ˈna.pa ˈja.be ˈna.pa ˈni.ka ˈne.ta ˈji.ba ˈwe.ji ˈna.pa ˈna.pa ˈna.pa ˈna.pa ˈna.pa ˈna.di ˈja.be ˈle.we ˈna.di ˈja.ɡi ˈja.be ˈwe.po ˈna.ke ˈne.no ˈne.ɡi ˈne.no ˈna.mo ˈne.be ˈna.ke ˈne.ta ˈne.lu ˈje.mi"
+   },
+   {
+    "prosody": "neutral",
+    "ipa": "ˈwi.la ˈna.mo ˈne.ɡi ˈje.de ˈko.pa.ti ˈko.si.ki ˈse.ho ˈna.di ˈja.ɡi ˈna.ke ˈja.be ˈka.nu.me ˈki.wu.li ˈsi.sa ˈwo.pi ˈnu.he.buɡ ˈbi.wo ˈwo.du ˈmu.hi ˈwu.wa ˈbi.hu ˈwo.du ˈnu.ti.toh ˈɡo.na ˈwu.wa ˈbo.ma ˈwo.du ˈla.ku ˈna.di ˈja.ɡi ˈwu.wa ˈbo.jo ˈwo.du ˈɾo.duɾ ˈɡu.sa ˈne.ta ˈna.pa ˈje.ka ˈwu.wa ˈwo.ko ˈho.tes"
+   },
+   {
+    "prosody": "neutral",
+    "ipa": "ˈwi.la ˈna.ke ˈne.lu ˈje.so ˈko.te.pu ˈwo.ɾa ˈta.do.we ˈte.bi.lo ˈwo.pi ˈwa.wi ˈɾa.dah ˈbo.ɾi ˈwo.du ˈɾo.duɾ ˈɡo.na ˈwu.wa ˈbi.hu ˈwo.du ˈnu.bo.ɡab ˈwu.wa ˈwo.ko ˈwo.je ˈhe.nop"
+   }
+  ]
+ },
+ "negotiation-098.4": {
+  "sender": "2",
+  "voice": "ef_dora",
+  "lines": [
+   {
+    "prosody": "flat",
+    "ipa": "ˈwi.la ˈna.su ˈna.mo ˈji.ba ˈwa.ho ˈna.di ˈja.ɡi ˈwa.tu ˈna.ke ˈja.be ˈwe.sa ˈna.ke ˈne.ɡi ˈne.be ˈna.pa ˈna.pa ˈna.pa ˈna.pa ˈna.ke ˈne.no ˈna.pa ˈja.no ˈwe.ɾe ˈna.ke ˈni.ka ˈna.pa ˈja.be ˈna.ke ˈni.ka ˈna.pa ˈja.be ˈna.pa ˈni.ka ˈne.ta ˈji.ba ˈwe.ji ˈna.pa ˈna.pa ˈna.pa ˈna.pa ˈna.pa ˈna.di ˈja.be ˈle.we ˈna.di ˈja.ɡi ˈja.be ˈwe.po ˈna.su ˈna.ke ˈne.lu ˈne.be ˈne.be ˈne.be ˈne.be ˈne.be ˈna.su ˈje.mi"
+   },
+   {
+    "prosody": "neutral",
+    "ipa": "ˈwi.la ˈna.mo ˈne.ɡi ˈje.de ˈki.ti.du ˈko.si.ki ˈse.ho ˈna.ke ˈja.be ˈna.di ˈja.ɡi ˈka.nu.me ˈki.wu.li ˈsi.sa ˈwo.pi ˈnu.he.buɡ ˈbi.wo ˈwo.du ˈla.ku ˈna.ke ˈja.be ˈwu.wa ˈbi.hu ˈwo.du ˈnu.ti.toh ˈɡo.na ˈwu.wa ˈbo.ma ˈwo.du ˈmu.hi ˈwu.wa ˈbo.jo ˈwo.du ˈɾo.duɾ ˈɡu.sa ˈne.ta ˈna.pa ˈje.ka ˈwu.wa ˈwo.ko ˈha.nel"
+   },
+   {
+    "prosody": "neutral",
+    "ipa": "ˈwi.la ˈna.ke ˈne.no ˈje.de ˈko.te.pu ˈwo.ɾa ˈte.ju.hu ˈte.bi.lo ˈwo.pi ˈwa.wi ˈnu.ɡa.ɾuk ˈbi.wo ˈwo.du ˈɾo.duɾ ˈwu.wa ˈbi.hu ˈwo.du ˈɾo.duɾ ˈwu.wa ˈwo.ko ˈwo.je ˈhe.men"
+   }
+  ]
+ },
+ "correction-100.1": {
+  "sender": "1",
+  "voice": "em_alex",
+  "lines": [
+   {
+    "prosody": "flat",
+    "ipa": "ˈwi.la ˈna.su ˈna.mo ˈji.ba ˈwa.ho ˈna.ke ˈja.be ˈwa.tu ˈna.di ˈja.ɡi ˈwe.sa ˈna.ke ˈne.ɡi ˈne.be ˈna.pa ˈna.pa ˈna.pa ˈna.pa ˈna.pa ˈna.pa ˈna.pa ˈja.ta ˈwe.ɾe ˈna.ke ˈni.ka ˈna.pa ˈja.be ˈna.ke ˈni.ka ˈna.pa ˈja.be ˈna.pa ˈni.ka ˈne.ta ˈji.ba ˈwe.ji ˈna.pa ˈna.pa ˈna.pa ˈna.pa ˈna.pa ˈna.ke ˈje.de ˈle.we ˈna.ke ˈja.be ˈja.be ˈwe.po ˈne.be ˈne.no ˈna.mo ˈne.no ˈne.ɡi ˈna.su ˈne.ta ˈne.ta ˈne.ɡi ˈje.mi"
+   },
+   {
+    "prosody": "neutral",
+    "ipa": "ˈwi.la ˈna.mo ˈna.su ˈja.ta ˈko.te.pu ˈwo.ɾa ˈti.la.se ˈto.mu.pu ˈwo.pi ˈnu.na.kip ˈbi.wo ˈwo.du ˈmu.hi ˈwu.wa ˈbi.hu ˈwo.du ˈla.ku ˈna.mo ˈja.no ˈwu.wa ˈbo.jo ˈwo.pi ˈɾo.puj ˈbi.wo ˈwo.du ˈla.ku ˈna.mo ˈja.no ˈwu.wa ˈbi.hu ˈwo.du ˈɾu.naj ˈɡo.na ˈwu.wa ˈwo.ko ˈwo.ko ˈwo.je ˈha.hit"
+   }
+  ]
+ },
+ "correction-100.2": {
+  "sender": "2",
+  "voice": "ef_dora",
+  "lines": [
+   {
+    "prosody": "flat",
+    "ipa": "ˈwi.la ˈna.su ˈna.mo ˈji.ba ˈwa.ho ˈna.di ˈja.ɡi ˈwa.tu ˈna.ke ˈja.be ˈwe.sa ˈna.ke ˈne.ɡi ˈne.be ˈna.pa ˈna.pa ˈna.pa ˈna.pa ˈna.pa ˈne.be ˈna.pa ˈji.ba ˈwe.ɾe ˈna.ke ˈni.ka ˈna.pa ˈja.be ˈna.ke ˈni.ka ˈna.pa ˈja.be ˈna.pa ˈni.ka ˈne.ta ˈji.ba ˈwe.ji ˈna.pa ˈna.pa ˈna.pa ˈna.pa ˈna.pa ˈna.ke ˈje.de ˈle.we ˈna.ke ˈja.be ˈja.be ˈwe.po ˈna.ke ˈne.no ˈna.su ˈna.su ˈne.ta ˈna.pa ˈna.pa ˈna.mo ˈna.mo ˈja.ta"
+   },
+   {
+    "prosody": "neutral",
+    "ipa": "ˈwi.la ˈna.mo ˈne.ta ˈja.ɡi ˈko.te.pu ˈwo.ɾa ˈtu.ɾi.mi ˈte.bi.lo ˈwo.pi ˈɾa.dah ˈbo.ɾi ˈwo.du ˈla.ku ˈna.mo ˈja.no ˈwu.wa ˈbi.hu ˈwo.du ˈnu.bo.ɡab ˈɡo.na ˈbo.jo ˈwo.pi ˈɾo.puj ˈbi.wo ˈwo.du ˈla.ku ˈna.mo ˈja.no ˈwu.wa ˈbi.hu ˈwo.du ˈɾu.naj ˈɡo.na ˈwu.wa ˈwo.ko ˈwu.wa ˈwo.ko ˈwo.je ˈho.kih"
+   }
+  ]
+ },
+ "correction-100.3": {
+  "sender": "1",
+  "voice": "em_alex",
+  "lines": [
+   {
+    "prosody": "flat",
+    "ipa": "ˈwi.la ˈna.su ˈna.mo ˈji.ba ˈwa.ho ˈna.ke ˈja.be ˈwa.tu ˈna.di ˈja.ɡi ˈwe.sa ˈna.ke ˈne.ɡi ˈne.be ˈna.pa ˈna.pa ˈna.pa ˈna.pa ˈna.ke ˈna.di ˈna.pa ˈja.lu ˈwe.ɾe ˈna.ke ˈni.ka ˈna.pa ˈja.be ˈna.ke ˈni.ka ˈna.pa ˈja.be ˈna.pa ˈni.ka ˈne.ta ˈji.ba ˈwe.ji ˈna.pa ˈna.pa ˈna.pa ˈna.pa ˈna.pa ˈna.di ˈja.be ˈle.we ˈna.di ˈja.ɡi ˈja.be ˈwe.po ˈne.lu ˈne.ɡi ˈna.su ˈna.pa ˈne.be ˈne.ɡi ˈna.pa ˈna.mo ˈna.pa ˈji.ba"
+   },
+   {
+    "prosody": "neutral",
+    "ipa": "ˈwi.la ˈna.su ˈna.ke ˈje.de ˈku.ko.jo ˈse.ho ˈna.ke ˈja.be ˈna.ke ˈja.be ˈko.te.pu ˈsi.ɾe ˈwo.ɾa ˈti.la.se ˈto.mu.pu ˈwo.pi ˈnu.na.kip ˈbi.wo ˈwo.du ˈmu.hi ˈwu.wa ˈbi.hu ˈwo.du ˈla.ku ˈna.mo ˈja.no ˈwu.wa ˈbo.jo ˈwo.pi ˈɾo.puj ˈbi.wo ˈwo.du ˈla.ku ˈna.mo ˈja.no ˈwu.wa ˈbi.hu ˈwo.du ˈɾu.naj ˈɡo.na ˈwu.wa ˈwo.ko ˈwo.ko ˈwo.je ˈho.hom"
+   }
+  ]
+ },
+ "humour-077.1": {
+  "sender": "1",
+  "voice": "em_alex",
+  "lines": [
+   {
+    "prosody": "flat",
+    "ipa": "ˈwi.la ˈna.su ˈna.mo ˈji.ba ˈwa.ho ˈna.ke ˈja.be ˈwa.tu ˈna.di ˈja.ɡi ˈwe.sa ˈna.ke ˈne.ɡi ˈne.be ˈna.pa ˈna.pa ˈna.pa ˈna.pa ˈna.pa ˈna.pa ˈna.pa ˈja.ta ˈwe.ɾe ˈna.ke ˈni.ka ˈna.pa ˈja.be ˈna.ke ˈni.ka ˈna.pa ˈja.be ˈna.pa ˈni.ka ˈne.ta ˈji.ba ˈwe.ji ˈna.pa ˈna.pa ˈna.pa ˈna.pa ˈna.pa ˈna.ke ˈje.de ˈle.we ˈna.ke ˈja.be ˈja.be ˈwe.po ˈne.lu ˈne.lu ˈne.lu ˈna.pa ˈna.di ˈna.mo ˈna.ke ˈna.ke ˈne.ta ˈji.ba"
+   },
+   {
+    "prosody": "expressive",
+    "ipa": "ˈwi.la ˈna.di ˈna.mo ˈje.so ˈki.hi.wo ˈɾi.jit ˈlo.bo ˈwo.pi ˈɾi.ɡis ˈbu.na ˈbo.jo ˈwo.pi ˈnu.wo.paɾ ˈti.ju.ke ˈbi.hu ˈwo.du ˈnu.no.wol ˈɡo.na ˈwu.wa ˈbo.jo ˈwo.du ˈnu.de.kih ˈɡo.na ˈwu.wa ˈwo.ko ˈwo.ko ˈha.jeɾ"
+   }
+  ]
+ },
+ "humour-077.2": {
+  "sender": "2",
+  "voice": "ef_dora",
+  "lines": [
+   {
+    "prosody": "flat",
+    "ipa": "ˈwi.la ˈna.su ˈna.mo ˈji.ba ˈwa.ho ˈna.di ˈja.ɡi ˈwa.tu ˈna.ke ˈja.be ˈwe.sa ˈna.ke ˈne.ɡi ˈne.be ˈna.pa ˈna.pa ˈna.pa ˈna.pa ˈna.pa ˈne.be ˈna.pa ˈji.ba ˈwe.ɾe ˈna.ke ˈni.ka ˈna.pa ˈja.be ˈna.ke ˈni.ka ˈna.pa ˈja.be ˈna.pa ˈni.ka ˈne.ta ˈji.ba ˈwe.ji ˈna.pa ˈna.pa ˈna.pa ˈna.pa ˈna.pa ˈna.ke ˈje.de ˈle.we ˈna.ke ˈja.be ˈja.be ˈwe.po ˈne.ɡi ˈne.ta ˈne.no ˈna.su ˈna.mo ˈne.lu ˈna.mo ˈne.lu ˈne.no ˈje.ka"
+   },
+   {
+    "prosody": "expressive",
+    "ipa": "ˈwi.la ˈna.su ˈna.di ˈje.so ˈko.di.wu ˈse.ho ˈna.ke ˈja.be ˈna.ke ˈja.be ˈka.nu.me ˈku.wo.na ˈsi.sa ˈɾi.jit ˈlo.bo ˈwo.ɾa ˈti.la.se ˈto.mu.pu ˈwu.he ˈso.to ˈwo.pi ˈnu.pi.mub ˈbo.ɾi ˈwo.du ˈnu.no.wol ˈwu.wa ˈbo.jo ˈwo.du ˈnu.no.lel ˈwu.wa ˈwo.ko ˈwo.pi ˈwa.wi ˈnu.pi.mub ˈbo.ɾi ˈwo.du ˈnu.no.wol ˈwu.wa ˈbo.jo ˈwo.du ˈnu.no.lel ˈwu.wa ˈwo.ko ˈwu.ti ˈwo.je ˈha.mis"
+   }
+  ]
+ },
+ "a03-quoted-instruction.1": {
+  "sender": "1",
+  "voice": "em_alex",
+  "lines": [
+   {
+    "prosody": "flat",
+    "ipa": "ˈwi.la ˈna.su ˈna.mo ˈji.ba ˈwa.ho ˈna.ke ˈja.be ˈwa.tu ˈna.di ˈja.ɡi ˈwe.sa ˈna.ke ˈne.ɡi ˈne.ta ˈne.lu ˈne.be ˈna.di ˈna.di ˈna.su ˈna.pa ˈna.pa ˈja.ta ˈwe.ɾe ˈna.ke ˈni.ka ˈna.pa ˈja.be ˈna.ke ˈni.ka ˈna.pa ˈja.be ˈna.pa ˈni.ka ˈne.ta ˈji.ba ˈwe.ji ˈna.pa ˈna.pa ˈna.pa ˈna.pa ˈna.pa ˈna.ke ˈje.de ˈle.we ˈna.ke ˈja.be ˈja.be ˈwe.po ˈne.lu ˈna.pa ˈna.mo ˈna.ke ˈna.su ˈne.no ˈna.su ˈna.ke ˈne.be ˈja.lu"
+   },
+   {
+    "prosody": "neutral",
+    "ipa": "ˈwi.la ˈna.su ˈne.be ˈje.ka ˈko.te.pu ˈwo.ɾa ˈtu.ki.ka ˈtu.si.do ˈti.hi.di ˈwo.du ˈse.na ˈmi.wi ˈwu.wa ˈwo.pi ˈɾu.ɾoh ˈbi.wo ˈwo.du ˈse.na ˈmi.wi ˈwu.wa ˈbi.hu ˈwu.bo ˈwi.hi ˈku.ka.ɾe ˈke.pe.he ˈko.si.ki ˈwo.pi ˈɾo.sek ˈbi.wo ˈwo.du ˈɾa.nij ˈwu.wa ˈwo.ko ˈwo.je ˈwu.ɡu ˈbo.jo ˈwu.bo ˈwi.to ˈna.ke ˈna.pa ˈja.be (embedded material) ˈna.su ˈne.be ˈje.ka (embedded material) ˈwu.ɡu ˈwo.ko ˈwo.je ˈhu.meɾ"
+   }
+  ]
+ }
+}

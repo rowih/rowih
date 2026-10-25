@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.time.time-relation.equals",
+ "orthographic form": "duyade",
+ "phonological form": "/dujade/",
+ "grammatical category": "time relation",
+ "gloss": "EQUALS",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

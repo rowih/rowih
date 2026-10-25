@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.time.time-relation.after",
+ "orthographic form": "dilode",
+ "phonological form": "/dilode/",
+ "grammatical category": "time relation",
+ "gloss": "AFTER",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

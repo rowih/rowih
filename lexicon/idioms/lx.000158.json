@@ -1,0 +1,51 @@
+{
+ "machine identifier": "lx.000158",
+ "root": "lx.000158",
+ "phonological form": "/ɾudin ɾudin/",
+ "orthographic form": "rudin rudin",
+ "grammatical category": "idiom",
+ "sort": "s.sort.situation",
+ "semantic type": {
+  "sort": "s.sort.situation",
+  "arguments": []
+ },
+ "definition": "the service is still running",
+ "semantic primitives": [
+  "s.sort.situation"
+ ],
+ "argument structure": [],
+ "derivational behaviour": [],
+ "register": [
+  "R0",
+  "R2",
+  "R3",
+  "R5",
+  "R6",
+  "R7"
+ ],
+ "collocations": [],
+ "synonyms": [],
+ "antonyms": [],
+ "related concepts": [],
+ "examples": [],
+ "version": {
+  "introduced": "0.3",
+  "deprecated": null
+ },
+ "key": "run run",
+ "class": "conversational idioms",
+ "kind": "decoding, extragrammatical",
+ "route": "drift",
+ "literal structure": [
+  "run",
+  "run"
+ ],
+ "expansion": "(situation run CONTINUATIVE (UNDERGOER (term service DEFINITE)))",
+ "decomposition": [],
+ "pragmatic conditions": "in answer to a question about the service both participants use",
+ "usage restrictions": "excluded from R1 and R4",
+ "declared loss": [
+  "wording"
+ ],
+ "constructed history": "Constructed history: from a stage of the language in which a root said twice marked continuation; the grammar now writes continuation with the aspect, and the doubled root survives only in this formula."
+}

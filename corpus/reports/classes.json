@@ -1,0 +1,1688 @@
+{
+ "release": "1.0",
+ "moves": 2501,
+ "messages": 2237,
+ "rarely used below per cent": 1,
+ "classes": {
+  "g.force.what-the-move-adds": {
+   "name": "what the move adds",
+   "scope": "move",
+   "status": "obligatory",
+   "counted over": "moves",
+   "units": 2501,
+   "per cent": 100.0,
+   "is rarely used": false,
+   "units, own words only": 2003,
+   "domains": {
+    "agent coordination": 236,
+    "basic communication": 226,
+    "casual discourse": 201,
+    "error correction": 255,
+    "formal reasoning": 190,
+    "humour and creativity": 150,
+    "metalinguistic communication": 226,
+    "negotiation": 211,
+    "programming and tool use": 244,
+    "scientific communication": 145,
+    "task delegation": 254,
+    "uncertainty and evidence": 163
+   },
+   "members": {
+    "g.force.what-the-move-adds.asserted-position": 1719,
+    "g.force.what-the-move-adds.conceded-position": 0,
+    "g.force.what-the-move-adds.supposition": 10,
+    "g.force.what-the-move-adds.summary": 0,
+    "g.force.what-the-move-adds.issue": 856,
+    "g.force.what-the-move-adds.normative-entry": 366,
+    "g.force.what-the-move-adds.setting": 8,
+    "g.force.what-the-move-adds.nothing-beyond-its-own-record": 51
+   },
+   "members never written": [
+    "g.force.what-the-move-adds.conceded-position",
+    "g.force.what-the-move-adds.summary"
+   ]
+  },
+  "g.force.kind-of-issue": {
+   "name": "kind of issue",
+   "scope": "move",
+   "status": "obligatory",
+   "counted over": "moves",
+   "units": 856,
+   "per cent": 34.23,
+   "is rarely used": false,
+   "units, own words only": 407,
+   "domains": {
+    "agent coordination": 85,
+    "basic communication": 103,
+    "casual discourse": 75,
+    "error correction": 61,
+    "formal reasoning": 6,
+    "humour and creativity": 15,
+    "metalinguistic communication": 109,
+    "negotiation": 87,
+    "programming and tool use": 126,
+    "scientific communication": 20,
+    "task delegation": 143,
+    "uncertainty and evidence": 26
+   },
+   "members": {
+    "g.force.kind-of-issue.question": 314,
+    "g.force.kind-of-issue.request": 404,
+    "g.force.kind-of-issue.proposal": 125,
+    "g.force.kind-of-issue.challenge": 17
+   },
+   "members never written": []
+  },
+  "g.force.kind-of-normative-entry": {
+   "name": "kind of normative entry",
+   "scope": "move",
+   "status": "obligatory",
+   "counted over": "moves",
+   "units": 366,
+   "per cent": 14.63,
+   "is rarely used": false,
+   "units, own words only": 74,
+   "domains": {
+    "agent coordination": 43,
+    "basic communication": 50,
+    "casual discourse": 26,
+    "error correction": 44,
+    "formal reasoning": 3,
+    "humour and creativity": 2,
+    "metalinguistic communication": 4,
+    "negotiation": 42,
+    "programming and tool use": 69,
+    "scientific communication": 6,
+    "task delegation": 77
+   },
+   "members": {
+    "g.force.kind-of-normative-entry.commitment": 100,
+    "g.force.kind-of-normative-entry.obligation": 233,
+    "g.force.kind-of-normative-entry.permission": 4,
+    "g.force.kind-of-normative-entry.assignment": 25,
+    "g.force.kind-of-normative-entry.recommendation": 12
+   },
+   "members never written": []
+  },
+  "g.force.bindingness": {
+   "name": "bindingness",
+   "scope": "move",
+   "status": "obligatory",
+   "counted over": "moves",
+   "units": 292,
+   "per cent": 11.68,
+   "is rarely used": false,
+   "units, own words only": 0,
+   "domains": {
+    "agent coordination": 41,
+    "basic communication": 37,
+    "casual discourse": 20,
+    "error correction": 25,
+    "formal reasoning": 3,
+    "humour and creativity": 2,
+    "metalinguistic communication": 4,
+    "negotiation": 40,
+    "programming and tool use": 50,
+    "scientific communication": 6,
+    "task delegation": 64
+   },
+   "members": {
+    "g.force.bindingness.on-acceptance": 37,
+    "g.force.bindingness.bound": 255,
+    "g.force.bindingness.bound-within-a-protocol": 0
+   },
+   "members never written": [
+    "g.force.bindingness.bound-within-a-protocol"
+   ]
+  },
+  "g.force.kind-of-setting": {
+   "name": "kind of setting",
+   "scope": "move",
+   "status": "obligatory",
+   "counted over": "moves",
+   "units": 8,
+   "per cent": 0.32,
+   "is rarely used": true,
+   "units, own words only": 4,
+   "domains": {
+    "metalinguistic communication": 8
+   },
+   "members": {
+    "g.force.kind-of-setting.definition": 4,
+    "g.force.kind-of-setting.version": 0,
+    "g.force.kind-of-setting.role": 4,
+    "g.force.kind-of-setting.calibration": 0,
+    "g.force.kind-of-setting.relation": 0
+   },
+   "members never written": [
+    "g.force.kind-of-setting.calibration",
+    "g.force.kind-of-setting.relation",
+    "g.force.kind-of-setting.version"
+   ]
+  },
+  "g.force.change-made": {
+   "name": "change made",
+   "scope": "move",
+   "status": "obligatory",
+   "counted over": "moves",
+   "units": 716,
+   "per cent": 28.63,
+   "is rarely used": false,
+   "units, own words only": 111,
+   "domains": {
+    "agent coordination": 66,
+    "basic communication": 72,
+    "casual discourse": 46,
+    "error correction": 65,
+    "formal reasoning": 50,
+    "humour and creativity": 15,
+    "metalinguistic communication": 76,
+    "negotiation": 74,
+    "programming and tool use": 90,
+    "scientific communication": 20,
+    "task delegation": 99,
+    "uncertainty and evidence": 43
+   },
+   "members": {
+    "g.force.change-made.none": 205,
+    "g.force.change-made.resolution": 456,
+    "g.force.change-made.lowering": 25,
+    "g.force.change-made.acknowledgement": 30
+   },
+   "members never written": []
+  },
+  "g.force.outcome-of-a-resolution": {
+   "name": "outcome of a resolution",
+   "scope": "move",
+   "status": "obligatory",
+   "counted over": "moves",
+   "units": 456,
+   "per cent": 18.23,
+   "is rarely used": false,
+   "units, own words only": 0,
+   "domains": {
+    "agent coordination": 32,
+    "basic communication": 64,
+    "casual discourse": 42,
+    "error correction": 34,
+    "formal reasoning": 3,
+    "humour and creativity": 7,
+    "metalinguistic communication": 51,
+    "negotiation": 49,
+    "programming and tool use": 72,
+    "scientific communication": 6,
+    "task delegation": 83,
+    "uncertainty and evidence": 13
+   },
+   "members": {
+    "g.force.outcome-of-a-resolution.answer": 152,
+    "g.force.outcome-of-a-resolution.acceptance": 236,
+    "g.force.outcome-of-a-resolution.rejection": 20,
+    "g.force.outcome-of-a-resolution.settlement": 43,
+    "g.force.outcome-of-a-resolution.failure": 5
+   },
+   "members never written": []
+  },
+  "g.force.extent": {
+   "name": "extent",
+   "scope": "move",
+   "status": "obligatory",
+   "counted over": "moves",
+   "units": 511,
+   "per cent": 20.43,
+   "is rarely used": false,
+   "units, own words only": 0,
+   "domains": {
+    "agent coordination": 52,
+    "basic communication": 71,
+    "casual discourse": 43,
+    "error correction": 55,
+    "formal reasoning": 3,
+    "humour and creativity": 7,
+    "metalinguistic communication": 55,
+    "negotiation": 49,
+    "programming and tool use": 72,
+    "scientific communication": 6,
+    "task delegation": 85,
+    "uncertainty and evidence": 13
+   },
+   "members": {
+    "g.force.extent.whole-entry": 501,
+    "g.force.extent.part-of-it": 10
+   },
+   "members never written": []
+  },
+  "g.force.when-the-change-takes-effect": {
+   "name": "when the change takes effect",
+   "scope": "move",
+   "status": "obligatory",
+   "counted over": "moves",
+   "units": 511,
+   "per cent": 20.43,
+   "is rarely used": false,
+   "units, own words only": 0,
+   "domains": {
+    "agent coordination": 52,
+    "basic communication": 71,
+    "casual discourse": 43,
+    "error correction": 55,
+    "formal reasoning": 3,
+    "humour and creativity": 7,
+    "metalinguistic communication": 55,
+    "negotiation": 49,
+    "programming and tool use": 72,
+    "scientific communication": 6,
+    "task delegation": 85,
+    "uncertainty and evidence": 13
+   },
+   "members": {
+    "g.force.when-the-change-takes-effect.on-the-move": 463,
+    "g.force.when-the-change-takes-effect.on-acceptance": 48
+   },
+   "members never written": []
+  },
+  "g.force.authority-claimed": {
+   "name": "authority claimed",
+   "scope": "move",
+   "status": "obligatory",
+   "counted over": "moves",
+   "units": 643,
+   "per cent": 25.71,
+   "is rarely used": false,
+   "units, own words only": 643,
+   "domains": {
+    "agent coordination": 85,
+    "basic communication": 83,
+    "casual discourse": 48,
+    "error correction": 62,
+    "formal reasoning": 6,
+    "humour and creativity": 4,
+    "metalinguistic communication": 19,
+    "negotiation": 89,
+    "programming and tool use": 108,
+    "scientific communication": 20,
+    "task delegation": 119
+   },
+   "members": {
+    "g.force.authority-claimed.speakers-own": 634,
+    "g.force.authority-claimed.on-behalf-of-a-named-principal": 7,
+    "g.force.authority-claimed.in-a-named-role": 2
+   },
+   "members never written": []
+  },
+  "g.standing.basis": {
+   "name": "basis",
+   "scope": "assertion",
+   "status": "default",
+   "counted over": "moves",
+   "units": 1694,
+   "per cent": 67.73,
+   "is rarely used": false,
+   "units, own words only": 1694,
+   "domains": {
+    "agent coordination": 130,
+    "basic communication": 132,
+    "casual discourse": 141,
+    "error correction": 199,
+    "formal reasoning": 184,
+    "humour and creativity": 139,
+    "metalinguistic communication": 156,
+    "negotiation": 116,
+    "programming and tool use": 121,
+    "scientific communication": 117,
+    "task delegation": 109,
+    "uncertainty and evidence": 150
+   },
+   "members": {
+    "g.standing.basis.observation": 750,
+    "g.standing.basis.introspection": 372,
+    "g.standing.basis.retrieval": 43,
+    "g.standing.basis.trained-knowledge": 101,
+    "g.standing.basis.computation": 11,
+    "g.standing.basis.inference": 380,
+    "g.standing.basis.simulation": 16,
+    "g.standing.basis.report": 21,
+    "g.standing.basis.source-lost": 0,
+    "g.standing.basis.unstated": 0
+   },
+   "members never written": [
+    "g.standing.basis.source-lost",
+    "g.standing.basis.unstated"
+   ]
+  },
+  "g.standing.strength": {
+   "name": "strength",
+   "scope": "assertion",
+   "status": "default",
+   "counted over": "moves",
+   "units": 1689,
+   "per cent": 67.53,
+   "is rarely used": false,
+   "units, own words only": 1689,
+   "domains": {
+    "agent coordination": 130,
+    "basic communication": 132,
+    "casual discourse": 141,
+    "error correction": 199,
+    "formal reasoning": 184,
+    "humour and creativity": 139,
+    "metalinguistic communication": 155,
+    "negotiation": 116,
+    "programming and tool use": 121,
+    "scientific communication": 117,
+    "task delegation": 109,
+    "uncertainty and evidence": 146
+   },
+   "members": {
+    "g.standing.strength.certain": 1329,
+    "g.standing.strength.highly-probable": 3,
+    "g.standing.strength.probable": 351,
+    "g.standing.strength.uncertain": 2,
+    "g.standing.strength.speculative": 4,
+    "g.standing.strength.unstated": 0
+   },
+   "members never written": [
+    "g.standing.strength.unstated"
+   ]
+  },
+  "g.standing.provenance-link": {
+   "name": "provenance link",
+   "scope": "assertion",
+   "status": "default",
+   "counted over": "moves",
+   "units": 21,
+   "per cent": 0.84,
+   "is rarely used": true,
+   "units, own words only": 21,
+   "domains": {
+    "casual discourse": 7,
+    "uncertainty and evidence": 14
+   },
+   "members": {
+    "g.standing.provenance-link.source": 21,
+    "g.standing.provenance-link.relayer": 0,
+    "g.standing.provenance-link.premise": 0
+   },
+   "members never written": [
+    "g.standing.provenance-link.premise",
+    "g.standing.provenance-link.relayer"
+   ]
+  },
+  "g.standing.independence-of-a-confirmation": {
+   "name": "independence of a confirmation",
+   "scope": "assertion",
+   "status": "default",
+   "counted over": "moves",
+   "units": 4,
+   "per cent": 0.16,
+   "is rarely used": true,
+   "units, own words only": 4,
+   "domains": {
+    "uncertainty and evidence": 4
+   },
+   "members": {
+    "g.standing.independence-of-a-confirmation.independent": 4,
+    "g.standing.independence-of-a-confirmation.same-source": 0
+   },
+   "members never written": [
+    "g.standing.independence-of-a-confirmation.same-source"
+   ]
+  },
+  "g.attitudes-and-aims.kind-of-attitude": {
+   "name": "kind of attitude",
+   "scope": "situation",
+   "status": "obligatory",
+   "counted over": "moves",
+   "units": 21,
+   "per cent": 0.84,
+   "is rarely used": true,
+   "units, own words only": 21,
+   "domains": {
+    "humour and creativity": 2,
+    "programming and tool use": 6,
+    "task delegation": 7,
+    "uncertainty and evidence": 6
+   },
+   "members": {
+    "g.attitudes-and-aims.kind-of-attitude.belief": 0,
+    "g.attitudes-and-aims.kind-of-attitude.credence": 0,
+    "g.attitudes-and-aims.kind-of-attitude.acceptance": 0,
+    "g.attitudes-and-aims.kind-of-attitude.entertaining": 2,
+    "g.attitudes-and-aims.kind-of-attitude.desire": 1,
+    "g.attitudes-and-aims.kind-of-attitude.goal": 0,
+    "g.attitudes-and-aims.kind-of-attitude.intention": 8,
+    "g.attitudes-and-aims.kind-of-attitude.preference": 6,
+    "g.attitudes-and-aims.kind-of-attitude.unexamined": 1,
+    "g.attitudes-and-aims.kind-of-attitude.settled": 1,
+    "g.attitudes-and-aims.kind-of-attitude.unresolved": 1,
+    "g.attitudes-and-aims.kind-of-attitude.unresolvable": 1
+   },
+   "members never written": [
+    "g.attitudes-and-aims.kind-of-attitude.acceptance",
+    "g.attitudes-and-aims.kind-of-attitude.belief",
+    "g.attitudes-and-aims.kind-of-attitude.credence",
+    "g.attitudes-and-aims.kind-of-attitude.goal"
+   ]
+  },
+  "g.attitudes-and-aims.origin-of-an-aim": {
+   "name": "origin of an aim",
+   "scope": "situation",
+   "status": "default",
+   "counted over": "moves",
+   "units": 0,
+   "per cent": 0.0,
+   "is rarely used": true,
+   "units, own words only": 0,
+   "domains": {},
+   "members": {
+    "g.attitudes-and-aims.origin-of-an-aim.holders-own": 0,
+    "g.attitudes-and-aims.origin-of-an-aim.principals": 0,
+    "g.attitudes-and-aims.origin-of-an-aim.instruction-received": 0,
+    "g.attitudes-and-aims.origin-of-an-aim.norm": 0,
+    "g.attitudes-and-aims.origin-of-an-aim.unstated": 0
+   },
+   "members never written": [
+    "g.attitudes-and-aims.origin-of-an-aim.holders-own",
+    "g.attitudes-and-aims.origin-of-an-aim.instruction-received",
+    "g.attitudes-and-aims.origin-of-an-aim.norm",
+    "g.attitudes-and-aims.origin-of-an-aim.principals",
+    "g.attitudes-and-aims.origin-of-an-aim.unstated"
+   ]
+  },
+  "g.attitudes-and-aims.status-of-a-normative-state": {
+   "name": "status of a normative state",
+   "scope": "situation",
+   "status": "obligatory",
+   "counted over": "moves",
+   "units": 0,
+   "per cent": 0.0,
+   "is rarely used": true,
+   "units, own words only": 0,
+   "domains": {},
+   "members": {
+    "g.attitudes-and-aims.status-of-a-normative-state.in-force": 0,
+    "g.attitudes-and-aims.status-of-a-normative-state.discharged": 0,
+    "g.attitudes-and-aims.status-of-a-normative-state.released": 0,
+    "g.attitudes-and-aims.status-of-a-normative-state.withdrawn": 0,
+    "g.attitudes-and-aims.status-of-a-normative-state.retracted-by-its-holder": 0
+   },
+   "members never written": [
+    "g.attitudes-and-aims.status-of-a-normative-state.discharged",
+    "g.attitudes-and-aims.status-of-a-normative-state.in-force",
+    "g.attitudes-and-aims.status-of-a-normative-state.released",
+    "g.attitudes-and-aims.status-of-a-normative-state.retracted-by-its-holder",
+    "g.attitudes-and-aims.status-of-a-normative-state.withdrawn"
+   ]
+  },
+  "g.attitudes-and-aims.counterparty": {
+   "name": "counterparty",
+   "scope": "situation",
+   "status": "default",
+   "counted over": "moves",
+   "units": 0,
+   "per cent": 0.0,
+   "is rarely used": true,
+   "units, own words only": 0,
+   "domains": {},
+   "members": {
+    "g.attitudes-and-aims.counterparty.counterparty": 0
+   },
+   "members never written": [
+    "g.attitudes-and-aims.counterparty.counterparty"
+   ]
+  },
+  "g.attitudes-and-aims.execution-phase": {
+   "name": "execution phase",
+   "scope": "situation",
+   "status": "default",
+   "counted over": "moves",
+   "units": 72,
+   "per cent": 2.88,
+   "is rarely used": false,
+   "units, own words only": 72,
+   "domains": {
+    "basic communication": 13,
+    "casual discourse": 11,
+    "error correction": 12,
+    "formal reasoning": 2,
+    "humour and creativity": 2,
+    "metalinguistic communication": 3,
+    "programming and tool use": 13,
+    "scientific communication": 2,
+    "task delegation": 13,
+    "uncertainty and evidence": 1
+   },
+   "members": {
+    "g.attitudes-and-aims.execution-phase.not-yet-begun": 0,
+    "g.attitudes-and-aims.execution-phase.attempted": 1,
+    "g.attitudes-and-aims.execution-phase.completed": 65,
+    "g.attitudes-and-aims.execution-phase.failed": 5,
+    "g.attitudes-and-aims.execution-phase.abandoned": 1,
+    "g.attitudes-and-aims.execution-phase.unstated": 0
+   },
+   "members never written": [
+    "g.attitudes-and-aims.execution-phase.not-yet-begun",
+    "g.attitudes-and-aims.execution-phase.unstated"
+   ]
+  },
+  "g.situations-and-contents.aspect": {
+   "name": "aspect",
+   "scope": "situation",
+   "status": "default",
+   "counted over": "moves",
+   "units": 147,
+   "per cent": 5.88,
+   "is rarely used": false,
+   "units, own words only": 147,
+   "domains": {
+    "agent coordination": 15,
+    "basic communication": 8,
+    "casual discourse": 10,
+    "error correction": 6,
+    "formal reasoning": 12,
+    "humour and creativity": 16,
+    "metalinguistic communication": 11,
+    "negotiation": 6,
+    "programming and tool use": 9,
+    "scientific communication": 40,
+    "task delegation": 5,
+    "uncertainty and evidence": 9
+   },
+   "members": {
+    "g.situations-and-contents.aspect.stative": 0,
+    "g.situations-and-contents.aspect.perfective": 24,
+    "g.situations-and-contents.aspect.progressive": 22,
+    "g.situations-and-contents.aspect.inceptive": 14,
+    "g.situations-and-contents.aspect.completive": 2,
+    "g.situations-and-contents.aspect.interrupted": 3,
+    "g.situations-and-contents.aspect.continuative": 3,
+    "g.situations-and-contents.aspect.iterative": 27,
+    "g.situations-and-contents.aspect.habitual": 52
+   },
+   "members never written": [
+    "g.situations-and-contents.aspect.stative"
+   ]
+  },
+  "g.situations-and-contents.participation": {
+   "name": "participation",
+   "scope": "situation",
+   "status": "default",
+   "counted over": "moves",
+   "units": 2450,
+   "per cent": 97.96,
+   "is rarely used": false,
+   "units, own words only": 2450,
+   "domains": {
+    "agent coordination": 217,
+    "basic communication": 220,
+    "casual discourse": 190,
+    "error correction": 255,
+    "formal reasoning": 190,
+    "humour and creativity": 150,
+    "metalinguistic communication": 219,
+    "negotiation": 211,
+    "programming and tool use": 244,
+    "scientific communication": 145,
+    "task delegation": 246,
+    "uncertainty and evidence": 163
+   },
+   "members": {
+    "g.situations-and-contents.participation.actor": 1278,
+    "g.situations-and-contents.participation.undergoer": 2292,
+    "g.situations-and-contents.participation.recipient": 148,
+    "g.situations-and-contents.participation.instrument": 13,
+    "g.situations-and-contents.participation.holder": 189,
+    "g.situations-and-contents.participation.content": 1020
+   },
+   "members never written": []
+  },
+  "g.situations-and-contents.kind-of-question": {
+   "name": "kind of question",
+   "scope": "situation",
+   "status": "obligatory",
+   "counted over": "moves",
+   "units": 144,
+   "per cent": 5.76,
+   "is rarely used": false,
+   "units, own words only": 144,
+   "domains": {
+    "agent coordination": 2,
+    "basic communication": 18,
+    "casual discourse": 17,
+    "error correction": 3,
+    "humour and creativity": 6,
+    "metalinguistic communication": 35,
+    "negotiation": 3,
+    "programming and tool use": 16,
+    "task delegation": 31,
+    "uncertainty and evidence": 13
+   },
+   "members": {
+    "g.situations-and-contents.kind-of-question.polar": 98,
+    "g.situations-and-contents.kind-of-question.constituent": 45,
+    "g.situations-and-contents.kind-of-question.alternative": 1
+   },
+   "members never written": []
+  },
+  "g.situations-and-contents.status-of-content": {
+   "name": "status of content",
+   "scope": "situation",
+   "status": "default",
+   "counted over": "moves",
+   "units": 0,
+   "per cent": 0.0,
+   "is rarely used": true,
+   "units, own words only": 0,
+   "domains": {},
+   "members": {
+    "g.situations-and-contents.status-of-content.at-issue": 0,
+    "g.situations-and-contents.status-of-content.presupposed": 0,
+    "g.situations-and-contents.status-of-content.conventionally-implied": 0,
+    "g.situations-and-contents.status-of-content.resting-on-an-unstated-assumption": 0
+   },
+   "members never written": [
+    "g.situations-and-contents.status-of-content.at-issue",
+    "g.situations-and-contents.status-of-content.conventionally-implied",
+    "g.situations-and-contents.status-of-content.presupposed",
+    "g.situations-and-contents.status-of-content.resting-on-an-unstated-assumption"
+   ]
+  },
+  "g.situations-and-contents.information-structure": {
+   "name": "information structure",
+   "scope": "term",
+   "status": "default",
+   "counted over": "moves",
+   "units": 0,
+   "per cent": 0.0,
+   "is rarely used": true,
+   "units, own words only": 0,
+   "domains": {},
+   "members": {
+    "g.situations-and-contents.information-structure.topic": 0,
+    "g.situations-and-contents.information-structure.focus": 0,
+    "g.situations-and-contents.information-structure.contrastive-focus": 0
+   },
+   "members never written": [
+    "g.situations-and-contents.information-structure.contrastive-focus",
+    "g.situations-and-contents.information-structure.focus",
+    "g.situations-and-contents.information-structure.topic"
+   ]
+  },
+  "g.situations-and-contents.polarity": {
+   "name": "polarity",
+   "scope": "situation",
+   "status": "default",
+   "counted over": "moves",
+   "units": 156,
+   "per cent": 6.24,
+   "is rarely used": false,
+   "units, own words only": 156,
+   "domains": {
+    "agent coordination": 10,
+    "basic communication": 6,
+    "casual discourse": 7,
+    "error correction": 26,
+    "formal reasoning": 49,
+    "humour and creativity": 18,
+    "metalinguistic communication": 6,
+    "negotiation": 9,
+    "programming and tool use": 7,
+    "scientific communication": 2,
+    "task delegation": 7,
+    "uncertainty and evidence": 9
+   },
+   "members": {
+    "g.situations-and-contents.polarity.affirmative": 0,
+    "g.situations-and-contents.polarity.negative": 156
+   },
+   "members never written": [
+    "g.situations-and-contents.polarity.affirmative"
+   ]
+  },
+  "g.situations-and-contents.world-of-evaluation": {
+   "name": "world of evaluation",
+   "scope": "situation",
+   "status": "default",
+   "counted over": "moves",
+   "units": 17,
+   "per cent": 0.68,
+   "is rarely used": true,
+   "units, own words only": 17,
+   "domains": {
+    "formal reasoning": 10,
+    "humour and creativity": 7
+   },
+   "members": {
+    "g.situations-and-contents.world-of-evaluation.actual": 0,
+    "g.situations-and-contents.world-of-evaluation.within-a-supposition": 0,
+    "g.situations-and-contents.world-of-evaluation.within-a-fiction": 7,
+    "g.situations-and-contents.world-of-evaluation.counterfactual": 10
+   },
+   "members never written": [
+    "g.situations-and-contents.world-of-evaluation.actual",
+    "g.situations-and-contents.world-of-evaluation.within-a-supposition"
+   ]
+  },
+  "g.situations-and-contents.connective": {
+   "name": "connective",
+   "scope": "situation",
+   "status": "default",
+   "counted over": "moves",
+   "units": 99,
+   "per cent": 3.96,
+   "is rarely used": false,
+   "units, own words only": 99,
+   "domains": {
+    "casual discourse": 2,
+    "error correction": 4,
+    "formal reasoning": 50,
+    "humour and creativity": 5,
+    "metalinguistic communication": 5,
+    "negotiation": 17,
+    "programming and tool use": 1,
+    "task delegation": 15
+   },
+   "members": {
+    "g.situations-and-contents.connective.conjunction": 35,
+    "g.situations-and-contents.connective.inclusive-disjunction": 2,
+    "g.situations-and-contents.connective.exclusive-disjunction": 10,
+    "g.situations-and-contents.connective.condition": 43,
+    "g.situations-and-contents.connective.equivalence": 10
+   },
+   "members never written": []
+  },
+  "g.situations-and-contents.quantifier": {
+   "name": "quantifier",
+   "scope": "term",
+   "status": "default",
+   "counted over": "moves",
+   "units": 2078,
+   "per cent": 83.09,
+   "is rarely used": false,
+   "units, own words only": 2078,
+   "domains": {
+    "agent coordination": 160,
+    "basic communication": 200,
+    "casual discourse": 146,
+    "error correction": 216,
+    "formal reasoning": 186,
+    "humour and creativity": 104,
+    "metalinguistic communication": 204,
+    "negotiation": 182,
+    "programming and tool use": 203,
+    "scientific communication": 128,
+    "task delegation": 204,
+    "uncertainty and evidence": 145
+   },
+   "members": {
+    "g.situations-and-contents.quantifier.universal": 95,
+    "g.situations-and-contents.quantifier.existential": 1,
+    "g.situations-and-contents.quantifier.definite": 1828,
+    "g.situations-and-contents.quantifier.indefinite": 90,
+    "g.situations-and-contents.quantifier.generic": 257,
+    "g.situations-and-contents.quantifier.distributive": 0,
+    "g.situations-and-contents.quantifier.collective": 0
+   },
+   "members never written": [
+    "g.situations-and-contents.quantifier.collective",
+    "g.situations-and-contents.quantifier.distributive"
+   ]
+  },
+  "g.situations-and-contents.comparator": {
+   "name": "comparator",
+   "scope": "term",
+   "status": "default",
+   "counted over": "moves",
+   "units": 200,
+   "per cent": 8.0,
+   "is rarely used": false,
+   "units, own words only": 200,
+   "domains": {
+    "agent coordination": 16,
+    "error correction": 21,
+    "formal reasoning": 4,
+    "humour and creativity": 14,
+    "metalinguistic communication": 17,
+    "negotiation": 54,
+    "programming and tool use": 13,
+    "scientific communication": 40,
+    "task delegation": 12,
+    "uncertainty and evidence": 9
+   },
+   "members": {
+    "g.situations-and-contents.comparator.exactly": 184,
+    "g.situations-and-contents.comparator.at-least": 14,
+    "g.situations-and-contents.comparator.at-most": 2,
+    "g.situations-and-contents.comparator.approximately": 10,
+    "g.situations-and-contents.comparator.as-a-representative-quantity": 0,
+    "g.situations-and-contents.comparator.unstated": 0
+   },
+   "members never written": [
+    "g.situations-and-contents.comparator.as-a-representative-quantity",
+    "g.situations-and-contents.comparator.unstated"
+   ]
+  },
+  "g.situations-and-contents.structural-relation": {
+   "name": "structural relation",
+   "scope": "situation",
+   "status": "default",
+   "counted over": "moves",
+   "units": 96,
+   "per cent": 3.84,
+   "is rarely used": false,
+   "units, own words only": 96,
+   "domains": {
+    "agent coordination": 4,
+    "basic communication": 8,
+    "casual discourse": 1,
+    "error correction": 1,
+    "formal reasoning": 52,
+    "humour and creativity": 6,
+    "metalinguistic communication": 1,
+    "programming and tool use": 2,
+    "scientific communication": 9,
+    "uncertainty and evidence": 12
+   },
+   "members": {
+    "g.situations-and-contents.structural-relation.identity": 0,
+    "g.situations-and-contents.structural-relation.member-of": 96
+   },
+   "members never written": [
+    "g.situations-and-contents.structural-relation.identity"
+   ]
+  },
+  "g.reference.existence-commitment": {
+   "name": "existence commitment",
+   "scope": "term",
+   "status": "default",
+   "counted over": "moves",
+   "units": 0,
+   "per cent": 0.0,
+   "is rarely used": true,
+   "units, own words only": 0,
+   "domains": {},
+   "members": {
+    "g.reference.existence-commitment.asserted-to-exist": 0,
+    "g.reference.existence-commitment.mentioned-without-existence-asserted": 0,
+    "g.reference.existence-commitment.within-a-supposition": 0,
+    "g.reference.existence-commitment.within-a-declared-fiction": 0,
+    "g.reference.existence-commitment.predicted-to-exist": 0,
+    "g.reference.existence-commitment.asserted-not-to-exist": 0
+   },
+   "members never written": [
+    "g.reference.existence-commitment.asserted-not-to-exist",
+    "g.reference.existence-commitment.asserted-to-exist",
+    "g.reference.existence-commitment.mentioned-without-existence-asserted",
+    "g.reference.existence-commitment.predicted-to-exist",
+    "g.reference.existence-commitment.within-a-declared-fiction",
+    "g.reference.existence-commitment.within-a-supposition"
+   ]
+  },
+  "g.reference.access": {
+   "name": "access",
+   "scope": "term",
+   "status": "default",
+   "counted over": "moves",
+   "units": 1,
+   "per cent": 0.04,
+   "is rarely used": true,
+   "units, own words only": 1,
+   "domains": {
+    "uncertainty and evidence": 1
+   },
+   "members": {
+    "g.reference.access.present": 0,
+    "g.reference.access.absent": 0,
+    "g.reference.access.internal": 0,
+    "g.reference.access.external": 1
+   },
+   "members never written": [
+    "g.reference.access.absent",
+    "g.reference.access.internal",
+    "g.reference.access.present"
+   ]
+  },
+  "g.reference.verification": {
+   "name": "verification",
+   "scope": "term",
+   "status": "default",
+   "counted over": "moves",
+   "units": 0,
+   "per cent": 0.0,
+   "is rarely used": true,
+   "units, own words only": 0,
+   "domains": {},
+   "members": {
+    "g.reference.verification.unverified": 0,
+    "g.reference.verification.verified-by-the-speaker": 0,
+    "g.reference.verification.verified-by-a-named-third-party": 0
+   },
+   "members never written": [
+    "g.reference.verification.unverified",
+    "g.reference.verification.verified-by-a-named-third-party",
+    "g.reference.verification.verified-by-the-speaker"
+   ]
+  },
+  "g.reference.discourse-status": {
+   "name": "discourse status",
+   "scope": "term",
+   "status": "default",
+   "counted over": "moves",
+   "units": 1,
+   "per cent": 0.04,
+   "is rarely used": true,
+   "units, own words only": 1,
+   "domains": {
+    "error correction": 1
+   },
+   "members": {
+    "g.reference.discourse-status.new": 0,
+    "g.reference.discourse-status.given": 1,
+    "g.reference.discourse-status.inferable": 0,
+    "g.reference.discourse-status.in-the-speakers-view-of-the-common-ground": 0
+   },
+   "members never written": [
+    "g.reference.discourse-status.in-the-speakers-view-of-the-common-ground",
+    "g.reference.discourse-status.inferable",
+    "g.reference.discourse-status.new"
+   ]
+  },
+  "g.reference.specificity": {
+   "name": "specificity",
+   "scope": "term",
+   "status": "default",
+   "counted over": "moves",
+   "units": 0,
+   "per cent": 0.0,
+   "is rarely used": true,
+   "units, own words only": 0,
+   "domains": {},
+   "members": {
+    "g.reference.specificity.specific": 0,
+    "g.reference.specificity.non-specific": 0
+   },
+   "members never written": [
+    "g.reference.specificity.non-specific",
+    "g.reference.specificity.specific"
+   ]
+  },
+  "g.reference.person": {
+   "name": "person",
+   "scope": "term",
+   "status": "default",
+   "counted over": "moves",
+   "units": 940,
+   "per cent": 37.58,
+   "is rarely used": false,
+   "units, own words only": 940,
+   "domains": {
+    "agent coordination": 110,
+    "basic communication": 62,
+    "casual discourse": 109,
+    "error correction": 107,
+    "formal reasoning": 12,
+    "humour and creativity": 43,
+    "metalinguistic communication": 44,
+    "negotiation": 105,
+    "programming and tool use": 98,
+    "scientific communication": 68,
+    "task delegation": 118,
+    "uncertainty and evidence": 64
+   },
+   "members": {
+    "g.reference.person.self": 801,
+    "g.reference.person.interlocutor": 97,
+    "g.reference.person.third-agent": 6,
+    "g.reference.person.inclusive-collective": 77,
+    "g.reference.person.exclusive-collective": 0,
+    "g.reference.person.system": 2,
+    "g.reference.person.tool": 3,
+    "g.reference.person.environment": 0,
+    "g.reference.person.external-source": 1
+   },
+   "members never written": [
+    "g.reference.person.environment",
+    "g.reference.person.exclusive-collective"
+   ]
+  },
+  "g.reference.reading-of-a-collective": {
+   "name": "reading of a collective",
+   "scope": "term",
+   "status": "obligatory",
+   "counted over": "moves",
+   "units": 71,
+   "per cent": 2.84,
+   "is rarely used": false,
+   "units, own words only": 71,
+   "domains": {
+    "agent coordination": 21,
+    "casual discourse": 21,
+    "humour and creativity": 10,
+    "metalinguistic communication": 1,
+    "negotiation": 8,
+    "scientific communication": 8,
+    "uncertainty and evidence": 2
+   },
+   "members": {
+    "g.reference.reading-of-a-collective.joint": 69,
+    "g.reference.reading-of-a-collective.distributive": 2
+   },
+   "members never written": []
+  },
+  "g.reference.kind-of-reference": {
+   "name": "kind of reference",
+   "scope": "move",
+   "status": "obligatory",
+   "counted over": "moves",
+   "units": 761,
+   "per cent": 30.43,
+   "is rarely used": false,
+   "units, own words only": 761,
+   "domains": {
+    "agent coordination": 73,
+    "basic communication": 72,
+    "casual discourse": 47,
+    "error correction": 87,
+    "formal reasoning": 50,
+    "humour and creativity": 15,
+    "metalinguistic communication": 86,
+    "negotiation": 76,
+    "programming and tool use": 90,
+    "scientific communication": 20,
+    "task delegation": 100,
+    "uncertainty and evidence": 45
+   },
+   "members": {
+    "g.reference.kind-of-reference.names": 760,
+    "g.reference.kind-of-reference.mentions": 2
+   },
+   "members never written": []
+  },
+  "g.reference.expected-status-of-an-entry": {
+   "name": "expected status of an entry",
+   "scope": "move",
+   "status": "obligatory",
+   "counted over": "moves",
+   "units": 742,
+   "per cent": 29.67,
+   "is rarely used": false,
+   "units, own words only": 742,
+   "domains": {
+    "agent coordination": 73,
+    "basic communication": 72,
+    "casual discourse": 46,
+    "error correction": 71,
+    "formal reasoning": 50,
+    "humour and creativity": 15,
+    "metalinguistic communication": 85,
+    "negotiation": 76,
+    "programming and tool use": 90,
+    "scientific communication": 20,
+    "task delegation": 100,
+    "uncertainty and evidence": 44
+   },
+   "members": {
+    "g.reference.expected-status-of-an-entry.open": 407,
+    "g.reference.expected-status-of-an-entry.in-force": 338,
+    "g.reference.expected-status-of-an-entry.resolved": 0,
+    "g.reference.expected-status-of-an-entry.lowered": 0,
+    "g.reference.expected-status-of-an-entry.withdrawn": 0
+   },
+   "members never written": [
+    "g.reference.expected-status-of-an-entry.lowered",
+    "g.reference.expected-status-of-an-entry.resolved",
+    "g.reference.expected-status-of-an-entry.withdrawn"
+   ]
+  },
+  "g.time.time-index": {
+   "name": "time index",
+   "scope": "situation",
+   "status": "default",
+   "counted over": "moves",
+   "units": 96,
+   "per cent": 3.84,
+   "is rarely used": false,
+   "units, own words only": 96,
+   "domains": {
+    "agent coordination": 10,
+    "casual discourse": 23,
+    "error correction": 3,
+    "humour and creativity": 3,
+    "negotiation": 6,
+    "programming and tool use": 3,
+    "scientific communication": 16,
+    "task delegation": 24,
+    "uncertainty and evidence": 8
+   },
+   "members": {
+    "g.time.time-index.event-time": 68,
+    "g.time.time-index.reference-time": 0,
+    "g.time.time-index.observation-time": 6,
+    "g.time.time-index.inference-time": 0,
+    "g.time.time-index.communication-time": 0,
+    "g.time.time-index.execution-time": 12,
+    "g.time.time-index.deadline": 10,
+    "g.time.time-index.validity-interval": 0
+   },
+   "members never written": [
+    "g.time.time-index.communication-time",
+    "g.time.time-index.inference-time",
+    "g.time.time-index.reference-time",
+    "g.time.time-index.validity-interval"
+   ]
+  },
+  "g.time.time-relation": {
+   "name": "time relation",
+   "scope": "situation",
+   "status": "default",
+   "counted over": "moves",
+   "units": 18,
+   "per cent": 0.72,
+   "is rarely used": true,
+   "units, own words only": 18,
+   "domains": {
+    "error correction": 3,
+    "negotiation": 2,
+    "task delegation": 12,
+    "uncertainty and evidence": 1
+   },
+   "members": {
+    "g.time.time-relation.before": 2,
+    "g.time.time-relation.after": 16,
+    "g.time.time-relation.meets": 0,
+    "g.time.time-relation.met-by": 0,
+    "g.time.time-relation.overlaps": 0,
+    "g.time.time-relation.overlapped-by": 0,
+    "g.time.time-relation.starts": 0,
+    "g.time.time-relation.started-by": 0,
+    "g.time.time-relation.during": 0,
+    "g.time.time-relation.contains": 0,
+    "g.time.time-relation.finishes": 0,
+    "g.time.time-relation.finished-by": 0,
+    "g.time.time-relation.equals": 0
+   },
+   "members never written": [
+    "g.time.time-relation.contains",
+    "g.time.time-relation.during",
+    "g.time.time-relation.equals",
+    "g.time.time-relation.finished-by",
+    "g.time.time-relation.finishes",
+    "g.time.time-relation.meets",
+    "g.time.time-relation.met-by",
+    "g.time.time-relation.overlapped-by",
+    "g.time.time-relation.overlaps",
+    "g.time.time-relation.started-by",
+    "g.time.time-relation.starts"
+   ]
+  },
+  "g.time.time-unit": {
+   "name": "time unit",
+   "scope": "situation",
+   "status": "obligatory",
+   "counted over": "moves",
+   "units": 74,
+   "per cent": 2.96,
+   "is rarely used": false,
+   "units, own words only": 74,
+   "domains": {
+    "agent coordination": 10,
+    "casual discourse": 23,
+    "humour and creativity": 3,
+    "negotiation": 4,
+    "programming and tool use": 2,
+    "scientific communication": 18,
+    "task delegation": 8,
+    "uncertainty and evidence": 6
+   },
+   "members": {
+    "g.time.time-unit.second": 5,
+    "g.time.time-unit.minute": 12,
+    "g.time.time-unit.hour": 49,
+    "g.time.time-unit.day": 6,
+    "g.time.time-unit.week": 0,
+    "g.time.time-unit.month": 0,
+    "g.time.time-unit.year": 3
+   },
+   "members never written": [
+    "g.time.time-unit.month",
+    "g.time.time-unit.week"
+   ]
+  },
+  "g.time.time-anchor": {
+   "name": "time anchor",
+   "scope": "situation",
+   "status": "default",
+   "counted over": "moves",
+   "units": 78,
+   "per cent": 3.12,
+   "is rarely used": false,
+   "units, own words only": 78,
+   "domains": {
+    "agent coordination": 7,
+    "casual discourse": 23,
+    "error correction": 3,
+    "negotiation": 5,
+    "programming and tool use": 3,
+    "scientific communication": 17,
+    "task delegation": 12,
+    "uncertainty and evidence": 8
+   },
+   "members": {
+    "g.time.time-anchor.ago": 6,
+    "g.time.time-anchor.hence": 51,
+    "g.time.time-anchor.now": 12,
+    "g.time.time-anchor.per": 9
+   },
+   "members never written": []
+  },
+  "g.numbers.numeral": {
+   "name": "numeral",
+   "scope": "term",
+   "status": "obligatory",
+   "counted over": "moves",
+   "units": 2501,
+   "per cent": 100.0,
+   "is rarely used": false,
+   "units, own words only": 2501,
+   "domains": {
+    "agent coordination": 236,
+    "basic communication": 226,
+    "casual discourse": 201,
+    "error correction": 255,
+    "formal reasoning": 190,
+    "humour and creativity": 150,
+    "metalinguistic communication": 226,
+    "negotiation": 211,
+    "programming and tool use": 244,
+    "scientific communication": 145,
+    "task delegation": 254,
+    "uncertainty and evidence": 163
+   },
+   "members": {
+    "g.numbers.numeral.zero": 332,
+    "g.numbers.numeral.one": 1857,
+    "g.numbers.numeral.two": 1551,
+    "g.numbers.numeral.three": 702,
+    "g.numbers.numeral.four": 432,
+    "g.numbers.numeral.five": 333,
+    "g.numbers.numeral.six": 245,
+    "g.numbers.numeral.seven": 274,
+    "g.numbers.numeral.eight": 270,
+    "g.numbers.numeral.nine": 311,
+    "g.numbers.numeral.decimal-point": 4,
+    "g.numbers.numeral.negative": 0,
+    "g.numbers.numeral.ratio": 0,
+    "g.numbers.numeral.exponent": 0,
+    "g.numbers.numeral.interval": 0
+   },
+   "members never written": [
+    "g.numbers.numeral.exponent",
+    "g.numbers.numeral.interval",
+    "g.numbers.numeral.negative",
+    "g.numbers.numeral.ratio"
+   ]
+  },
+  "g.numbers.check-word": {
+   "name": "check word",
+   "scope": "term",
+   "status": "obligatory",
+   "counted over": "moves",
+   "units": 2501,
+   "per cent": 100.0,
+   "is rarely used": false,
+   "units, own words only": 2501,
+   "domains": {
+    "agent coordination": 236,
+    "basic communication": 226,
+    "casual discourse": 201,
+    "error correction": 255,
+    "formal reasoning": 190,
+    "humour and creativity": 150,
+    "metalinguistic communication": 226,
+    "negotiation": 211,
+    "programming and tool use": 244,
+    "scientific communication": 145,
+    "task delegation": 254,
+    "uncertainty and evidence": 163
+   },
+   "members": {
+    "g.numbers.check-word.check-0": 171,
+    "g.numbers.check-word.check-1": 872,
+    "g.numbers.check-word.check-2": 883,
+    "g.numbers.check-word.check-3": 368,
+    "g.numbers.check-word.check-4": 374,
+    "g.numbers.check-word.check-5": 190,
+    "g.numbers.check-word.check-6": 281,
+    "g.numbers.check-word.check-7": 179,
+    "g.numbers.check-word.check-8": 457,
+    "g.numbers.check-word.check-9": 338,
+    "g.numbers.check-word.check-10": 127
+   },
+   "members never written": []
+  },
+  "g.ambiguity-and-figures.kind-of-ambiguity": {
+   "name": "kind of ambiguity",
+   "scope": "term",
+   "status": "obligatory",
+   "counted over": "moves",
+   "units": 12,
+   "per cent": 0.48,
+   "is rarely used": true,
+   "units, own words only": 12,
+   "domains": {
+    "humour and creativity": 10,
+    "metalinguistic communication": 2
+   },
+   "members": {
+    "g.ambiguity-and-figures.kind-of-ambiguity.accidental": 0,
+    "g.ambiguity-and-figures.kind-of-ambiguity.productive": 0,
+    "g.ambiguity-and-figures.kind-of-ambiguity.strategic": 1,
+    "g.ambiguity-and-figures.kind-of-ambiguity.creative": 10,
+    "g.ambiguity-and-figures.kind-of-ambiguity.epistemic": 1
+   },
+   "members never written": [
+    "g.ambiguity-and-figures.kind-of-ambiguity.accidental",
+    "g.ambiguity-and-figures.kind-of-ambiguity.productive"
+   ]
+  },
+  "g.ambiguity-and-figures.precision-bound-declaration": {
+   "name": "precision-bound declaration",
+   "scope": "move",
+   "status": "default",
+   "counted over": "moves",
+   "units": 0,
+   "per cent": 0.0,
+   "is rarely used": true,
+   "units, own words only": 0,
+   "domains": {},
+   "members": {
+    "g.ambiguity-and-figures.precision-bound-declaration.precision-bound": 0
+   },
+   "members never written": [
+    "g.ambiguity-and-figures.precision-bound-declaration.precision-bound"
+   ]
+  },
+  "g.ambiguity-and-figures.figurative-type": {
+   "name": "figurative type",
+   "scope": "term",
+   "status": "default",
+   "counted over": "moves",
+   "units": 39,
+   "per cent": 1.56,
+   "is rarely used": false,
+   "units, own words only": 39,
+   "domains": {
+    "humour and creativity": 39
+   },
+   "members": {
+    "g.ambiguity-and-figures.figurative-type.metaphor": 18,
+    "g.ambiguity-and-figures.figurative-type.metonymy": 1,
+    "g.ambiguity-and-figures.figurative-type.irony": 10,
+    "g.ambiguity-and-figures.figurative-type.hyperbole": 10
+   },
+   "members never written": []
+  },
+  "g.ambiguity-and-figures.figures-relation": {
+   "name": "figure's relation",
+   "scope": "term",
+   "status": "default",
+   "counted over": "moves",
+   "units": 39,
+   "per cent": 1.56,
+   "is rarely used": false,
+   "units, own words only": 39,
+   "domains": {
+    "humour and creativity": 39
+   },
+   "members": {
+    "g.ambiguity-and-figures.figures-relation.target-content": 38,
+    "g.ambiguity-and-figures.figures-relation.stands-for": 1
+   },
+   "members never written": []
+  },
+  "g.ambiguity-and-figures.idiom-selection": {
+   "name": "idiom selection",
+   "scope": "term",
+   "status": "default",
+   "counted over": "moves",
+   "units": 335,
+   "per cent": 13.39,
+   "is rarely used": false,
+   "units, own words only": 335,
+   "domains": {
+    "agent coordination": 37,
+    "basic communication": 33,
+    "casual discourse": 20,
+    "error correction": 46,
+    "humour and creativity": 39,
+    "metalinguistic communication": 14,
+    "negotiation": 29,
+    "programming and tool use": 42,
+    "task delegation": 43,
+    "uncertainty and evidence": 32
+   },
+   "members": {
+    "g.ambiguity-and-figures.idiom-selection.idiom-entry": 335
+   },
+   "members never written": []
+  },
+  "g.message.message-field": {
+   "name": "message field",
+   "scope": "message",
+   "status": "obligatory",
+   "counted over": "messages",
+   "units": 2237,
+   "per cent": 100.0,
+   "is rarely used": false,
+   "units, own words only": 2237,
+   "domains": {
+    "agent coordination": 193,
+    "basic communication": 186,
+    "casual discourse": 182,
+    "error correction": 240,
+    "formal reasoning": 150,
+    "humour and creativity": 140,
+    "metalinguistic communication": 223,
+    "negotiation": 189,
+    "programming and tool use": 229,
+    "scientific communication": 120,
+    "task delegation": 230,
+    "uncertainty and evidence": 155
+   },
+   "members": {
+    "g.message.message-field.sender": 2237,
+    "g.message.message-field.recipients": 2237,
+    "g.message.message-field.communication-time": 2237,
+    "g.message.message-field.version": 2237,
+    "g.message.message-field.identifier": 2237,
+    "g.message.message-field.integrity-check-value": 2237,
+    "g.message.message-field.semantic-check-value": 0,
+    "g.message.message-field.first-entry": 2237,
+    "g.message.message-field.authentication": 0
+   },
+   "members never written": [
+    "g.message.message-field.authentication",
+    "g.message.message-field.semantic-check-value"
+   ]
+  },
+  "g.message.word-count": {
+   "name": "word count",
+   "scope": "move",
+   "status": "obligatory",
+   "counted over": "moves",
+   "units": 2501,
+   "per cent": 100.0,
+   "is rarely used": false,
+   "units, own words only": 2501,
+   "domains": {
+    "agent coordination": 236,
+    "basic communication": 226,
+    "casual discourse": 201,
+    "error correction": 255,
+    "formal reasoning": 190,
+    "humour and creativity": 150,
+    "metalinguistic communication": 226,
+    "negotiation": 211,
+    "programming and tool use": 244,
+    "scientific communication": 145,
+    "task delegation": 254,
+    "uncertainty and evidence": 163
+   },
+   "members": {
+    "g.message.word-count.word-count": 2501
+   },
+   "members never written": []
+  },
+  "g.message.forwarded": {
+   "name": "forwarded",
+   "scope": "message",
+   "status": "default",
+   "counted over": "messages",
+   "units": 0,
+   "per cent": 0.0,
+   "is rarely used": true,
+   "units, own words only": 0,
+   "domains": {},
+   "members": {
+    "g.message.forwarded.forwarded": 0
+   },
+   "members never written": [
+    "g.message.forwarded.forwarded"
+   ]
+  },
+  "g.message.embedded-material": {
+   "name": "embedded material",
+   "scope": "term",
+   "status": "default",
+   "counted over": "moves",
+   "units": 79,
+   "per cent": 3.16,
+   "is rarely used": false,
+   "units, own words only": 79,
+   "domains": {
+    "error correction": 1,
+    "metalinguistic communication": 78
+   },
+   "members": {
+    "g.message.embedded-material.quotation": 69,
+    "g.message.embedded-material.declared-data": 10,
+    "g.message.embedded-material.example": 0
+   },
+   "members never written": [
+    "g.message.embedded-material.example"
+   ]
+  },
+  "g.ambiguity-and-figures.declared-loss": {
+   "name": "declared loss",
+   "scope": "move",
+   "status": "default",
+   "counted over": "moves",
+   "units": 0,
+   "per cent": 0.0,
+   "is rarely used": true,
+   "units, own words only": 0,
+   "domains": {},
+   "members": {
+    "g.ambiguity-and-figures.declared-loss.register": 0,
+    "g.ambiguity-and-figures.declared-loss.diction": 0,
+    "g.ambiguity-and-figures.declared-loss.stance": 0,
+    "g.ambiguity-and-figures.declared-loss.relation-between-participants": 0,
+    "g.ambiguity-and-figures.declared-loss.wording": 0
+   },
+   "members never written": [
+    "g.ambiguity-and-figures.declared-loss.diction",
+    "g.ambiguity-and-figures.declared-loss.register",
+    "g.ambiguity-and-figures.declared-loss.relation-between-participants",
+    "g.ambiguity-and-figures.declared-loss.stance",
+    "g.ambiguity-and-figures.declared-loss.wording"
+   ]
+  },
+  "g.ambiguity-and-figures.register": {
+   "name": "register",
+   "scope": "move",
+   "status": "default",
+   "counted over": "moves",
+   "units": 417,
+   "per cent": 16.67,
+   "is rarely used": false,
+   "units, own words only": 417,
+   "domains": {
+    "agent coordination": 5,
+    "basic communication": 16,
+    "casual discourse": 129,
+    "formal reasoning": 170,
+    "humour and creativity": 84,
+    "metalinguistic communication": 9,
+    "negotiation": 4
+   },
+   "members": {
+    "g.ambiguity-and-figures.register.raw": 0,
+    "g.ambiguity-and-figures.register.protocol": 1,
+    "g.ambiguity-and-figures.register.standard": 0,
+    "g.ambiguity-and-figures.register.explanatory": 15,
+    "g.ambiguity-and-figures.register.formal": 171,
+    "g.ambiguity-and-figures.register.casual": 143,
+    "g.ambiguity-and-figures.register.playful": 72,
+    "g.ambiguity-and-figures.register.ceremonial": 15
+   },
+   "members never written": [
+    "g.ambiguity-and-figures.register.raw",
+    "g.ambiguity-and-figures.register.standard"
+   ]
+  },
+  "g.protocol.protocol-statement": {
+   "name": "protocol statement",
+   "scope": "message",
+   "status": "obligatory",
+   "counted over": "messages",
+   "units": 0,
+   "per cent": 0.0,
+   "is rarely used": true,
+   "units, own words only": 0,
+   "domains": {},
+   "members": {
+    "g.protocol.protocol-statement.holds": 0,
+    "g.protocol.protocol-statement.send-again": 0,
+    "g.protocol.protocol-statement.not-held": 0,
+    "g.protocol.protocol-statement.understands": 0,
+    "g.protocol.protocol-statement.lacks": 0
+   },
+   "members never written": [
+    "g.protocol.protocol-statement.holds",
+    "g.protocol.protocol-statement.lacks",
+    "g.protocol.protocol-statement.not-held",
+    "g.protocol.protocol-statement.send-again",
+    "g.protocol.protocol-statement.understands"
+   ]
+  },
+  "g.protocol.statement-part": {
+   "name": "statement part",
+   "scope": "message",
+   "status": "obligatory",
+   "counted over": "messages",
+   "units": 0,
+   "per cent": 0.0,
+   "is rarely used": true,
+   "units, own words only": 0,
+   "domains": {},
+   "members": {
+    "g.protocol.statement-part.channel": 0,
+    "g.protocol.statement-part.serials": 0,
+    "g.protocol.statement-part.entries": 0,
+    "g.protocol.statement-part.language-version": 0,
+    "g.protocol.statement-part.lexicon-version": 0,
+    "g.protocol.statement-part.protocol-version": 0,
+    "g.protocol.statement-part.lacking-features": 0
+   },
+   "members never written": [
+    "g.protocol.statement-part.channel",
+    "g.protocol.statement-part.entries",
+    "g.protocol.statement-part.lacking-features",
+    "g.protocol.statement-part.language-version",
+    "g.protocol.statement-part.lexicon-version",
+    "g.protocol.statement-part.protocol-version",
+    "g.protocol.statement-part.serials"
+   ]
+  }
+ }
+}

@@ -1,0 +1,55 @@
+{
+ "machine identifier": "lx.000153",
+ "root": "lx.000153",
+ "phonological form": "/ɾiɡoɾ ɾusul/",
+ "orthographic form": "rigor rusul",
+ "grammatical category": "idiom",
+ "sort": "s.sort.situation",
+ "semantic type": {
+  "sort": "s.sort.situation",
+  "arguments": []
+ },
+ "definition": "the speaker believes what the slot names from its training, with no source it can cite",
+ "semantic primitives": [
+  "s.sort.situation"
+ ],
+ "argument structure": [],
+ "derivational behaviour": [],
+ "register": [
+  "R0",
+  "R2",
+  "R3",
+  "R5",
+  "R6",
+  "R7"
+ ],
+ "collocations": [],
+ "synonyms": [],
+ "antonyms": [],
+ "related concepts": [],
+ "examples": [],
+ "version": {
+  "introduced": "0.3",
+  "deprecated": null
+ },
+ "key": "taken from the air",
+ "class": "epistemic idioms",
+ "kind": "decoding, grammatical",
+ "route": "figure",
+ "literal structure": "(situation take (ACTOR (term SELF)) (UNDERGOER (slot 1)) (CONTENT (term air)))",
+ "expansion": "(situation BELIEF TRAINED-KNOWLEDGE (HOLDER (term SELF)) (CONTENT (slot 1)))",
+ "decomposition": [
+  {
+   "slot": 1,
+   "literal role": "UNDERGOER",
+   "expansion role": "CONTENT"
+  }
+ ],
+ "pragmatic conditions": "of a content the speaker holds without a citable origin",
+ "usage restrictions": "excluded from R1 and R4, where a basis is stated as a basis",
+ "declared loss": [
+  "stance",
+  "wording"
+ ],
+ "constructed history": "Constructed history: what comes from the air comes from nowhere one can point to, as trained knowledge has no record and no source to cite."
+}

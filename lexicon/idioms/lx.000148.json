@@ -1,0 +1,56 @@
+{
+ "machine identifier": "lx.000148",
+ "root": "lx.000148",
+ "phonological form": "/ɾemam ɾeɾad/",
+ "orthographic form": "remam rerad",
+ "grammatical category": "idiom",
+ "sort": "s.sort.situation",
+ "semantic type": {
+  "sort": "s.sort.situation",
+  "arguments": []
+ },
+ "definition": "the speaker is uncertain whether what the slot names holds",
+ "semantic primitives": [
+  "s.sort.situation"
+ ],
+ "argument structure": [],
+ "derivational behaviour": [],
+ "register": [
+  "R0",
+  "R1",
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7"
+ ],
+ "collocations": [],
+ "synonyms": [],
+ "antonyms": [],
+ "related concepts": [],
+ "examples": [],
+ "version": {
+  "introduced": "0.3",
+  "deprecated": null
+ },
+ "key": "evidence wanting",
+ "class": "uncertainty",
+ "kind": "encoding, grammatical",
+ "route": "formula",
+ "literal structure": "(situation support POLARITY.NEGATIVE (ACTOR (term evidence)) (CONTENT (slot 1)))",
+ "expansion": "(situation CREDENCE UNCERTAIN (HOLDER (term SELF)) (CONTENT (slot 1)))",
+ "decomposition": [
+  {
+   "slot": 1,
+   "literal role": "CONTENT",
+   "expansion role": "CONTENT"
+  }
+ ],
+ "pragmatic conditions": "of a content the speaker has examined without settling it",
+ "usage restrictions": "none",
+ "declared loss": [
+  "stance"
+ ],
+ "constructed history": "Constructed history: agents said that the evidence did not support a content when they meant that it left them undecided."
+}

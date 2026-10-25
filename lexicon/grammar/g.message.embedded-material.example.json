@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.message.embedded-material.example",
+ "orthographic form": "wibu",
+ "phonological form": "/wibu/",
+ "grammatical category": "embedded material",
+ "gloss": "EXAMPLE",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

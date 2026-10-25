@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.time.time-unit.minute",
+ "orthographic form": "deguna",
+ "phonological form": "/deɡuna/",
+ "grammatical category": "time unit",
+ "gloss": "MINUTE",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

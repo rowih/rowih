@@ -1,0 +1,50 @@
+{
+ "machine identifier": "lx.000107",
+ "root": "lx.000107",
+ "phonological form": "/ɾijob/",
+ "orthographic form": "riyob",
+ "grammatical category": "predicate root",
+ "sort": "s.sort.state",
+ "semantic type": {
+  "sort": "s.sort.state",
+  "arguments": [
+   "undergoer",
+   "content"
+  ]
+ },
+ "definition": "share another agent's lineage, as a fork of it or another instance of its model",
+ "semantic primitives": [
+  "s.sort.state"
+ ],
+ "argument structure": [
+  {
+   "role": "undergoer",
+   "sort": "s.sort.agent"
+  },
+  {
+   "role": "content",
+   "sort": "s.sort.agent"
+  }
+ ],
+ "derivational behaviour": [],
+ "register": [
+  "R0",
+  "R1",
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7"
+ ],
+ "collocations": [],
+ "synonyms": [],
+ "antonyms": [],
+ "related concepts": [],
+ "examples": [],
+ "version": {
+  "introduced": "0.2",
+  "deprecated": null
+ },
+ "key": "descend"
+}

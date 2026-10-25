@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.situations-and-contents.aspect.continuative",
+ "orthographic form": "biga",
+ "phonological form": "/biɡa/",
+ "grammatical category": "aspect",
+ "gloss": "CONTINUATIVE",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

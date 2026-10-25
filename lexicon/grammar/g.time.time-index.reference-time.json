@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.time.time-index.reference-time",
+ "orthographic form": "dunedo",
+ "phonological form": "/dunedo/",
+ "grammatical category": "time index",
+ "gloss": "REFERENCE-TIME",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

@@ -1,0 +1,57 @@
+{
+ "machine identifier": "lx.000139",
+ "root": "lx.000003",
+ "phonological form": "/ɾoboɡiɾepuɾ/",
+ "orthographic form": "robogirepur",
+ "grammatical category": "compound",
+ "sort": "s.sort.event",
+ "semantic type": {
+  "sort": "s.sort.event",
+  "arguments": [
+   "actor",
+   "content"
+  ]
+ },
+ "definition": "[come to perceive or register something], with [an error in a message or a process] as its undergoer",
+ "semantic primitives": [
+  "s.sort.event"
+ ],
+ "argument structure": [
+  {
+   "role": "actor",
+   "sort": "s.sort.agent"
+  },
+  {
+   "role": "content",
+   "sort": "s.sort.proposition"
+  }
+ ],
+ "derivational behaviour": [],
+ "register": [
+  "R0",
+  "R1",
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7"
+ ],
+ "collocations": [],
+ "synonyms": [],
+ "antonyms": [],
+ "related concepts": [],
+ "examples": [],
+ "version": {
+  "introduced": "0.3",
+  "deprecated": null
+ },
+ "key": "fault detection",
+ "formed from": [
+  "lx.000003",
+  "lx.000074"
+ ],
+ "composition": "[come to perceive or register something], with [an error in a message or a process] as its undergoer",
+ "route": null,
+ "constructed history": null
+}

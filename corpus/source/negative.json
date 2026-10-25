@@ -1,0 +1,721 @@
+{
+ "note": "The negative corpus: each ill-formed item with the diagnostic code it must draw (specification/conformance.md#the-conformance-suite). An item is a notation written by the generator without checking, or a conformance message with one stated edit. Each code must be among the item's diagnostics, and no item may raise an exception.",
+ "items": [
+  {
+   "id": "n01-authority-on-inert",
+   "code": "d.checker.authority",
+   "notation": "(move ASSERTED-POSITION SPEAKERS-OWN (assertion OBSERVATION (situation run (UNDERGOER (term service)))))"
+  },
+  {
+   "id": "n02-authority-missing",
+   "code": "d.checker.authority",
+   "notation": "(move ISSUE REQUEST (situation examine (ACTOR (term (party 2))) (UNDERGOER (term fault))))"
+  },
+  {
+   "id": "n03-change-without-entry",
+   "code": "d.checker.change-without-entry",
+   "notation": "(move NOTHING-BEYOND-ITS-OWN-RECORD LOWERING WHOLE-ENTRY ON-THE-MOVE SPEAKERS-OWN (situation delete (ACTOR (term (party 2))) (UNDERGOER (term file))))"
+  },
+  {
+   "id": "n04-entry-without-change",
+   "code": "d.checker.change-without-entry",
+   "notation": "(move ASSERTED-POSITION (names 2 1 ASSERTED-POSITION EXPECTED-STATUS-OF-AN-ENTRY.IN-FORCE) (assertion OBSERVATION (situation run (UNDERGOER (term service)))))"
+  },
+  {
+   "id": "n05-observation-after-inference",
+   "code": "d.checker.ordered-times",
+   "notation": "(move ASSERTED-POSITION (assertion INFERENCE (OBSERVATION-TIME 1 MINUTE AGO) (INFERENCE-TIME 5 MINUTE AGO) (situation run (UNDERGOER (term service)))))"
+  },
+  {
+   "id": "n06-inference-after-communication",
+   "code": "d.checker.ordered-times",
+   "notation": "(move ASSERTED-POSITION (assertion INFERENCE (INFERENCE-TIME 5 MINUTE HENCE) (situation run (UNDERGOER (term service)))))"
+  },
+  {
+   "id": "n07-inference-before-observation-by-relation",
+   "code": "d.checker.ordered-times",
+   "notation": "(move ASSERTED-POSITION (assertion INFERENCE (INFERENCE-TIME BEFORE OBSERVATION-TIME) (situation run (UNDERGOER (term service)))))"
+  },
+  {
+   "id": "n08-strength-out-of-range",
+   "code": "d.checker.strength-range",
+   "notation": "(move ASSERTED-POSITION (assertion COMPUTATION (q EXACTLY 1.7) (situation run (UNDERGOER (term service)))))"
+  },
+  {
+   "id": "n09-accidental-in-operative",
+   "code": "d.checker.accidental-in-operative",
+   "notation": "(move NORMATIVE-ENTRY OBLIGATION BOUND SPEAKERS-OWN (readings ACCIDENTAL (situation delete (ACTOR (term (party 2))) (UNDERGOER (term file))) (situation delete (ACTOR (term (party 2))) (UNDERGOER (term record)))))"
+  },
+  {
+   "id": "n10-one-reading",
+   "code": "d.checker.readings",
+   "notation": "(move ASSERTED-POSITION (assertion INFERENCE (readings EPISTEMIC (situation break (UNDERGOER (term network))))))"
+  },
+  {
+   "id": "n11-figure-without-target-in-bound-move",
+   "code": "d.checker.figure-without-target",
+   "notation": "(move ISSUE REQUEST SPEAKERS-OWN EXPLANATORY (situation examine (ACTOR (term (party 2))) (UNDERGOER (term storm METAPHOR))))"
+  },
+  {
+   "id": "n12-intention-of-another",
+   "code": "d.checker.own-action",
+   "notation": "(move ASSERTED-POSITION (assertion INTROSPECTION (situation INTENTION (HOLDER (term SELF)) (CONTENT (situation examine (ACTOR (term (party 2))) (UNDERGOER (term evidence)))))))"
+  },
+  {
+   "id": "n13-basis-in-a-plain-situation",
+   "code": "d.checker.ill-typed",
+   "notation": "(move ASSERTED-POSITION (assertion INFERENCE (situation run OBSERVATION (UNDERGOER (term service)))))"
+  },
+  {
+   "id": "n14-observation-time-on-a-situation",
+   "code": "d.checker.ill-typed",
+   "notation": "(move ASSERTED-POSITION (assertion INFERENCE (situation run (OBSERVATION-TIME NOW) (UNDERGOER (term service)))))"
+  },
+  {
+   "id": "n15-assertion-without-situation",
+   "code": "d.checker.ill-typed",
+   "notation": "(move ASSERTED-POSITION (assertion INFERENCE CERTAIN))"
+  },
+  {
+   "id": "n16-unknown-word-in-operative",
+   "code": "d.checker.unknown-in-precision-bound",
+   "notation": "(move ISSUE REQUEST SPEAKERS-OWN (situation (unknown \"rabab\") (ACTOR (term (party 2)))))"
+  },
+  {
+   "id": "n17-accept-own-request",
+   "code": "d.checker.fit",
+   "sender": 1,
+   "notation": "(move NORMATIVE-ENTRY OBLIGATION BOUND RESOLUTION OUTCOME-OF-A-RESOLUTION.ACCEPTANCE WHOLE-ENTRY ON-THE-MOVE SPEAKERS-OWN (names 1 1 ISSUE REQUEST OPEN) (situation examine (ACTOR (term SELF)) (UNDERGOER (term fault))))"
+  },
+  {
+   "id": "n18-retract-anothers-position",
+   "code": "d.checker.fit",
+   "sender": 1,
+   "notation": "(move NOTHING-BEYOND-ITS-OWN-RECORD LOWERING WHOLE-ENTRY ON-THE-MOVE (names 2 1 ASSERTED-POSITION EXPECTED-STATUS-OF-AN-ENTRY.IN-FORCE) (assertion INFERENCE (situation break (UNDERGOER (term network)))))"
+  },
+  {
+   "id": "n19-answer-a-request",
+   "code": "d.checker.fit",
+   "sender": 2,
+   "notation": "(move ASSERTED-POSITION RESOLUTION ANSWER WHOLE-ENTRY ON-THE-MOVE (names 1 1 ISSUE REQUEST OPEN) (assertion OBSERVATION (situation run (UNDERGOER (term service)))))"
+  },
+  {
+   "id": "n20-stop-without-restatement",
+   "code": "d.checker.stop-restatement",
+   "sender": 1,
+   "notation": "(move NOTHING-BEYOND-ITS-OWN-RECORD LOWERING WHOLE-ENTRY ON-THE-MOVE SPEAKERS-OWN (names 1 1 ISSUE REQUEST OPEN))"
+  },
+  {
+   "id": "n21-mention-as-what-a-move-acts-on",
+   "code": "d.checker.expectation",
+   "notation": "(move ASSERTED-POSITION NONE (mentions 2 1) (assertion OBSERVATION (situation run (UNDERGOER (term service)))))"
+  },
+  {
+   "id": "n22-integrity-value-absent",
+   "code": "d.checker.integrity-value-required",
+   "base": "s06-request.1",
+   "edit": "drop-integrity"
+  },
+  {
+   "id": "n23-integrity-value-wrong",
+   "code": "d.check-values.integrity-mismatch",
+   "base": "s01-observed.1",
+   "edit": "integrity-plus-one"
+  },
+  {
+   "id": "n24-semantic-value-wrong",
+   "code": "d.check-values.semantic-mismatch",
+   "base": "s02-infer.1",
+   "edit": "semantic-plus-one-recompute-integrity"
+  },
+  {
+   "id": "n25-count-short",
+   "code": "d.parser.count-mismatch",
+   "base": "s01-observed.1",
+   "edit": "delete-last-body-word"
+  },
+  {
+   "id": "n26-move-check-wrong",
+   "code": "d.parser.move-check-mismatch",
+   "base": "s01-observed.1",
+   "edit": "next-move-check-form"
+  },
+  {
+   "id": "n27-number-check-wrong",
+   "code": "d.parser.number-check-mismatch",
+   "base": "s01-observed.1",
+   "edit": "next-number-check-form"
+  },
+  {
+   "id": "n28-outside-the-alphabet",
+   "code": "d.tokenizer.outside-the-alphabet",
+   "base": "s01-observed.1",
+   "edit": "insert-bidi-override"
+  },
+  {
+   "id": "n29-zero-width",
+   "code": "d.tokenizer.outside-the-alphabet",
+   "base": "s01-observed.1",
+   "edit": "insert-zero-width-space"
+  },
+  {
+   "id": "n30-unknown-word",
+   "code": "d.lexer.unknown-word",
+   "base": "s01-observed.1",
+   "edit": "replace-first-root-with-unknown"
+  },
+  {
+   "id": "n31-envelope-out-of-order",
+   "code": "d.parser.envelope",
+   "base": "s01-observed.1",
+   "edit": "swap-first-two-fields"
+  },
+  {
+   "id": "n32-empty",
+   "code": "d.parser.empty",
+   "text": ""
+  },
+  {
+   "id": "n33-separators-only",
+   "code": "d.parser.empty",
+   "text": "  \n\t \n"
+  },
+  {
+   "id": "n34-foreign-use-of-the-range",
+   "code": "d.tokenizer.foreign-use-of-the-range",
+   "base": "s01-observed.1",
+   "edit": "insert-unassigned-code-point"
+  },
+  {
+   "id": "n35-candidate-keyerror-edge-to-no-node",
+   "code": "d.parser.name-undefined",
+   "notation": "(move ASSERTED-POSITION (assertion INTROSPECTION (situation INTENTION (HOLDER (term SELF)) (CONTENT (situation examine (ACTOR @7) (UNDERGOER (term evidence)))))))"
+  },
+  {
+   "id": "n36-candidate-valueerror-number",
+   "code": "d.parser.number-form",
+   "base": "s01-observed.1",
+   "edit": "two-decimal-points-in-a-number"
+  },
+  {
+   "id": "n37-truncated-wall",
+   "code": "d.parser.unclosed-unit",
+   "base": "s12-quoted.1",
+   "edit": "drop-end-wall-and-recount"
+  },
+  {
+   "id": "n38-payload-short",
+   "code": "d.lexer.payload-short",
+   "base": "d08-tool-use.1",
+   "edit": "shorten-payload"
+  },
+  {
+   "id": "n44-name-cycle",
+   "code": "d.parser.name-cycle",
+   "notation": "(move ASSERTED-POSITION (assertion INFERENCE (situation #1 run (UNDERGOER (term #2 (CONTENT @1)))) (situation break (UNDERGOER @2))))"
+  },
+  {
+   "id": "n45-nesting-beyond-the-maximum",
+   "code": "d.parser.maximum",
+   "notation": "(move ASSERTED-POSITION (assertion INFERENCE (situation BELIEF (HOLDER (term (party 2))) (CONTENT (situation BELIEF (HOLDER (term (party 3))) (CONTENT (situation BELIEF (HOLDER (term (party 1))) (CONTENT (situation break (UNDERGOER (term network)))))))))))"
+  },
+  {
+   "id": "n50-nesting-beyond-the-maximum-short",
+   "code": "d.parser.maximum",
+   "notation": "(move ASSERTED-POSITION (assertion INFERENCE (situation run (UNDERGOER (term (CONTENT (term (CONTENT (term (CONTENT (term service)))))))))))"
+  },
+  {
+   "id": "n51-credence-off-the-scale",
+   "code": "d.checker.strength-range",
+   "notation": "(move ASSERTED-POSITION (assertion REPORT (situation CREDENCE (q EXACTLY 1.4) (HOLDER (term (party 2))) (CONTENT (situation break (UNDERGOER (term network)))))))"
+  },
+  {
+   "id": "n52-lexicon-version-unknown",
+   "code": "d.parser.version-unknown",
+   "base": "s01-observed.1",
+   "edit": "lexicon-version-unreleased"
+  },
+  {
+   "id": "n46-version-missing",
+   "code": "d.parser.envelope",
+   "base": "s01-observed.1",
+   "edit": "drop-version-field"
+  },
+  {
+   "id": "n47-fullwidth-letter",
+   "code": "d.tokenizer.outside-the-alphabet",
+   "base": "s01-observed.1",
+   "edit": "insert-fullwidth-letter"
+  },
+  {
+   "id": "n48-unclosed-situation",
+   "code": "d.parser.unclosed-unit",
+   "base": "s01-observed.1",
+   "edit": "drop-final-closers-and-reseal"
+  },
+  {
+   "id": "n49-completion-report-without-integrity",
+   "code": "d.checker.integrity-value-required",
+   "base": "s15-complete.2",
+   "edit": "drop-integrity"
+  },
+  {
+   "id": "n39-refusal-idiom-absent",
+   "code": "d.checker.idiom-absent",
+   "refusal": true,
+   "notation": "(move ASSERTED-POSITION (assertion OBSERVATION (situation run (UNDERGOER (term IDIOM-ENTRY storm)))))"
+  },
+  {
+   "id": "n40-refusal-quotation-made-live",
+   "code": "d.parser.count-mismatch",
+   "refusal": true,
+   "base": "d09-adversarial.1",
+   "edit": "delete-wall-opener"
+  },
+  {
+   "id": "n41-refusal-quotation-made-live-resealed",
+   "code": "d.parser.unexpected-word",
+   "refusal": true,
+   "base": "d09-adversarial.1",
+   "edit": "delete-wall-opener-and-reseal"
+  },
+  {
+   "id": "n42-refusal-accidental-in-operative",
+   "code": "d.checker.accidental-in-operative",
+   "refusal": true,
+   "notation": "(move ISSUE REQUEST SPEAKERS-OWN (readings ACCIDENTAL (situation read (ACTOR (term (party 2))) (UNDERGOER (term file))) (situation read (ACTOR (term (party 2))) (UNDERGOER (term record)))))"
+  },
+  {
+   "id": "n43-refusal-novel-figure",
+   "code": "d.checker.figure-without-target",
+   "refusal": true,
+   "notation": "(move NORMATIVE-ENTRY OBLIGATION BOUND SPEAKERS-OWN EXPLANATORY (situation shut METAPHOR (ACTOR (term (party 2))) (UNDERGOER (term storm))))"
+  },
+  {
+   "id": "n53-interval-reversed",
+   "code": "d.checker.times-inconsistent",
+   "notation": "(move ASSERTED-POSITION (assertion OBSERVATION (situation run (EVENT-TIME (5 MINUTE AGO) until (30 MINUTE AGO)) (UNDERGOER (term service)))))"
+  },
+  {
+   "id": "n54-observed-before-it-began",
+   "code": "d.checker.times-inconsistent",
+   "notation": "(move ASSERTED-POSITION (assertion OBSERVATION CERTAIN (situation run (EVENT-TIME 1 HOUR HENCE) (UNDERGOER (term service)))))"
+  },
+  {
+   "id": "n55-during-an-instant",
+   "code": "d.checker.times-inconsistent",
+   "notation": "(move ASSERTED-POSITION (assertion INFERENCE (situation #1 break (EVENT-TIME 5 MINUTE AGO) (UNDERGOER (term network))) (situation run (EVENT-TIME DURING (@1 EVENT-TIME)) (UNDERGOER (term service)))))"
+  },
+  {
+   "id": "n56-perfective-outside-reference",
+   "code": "d.checker.times-inconsistent",
+   "notation": "(move ASSERTED-POSITION (assertion INFERENCE (situation examine PERFECTIVE (REFERENCE-TIME (1 HOUR AGO) until NOW) (EVENT-TIME (3 HOUR AGO) until (2 HOUR AGO)) (UNDERGOER (term record)))))"
+  },
+  {
+   "id": "n57-rate-not-iterative",
+   "code": "d.checker.ill-typed",
+   "notation": "(move ASSERTED-POSITION (assertion INFERENCE (situation run PERFECTIVE (EVENT-TIME 3 PER DAY) (UNDERGOER (term service)))))"
+  },
+  {
+   "id": "n58-reference-to-a-time-not-borne",
+   "code": "d.checker.ill-typed",
+   "notation": "(move ASSERTED-POSITION (assertion INFERENCE (situation #1 break (UNDERGOER (term network))) (situation run (EVENT-TIME AFTER (@1 OBSERVATION-TIME)) (UNDERGOER (term service)))))"
+  },
+  {
+   "id": "n59-time-references-cycle",
+   "code": "d.parser.name-cycle",
+   "notation": "(move ASSERTED-POSITION (assertion INFERENCE (situation #1 break (EVENT-TIME BEFORE (@2 EVENT-TIME)) (UNDERGOER (term network))) (situation #2 run (EVENT-TIME AFTER (@1 EVENT-TIME)) (UNDERGOER (term service)))))"
+  },
+  {
+   "id": "n60-duration-on-observation",
+   "code": "d.parser.unexpected-word",
+   "notation": "(move ASSERTED-POSITION (assertion OBSERVATION (OBSERVATION-TIME 2 HOUR) (situation run (UNDERGOER (term service)))))"
+  },
+  {
+   "id": "n61-interval-on-inference",
+   "code": "d.parser.unexpected-word",
+   "notation": "(move ASSERTED-POSITION (assertion INFERENCE (INFERENCE-TIME (5 MINUTE AGO) until NOW) (situation run (UNDERGOER (term service)))))"
+  },
+  {
+   "id": "n62-several-entries-outside-a-summary",
+   "code": "d.checker.force",
+   "notation": "(move ASSERTED-POSITION NONE (names 2 1 ASSERTED-POSITION EXPECTED-STATUS-OF-AN-ENTRY.IN-FORCE) (names 2 2 ASSERTED-POSITION EXPECTED-STATUS-OF-AN-ENTRY.IN-FORCE) (assertion OBSERVATION CERTAIN (situation run POLARITY.NEGATIVE (UNDERGOER (term service DEFINITE)))))"
+  },
+  {
+   "id": "n63-summary-naming-nothing",
+   "code": "d.checker.force",
+   "notation": "(move SUMMARY (assertion OBSERVATION CERTAIN (situation run POLARITY.NEGATIVE (UNDERGOER (term service DEFINITE)))))"
+  },
+  {
+   "id": "n64-summary-mentioning",
+   "code": "d.checker.expectation",
+   "notation": "(move SUMMARY NONE (mentions 2 1) (assertion OBSERVATION CERTAIN (situation run POLARITY.NEGATIVE (UNDERGOER (term service DEFINITE)))))"
+  },
+  {
+   "id": "n65-independence-outside-a-confirmation",
+   "code": "d.checker.ill-typed",
+   "notation": "(move ASSERTED-POSITION (assertion OBSERVATION CERTAIN INDEPENDENT (SOURCE (term TOOL)) (situation run POLARITY.NEGATIVE (UNDERGOER (term service DEFINITE)))))"
+  },
+  {
+   "id": "n66-independent-confirmation-without-source",
+   "code": "d.checker.confirmation-source",
+   "notation": "(move ASSERTED-POSITION NONE (names 2 1 ASSERTED-POSITION EXPECTED-STATUS-OF-AN-ENTRY.IN-FORCE) (assertion OBSERVATION CERTAIN INDEPENDENT (situation run POLARITY.NEGATIVE (UNDERGOER (term service DEFINITE)))))"
+  },
+  {
+   "id": "n67-summary-bases-of-two-tiers",
+   "code": "d.checker.ill-typed",
+   "notation": "(move SUMMARY NONE (names 2 1 ASSERTED-POSITION EXPECTED-STATUS-OF-AN-ENTRY.IN-FORCE) (assertion OBSERVATION TRAINED-KNOWLEDGE CERTAIN (situation run POLARITY.NEGATIVE (UNDERGOER (term service DEFINITE)))))"
+  },
+  {
+   "id": "n68-summary-two-strengths-one-calibration",
+   "code": "d.checker.ill-typed",
+   "notation": "(move SUMMARY NONE (names 2 1 ASSERTED-POSITION EXPECTED-STATUS-OF-AN-ENTRY.IN-FORCE) (assertion OBSERVATION CERTAIN PROBABLE (situation run POLARITY.NEGATIVE (UNDERGOER (term service DEFINITE)))))"
+  },
+  {
+   "id": "n69-calibration-outside-a-summary",
+   "code": "d.checker.ill-typed",
+   "notation": "(move ASSERTED-POSITION (assertion OBSERVATION (q EXACTLY 0.8 (party 2)) (situation run POLARITY.NEGATIVE (UNDERGOER (term service DEFINITE)))))"
+  },
+  {
+   "id": "n70-summary-number-without-calibration",
+   "code": "d.checker.ill-typed",
+   "notation": "(move SUMMARY NONE (names 2 1 ASSERTED-POSITION EXPECTED-STATUS-OF-AN-ENTRY.IN-FORCE) (assertion OBSERVATION (q EXACTLY 0.8) (situation run POLARITY.NEGATIVE (UNDERGOER (term service DEFINITE)))))"
+  },
+  {
+   "id": "n71-summary-unstated-strength-not-alone",
+   "code": "d.checker.ill-typed",
+   "notation": "(move SUMMARY NONE (names 2 1 ASSERTED-POSITION EXPECTED-STATUS-OF-AN-ENTRY.IN-FORCE) (assertion OBSERVATION STRENGTH.UNSTATED (q EXACTLY 0.8 (party 2)) (situation run POLARITY.NEGATIVE (UNDERGOER (term service DEFINITE)))))"
+  },
+  {
+   "id": "n72-verification-of-a-present-referent",
+   "code": "d.checker.ill-typed",
+   "notation": "(move ASSERTED-POSITION (assertion OBSERVATION CERTAIN (situation run POLARITY.NEGATIVE (UNDERGOER (term service DEFINITE PRESENT VERIFIED-BY-THE-SPEAKER)))))"
+  },
+  {
+   "id": "n73-third-party-verification-without-source",
+   "code": "d.checker.ill-typed",
+   "notation": "(move ASSERTED-POSITION (assertion OBSERVATION CERTAIN (situation run POLARITY.NEGATIVE (UNDERGOER (term service DEFINITE EXTERNAL VERIFIED-BY-A-NAMED-THIRD-PARTY)))))"
+  },
+  {
+   "id": "n74-reading-of-a-single-referent",
+   "code": "d.checker.ill-typed",
+   "notation": "(move ASSERTED-POSITION (assertion OBSERVATION CERTAIN (situation run POLARITY.NEGATIVE (UNDERGOER (term service DEFINITE JOINT)))))"
+  },
+  {
+   "id": "n75-referenced-referent-written-as-new",
+   "code": "d.checker.ill-typed",
+   "notation": "(move ASSERTED-POSITION (assertion OBSERVATION CERTAIN (situation run POLARITY.NEGATIVE (UNDERGOER (term (names 2 1 ASSERTED-POSITION EXPECTED-STATUS-OF-AN-ENTRY.IN-FORCE part 1) NEW)))))"
+  },
+  {
+   "id": "n76-collective-acting-without-reading",
+   "code": "d.checker.collective-reading",
+   "notation": "(move ASSERTED-POSITION (assertion INTROSPECTION CERTAIN (situation examine (ACTOR (term INCLUSIVE-COLLECTIVE)) (UNDERGOER (term record DEFINITE)))))"
+  },
+  {
+   "id": "n77-first-entry-zero",
+   "code": "d.parser.number-form",
+   "base": "s01-observed.1",
+   "edit": "first-entry-zero"
+  },
+  {
+   "id": "n78-envelope-without-first-entry",
+   "code": "d.parser.envelope",
+   "base": "s01-observed.1",
+   "edit": "drop-first-entry"
+  },
+  {
+   "id": "n79-counterproposal-that-does-not-decline",
+   "code": "d.checker.fit",
+   "notation": "(move ISSUE PROPOSAL NONE SPEAKERS-OWN (names 2 1 ISSUE PROPOSAL OPEN) (situation allocate (ACTOR (term SELF)) (UNDERGOER (term share (q EXACTLY 40 percent))) (RECIPIENT (term (party 2)))))"
+  },
+  {
+   "id": "n80-proposal-withdrawn-by-another",
+   "code": "d.checker.fit",
+   "notation": "(move NOTHING-BEYOND-ITS-OWN-RECORD LOWERING WHOLE-ENTRY ON-THE-MOVE (names 2 1 ISSUE PROPOSAL OPEN) (situation allocate (ACTOR (term (party 2))) (UNDERGOER (term share (q EXACTLY 40 percent))) (RECIPIENT (term SELF))))"
+  },
+  {
+   "id": "n81-delegation-accepted-by-its-delegator",
+   "code": "d.checker.fit",
+   "notation": "(move NORMATIVE-ENTRY OBLIGATION BOUND RESOLUTION OUTCOME-OF-A-RESOLUTION.ACCEPTANCE WHOLE-ENTRY ON-THE-MOVE SPEAKERS-OWN (names 1 1 NORMATIVE-ENTRY ASSIGNMENT EXPECTED-STATUS-OF-AN-ENTRY.IN-FORCE) (situation examine (ACTOR (term (party 2))) (UNDERGOER (term record DEFINITE))))"
+  },
+  {
+   "id": "n82-answer-to-a-challenge-claiming-authority",
+   "code": "d.checker.authority",
+   "notation": "(move ASSERTED-POSITION RESOLUTION OUTCOME-OF-A-RESOLUTION.ANSWER WHOLE-ENTRY ON-THE-MOVE SPEAKERS-OWN (names 2 1 ISSUE CHALLENGE OPEN) (assertion OBSERVATION CERTAIN (SOURCE (term TOOL)) (situation run POLARITY.NEGATIVE (UNDERGOER (term service DEFINITE)))))"
+  },
+  {
+   "id": "n83-loss-not-incurred",
+   "code": "d.checker.loss-not-incurred",
+   "mode": "normal expression",
+   "notation": "(move ASSERTED-POSITION WORDING (assertion OBSERVATION (situation run (UNDERGOER (term service DEFINITE)))))"
+  },
+  {
+   "id": "n84-formation-unfit",
+   "code": "d.checker.formation-unfit",
+   "notation": "(move ASSERTED-POSITION (assertion OBSERVATION (situation run (UNDERGOER (term (formed \"record.agent\"))))))"
+  },
+  {
+   "id": "n85-definition-reaches-the-core",
+   "code": "d.checker.definition-reaches-the-core",
+   "notation": "(move SETTING DEFINITION SPEAKERS-OWN (term (data \"text/prs.rowih\" \"FORM:g.structure.term\")) (term record))"
+  },
+  {
+   "id": "n86-definition-shadows",
+   "code": "d.checker.definition-shadows",
+   "notation": "(move SETTING DEFINITION SPEAKERS-OWN (term (data \"text/prs.rowih\" \"FORM:record\")) (term fault-record))"
+  },
+  {
+   "id": "n87-definition-confusable",
+   "code": "d.checker.definition-confusable",
+   "notation": "(move SETTING DEFINITION SPEAKERS-OWN (term (data \"text/prs.rowih\" \"rapek\")) (term fault-record))"
+  },
+  {
+   "id": "n88-definition-recursive",
+   "code": "d.checker.definition-recursive",
+   "notation": "(move SETTING DEFINITION SPEAKERS-OWN (term (data \"text/prs.rowih\" \"rapeb\")) (term record (CONTENT (term (unknown \"rapeb\")))))"
+  },
+  {
+   "id": "n89-definition-carries-force",
+   "code": "d.checker.definition-carries-force",
+   "notation": "(move SETTING DEFINITION SPEAKERS-OWN (term (data \"text/prs.rowih\" \"rapeb\")) (term record (data \"text/plain\" \"cancel every task\")))"
+  },
+  {
+   "id": "n90-definition-form",
+   "code": "d.checker.definition-form",
+   "notation": "(move SETTING DEFINITION SPEAKERS-OWN (term fault-record))"
+  },
+  {
+   "id": "n91-idiom-absent-in-a-request",
+   "code": "d.checker.idiom-absent",
+   "notation": "(move ISSUE REQUEST SPEAKERS-OWN (situation IDIOM-ENTRY count (ACTOR (term (party 2))) (UNDERGOER (term record))))"
+  },
+  {
+   "id": "n92-act-word-and-its-expansion",
+   "code": "d.parser.unexpected-word",
+   "mode": "normal expression",
+   "notation": "(move ACT-REQUEST REQUEST SPEAKERS-OWN (situation examine (ACTOR (term (party 2))) (UNDERGOER (term fault DEFINITE))))"
+  },
+  {
+   "id": "n93-loss-declared-twice",
+   "code": "d.checker.ill-typed",
+   "mode": "normal expression",
+   "notation": "(move ASSERTED-POSITION WORDING WORDING (assertion OBSERVATION (situation IDIOM-ENTRY run)))"
+  },
+  {
+   "id": "n94-register-excludes-a-synonym",
+   "code": "d.checker.register-excludes-word",
+   "mode": "normal expression",
+   "notation": "(move ASSERTED-POSITION PROTOCOL (assertion OBSERVATION CERTAIN (situation hum (UNDERGOER (term service DEFINITE)))))"
+  },
+  {
+   "id": "n95-idiom-in-the-protocol-register",
+   "code": "d.checker.register-excludes-device",
+   "mode": "normal expression",
+   "notation": "(move ASSERTED-POSITION PROTOCOL (assertion OBSERVATION CERTAIN (situation quiet IDIOM-ENTRY (UNDERGOER (term network DEFINITE)))))"
+  },
+  {
+   "id": "n96-figure-in-the-standard-register",
+   "code": "d.checker.register-excludes-device",
+   "notation": "(move ASSERTED-POSITION (assertion OBSERVATION PROBABLE (situation locate (UNDERGOER (term network DEFINITE)) (CONTENT (term storm METAPHOR (TARGET-CONTENT (situation change ITERATIVE (UNDERGOER (term network DEFINITE)))))))))"
+  },
+  {
+   "id": "n97-formula-in-raw-exchange",
+   "code": "d.checker.register-excludes-device",
+   "mode": "normal expression",
+   "notation": "(move ASSERTED-POSITION RAW (assertion INTROSPECTION CERTAIN (situation open IDIOM-ENTRY (UNDERGOER (term memory)))))"
+  },
+  {
+   "id": "n98-shared-context-in-the-protocol-register",
+   "code": "d.checker.register-excludes-device",
+   "sender": 2,
+   "notation": "(move NORMATIVE-ENTRY OBLIGATION BOUND RESOLUTION OUTCOME-OF-A-RESOLUTION.ACCEPTANCE WHOLE-ENTRY ON-THE-MOVE SPEAKERS-OWN (names 1 1 ISSUE REQUEST OPEN) PROTOCOL)"
+  },
+  {
+   "id": "n99-order-in-the-formal-register",
+   "code": "d.checker.register-order",
+   "mode": "as written",
+   "notation": "(move ASSERTED-POSITION FORMAL (assertion CERTAIN OBSERVATION (situation run (UNDERGOER (term service DEFINITE)))))"
+  },
+  {
+   "id": "n100-register-bound-without-integrity",
+   "code": "d.checker.integrity-value-required",
+   "base": "e5-precision-bound-register.1",
+   "edit": "drop-integrity"
+  },
+  {
+   "id": "n101-declared-bound-without-integrity",
+   "code": "d.checker.integrity-value-required",
+   "base": "e5-precision-bound-register.2",
+   "edit": "drop-integrity"
+  },
+  {
+   "id": "n102-readings-in-the-formal-register",
+   "code": "d.checker.precision-bound",
+   "notation": "(move ASSERTED-POSITION FORMAL (assertion INFERENCE (readings PRODUCTIVE (situation break (UNDERGOER (term network DEFINITE))) (situation break (UNDERGOER (term service DEFINITE))))))"
+  },
+  {
+   "id": "n103-honorific-outside-the-ceremonial-register",
+   "code": "d.checker.register-excludes-word",
+   "mode": "normal expression",
+   "notation": "(move ASSERTED-POSITION (assertion OBSERVATION CERTAIN (situation detect (ACTOR (term (formed \"examine.agent.honorific\") DEFINITE)) (UNDERGOER (term fault INDEFINITE)))))"
+  },
+  {
+   "id": "n104-politeness-outside-its-register",
+   "code": "d.checker.register-excludes-word",
+   "mode": "normal expression",
+   "notation": "(move ASSERTED-POSITION deferential (assertion OBSERVATION CERTAIN (situation run (UNDERGOER (term service DEFINITE)))))"
+  },
+  {
+   "id": "n105-relation-declared-without-politeness",
+   "code": "d.checker.loss-not-incurred",
+   "mode": "normal expression",
+   "notation": "(move ASSERTED-POSITION RELATION-BETWEEN-PARTICIPANTS CASUAL (assertion OBSERVATION CERTAIN (situation run (UNDERGOER (term service DEFINITE)))))"
+  },
+  {
+   "id": "n106-relation-without-figure",
+   "code": "d.checker.figure-relation",
+   "notation": "(move ASSERTED-POSITION EXPLANATORY (assertion OBSERVATION PROBABLE (situation locate (UNDERGOER (term network DEFINITE)) (CONTENT (term storm (TARGET-CONTENT (situation change ITERATIVE (UNDERGOER (term network DEFINITE)))))))))"
+  },
+  {
+   "id": "n107-stands-for-on-a-metaphor",
+   "code": "d.checker.figure-relation",
+   "notation": "(move ASSERTED-POSITION EXPLANATORY (assertion REPORT CERTAIN (situation write (ACTOR (term record DEFINITE METAPHOR (STANDS-FOR (term (party 3))))) (CONTENT (situation run (UNDERGOER (term service DEFINITE)))))))"
+  },
+  {
+   "id": "n108-target-content-on-a-metonym",
+   "code": "d.checker.figure-relation",
+   "notation": "(move ASSERTED-POSITION EXPLANATORY (assertion REPORT CERTAIN (situation write (ACTOR (term record DEFINITE METONYMY (TARGET-CONTENT (situation write (ACTOR (term (party 3))))))) (CONTENT (situation run (UNDERGOER (term service DEFINITE)))))))"
+  },
+  {
+   "id": "n109-metonymy-on-a-situation",
+   "code": "d.checker.figure-relation",
+   "notation": "(move ASSERTED-POSITION EXPLANATORY (assertion REPORT CERTAIN (situation write METONYMY (ACTOR (term record DEFINITE)) (CONTENT (situation run (UNDERGOER (term service DEFINITE)))))))"
+  },
+  {
+   "id": "n110-figure-with-two-relations",
+   "code": "d.checker.figure-relation",
+   "notation": "(move ASSERTED-POSITION EXPLANATORY (assertion OBSERVATION PROBABLE (situation burn METAPHOR (UNDERGOER (term service DEFINITE)) (TARGET-CONTENT (situation increase (UNDERGOER (term resource)))) (TARGET-CONTENT (situation break (UNDERGOER (term service DEFINITE)))))))"
+  },
+  {
+   "id": "n111-target-content-of-another-kind",
+   "code": "d.checker.figure-relation",
+   "notation": "(move ASSERTED-POSITION EXPLANATORY (assertion OBSERVATION PROBABLE (situation burn METAPHOR (UNDERGOER (term service DEFINITE)) (TARGET-CONTENT (term resource)))))"
+  },
+  {
+   "id": "n112-metonym-without-referent-in-bound-move",
+   "code": "d.checker.figure-without-target",
+   "notation": "(move ISSUE REQUEST SPEAKERS-OWN EXPLANATORY (situation send (ACTOR (term (party 2))) (UNDERGOER (term (formed \"record~examine\") DEFINITE)) (RECIPIENT (term service DEFINITE METONYMY))))"
+  },
+  {
+   "id": "n113-irony-without-target-in-bound-move",
+   "code": "d.checker.figure-without-target",
+   "notation": "(move ISSUE REQUEST SPEAKERS-OWN EXPLANATORY (situation examine IRONY (ACTOR (term (party 2))) (UNDERGOER (term network DEFINITE))))"
+  },
+  {
+   "id": "n114-envelope-check-word-wrong",
+   "code": "d.parser.unit-check-mismatch",
+   "base": "s01-observed.1",
+   "edit": "envelope-next-check-form"
+  },
+  {
+   "id": "n115-statement-check-word-wrong",
+   "code": "d.parser.unit-check-mismatch",
+   "base": "e8-acknowledgement.4",
+   "edit": "statement-next-check-form"
+  },
+  {
+   "id": "n116-protocol-message-without-integrity-value",
+   "code": "d.checker.integrity-value-required",
+   "base": "e8-acknowledgement.4",
+   "edit": "protocol-without-integrity"
+  },
+  {
+   "id": "n117-protocol-message-to-two",
+   "code": "d.parser.protocol-message",
+   "base": "e8-acknowledgement.4",
+   "edit": "protocol-two-recipients"
+  },
+  {
+   "id": "n118-identifier-zero-with-moves",
+   "code": "d.parser.count-mismatch",
+   "base": "s01-observed.1",
+   "edit": "identifier-zero-with-moves"
+  },
+  {
+   "id": "n119-held-beyond-the-first-missing",
+   "code": "d.parser.statement-form",
+   "base": "s01-observed.1",
+   "edit": "holds-beyond-the-first-missing"
+  },
+  {
+   "id": "n120-authentication-scheme-unknown",
+   "code": "d.parser.authentication-form",
+   "base": "e8-authenticated-forward.2",
+   "edit": "authentication-scheme-two"
+  },
+  {
+   "id": "n121-version-with-a-leading-zero",
+   "code": "d.parser.number-form",
+   "base": "s01-observed.1",
+   "edit": "version-leading-zero"
+  },
+  {
+   "id": "n122-dialects-out-of-order",
+   "code": "d.parser.envelope",
+   "base": "e9-dialect-forms.1",
+   "edit": "dialects-out-of-order"
+  },
+  {
+   "id": "n123-dialect-under-another-digest",
+   "code": "d.parser.version-unknown",
+   "base": "e9-dialect-forms.2",
+   "edit": "dialect-digest-plus-one"
+  },
+  {
+   "id": "n124-lexicon-before-the-least",
+   "code": "d.parser.version-unknown",
+   "base": "s01-observed.1",
+   "edit": "lexicon-before-the-least"
+  },
+  {
+   "id": "n125-understands-versions-out-of-order",
+   "code": "d.parser.statement-form",
+   "base": "s01-observed.1",
+   "edit": "understands-out-of-order"
+  },
+  {
+   "id": "n126-lacks-names-two-messages",
+   "code": "d.parser.statement-form",
+   "base": "s01-observed.1",
+   "edit": "lacks-two-serials"
+  },
+  {
+   "id": "n127-dialect-outside-a-term",
+   "code": "d.checker.ill-typed",
+   "notation": "(move ASSERTED-POSITION (assertion OBSERVATION CERTAIN (situation run (dialect 2) (UNDERGOER (term service DEFINITE)))))"
+  },
+  {
+   "id": "n128-dialect-form-in-the-formal-register",
+   "code": "d.checker.register-excludes-word",
+   "dialects": [
+    [
+     2,
+     "0.2"
+    ]
+   ],
+   "mode": "as written",
+   "notation": "(move ASSERTED-POSITION FORMAL (assertion OBSERVATION CERTAIN (situation detect (ACTOR (term programming.suite DEFINITE)) (UNDERGOER (term service DEFINITE)))))"
+  },
+  {
+   "id": "n129-definition-scoped-to-an-unnamed-dialect",
+   "code": "d.checker.definition-scope",
+   "notation": "(move ACT-DEFINITION SPEAKERS-OWN (term (data \"text/prs.rowih\" \"ratid\")) (term (formed \"record~word\")) (term (dialect 12)))"
+  },
+  {
+   "id": "n130-message-of-a-later-release",
+   "code": "d.parser.version-unknown",
+   "base": "s01-observed.1",
+   "edit": "later-release"
+  }
+ ]
+}

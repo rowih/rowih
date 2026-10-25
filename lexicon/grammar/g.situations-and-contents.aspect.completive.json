@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.situations-and-contents.aspect.completive",
+ "orthographic form": "bero",
+ "phonological form": "/beɾo/",
+ "grammatical category": "aspect",
+ "gloss": "COMPLETIVE",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

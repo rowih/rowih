@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.message.embedded-material.declared-data",
+ "orthographic form": "wito",
+ "phonological form": "/wito/",
+ "grammatical category": "embedded material",
+ "gloss": "DECLARED-DATA",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

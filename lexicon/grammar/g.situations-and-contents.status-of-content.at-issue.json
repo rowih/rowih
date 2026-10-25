@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.situations-and-contents.status-of-content.at-issue",
+ "orthographic form": "buwi",
+ "phonological form": "/buwi/",
+ "grammatical category": "status of content",
+ "gloss": "AT-ISSUE",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

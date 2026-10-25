@@ -1,0 +1,552 @@
+{
+ "dialect": "conversation",
+ "number": 12,
+ "community": "conversation",
+ "version": "0.1",
+ "date": "2026-10-16",
+ "formed from lexicon": "0.7",
+ "reading": "each term means the composition of its stems, as the rules of word formation give it; each compressed form means the term it compresses, which a hearer computes only from this release",
+ "terms": [
+  {
+   "machine identifier": "jg.conversation.001",
+   "term": "chat",
+   "orthographic form": "retilirator",
+   "phonological form": "/ɾetiliɾatoɾ/",
+   "grammatical category": "jargon",
+   "sort": "s.sort.event",
+   "semantic type": {
+    "sort": "s.sort.event",
+    "arguments": [
+     "actor",
+     "recipient"
+    ]
+   },
+   "definition": "[cause something to go to a recipient], with [a word of the language] as its undergoer",
+   "argument structure": [
+    {
+     "role": "actor",
+     "sort": "s.sort.agent"
+    },
+    {
+     "role": "recipient",
+     "sort": "s.sort.agent"
+    }
+   ],
+   "formed from": [
+    [
+     "lx.000030"
+    ],
+    [
+     "lx.000079"
+    ]
+   ],
+   "mechanism": "compound",
+   "register": [
+    "R0",
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7"
+   ],
+   "scope": {
+    "dialect": "conversation",
+    "version": "0.1"
+   },
+   "validity": "from the dialect's release, without end",
+   "provenance": "generated from its stems by tools/build_dialects.py",
+   "acceptance status": "released",
+   "version": {
+    "introduced": "0.1",
+    "deprecated": null
+   },
+   "key": "chat"
+  },
+  {
+   "machine identifier": "jg.conversation.002",
+   "term": "heads-up",
+   "orthographic form": "romopiremup",
+   "phonological form": "/ɾomopiɾemup/",
+   "grammatical category": "jargon",
+   "sort": "s.sort.event",
+   "semantic type": {
+    "sort": "s.sort.event",
+    "arguments": [
+     "actor",
+     "recipient"
+    ]
+   },
+   "definition": "[make something understood], with [a difficulty to be resolved] as its content",
+   "argument structure": [
+    {
+     "role": "actor",
+     "sort": "s.sort.agent"
+    },
+    {
+     "role": "recipient",
+     "sort": "s.sort.agent"
+    }
+   ],
+   "formed from": [
+    [
+     "lx.000032"
+    ],
+    [
+     "lx.000083"
+    ]
+   ],
+   "mechanism": "compound",
+   "register": [
+    "R0",
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7"
+   ],
+   "scope": {
+    "dialect": "conversation",
+    "version": "0.1"
+   },
+   "validity": "from the dialect's release, without end",
+   "provenance": "generated from its stems by tools/build_dialects.py",
+   "acceptance status": "released",
+   "version": {
+    "introduced": "0.1",
+    "deprecated": null
+   },
+   "key": "heads-up"
+  },
+  {
+   "machine identifier": "jg.conversation.003",
+   "term": "catch-up",
+   "orthographic form": "rerisirunay",
+   "phonological form": "/ɾeɾisiɾunaj/",
+   "grammatical category": "jargon",
+   "sort": "s.sort.event",
+   "semantic type": {
+    "sort": "s.sort.event",
+    "arguments": [
+     "recipient"
+    ]
+   },
+   "definition": "[come to have what was sent], with [a stored record] as its undergoer",
+   "argument structure": [
+    {
+     "role": "recipient",
+     "sort": "s.sort.agent"
+    }
+   ],
+   "formed from": [
+    [
+     "lx.000031"
+    ],
+    [
+     "lx.000007"
+    ]
+   ],
+   "mechanism": "compound",
+   "register": [
+    "R0",
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7"
+   ],
+   "scope": {
+    "dialect": "conversation",
+    "version": "0.1"
+   },
+   "validity": "from the dialect's release, without end",
+   "provenance": "generated from its stems by tools/build_dialects.py",
+   "acceptance status": "released",
+   "version": {
+    "introduced": "0.1",
+    "deprecated": null
+   },
+   "key": "catch-up"
+  },
+  {
+   "machine identifier": "jg.conversation.004",
+   "term": "pause",
+   "orthographic form": "rabudumop",
+   "phonological form": "/ɾabudumop/",
+   "grammatical category": "jargon",
+   "sort": "s.sort.reified-referent",
+   "semantic type": {
+    "sort": "s.sort.reified-referent",
+    "arguments": []
+   },
+   "definition": "[stay until something happens], as a process under way, named as a referent",
+   "argument structure": [],
+   "formed from": [
+    [
+     "lx.000053",
+     "lx.000108"
+    ]
+   ],
+   "mechanism": "process",
+   "register": [
+    "R0",
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7"
+   ],
+   "scope": {
+    "dialect": "conversation",
+    "version": "0.1"
+   },
+   "validity": "from the dialect's release, without end",
+   "provenance": "generated from its stems by tools/build_dialects.py",
+   "acceptance status": "released",
+   "version": {
+    "introduced": "0.1",
+    "deprecated": null
+   },
+   "key": "pause"
+  },
+  {
+   "machine identifier": "jg.conversation.005",
+   "term": "listener",
+   "orthographic form": "reyudaheh",
+   "phonological form": "/ɾejudaheh/",
+   "grammatical category": "jargon",
+   "sort": "s.sort.agent",
+   "semantic type": {
+    "sort": "s.sort.agent",
+    "arguments": []
+   },
+   "definition": "the one that is actor of [take in what is written]",
+   "argument structure": [],
+   "formed from": [
+    [
+     "lx.000035",
+     "lx.000096"
+    ]
+   ],
+   "mechanism": "agent",
+   "register": [
+    "R0",
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7"
+   ],
+   "scope": {
+    "dialect": "conversation",
+    "version": "0.1"
+   },
+   "validity": "from the dialect's release, without end",
+   "provenance": "generated from its stems by tools/build_dialects.py",
+   "acceptance status": "released",
+   "version": {
+    "introduced": "0.1",
+    "deprecated": null
+   },
+   "key": "listener"
+  }
+ ],
+ "forms": [
+  {
+   "machine identifier": "dl.conversation.001",
+   "root": "dl.conversation.001",
+   "term": "chat",
+   "orthographic form": "rinok",
+   "phonological form": "/ɾinok/",
+   "grammatical category": "dialect form",
+   "sort": "s.sort.event",
+   "semantic type": {
+    "sort": "s.sort.event",
+    "arguments": [
+     "actor",
+     "recipient"
+    ]
+   },
+   "definition": "the compressed form of the term chat: [cause something to go to a recipient], with [a word of the language] as its undergoer",
+   "semantic primitives": [
+    "s.sort.event"
+   ],
+   "argument structure": [
+    {
+     "role": "actor",
+     "sort": "s.sort.agent"
+    },
+    {
+     "role": "recipient",
+     "sort": "s.sort.agent"
+    }
+   ],
+   "derivational behaviour": [],
+   "collocations": [],
+   "synonyms": [
+    {
+     "entry": "jg.conversation.001",
+     "dimension": "compression"
+    }
+   ],
+   "antonyms": [],
+   "related concepts": [],
+   "examples": [],
+   "expansion": {
+    "term": "jg.conversation.001",
+    "form": "retilirator"
+   },
+   "mechanism": "compression",
+   "register": [
+    "R0",
+    "R2",
+    "R5"
+   ],
+   "scope": {
+    "dialect": "conversation",
+    "version": "0.1"
+   },
+   "validity": "from the dialect's release, without end",
+   "provenance": "assigned by tools/build_dialects.py from the root pool",
+   "acceptance status": "released",
+   "version": {
+    "introduced": "0.1",
+    "deprecated": null
+   },
+   "key": "chat"
+  },
+  {
+   "machine identifier": "dl.conversation.002",
+   "root": "dl.conversation.002",
+   "term": "heads-up",
+   "orthographic form": "ranas",
+   "phonological form": "/ɾanas/",
+   "grammatical category": "dialect form",
+   "sort": "s.sort.event",
+   "semantic type": {
+    "sort": "s.sort.event",
+    "arguments": [
+     "actor",
+     "recipient"
+    ]
+   },
+   "definition": "the compressed form of the term heads-up: [make something understood], with [a difficulty to be resolved] as its content",
+   "semantic primitives": [
+    "s.sort.event"
+   ],
+   "argument structure": [
+    {
+     "role": "actor",
+     "sort": "s.sort.agent"
+    },
+    {
+     "role": "recipient",
+     "sort": "s.sort.agent"
+    }
+   ],
+   "derivational behaviour": [],
+   "collocations": [],
+   "synonyms": [
+    {
+     "entry": "jg.conversation.002",
+     "dimension": "compression"
+    }
+   ],
+   "antonyms": [],
+   "related concepts": [],
+   "examples": [],
+   "expansion": {
+    "term": "jg.conversation.002",
+    "form": "romopiremup"
+   },
+   "mechanism": "compression",
+   "register": [
+    "R0",
+    "R2",
+    "R5"
+   ],
+   "scope": {
+    "dialect": "conversation",
+    "version": "0.1"
+   },
+   "validity": "from the dialect's release, without end",
+   "provenance": "assigned by tools/build_dialects.py from the root pool",
+   "acceptance status": "released",
+   "version": {
+    "introduced": "0.1",
+    "deprecated": null
+   },
+   "key": "heads-up"
+  },
+  {
+   "machine identifier": "dl.conversation.003",
+   "root": "dl.conversation.003",
+   "term": "catch-up",
+   "orthographic form": "ruson",
+   "phonological form": "/ɾuson/",
+   "grammatical category": "dialect form",
+   "sort": "s.sort.event",
+   "semantic type": {
+    "sort": "s.sort.event",
+    "arguments": [
+     "recipient"
+    ]
+   },
+   "definition": "the compressed form of the term catch-up: [come to have what was sent], with [a stored record] as its undergoer",
+   "semantic primitives": [
+    "s.sort.event"
+   ],
+   "argument structure": [
+    {
+     "role": "recipient",
+     "sort": "s.sort.agent"
+    }
+   ],
+   "derivational behaviour": [],
+   "collocations": [],
+   "synonyms": [
+    {
+     "entry": "jg.conversation.003",
+     "dimension": "compression"
+    }
+   ],
+   "antonyms": [],
+   "related concepts": [],
+   "examples": [],
+   "expansion": {
+    "term": "jg.conversation.003",
+    "form": "rerisirunay"
+   },
+   "mechanism": "compression",
+   "register": [
+    "R0",
+    "R2",
+    "R5"
+   ],
+   "scope": {
+    "dialect": "conversation",
+    "version": "0.1"
+   },
+   "validity": "from the dialect's release, without end",
+   "provenance": "assigned by tools/build_dialects.py from the root pool",
+   "acceptance status": "released",
+   "version": {
+    "introduced": "0.1",
+    "deprecated": null
+   },
+   "key": "catch-up"
+  },
+  {
+   "machine identifier": "dl.conversation.004",
+   "root": "dl.conversation.004",
+   "term": "pause",
+   "orthographic form": "reyok",
+   "phonological form": "/ɾejok/",
+   "grammatical category": "dialect form",
+   "sort": "s.sort.reified-referent",
+   "semantic type": {
+    "sort": "s.sort.reified-referent",
+    "arguments": []
+   },
+   "definition": "the compressed form of the term pause: [stay until something happens], as a process under way, named as a referent",
+   "semantic primitives": [
+    "s.sort.reified-referent"
+   ],
+   "argument structure": [],
+   "derivational behaviour": [],
+   "collocations": [],
+   "synonyms": [
+    {
+     "entry": "jg.conversation.004",
+     "dimension": "compression"
+    }
+   ],
+   "antonyms": [],
+   "related concepts": [],
+   "examples": [],
+   "expansion": {
+    "term": "jg.conversation.004",
+    "form": "rabudumop"
+   },
+   "mechanism": "compression",
+   "register": [
+    "R0",
+    "R2",
+    "R5"
+   ],
+   "scope": {
+    "dialect": "conversation",
+    "version": "0.1"
+   },
+   "validity": "from the dialect's release, without end",
+   "provenance": "assigned by tools/build_dialects.py from the root pool",
+   "acceptance status": "released",
+   "version": {
+    "introduced": "0.1",
+    "deprecated": null
+   },
+   "key": "pause"
+  },
+  {
+   "machine identifier": "dl.conversation.005",
+   "root": "dl.conversation.005",
+   "term": "listener",
+   "orthographic form": "romas",
+   "phonological form": "/ɾomas/",
+   "grammatical category": "dialect form",
+   "sort": "s.sort.agent",
+   "semantic type": {
+    "sort": "s.sort.agent",
+    "arguments": []
+   },
+   "definition": "the compressed form of the term listener: the one that is actor of [take in what is written]",
+   "semantic primitives": [
+    "s.sort.agent"
+   ],
+   "argument structure": [],
+   "derivational behaviour": [],
+   "collocations": [],
+   "synonyms": [
+    {
+     "entry": "jg.conversation.005",
+     "dimension": "compression"
+    }
+   ],
+   "antonyms": [],
+   "related concepts": [],
+   "examples": [],
+   "expansion": {
+    "term": "jg.conversation.005",
+    "form": "reyudaheh"
+   },
+   "mechanism": "compression",
+   "register": [
+    "R0",
+    "R2",
+    "R5"
+   ],
+   "scope": {
+    "dialect": "conversation",
+    "version": "0.1"
+   },
+   "validity": "from the dialect's release, without end",
+   "provenance": "assigned by tools/build_dialects.py from the root pool",
+   "acceptance status": "released",
+   "version": {
+    "introduced": "0.1",
+    "deprecated": null
+   },
+   "key": "listener"
+  }
+ ],
+ "digest": "131033484"
+}

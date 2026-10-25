@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.time.time-relation.finished-by",
+ "orthographic form": "darole",
+ "phonological form": "/daɾole/",
+ "grammatical category": "time relation",
+ "gloss": "FINISHED-BY",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

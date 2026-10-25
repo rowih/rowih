@@ -1,0 +1,52 @@
+{
+ "machine identifier": "lx.000168",
+ "root": "lx.000168",
+ "phonological form": "/ɾamaɡ/",
+ "orthographic form": "ramag",
+ "grammatical category": "predicate root",
+ "sort": "s.sort.event",
+ "semantic type": {
+  "sort": "s.sort.event",
+  "arguments": [
+   "actor",
+   "undergoer"
+  ]
+ },
+ "definition": "inspect or investigate something to learn about it (the ornamental vocabulary)",
+ "semantic primitives": [
+  "s.sort.event"
+ ],
+ "argument structure": [
+  {
+   "role": "actor",
+   "sort": "s.sort.agent"
+  },
+  {
+   "role": "undergoer",
+   "sort": "s.sort.referent"
+  }
+ ],
+ "derivational behaviour": [],
+ "register": [
+  "R7"
+ ],
+ "collocations": [],
+ "synonyms": [
+  "lx.000166",
+  "lx.000167",
+  "lx.000001"
+ ],
+ "antonyms": [],
+ "related concepts": [],
+ "examples": [],
+ "version": {
+  "introduced": "0.4",
+  "deprecated": null
+ },
+ "key": "scrutinise",
+ "synonym of": "lx.000001",
+ "vocabulary": "ornamental",
+ "declared loss": [
+  "register"
+ ]
+}

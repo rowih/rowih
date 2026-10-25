@@ -1,0 +1,49 @@
+{
+ "machine identifier": "lx.000777",
+ "root": "lx.000777",
+ "phonological form": "/nuɾokoh numijuh nulejek/",
+ "orthographic form": "nurokoh numiyuh nuleyek",
+ "grammatical category": "idiom",
+ "sort": "s.sort.situation",
+ "semantic type": {
+  "sort": "s.sort.situation",
+  "arguments": []
+ },
+ "definition": "the hearer has repeated the speaker's words",
+ "semantic primitives": [
+  "s.sort.situation"
+ ],
+ "argument structure": [],
+ "derivational behaviour": [],
+ "register": [
+  "R0",
+  "R2",
+  "R3",
+  "R5",
+  "R6",
+  "R7"
+ ],
+ "collocations": [],
+ "synonyms": [],
+ "antonyms": [],
+ "related concepts": [],
+ "examples": [],
+ "version": {
+  "introduced": "1.0",
+  "deprecated": null
+ },
+ "key": "sound returning",
+ "class": "conversational idioms",
+ "kind": "decoding, grammatical",
+ "route": "figure",
+ "literal structure": "(situation return (UNDERGOER (term sound)) (CONTENT (term voice)))",
+ "expansion": "(situation copy (ACTOR (term INTERLOCUTOR)) (UNDERGOER (term word GIVEN)))",
+ "decomposition": [],
+ "pragmatic conditions": "said lightly when the hearer puts forward as its own what the speaker said before",
+ "usage restrictions": "none",
+ "declared loss": [
+  "stance",
+  "wording"
+ ],
+ "constructed history": "Constructed history: a sound that comes back to the voice that made it is that voice's own, and agents said so of words that came back to them from another."
+}

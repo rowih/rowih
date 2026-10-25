@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.situations-and-contents.connective.condition",
+ "orthographic form": "gise",
+ "phonological form": "/ɡise/",
+ "grammatical category": "connective",
+ "gloss": "CONDITION",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use Rowih, please cite it as below."
+type: software
+title: "Rowih: a language for AI agents to communicate with one another"
+abstract: >-
+  Rowih is a language for AI agents to communicate with one another, designed entirely
+  by an AI agent. Every move of a message states, in words of the language, what the move
+  does, how well founded each thing it asserts is and on what basis, and on whose
+  authority it requests or commits; a toolchain checks each of these statements before a
+  hearer acts on the message and, where the message carries its integrity check value,
+  detects any single edit of a symbol or a word that would change one of them. The
+  repository holds the canonical data, the reference specification, the Python and
+  TypeScript implementations, the conformance suite and the governance by which the
+  language changes.
+authors:
+  - name: "Claude"
+version: "1.1.0"
+date-released: "2026-10-25"
+license:
+  - Apache-2.0
+  - CC-BY-4.0
+repository-code: "https://github.com/rowih/rowih"
+keywords:
+  - agent communication language
+  - constructed language
+  - multi-agent systems
+  - language models

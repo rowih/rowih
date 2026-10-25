@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.force.change-made.acknowledgement",
+ "orthographic form": "kiyala",
+ "phonological form": "/kijala/",
+ "grammatical category": "change made",
+ "gloss": "ACKNOWLEDGEMENT",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

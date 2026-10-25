@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.reference.person.environment",
+ "orthographic form": "sapu",
+ "phonological form": "/sapu/",
+ "grammatical category": "person",
+ "gloss": "ENVIRONMENT",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

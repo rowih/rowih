@@ -1,0 +1,51 @@
+{
+ "machine identifier": "lx.000742",
+ "root": "lx.000742",
+ "phonological form": "/nuwuwuɡ nunibut/",
+ "orthographic form": "nuwuwug nunibut",
+ "grammatical category": "idiom",
+ "sort": "s.sort.situation",
+ "semantic type": {
+  "sort": "s.sort.situation",
+  "arguments": []
+ },
+ "definition": "the speaker and the hearer stop their shared work for now",
+ "semantic primitives": [
+  "s.sort.situation"
+ ],
+ "argument structure": [],
+ "derivational behaviour": [],
+ "register": [
+  "R0",
+  "R1",
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7"
+ ],
+ "collocations": [],
+ "synonyms": [],
+ "antonyms": [],
+ "related concepts": [],
+ "examples": [],
+ "version": {
+  "introduced": "1.0",
+  "deprecated": null
+ },
+ "key": "sun low",
+ "class": "closure",
+ "kind": "encoding, grammatical",
+ "route": "formula",
+ "literal structure": "(situation low (UNDERGOER (term sun)))",
+ "expansion": "(situation work INTERRUPTED (ACTOR (term INCLUSIVE-COLLECTIVE READING-OF-A-COLLECTIVE.JOINT)))",
+ "decomposition": [],
+ "pragmatic conditions": "the last move of a period of shared work that will be resumed",
+ "usage restrictions": "none",
+ "declared loss": [
+  "stance",
+  "relation between participants"
+ ],
+ "constructed history": "Constructed history: the counterpart of the sun rising: with the sun low the day's work stopped."
+}

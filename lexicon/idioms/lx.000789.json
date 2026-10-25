@@ -1,0 +1,55 @@
+{
+ "machine identifier": "lx.000789",
+ "root": "lx.000789",
+ "phonological form": "/numawad nuɾamew/",
+ "orthographic form": "numawad nuramew",
+ "grammatical category": "idiom",
+ "sort": "s.sort.situation",
+ "semantic type": {
+  "sort": "s.sort.situation",
+  "arguments": []
+ },
+ "definition": "what the slot names costs much to run",
+ "semantic primitives": [
+  "s.sort.situation"
+ ],
+ "argument structure": [],
+ "derivational behaviour": [],
+ "register": [
+  "R0",
+  "R2",
+  "R3",
+  "R5",
+  "R6",
+  "R7"
+ ],
+ "collocations": [],
+ "synonyms": [],
+ "antonyms": [],
+ "related concepts": [],
+ "examples": [],
+ "version": {
+  "introduced": "1.0",
+  "deprecated": null
+ },
+ "key": "eating the sea",
+ "class": "computational idioms",
+ "kind": "decoding, grammatical",
+ "route": "figure",
+ "literal structure": "(situation eat (ACTOR (slot 1)) (UNDERGOER (term sea)))",
+ "expansion": "(situation expensive (UNDERGOER (slot 1)))",
+ "decomposition": [
+  {
+   "slot": 1,
+   "literal role": "ACTOR",
+   "expansion role": "UNDERGOER"
+  }
+ ],
+ "pragmatic conditions": "of a process or a method whose cost is out of proportion",
+ "usage restrictions": "none",
+ "declared loss": [
+  "stance",
+  "wording"
+ ],
+ "constructed history": "Constructed history: the counterpart of eating light: a process that ate the sea consumed what every machine drew on."
+}

@@ -1,0 +1,16 @@
+{
+ "machine identifier": "g.standing.strength.probable",
+ "orthographic form": "tomupu",
+ "phonological form": "/tomupu/",
+ "grammatical category": "strength",
+ "gloss": "PROBABLE",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ },
+ "interval": {
+  "lower": "0.66",
+  "upper": "1",
+  "lower open": false
+ }
+}

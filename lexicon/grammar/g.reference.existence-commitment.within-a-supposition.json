@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.reference.existence-commitment.within-a-supposition",
+ "orthographic form": "mema",
+ "phonological form": "/mema/",
+ "grammatical category": "existence commitment",
+ "gloss": "EXISTENCE-COMMITMENT.WITHIN-A-SUPPOSITION",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

@@ -1,0 +1,12 @@
+{
+ "machine identifier": "g.standing.basis.unstated",
+ "orthographic form": "tineti",
+ "phonological form": "/tineti/",
+ "grammatical category": "basis",
+ "gloss": "BASIS.UNSTATED",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ },
+ "tier": 3
+}

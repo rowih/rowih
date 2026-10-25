@@ -1,0 +1,45 @@
+{
+ "machine identifier": "lx.000141",
+ "root": "lx.000072",
+ "phonological form": "/ɾumubiɾites/",
+ "orthographic form": "rumubirites",
+ "grammatical category": "compound",
+ "sort": "s.sort.process",
+ "semantic type": {
+  "sort": "s.sort.process",
+  "arguments": []
+ },
+ "definition": "spend a resource faster than the plan for it allows",
+ "semantic primitives": [
+  "s.sort.process"
+ ],
+ "argument structure": [],
+ "derivational behaviour": [],
+ "register": [
+  "R0",
+  "R1",
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7"
+ ],
+ "collocations": [],
+ "synonyms": [],
+ "antonyms": [],
+ "related concepts": [],
+ "examples": [],
+ "version": {
+  "introduced": "0.3",
+  "deprecated": null
+ },
+ "key": "budget burn",
+ "formed from": [
+  "lx.000072",
+  "lx.000022"
+ ],
+ "composition": "[be on fire], with [the amount of a resource an agent has left] as its undergoer",
+ "route": "drift",
+ "constructed history": "Constructed history: first a compound of its parts, the process of a budget burning away; it came to be said of any resource spent faster than planned, and the composition, that a budget is on fire, is now never meant."
+}

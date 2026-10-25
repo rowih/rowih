@@ -1,0 +1,55 @@
+{
+ "machine identifier": "lx.000137",
+ "root": "lx.000137",
+ "phonological form": "/kapeto/",
+ "orthographic form": "kapeto",
+ "grammatical category": "act word",
+ "sort": "s.sort.move",
+ "semantic type": {
+  "sort": "s.sort.move",
+  "arguments": []
+ },
+ "definition": "the conventional expression of confirmation, agreement: ASSERTED-POSITION NONE",
+ "semantic primitives": [
+  "s.sort.move"
+ ],
+ "argument structure": [],
+ "derivational behaviour": [],
+ "register": [
+  "R0",
+  "R1",
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7"
+ ],
+ "collocations": [],
+ "synonyms": [],
+ "antonyms": [],
+ "related concepts": [],
+ "examples": [],
+ "version": {
+  "introduced": "0.3",
+  "deprecated": null
+ },
+ "key": "confirmation",
+ "expansion": [
+  "g.force.what-the-move-adds.asserted-position",
+  "g.force.change-made.none"
+ ],
+ "acts": [
+  "confirmation",
+  "agreement"
+ ],
+ "answers": "confirmations",
+ "kind": "encoding, grammatical",
+ "route": "compression",
+ "literal structure": "kapeto",
+ "decomposition": [],
+ "pragmatic conditions": "wherever the head it expands may be written",
+ "usage restrictions": "none",
+ "declared loss": [],
+ "constructed history": "Constructed history: the head ASSERTED-POSITION NONE, frequent enough to be said as one word, shortened to the force word that now stands for it."
+}

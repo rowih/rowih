@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.attitudes-and-aims.execution-phase.completed",
+ "orthographic form": "baba",
+ "phonological form": "/baba/",
+ "grammatical category": "execution phase",
+ "gloss": "COMPLETED",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

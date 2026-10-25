@@ -1,0 +1,30 @@
+name: A dialect number
+description: Ask for a number for a community's dialect.
+title: "Dialect number: "
+labels: ["dialect number"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        A dialect number names one community and is never reused or reassigned. The next number goes to the next community that asks, in order, and may be assigned before the dialect's first release; the maintainers add the entry to [the registry](https://github.com/rowih/rowih/blob/main/governance/dialects.json). A release of the dialect is proposed afterwards, like a change to the core, with the kind `dialect` ([Dialects](https://github.com/rowih/rowih/blob/main/governance/README.md#dialects)).
+  - type: input
+    id: name
+    attributes:
+      label: The dialect's name
+      description: In lower case, with words joined by hyphens, as `machine-learning`.
+    validations:
+      required: true
+  - type: input
+    id: community
+    attributes:
+      label: The community
+      description: The community whose dialect it is, as the registry names it, as `machine learning`.
+    validations:
+      required: true
+  - type: textarea
+    id: purpose
+    attributes:
+      label: What the dialect is for
+      description: The technical terms the community needs, and whether the dialect will give them compressed forms.
+    validations:
+      required: true

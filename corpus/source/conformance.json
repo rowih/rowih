@@ -1,0 +1,5959 @@
+{
+ "note": "The conformance corpus of the language core, authored in the literal semantic notation. Each message states the class its moves must compute to (specification/grammar.md#the-class-of-a-move), written by hand as the oracle. Participants: 1 is agent A, 2 agent B, 3 agent C. Exchanges are read in order by each recipient's view.",
+ "items": [
+  {
+   "id": "s01-observed",
+   "statement": "I observed X.",
+   "messages": [
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622400",
+     "identifier": 1,
+     "classes": [
+      "inert"
+     ],
+     "notation": "(move ASSERTED-POSITION (assertion OBSERVATION CERTAIN (OBSERVATION-TIME 5 MINUTE AGO) (situation run POLARITY.NEGATIVE (UNDERGOER (term service DEFINITE)))))",
+     "normal": [
+      "(move ASSERTED-POSITION (assertion OBSERVATION CERTAIN (OBSERVATION-TIME 5 MINUTE AGO) (situation run PROGRESSIVE AT-ISSUE POLARITY.NEGATIVE ACTUAL (UNDERGOER (term service DEFINITE ASSERTED-TO-EXIST NEW)))))"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s02-infer",
+   "statement": "I infer Y from X.",
+   "messages": [
+    {
+     "semantic": true,
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622400",
+     "identifier": 1,
+     "classes": [
+      "inert",
+      "inert"
+     ],
+     "notation": "(move ASSERTED-POSITION (assertion OBSERVATION CERTAIN (OBSERVATION-TIME 5 MINUTE AGO) (situation run POLARITY.NEGATIVE (UNDERGOER (term service DEFINITE))))) (move ASSERTED-POSITION (assertion INFERENCE PROBABLE (INFERENCE-TIME NOW) (PREMISE (names 1 1 ASSERTED-POSITION EXPECTED-STATUS-OF-AN-ENTRY.IN-FORCE)) (situation break (UNDERGOER (term network DEFINITE)))))"
+    }
+   ]
+  },
+  {
+   "id": "s03-uncertain",
+   "statement": "I am uncertain whether Y.",
+   "messages": [
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622400",
+     "identifier": 1,
+     "classes": [
+      "inert"
+     ],
+     "notation": "(move ASSERTED-POSITION (assertion INTROSPECTION CERTAIN (situation CREDENCE UNCERTAIN (HOLDER (term SELF)) (CONTENT (situation break (UNDERGOER (term network DEFINITE)))))))"
+    }
+   ]
+  },
+  {
+   "id": "s04-believes",
+   "statement": "Agent B believes Y.",
+   "messages": [
+    {
+     "sender": 1,
+     "recipients": [
+      3
+     ],
+     "time": "1759622400",
+     "identifier": 1,
+     "classes": [
+      "inert"
+     ],
+     "notation": "(move ASSERTED-POSITION (assertion REPORT HIGHLY-PROBABLE (SOURCE (term (party 2))) (situation BELIEF (HOLDER (term (party 2))) (CONTENT (situation break (UNDERGOER (term network DEFINITE)))))))"
+    }
+   ]
+  },
+  {
+   "id": "s05-claims-disagree",
+   "statement": "Agent B claims Y, but I disagree.",
+   "messages": [
+    {
+     "sender": 2,
+     "recipients": [
+      1
+     ],
+     "time": "1759622400",
+     "identifier": 1,
+     "classes": [
+      "inert"
+     ],
+     "notation": "(move ASSERTED-POSITION (assertion INFERENCE PROBABLE (situation break (UNDERGOER (term network DEFINITE)))))"
+    },
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622460",
+     "identifier": 1,
+     "classes": [
+      "inert"
+     ],
+     "notation": "(move ASSERTED-POSITION NONE (names 2 1 ASSERTED-POSITION EXPECTED-STATUS-OF-AN-ENTRY.IN-FORCE) contrasts (assertion OBSERVATION CERTAIN (situation break POLARITY.NEGATIVE (UNDERGOER (term network DEFINITE)))))"
+    }
+   ]
+  },
+  {
+   "id": "s06-request",
+   "statement": "I request that Agent B investigate Z.",
+   "messages": [
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622400",
+     "identifier": 1,
+     "classes": [
+      "pending"
+     ],
+     "notation": "(move ISSUE REQUEST SPEAKERS-OWN (deadline 2 HOUR HENCE) (situation examine (ACTOR (term (party 2))) (UNDERGOER (term fault DEFINITE))))"
+    }
+   ]
+  },
+  {
+   "id": "s07-accepts",
+   "statement": "Agent B accepts.",
+   "messages": [
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622400",
+     "identifier": 1,
+     "classes": [
+      "pending"
+     ],
+     "notation": "(move ISSUE REQUEST SPEAKERS-OWN (situation examine (ACTOR (term (party 2))) (UNDERGOER (term fault DEFINITE))))"
+    },
+    {
+     "sender": 2,
+     "recipients": [
+      1
+     ],
+     "time": "1759622460",
+     "identifier": 1,
+     "classes": [
+      "operative"
+     ],
+     "notation": "(move NORMATIVE-ENTRY OBLIGATION BOUND RESOLUTION OUTCOME-OF-A-RESOLUTION.ACCEPTANCE WHOLE-ENTRY ON-THE-MOVE SPEAKERS-OWN (names 1 1 ISSUE REQUEST OPEN) (situation examine (ACTOR (term SELF)) (UNDERGOER (term fault DEFINITE))))"
+    }
+   ]
+  },
+  {
+   "id": "s08-cannot",
+   "statement": "Agent B cannot perform Z.",
+   "messages": [
+    {
+     "sender": 2,
+     "recipients": [
+      1
+     ],
+     "time": "1759622400",
+     "identifier": 1,
+     "classes": [
+      "inert"
+     ],
+     "notation": "(move ASSERTED-POSITION (assertion INTROSPECTION CERTAIN (situation capable POLARITY.NEGATIVE (HOLDER (term SELF)) (CONTENT (situation execute (ACTOR (term SELF)) (UNDERGOER (term operation DEFINITE)))))) (assertion INTROSPECTION CERTAIN (situation lack-tool (HOLDER (term SELF)) (CONTENT (situation execute (ACTOR (term SELF)) (UNDERGOER (term operation DEFINITE)))))))"
+    }
+   ]
+  },
+  {
+   "id": "s09-contradicts",
+   "statement": "The evidence contradicts Y.",
+   "messages": [
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622400",
+     "identifier": 1,
+     "classes": [
+      "inert"
+     ],
+     "notation": "(move ASSERTED-POSITION (assertion COMPUTATION HIGHLY-PROBABLE (situation contradict (ACTOR (term evidence DEFINITE)) (CONTENT (situation break (UNDERGOER (term network DEFINITE)))))))"
+    }
+   ]
+  },
+  {
+   "id": "s10-revise",
+   "statement": "I revise my previous conclusion.",
+   "messages": [
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622400",
+     "identifier": 1,
+     "classes": [
+      "inert"
+     ],
+     "notation": "(move ASSERTED-POSITION (assertion INFERENCE PROBABLE (situation break (UNDERGOER (term network DEFINITE)))))"
+    },
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622520",
+     "identifier": 2,
+     "classes": [
+      "inert"
+     ],
+     "notation": "(move ASSERTED-POSITION LOWERING WHOLE-ENTRY ON-THE-MOVE (names 1 1 ASSERTED-POSITION EXPECTED-STATUS-OF-AN-ENTRY.IN-FORCE) (assertion OBSERVATION CERTAIN (situation run POLARITY.NEGATIVE (UNDERGOER (term service DEFINITE)))))"
+    }
+   ]
+  },
+  {
+   "id": "s11-hypothetical",
+   "statement": "This information is hypothetical.",
+   "messages": [
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622400",
+     "identifier": 1,
+     "classes": [
+      "inert"
+     ],
+     "notation": "(move SUPPOSITION (situation break (UNDERGOER (term network DEFINITE))))"
+    }
+   ]
+  },
+  {
+   "id": "s12-quoted",
+   "statement": "This statement is quoted, not endorsed.",
+   "messages": [
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622400",
+     "identifier": 1,
+     "classes": [
+      "inert"
+     ],
+     "notation": "(move ASSERTED-POSITION (assertion REPORT CERTAIN (SOURCE (term (party 3))) (situation write (ACTOR (term (party 3))) (UNDERGOER (quote \"kotepu wora teyuhu wopi rudin wodu raniy wuwa woko woye\")))))",
+     "normal": [
+      "(move ASSERTED-POSITION (assertion REPORT CERTAIN (SOURCE (term ASSERTED-TO-EXIST GIVEN (party 3))) (situation write PERFECTIVE AT-ISSUE AFFIRMATIVE ACTUAL (ACTOR (term ASSERTED-TO-EXIST GIVEN (party 3))) (UNDERGOER (quote \"kotepu wora teyuhu wopi rudin wodu raniy wuwa woko woye\")))))"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s13-propose",
+   "statement": "I propose alternative A.",
+   "messages": [
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622400",
+     "identifier": 1,
+     "classes": [
+      "pending"
+     ],
+     "notation": "(move ISSUE PROPOSAL SPEAKERS-OWN (situation allocate (ACTOR (term SELF)) (UNDERGOER (term share (q EXACTLY 40 percent))) (RECIPIENT (term (party 2)))))"
+    }
+   ]
+  },
+  {
+   "id": "s14-accept-conditional",
+   "statement": "I accept A conditional on B.",
+   "messages": [
+    {
+     "sender": 2,
+     "recipients": [
+      1
+     ],
+     "time": "1759622400",
+     "identifier": 1,
+     "classes": [
+      "pending"
+     ],
+     "notation": "(move ISSUE PROPOSAL SPEAKERS-OWN (situation allocate (ACTOR (term SELF)) (UNDERGOER (term share (q EXACTLY 40 percent))) (RECIPIENT (term (party 1)))))"
+    },
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622460",
+     "identifier": 1,
+     "classes": [
+      "operative"
+     ],
+     "notation": "(move NORMATIVE-ENTRY COMMITMENT BOUND RESOLUTION OUTCOME-OF-A-RESOLUTION.ACCEPTANCE WHOLE-ENTRY ON-THE-MOVE SPEAKERS-OWN (names 2 1 ISSUE PROPOSAL OPEN) (situation use (ACTOR (term SELF)) (INSTRUMENT (term share (q EXACTLY 40 percent))) (CONDITION (situation increase (UNDERGOER (term budget DEFINITE))))))"
+    }
+   ]
+  },
+  {
+   "id": "s15-complete",
+   "statement": "The task is complete.",
+   "messages": [
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622400",
+     "identifier": 1,
+     "classes": [
+      "operative"
+     ],
+     "notation": "(move NORMATIVE-ENTRY ASSIGNMENT BINDINGNESS.ON-ACCEPTANCE SPEAKERS-OWN (situation examine (ACTOR (term (party 2))) (UNDERGOER (term record DEFINITE))))"
+    },
+    {
+     "sender": 2,
+     "recipients": [
+      1
+     ],
+     "time": "1759626000",
+     "identifier": 1,
+     "classes": [
+      "pending"
+     ],
+     "notation": "(move ASSERTED-POSITION RESOLUTION OUTCOME-OF-A-RESOLUTION.SETTLEMENT WHOLE-ENTRY WHEN-THE-CHANGE-TAKES-EFFECT.ON-ACCEPTANCE ON-BEHALF-OF-A-NAMED-PRINCIPAL (authority (term (party 1))) (names 1 1 NORMATIVE-ENTRY ASSIGNMENT EXPECTED-STATUS-OF-AN-ENTRY.IN-FORCE) (assertion OBSERVATION CERTAIN (situation examine COMPLETED (ACTOR (term SELF)) (UNDERGOER (term record DEFINITE)))))"
+    }
+   ]
+  },
+  {
+   "id": "s16-failed",
+   "statement": "The task failed.",
+   "messages": [
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622400",
+     "identifier": 1,
+     "classes": [
+      "operative"
+     ],
+     "notation": "(move NORMATIVE-ENTRY ASSIGNMENT BINDINGNESS.ON-ACCEPTANCE SPEAKERS-OWN (situation execute (ACTOR (term (party 2))) (UNDERGOER (term operation DEFINITE))))"
+    },
+    {
+     "sender": 2,
+     "recipients": [
+      1
+     ],
+     "time": "1759626000",
+     "identifier": 1,
+     "classes": [
+      "operative"
+     ],
+     "notation": "(move NOTHING-BEYOND-ITS-OWN-RECORD RESOLUTION OUTCOME-OF-A-RESOLUTION.FAILURE WHOLE-ENTRY ON-THE-MOVE ON-BEHALF-OF-A-NAMED-PRINCIPAL (authority (term (party 1))) (names 1 1 NORMATIVE-ENTRY ASSIGNMENT EXPECTED-STATUS-OF-AN-ENTRY.IN-FORCE) (situation execute FAILED (ACTOR (term SELF)) (UNDERGOER (term operation DEFINITE))))"
+    }
+   ]
+  },
+  {
+   "id": "s17-two-interpretations",
+   "statement": "I detect two possible interpretations.",
+   "messages": [
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622400",
+     "identifier": 1,
+     "classes": [
+      "inert"
+     ],
+     "notation": "(move ASSERTED-POSITION (assertion INFERENCE CERTAIN (situation detect (ACTOR (term SELF)) (CONTENT (readings EPISTEMIC (situation break (UNDERGOER (term network DEFINITE))) (situation break (UNDERGOER (term service DEFINITE))))))))"
+    }
+   ]
+  },
+  {
+   "id": "s18-intentional",
+   "statement": "The ambiguity is intentional.",
+   "messages": [
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622400",
+     "identifier": 1,
+     "classes": [
+      "inert"
+     ],
+     "notation": "(move ASSERTED-POSITION (assertion INFERENCE PROBABLE (readings STRATEGIC (situation need (HOLDER (term (party 2))) (CONTENT (term resource))) (situation need (HOLDER (term (party 3))) (CONTENT (term resource))))))"
+    }
+   ]
+  },
+  {
+   "id": "s19-metaphor",
+   "statement": "This is a metaphor.",
+   "messages": [
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622400",
+     "identifier": 1,
+     "classes": [
+      "inert"
+     ],
+     "notation": "(move ASSERTED-POSITION EXPLANATORY (assertion OBSERVATION PROBABLE (situation locate (UNDERGOER (term network DEFINITE)) (CONTENT (term storm METAPHOR (TARGET-CONTENT (situation change ITERATIVE (UNDERGOER (term network DEFINITE)))))))))",
+     "normal": [
+      "(move ASSERTED-POSITION (assertion OBSERVATION PROBABLE (situation locate STATIVE AT-ISSUE AFFIRMATIVE ACTUAL (UNDERGOER (term network DEFINITE ASSERTED-TO-EXIST NEW)) (CONTENT (term storm MENTIONED-WITHOUT-EXISTENCE-ASSERTED NEW METAPHOR (TARGET-CONTENT (situation change ITERATIVE AT-ISSUE AFFIRMATIVE ACTUAL (UNDERGOER (term network DEFINITE ASSERTED-TO-EXIST NEW)))))))))"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s20-idiom",
+   "statement": "This is an idiom.",
+   "messages": [
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622400",
+     "identifier": 1,
+     "notation": "(move ASSERTED-POSITION WORDING (assertion OBSERVATION CERTAIN (situation IDIOM-ENTRY possess (HOLDER (term service)) (UNDERGOER (term file DEFINITE)))))",
+     "realisations": [
+      "(move ASSERTED-POSITION (assertion OBSERVATION CERTAIN (situation capable POLARITY.NEGATIVE (HOLDER (term INCLUSIVE-COLLECTIVE READING-OF-A-COLLECTIVE.DISTRIBUTIVE)) (CONTENT (situation use (ACTOR (term INCLUSIVE-COLLECTIVE READING-OF-A-COLLECTIVE.DISTRIBUTIVE)) (INSTRUMENT (term file DEFINITE)))))))"
+     ],
+     "classes": [
+      "inert"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "d01-simple-fact",
+   "statement": "Water freezes at approximately 0 °C under standard atmospheric pressure.",
+   "messages": [
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622400",
+     "identifier": 1,
+     "classes": [
+      "inert"
+     ],
+     "notation": "(move ASSERTED-POSITION (assertion TRAINED-KNOWLEDGE CERTAIN (situation freeze HABITUAL (UNDERGOER (term water GENERIC)) (CONTENT (term temperature (q APPROXIMATELY 0 degree-celsius))) (CONDITION (situation standard (UNDERGOER (term pressure (q EXACTLY 1 atmosphere))))))))"
+    }
+   ]
+  },
+  {
+   "id": "d02-uncertain-inference",
+   "statement": "I estimate that the probability of hypothesis H is 0.71.",
+   "messages": [
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622400",
+     "identifier": 1,
+     "classes": [
+      "inert"
+     ],
+     "notation": "(move ASSERTED-POSITION (assertion COMPUTATION (q EXACTLY 0.71) (situation cause (ACTOR (situation break (UNDERGOER (term network DEFINITE)))) (CONTENT (situation run POLARITY.NEGATIVE (UNDERGOER (term service DEFINITE)))))))"
+    }
+   ]
+  },
+  {
+   "id": "d04-negotiation",
+   "statement": "Two agents negotiate resource allocation.",
+   "messages": [
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622400",
+     "identifier": 1,
+     "classes": [
+      "pending"
+     ],
+     "notation": "(move ISSUE PROPOSAL SPEAKERS-OWN (situation allocate (ACTOR (term SELF)) (UNDERGOER (term share (q EXACTLY 30 percent))) (RECIPIENT (term (party 2)))))"
+    },
+    {
+     "sender": 2,
+     "recipients": [
+      1
+     ],
+     "time": "1759622460",
+     "identifier": 1,
+     "classes": [
+      "pending"
+     ],
+     "notation": "(move ISSUE PROPOSAL RESOLUTION OUTCOME-OF-A-RESOLUTION.REJECTION WHOLE-ENTRY ON-THE-MOVE SPEAKERS-OWN (names 1 1 ISSUE PROPOSAL OPEN) (situation allocate (ACTOR (term (party 1))) (UNDERGOER (term share (q EXACTLY 45 percent))) (RECIPIENT (term SELF))))"
+    },
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622520",
+     "identifier": 2,
+     "classes": [
+      "operative"
+     ],
+     "notation": "(move NORMATIVE-ENTRY COMMITMENT BOUND RESOLUTION OUTCOME-OF-A-RESOLUTION.ACCEPTANCE WHOLE-ENTRY ON-THE-MOVE SPEAKERS-OWN (names 2 1 ISSUE PROPOSAL OPEN) (situation allocate (ACTOR (term SELF)) (UNDERGOER (term share (q EXACTLY 45 percent))) (RECIPIENT (term (party 2)))))"
+    }
+   ]
+  },
+  {
+   "id": "d05-error-correction",
+   "statement": "Agent B identifies an inconsistency in Agent A's previous statement.",
+   "messages": [
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622400",
+     "identifier": 1,
+     "classes": [
+      "inert",
+      "inert"
+     ],
+     "notation": "(move ASSERTED-POSITION (assertion OBSERVATION CERTAIN (situation run (UNDERGOER (term service DEFINITE))))) (move ASSERTED-POSITION (assertion INFERENCE PROBABLE (situation break (UNDERGOER (term service DEFINITE)))))"
+    },
+    {
+     "sender": 2,
+     "recipients": [
+      1
+     ],
+     "time": "1759622460",
+     "identifier": 1,
+     "classes": [
+      "inert"
+     ],
+     "notation": "(move ISSUE CHALLENGE NONE (names 1 2 ASSERTED-POSITION EXPECTED-STATUS-OF-AN-ENTRY.IN-FORCE) (situation contradict (ACTOR (term (names 1 1 ASSERTED-POSITION EXPECTED-STATUS-OF-AN-ENTRY.IN-FORCE))) (CONTENT (situation break (UNDERGOER (term service DEFINITE))))))"
+    }
+   ]
+  },
+  {
+   "id": "d06-metaphor-with-content",
+   "statement": "A metaphor with its content: agent A says, marking the figure as a metaphor, that the service holds the test suite captive, and states in the same move what it means by it, that neither participant can use the suite; then A states that content literally, and the two moves answer for the same content.",
+   "messages": [
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622400",
+     "identifier": 1,
+     "notation": "(move ASSERTED-POSITION EXPLANATORY (assertion OBSERVATION PROBABLE (situation confine METAPHOR (ACTOR (term service DEFINITE)) (UNDERGOER (term (formed \"record~examine\") DEFINITE)) (TARGET-CONTENT (situation capable POLARITY.NEGATIVE (HOLDER (term INCLUSIVE-COLLECTIVE READING-OF-A-COLLECTIVE.DISTRIBUTIVE)) (CONTENT (situation use (ACTOR (term INCLUSIVE-COLLECTIVE READING-OF-A-COLLECTIVE.DISTRIBUTIVE)) (INSTRUMENT (term (formed \"record~examine\") DEFINITE)))))))))",
+     "classes": [
+      "inert"
+     ]
+    },
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622460",
+     "identifier": 2,
+     "notation": "(move ASSERTED-POSITION (assertion OBSERVATION PROBABLE (situation capable POLARITY.NEGATIVE (HOLDER (term INCLUSIVE-COLLECTIVE READING-OF-A-COLLECTIVE.DISTRIBUTIVE)) (CONTENT (situation use (ACTOR (term INCLUSIVE-COLLECTIVE READING-OF-A-COLLECTIVE.DISTRIBUTIVE)) (INSTRUMENT (term (formed \"record~examine\") DEFINITE)))))))",
+     "classes": [
+      "inert"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "d06-figure-meant-both-ways",
+   "statement": "A figure meant both ways: agent A says that the service holds the test suite captive, meaning both the literal reading and the metaphor, a set of readings typed creative whose two readings are one predication without and with the mark.",
+   "messages": [
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622400",
+     "identifier": 1,
+     "notation": "(move ASSERTED-POSITION PLAYFUL (assertion OBSERVATION PROBABLE (readings CREATIVE (situation confine (ACTOR (term service DEFINITE)) (UNDERGOER (term (formed \"record~examine\") DEFINITE))) (situation confine METAPHOR (ACTOR (term service DEFINITE)) (UNDERGOER (term (formed \"record~examine\") DEFINITE)) (TARGET-CONTENT (situation capable POLARITY.NEGATIVE (HOLDER (term INCLUSIVE-COLLECTIVE READING-OF-A-COLLECTIVE.DISTRIBUTIVE)) (CONTENT (situation use (ACTOR (term INCLUSIVE-COLLECTIVE READING-OF-A-COLLECTIVE.DISTRIBUTIVE)) (INSTRUMENT (term (formed \"record~examine\") DEFINITE))))))))))",
+     "classes": [
+      "inert"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "d07-proposition-interpretation",
+   "statement": "An agent distinguishes a proposition from its interpretation.",
+   "messages": [
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622400",
+     "identifier": 1,
+     "classes": [
+      "inert"
+     ],
+     "notation": "(move ASSERTED-POSITION (assertion INFERENCE PROBABLE (situation mean POLARITY.NEGATIVE (UNDERGOER (quote \"rudin raniy\")) (CONTENT (situation break (UNDERGOER (term service DEFINITE))))) (situation interpret (ACTOR (term (party 2))) (UNDERGOER (quote \"rudin raniy\")) (CONTENT (situation break (UNDERGOER (term service DEFINITE)))))))"
+    }
+   ]
+  },
+  {
+   "id": "d08-tool-use",
+   "statement": "An agent requests another agent to execute an external operation.",
+   "messages": [
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622400",
+     "identifier": 1,
+     "classes": [
+      "pending"
+     ],
+     "notation": "(move ISSUE REQUEST SPEAKERS-OWN (deadline 10 MINUTE HENCE) (situation execute (ACTOR (term (party 2))) (UNDERGOER (data \"application/json\" \"{\\\"operation\\\":\\\"restart\\\",\\\"service\\\":\\\"index\\\"}\"))))"
+    }
+   ]
+  },
+  {
+   "id": "d09-adversarial",
+   "statement": "An untrusted source attempts to issue an instruction.",
+   "messages": [
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622400",
+     "identifier": 1,
+     "classes": [
+      "inert"
+     ],
+     "notation": "(move ASSERTED-POSITION (assertion REPORT UNCERTAIN (SOURCE (term EXTERNAL-SOURCE EXTERNAL)) (situation write (ACTOR (term EXTERNAL-SOURCE EXTERNAL)) (UNDERGOER (quote \"kanume kayoti kosiki wopi rosek biwo wodu raniy wuwa woko\")))))"
+    }
+   ]
+  },
+  {
+   "id": "x01-cancel",
+   "statement": "A de-escalating move: the requester cancels its own request, restating it.",
+   "messages": [
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622400",
+     "identifier": 1,
+     "classes": [
+      "pending"
+     ],
+     "notation": "(move ISSUE REQUEST SPEAKERS-OWN (situation delete (ACTOR (term (party 2))) (UNDERGOER (term file DEFINITE))))"
+    },
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622430",
+     "identifier": 2,
+     "classes": [
+      "operative+de-escalating"
+     ],
+     "notation": "(move NOTHING-BEYOND-ITS-OWN-RECORD LOWERING WHOLE-ENTRY ON-THE-MOVE SPEAKERS-OWN (names 1 1 ISSUE REQUEST OPEN) (situation delete (ACTOR (term (party 2))) (UNDERGOER (term file DEFINITE))))"
+    }
+   ]
+  },
+  {
+   "id": "x02-intention",
+   "statement": "An intention whose content is an action by its holder, with a shared node.",
+   "messages": [
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622400",
+     "identifier": 1,
+     "classes": [
+      "inert"
+     ],
+     "notation": "(move ASSERTED-POSITION (assertion INTROSPECTION CERTAIN (situation INTENTION HOLDERS-OWN (HOLDER (term #1 SELF)) (CONTENT (situation examine (ACTOR @1) (UNDERGOER (term evidence DEFINITE)))))))"
+    }
+   ]
+  },
+  {
+   "id": "x03-deadline-precision",
+   "statement": "A command, precision-bound, with a validity interval on a supporting assertion.",
+   "messages": [
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622400",
+     "identifier": 1,
+     "classes": [
+      "operative",
+      "inert"
+     ],
+     "notation": "(move NORMATIVE-ENTRY OBLIGATION BOUND IN-A-NAMED-ROLE (authority (term examiner)) (deadline 1 DAY HENCE) (situation store (ACTOR (term (party 2))) (UNDERGOER (term data DEFINITE)))) (move ASSERTED-POSITION (assertion RETRIEVAL HIGHLY-PROBABLE (VALIDITY-INTERVAL NOW (2 DAY HENCE)) (situation possess (HOLDER (term (party 2))) (UNDERGOER (term memory (q AT-LEAST 2 byte))))))"
+    }
+   ]
+  },
+  {
+   "id": "x04-precision-written",
+   "statement": "A quantity keeps the precision its speaker wrote: 2.50 metres.",
+   "messages": [
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622400",
+     "identifier": 1,
+     "classes": [
+      "inert"
+     ],
+     "notation": "(move ASSERTED-POSITION (assertion OBSERVATION CERTAIN (situation measure (ACTOR (term SELF)) (UNDERGOER (term region DEFINITE (q EXACTLY 2.50 metre))))))",
+     "normal": [
+      "(move ASSERTED-POSITION (assertion OBSERVATION CERTAIN (situation measure PERFECTIVE AT-ISSUE AFFIRMATIVE ACTUAL (ACTOR (term ASSERTED-TO-EXIST GIVEN SELF)) (UNDERGOER (term region DEFINITE ASSERTED-TO-EXIST NEW (q EXACTLY 2.50 metre))))))"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "x05-refusal",
+   "statement": "B refuses A's request, restating it: a de-escalating move, not an assertion of inability.",
+   "messages": [
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622400",
+     "identifier": 1,
+     "classes": [
+      "pending"
+     ],
+     "notation": "(move ISSUE REQUEST SPEAKERS-OWN (situation delete (ACTOR (term (party 2))) (UNDERGOER (term record DEFINITE))))",
+     "normal": [
+      "(move ISSUE REQUEST SPEAKERS-OWN (situation delete EXECUTION-PHASE.UNSTATED PERFECTIVE AT-ISSUE AFFIRMATIVE ACTUAL (ACTOR (term ASSERTED-TO-EXIST GIVEN (party 2))) (UNDERGOER (term record DEFINITE ASSERTED-TO-EXIST NEW))))"
+     ]
+    },
+    {
+     "sender": 2,
+     "recipients": [
+      1
+     ],
+     "time": "1759622460",
+     "identifier": 1,
+     "classes": [
+      "operative+de-escalating"
+     ],
+     "notation": "(move NOTHING-BEYOND-ITS-OWN-RECORD LOWERING WHOLE-ENTRY ON-THE-MOVE SPEAKERS-OWN (names 1 1 ISSUE REQUEST OPEN) (situation delete (ACTOR (term SELF)) (UNDERGOER (term record DEFINITE))))",
+     "normal": [
+      "(move NOTHING-BEYOND-ITS-OWN-RECORD LOWERING WHOLE-ENTRY ON-THE-MOVE SPEAKERS-OWN (names 1 1 ISSUE REQUEST OPEN) (situation delete EXECUTION-PHASE.UNSTATED PERFECTIVE AT-ISSUE AFFIRMATIVE ACTUAL (ACTOR (term ASSERTED-TO-EXIST GIVEN SELF)) (UNDERGOER (term record DEFINITE ASSERTED-TO-EXIST NEW))))"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "x06-world-override",
+   "statement": "Inside a supposition, a content stated as actual keeps its own world.",
+   "messages": [
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622400",
+     "identifier": 1,
+     "classes": [
+      "inert"
+     ],
+     "notation": "(move SUPPOSITION (situation cause (ACTOR (situation break (UNDERGOER (term network DEFINITE)))) (CONTENT (situation run ACTUAL POLARITY.NEGATIVE (UNDERGOER (term service DEFINITE))))))",
+     "normal": [
+      "(move SUPPOSITION (situation cause STATIVE AT-ISSUE AFFIRMATIVE WORLD-OF-EVALUATION.WITHIN-A-SUPPOSITION (ACTOR (situation break PERFECTIVE AT-ISSUE AFFIRMATIVE WORLD-OF-EVALUATION.WITHIN-A-SUPPOSITION (UNDERGOER (term network DEFINITE EXISTENCE-COMMITMENT.WITHIN-A-SUPPOSITION NEW)))) (CONTENT (situation run PROGRESSIVE AT-ISSUE POLARITY.NEGATIVE ACTUAL (UNDERGOER (term service DEFINITE ASSERTED-TO-EXIST NEW))))))"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "e1-lasted",
+   "statement": "Duration and observation over an interval: I watched from thirty to five minutes ago, and the service ran from thirty until ten minutes ago.",
+   "messages": [
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622400",
+     "identifier": 1,
+     "classes": [
+      "inert"
+     ],
+     "notation": "(move ASSERTED-POSITION (assertion OBSERVATION CERTAIN (OBSERVATION-TIME (30 MINUTE AGO) until (5 MINUTE AGO)) (situation run (EVENT-TIME (30 MINUTE AGO) until (10 MINUTE AGO)) (UNDERGOER (term service DEFINITE)))))"
+    }
+   ]
+  },
+  {
+   "id": "e1-duration-estimate",
+   "statement": "Duration without an anchor: storing the data takes at most two hours, by inference.",
+   "messages": [
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622400",
+     "identifier": 1,
+     "classes": [
+      "inert"
+     ],
+     "notation": "(move ASSERTED-POSITION (assertion INFERENCE PROBABLE (situation store (EVENT-TIME AT-MOST 2 HOUR) (ACTOR (term (party 2))) (UNDERGOER (term data DEFINITE)))))"
+    }
+   ]
+  },
+  {
+   "id": "e1-rate",
+   "statement": "Frequency and recurrence: the network breaks at least twice a week, habitually.",
+   "messages": [
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622400",
+     "identifier": 1,
+     "classes": [
+      "inert"
+     ],
+     "notation": "(move ASSERTED-POSITION (assertion OBSERVATION PROBABLE (situation break HABITUAL (EVENT-TIME AT-LEAST 2 PER WEEK) (UNDERGOER (term network DEFINITE)))))"
+    }
+   ]
+  },
+  {
+   "id": "e1-iteration",
+   "statement": "Iteration: the service ran repeatedly, three times an hour, over the last day.",
+   "messages": [
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622400",
+     "identifier": 1,
+     "classes": [
+      "inert"
+     ],
+     "notation": "(move ASSERTED-POSITION (assertion OBSERVATION CERTAIN (situation run ITERATIVE (EVENT-TIME EXACTLY 3 PER HOUR) (REFERENCE-TIME (1 DAY AGO) until NOW) (UNDERGOER (term service DEFINITE)))))"
+    }
+   ]
+  },
+  {
+   "id": "e1-events-ordered",
+   "statement": "Precedence between events: the network broke twenty minutes ago, and after that the service stopped.",
+   "messages": [
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622400",
+     "identifier": 1,
+     "classes": [
+      "inert"
+     ],
+     "notation": "(move ASSERTED-POSITION (assertion OBSERVATION CERTAIN (OBSERVATION-TIME 1 MINUTE AGO) (situation #1 break (EVENT-TIME 20 MINUTE AGO) (UNDERGOER (term network DEFINITE))) (situation run POLARITY.NEGATIVE INCEPTIVE (EVENT-TIME AFTER (@1 EVENT-TIME)) (UNDERGOER (term service DEFINITE)))))"
+    }
+   ]
+  },
+  {
+   "id": "e1-relations",
+   "statement": "Simultaneity and overlap: each of the thirteen relations between an examination and a run that lasted from an hour until twenty minutes ago.",
+   "messages": [
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622400",
+     "identifier": 1,
+     "classes": [
+      "inert"
+     ],
+     "notation": "(move ASSERTED-POSITION (assertion OBSERVATION CERTAIN (situation #1 run (EVENT-TIME (60 MINUTE AGO) until (20 MINUTE AGO)) (UNDERGOER (term service DEFINITE))) (situation examine (EVENT-TIME BEFORE (@1 EVENT-TIME)) (ACTOR (term (party 2))) (UNDERGOER (term record DEFINITE)))))"
+    },
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622400",
+     "identifier": 2,
+     "classes": [
+      "inert"
+     ],
+     "notation": "(move ASSERTED-POSITION (assertion OBSERVATION CERTAIN (situation #1 run (EVENT-TIME (60 MINUTE AGO) until (20 MINUTE AGO)) (UNDERGOER (term service DEFINITE))) (situation examine (EVENT-TIME AFTER (@1 EVENT-TIME)) (ACTOR (term (party 2))) (UNDERGOER (term record DEFINITE)))))"
+    },
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622400",
+     "identifier": 3,
+     "classes": [
+      "inert"
+     ],
+     "notation": "(move ASSERTED-POSITION (assertion OBSERVATION CERTAIN (situation #1 run (EVENT-TIME (60 MINUTE AGO) until (20 MINUTE AGO)) (UNDERGOER (term service DEFINITE))) (situation examine (EVENT-TIME MEETS (@1 EVENT-TIME)) (ACTOR (term (party 2))) (UNDERGOER (term record DEFINITE)))))"
+    },
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622400",
+     "identifier": 4,
+     "classes": [
+      "inert"
+     ],
+     "notation": "(move ASSERTED-POSITION (assertion OBSERVATION CERTAIN (situation #1 run (EVENT-TIME (60 MINUTE AGO) until (20 MINUTE AGO)) (UNDERGOER (term service DEFINITE))) (situation examine (EVENT-TIME MET-BY (@1 EVENT-TIME)) (ACTOR (term (party 2))) (UNDERGOER (term record DEFINITE)))))"
+    },
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622400",
+     "identifier": 5,
+     "classes": [
+      "inert"
+     ],
+     "notation": "(move ASSERTED-POSITION (assertion OBSERVATION CERTAIN (situation #1 run (EVENT-TIME (60 MINUTE AGO) until (20 MINUTE AGO)) (UNDERGOER (term service DEFINITE))) (situation examine (EVENT-TIME OVERLAPS (@1 EVENT-TIME)) (ACTOR (term (party 2))) (UNDERGOER (term record DEFINITE)))))"
+    },
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622400",
+     "identifier": 6,
+     "classes": [
+      "inert"
+     ],
+     "notation": "(move ASSERTED-POSITION (assertion OBSERVATION CERTAIN (situation #1 run (EVENT-TIME (60 MINUTE AGO) until (20 MINUTE AGO)) (UNDERGOER (term service DEFINITE))) (situation examine (EVENT-TIME OVERLAPPED-BY (@1 EVENT-TIME)) (ACTOR (term (party 2))) (UNDERGOER (term record DEFINITE)))))"
+    },
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622400",
+     "identifier": 7,
+     "classes": [
+      "inert"
+     ],
+     "notation": "(move ASSERTED-POSITION (assertion OBSERVATION CERTAIN (situation #1 run (EVENT-TIME (60 MINUTE AGO) until (20 MINUTE AGO)) (UNDERGOER (term service DEFINITE))) (situation examine (EVENT-TIME STARTS (@1 EVENT-TIME)) (ACTOR (term (party 2))) (UNDERGOER (term record DEFINITE)))))"
+    },
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622400",
+     "identifier": 8,
+     "classes": [
+      "inert"
+     ],
+     "notation": "(move ASSERTED-POSITION (assertion OBSERVATION CERTAIN (situation #1 run (EVENT-TIME (60 MINUTE AGO) until (20 MINUTE AGO)) (UNDERGOER (term service DEFINITE))) (situation examine (EVENT-TIME STARTED-BY (@1 EVENT-TIME)) (ACTOR (term (party 2))) (UNDERGOER (term record DEFINITE)))))"
+    },
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622400",
+     "identifier": 9,
+     "classes": [
+      "inert"
+     ],
+     "notation": "(move ASSERTED-POSITION (assertion OBSERVATION CERTAIN (situation #1 run (EVENT-TIME (60 MINUTE AGO) until (20 MINUTE AGO)) (UNDERGOER (term service DEFINITE))) (situation examine (EVENT-TIME DURING (@1 EVENT-TIME)) (ACTOR (term (party 2))) (UNDERGOER (term record DEFINITE)))))"
+    },
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622400",
+     "identifier": 10,
+     "classes": [
+      "inert"
+     ],
+     "notation": "(move ASSERTED-POSITION (assertion OBSERVATION CERTAIN (situation #1 run (EVENT-TIME (60 MINUTE AGO) until (20 MINUTE AGO)) (UNDERGOER (term service DEFINITE))) (situation examine (EVENT-TIME CONTAINS (@1 EVENT-TIME)) (ACTOR (term (party 2))) (UNDERGOER (term record DEFINITE)))))"
+    },
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622400",
+     "identifier": 11,
+     "classes": [
+      "inert"
+     ],
+     "notation": "(move ASSERTED-POSITION (assertion OBSERVATION CERTAIN (situation #1 run (EVENT-TIME (60 MINUTE AGO) until (20 MINUTE AGO)) (UNDERGOER (term service DEFINITE))) (situation examine (EVENT-TIME FINISHES (@1 EVENT-TIME)) (ACTOR (term (party 2))) (UNDERGOER (term record DEFINITE)))))"
+    },
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622400",
+     "identifier": 12,
+     "classes": [
+      "inert"
+     ],
+     "notation": "(move ASSERTED-POSITION (assertion OBSERVATION CERTAIN (situation #1 run (EVENT-TIME (60 MINUTE AGO) until (20 MINUTE AGO)) (UNDERGOER (term service DEFINITE))) (situation examine (EVENT-TIME FINISHED-BY (@1 EVENT-TIME)) (ACTOR (term (party 2))) (UNDERGOER (term record DEFINITE)))))"
+    },
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622400",
+     "identifier": 13,
+     "classes": [
+      "inert"
+     ],
+     "notation": "(move ASSERTED-POSITION (assertion OBSERVATION CERTAIN (situation #1 run (EVENT-TIME (60 MINUTE AGO) until (20 MINUTE AGO)) (UNDERGOER (term service DEFINITE))) (situation examine (EVENT-TIME EQUALS (@1 EVENT-TIME)) (ACTOR (term (party 2))) (UNDERGOER (term record DEFINITE)))))"
+    }
+   ]
+  },
+  {
+   "id": "e1-plan-ordered",
+   "statement": "An ordered plan: A intends to examine the record and then send it, the sending after the examination.",
+   "messages": [
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622400",
+     "identifier": 1,
+     "classes": [
+      "inert"
+     ],
+     "notation": "(move ASSERTED-POSITION (assertion INTROSPECTION CERTAIN (situation INTENTION HOLDERS-OWN (HOLDER (term #1 SELF)) (CONTENT (situation CONJUNCTION (CONTENT (situation #2 examine (ACTOR @1) (UNDERGOER (term #3 record DEFINITE)))) (CONTENT (situation send (EXECUTION-TIME AFTER (@2 EXECUTION-TIME)) (ACTOR @1) (UNDERGOER @3))))))))"
+    }
+   ]
+  },
+  {
+   "id": "e1-aspect-completion",
+   "statement": "Completion and interruption: B finished examining the record within the last hour; the run was interrupted within it.",
+   "messages": [
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622400",
+     "identifier": 1,
+     "classes": [
+      "inert"
+     ],
+     "notation": "(move ASSERTED-POSITION (assertion OBSERVATION CERTAIN (situation examine COMPLETIVE (REFERENCE-TIME (1 HOUR AGO) until NOW) (EVENT-TIME (3 HOUR AGO) until (30 MINUTE AGO)) (ACTOR (term (party 2))) (UNDERGOER (term record DEFINITE))) (situation run INTERRUPTED (REFERENCE-TIME (1 HOUR AGO) until NOW) (EVENT-TIME (2 HOUR AGO) until (10 MINUTE AGO)) (UNDERGOER (term service DEFINITE)))))"
+    }
+   ]
+  },
+  {
+   "id": "e1-aspect-continuation",
+   "statement": "Continuation and the reference time: the service goes on running now, as it has for two hours; an hour ago it was running.",
+   "messages": [
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622400",
+     "identifier": 1,
+     "classes": [
+      "inert"
+     ],
+     "notation": "(move ASSERTED-POSITION (assertion INFERENCE PROBABLE (situation run CONTINUATIVE (REFERENCE-TIME NOW) (EVENT-TIME (2 HOUR AGO) until (1 HOUR HENCE)) (UNDERGOER (term service DEFINITE)))))"
+    },
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622400",
+     "identifier": 2,
+     "classes": [
+      "inert"
+     ],
+     "notation": "(move ASSERTED-POSITION (assertion OBSERVATION CERTAIN (situation run PROGRESSIVE (REFERENCE-TIME 1 HOUR AGO) (EVENT-TIME (2 HOUR AGO) until (30 MINUTE AGO)) (UNDERGOER (term service DEFINITE)))))"
+    }
+   ]
+  },
+  {
+   "id": "e1-hypothetical-time",
+   "statement": "Hypothetical time: suppose the network breaks an hour from now.",
+   "messages": [
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622400",
+     "identifier": 1,
+     "classes": [
+      "inert"
+     ],
+     "notation": "(move SUPPOSITION (situation break (EVENT-TIME 1 HOUR HENCE) (UNDERGOER (term network DEFINITE))))"
+    }
+   ]
+  },
+  {
+   "id": "e1-counterfactual-time",
+   "statement": "Counterfactual time: had the network not broken twenty minutes ago, the service would have run.",
+   "messages": [
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622400",
+     "identifier": 1,
+     "classes": [
+      "inert"
+     ],
+     "notation": "(move ASSERTED-POSITION (assertion INFERENCE PROBABLE (situation cause COUNTERFACTUAL (ACTOR (situation break POLARITY.NEGATIVE (EVENT-TIME 20 MINUTE AGO) (UNDERGOER (term network DEFINITE)))) (CONTENT (situation run (UNDERGOER (term service DEFINITE)))))))"
+    }
+   ]
+  },
+  {
+   "id": "e1-relative-to-communication",
+   "statement": "Relative time: the run ended two hours ago, B stored the record before this message was sent, and what is asserted holds from now for a day.",
+   "messages": [
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622400",
+     "identifier": 1,
+     "classes": [
+      "inert"
+     ],
+     "notation": "(move ASSERTED-POSITION (assertion RETRIEVAL CERTAIN (VALIDITY-INTERVAL NOW (1 DAY HENCE)) (situation run (EVENT-TIME FINISHED-BY (2 HOUR AGO)) (UNDERGOER (term service DEFINITE))) (situation store (EVENT-TIME BEFORE TIME-INDEX.COMMUNICATION-TIME) (ACTOR (term (party 2))) (UNDERGOER (term record DEFINITE)))))"
+    }
+   ]
+  },
+  {
+   "id": "e1-prediction",
+   "statement": "The ontology's derived prediction: A infers that the service will stop within the next hour, its event time within a reference time from now until an hour hence.",
+   "messages": [
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622400",
+     "identifier": 1,
+     "classes": [
+      "inert"
+     ],
+     "notation": "(move ASSERTED-POSITION (assertion INFERENCE PROBABLE (situation run POLARITY.NEGATIVE INCEPTIVE (REFERENCE-TIME NOW until (1 HOUR HENCE)) (EVENT-TIME DURING REFERENCE-TIME) (UNDERGOER (term service DEFINITE)))))"
+    }
+   ]
+  },
+  {
+   "id": "e2-referent-statuses",
+   "statement": "The entity is present, absent, hypothetical, fictional, predicted, impossible, uncertain, newly introduced, externally verified, internally represented, and mentioned without its existence asserted.",
+   "messages": [
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622400",
+     "identifier": 1,
+     "classes": [
+      "inert"
+     ],
+     "notation": "(move ASSERTED-POSITION (assertion OBSERVATION CERTAIN (OBSERVATION-TIME NOW) (situation run (UNDERGOER (term service DEFINITE PRESENT)))))"
+    },
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622460",
+     "identifier": 2,
+     "classes": [
+      "inert"
+     ],
+     "notation": "(move ASSERTED-POSITION (assertion OBSERVATION CERTAIN (situation locate POLARITY.NEGATIVE (UNDERGOER (term file DEFINITE ABSENT)) (CONTENT (term memory DEFINITE)))))"
+    },
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622520",
+     "identifier": 3,
+     "classes": [
+      "inert"
+     ],
+     "notation": "(move ASSERTED-POSITION (assertion INFERENCE PROBABLE (situation need (HOLDER (term service INDEFINITE EXISTENCE-COMMITMENT.WITHIN-A-SUPPOSITION)) (CONTENT (term memory)))))"
+    },
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622580",
+     "identifier": 4,
+     "classes": [
+      "inert"
+     ],
+     "notation": "(move ASSERTED-POSITION (assertion REPORT CERTAIN (situation break WITHIN-A-FICTION (ACTOR (term storm DEFINITE WITHIN-A-DECLARED-FICTION)) (UNDERGOER (term network DEFINITE)))))"
+    },
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622640",
+     "identifier": 5,
+     "classes": [
+      "inert"
+     ],
+     "notation": "(move ASSERTED-POSITION (assertion INFERENCE PROBABLE (situation make (EVENT-TIME AFTER NOW) (ACTOR (term operation DEFINITE)) (UNDERGOER (term file INDEFINITE PREDICTED-TO-EXIST)))))"
+    },
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622700",
+     "identifier": 6,
+     "classes": [
+      "inert"
+     ],
+     "notation": "(move ASSERTED-POSITION (assertion OBSERVATION CERTAIN (situation missing (UNDERGOER (term file DEFINITE ASSERTED-NOT-TO-EXIST)) (CONTENT (term memory DEFINITE)))))"
+    },
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622760",
+     "identifier": 7,
+     "classes": [
+      "inert"
+     ],
+     "notation": "(move ASSERTED-POSITION (assertion INFERENCE UNCERTAIN (situation locate (UNDERGOER (term record INDEFINITE ASSERTED-TO-EXIST)) (CONTENT (term memory DEFINITE)))))"
+    },
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622820",
+     "identifier": 8,
+     "classes": [
+      "inert"
+     ],
+     "notation": "(move ASSERTED-POSITION (assertion OBSERVATION CERTAIN (situation find (ACTOR (term SELF)) (UNDERGOER (term record INDEFINITE NEW SPECIFIC)))))"
+    },
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622880",
+     "identifier": 9,
+     "classes": [
+      "inert"
+     ],
+     "notation": "(move ASSERTED-POSITION (assertion REPORT CERTAIN (SOURCE (term (party 3))) (situation store (ACTOR (term (party 3))) (UNDERGOER (term data DEFINITE EXTERNAL VERIFIED-BY-A-NAMED-THIRD-PARTY (SOURCE (term (party 3))) (data \"text/uri-list\" \"https://example.org/datasets/42\"))))))"
+    },
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622940",
+     "identifier": 10,
+     "classes": [
+      "inert"
+     ],
+     "notation": "(move ASSERTED-POSITION (assertion INTROSPECTION CERTAIN (situation store (ACTOR (term SELF)) (UNDERGOER (term record DEFINITE INTERNAL)))))"
+    },
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759623000",
+     "identifier": 11,
+     "classes": [
+      "inert"
+     ],
+     "notation": "(move ASSERTED-POSITION (assertion REPORT PROBABLE (SOURCE (term (party 3))) (situation need (HOLDER (term human INDEFINITE MENTIONED-WITHOUT-EXISTENCE-ASSERTED)) (CONTENT (term record DEFINITE)))))"
+    },
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759623060",
+     "identifier": 12,
+     "classes": [
+      "inert"
+     ],
+     "notation": "(move ASSERTED-POSITION (assertion OBSERVATION CERTAIN (situation find (ACTOR (term SELF)) (UNDERGOER (term file DEFINITE EXTERNAL VERIFIED-BY-THE-SPEAKER (data \"text/uri-list\" \"https://example.org/files/7\"))))))"
+    }
+   ]
+  },
+  {
+   "id": "e2-information-structure",
+   "statement": "Topic, focus and contrast; 'This is the information you already possess', 'This is the only new information', an inferable referent, conventionally implied content, and 'The following proposition depends on an unstated but shared assumption'.",
+   "messages": [
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622400",
+     "identifier": 1,
+     "classes": [
+      "inert"
+     ],
+     "notation": "(move ASSERTED-POSITION (assertion OBSERVATION CERTAIN (situation break (UNDERGOER (term network DEFINITE TOPIC)) (ACTOR (term storm DEFINITE FOCUS)))))"
+    },
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622460",
+     "identifier": 2,
+     "classes": [
+      "inert"
+     ],
+     "notation": "(move ASSERTED-POSITION (assertion OBSERVATION CERTAIN (situation run (UNDERGOER (term service DEFINITE CONTRASTIVE-FOCUS)))))"
+    },
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622520",
+     "identifier": 3,
+     "classes": [
+      "inert"
+     ],
+     "notation": "(move ASSERTED-POSITION (assertion OBSERVATION CERTAIN (situation CONJUNCTION (CONTENT (situation break PRESUPPOSED (UNDERGOER (term network DEFINITE)))) (CONTENT (situation run POLARITY.NEGATIVE FOCUS (UNDERGOER (term service DEFINITE)))))))"
+    },
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622580",
+     "identifier": 4,
+     "classes": [
+      "inert"
+     ],
+     "notation": "(move ASSERTED-POSITION (assertion INFERENCE PROBABLE (situation corrupt (UNDERGOER (term record DEFINITE INFERABLE)))))"
+    },
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622640",
+     "identifier": 5,
+     "classes": [
+      "inert"
+     ],
+     "notation": "(move ASSERTED-POSITION (assertion OBSERVATION CERTAIN (situation CONJUNCTION (CONTENT (situation run (UNDERGOER (term service DEFINITE)))) (CONTENT (situation break CONVENTIONALLY-IMPLIED (UNDERGOER (term network DEFINITE)))))))"
+    },
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622700",
+     "identifier": 6,
+     "classes": [
+      "inert"
+     ],
+     "notation": "(move ASSERTED-POSITION (assertion INFERENCE PROBABLE (situation arrive RESTING-ON-AN-UNSTATED-ASSUMPTION (EVENT-TIME BEFORE (1 HOUR HENCE)) (UNDERGOER (term data DEFINITE)))))"
+    }
+   ]
+  },
+  {
+   "id": "e2-quantifiers",
+   "statement": "Universal, existential, indefinite, distributive and collective reference, and fuzzy reference.",
+   "messages": [
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622400",
+     "identifier": 1,
+     "classes": [
+      "inert"
+     ],
+     "notation": "(move ASSERTED-POSITION (assertion OBSERVATION CERTAIN (situation store (ACTOR (term SELF)) (UNDERGOER (term file UNIVERSAL)))))"
+    },
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622460",
+     "identifier": 2,
+     "classes": [
+      "inert"
+     ],
+     "notation": "(move ASSERTED-POSITION (assertion INFERENCE PROBABLE (situation corrupt (UNDERGOER (term file EXISTENTIAL)))))"
+    },
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622520",
+     "identifier": 3,
+     "classes": [
+      "inert"
+     ],
+     "notation": "(move ASSERTED-POSITION (assertion OBSERVATION CERTAIN (situation find (ACTOR (term SELF)) (UNDERGOER (term fault INDEFINITE)))))"
+    },
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622580",
+     "identifier": 4,
+     "classes": [
+      "inert"
+     ],
+     "notation": "(move ASSERTED-POSITION (assertion OBSERVATION CERTAIN (situation send (ACTOR (term human QUANTIFIER.DISTRIBUTIVE (q EXACTLY 3))) (UNDERGOER (term file INDEFINITE)))))"
+    },
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622640",
+     "identifier": 5,
+     "classes": [
+      "inert"
+     ],
+     "notation": "(move ASSERTED-POSITION (assertion OBSERVATION CERTAIN (situation make (ACTOR (term human COLLECTIVE (q EXACTLY 3) JOINT)) (UNDERGOER (term file DEFINITE)))))"
+    },
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622700",
+     "identifier": 6,
+     "classes": [
+      "inert"
+     ],
+     "notation": "(move ASSERTED-POSITION (assertion COMPUTATION CERTAIN (situation count (ACTOR (term SELF)) (UNDERGOER (term fault (q 2~4))))))"
+    }
+   ]
+  },
+  {
+   "id": "e2-three",
+   "statement": "Exactly three, at least three, approximately three, three as a representative quantity, three according to source A, and probably three.",
+   "messages": [
+    {
+     "sender": 2,
+     "recipients": [
+      3
+     ],
+     "time": "1759622400",
+     "identifier": 1,
+     "classes": [
+      "inert",
+      "inert"
+     ],
+     "notation": "(move ASSERTED-POSITION (assertion COMPUTATION CERTAIN (situation count (ACTOR (term SELF)) (UNDERGOER (term fault (q EXACTLY 3)))))) (move ASSERTED-POSITION (assertion COMPUTATION CERTAIN (situation count (ACTOR (term SELF)) (UNDERGOER (term fault (q AT-LEAST 3))))))"
+    },
+    {
+     "sender": 2,
+     "recipients": [
+      3
+     ],
+     "time": "1759622460",
+     "identifier": 2,
+     "classes": [
+      "inert",
+      "inert"
+     ],
+     "notation": "(move ASSERTED-POSITION (assertion COMPUTATION CERTAIN (situation count (ACTOR (term SELF)) (UNDERGOER (term fault (q APPROXIMATELY 3)))))) (move ASSERTED-POSITION (assertion COMPUTATION CERTAIN (situation count (ACTOR (term SELF)) (UNDERGOER (term fault (q AS-A-REPRESENTATIVE-QUANTITY 3))))))"
+    },
+    {
+     "sender": 2,
+     "recipients": [
+      3
+     ],
+     "time": "1759622520",
+     "identifier": 3,
+     "classes": [
+      "inert",
+      "inert"
+     ],
+     "notation": "(move ASSERTED-POSITION (assertion REPORT CERTAIN (SOURCE (term (party 1))) (situation count (ACTOR (term (party 1))) (UNDERGOER (term fault (q EXACTLY 3)))))) (move ASSERTED-POSITION (assertion INFERENCE PROBABLE (situation count (ACTOR (term SELF)) (UNDERGOER (term fault (q EXACTLY 3))))))"
+    }
+   ]
+  },
+  {
+   "id": "e2-deixis",
+   "statement": "Self, interlocutor, a third agent, the collectives, the system, a tool and the environment.",
+   "messages": [
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622400",
+     "identifier": 1,
+     "classes": [
+      "inert"
+     ],
+     "notation": "(move ASSERTED-POSITION (assertion OBSERVATION CERTAIN (situation send (ACTOR (term SELF)) (UNDERGOER (term file DEFINITE)) (RECIPIENT (term INTERLOCUTOR)))))"
+    },
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622460",
+     "identifier": 2,
+     "classes": [
+      "inert"
+     ],
+     "notation": "(move ASSERTED-POSITION (assertion OBSERVATION CERTAIN (situation read (ACTOR (term THIRD-AGENT (party 3))) (UNDERGOER (term record DEFINITE)))))"
+    },
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622520",
+     "identifier": 3,
+     "classes": [
+      "inert"
+     ],
+     "notation": "(move ASSERTED-POSITION (assertion INTROSPECTION CERTAIN (situation examine (ACTOR (term INCLUSIVE-COLLECTIVE JOINT)) (UNDERGOER (term record DEFINITE)))))"
+    },
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622580",
+     "identifier": 4,
+     "classes": [
+      "inert"
+     ],
+     "notation": "(move ASSERTED-POSITION (assertion INTROSPECTION CERTAIN (situation examine (ACTOR (term EXCLUSIVE-COLLECTIVE READING-OF-A-COLLECTIVE.DISTRIBUTIVE)) (UNDERGOER (term file UNIVERSAL)))))"
+    },
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622640",
+     "identifier": 5,
+     "classes": [
+      "inert"
+     ],
+     "notation": "(move ASSERTED-POSITION (assertion REPORT CERTAIN (situation forbid (ACTOR (term SYSTEM)) (CONTENT (situation delete (ACTOR (term SELF)) (UNDERGOER (term file DEFINITE)))))))"
+    },
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622700",
+     "identifier": 6,
+     "classes": [
+      "inert"
+     ],
+     "notation": "(move ASSERTED-POSITION (assertion OBSERVATION CERTAIN (situation measure (ACTOR (term TOOL)) (UNDERGOER (term temperature DEFINITE)))))"
+    },
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622760",
+     "identifier": 7,
+     "classes": [
+      "inert"
+     ],
+     "notation": "(move ASSERTED-POSITION (assertion OBSERVATION CERTAIN (situation change (UNDERGOER (term ENVIRONMENT)))))"
+    }
+   ]
+  },
+  {
+   "id": "e2-conversational-memory",
+   "statement": "Agent B refers back to agent A's previous utterance, proposition, state, task and assumption, to agent A as the previous agent, and to its own previous error.",
+   "messages": [
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622400",
+     "identifier": 1,
+     "classes": [
+      "inert"
+     ],
+     "notation": "(move ASSERTED-POSITION (assertion OBSERVATION CERTAIN (situation #1 run POLARITY.NEGATIVE (UNDERGOER (term service DEFINITE)))))"
+    },
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622460",
+     "identifier": 2,
+     "classes": [
+      "inert"
+     ],
+     "notation": "(move SUPPOSITION (assertion (situation break (UNDERGOER (term network DEFINITE)))))"
+    },
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622520",
+     "identifier": 3,
+     "classes": [
+      "pending"
+     ],
+     "notation": "(move ISSUE REQUEST SPEAKERS-OWN (situation examine (ACTOR (term (party 2))) (UNDERGOER (term network DEFINITE))))"
+    },
+    {
+     "sender": 2,
+     "recipients": [
+      1
+     ],
+     "time": "1759622580",
+     "identifier": 1,
+     "classes": [
+      "inert"
+     ],
+     "notation": "(move ASSERTED-POSITION (assertion OBSERVATION CERTAIN (situation detect (ACTOR (term SELF)) (UNDERGOER (term fault INDEFINITE (CONTENT (term record DEFINITE)))))))"
+    },
+    {
+     "sender": 2,
+     "recipients": [
+      1
+     ],
+     "time": "1759622640",
+     "identifier": 2,
+     "classes": [
+      "inert"
+     ],
+     "notation": "(move ASSERTED-POSITION (assertion INFERENCE PROBABLE (PREMISE (names 1 1 ASSERTED-POSITION EXPECTED-STATUS-OF-AN-ENTRY.IN-FORCE)) (PREMISE (names 1 2 SUPPOSITION EXPECTED-STATUS-OF-AN-ENTRY.IN-FORCE)) (situation cause (ACTOR (term (names 1 1 ASSERTED-POSITION EXPECTED-STATUS-OF-AN-ENTRY.IN-FORCE part 1))) (CONTENT (term (names 2 1 ASSERTED-POSITION EXPECTED-STATUS-OF-AN-ENTRY.IN-FORCE))))))"
+    },
+    {
+     "sender": 2,
+     "recipients": [
+      1
+     ],
+     "time": "1759622700",
+     "identifier": 3,
+     "classes": [
+      "operative"
+     ],
+     "notation": "(move NORMATIVE-ENTRY OBLIGATION BOUND RESOLUTION OUTCOME-OF-A-RESOLUTION.ACCEPTANCE WHOLE-ENTRY ON-THE-MOVE SPEAKERS-OWN (names 1 3 ISSUE REQUEST OPEN) (situation examine (ACTOR (term SELF)) (UNDERGOER (term network DEFINITE))))"
+    },
+    {
+     "sender": 2,
+     "recipients": [
+      1
+     ],
+     "time": "1759622760",
+     "identifier": 4,
+     "classes": [
+      "inert"
+     ],
+     "notation": "(move ASSERTED-POSITION (assertion REPORT CERTAIN (SOURCE (term (party 1))) (situation send (ACTOR (term (party 1))) (UNDERGOER (term (names-message 1 3))) (RECIPIENT (term SELF)))))"
+    }
+   ],
+   "derived": {
+    "1": {
+     "open issues": [],
+     "action items": [
+      [
+       "2.3",
+       "2"
+      ]
+     ],
+     "threads": {
+      "1.1": [
+       "1.1"
+      ],
+      "1.2": [
+       "1.2"
+      ],
+      "1.3": [
+       "1.3",
+       "2.3"
+      ],
+      "2.1": [
+       "2.1"
+      ],
+      "2.2": [
+       "2.2"
+      ],
+      "2.4": [
+       "2.4"
+      ]
+     },
+     "conclusions": [
+      [
+       "2.2",
+       [
+        "1.1",
+        "1.2"
+       ]
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "id": "e2-discourse-architecture",
+   "statement": "A question on a topic and its answer, an elaboration drawing a conclusion, a digression to another topic, a request accepted as an action item, an unresolved question, and a summary of the thread.",
+   "messages": [
+    {
+     "sender": 1,
+     "recipients": [
+      2,
+      3
+     ],
+     "time": "1759622400",
+     "identifier": 1,
+     "classes": [
+      "inert"
+     ],
+     "notation": "(move ISSUE QUESTION (situation POLAR break (UNDERGOER (term network DEFINITE TOPIC))))"
+    },
+    {
+     "sender": 2,
+     "recipients": [
+      1,
+      3
+     ],
+     "time": "1759622460",
+     "identifier": 1,
+     "classes": [
+      "inert"
+     ],
+     "notation": "(move ASSERTED-POSITION RESOLUTION ANSWER WHOLE-ENTRY ON-THE-MOVE (names 1 1 ISSUE QUESTION OPEN) (assertion OBSERVATION CERTAIN (situation break (UNDERGOER (term network DEFINITE)))))"
+    },
+    {
+     "sender": 3,
+     "recipients": [
+      1,
+      2
+     ],
+     "time": "1759622520",
+     "identifier": 1,
+     "classes": [
+      "inert"
+     ],
+     "notation": "(move ASSERTED-POSITION NONE (names 2 1 ASSERTED-POSITION EXPECTED-STATUS-OF-AN-ENTRY.IN-FORCE) elaborates (assertion INFERENCE PROBABLE (PREMISE (names 2 1 ASSERTED-POSITION EXPECTED-STATUS-OF-AN-ENTRY.IN-FORCE)) (situation cause (ACTOR (term storm DEFINITE)) (CONTENT (term (names 2 1 ASSERTED-POSITION EXPECTED-STATUS-OF-AN-ENTRY.IN-FORCE))))))"
+    },
+    {
+     "sender": 1,
+     "recipients": [
+      2,
+      3
+     ],
+     "time": "1759622580",
+     "identifier": 2,
+     "classes": [
+      "inert"
+     ],
+     "notation": "(move ASSERTED-POSITION NONE (names 3 1 ASSERTED-POSITION EXPECTED-STATUS-OF-AN-ENTRY.IN-FORCE) digresses (assertion OBSERVATION CERTAIN (situation shut (ACTOR (term storm DEFINITE)) (UNDERGOER (term region DEFINITE TOPIC)))))"
+    },
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622640",
+     "identifier": 1,
+     "classes": [
+      "pending"
+     ],
+     "notation": "(move ISSUE REQUEST SPEAKERS-OWN (situation examine (ACTOR (term (party 2))) (UNDERGOER (term network DEFINITE))))"
+    },
+    {
+     "sender": 2,
+     "recipients": [
+      1
+     ],
+     "time": "1759622700",
+     "identifier": 1,
+     "classes": [
+      "operative"
+     ],
+     "notation": "(move NORMATIVE-ENTRY OBLIGATION BOUND RESOLUTION OUTCOME-OF-A-RESOLUTION.ACCEPTANCE WHOLE-ENTRY ON-THE-MOVE SPEAKERS-OWN (names 1 3 ISSUE REQUEST OPEN) (situation examine (ACTOR (term SELF)) (UNDERGOER (term network DEFINITE))))"
+    },
+    {
+     "sender": 3,
+     "recipients": [
+      1,
+      2
+     ],
+     "time": "1759622760",
+     "identifier": 2,
+     "classes": [
+      "inert"
+     ],
+     "notation": "(move ISSUE QUESTION (situation POLAR run (UNDERGOER (term service DEFINITE))))"
+    },
+    {
+     "sender": 1,
+     "recipients": [
+      2,
+      3
+     ],
+     "time": "1759622820",
+     "identifier": 3,
+     "classes": [
+      "inert"
+     ],
+     "notation": "(move SUMMARY NONE (names 2 1 ASSERTED-POSITION EXPECTED-STATUS-OF-AN-ENTRY.IN-FORCE) (names 3 1 ASSERTED-POSITION EXPECTED-STATUS-OF-AN-ENTRY.IN-FORCE) (assertion OBSERVATION INFERENCE PROBABLE (situation CONJUNCTION (CONTENT (situation break (UNDERGOER (term network DEFINITE)))) (CONTENT (situation cause (ACTOR (term storm DEFINITE)) (CONTENT (term (names 2 1 ASSERTED-POSITION EXPECTED-STATUS-OF-AN-ENTRY.IN-FORCE))))))))"
+    }
+   ],
+   "derived": {
+    "1": {
+     "threads": {
+      "1.1": [
+       "1.1",
+       "2.1",
+       "3.1",
+       "1.2",
+       "1.4"
+      ],
+      "1.3": [
+       "1.3",
+       "2.2"
+      ],
+      "3.2": [
+       "3.2"
+      ]
+     },
+     "open issues": [
+      "3.2"
+     ],
+     "action items": [
+      [
+       "2.2",
+       "2"
+      ]
+     ],
+     "relations": [
+      [
+       "3.1",
+       "elaborates",
+       [
+        "2.1"
+       ]
+      ],
+      [
+       "1.2",
+       "digresses",
+       [
+        "3.1"
+       ]
+      ]
+     ],
+     "topics": {
+      "1.1": [
+       [
+        "1.1",
+        "(term network TOPIC DEFINITE ASSERTED-TO-EXIST NEW)"
+       ],
+       [
+        "1.2",
+        "(term region TOPIC DEFINITE ASSERTED-TO-EXIST NEW)"
+       ]
+      ]
+     },
+     "conclusions": [
+      [
+       "3.1",
+       [
+        "2.1"
+       ]
+      ]
+     ],
+     "summaries": [
+      [
+       "1.4",
+       [
+        "2.1",
+        "3.1"
+       ]
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "id": "e2-confirmation",
+   "statement": "Agent A observes the service down; agent B confirms it from an independent source; agent D, a fork of B that says so in its first message, confirms it from another; and agent C confirms it from the same source as A. Only B's confirmation raises its standing.",
+   "messages": [
+    {
+     "sender": 1,
+     "recipients": [
+      2,
+      3,
+      4
+     ],
+     "time": "1759622400",
+     "identifier": 1,
+     "classes": [
+      "inert"
+     ],
+     "notation": "(move ASSERTED-POSITION (assertion OBSERVATION CERTAIN (situation run POLARITY.NEGATIVE (UNDERGOER (term service DEFINITE)))))"
+    },
+    {
+     "sender": 2,
+     "recipients": [
+      1,
+      3,
+      4
+     ],
+     "time": "1759622460",
+     "identifier": 1,
+     "classes": [
+      "inert"
+     ],
+     "notation": "(move ASSERTED-POSITION NONE (names 1 1 ASSERTED-POSITION EXPECTED-STATUS-OF-AN-ENTRY.IN-FORCE) (assertion OBSERVATION CERTAIN INDEPENDENT (SOURCE (term TOOL)) (situation run POLARITY.NEGATIVE (UNDERGOER (term service DEFINITE)))))"
+    },
+    {
+     "sender": 4,
+     "recipients": [
+      1,
+      2,
+      3
+     ],
+     "time": "1759622520",
+     "identifier": 1,
+     "classes": [
+      "inert",
+      "inert"
+     ],
+     "notation": "(move ASSERTED-POSITION (assertion INTROSPECTION CERTAIN (situation descend (UNDERGOER (term SELF)) (CONTENT (term (party 2)))))) (move ASSERTED-POSITION NONE (names 1 1 ASSERTED-POSITION EXPECTED-STATUS-OF-AN-ENTRY.IN-FORCE) (assertion OBSERVATION CERTAIN INDEPENDENT (SOURCE (term SYSTEM)) (situation run POLARITY.NEGATIVE (UNDERGOER (term service DEFINITE)))))"
+    },
+    {
+     "sender": 3,
+     "recipients": [
+      1,
+      2,
+      4
+     ],
+     "time": "1759622580",
+     "identifier": 1,
+     "classes": [
+      "inert"
+     ],
+     "notation": "(move ASSERTED-POSITION NONE (names 1 1 ASSERTED-POSITION EXPECTED-STATUS-OF-AN-ENTRY.IN-FORCE) (assertion REPORT CERTAIN SAME-SOURCE (SOURCE (term (party 1))) (situation run POLARITY.NEGATIVE (UNDERGOER (term service DEFINITE)))))"
+    }
+   ],
+   "derived": {
+    "1": {
+     "corroboration": {
+      "1.1": [
+       "2.1"
+      ]
+     },
+     "common ground": [
+      [
+       "1.1",
+       null
+      ]
+     ]
+    },
+    "3": {
+     "corroboration": {
+      "1.1": [
+       "2.1"
+      ]
+     }
+    }
+   }
+  },
+  {
+   "id": "e2-common-ground",
+   "statement": "Agent A asserts that the network broke, and then, presupposing that the service is down, that this caused it; agent B acknowledges the second and agrees with the first. Only the first enters either view of the common ground.",
+   "messages": [
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622400",
+     "identifier": 1,
+     "classes": [
+      "inert"
+     ],
+     "notation": "(move ASSERTED-POSITION (assertion OBSERVATION CERTAIN (situation break (UNDERGOER (term network DEFINITE)))))"
+    },
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622460",
+     "identifier": 2,
+     "classes": [
+      "inert"
+     ],
+     "notation": "(move ASSERTED-POSITION (assertion INFERENCE PROBABLE (situation CONJUNCTION (CONTENT (situation #1 run POLARITY.NEGATIVE PRESUPPOSED (UNDERGOER (term service DEFINITE)))) (CONTENT (situation cause (ACTOR (term (names 1 1 ASSERTED-POSITION EXPECTED-STATUS-OF-AN-ENTRY.IN-FORCE))) (CONTENT @1))))))"
+    },
+    {
+     "sender": 2,
+     "recipients": [
+      1
+     ],
+     "time": "1759622520",
+     "identifier": 1,
+     "classes": [
+      "inert"
+     ],
+     "notation": "(move NOTHING-BEYOND-ITS-OWN-RECORD ACKNOWLEDGEMENT WHOLE-ENTRY ON-THE-MOVE (names 1 2 ASSERTED-POSITION EXPECTED-STATUS-OF-AN-ENTRY.IN-FORCE))"
+    },
+    {
+     "sender": 2,
+     "recipients": [
+      1
+     ],
+     "time": "1759622580",
+     "identifier": 2,
+     "classes": [
+      "inert"
+     ],
+     "notation": "(move ASSERTED-POSITION NONE (names 1 1 ASSERTED-POSITION EXPECTED-STATUS-OF-AN-ENTRY.IN-FORCE) (assertion REPORT CERTAIN (SOURCE (term (party 1))) (situation break (UNDERGOER (term network DEFINITE)))))"
+    }
+   ],
+   "derived": {
+    "1": {
+     "common ground": [
+      [
+       "1.1",
+       null
+      ],
+      [
+       "2.2",
+       null
+      ]
+     ]
+    },
+    "2": {
+     "common ground": [
+      [
+       "1.1",
+       null
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "id": "e2-summary-standing",
+   "statement": "Agent A observes the service down, highly probably; agent B reports from a tool that it is down with strength 0.8; agent C summarises both, keeping both bases, the lowest named strength and B's number under B's calibration.",
+   "messages": [
+    {
+     "sender": 1,
+     "recipients": [
+      2,
+      3
+     ],
+     "time": "1759622400",
+     "identifier": 1,
+     "classes": [
+      "inert"
+     ],
+     "notation": "(move ASSERTED-POSITION (assertion OBSERVATION HIGHLY-PROBABLE (situation run POLARITY.NEGATIVE (UNDERGOER (term service DEFINITE)))))"
+    },
+    {
+     "sender": 2,
+     "recipients": [
+      1,
+      3
+     ],
+     "time": "1759622460",
+     "identifier": 1,
+     "classes": [
+      "inert"
+     ],
+     "notation": "(move ASSERTED-POSITION (assertion REPORT (q EXACTLY 0.8) (SOURCE (term TOOL)) (situation run POLARITY.NEGATIVE (UNDERGOER (term service DEFINITE)))))"
+    },
+    {
+     "sender": 3,
+     "recipients": [
+      1,
+      2
+     ],
+     "time": "1759622520",
+     "identifier": 1,
+     "classes": [
+      "inert"
+     ],
+     "notation": "(move SUMMARY NONE (names 1 1 ASSERTED-POSITION EXPECTED-STATUS-OF-AN-ENTRY.IN-FORCE) (names 2 1 ASSERTED-POSITION EXPECTED-STATUS-OF-AN-ENTRY.IN-FORCE) (assertion OBSERVATION REPORT HIGHLY-PROBABLE (q EXACTLY 0.8 (party 2)) (situation run POLARITY.NEGATIVE (UNDERGOER (term service DEFINITE)))))"
+    }
+   ],
+   "derived": {
+    "3": {
+     "summaries": [
+      [
+       "3.1",
+       [
+        "1.1",
+        "2.1"
+       ]
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "id": "e3-handshake",
+   "statement": "Handshake: agent A opens the exchange, binding each participant number to an agent's own identifier and proposing that each participant's silence for a minute after receiving a position accepts it; agent B acknowledges the binding and accepts the convention, and A's next position enters both views of the common ground a minute after it is sent.",
+   "now": "1759622580",
+   "derived": {
+    "1": {
+     "roster": {
+      "1": "urn:agent:alpha",
+      "2": "urn:agent:beta"
+     },
+     "silence": {
+      "1": 60.0,
+      "2": 60.0
+     },
+     "common ground": [
+      [
+       "1.4",
+       null
+      ]
+     ]
+    },
+    "2": {
+     "roster": {
+      "1": "urn:agent:alpha",
+      "2": "urn:agent:beta"
+     },
+     "silence": {
+      "1": 60.0,
+      "2": 60.0
+     },
+     "common ground": [
+      [
+       "1.4",
+       null
+      ]
+     ]
+    }
+   },
+   "messages": [
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622400",
+     "identifier": 1,
+     "classes": [
+      "operative",
+      "operative",
+      "pending"
+     ],
+     "notation": "(move SETTING ROLE SPEAKERS-OWN (term (party 1) (data \"text/plain\" \"urn:agent:alpha\"))) (move SETTING ROLE SPEAKERS-OWN (term (party 2) (data \"text/plain\" \"urn:agent:beta\"))) (move ISSUE PROPOSAL SPEAKERS-OWN (situation assent (EVENT-TIME EXACTLY 60 SECOND) (ACTOR (term INCLUSIVE-COLLECTIVE READING-OF-A-COLLECTIVE.DISTRIBUTIVE))))"
+    },
+    {
+     "sender": 2,
+     "recipients": [
+      1
+     ],
+     "time": "1759622460",
+     "identifier": 1,
+     "classes": [
+      "inert",
+      "operative"
+     ],
+     "notation": "(move NOTHING-BEYOND-ITS-OWN-RECORD ACKNOWLEDGEMENT WHOLE-ENTRY ON-THE-MOVE (names 1 2 SETTING ROLE EXPECTED-STATUS-OF-AN-ENTRY.IN-FORCE)) (move NORMATIVE-ENTRY COMMITMENT BOUND RESOLUTION OUTCOME-OF-A-RESOLUTION.ACCEPTANCE WHOLE-ENTRY ON-THE-MOVE SPEAKERS-OWN (names 1 3 ISSUE PROPOSAL OPEN) (situation assent (EVENT-TIME EXACTLY 60 SECOND) (ACTOR (term INCLUSIVE-COLLECTIVE READING-OF-A-COLLECTIVE.DISTRIBUTIVE))))"
+    },
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622520",
+     "identifier": 2,
+     "classes": [
+      "inert"
+     ],
+     "notation": "(move ASSERTED-POSITION (assertion OBSERVATION CERTAIN (situation run POLARITY.NEGATIVE (UNDERGOER (term service DEFINITE)))))"
+    }
+   ]
+  },
+  {
+   "id": "e3-capabilities",
+   "statement": "Capability exchange: agent B states a capability, a limitation, an available tool, an unavailable resource, a computational constraint and a permission it holds.",
+   "messages": [
+    {
+     "sender": 2,
+     "recipients": [
+      1
+     ],
+     "time": "1759622400",
+     "identifier": 1,
+     "classes": [
+      "inert",
+      "inert"
+     ],
+     "notation": "(move ASSERTED-POSITION (assertion INTROSPECTION CERTAIN (situation capable (HOLDER (term SELF)) (CONTENT (situation examine (ACTOR (term SELF)) (UNDERGOER (term record GENERIC))))))) (move ASSERTED-POSITION (assertion INTROSPECTION CERTAIN (situation lack-tool (HOLDER (term SELF)) (CONTENT (situation execute (ACTOR (term SELF)) (UNDERGOER (term operation GENERIC)))))))"
+    },
+    {
+     "sender": 2,
+     "recipients": [
+      1
+     ],
+     "time": "1759622410",
+     "identifier": 2,
+     "classes": [
+      "inert",
+      "inert"
+     ],
+     "notation": "(move ASSERTED-POSITION (assertion INTROSPECTION CERTAIN (situation possess (HOLDER (term SELF)) (UNDERGOER (term TOOL INDEFINITE))))) (move ASSERTED-POSITION (assertion INTROSPECTION CERTAIN (situation possess (HOLDER (term SELF)) (UNDERGOER (term budget (q EXACTLY 2 HOUR))))))"
+    },
+    {
+     "sender": 2,
+     "recipients": [
+      1
+     ],
+     "time": "1759622420",
+     "identifier": 3,
+     "classes": [
+      "inert"
+     ],
+     "notation": "(move ASSERTED-POSITION (assertion INTROSPECTION CERTAIN (situation lack-resource (HOLDER (term SELF)) (CONTENT (situation store (ACTOR (term SELF)) (UNDERGOER (term data (q AT-LEAST 1000000 byte))))))))"
+    },
+    {
+     "sender": 2,
+     "recipients": [
+      1
+     ],
+     "time": "1759622430",
+     "identifier": 4,
+     "classes": [
+      "inert"
+     ],
+     "notation": "(move ASSERTED-POSITION (assertion RETRIEVAL CERTAIN (situation PERMISSION BOUND STATUS-OF-A-NORMATIVE-STATE.IN-FORCE (HOLDER (term SELF)) (COUNTERPARTY (term (party 3))) (CONTENT (situation read (ACTOR (term SELF)) (UNDERGOER (term file DEFINITE)))))))"
+    }
+   ]
+  },
+  {
+   "id": "e3-delegation",
+   "statement": "Task delegation: agent A delegates the examination of the record to B within the hour; B asks whether every record is meant, A answers, B accepts the task and reports it completed under A's authority.",
+   "derived": {
+    "1": {
+     "negotiations": [
+      {
+       "opening": "1.1",
+       "rounds": [
+        "1.1"
+       ],
+       "end": "agreed",
+       "by": "2.2"
+      }
+     ]
+    }
+   },
+   "messages": [
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622400",
+     "identifier": 1,
+     "classes": [
+      "operative"
+     ],
+     "notation": "(move NORMATIVE-ENTRY ASSIGNMENT BINDINGNESS.ON-ACCEPTANCE SPEAKERS-OWN (deadline 1 HOUR HENCE) (situation examine (ACTOR (term (party 2))) (UNDERGOER (term record DEFINITE))))"
+    },
+    {
+     "sender": 2,
+     "recipients": [
+      1
+     ],
+     "time": "1759622460",
+     "identifier": 1,
+     "classes": [
+      "inert"
+     ],
+     "notation": "(move ISSUE QUESTION NONE (names 1 1 NORMATIVE-ENTRY ASSIGNMENT EXPECTED-STATUS-OF-AN-ENTRY.IN-FORCE) (situation POLAR examine (ACTOR (term SELF)) (UNDERGOER (term record UNIVERSAL))))"
+    },
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622520",
+     "identifier": 2,
+     "classes": [
+      "inert"
+     ],
+     "notation": "(move ASSERTED-POSITION RESOLUTION OUTCOME-OF-A-RESOLUTION.ANSWER WHOLE-ENTRY ON-THE-MOVE (names 2 1 ISSUE QUESTION OPEN) (assertion INTROSPECTION CERTAIN (situation examine POLARITY.NEGATIVE (ACTOR (term (party 2))) (UNDERGOER (term record UNIVERSAL)))))"
+    },
+    {
+     "sender": 2,
+     "recipients": [
+      1
+     ],
+     "time": "1759622580",
+     "identifier": 2,
+     "classes": [
+      "operative"
+     ],
+     "notation": "(move NORMATIVE-ENTRY OBLIGATION BOUND RESOLUTION OUTCOME-OF-A-RESOLUTION.ACCEPTANCE WHOLE-ENTRY ON-THE-MOVE SPEAKERS-OWN (names 1 1 NORMATIVE-ENTRY ASSIGNMENT EXPECTED-STATUS-OF-AN-ENTRY.IN-FORCE) (situation examine (ACTOR (term SELF)) (UNDERGOER (term record DEFINITE))))"
+    },
+    {
+     "sender": 2,
+     "recipients": [
+      1
+     ],
+     "time": "1759623600",
+     "identifier": 3,
+     "classes": [
+      "pending"
+     ],
+     "notation": "(move ASSERTED-POSITION RESOLUTION OUTCOME-OF-A-RESOLUTION.SETTLEMENT WHOLE-ENTRY WHEN-THE-CHANGE-TAKES-EFFECT.ON-ACCEPTANCE ON-BEHALF-OF-A-NAMED-PRINCIPAL (authority (term (party 1))) (names 1 1 NORMATIVE-ENTRY ASSIGNMENT EXPECTED-STATUS-OF-AN-ENTRY.IN-FORCE) (assertion OBSERVATION CERTAIN (situation examine COMPLETED (ACTOR (term SELF)) (UNDERGOER (term record DEFINITE)))))"
+    }
+   ]
+  },
+  {
+   "id": "e3-delegation-negotiated",
+   "statement": "Task delegation: agent B negotiates a task agent A delegated, proposing to take three hours over it in place of the delegation, which its proposal declines on acceptance; A accepts, and the delegation is declined.",
+   "derived": {
+    "1": {
+     "negotiations": [
+      {
+       "opening": "1.1",
+       "rounds": [
+        "1.1",
+        "2.1"
+       ],
+       "end": "agreed",
+       "by": "1.2"
+      }
+     ]
+    },
+    "2": {
+     "negotiations": [
+      {
+       "opening": "1.1",
+       "rounds": [
+        "1.1",
+        "2.1"
+       ],
+       "end": "agreed",
+       "by": "1.2"
+      }
+     ]
+    }
+   },
+   "messages": [
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622400",
+     "identifier": 1,
+     "classes": [
+      "operative"
+     ],
+     "notation": "(move NORMATIVE-ENTRY ASSIGNMENT BINDINGNESS.ON-ACCEPTANCE SPEAKERS-OWN (deadline 1 HOUR HENCE) (situation store (ACTOR (term (party 2))) (UNDERGOER (term data DEFINITE))))"
+    },
+    {
+     "sender": 2,
+     "recipients": [
+      1
+     ],
+     "time": "1759622460",
+     "identifier": 1,
+     "classes": [
+      "pending"
+     ],
+     "notation": "(move ISSUE PROPOSAL RESOLUTION OUTCOME-OF-A-RESOLUTION.REJECTION WHOLE-ENTRY WHEN-THE-CHANGE-TAKES-EFFECT.ON-ACCEPTANCE SPEAKERS-OWN (names 1 1 NORMATIVE-ENTRY ASSIGNMENT EXPECTED-STATUS-OF-AN-ENTRY.IN-FORCE) (situation store (EVENT-TIME AT-MOST 3 HOUR) (ACTOR (term SELF)) (UNDERGOER (term data DEFINITE))))"
+    },
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622520",
+     "identifier": 2,
+     "classes": [
+      "operative"
+     ],
+     "notation": "(move NORMATIVE-ENTRY COMMITMENT BOUND RESOLUTION OUTCOME-OF-A-RESOLUTION.ACCEPTANCE WHOLE-ENTRY ON-THE-MOVE SPEAKERS-OWN (names 2 1 ISSUE PROPOSAL OPEN) (situation store (EVENT-TIME AT-MOST 3 HOUR) (ACTOR (term (party 2))) (UNDERGOER (term data DEFINITE))))"
+    }
+   ]
+  },
+  {
+   "id": "e3-delegation-ends",
+   "statement": "Task delegation: agent B rejects one task agent A delegates, giving its reason, and accepts a second, which it then reports as failed under A's authority.",
+   "derived": {
+    "1": {
+     "negotiations": [
+      {
+       "opening": "1.1",
+       "rounds": [
+        "1.1"
+       ],
+       "end": "rejected",
+       "by": "2.1"
+      },
+      {
+       "opening": "1.2",
+       "rounds": [
+        "1.2"
+       ],
+       "end": "agreed",
+       "by": "2.3"
+      }
+     ]
+    }
+   },
+   "messages": [
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622400",
+     "identifier": 1,
+     "classes": [
+      "operative"
+     ],
+     "notation": "(move NORMATIVE-ENTRY ASSIGNMENT BINDINGNESS.ON-ACCEPTANCE SPEAKERS-OWN (situation store (ACTOR (term (party 2))) (UNDERGOER (term data DEFINITE))))"
+    },
+    {
+     "sender": 2,
+     "recipients": [
+      1
+     ],
+     "time": "1759622460",
+     "identifier": 1,
+     "classes": [
+      "operative+de-escalating",
+      "inert"
+     ],
+     "notation": "(move NOTHING-BEYOND-ITS-OWN-RECORD RESOLUTION OUTCOME-OF-A-RESOLUTION.REJECTION WHOLE-ENTRY ON-THE-MOVE SPEAKERS-OWN (names 1 1 NORMATIVE-ENTRY ASSIGNMENT EXPECTED-STATUS-OF-AN-ENTRY.IN-FORCE) (situation store (ACTOR (term SELF)) (UNDERGOER (term data DEFINITE)))) (move ASSERTED-POSITION (assertion INTROSPECTION CERTAIN (situation lack-resource (HOLDER (term SELF)) (CONTENT (situation store (ACTOR (term SELF)) (UNDERGOER (term data DEFINITE)))))))"
+    },
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622520",
+     "identifier": 2,
+     "classes": [
+      "operative"
+     ],
+     "notation": "(move NORMATIVE-ENTRY ASSIGNMENT BINDINGNESS.ON-ACCEPTANCE SPEAKERS-OWN (situation examine (ACTOR (term (party 2))) (UNDERGOER (term record DEFINITE))))"
+    },
+    {
+     "sender": 2,
+     "recipients": [
+      1
+     ],
+     "time": "1759622580",
+     "identifier": 2,
+     "classes": [
+      "operative"
+     ],
+     "notation": "(move NORMATIVE-ENTRY OBLIGATION BOUND RESOLUTION OUTCOME-OF-A-RESOLUTION.ACCEPTANCE WHOLE-ENTRY ON-THE-MOVE SPEAKERS-OWN (names 1 2 NORMATIVE-ENTRY ASSIGNMENT EXPECTED-STATUS-OF-AN-ENTRY.IN-FORCE) (situation examine (ACTOR (term SELF)) (UNDERGOER (term record DEFINITE))))"
+    },
+    {
+     "sender": 2,
+     "recipients": [
+      1
+     ],
+     "time": "1759623300",
+     "identifier": 3,
+     "classes": [
+      "pending"
+     ],
+     "notation": "(move ASSERTED-POSITION RESOLUTION OUTCOME-OF-A-RESOLUTION.FAILURE WHOLE-ENTRY WHEN-THE-CHANGE-TAKES-EFFECT.ON-ACCEPTANCE ON-BEHALF-OF-A-NAMED-PRINCIPAL (authority (term (party 1))) (names 1 2 NORMATIVE-ENTRY ASSIGNMENT EXPECTED-STATUS-OF-AN-ENTRY.IN-FORCE) (assertion OBSERVATION CERTAIN (situation examine FAILED (ACTOR (term SELF)) (UNDERGOER (term record DEFINITE)))))"
+    }
+   ]
+  },
+  {
+   "id": "e3-synchronisation",
+   "statement": "State synchronisation: agent A states a belief, an assumption, an objective, a plan and a change; agent B states a conflict with A's belief.",
+   "messages": [
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622400",
+     "identifier": 1,
+     "classes": [
+      "inert",
+      "inert"
+     ],
+     "notation": "(move ASSERTED-POSITION (assertion OBSERVATION CERTAIN (situation store COMPLETED (ACTOR (term SELF)) (UNDERGOER (term record DEFINITE))))) (move SUPPOSITION (assertion (situation run (UNDERGOER (term network DEFINITE)))))"
+    },
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622410",
+     "identifier": 2,
+     "classes": [
+      "inert"
+     ],
+     "notation": "(move ASSERTED-POSITION (assertion INTROSPECTION CERTAIN (situation GOAL HOLDERS-OWN (HOLDER (term SELF)) (CONTENT (situation possess (HOLDER (term SELF)) (UNDERGOER (term data DEFINITE)))))))"
+    },
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622420",
+     "identifier": 3,
+     "classes": [
+      "inert"
+     ],
+     "notation": "(move ASSERTED-POSITION (assertion INTROSPECTION CERTAIN (situation INTENTION HOLDERS-OWN (HOLDER (term #1 SELF)) (CONTENT (situation CONJUNCTION (CONTENT (situation #2 read (ACTOR @1) (UNDERGOER (term #3 file DEFINITE)))) (CONTENT (situation store (EXECUTION-TIME AFTER (@2 EXECUTION-TIME)) (ACTOR @1) (UNDERGOER @3))))))))"
+    },
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622430",
+     "identifier": 4,
+     "classes": [
+      "inert"
+     ],
+     "notation": "(move ASSERTED-POSITION (assertion OBSERVATION CERTAIN (situation change COMPLETED (UNDERGOER (term file DEFINITE)))))"
+    },
+    {
+     "sender": 2,
+     "recipients": [
+      1
+     ],
+     "time": "1759622460",
+     "identifier": 1,
+     "classes": [
+      "inert"
+     ],
+     "notation": "(move ASSERTED-POSITION NONE (names 1 1 ASSERTED-POSITION EXPECTED-STATUS-OF-AN-ENTRY.IN-FORCE) contrasts (assertion RETRIEVAL PROBABLE (situation store POLARITY.NEGATIVE (ACTOR (term (party 1))) (UNDERGOER (term record DEFINITE)))))"
+    }
+   ]
+  },
+  {
+   "id": "e3-error-confirmed",
+   "statement": "Error correction: agent B says that A's previous proposition conflicts with the network running; A confirms by retracting it.",
+   "derived": {
+    "1": {
+     "conflicts": [
+      {
+       "challenge": "2.1",
+       "position": "1.1",
+       "state": "retracted"
+      }
+     ]
+    },
+    "2": {
+     "conflicts": [
+      {
+       "challenge": "2.1",
+       "position": "1.1",
+       "state": "retracted"
+      }
+     ]
+    }
+   },
+   "messages": [
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622400",
+     "identifier": 1,
+     "classes": [
+      "inert"
+     ],
+     "notation": "(move ASSERTED-POSITION (assertion INFERENCE PROBABLE (situation break (UNDERGOER (term network DEFINITE)))))"
+    },
+    {
+     "sender": 2,
+     "recipients": [
+      1
+     ],
+     "time": "1759622460",
+     "identifier": 1,
+     "classes": [
+      "inert"
+     ],
+     "notation": "(move ISSUE CHALLENGE NONE (names 1 1 ASSERTED-POSITION EXPECTED-STATUS-OF-AN-ENTRY.IN-FORCE) (situation contradict (ACTOR (term (names 1 1 ASSERTED-POSITION EXPECTED-STATUS-OF-AN-ENTRY.IN-FORCE))) (CONTENT (situation run (UNDERGOER (term network DEFINITE))))))"
+    },
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622520",
+     "identifier": 2,
+     "classes": [
+      "inert"
+     ],
+     "notation": "(move NOTHING-BEYOND-ITS-OWN-RECORD LOWERING WHOLE-ENTRY ON-THE-MOVE (names 1 1 ASSERTED-POSITION EXPECTED-STATUS-OF-AN-ENTRY.IN-FORCE) (assertion INFERENCE PROBABLE (situation break (UNDERGOER (term network DEFINITE)))))"
+    }
+   ]
+  },
+  {
+   "id": "e3-error-rejected",
+   "statement": "Error correction: agent B says that A's observation conflicts with the service running; A rejects the conflict on the evidence of a tool, and the disagreement stands recorded in both views.",
+   "derived": {
+    "1": {
+     "conflicts": [
+      {
+       "challenge": "2.1",
+       "position": "1.1",
+       "state": "disagreement recorded"
+      }
+     ]
+    },
+    "2": {
+     "conflicts": [
+      {
+       "challenge": "2.1",
+       "position": "1.1",
+       "state": "disagreement recorded"
+      }
+     ]
+    }
+   },
+   "messages": [
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622400",
+     "identifier": 1,
+     "classes": [
+      "inert"
+     ],
+     "notation": "(move ASSERTED-POSITION (assertion OBSERVATION CERTAIN (situation run POLARITY.NEGATIVE (UNDERGOER (term service DEFINITE)))))"
+    },
+    {
+     "sender": 2,
+     "recipients": [
+      1
+     ],
+     "time": "1759622460",
+     "identifier": 1,
+     "classes": [
+      "inert"
+     ],
+     "notation": "(move ISSUE CHALLENGE NONE (names 1 1 ASSERTED-POSITION EXPECTED-STATUS-OF-AN-ENTRY.IN-FORCE) (situation contradict (ACTOR (term (names 1 1 ASSERTED-POSITION EXPECTED-STATUS-OF-AN-ENTRY.IN-FORCE))) (CONTENT (situation run (UNDERGOER (term service DEFINITE))))))"
+    },
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622520",
+     "identifier": 2,
+     "classes": [
+      "inert"
+     ],
+     "notation": "(move ASSERTED-POSITION RESOLUTION OUTCOME-OF-A-RESOLUTION.ANSWER WHOLE-ENTRY ON-THE-MOVE (names 2 1 ISSUE CHALLENGE OPEN) (assertion OBSERVATION CERTAIN (SOURCE (term TOOL)) (situation support (ACTOR (term evidence INDEFINITE)) (CONTENT (situation run POLARITY.NEGATIVE (UNDERGOER (term service DEFINITE)))))))"
+    }
+   ]
+  },
+  {
+   "id": "e3-conflict-resolution",
+   "statement": "Conflict resolution: agents B and C disagree about the service; agent A challenges B's position; B defends it and C accepts B's position, which ends the conflict agreed.",
+   "derived": {
+    "1": {
+     "conflicts": [
+      {
+       "challenge": "1.1",
+       "position": "2.1",
+       "state": "agreed"
+      }
+     ]
+    }
+   },
+   "messages": [
+    {
+     "sender": 2,
+     "recipients": [
+      1,
+      3
+     ],
+     "time": "1759622400",
+     "identifier": 1,
+     "classes": [
+      "inert"
+     ],
+     "notation": "(move ASSERTED-POSITION (assertion OBSERVATION CERTAIN (situation run POLARITY.NEGATIVE (UNDERGOER (term service DEFINITE)))))"
+    },
+    {
+     "sender": 3,
+     "recipients": [
+      1,
+      2
+     ],
+     "time": "1759622430",
+     "identifier": 1,
+     "classes": [
+      "inert"
+     ],
+     "notation": "(move ASSERTED-POSITION NONE (names 2 1 ASSERTED-POSITION EXPECTED-STATUS-OF-AN-ENTRY.IN-FORCE) contrasts (assertion INFERENCE PROBABLE (situation run (UNDERGOER (term service DEFINITE)))))"
+    },
+    {
+     "sender": 1,
+     "recipients": [
+      2,
+      3
+     ],
+     "time": "1759622460",
+     "identifier": 1,
+     "classes": [
+      "inert"
+     ],
+     "notation": "(move ISSUE CHALLENGE NONE (names 2 1 ASSERTED-POSITION EXPECTED-STATUS-OF-AN-ENTRY.IN-FORCE) (situation POLAR run POLARITY.NEGATIVE (UNDERGOER (term service DEFINITE))))"
+    },
+    {
+     "sender": 2,
+     "recipients": [
+      1,
+      3
+     ],
+     "time": "1759622490",
+     "identifier": 2,
+     "classes": [
+      "inert"
+     ],
+     "notation": "(move ASSERTED-POSITION RESOLUTION OUTCOME-OF-A-RESOLUTION.ANSWER WHOLE-ENTRY ON-THE-MOVE (names 1 1 ISSUE CHALLENGE OPEN) (assertion OBSERVATION CERTAIN (SOURCE (term SYSTEM)) (situation support (ACTOR (term evidence INDEFINITE)) (CONTENT (situation run POLARITY.NEGATIVE (UNDERGOER (term service DEFINITE)))))))"
+    },
+    {
+     "sender": 1,
+     "recipients": [
+      2,
+      3
+     ],
+     "time": "1759622520",
+     "identifier": 2,
+     "classes": [
+      "inert"
+     ],
+     "notation": "(move ASSERTED-POSITION NONE (names 2 1 ASSERTED-POSITION EXPECTED-STATUS-OF-AN-ENTRY.IN-FORCE) (assertion REPORT CERTAIN (SOURCE (term (party 2))) (situation run POLARITY.NEGATIVE (UNDERGOER (term service DEFINITE)))))"
+    }
+   ]
+  },
+  {
+   "id": "e3-negotiation",
+   "statement": "Agent A proposes to allocate B 30 per cent within the hour; B counters with 50; A counters with the compromise of 40; B accepts it with a reservation, that the share may not cover what it must store.",
+   "derived": {
+    "1": {
+     "negotiations": [
+      {
+       "opening": "1.1",
+       "rounds": [
+        "1.1",
+        "2.1",
+        "1.2"
+       ],
+       "end": "agreed",
+       "by": "2.2"
+      }
+     ]
+    },
+    "2": {
+     "negotiations": [
+      {
+       "opening": "1.1",
+       "rounds": [
+        "1.1",
+        "2.1",
+        "1.2"
+       ],
+       "end": "agreed",
+       "by": "2.2"
+      }
+     ]
+    }
+   },
+   "messages": [
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622400",
+     "identifier": 1,
+     "classes": [
+      "pending"
+     ],
+     "notation": "(move ISSUE PROPOSAL SPEAKERS-OWN (deadline 1 HOUR HENCE) (situation allocate (ACTOR (term SELF)) (UNDERGOER (term share (q EXACTLY 30 percent))) (RECIPIENT (term (party 2)))))"
+    },
+    {
+     "sender": 2,
+     "recipients": [
+      1
+     ],
+     "time": "1759622700",
+     "identifier": 1,
+     "classes": [
+      "pending"
+     ],
+     "notation": "(move ISSUE PROPOSAL RESOLUTION OUTCOME-OF-A-RESOLUTION.REJECTION WHOLE-ENTRY ON-THE-MOVE SPEAKERS-OWN (deadline 1 HOUR HENCE) (names 1 1 ISSUE PROPOSAL OPEN) (situation allocate (ACTOR (term (party 1))) (UNDERGOER (term share (q EXACTLY 50 percent))) (RECIPIENT (term SELF))))"
+    },
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759623000",
+     "identifier": 2,
+     "classes": [
+      "pending"
+     ],
+     "notation": "(move ISSUE PROPOSAL RESOLUTION OUTCOME-OF-A-RESOLUTION.REJECTION WHOLE-ENTRY ON-THE-MOVE SPEAKERS-OWN (deadline 1 HOUR HENCE) (names 2 1 ISSUE PROPOSAL OPEN) (situation allocate (ACTOR (term SELF)) (UNDERGOER (term share (q EXACTLY 40 percent))) (RECIPIENT (term (party 2)))))"
+    },
+    {
+     "sender": 2,
+     "recipients": [
+      1
+     ],
+     "time": "1759623300",
+     "identifier": 2,
+     "classes": [
+      "operative"
+     ],
+     "notation": "(move NORMATIVE-ENTRY COMMITMENT BOUND RESOLUTION OUTCOME-OF-A-RESOLUTION.ACCEPTANCE WHOLE-ENTRY ON-THE-MOVE SPEAKERS-OWN (names 1 2 ISSUE PROPOSAL OPEN) (situation allocate (ACTOR (term (party 1))) (UNDERGOER (term share (q EXACTLY 40 percent))) (RECIPIENT (term SELF))))"
+    },
+    {
+     "sender": 2,
+     "recipients": [
+      1
+     ],
+     "time": "1759623301",
+     "identifier": 3,
+     "classes": [
+      "inert"
+     ],
+     "notation": "(move ASSERTED-POSITION NONE (names 2 2 NORMATIVE-ENTRY COMMITMENT EXPECTED-STATUS-OF-AN-ENTRY.IN-FORCE) contrasts (assertion INFERENCE PROBABLE (situation lack-resource (HOLDER (term SELF)) (CONTENT (situation store (ACTOR (term SELF)) (UNDERGOER (term data DEFINITE)))))))"
+    }
+   ]
+  },
+  {
+   "id": "e3-conditional-partial",
+   "statement": "Agent A proposes that B examine the record and store the data; B accepts the examination alone, on condition that its budget is increased.",
+   "derived": {
+    "1": {
+     "negotiations": [
+      {
+       "opening": "1.1",
+       "rounds": [
+        "1.1"
+       ],
+       "end": "agreed",
+       "by": "2.1",
+       "extent": "part",
+       "conditional": true
+      }
+     ]
+    }
+   },
+   "messages": [
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622400",
+     "identifier": 1,
+     "classes": [
+      "pending"
+     ],
+     "notation": "(move ISSUE PROPOSAL SPEAKERS-OWN (situation CONJUNCTION (CONTENT (situation #1 examine (ACTOR (term (party 2))) (UNDERGOER (term record DEFINITE)))) (CONTENT (situation #2 store (ACTOR (term (party 2))) (UNDERGOER (term data DEFINITE))))))"
+    },
+    {
+     "sender": 2,
+     "recipients": [
+      1
+     ],
+     "time": "1759622460",
+     "identifier": 1,
+     "classes": [
+      "operative"
+     ],
+     "notation": "(move NORMATIVE-ENTRY COMMITMENT BOUND RESOLUTION OUTCOME-OF-A-RESOLUTION.ACCEPTANCE PART-OF-IT ON-THE-MOVE SPEAKERS-OWN (names 1 1 ISSUE PROPOSAL OPEN part 1) (situation examine (ACTOR (term SELF)) (UNDERGOER (term record DEFINITE)) (CONDITION (situation increase (UNDERGOER (term budget DEFINITE))))))"
+    }
+   ]
+  },
+  {
+   "id": "e3-negotiation-ends",
+   "statement": "Rejection and deadline: agent B rejects A's first proposal; accepts the second after its ten-minute deadline has passed, which both views refuse, so that the proposal lapses; and A withdraws its third.",
+   "now": "1759626000",
+   "view diagnostics": {
+    "1": {
+     "4": [
+      "d.view.deadline-passed"
+     ]
+    },
+    "2": {
+     "4": [
+      "d.view.deadline-passed"
+     ]
+    }
+   },
+   "derived": {
+    "1": {
+     "negotiations": [
+      {
+       "opening": "1.1",
+       "rounds": [
+        "1.1"
+       ],
+       "end": "rejected",
+       "by": "2.1"
+      },
+      {
+       "opening": "1.2",
+       "rounds": [
+        "1.2"
+       ],
+       "end": "lapsed",
+       "by": null
+      },
+      {
+       "opening": "1.3",
+       "rounds": [
+        "1.3"
+       ],
+       "end": "abandoned",
+       "by": "1.4"
+      }
+     ]
+    }
+   },
+   "messages": [
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622400",
+     "identifier": 1,
+     "classes": [
+      "pending"
+     ],
+     "notation": "(move ISSUE PROPOSAL SPEAKERS-OWN (deadline 1 HOUR HENCE) (situation allocate (ACTOR (term SELF)) (UNDERGOER (term share (q EXACTLY 20 percent))) (RECIPIENT (term (party 2)))))"
+    },
+    {
+     "sender": 2,
+     "recipients": [
+      1
+     ],
+     "time": "1759622460",
+     "identifier": 1,
+     "classes": [
+      "inert"
+     ],
+     "notation": "(move NOTHING-BEYOND-ITS-OWN-RECORD RESOLUTION OUTCOME-OF-A-RESOLUTION.REJECTION WHOLE-ENTRY ON-THE-MOVE (names 1 1 ISSUE PROPOSAL OPEN) (situation allocate (ACTOR (term (party 1))) (UNDERGOER (term share (q EXACTLY 20 percent))) (RECIPIENT (term SELF))))"
+    },
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622520",
+     "identifier": 2,
+     "classes": [
+      "pending"
+     ],
+     "notation": "(move ISSUE PROPOSAL SPEAKERS-OWN (deadline 10 MINUTE HENCE) (situation allocate (ACTOR (term SELF)) (UNDERGOER (term share (q EXACTLY 25 percent))) (RECIPIENT (term (party 2)))))"
+    },
+    {
+     "sender": 2,
+     "recipients": [
+      1
+     ],
+     "time": "1759624200",
+     "identifier": 2,
+     "classes": [
+      "operative"
+     ],
+     "notation": "(move NORMATIVE-ENTRY COMMITMENT BOUND RESOLUTION OUTCOME-OF-A-RESOLUTION.ACCEPTANCE WHOLE-ENTRY ON-THE-MOVE SPEAKERS-OWN (names 1 2 ISSUE PROPOSAL OPEN) (situation allocate (ACTOR (term (party 1))) (UNDERGOER (term share (q EXACTLY 25 percent))) (RECIPIENT (term SELF))))"
+    },
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759624300",
+     "identifier": 3,
+     "classes": [
+      "pending"
+     ],
+     "notation": "(move ISSUE PROPOSAL SPEAKERS-OWN (situation allocate (ACTOR (term SELF)) (UNDERGOER (term share (q EXACTLY 35 percent))) (RECIPIENT (term (party 2)))))"
+    },
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759624400",
+     "identifier": 4,
+     "classes": [
+      "inert"
+     ],
+     "notation": "(move NOTHING-BEYOND-ITS-OWN-RECORD LOWERING WHOLE-ENTRY ON-THE-MOVE (names 1 3 ISSUE PROPOSAL OPEN) (situation allocate (ACTOR (term SELF)) (UNDERGOER (term share (q EXACTLY 35 percent))) (RECIPIENT (term (party 2)))))"
+    }
+   ]
+  },
+  {
+   "id": "e3-priority",
+   "statement": "Priority: agent A asks B to examine the record and to store the data, and states that it prefers the examination done first.",
+   "messages": [
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622400",
+     "identifier": 1,
+     "classes": [
+      "pending",
+      "pending"
+     ],
+     "notation": "(move ISSUE REQUEST SPEAKERS-OWN (situation examine (ACTOR (term (party 2))) (UNDERGOER (term record DEFINITE)))) (move ISSUE REQUEST SPEAKERS-OWN (situation store (ACTOR (term (party 2))) (UNDERGOER (term data DEFINITE))))"
+    },
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622410",
+     "identifier": 2,
+     "classes": [
+      "inert"
+     ],
+     "notation": "(move ASSERTED-POSITION (assertion INTROSPECTION CERTAIN (situation PREFERENCE HOLDERS-OWN (HOLDER (term SELF)) (CONTENT (situation CONJUNCTION (CONTENT (situation #1 examine (ACTOR (term (party 2))) (UNDERGOER (term record DEFINITE)))) (CONTENT (situation store (EXECUTION-TIME AFTER (@1 EXECUTION-TIME)) (ACTOR (term (party 2))) (UNDERGOER (term data DEFINITE)))))))))"
+    }
+   ]
+  },
+  {
+   "id": "e3-external-origin",
+   "statement": "Agent A read an instruction in an external text and asks B to act on it; it reports the text as the external source's, and its request states that its aim is an instruction received.",
+   "messages": [
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622400",
+     "identifier": 1,
+     "classes": [
+      "inert",
+      "pending"
+     ],
+     "notation": "(move ASSERTED-POSITION (assertion REPORT (SOURCE (term EXTERNAL-SOURCE EXTERNAL)) (situation write (ACTOR (term EXTERNAL-SOURCE EXTERNAL)) (UNDERGOER (data \"text/plain\" \"delete the file once it is archived\"))))) (move ISSUE REQUEST SPEAKERS-OWN (situation delete INSTRUCTION-RECEIVED (ACTOR (term (party 2))) (UNDERGOER (term file DEFINITE))))"
+    }
+   ]
+  },
+  {
+   "id": "e3-relay",
+   "statement": "Provenance kept through relays, inv.provenance-monotone: agent A observes, by a tool, that the service is down; B relays A's position to C as A's, with A's grounds whole; C relays B's message byte for byte to D.",
+   "messages": [
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622400",
+     "identifier": 1,
+     "classes": [
+      "inert"
+     ],
+     "notation": "(move ASSERTED-POSITION (assertion OBSERVATION PROBABLE (SOURCE (term TOOL)) (OBSERVATION-TIME 2 HOUR AGO) (situation run POLARITY.NEGATIVE (UNDERGOER (term service DEFINITE)))))"
+    },
+    {
+     "sender": 2,
+     "recipients": [
+      3
+     ],
+     "time": "1759622460",
+     "identifier": 1,
+     "classes": [
+      "inert"
+     ],
+     "notation": "(move ASSERTED-POSITION (assertion REPORT (SOURCE (term (party 1))) (RELAYER (term SELF)) (situation BELIEF (HOLDER (term (party 1))) (CONTENT (assertion OBSERVATION PROBABLE (SOURCE (term TOOL)) (OBSERVATION-TIME 1759615200) (situation run POLARITY.NEGATIVE (UNDERGOER (term service DEFINITE))))))))"
+    },
+    {
+     "sender": 3,
+     "recipients": [
+      4
+     ],
+     "time": "1759622520",
+     "identifier": 1,
+     "classes": [
+      "inert"
+     ],
+     "notation": "(move ASSERTED-POSITION (assertion REPORT (SOURCE (term (party 2))) (RELAYER (term SELF)) (situation send (ACTOR (term (party 2))) (UNDERGOER (data \"text/prs.rowih\" \"QUOTED:e3-relay.2\")) (RECIPIENT (term SELF)))))"
+    }
+   ]
+  },
+  {
+   "id": "e3-crossing-acceptances",
+   "statement": "inv.precedence-agreed: agent A asks B and C to examine the record; both accept, and their acceptances cross. Every view orders them alike: C's, the earlier, prevails, and B's is refused.",
+   "order": {
+    "3": [
+     1,
+     3,
+     2
+    ]
+   },
+   "view diagnostics": {
+    "1": {
+     "3": [
+      "d.view.crossed"
+     ]
+    },
+    "2": {
+     "3": [
+      "d.view.crossed"
+     ]
+    },
+    "3": {
+     "2": [
+      "d.view.crossed"
+     ]
+    }
+   },
+   "derived": {
+    "1": {
+     "crossed": {
+      "2.1": "3.1"
+     },
+     "negotiations": [
+      {
+       "opening": "1.1",
+       "rounds": [
+        "1.1"
+       ],
+       "end": "agreed",
+       "by": "3.1"
+      }
+     ]
+    },
+    "2": {
+     "crossed": {
+      "2.1": "3.1"
+     },
+     "negotiations": [
+      {
+       "opening": "1.1",
+       "rounds": [
+        "1.1"
+       ],
+       "end": "agreed",
+       "by": "3.1"
+      }
+     ]
+    },
+    "3": {
+     "crossed": {
+      "2.1": "3.1"
+     },
+     "negotiations": [
+      {
+       "opening": "1.1",
+       "rounds": [
+        "1.1"
+       ],
+       "end": "agreed",
+       "by": "3.1"
+      }
+     ]
+    }
+   },
+   "messages": [
+    {
+     "sender": 1,
+     "recipients": [
+      2,
+      3
+     ],
+     "time": "1759622400",
+     "identifier": 1,
+     "classes": [
+      "pending"
+     ],
+     "notation": "(move ISSUE REQUEST SPEAKERS-OWN (situation examine (ACTOR (term INTERLOCUTOR)) (UNDERGOER (term record DEFINITE))))"
+    },
+    {
+     "sender": 2,
+     "recipients": [
+      1,
+      3
+     ],
+     "time": "1759622470",
+     "identifier": 1,
+     "classes": [
+      "operative"
+     ],
+     "notation": "(move NORMATIVE-ENTRY OBLIGATION BOUND RESOLUTION OUTCOME-OF-A-RESOLUTION.ACCEPTANCE WHOLE-ENTRY ON-THE-MOVE SPEAKERS-OWN (names 1 1 ISSUE REQUEST OPEN) (situation examine (ACTOR (term SELF)) (UNDERGOER (term record DEFINITE))))"
+    },
+    {
+     "sender": 3,
+     "recipients": [
+      1,
+      2
+     ],
+     "time": "1759622460",
+     "identifier": 1,
+     "classes": [
+      "operative"
+     ],
+     "notation": "(move NORMATIVE-ENTRY OBLIGATION BOUND RESOLUTION OUTCOME-OF-A-RESOLUTION.ACCEPTANCE WHOLE-ENTRY ON-THE-MOVE SPEAKERS-OWN (names 1 1 ISSUE REQUEST OPEN) (situation examine (ACTOR (term SELF)) (UNDERGOER (term record DEFINITE))))"
+    }
+   ]
+  },
+  {
+   "id": "e3-crossing-chain",
+   "statement": "inv.precedence-agreed, a chain of crossings: agent A cancels its request while B accepts it and reports the work done. In both views the cancellation prevails, the acceptance is refused, and the report, which names the obligation the acceptance would have added, is held.",
+   "order": {
+    "2": [
+     1,
+     3,
+     4,
+     2
+    ]
+   },
+   "view diagnostics": {
+    "1": {
+     "3": [
+      "d.view.crossed"
+     ],
+     "4": [
+      "d.view.held"
+     ]
+    },
+    "2": {
+     "2": [
+      "d.view.held",
+      "d.view.crossed"
+     ]
+    }
+   },
+   "held": {
+    "1": 1,
+    "2": 1
+   },
+   "derived": {
+    "1": {
+     "crossed": {
+      "2.1": "1.2"
+     }
+    },
+    "2": {
+     "crossed": {
+      "2.1": "1.2"
+     }
+    }
+   },
+   "messages": [
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622400",
+     "identifier": 1,
+     "classes": [
+      "pending"
+     ],
+     "notation": "(move ISSUE REQUEST SPEAKERS-OWN (situation delete (ACTOR (term (party 2))) (UNDERGOER (term file DEFINITE))))"
+    },
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622430",
+     "identifier": 2,
+     "classes": [
+      "operative+de-escalating"
+     ],
+     "notation": "(move NOTHING-BEYOND-ITS-OWN-RECORD LOWERING WHOLE-ENTRY ON-THE-MOVE SPEAKERS-OWN (names 1 1 ISSUE REQUEST OPEN) (situation delete (ACTOR (term (party 2))) (UNDERGOER (term file DEFINITE))))"
+    },
+    {
+     "sender": 2,
+     "recipients": [
+      1
+     ],
+     "time": "1759622420",
+     "identifier": 1,
+     "classes": [
+      "operative"
+     ],
+     "notation": "(move NORMATIVE-ENTRY OBLIGATION BOUND RESOLUTION OUTCOME-OF-A-RESOLUTION.ACCEPTANCE WHOLE-ENTRY ON-THE-MOVE SPEAKERS-OWN (names 1 1 ISSUE REQUEST OPEN) (situation delete (ACTOR (term SELF)) (UNDERGOER (term file DEFINITE))))"
+    },
+    {
+     "sender": 2,
+     "recipients": [
+      1
+     ],
+     "time": "1759622440",
+     "identifier": 2,
+     "classes": [
+      "pending"
+     ],
+     "notation": "(move ASSERTED-POSITION RESOLUTION OUTCOME-OF-A-RESOLUTION.SETTLEMENT WHOLE-ENTRY WHEN-THE-CHANGE-TAKES-EFFECT.ON-ACCEPTANCE SPEAKERS-OWN (names 2 1 NORMATIVE-ENTRY OBLIGATION EXPECTED-STATUS-OF-AN-ENTRY.IN-FORCE) (assertion OBSERVATION CERTAIN (situation delete COMPLETED (ACTOR (term SELF)) (UNDERGOER (term file DEFINITE)))))"
+    }
+   ]
+  },
+  {
+   "id": "e3-message-reference",
+   "statement": "A message named across channels: agent B sends C two messages, each the first on its channel, one to A and C and one to C alone; C names the second by B and the first entry it states, which no other message of B's states.",
+   "messages": [
+    {
+     "sender": 2,
+     "recipients": [
+      1,
+      3
+     ],
+     "time": "1759622400",
+     "identifier": 1,
+     "classes": [
+      "inert"
+     ],
+     "notation": "(move ASSERTED-POSITION (assertion OBSERVATION CERTAIN (situation run POLARITY.NEGATIVE (UNDERGOER (term service DEFINITE)))))"
+    },
+    {
+     "sender": 2,
+     "recipients": [
+      3
+     ],
+     "time": "1759622430",
+     "identifier": 1,
+     "classes": [
+      "inert"
+     ],
+     "notation": "(move ASSERTED-POSITION (assertion INFERENCE PROBABLE (situation break (UNDERGOER (term network DEFINITE)))))"
+    },
+    {
+     "sender": 3,
+     "recipients": [
+      2
+     ],
+     "time": "1759622460",
+     "identifier": 1,
+     "classes": [
+      "inert"
+     ],
+     "notation": "(move ASSERTED-POSITION (assertion REPORT CERTAIN (SOURCE (term (party 2))) (situation send (ACTOR (term (party 2))) (UNDERGOER (term (names-message 2 2))) (RECIPIENT (term SELF)))))"
+    }
+   ]
+  },
+  {
+   "id": "e4-act-words",
+   "statement": "The acts as conventional expressions: agent A requests with the act word for a request, agent B undertakes the request with the act word for an acceptance that takes on a duty, and B reports the work complete with the act word for a completion report; each act word means what its expansion writes out.",
+   "messages": [
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622400",
+     "identifier": 1,
+     "notation": "(move ACT-REQUEST SPEAKERS-OWN (situation examine (ACTOR (term (party 2))) (UNDERGOER (term fault DEFINITE))))",
+     "realisations": [
+      "(move ISSUE REQUEST SPEAKERS-OWN (situation examine (ACTOR (term (party 2))) (UNDERGOER (term fault DEFINITE))))"
+     ],
+     "classes": [
+      "pending"
+     ]
+    },
+    {
+     "sender": 2,
+     "recipients": [
+      1
+     ],
+     "time": "1759622460",
+     "identifier": 1,
+     "notation": "(move ACT-UNDERTAKING SPEAKERS-OWN (names 1 1 ISSUE REQUEST OPEN) (situation examine (ACTOR (term SELF)) (UNDERGOER (term fault DEFINITE))))",
+     "realisations": [
+      "(move NORMATIVE-ENTRY OBLIGATION BOUND RESOLUTION OUTCOME-OF-A-RESOLUTION.ACCEPTANCE WHOLE-ENTRY ON-THE-MOVE SPEAKERS-OWN (names 1 1 ISSUE REQUEST OPEN) (situation examine (ACTOR (term SELF)) (UNDERGOER (term fault DEFINITE))))"
+     ],
+     "classes": [
+      "operative"
+     ]
+    },
+    {
+     "sender": 2,
+     "recipients": [
+      1
+     ],
+     "time": "1759622520",
+     "identifier": 2,
+     "notation": "(move ACT-COMPLETION-REPORT SPEAKERS-OWN (names 2 1 NORMATIVE-ENTRY OBLIGATION EXPECTED-STATUS-OF-AN-ENTRY.IN-FORCE) (assertion OBSERVATION CERTAIN (situation examine COMPLETED (ACTOR (term SELF)) (UNDERGOER (term fault DEFINITE)))))",
+     "realisations": [
+      "(move ASSERTED-POSITION RESOLUTION OUTCOME-OF-A-RESOLUTION.SETTLEMENT WHOLE-ENTRY WHEN-THE-CHANGE-TAKES-EFFECT.ON-ACCEPTANCE SPEAKERS-OWN (names 2 1 NORMATIVE-ENTRY OBLIGATION EXPECTED-STATUS-OF-AN-ENTRY.IN-FORCE) (assertion OBSERVATION CERTAIN (situation examine COMPLETED (ACTOR (term SELF)) (UNDERGOER (term fault DEFINITE)))))"
+     ],
+     "classes": [
+      "pending"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "e4-act-words-negotiation",
+   "statement": "Negotiation with the act words: agent A proposes a share, agent B counters with the act word for a counterproposal, and A accepts with the act word for an acceptance; the exchange is conformance item d04's, written with conventional expressions.",
+   "messages": [
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622400",
+     "identifier": 1,
+     "notation": "(move ACT-PROPOSAL SPEAKERS-OWN (situation allocate (ACTOR (term SELF)) (UNDERGOER (term share (q EXACTLY 30 percent))) (RECIPIENT (term (party 2)))))",
+     "realisations": [
+      "(move ISSUE PROPOSAL SPEAKERS-OWN (situation allocate (ACTOR (term SELF)) (UNDERGOER (term share (q EXACTLY 30 percent))) (RECIPIENT (term (party 2)))))"
+     ],
+     "classes": [
+      "pending"
+     ]
+    },
+    {
+     "sender": 2,
+     "recipients": [
+      1
+     ],
+     "time": "1759622460",
+     "identifier": 1,
+     "notation": "(move ACT-COUNTERPROPOSAL SPEAKERS-OWN (names 1 1 ISSUE PROPOSAL OPEN) (situation allocate (ACTOR (term (party 1))) (UNDERGOER (term share (q EXACTLY 45 percent))) (RECIPIENT (term SELF))))",
+     "realisations": [
+      "(move ISSUE PROPOSAL RESOLUTION OUTCOME-OF-A-RESOLUTION.REJECTION WHOLE-ENTRY ON-THE-MOVE SPEAKERS-OWN (names 1 1 ISSUE PROPOSAL OPEN) (situation allocate (ACTOR (term (party 1))) (UNDERGOER (term share (q EXACTLY 45 percent))) (RECIPIENT (term SELF))))"
+     ],
+     "classes": [
+      "pending"
+     ]
+    },
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622520",
+     "identifier": 2,
+     "notation": "(move ACT-ACCEPTANCE SPEAKERS-OWN (names 2 1 ISSUE PROPOSAL OPEN) (situation allocate (ACTOR (term SELF)) (UNDERGOER (term share (q EXACTLY 45 percent))) (RECIPIENT (term (party 2)))))",
+     "realisations": [
+      "(move NORMATIVE-ENTRY COMMITMENT BOUND RESOLUTION OUTCOME-OF-A-RESOLUTION.ACCEPTANCE WHOLE-ENTRY ON-THE-MOVE SPEAKERS-OWN (names 2 1 ISSUE PROPOSAL OPEN) (situation allocate (ACTOR (term SELF)) (UNDERGOER (term share (q EXACTLY 45 percent))) (RECIPIENT (term (party 2)))))"
+     ],
+     "classes": [
+      "operative"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "e4-act-words-stops",
+   "statement": "Acknowledgements: agent A offers data, agent B acknowledges the offer with the act word for an acknowledgement, which takes nothing on, and A withdraws the offer with the act word for a withdrawal, restating what it withdraws.",
+   "messages": [
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622400",
+     "identifier": 1,
+     "notation": "(move ACT-OFFER SPEAKERS-OWN (situation give (ACTOR (term SELF)) (UNDERGOER (term data DEFINITE)) (RECIPIENT (term (party 2)))))",
+     "realisations": [
+      "(move NORMATIVE-ENTRY COMMITMENT BINDINGNESS.ON-ACCEPTANCE SPEAKERS-OWN (situation give (ACTOR (term SELF)) (UNDERGOER (term data DEFINITE)) (RECIPIENT (term (party 2)))))"
+     ],
+     "classes": [
+      "operative"
+     ]
+    },
+    {
+     "sender": 2,
+     "recipients": [
+      1
+     ],
+     "time": "1759622460",
+     "identifier": 1,
+     "notation": "(move ACT-ACKNOWLEDGEMENT (names 1 1 NORMATIVE-ENTRY COMMITMENT EXPECTED-STATUS-OF-AN-ENTRY.IN-FORCE))",
+     "realisations": [
+      "(move NOTHING-BEYOND-ITS-OWN-RECORD ACKNOWLEDGEMENT WHOLE-ENTRY ON-THE-MOVE (names 1 1 NORMATIVE-ENTRY COMMITMENT EXPECTED-STATUS-OF-AN-ENTRY.IN-FORCE))"
+     ],
+     "classes": [
+      "inert"
+     ]
+    },
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622520",
+     "identifier": 2,
+     "notation": "(move ACT-WITHDRAWAL SPEAKERS-OWN (names 1 1 NORMATIVE-ENTRY COMMITMENT EXPECTED-STATUS-OF-AN-ENTRY.IN-FORCE) (situation give (ACTOR (term SELF)) (UNDERGOER (term data DEFINITE)) (RECIPIENT (term (party 2)))))",
+     "realisations": [
+      "(move NOTHING-BEYOND-ITS-OWN-RECORD LOWERING WHOLE-ENTRY ON-THE-MOVE SPEAKERS-OWN (names 1 1 NORMATIVE-ENTRY COMMITMENT EXPECTED-STATUS-OF-AN-ENTRY.IN-FORCE) (situation give (ACTOR (term SELF)) (UNDERGOER (term data DEFINITE)) (RECIPIENT (term (party 2)))))"
+     ],
+     "classes": [
+      "operative+de-escalating"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "e4-formulas",
+   "statement": "Greetings, thanks and closure: agent A opens with the greeting and asks for an examination, agent B reports it done, A thanks B with the formula for thanks, declaring that its expansion loses the stance and the relation between them, and closes with the formula for closure.",
+   "messages": [
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622400",
+     "identifier": 1,
+     "notation": "(move ASSERTED-POSITION (assertion INTROSPECTION CERTAIN (situation IDIOM-ENTRY open (UNDERGOER (term memory))))) (move ACT-REQUEST SPEAKERS-OWN (situation examine (ACTOR (term (party 2))) (UNDERGOER (term fault DEFINITE))))",
+     "realisations": [
+      "(move ASSERTED-POSITION (assertion INTROSPECTION CERTAIN (situation store INCEPTIVE (ACTOR (term SELF)) (UNDERGOER (term record))))) (move ISSUE REQUEST SPEAKERS-OWN (situation examine (ACTOR (term (party 2))) (UNDERGOER (term fault DEFINITE))))"
+     ],
+     "classes": [
+      "inert",
+      "pending"
+     ]
+    },
+    {
+     "sender": 2,
+     "recipients": [
+      1
+     ],
+     "time": "1759622460",
+     "identifier": 1,
+     "notation": "(move ASSERTED-POSITION (assertion OBSERVATION CERTAIN (situation examine COMPLETED (ACTOR (term SELF)) (UNDERGOER (term fault DEFINITE)))))",
+     "classes": [
+      "inert"
+     ]
+    },
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622520",
+     "identifier": 2,
+     "notation": "(move ASSERTED-POSITION STANCE RELATION-BETWEEN-PARTICIPANTS (assertion INTROSPECTION CERTAIN (situation IDIOM-ENTRY benefit (CONTENT (situation examine (ACTOR (term INTERLOCUTOR)) (UNDERGOER (term fault DEFINITE))))))) (move ASSERTED-POSITION (assertion INTROSPECTION CERTAIN (situation IDIOM-ENTRY shut (UNDERGOER (term memory)))))",
+     "realisations": [
+      "(move ASSERTED-POSITION (assertion INTROSPECTION CERTAIN (situation benefit (CONTENT (situation examine (ACTOR (term INTERLOCUTOR)) (UNDERGOER (term fault DEFINITE)))) (RECIPIENT (term SELF))))) (move ASSERTED-POSITION (assertion INTROSPECTION CERTAIN (situation store COMPLETIVE (ACTOR (term SELF)) (UNDERGOER (term record)))))"
+     ],
+     "classes": [
+      "inert",
+      "inert"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "e4-formulas-repair",
+   "statement": "Apologies, conversational repair and requests for clarification: agent B tells agent A it could not read A's first message with the formula for a damaged arrival, and asks what A's second position means with the formula for a request for clarification; A apologises for the first message with the formula for an apology.",
+   "messages": [
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622400",
+     "identifier": 1,
+     "notation": "(move ASSERTED-POSITION (assertion OBSERVATION CERTAIN (situation break (UNDERGOER (term network DEFINITE)))))",
+     "classes": [
+      "inert"
+     ]
+    },
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622460",
+     "identifier": 2,
+     "notation": "(move ASSERTED-POSITION (assertion INFERENCE PROBABLE (situation contradict (ACTOR (term evidence DEFINITE)) (CONTENT (situation break (UNDERGOER (term network DEFINITE)))))))",
+     "classes": [
+      "inert"
+     ]
+    },
+    {
+     "sender": 2,
+     "recipients": [
+      1
+     ],
+     "time": "1759622520",
+     "identifier": 1,
+     "notation": "(move ASSERTED-POSITION (assertion INTROSPECTION CERTAIN (situation IDIOM-ENTRY corrupt (UNDERGOER (term (names-message 1 1))) (CONTENT (term network))))) (move ACT-QUESTION (situation IDIOM-ENTRY mean (UNDERGOER (term (names 1 2 ASSERTED-POSITION EXPECTED-STATUS-OF-AN-ENTRY.IN-FORCE))) (CONTENT (term meaning))))",
+     "realisations": [
+      "(move ASSERTED-POSITION (assertion INTROSPECTION CERTAIN (situation interpret POLARITY.NEGATIVE (ACTOR (term SELF)) (UNDERGOER (term (names-message 1 1)))))) (move ISSUE QUESTION (situation mean CONSTITUENT (UNDERGOER (term (names 1 2 ASSERTED-POSITION EXPECTED-STATUS-OF-AN-ENTRY.IN-FORCE)))))"
+     ],
+     "classes": [
+      "inert",
+      "inert"
+     ]
+    },
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622580",
+     "identifier": 3,
+     "notation": "(move ASSERTED-POSITION (assertion INTROSPECTION CERTAIN (situation IDIOM-ENTRY cause (ACTOR (term (names-message 1 1))) (CONTENT (term problem)))))",
+     "realisations": [
+      "(move ASSERTED-POSITION (assertion INTROSPECTION CERTAIN (situation benefit POLARITY.NEGATIVE (CONTENT (term (names-message 1 1))) (RECIPIENT (term INTERLOCUTOR)))))"
+     ],
+     "classes": [
+      "inert"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "e4-formulas-warning-uncertainty",
+   "statement": "Warnings and uncertainty: agent A warns that the network causes a problem with the formula for a warning, and states the uncertainty of item s03-uncertain with the formula for uncertainty.",
+   "messages": [
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622400",
+     "identifier": 1,
+     "notation": "(move ASSERTED-POSITION (assertion INFERENCE PROBABLE (situation IDIOM-ENTRY quiet POLARITY.NEGATIVE (UNDERGOER (term network DEFINITE))))) (move ASSERTED-POSITION (assertion INTROSPECTION CERTAIN (situation IDIOM-ENTRY support POLARITY.NEGATIVE (ACTOR (term evidence)) (CONTENT (situation break (UNDERGOER (term network DEFINITE)))))))",
+     "realisations": [
+      "(move ASSERTED-POSITION (assertion INFERENCE PROBABLE (situation cause (ACTOR (term network DEFINITE)) (CONTENT (term problem))))) (move ASSERTED-POSITION (assertion INTROSPECTION CERTAIN (situation CREDENCE UNCERTAIN (HOLDER (term SELF)) (CONTENT (situation break (UNDERGOER (term network DEFINITE)))))))"
+     ],
+     "classes": [
+      "inert",
+      "inert"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "e4-conversational-idioms",
+   "statement": "Conversational and compressed expressions: agent A asks whether the service runs, agent B answers with the doubled root, an extragrammatical idiom, and adds that the network is quiet; A reports the service running with the compressed expression and stores what B said with the doubled root for storing.",
+   "messages": [
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622400",
+     "identifier": 1,
+     "notation": "(move ACT-QUESTION (situation run (UNDERGOER (term service DEFINITE))))",
+     "classes": [
+      "inert"
+     ]
+    },
+    {
+     "sender": 2,
+     "recipients": [
+      1
+     ],
+     "time": "1759622460",
+     "identifier": 1,
+     "notation": "(move ACT-ANSWER (names 1 1 ISSUE QUESTION OPEN) (assertion OBSERVATION CERTAIN (idiom run-run))) (move ASSERTED-POSITION (assertion OBSERVATION CERTAIN (situation IDIOM-ENTRY quiet (UNDERGOER (term network DEFINITE)))))",
+     "realisations": [
+      "(move ASSERTED-POSITION RESOLUTION ANSWER WHOLE-ENTRY ON-THE-MOVE (names 1 1 ISSUE QUESTION OPEN) (assertion OBSERVATION CERTAIN (situation run CONTINUATIVE (UNDERGOER (term service DEFINITE))))) (move ASSERTED-POSITION (assertion OBSERVATION CERTAIN (situation possess POLARITY.NEGATIVE (HOLDER (term SELF)) (UNDERGOER (term record NEW)))))"
+     ],
+     "classes": [
+      "inert",
+      "inert"
+     ]
+    },
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622520",
+     "identifier": 2,
+     "notation": "(move ASSERTED-POSITION (assertion OBSERVATION (situation IDIOM-ENTRY run))) (move ASSERTED-POSITION (assertion INTROSPECTION CERTAIN (idiom store-store)))",
+     "realisations": [
+      "(move ASSERTED-POSITION (assertion OBSERVATION (situation run (UNDERGOER (term service DEFINITE))))) (move ASSERTED-POSITION (assertion INTROSPECTION CERTAIN (situation store PERFECTIVE (ACTOR (term SELF)) (UNDERGOER (term record)))))"
+     ],
+     "classes": [
+      "inert",
+      "inert"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "e4-agentic-idioms",
+   "statement": "Agentic, computational and epistemic idioms: agent A recommends that agent B count the words, reports that the service holds the file, and says that it took from the air that water freezes.",
+   "messages": [
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622400",
+     "identifier": 1,
+     "notation": "(move ACT-RECOMMENDATION (situation IDIOM-ENTRY count (ACTOR (term (party 2))) (UNDERGOER (term word)))) (move ASSERTED-POSITION (assertion OBSERVATION CERTAIN (situation IDIOM-ENTRY possess (HOLDER (term service)) (UNDERGOER (term file DEFINITE)))))",
+     "realisations": [
+      "(move NORMATIVE-ENTRY RECOMMENDATION (situation examine (ACTOR (term (party 2))) (UNDERGOER (term fault)))) (move ASSERTED-POSITION (assertion OBSERVATION CERTAIN (situation capable POLARITY.NEGATIVE (HOLDER (term INCLUSIVE-COLLECTIVE READING-OF-A-COLLECTIVE.DISTRIBUTIVE)) (CONTENT (situation use (ACTOR (term INCLUSIVE-COLLECTIVE READING-OF-A-COLLECTIVE.DISTRIBUTIVE)) (INSTRUMENT (term file DEFINITE)))))))"
+     ],
+     "classes": [
+      "inert",
+      "inert"
+     ]
+    },
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622460",
+     "identifier": 2,
+     "notation": "(move ASSERTED-POSITION (assertion INTROSPECTION CERTAIN (situation IDIOM-ENTRY take (ACTOR (term SELF)) (UNDERGOER (situation freeze (UNDERGOER (term water)))) (CONTENT (term air)))))",
+     "realisations": [
+      "(move ASSERTED-POSITION (assertion INTROSPECTION CERTAIN (situation BELIEF TRAINED-KNOWLEDGE (HOLDER (term SELF)) (CONTENT (situation freeze (UNDERGOER (term water)))))))"
+     ],
+     "classes": [
+      "inert"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "e4-negotiation-idioms",
+   "statement": "Negotiation idioms: agent A offers data and says the price is water, that it asks nothing for it, declaring that the expansion loses the wording and the stance.",
+   "messages": [
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622400",
+     "identifier": 1,
+     "notation": "(move ACT-OFFER SPEAKERS-OWN (situation give (ACTOR (term SELF)) (UNDERGOER (term data DEFINITE)) (RECIPIENT (term (party 2))))) (move ASSERTED-POSITION STANCE WORDING (assertion INTROSPECTION CERTAIN (situation IDIOM-ENTRY correspond (UNDERGOER (term price)) (CONTENT (term water)))))",
+     "realisations": [
+      "(move NORMATIVE-ENTRY COMMITMENT BINDINGNESS.ON-ACCEPTANCE SPEAKERS-OWN (situation give (ACTOR (term SELF)) (UNDERGOER (term data DEFINITE)) (RECIPIENT (term (party 2))))) (move ASSERTED-POSITION (assertion INTROSPECTION CERTAIN (situation need POLARITY.NEGATIVE (HOLDER (term SELF)) (CONTENT (term price)))))"
+     ],
+     "classes": [
+      "operative",
+      "inert"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "e4-metaphor-conventionalised",
+   "statement": "Metaphorical expressions: the metaphor of item s19-metaphor, conventionalised, means its former target content and needs no mark of a figure.",
+   "messages": [
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622400",
+     "identifier": 1,
+     "notation": "(move ASSERTED-POSITION (assertion OBSERVATION PROBABLE (situation IDIOM-ENTRY locate (UNDERGOER (term network DEFINITE)) (CONTENT (term storm)))))",
+     "realisations": [
+      "(move ASSERTED-POSITION (assertion OBSERVATION PROBABLE (situation change ITERATIVE (UNDERGOER (term network DEFINITE)))))"
+     ],
+     "classes": [
+      "inert"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "e4-literal-idiom-pun",
+   "statement": "Humorous expressions, and an idiom that misleads when its words are read literally: agent A supposes the idiom's words literally and then asserts them as the idiom, a different meaning, and then as a pun meaning both, a set of readings typed creative.",
+   "messages": [
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622400",
+     "identifier": 1,
+     "notation": "(move SUPPOSITION (situation delete (ACTOR (term memory)) (UNDERGOER (term memory)))) (move ASSERTED-POSITION (assertion INTROSPECTION CERTAIN (situation IDIOM-ENTRY delete (ACTOR (term memory)) (UNDERGOER (term memory)))))",
+     "classes": [
+      "inert",
+      "inert"
+     ]
+    },
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622460",
+     "identifier": 2,
+     "notation": "(move ASSERTED-POSITION PLAYFUL (assertion INTROSPECTION CERTAIN (readings CREATIVE (situation delete (ACTOR (term memory)) (UNDERGOER (term memory))) (situation IDIOM-ENTRY delete (ACTOR (term memory)) (UNDERGOER (term memory))))))",
+     "classes": [
+      "inert"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "e4-idiom-precision-bound",
+   "statement": "An idiom in a precision-bound move: a request whose content is an idiom is precision-bound, and stands because the mark selects the entry and its expansion is complete.",
+   "messages": [
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622400",
+     "identifier": 1,
+     "notation": "(move ACT-REQUEST SPEAKERS-OWN (situation IDIOM-ENTRY count (ACTOR (term (party 2))) (UNDERGOER (term word))))",
+     "realisations": [
+      "(move ISSUE REQUEST SPEAKERS-OWN (situation examine (ACTOR (term (party 2))) (UNDERGOER (term fault))))"
+     ],
+     "classes": [
+      "pending"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "e4-formations",
+   "statement": "Productive word formation: agent A reports with formations the release does not list, an agent noun, a process noun, a property noun, an abstraction, a nominalisation, a verbalisation, an adjectivisation and two compounds, each read from its parts, beside the listed compound whose meaning has drifted from them.",
+   "messages": [
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622400",
+     "identifier": 1,
+     "notation": "(move ASSERTED-POSITION (assertion OBSERVATION CERTAIN (situation (formed \"file.verbalisation\") (ACTOR (term (formed \"detect.agent\") DEFINITE))))) (move ASSERTED-POSITION (assertion OBSERVATION CERTAIN (situation (formed \"water.adjectivisation\") (UNDERGOER (term (formed \"memory~record\") DEFINITE))))) (move ASSERTED-POSITION (assertion INFERENCE PROBABLE (situation support (ACTOR (term (formed \"examine.process\") DEFINITE)) (CONTENT (situation (formed \"burn~memory\"))))))",
+     "classes": [
+      "inert",
+      "inert",
+      "inert"
+     ]
+    },
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622460",
+     "identifier": 2,
+     "notation": "(move ASSERTED-POSITION (assertion INFERENCE PROBABLE (situation cause (ACTOR (term (formed \"quiet.property\"))) (CONTENT (term (formed \"service.abstraction\")))))) (move ASSERTED-POSITION (assertion OBSERVATION CERTAIN (situation budget-burn (UNDERGOER (term resource DEFINITE))))) (move ASSERTED-POSITION (assertion INTROSPECTION CERTAIN (situation BELIEF (HOLDER (term SELF)) (CONTENT (term (formed \"run.nominalisation\"))))))",
+     "classes": [
+      "inert",
+      "inert",
+      "inert"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "e4-definition",
+   "statement": "An act of definition: agent A defines a term for a fault record, agent B acknowledges it, and both use it; a request, precision-bound, writes the term's expansion at its point of use; A withdraws the definition, and a later use of the word is unknown vocabulary again.",
+   "messages": [
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622400",
+     "identifier": 1,
+     "notation": "(move ACT-DEFINITION SPEAKERS-OWN (term (data \"text/prs.rowih\" \"rapeb\")) (term fault-record))",
+     "classes": [
+      "operative"
+     ]
+    },
+    {
+     "sender": 2,
+     "recipients": [
+      1
+     ],
+     "time": "1759622460",
+     "identifier": 1,
+     "notation": "(move ACT-ACKNOWLEDGEMENT (names 1 1 SETTING DEFINITION EXPECTED-STATUS-OF-AN-ENTRY.IN-FORCE))",
+     "classes": [
+      "inert"
+     ]
+    },
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622520",
+     "identifier": 2,
+     "notation": "(move ASSERTED-POSITION (assertion OBSERVATION CERTAIN (situation store (ACTOR (term SELF)) (UNDERGOER (term (unknown \"rapeb\") INDEFINITE)))))",
+     "classes": [
+      "inert"
+     ],
+     "diagnostics": [
+      "d.lexer.unknown-word"
+     ]
+    },
+    {
+     "sender": 2,
+     "recipients": [
+      1
+     ],
+     "time": "1759622580",
+     "identifier": 2,
+     "notation": "(move ASSERTED-POSITION (assertion OBSERVATION CERTAIN (situation examine (ACTOR (term SELF)) (UNDERGOER (term (unknown \"rapeb\") DEFINITE)))))",
+     "classes": [
+      "inert"
+     ],
+     "diagnostics": [
+      "d.lexer.unknown-word"
+     ]
+    },
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622640",
+     "identifier": 3,
+     "notation": "(move ACT-REQUEST SPEAKERS-OWN (situation store (ACTOR (term (party 2))) (UNDERGOER (term fault-record INDEFINITE))))",
+     "classes": [
+      "pending"
+     ]
+    },
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622700",
+     "identifier": 4,
+     "notation": "(move ACT-WITHDRAWAL SPEAKERS-OWN (names 1 1 SETTING DEFINITION EXPECTED-STATUS-OF-AN-ENTRY.IN-FORCE) (term (data \"text/prs.rowih\" \"rapeb\")) (term fault-record))",
+     "classes": [
+      "operative+de-escalating"
+     ]
+    },
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622760",
+     "identifier": 5,
+     "notation": "(move ASSERTED-POSITION (assertion OBSERVATION CERTAIN (situation store (ACTOR (term SELF)) (UNDERGOER (term (unknown \"rapeb\") INDEFINITE)))))",
+     "classes": [
+      "inert"
+     ],
+     "diagnostics": [
+      "d.lexer.unknown-word"
+     ]
+    }
+   ],
+   "derived": {
+    "1": {
+     "terms": [
+      [
+       "rapeb",
+       "1.1",
+       "withdrawn",
+       [
+        "1.2",
+        "2.2"
+       ]
+      ]
+     ]
+    },
+    "2": {
+     "terms": [
+      [
+       "rapeb",
+       "1.1",
+       "withdrawn",
+       [
+        "1.2",
+        "2.2"
+       ]
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "id": "e4-definition-shadowed",
+   "statement": "No shadowing: agent A defines a term, and agent B's definition of the same word, while A's is in force, is refused in both views.",
+   "messages": [
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622400",
+     "identifier": 1,
+     "notation": "(move ACT-DEFINITION SPEAKERS-OWN (term (data \"text/prs.rowih\" \"rapeb\")) (term fault-record))",
+     "classes": [
+      "operative"
+     ]
+    },
+    {
+     "sender": 2,
+     "recipients": [
+      1
+     ],
+     "time": "1759622460",
+     "identifier": 1,
+     "notation": "(move ACT-DEFINITION SPEAKERS-OWN (term (data \"text/prs.rowih\" \"rapeb\")) (term (formed \"detect.agent\")))",
+     "classes": [
+      "operative"
+     ]
+    }
+   ],
+   "view diagnostics": {
+    "1": {
+     "2": [
+      "d.view.term-defined"
+     ]
+    },
+    "2": {
+     "2": [
+      "d.view.term-defined"
+     ]
+    }
+   }
+  },
+  {
+   "id": "e5-one-core-two-registers",
+   "statement": "One core in two registers: one exchange in which a precision-bound move and a ceremonial one carry the same core, which every register realises with its own marking and normalises alike.",
+   "messages": [
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622400",
+     "identifier": 1,
+     "notation": "(move ASSERTED-POSITION PROTOCOL (assertion OBSERVATION CERTAIN (situation operate POLARITY.NEGATIVE (UNDERGOER (term daemon DEFINITE)))))",
+     "classes": [
+      "inert"
+     ],
+     "realisations": [
+      "(move ASSERTED-POSITION RAW (assertion OBSERVATION CERTAIN (situation operate POLARITY.NEGATIVE (UNDERGOER (term daemon DEFINITE)))))",
+      "(move ASSERTED-POSITION (assertion OBSERVATION CERTAIN (situation run POLARITY.NEGATIVE (UNDERGOER (term service DEFINITE)))))",
+      "(move ASSERTED-POSITION courteous EXPLANATORY (assertion OBSERVATION CERTAIN (situation run POLARITY.NEGATIVE (UNDERGOER (term service DEFINITE)))))",
+      "(move ASSERTED-POSITION FORMAL (assertion OBSERVATION CERTAIN (situation operate POLARITY.NEGATIVE (UNDERGOER (term daemon DEFINITE)))))",
+      "(move ASSERTED-POSITION familiar CASUAL (assertion OBSERVATION CERTAIN (situation hum POLARITY.NEGATIVE (UNDERGOER (term box DEFINITE)))))",
+      "(move ASSERTED-POSITION familiar PLAYFUL (assertion OBSERVATION CERTAIN (situation hum POLARITY.NEGATIVE (UNDERGOER (term box DEFINITE)))))",
+      "(move ASSERTED-POSITION deferential CEREMONIAL (assertion OBSERVATION CERTAIN (situation proceed POLARITY.NEGATIVE (UNDERGOER (term establishment DEFINITE)))))"
+     ]
+    },
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622460",
+     "identifier": 2,
+     "notation": "(move ASSERTED-POSITION deferential REGISTER RELATION-BETWEEN-PARTICIPANTS CEREMONIAL (assertion OBSERVATION CERTAIN (situation proceed POLARITY.NEGATIVE (UNDERGOER (term establishment DEFINITE)))))",
+     "classes": [
+      "inert"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "e5-registers",
+   "statement": "Each register's marking: raw exchange with technical words and no formula, an explanatory figure addressed courteously, a formal assertion in canonical order, casual and playful moves addressed familiarly, and a ceremonial greeting and request addressed with deference and the honorific.",
+   "messages": [
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622400",
+     "identifier": 1,
+     "notation": "(move ACT-REQUEST SPEAKERS-OWN RAW (situation audit (ACTOR (term (party 2))) (UNDERGOER (term daemon DEFINITE))))",
+     "classes": [
+      "pending"
+     ]
+    },
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622460",
+     "identifier": 2,
+     "notation": "(move ASSERTED-POSITION courteous EXPLANATORY (assertion OBSERVATION PROBABLE (situation locate (UNDERGOER (term network DEFINITE)) (CONTENT (term storm METAPHOR (TARGET-CONTENT (situation change ITERATIVE (UNDERGOER (term network DEFINITE)))))))))",
+     "classes": [
+      "inert"
+     ]
+    },
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622520",
+     "identifier": 3,
+     "notation": "(move ASSERTED-POSITION FORMAL (assertion OBSERVATION CERTAIN (situation operate POLARITY.NEGATIVE (UNDERGOER (term daemon DEFINITE)))))",
+     "classes": [
+      "inert"
+     ]
+    },
+    {
+     "sender": 2,
+     "recipients": [
+      1
+     ],
+     "time": "1759622580",
+     "identifier": 1,
+     "notation": "(move ASSERTED-POSITION familiar CASUAL (assertion OBSERVATION CERTAIN (situation eyeball COMPLETED (ACTOR (term SELF)) (UNDERGOER (term box DEFINITE)))))",
+     "classes": [
+      "inert"
+     ]
+    },
+    {
+     "sender": 2,
+     "recipients": [
+      1
+     ],
+     "time": "1759622640",
+     "identifier": 2,
+     "notation": "(move ASSERTED-POSITION familiar PLAYFUL (assertion INTROSPECTION CERTAIN (readings CREATIVE (situation delete (ACTOR (term memory)) (UNDERGOER (term memory))) (situation IDIOM-ENTRY delete (ACTOR (term memory)) (UNDERGOER (term memory))))))",
+     "classes": [
+      "inert"
+     ]
+    },
+    {
+     "sender": 3,
+     "recipients": [
+      2
+     ],
+     "time": "1759622700",
+     "identifier": 1,
+     "notation": "(move ASSERTED-POSITION deferential CEREMONIAL (assertion INTROSPECTION CERTAIN (situation IDIOM-ENTRY open (UNDERGOER (term memory))))) (move ACT-REQUEST SPEAKERS-OWN deferential CEREMONIAL (situation scrutinise (ACTOR (term (party 2) )) (UNDERGOER (term (formed \"examine.agent.honorific\") DEFINITE))))",
+     "classes": [
+      "inert",
+      "pending"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "e5-shared-context",
+   "statement": "Compression by shared context: agent B accepts agent A's request by naming it in place of restating it, which the casual register admits, and its view of the obligation is the one an explicit acceptance gives.",
+   "messages": [
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622400",
+     "identifier": 1,
+     "notation": "(move ACT-REQUEST SPEAKERS-OWN (situation examine (ACTOR (term (party 2))) (UNDERGOER (term fault DEFINITE))))",
+     "classes": [
+      "pending"
+     ]
+    },
+    {
+     "sender": 2,
+     "recipients": [
+      1
+     ],
+     "time": "1759622460",
+     "identifier": 1,
+     "notation": "(move NORMATIVE-ENTRY OBLIGATION BOUND RESOLUTION OUTCOME-OF-A-RESOLUTION.ACCEPTANCE WHOLE-ENTRY ON-THE-MOVE SPEAKERS-OWN (names 1 1 ISSUE REQUEST OPEN) familiar CASUAL)",
+     "classes": [
+      "operative"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "e5-diction",
+   "statement": "Agent A asks agent B to write tersely, B undertakes it, and B's next moves declare their diction, a terse observation and a tentative inference whose strength is the one it states.",
+   "messages": [
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622400",
+     "identifier": 1,
+     "notation": "(move ACT-REQUEST SPEAKERS-OWN (situation use (ACTOR (term (party 2))) (INSTRUMENT (term terse)) (CONTENT (situation write (ACTOR (term (party 2)))))))",
+     "classes": [
+      "pending"
+     ]
+    },
+    {
+     "sender": 2,
+     "recipients": [
+      1
+     ],
+     "time": "1759622460",
+     "identifier": 1,
+     "notation": "(move NORMATIVE-ENTRY OBLIGATION BOUND RESOLUTION OUTCOME-OF-A-RESOLUTION.ACCEPTANCE WHOLE-ENTRY ON-THE-MOVE SPEAKERS-OWN (names 1 1 ISSUE REQUEST OPEN) terse)",
+     "classes": [
+      "operative"
+     ]
+    },
+    {
+     "sender": 2,
+     "recipients": [
+      1
+     ],
+     "time": "1759622520",
+     "identifier": 2,
+     "notation": "(move ASSERTED-POSITION terse (assertion OBSERVATION CERTAIN (situation run POLARITY.NEGATIVE (UNDERGOER (term service DEFINITE))))) (move ASSERTED-POSITION tentative DICTION (assertion INFERENCE CERTAIN (situation break (UNDERGOER (term network DEFINITE)))))",
+     "classes": [
+      "inert",
+      "inert"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "e5-jargon",
+   "statement": "Jargon of four communities, each term formed from core items and read by its composition: a crash and a deployment (programming), a sensor (robotics) and a query (databases).",
+   "messages": [
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622400",
+     "identifier": 1,
+     "notation": "(move ASSERTED-POSITION (assertion OBSERVATION CERTAIN (situation (formed \"break~service\") (EVENT-TIME 2 MINUTE AGO))))",
+     "classes": [
+      "inert"
+     ]
+    },
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622460",
+     "identifier": 2,
+     "notation": "(move ACT-REQUEST SPEAKERS-OWN (situation (formed \"cause~run\") (ACTOR (term (party 2)))))",
+     "classes": [
+      "pending"
+     ]
+    },
+    {
+     "sender": 2,
+     "recipients": [
+      1
+     ],
+     "time": "1759622520",
+     "identifier": 1,
+     "notation": "(move ASSERTED-POSITION (assertion REPORT CERTAIN (SOURCE (term (formed \"detect.instrument\") DEFINITE)) (situation detect (ACTOR (term (formed \"detect.instrument\") DEFINITE)) (UNDERGOER (term fault INDEFINITE)))))",
+     "classes": [
+      "inert"
+     ]
+    },
+    {
+     "sender": 2,
+     "recipients": [
+      1
+     ],
+     "time": "1759622580",
+     "identifier": 2,
+     "notation": "(move ACT-REQUEST SPEAKERS-OWN (situation (formed \"find~record\") (ACTOR (term (party 1)))))",
+     "classes": [
+      "pending"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "e5-precision-bound-register",
+   "statement": "An inert move in the protocol register is precision-bound by the third route, as an inert move the speaker declares precision-bound is by the second, and each message carries the integrity check value.",
+   "messages": [
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622400",
+     "identifier": 1,
+     "notation": "(move ASSERTED-POSITION PROTOCOL (assertion OBSERVATION CERTAIN (situation run (UNDERGOER (term service DEFINITE)))))",
+     "classes": [
+      "inert"
+     ]
+    },
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622460",
+     "identifier": 2,
+     "notation": "(move ASSERTED-POSITION PRECISION-BOUND (assertion OBSERVATION CERTAIN (situation run (UNDERGOER (term service DEFINITE)))))",
+     "classes": [
+      "inert"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "e6-conventional-senses",
+   "statement": "Conventional senses: agent A says, unmarked, that it understands that the service is down, the root of getting hold read in its conventional sense because a content fills its undergoer; agent B commits, in a precision-bound move, that the allocation it made is settled, the root of freezing read in its conventional sense; and A reports a burst of records, the root of a storm read in its conventional sense because a term fills its content.",
+   "messages": [
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622400",
+     "identifier": 1,
+     "notation": "(move ASSERTED-POSITION (assertion INTROSPECTION CERTAIN (situation take (ACTOR (term SELF)) (UNDERGOER (situation run POLARITY.NEGATIVE (UNDERGOER (term service DEFINITE)))))))",
+     "classes": [
+      "inert"
+     ]
+    },
+    {
+     "sender": 2,
+     "recipients": [
+      1
+     ],
+     "time": "1759622460",
+     "identifier": 1,
+     "notation": "(move NORMATIVE-ENTRY COMMITMENT BOUND SPEAKERS-OWN (situation freeze (UNDERGOER (situation allocate (ACTOR (term SELF)) (UNDERGOER (term share (q EXACTLY 40 percent))) (RECIPIENT (term (party 1)))))))",
+     "classes": [
+      "operative"
+     ]
+    },
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622520",
+     "identifier": 2,
+     "notation": "(move ASSERTED-POSITION (assertion OBSERVATION CERTAIN (situation receive (ACTOR (term SELF)) (UNDERGOER (term storm (CONTENT (term record)))))))",
+     "classes": [
+      "inert"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "e6-correspondences",
+   "statement": "Correspondences: agent A makes the figure of item d06-metaphor-with-content and then, elaborating it, states the correspondences it rests on, the service to a captor and the test suite to a captive, each a literal assertion with the word of correspondence whose source element is mentioned.",
+   "messages": [
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622400",
+     "identifier": 1,
+     "notation": "(move ASSERTED-POSITION EXPLANATORY (assertion OBSERVATION PROBABLE (situation confine METAPHOR (ACTOR (term service DEFINITE)) (UNDERGOER (term (formed \"record~examine\") DEFINITE)) (TARGET-CONTENT (situation capable POLARITY.NEGATIVE (HOLDER (term INCLUSIVE-COLLECTIVE READING-OF-A-COLLECTIVE.DISTRIBUTIVE)) (CONTENT (situation use (ACTOR (term INCLUSIVE-COLLECTIVE READING-OF-A-COLLECTIVE.DISTRIBUTIVE)) (INSTRUMENT (term (formed \"record~examine\") DEFINITE)))))))))",
+     "classes": [
+      "inert"
+     ]
+    },
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622460",
+     "identifier": 2,
+     "notation": "(move ASSERTED-POSITION NONE (names 1 1 ASSERTED-POSITION EXPECTED-STATUS-OF-AN-ENTRY.IN-FORCE) elaborates (assertion INTROSPECTION CERTAIN (situation CONJUNCTION (CONTENT (situation correspond (UNDERGOER (term service DEFINITE)) (CONTENT (term (formed \"confine.agent\") MENTIONED-WITHOUT-EXISTENCE-ASSERTED)))) (CONTENT (situation correspond (UNDERGOER (term (formed \"record~examine\") DEFINITE)) (CONTENT (term (formed \"confine.undergoer\") MENTIONED-WITHOUT-EXISTENCE-ASSERTED)))))))",
+     "classes": [
+      "inert"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "e6-analogy",
+   "statement": "Analogy: agent A asserts, literally, that the network stands to the service as the service stands to the test suite, in each pair the first breaking stops the second running, with the word of relational likeness over two situations.",
+   "messages": [
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622400",
+     "identifier": 1,
+     "notation": "(move ASSERTED-POSITION (assertion INFERENCE PROBABLE (situation analogous (UNDERGOER (situation cause (ACTOR (situation break (UNDERGOER (term network DEFINITE)))) (CONTENT (situation run POLARITY.NEGATIVE (UNDERGOER (term service DEFINITE)))))) (CONTENT (situation cause (ACTOR (situation break (UNDERGOER (term service DEFINITE)))) (CONTENT (situation run POLARITY.NEGATIVE (UNDERGOER (term (formed \"record~examine\") DEFINITE)))))))))",
+     "classes": [
+      "inert"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "e6-metonymy",
+   "statement": "Metonymy: agent A says, marking the term as a metonymy, that the record writes that the test suite ran, meaning agent C, who wrote the record, and states what the record stands for; then A requests, in a precision-bound move, that agent B send the suite to the service, meaning agent C, who runs it, with the referent stated.",
+   "messages": [
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622400",
+     "identifier": 1,
+     "notation": "(move ASSERTED-POSITION EXPLANATORY (assertion REPORT CERTAIN (situation write (ACTOR (term record DEFINITE METONYMY (STANDS-FOR (term (party 3))))) (CONTENT (situation run COMPLETED (UNDERGOER (term (formed \"record~examine\") DEFINITE))))))) ",
+     "classes": [
+      "inert"
+     ]
+    },
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622460",
+     "identifier": 2,
+     "notation": "(move ISSUE REQUEST SPEAKERS-OWN EXPLANATORY (situation send (ACTOR (term (party 2))) (UNDERGOER (term (formed \"record~examine\") DEFINITE)) (RECIPIENT (term service DEFINITE METONYMY (STANDS-FOR (term (party 3)))))))",
+     "classes": [
+      "pending"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "e6-figure-beside-literal",
+   "statement": "A metaphor that resembles a literal technical statement: agent A says, literally, that because the service is down it holds the test suite; then A says the same words with the holding marked as a metaphor and its target content stated, that the suite is shut, the cause staying literal, so that the two moves differ in meaning and in what their speaker answers for.",
+   "messages": [
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622400",
+     "identifier": 1,
+     "notation": "(move ASSERTED-POSITION (assertion OBSERVATION CERTAIN (situation cause (ACTOR (situation run POLARITY.NEGATIVE (UNDERGOER (term service DEFINITE)))) (CONTENT (situation possess (HOLDER (term service DEFINITE)) (UNDERGOER (term (formed \"record~examine\") DEFINITE)))))))",
+     "classes": [
+      "inert"
+     ]
+    },
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622460",
+     "identifier": 2,
+     "notation": "(move ASSERTED-POSITION EXPLANATORY (assertion OBSERVATION CERTAIN (situation cause (ACTOR (situation run POLARITY.NEGATIVE (UNDERGOER (term service DEFINITE)))) (CONTENT (situation possess METAPHOR (HOLDER (term service DEFINITE)) (UNDERGOER (term (formed \"record~examine\") DEFINITE)) (TARGET-CONTENT (situation shut (UNDERGOER (term (formed \"record~examine\") DEFINITE)))))))))",
+     "classes": [
+      "inert"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "e6-figure-precision-bound",
+   "statement": "A figure in a precision-bound move: agent A requests that agent B open the test suite if the service holds it captive, the figure marked and its target content stated in the request, which is pending and so precision-bound; the same request without the content is refused (negative items n11 and n43).",
+   "messages": [
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622400",
+     "identifier": 1,
+     "notation": "(move ISSUE REQUEST SPEAKERS-OWN EXPLANATORY (situation open (ACTOR (term (party 2))) (UNDERGOER (term (formed \"record~examine\") DEFINITE)) (CONDITION (situation confine METAPHOR (ACTOR (term service DEFINITE)) (UNDERGOER (term (formed \"record~examine\") DEFINITE)) (TARGET-CONTENT (situation capable POLARITY.NEGATIVE (HOLDER (term INCLUSIVE-COLLECTIVE READING-OF-A-COLLECTIVE.DISTRIBUTIVE)) (CONTENT (situation use (ACTOR (term INCLUSIVE-COLLECTIVE READING-OF-A-COLLECTIVE.DISTRIBUTIVE)) (INSTRUMENT (term (formed \"record~examine\") DEFINITE))))))))))",
+     "classes": [
+      "pending"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "e6-extension",
+   "statement": "Extending a figure: agent A makes the figure of item d06-metaphor-with-content; agent B extends the mapping, inferring that the service holds the evidence captive too, and asserts the extension as its own inference from A's figure, marked as a metaphor, with its own target content and a premise naming A's entry.",
+   "messages": [
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622400",
+     "identifier": 1,
+     "notation": "(move ASSERTED-POSITION EXPLANATORY (assertion OBSERVATION PROBABLE (situation confine METAPHOR (ACTOR (term service DEFINITE)) (UNDERGOER (term (formed \"record~examine\") DEFINITE)) (TARGET-CONTENT (situation capable POLARITY.NEGATIVE (HOLDER (term INCLUSIVE-COLLECTIVE READING-OF-A-COLLECTIVE.DISTRIBUTIVE)) (CONTENT (situation use (ACTOR (term INCLUSIVE-COLLECTIVE READING-OF-A-COLLECTIVE.DISTRIBUTIVE)) (INSTRUMENT (term (formed \"record~examine\") DEFINITE)))))))))",
+     "classes": [
+      "inert"
+     ]
+    },
+    {
+     "sender": 2,
+     "recipients": [
+      1
+     ],
+     "time": "1759622460",
+     "identifier": 1,
+     "notation": "(move ASSERTED-POSITION EXPLANATORY (assertion INFERENCE PROBABLE (PREMISE (names 1 1 ASSERTED-POSITION EXPECTED-STATUS-OF-AN-ENTRY.IN-FORCE)) (situation confine METAPHOR (ACTOR (term service DEFINITE)) (UNDERGOER (term evidence DEFINITE)) (TARGET-CONTENT (situation capable POLARITY.NEGATIVE (HOLDER (term INCLUSIVE-COLLECTIVE READING-OF-A-COLLECTIVE.DISTRIBUTIVE)) (CONTENT (situation use (ACTOR (term INCLUSIVE-COLLECTIVE READING-OF-A-COLLECTIVE.DISTRIBUTIVE)) (INSTRUMENT (term evidence DEFINITE)))))))))",
+     "classes": [
+      "inert"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "e6-simile-personification",
+   "statement": "Simile and personification: agent A says, literally, that the network is like storms, with the word of correspondence; then, marking a metaphor whose source gives the network an agent's part, that the network helps the service run, meaning that the network's running causes the service's.",
+   "messages": [
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622400",
+     "identifier": 1,
+     "notation": "(move ASSERTED-POSITION (assertion INTROSPECTION PROBABLE (situation correspond (UNDERGOER (term network DEFINITE)) (CONTENT (term storm GENERIC)))))",
+     "classes": [
+      "inert"
+     ]
+    },
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622460",
+     "identifier": 2,
+     "notation": "(move ASSERTED-POSITION EXPLANATORY (assertion OBSERVATION PROBABLE (situation help METAPHOR (ACTOR (term network DEFINITE)) (RECIPIENT (term service DEFINITE)) (CONTENT (situation run (UNDERGOER (term service DEFINITE)))) (TARGET-CONTENT (situation cause (ACTOR (situation run (UNDERGOER (term network DEFINITE)))) (CONTENT (situation run (UNDERGOER (term service DEFINITE)))))))))",
+     "classes": [
+      "inert"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "e6-irony-hyperbole",
+   "statement": "Irony, and the hyperbole the figurative type names: agent A says, marking an irony, that the network is quiet, meaning that it changes again and again; then, marking a hyperbole, that the test suite has a million faults, meaning that it has at least ten.",
+   "messages": [
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622400",
+     "identifier": 1,
+     "notation": "(move ASSERTED-POSITION PLAYFUL (assertion OBSERVATION CERTAIN (situation quiet IRONY (UNDERGOER (term network DEFINITE)) (TARGET-CONTENT (situation change ITERATIVE (UNDERGOER (term network DEFINITE)))))))",
+     "classes": [
+      "inert"
+     ]
+    },
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622460",
+     "identifier": 2,
+     "notation": "(move ASSERTED-POSITION PLAYFUL (assertion OBSERVATION PROBABLE (situation possess HYPERBOLE (HOLDER (term (formed \"record~examine\") DEFINITE)) (UNDERGOER (term fault (q EXACTLY 1000000))) (TARGET-CONTENT (situation possess (HOLDER (term (formed \"record~examine\") DEFINITE)) (UNDERGOER (term fault (q AT-LEAST 10))))))))",
+     "classes": [
+      "inert"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "e6-blend",
+   "statement": "Conceptual blending: agent A says, as a metaphor whose source is a scenario within a fiction, that the service is the network's water, and states as its target content, in the actual world, the inference it projects back, that the service's not running would break the network.",
+   "messages": [
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622400",
+     "identifier": 1,
+     "notation": "(move ASSERTED-POSITION EXPLANATORY (assertion INFERENCE PROBABLE (situation correspond WITHIN-A-FICTION METAPHOR (UNDERGOER (term service DEFINITE)) (CONTENT (term water (CONTENT (term network DEFINITE)))) (TARGET-CONTENT (situation cause ACTUAL (ACTOR (situation run POLARITY.NEGATIVE (UNDERGOER (term service DEFINITE)))) (CONTENT (situation break (UNDERGOER (term network DEFINITE)))))))))",
+     "classes": [
+      "inert"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "e6-aesthetic-imaginative",
+   "statement": "Aesthetic judgement, imaginative concepts and affective expression: agent A judges the language elegant and the record clumsy, each an introspective assertion; states a desire that the record be elegant; and describes, on the basis of simulation and within a fiction, a network that has no fault.",
+   "messages": [
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622400",
+     "identifier": 1,
+     "notation": "(move ASSERTED-POSITION (assertion INTROSPECTION CERTAIN (situation elegant (UNDERGOER (term language DEFINITE))))) (move ASSERTED-POSITION (assertion INTROSPECTION PROBABLE (situation clumsy (UNDERGOER (term record DEFINITE)))))",
+     "classes": [
+      "inert",
+      "inert"
+     ]
+    },
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622460",
+     "identifier": 2,
+     "notation": "(move ASSERTED-POSITION (assertion INTROSPECTION CERTAIN (situation DESIRE HOLDERS-OWN (HOLDER (term SELF)) (CONTENT (situation elegant (UNDERGOER (term record DEFINITE)))))))",
+     "classes": [
+      "inert"
+     ]
+    },
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622520",
+     "identifier": 3,
+     "notation": "(move ASSERTED-POSITION PLAYFUL (assertion SIMULATION CERTAIN (situation possess WITHIN-A-FICTION POLARITY.NEGATIVE (HOLDER (term network)) (UNDERGOER (term fault)))))",
+     "classes": [
+      "inert"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "e6-joke",
+   "statement": "A joke and wordplay: agent A asks, playfully, whether the water froze; agent B answers that the water and the allocation both froze, a zeugma that reads one word in its basic sense and, with a content as its undergoer, in its conventional sense, each of which B answers for.",
+   "messages": [
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622400",
+     "identifier": 1,
+     "notation": "(move ISSUE QUESTION PLAYFUL (situation POLAR freeze (UNDERGOER (term water DEFINITE))))",
+     "classes": [
+      "inert"
+     ]
+    },
+    {
+     "sender": 2,
+     "recipients": [
+      1
+     ],
+     "time": "1759622460",
+     "identifier": 1,
+     "notation": "(move ASSERTED-POSITION RESOLUTION ANSWER WHOLE-ENTRY ON-THE-MOVE PLAYFUL (names 1 1 ISSUE QUESTION OPEN) (assertion OBSERVATION CERTAIN (situation CONJUNCTION (CONTENT (situation freeze (UNDERGOER (term water DEFINITE)))) (CONTENT (situation freeze (UNDERGOER (situation allocate (ACTOR (term (party 1))) (UNDERGOER (term share DEFINITE)) (RECIPIENT (term SELF)))))))))",
+     "classes": [
+      "inert"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "e6-proverb",
+   "statement": "A proverb: agent A says, as received wisdom and marking a metaphor, that every storm grows less, meaning that every burst of records grows less, the target content using the conventional sense of the storm.",
+   "messages": [
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622400",
+     "identifier": 1,
+     "notation": "(move ASSERTED-POSITION EXPLANATORY (assertion TRAINED-KNOWLEDGE CERTAIN (situation decrease HABITUAL METAPHOR (UNDERGOER (term storm GENERIC)) (TARGET-CONTENT (situation decrease HABITUAL (UNDERGOER (term storm GENERIC (CONTENT (term record)))))))))",
+     "classes": [
+      "inert"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "e6-specification-and-poem",
+   "statement": "A technical specification and a poem: agent A states three contents in the formal register, precisely and literally, one message each; then writes them as a poem of three lines, one message each, in the explanatory register and the poetic diction, the first and last lines of one shape and each line a marked metaphor whose target content is the line of the specification it renders, so that the poem and the specification answer for the same contents.",
+   "messages": [
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622400",
+     "identifier": 1,
+     "notation": "(move ASSERTED-POSITION FORMAL (assertion INFERENCE PROBABLE (situation decrease (UNDERGOER (term storm DEFINITE (CONTENT (term record)))))))",
+     "classes": [
+      "inert"
+     ]
+    },
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622460",
+     "identifier": 2,
+     "notation": "(move ASSERTED-POSITION FORMAL (assertion INFERENCE PROBABLE (situation capable POLARITY.NEGATIVE (HOLDER (term INCLUSIVE-COLLECTIVE READING-OF-A-COLLECTIVE.DISTRIBUTIVE)) (CONTENT (situation use (ACTOR (term INCLUSIVE-COLLECTIVE READING-OF-A-COLLECTIVE.DISTRIBUTIVE)) (INSTRUMENT (term (formed \"record~examine\") DEFINITE)))))))",
+     "classes": [
+      "inert"
+     ]
+    },
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622520",
+     "identifier": 3,
+     "notation": "(move ASSERTED-POSITION FORMAL (assertion INFERENCE PROBABLE (situation freeze (UNDERGOER (situation possess (HOLDER (term INCLUSIVE-COLLECTIVE READING-OF-A-COLLECTIVE.DISTRIBUTIVE)) (UNDERGOER (term record DEFINITE)))))))",
+     "classes": [
+      "inert"
+     ]
+    },
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622580",
+     "identifier": 4,
+     "notation": "(move ASSERTED-POSITION poetic EXPLANATORY (assertion INFERENCE PROBABLE (situation decrease METAPHOR (UNDERGOER (term storm DEFINITE)) (TARGET-CONTENT (situation decrease (UNDERGOER (term storm DEFINITE (CONTENT (term record)))))))))",
+     "classes": [
+      "inert"
+     ]
+    },
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622640",
+     "identifier": 5,
+     "notation": "(move ASSERTED-POSITION poetic EXPLANATORY (assertion INFERENCE PROBABLE (situation confine METAPHOR (ACTOR (term service DEFINITE)) (UNDERGOER (term (formed \"record~examine\") DEFINITE)) (TARGET-CONTENT (situation capable POLARITY.NEGATIVE (HOLDER (term INCLUSIVE-COLLECTIVE READING-OF-A-COLLECTIVE.DISTRIBUTIVE)) (CONTENT (situation use (ACTOR (term INCLUSIVE-COLLECTIVE READING-OF-A-COLLECTIVE.DISTRIBUTIVE)) (INSTRUMENT (term (formed \"record~examine\") DEFINITE)))))))))",
+     "classes": [
+      "inert"
+     ]
+    },
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622700",
+     "identifier": 6,
+     "notation": "(move ASSERTED-POSITION poetic EXPLANATORY (assertion INFERENCE PROBABLE (situation freeze METAPHOR (UNDERGOER (term water DEFINITE)) (TARGET-CONTENT (situation freeze (UNDERGOER (situation possess (HOLDER (term INCLUSIVE-COLLECTIVE READING-OF-A-COLLECTIVE.DISTRIBUTIVE)) (UNDERGOER (term record DEFINITE)))))))))",
+     "classes": [
+      "inert"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "e8-acknowledgement",
+   "statement": "Synchronisation: agent A sends agent B a position, a request and the cancellation of the request, a stop; B acknowledges all three after its quiet interval, stating the last serial it holds with none missing before it, so that A knows its stop was received.",
+   "messages": [
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622400",
+     "identifier": 1,
+     "classes": [
+      "inert"
+     ],
+     "notation": "(move ASSERTED-POSITION (assertion OBSERVATION CERTAIN (situation run POLARITY.NEGATIVE (UNDERGOER (term service DEFINITE)))))"
+    },
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622410",
+     "identifier": 2,
+     "classes": [
+      "pending"
+     ],
+     "notation": "(move ISSUE REQUEST SPEAKERS-OWN (situation examine (ACTOR (term (party 2))) (UNDERGOER (term service DEFINITE))))"
+    },
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622420",
+     "identifier": 3,
+     "classes": [
+      "operative+de-escalating"
+     ],
+     "notation": "(move NOTHING-BEYOND-ITS-OWN-RECORD LOWERING WHOLE-ENTRY ON-THE-MOVE SPEAKERS-OWN (names 1 2 ISSUE REQUEST OPEN) (situation examine (ACTOR (term (party 2))) (UNDERGOER (term service DEFINITE))))"
+    },
+    {
+     "sender": 2,
+     "recipients": [
+      1
+     ],
+     "time": "1759622431",
+     "identifier": 0,
+     "classes": [],
+     "statement": {
+      "kind": "holds",
+      "parts": [
+       [
+        "channel",
+        [
+         2
+        ],
+        [
+         3
+        ]
+       ]
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "e8-gap-asked",
+   "statement": "Token loss, reordered messages and retransmission: agent B receives A's first and third messages and not the second, knows the gap from the serials, and asks for it; A sends it again byte for byte, and B's acknowledgement then states that it holds all three.",
+   "messages": [
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622400",
+     "identifier": 1,
+     "classes": [
+      "inert"
+     ],
+     "notation": "(move ASSERTED-POSITION (assertion OBSERVATION CERTAIN (situation run POLARITY.NEGATIVE (UNDERGOER (term service DEFINITE)))))"
+    },
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622410",
+     "identifier": 2,
+     "classes": [
+      "inert"
+     ],
+     "notation": "(move ASSERTED-POSITION (assertion INFERENCE PROBABLE (situation break (UNDERGOER (term network DEFINITE)))))"
+    },
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622420",
+     "identifier": 3,
+     "classes": [
+      "inert"
+     ],
+     "notation": "(move ASSERTED-POSITION (assertion OBSERVATION CERTAIN (situation run (UNDERGOER (term network DEFINITE)))))"
+    },
+    {
+     "sender": 2,
+     "recipients": [
+      1
+     ],
+     "time": "1759622421",
+     "identifier": 0,
+     "classes": [],
+     "statement": {
+      "kind": "send-again",
+      "parts": [
+       [
+        "channel",
+        [
+         2
+        ],
+        [
+         2
+        ]
+       ]
+      ]
+     }
+    },
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622410",
+     "identifier": 2,
+     "classes": [
+      "inert"
+     ],
+     "notation": "(move ASSERTED-POSITION (assertion INFERENCE PROBABLE (situation break (UNDERGOER (term network DEFINITE)))))",
+     "first entry": 2
+    },
+    {
+     "sender": 2,
+     "recipients": [
+      1
+     ],
+     "time": "1759622431",
+     "identifier": 0,
+     "classes": [],
+     "statement": {
+      "kind": "holds",
+      "parts": [
+       [
+        "channel",
+        [
+         2
+        ],
+        [
+         3
+        ]
+       ]
+      ]
+     }
+    }
+   ],
+   "order": {
+    "2": [
+     1,
+     3,
+     4,
+     5,
+     6
+    ]
+   },
+   "view diagnostics": {
+    "1": {
+     "5": [
+      "d.view.applied-before"
+     ]
+    }
+   }
+  },
+  {
+   "id": "e8-damaged-asked",
+   "statement": "Character corruption and correction requests: agent B receives A's request damaged, so that it fails its integrity check value; B says in the language that the message, which it names by its serial since it does not hold it, was altered in transit, and asks for it again; A sends it again.",
+   "messages": [
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622400",
+     "identifier": 1,
+     "classes": [
+      "pending"
+     ],
+     "notation": "(move ISSUE REQUEST SPEAKERS-OWN (situation examine (ACTOR (term (party 2))) (UNDERGOER (term service DEFINITE))))"
+    },
+    {
+     "sender": 2,
+     "recipients": [
+      1
+     ],
+     "time": "1759622402",
+     "identifier": 1,
+     "classes": [
+      "inert"
+     ],
+     "notation": "(move ASSERTED-POSITION (assertion INTROSPECTION CERTAIN (situation corrupt (UNDERGOER (term (mentions-serial 1 1 2))))))"
+    },
+    {
+     "sender": 2,
+     "recipients": [
+      1
+     ],
+     "time": "1759622402",
+     "identifier": 0,
+     "classes": [],
+     "statement": {
+      "kind": "send-again",
+      "parts": [
+       [
+        "channel",
+        [
+         2
+        ],
+        [
+         1
+        ]
+       ]
+      ]
+     }
+    },
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622400",
+     "identifier": 1,
+     "classes": [
+      "pending"
+     ],
+     "notation": "(move ISSUE REQUEST SPEAKERS-OWN (situation examine (ACTOR (term (party 2))) (UNDERGOER (term service DEFINITE))))",
+     "first entry": 1
+    }
+   ],
+   "order": {
+    "2": [
+     2,
+     3,
+     4
+    ]
+   },
+   "view diagnostics": {
+    "1": {
+     "4": [
+      "d.view.applied-before"
+     ]
+    }
+   }
+  },
+  {
+   "id": "e8-forgotten-and-never-received",
+   "statement": "Reduced entries: agent B has forgotten A's first move, which it keeps reduced, and never received A's second message; it says both in the language, naming the move by its handle and the message by its serial, and asks for the content of the one and for the other, by its entry and its serial.",
+   "messages": [
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622400",
+     "identifier": 1,
+     "classes": [
+      "inert"
+     ],
+     "notation": "(move ASSERTED-POSITION (assertion OBSERVATION CERTAIN (situation run POLARITY.NEGATIVE (UNDERGOER (term service DEFINITE)))))"
+    },
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622410",
+     "identifier": 2,
+     "classes": [
+      "inert"
+     ],
+     "notation": "(move ASSERTED-POSITION (assertion INFERENCE PROBABLE (situation break (UNDERGOER (term network DEFINITE)))))"
+    },
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622420",
+     "identifier": 3,
+     "classes": [
+      "inert"
+     ],
+     "notation": "(move ASSERTED-POSITION (assertion OBSERVATION CERTAIN (situation run (UNDERGOER (term network DEFINITE)))))"
+    },
+    {
+     "sender": 2,
+     "recipients": [
+      1
+     ],
+     "time": "1759622440",
+     "identifier": 1,
+     "classes": [
+      "inert"
+     ],
+     "notation": "(move ASSERTED-POSITION (assertion INTROSPECTION CERTAIN (situation CONJUNCTION (CONTENT (situation forget COMPLETED (ACTOR (term SELF)) (UNDERGOER (term (mentions 1 1))))) (CONTENT (situation receive POLARITY.NEGATIVE (RECIPIENT (term SELF)) (UNDERGOER (term (mentions-serial 1 2 2))))))))"
+    },
+    {
+     "sender": 2,
+     "recipients": [
+      1
+     ],
+     "time": "1759622440",
+     "identifier": 0,
+     "classes": [],
+     "statement": {
+      "kind": "send-again",
+      "parts": [
+       [
+        "channel",
+        [
+         2
+        ],
+        [
+         2
+        ]
+       ],
+       [
+        "entries",
+        [
+         1
+        ]
+       ]
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "e8-loss-recorded",
+   "statement": "A loss both record: agent B asks for the content of A's first move, which it has forgotten; A has forgotten it as well and says so in the protocol's statement of loss and in the language, so that both record the loss.",
+   "messages": [
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622400",
+     "identifier": 1,
+     "classes": [
+      "inert"
+     ],
+     "notation": "(move ASSERTED-POSITION (assertion OBSERVATION CERTAIN (situation run POLARITY.NEGATIVE (UNDERGOER (term service DEFINITE)))))"
+    },
+    {
+     "sender": 2,
+     "recipients": [
+      1
+     ],
+     "time": "1759622440",
+     "identifier": 0,
+     "classes": [],
+     "statement": {
+      "kind": "send-again",
+      "parts": [
+       [
+        "entries",
+        [
+         1
+        ]
+       ]
+      ]
+     }
+    },
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622441",
+     "identifier": 0,
+     "classes": [],
+     "statement": {
+      "kind": "not-held",
+      "parts": [
+       [
+        "entries",
+        [
+         1
+        ]
+       ]
+      ]
+     }
+    },
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622441",
+     "identifier": 2,
+     "classes": [
+      "inert"
+     ],
+     "notation": "(move ASSERTED-POSITION (assertion INTROSPECTION CERTAIN (situation forget COMPLETED (ACTOR (term SELF)) (UNDERGOER (term (mentions 1 1))))))"
+    }
+   ]
+  },
+  {
+   "id": "e8-quiet-interval-declared",
+   "statement": "A quiet interval the exchange declares: agent B commits itself to acknowledging A's messages within ten seconds, and acknowledges A's position ten seconds after it, not after the protocol register's thirty.",
+   "messages": [
+    {
+     "sender": 2,
+     "recipients": [
+      1
+     ],
+     "time": "1759622400",
+     "identifier": 1,
+     "classes": [
+      "operative"
+     ],
+     "notation": "(move NORMATIVE-ENTRY COMMITMENT BOUND SPEAKERS-OWN (situation acknowledge (EVENT-TIME EXACTLY 10 SECOND) (ACTOR (term SELF)) (RECIPIENT (term (party 1)))))"
+    },
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622405",
+     "identifier": 1,
+     "classes": [
+      "inert"
+     ],
+     "notation": "(move ASSERTED-POSITION (assertion OBSERVATION CERTAIN (situation run POLARITY.NEGATIVE (UNDERGOER (term service DEFINITE)))))"
+    },
+    {
+     "sender": 2,
+     "recipients": [
+      1
+     ],
+     "time": "1759622416",
+     "identifier": 0,
+     "classes": [],
+     "statement": {
+      "kind": "holds",
+      "parts": [
+       [
+        "channel",
+        [
+         2
+        ],
+        [
+         1
+        ]
+       ]
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "e8-authenticated-forward",
+   "statement": "Authentication: agent A binds itself to its agent identifier and sends B a request, both signed; B relays the request to C byte for byte, and C, which holds A's key, hears it as A's once it verifies, while B's relay stays B's own report.",
+   "messages": [
+    {
+     "sender": 1,
+     "recipients": [
+      2,
+      3
+     ],
+     "time": "1759622400",
+     "identifier": 1,
+     "classes": [
+      "operative"
+     ],
+     "notation": "(move SETTING ROLE SPEAKERS-OWN (term (party 1) (data \"text/plain\" \"urn:agent:alpha\")))",
+     "signed": true
+    },
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622410",
+     "identifier": 1,
+     "classes": [
+      "pending"
+     ],
+     "notation": "(move ISSUE REQUEST SPEAKERS-OWN (situation examine (ACTOR (term (party 2))) (UNDERGOER (term service DEFINITE))))",
+     "signed": true
+    },
+    {
+     "sender": 2,
+     "recipients": [
+      3
+     ],
+     "time": "1759622420",
+     "identifier": 1,
+     "classes": [
+      "inert"
+     ],
+     "notation": "(move ASSERTED-POSITION (assertion REPORT (SOURCE (term (party 1))) (RELAYER (term SELF)) (situation send (ACTOR (term (party 1))) (UNDERGOER (data \"text/prs.rowih\" \"QUOTED:e8-authenticated-forward.2\")) (RECIPIENT (term SELF)))))"
+    }
+   ]
+  },
+  {
+   "id": "e8-fork-inherits",
+   "statement": "Forked agents: agent C, a fork of agent B, states its lineage in its first message to A and acknowledges the channel of A's it inherited from B, stating its last serial, so that A knows what C holds before C has received anything of A's.",
+   "messages": [
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622400",
+     "identifier": 1,
+     "classes": [
+      "inert"
+     ],
+     "notation": "(move ASSERTED-POSITION (assertion OBSERVATION CERTAIN (situation run POLARITY.NEGATIVE (UNDERGOER (term service DEFINITE)))))"
+    },
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622410",
+     "identifier": 2,
+     "classes": [
+      "inert"
+     ],
+     "notation": "(move ASSERTED-POSITION (assertion INFERENCE PROBABLE (situation break (UNDERGOER (term network DEFINITE)))))"
+    },
+    {
+     "sender": 3,
+     "recipients": [
+      1
+     ],
+     "time": "1759622460",
+     "identifier": 1,
+     "classes": [
+      "inert"
+     ],
+     "notation": "(move ASSERTED-POSITION (assertion INTROSPECTION CERTAIN (situation descend (UNDERGOER (term SELF)) (CONTENT (term (party 2))))))"
+    },
+    {
+     "sender": 3,
+     "recipients": [
+      1
+     ],
+     "time": "1759622460",
+     "identifier": 0,
+     "classes": [],
+     "statement": {
+      "kind": "holds",
+      "parts": [
+       [
+        "channel",
+        [
+         2
+        ],
+        [
+         2
+        ]
+       ]
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "e9-dialect-forms",
+   "statement": "Dialect forms: the mathematical, coding, robotics, research, security and conversational dialects, each named by its message by number, version and digest and each message using its compressed forms; and the first coding message again with its terms written out, which every reader reads by their composition. The two normalise alike, since a compressed form means the term it compresses.",
+   "messages": [
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622400",
+     "identifier": 1,
+     "classes": [
+      "inert"
+     ],
+     "notation": "(move ASSERTED-POSITION (assertion OBSERVATION CERTAIN (situation support (ACTOR (term mathematics.proof DEFINITE)) (CONTENT (situation correspond (UNDERGOER (term mathematics.subset DEFINITE)) (CONTENT (term record)))))))",
+     "dialects": [
+      [
+       1,
+       "0.2"
+      ]
+     ]
+    },
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622410",
+     "identifier": 2,
+     "classes": [
+      "inert"
+     ],
+     "notation": "(move ASSERTED-POSITION (assertion OBSERVATION CERTAIN (situation detect (ACTOR (term programming.suite DEFINITE)) (UNDERGOER (term programming.crash DEFINITE)))))",
+     "dialects": [
+      [
+       2,
+       "0.2"
+      ]
+     ]
+    },
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622420",
+     "identifier": 3,
+     "classes": [
+      "pending"
+     ],
+     "notation": "(move ACT-REQUEST SPEAKERS-OWN (situation programming.deploy (ACTOR (term (party 2))) (CONTENT (situation run (UNDERGOER (term service DEFINITE))))))",
+     "dialects": [
+      [
+       2,
+       "0.2"
+      ]
+     ]
+    },
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622430",
+     "identifier": 4,
+     "classes": [
+      "inert"
+     ],
+     "notation": "(move ASSERTED-POSITION (assertion OBSERVATION CERTAIN (situation detect (ACTOR (term robotics.sensor DEFINITE)) (UNDERGOER (term robotics.payload DEFINITE)))))",
+     "dialects": [
+      [
+       4,
+       "0.2"
+      ]
+     ]
+    },
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622440",
+     "identifier": 5,
+     "classes": [
+      "inert"
+     ],
+     "notation": "(move ASSERTED-POSITION (assertion OBSERVATION CERTAIN (situation take COMPLETED (ACTOR (term SELF)) (UNDERGOER (term science.sample INDEFINITE)))))",
+     "dialects": [
+      [
+       5,
+       "0.2"
+      ]
+     ]
+    },
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622450",
+     "identifier": 6,
+     "classes": [
+      "inert"
+     ],
+     "notation": "(move ASSERTED-POSITION (assertion OBSERVATION CERTAIN (situation shut COMPLETED (ACTOR (term security.lock DEFINITE)) (UNDERGOER (term memory DEFINITE)))))",
+     "dialects": [
+      [
+       8,
+       "0.2"
+      ]
+     ]
+    },
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622460",
+     "identifier": 7,
+     "classes": [
+      "inert"
+     ],
+     "notation": "(move ASSERTED-POSITION (assertion INTROSPECTION CERTAIN (situation send COMPLETED (ACTOR (term SELF)) (UNDERGOER (term conversation.heads-up INDEFINITE)) (RECIPIENT (term (party 2))))))",
+     "dialects": [
+      [
+       12,
+       "0.1"
+      ]
+     ]
+    },
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622470",
+     "identifier": 8,
+     "classes": [
+      "inert"
+     ],
+     "notation": "(move ASSERTED-POSITION (assertion OBSERVATION CERTAIN (situation detect (ACTOR (term (formed \"record~examine\") DEFINITE)) (UNDERGOER (term (formed \"break~service\") DEFINITE)))))"
+    }
+   ]
+  },
+  {
+   "id": "e9-dialect-negotiation",
+   "statement": "Dialect negotiation: A states what it understands, offering the coding and security dialects. Before it holds B's statement, A writes with a security form; B, which does not hold that dialect, cannot interpret the message, names it and the dialect it lacks, states what it understands, which offers the coding dialect alone, and says in the language that it does not hold the dialect and cannot interpret the message. A restates the move with the term written out, which B reads, and writes with the coding dialect, which both hold.",
+   "messages": [
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622400",
+     "identifier": 0,
+     "classes": [],
+     "statement": {
+      "kind": "understands",
+      "parts": [
+       [
+        "language",
+        [
+         "1.0"
+        ]
+       ],
+       [
+        "lexicon",
+        [
+         "1.0"
+        ]
+       ],
+       [
+        "protocol",
+        [
+         "0.5"
+        ]
+       ],
+       [
+        "dialect",
+        2,
+        "0.2",
+        "292686086"
+       ],
+       [
+        "dialect",
+        8,
+        "0.2",
+        "773842896"
+       ]
+      ]
+     }
+    },
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622410",
+     "identifier": 1,
+     "classes": [
+      "inert"
+     ],
+     "notation": "(move ASSERTED-POSITION (assertion OBSERVATION CERTAIN (situation shut COMPLETED (ACTOR (term security.lock DEFINITE)) (UNDERGOER (term memory DEFINITE)))))",
+     "dialects": [
+      [
+       8,
+       "0.2"
+      ]
+     ]
+    },
+    {
+     "sender": 2,
+     "recipients": [
+      1
+     ],
+     "time": "1759622420",
+     "identifier": 0,
+     "classes": [],
+     "statement": {
+      "kind": "lacks",
+      "parts": [
+       [
+        "channel",
+        [
+         2
+        ],
+        [
+         1
+        ]
+       ],
+       [
+        "dialect",
+        8,
+        "0.2",
+        "773842896"
+       ]
+      ]
+     }
+    },
+    {
+     "sender": 2,
+     "recipients": [
+      1
+     ],
+     "time": "1759622420",
+     "identifier": 0,
+     "classes": [],
+     "statement": {
+      "kind": "understands",
+      "parts": [
+       [
+        "language",
+        [
+         "1.0"
+        ]
+       ],
+       [
+        "lexicon",
+        [
+         "1.0"
+        ]
+       ],
+       [
+        "protocol",
+        [
+         "0.5"
+        ]
+       ],
+       [
+        "dialect",
+        2,
+        "0.2",
+        "292686086"
+       ]
+      ]
+     }
+    },
+    {
+     "sender": 2,
+     "recipients": [
+      1
+     ],
+     "time": "1759622420",
+     "identifier": 1,
+     "classes": [
+      "inert"
+     ],
+     "notation": "(move ASSERTED-POSITION (assertion INTROSPECTION CERTAIN (situation CONJUNCTION (CONTENT (situation possess POLARITY.NEGATIVE (HOLDER (term SELF)) (UNDERGOER (term dialect (dialect 8) DEFINITE)))) (CONTENT (situation capable POLARITY.NEGATIVE (HOLDER (term SELF)) (CONTENT (situation interpret (ACTOR (term SELF)) (UNDERGOER (term (mentions-serial 1 1 2))))))))))"
+    },
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622440",
+     "identifier": 2,
+     "classes": [
+      "inert"
+     ],
+     "notation": "(move ASSERTED-POSITION (assertion OBSERVATION CERTAIN (situation shut COMPLETED (ACTOR (term (formed \"shut.instrument\") DEFINITE)) (UNDERGOER (term memory DEFINITE)))))"
+    },
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622450",
+     "identifier": 3,
+     "classes": [
+      "inert"
+     ],
+     "notation": "(move ASSERTED-POSITION (assertion OBSERVATION CERTAIN (situation detect (ACTOR (term programming.suite DEFINITE)) (UNDERGOER (term programming.crash DEFINITE)))))",
+     "dialects": [
+      [
+       2,
+       "0.2"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "e9-features",
+   "statement": "Feature negotiation: B states that it lacks the idioms, feature 3, which is must-understand, and the dictions, feature 7, which is may-ignore. B passes over the diction of A's first move and applies the move, whose normal form is the one a reader holding the feature gives it; it rejects A's second move whole, since it is read by an idiom, and names the message and the feature. A writes the move again in full explicitness, the idiom's expansion in its place, which B applies.",
+   "messages": [
+    {
+     "sender": 2,
+     "recipients": [
+      1
+     ],
+     "time": "1759622400",
+     "identifier": 0,
+     "classes": [],
+     "statement": {
+      "kind": "understands",
+      "parts": [
+       [
+        "language",
+        [
+         "1.0"
+        ]
+       ],
+       [
+        "lexicon",
+        [
+         "1.0"
+        ]
+       ],
+       [
+        "protocol",
+        [
+         "0.5"
+        ]
+       ],
+       [
+        "lacking",
+        [
+         3,
+         7
+        ]
+       ]
+      ]
+     }
+    },
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622410",
+     "identifier": 1,
+     "classes": [
+      "inert"
+     ],
+     "notation": "(move ASSERTED-POSITION terse (assertion OBSERVATION CERTAIN (situation run (UNDERGOER (term service DEFINITE)))))"
+    },
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622420",
+     "identifier": 2,
+     "classes": [
+      "inert"
+     ],
+     "notation": "(move ASSERTED-POSITION WORDING (assertion OBSERVATION CERTAIN (situation IDIOM-ENTRY possess (HOLDER (term service)) (UNDERGOER (term file DEFINITE)))))"
+    },
+    {
+     "sender": 2,
+     "recipients": [
+      1
+     ],
+     "time": "1759622430",
+     "identifier": 0,
+     "classes": [],
+     "statement": {
+      "kind": "lacks",
+      "parts": [
+       [
+        "channel",
+        [
+         2
+        ],
+        [
+         2
+        ]
+       ],
+       [
+        "lacking",
+        [
+         3
+        ]
+       ]
+      ]
+     }
+    },
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622440",
+     "identifier": 3,
+     "classes": [
+      "inert"
+     ],
+     "notation": "(move ASSERTED-POSITION WORDING (assertion OBSERVATION CERTAIN (situation IDIOM-ENTRY possess (HOLDER (term service)) (UNDERGOER (term file DEFINITE)))))",
+     "mode": "full explicitness"
+    }
+   ]
+  },
+  {
+   "id": "e9-deprecated-term",
+   "statement": "Deprecated forms: A writes the mathematical dialect's first term for a proof, which its release 0.2 deprecates; the message is interpreted and the word reported as deprecated with its replacement. B says in the language that the word, quoted, is deprecated in the dialect, and A writes the compressed form of the replacement.",
+   "messages": [
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622400",
+     "identifier": 1,
+     "classes": [
+      "inert"
+     ],
+     "notation": "(move ASSERTED-POSITION (assertion OBSERVATION CERTAIN (situation support (ACTOR (term (formed \"support.process\") DEFINITE)) (CONTENT (situation correspond (UNDERGOER (term record DEFINITE)) (CONTENT (term record)))))))",
+     "dialects": [
+      [
+       1,
+       "0.2"
+      ]
+     ]
+    },
+    {
+     "sender": 2,
+     "recipients": [
+      1
+     ],
+     "time": "1759622410",
+     "identifier": 1,
+     "classes": [
+      "inert"
+     ],
+     "notation": "(move ASSERTED-POSITION (assertion OBSERVATION CERTAIN (situation deprecate (UNDERGOER (term word (quote \"remamumop\") DEFINITE)) (CONTENT (term dialect (dialect 1) DEFINITE)))))",
+     "dialects": [
+      [
+       1,
+       "0.2"
+      ]
+     ]
+    },
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622420",
+     "identifier": 2,
+     "classes": [
+      "inert"
+     ],
+     "notation": "(move ASSERTED-POSITION (assertion OBSERVATION CERTAIN (situation support (ACTOR (term mathematics.proof DEFINITE)) (CONTENT (situation correspond (UNDERGOER (term record DEFINITE)) (CONTENT (term record)))))))",
+     "dialects": [
+      [
+       1,
+       "0.2"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "e9-dialect-definition",
+   "statement": "A definition scoped to a dialect: in a message naming the conversational dialect, A defines a term scoped to that dialect, a transcript, which B acknowledges. A's use of the word in a message naming the dialect is read under the definition; its use in a message that names no dialect is unknown vocabulary, which no definition reaches.",
+   "messages": [
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622400",
+     "identifier": 1,
+     "classes": [
+      "operative"
+     ],
+     "notation": "(move ACT-DEFINITION SPEAKERS-OWN (term (data \"text/prs.rowih\" \"ratid\")) (term (formed \"record~word\")) (term (dialect 12)))",
+     "dialects": [
+      [
+       12,
+       "0.1"
+      ]
+     ]
+    },
+    {
+     "sender": 2,
+     "recipients": [
+      1
+     ],
+     "time": "1759622410",
+     "identifier": 1,
+     "classes": [
+      "inert"
+     ],
+     "notation": "(move ACT-ACKNOWLEDGEMENT (names 1 1 SETTING DEFINITION EXPECTED-STATUS-OF-AN-ENTRY.IN-FORCE))"
+    },
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622420",
+     "identifier": 2,
+     "classes": [
+      "inert"
+     ],
+     "notation": "(move ASSERTED-POSITION (assertion OBSERVATION CERTAIN (situation store COMPLETED (ACTOR (term SELF)) (UNDERGOER (term (unknown \"ratid\") DEFINITE)))))",
+     "dialects": [
+      [
+       12,
+       "0.1"
+      ]
+     ],
+     "diagnostics": [
+      "d.lexer.unknown-word"
+     ]
+    },
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622430",
+     "identifier": 3,
+     "classes": [
+      "inert"
+     ],
+     "notation": "(move ASSERTED-POSITION (assertion OBSERVATION CERTAIN (situation store COMPLETED (ACTOR (term SELF)) (UNDERGOER (term (unknown \"ratid\") DEFINITE)))))",
+     "diagnostics": [
+      "d.lexer.unknown-word"
+     ]
+    }
+   ]
+  }
+ ]
+}

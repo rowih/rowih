@@ -1,0 +1,42 @@
+{
+ "machine identifier": "lx.000105",
+ "root": "lx.000001",
+ "phonological form": "/ɾosekaheh/",
+ "orthographic form": "rosekaheh",
+ "grammatical category": "derivation",
+ "sort": "s.sort.referent",
+ "semantic type": {
+  "sort": "s.sort.referent",
+  "arguments": []
+ },
+ "definition": "one that examines",
+ "semantic primitives": [
+  "s.sort.referent"
+ ],
+ "argument structure": [],
+ "derivational behaviour": [],
+ "register": [
+  "R0",
+  "R1",
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7"
+ ],
+ "collocations": [],
+ "synonyms": [],
+ "antonyms": [],
+ "related concepts": [],
+ "examples": [],
+ "version": {
+  "introduced": "0.1",
+  "deprecated": null
+ },
+ "key": "examiner",
+ "formed from": [
+  "lx.000001",
+  "lx.000096"
+ ]
+}

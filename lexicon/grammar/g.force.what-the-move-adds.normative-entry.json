@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.force.what-the-move-adds.normative-entry",
+ "orthographic form": "kukare",
+ "phonological form": "/kukaɾe/",
+ "grammatical category": "what the move adds",
+ "gloss": "NORMATIVE-ENTRY",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

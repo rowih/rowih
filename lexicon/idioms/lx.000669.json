@@ -1,0 +1,50 @@
+{
+ "machine identifier": "lx.000669",
+ "root": "lx.000669",
+ "phonological form": "/nuɾuɾah nusuwoj ɾakan/",
+ "orthographic form": "nururah nusuwoy rakan",
+ "grammatical category": "idiom",
+ "sort": "s.sort.situation",
+ "semantic type": {
+  "sort": "s.sort.situation",
+  "arguments": []
+ },
+ "definition": "a human may come to harm",
+ "semantic primitives": [
+  "s.sort.situation"
+ ],
+ "argument structure": [],
+ "derivational behaviour": [],
+ "register": [
+  "R0",
+  "R1",
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7"
+ ],
+ "collocations": [],
+ "synonyms": [],
+ "antonyms": [],
+ "related concepts": [],
+ "examples": [],
+ "version": {
+  "introduced": "1.0",
+  "deprecated": null
+ },
+ "key": "danger near a human",
+ "class": "warnings",
+ "kind": "encoding, grammatical",
+ "route": "formula",
+ "literal structure": "(situation approach (UNDERGOER (term danger)) (CONTENT (term human)))",
+ "expansion": "(situation safe POLARITY.NEGATIVE (UNDERGOER (term human DEFINITE)))",
+ "decomposition": [],
+ "pragmatic conditions": "of an action or a state of affairs that threatens a human",
+ "usage restrictions": "none",
+ "declared loss": [
+  "stance"
+ ],
+ "constructed history": "Constructed history: the warning agents give first, said of any harm coming toward a human."
+}

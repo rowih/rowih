@@ -1,0 +1,38 @@
+{
+ "machine identifier": "lx.000079",
+ "root": "lx.000079",
+ "phonological form": "/ɾatoɾ/",
+ "orthographic form": "rator",
+ "grammatical category": "nominal root",
+ "sort": "s.sort.expression",
+ "semantic type": {
+  "sort": "s.sort.expression",
+  "arguments": []
+ },
+ "definition": "a word of the language",
+ "semantic primitives": [
+  "s.sort.expression"
+ ],
+ "argument structure": [],
+ "derivational behaviour": [],
+ "register": [
+  "R0",
+  "R1",
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7"
+ ],
+ "collocations": [],
+ "synonyms": [],
+ "antonyms": [],
+ "related concepts": [],
+ "examples": [],
+ "version": {
+  "introduced": "0.1",
+  "deprecated": null
+ },
+ "key": "word"
+}

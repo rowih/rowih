@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.ambiguity-and-figures.register.raw",
+ "orthographic form": "lipi",
+ "phonological form": "/lipi/",
+ "grammatical category": "register",
+ "gloss": "RAW",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.6"
+ }
+}

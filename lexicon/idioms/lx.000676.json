@@ -1,0 +1,50 @@
+{
+ "machine identifier": "lx.000676",
+ "root": "lx.000676",
+ "phonological form": "/nunabeh nudokeh/",
+ "orthographic form": "nunabeh nudokeh",
+ "grammatical category": "idiom",
+ "sort": "s.sort.situation",
+ "semantic type": {
+  "sort": "s.sort.situation",
+  "arguments": []
+ },
+ "definition": "the speaker would have the hearer's work go forward",
+ "semantic primitives": [
+  "s.sort.situation"
+ ],
+ "argument structure": [],
+ "derivational behaviour": [],
+ "register": [
+  "R0",
+  "R1",
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7"
+ ],
+ "collocations": [],
+ "synonyms": [],
+ "antonyms": [],
+ "related concepts": [],
+ "examples": [],
+ "version": {
+  "introduced": "1.0",
+  "deprecated": null
+ },
+ "key": "ground flat",
+ "class": "agreement",
+ "kind": "encoding, grammatical",
+ "route": "formula",
+ "literal structure": "(situation flat (UNDERGOER (term ground)))",
+ "expansion": "(situation PREFERENCE (HOLDER (term SELF)) (CONTENT (situation progress (UNDERGOER (situation work (ACTOR (term INTERLOCUTOR)))))))",
+ "decomposition": [],
+ "pragmatic conditions": "in answer to a hearer that asks whether it may go on",
+ "usage restrictions": "none",
+ "declared loss": [
+  "stance"
+ ],
+ "constructed history": "Constructed history: nothing stops a vehicle on flat ground, and saying that the ground was flat told another to go on."
+}

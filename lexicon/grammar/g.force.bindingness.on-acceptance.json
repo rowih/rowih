@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.force.bindingness.on-acceptance",
+ "orthographic form": "kidayo",
+ "phonological form": "/kidajo/",
+ "grammatical category": "bindingness",
+ "gloss": "BINDINGNESS.ON-ACCEPTANCE",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

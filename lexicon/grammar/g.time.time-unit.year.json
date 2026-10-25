@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.time.time-unit.year",
+ "orthographic form": "dayabi",
+ "phonological form": "/dajabi/",
+ "grammatical category": "time unit",
+ "gloss": "YEAR",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

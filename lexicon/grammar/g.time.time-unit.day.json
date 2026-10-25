@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.time.time-unit.day",
+ "orthographic form": "domoto",
+ "phonological form": "/domoto/",
+ "grammatical category": "time unit",
+ "gloss": "DAY",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

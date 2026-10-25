@@ -1,0 +1,1403 @@
+{
+ "mutants": 94,
+ "caught": 94,
+ "results": {
+  "aims-apart": {
+   "invariant": "inv.aims-apart",
+   "description": "A normaliser that writes a refusal as an assertion of inability.",
+   "tests": [
+    "tests/test_corpus.py"
+   ],
+   "caught": true,
+   "exit": 1,
+   "summary": [
+    "1 failed, 2436 passed in 27.96s"
+   ]
+  },
+  "at-most-once": {
+   "invariant": "inv.at-most-once",
+   "description": "A hearer that removes duplicates by the bytes of the message.",
+   "tests": [
+    "tests/test_negative.py"
+   ],
+   "caught": true,
+   "exit": 1,
+   "summary": [
+    "1 failed, 268 passed in 1.99s"
+   ]
+  },
+  "authentication-covers-message": {
+   "invariant": "inv.authentication-covers-message",
+   "description": "A signer that covers the moves and leaves the envelope out.",
+   "tests": [
+    "tests/test_authentication.py"
+   ],
+   "caught": true,
+   "exit": 1,
+   "summary": [
+    "1 failed in 5.54s"
+   ]
+  },
+  "authority-attenuates": {
+   "invariant": "inv.authority-attenuates",
+   "description": "A checker that accepts an operative or pending move without its authority.",
+   "tests": [
+    "tests/test_negative.py"
+   ],
+   "caught": true,
+   "exit": 1,
+   "summary": [
+    "1 failed in 0.62s"
+   ]
+  },
+  "boundary-closed": {
+   "invariant": "inv.boundary-closed",
+   "description": "A parser that ends a quotation at any closing structural word inside it.",
+   "tests": [
+    "tests/test_corpus.py"
+   ],
+   "caught": true,
+   "exit": 1,
+   "summary": [
+    "1 failed, 14 passed in 2.28s"
+   ]
+  },
+  "check-forms-disjoint": {
+   "invariant": "inv.check-forms-disjoint",
+   "description": "A move check form that is also a word of the lexicon.",
+   "tests": [
+    "tests/test_lexicon.py"
+   ],
+   "caught": true,
+   "exit": 1,
+   "summary": [
+    "1 failed in 1.95s"
+   ]
+  },
+  "check-values-distinct": {
+   "invariant": "inv.check-values-distinct",
+   "description": "A semantic value computed over the message's own serialisation.",
+   "tests": [
+    "tests/test_corpus.py"
+   ],
+   "caught": true,
+   "exit": 1,
+   "summary": [
+    "1 failed, 1528 passed in 13.35s"
+   ]
+  },
+  "checks-match": {
+   "invariant": "inv.checks-match",
+   "description": "A parser that reads on past a word count that does not match.",
+   "tests": [
+    "tests/test_negative.py"
+   ],
+   "caught": true,
+   "exit": 1,
+   "summary": [
+    "1 failed, 24 passed in 0.69s"
+   ]
+  },
+  "class-computed": {
+   "invariant": "inv.class-computed",
+   "description": "A checker that finds the de-escalating moves by the change word alone.",
+   "tests": [
+    "tests/test_corpus.py"
+   ],
+   "caught": true,
+   "exit": 1,
+   "summary": [
+    "1 failed, 394 passed in 4.58s"
+   ]
+  },
+  "closed-alphabet": {
+   "invariant": "inv.closed-alphabet",
+   "description": "A reader that applies compatibility normalisation before it checks the alphabet.",
+   "tests": [
+    "tests/test_negative.py"
+   ],
+   "caught": true,
+   "exit": 1,
+   "summary": [
+    "1 failed, 44 passed in 0.62s"
+   ]
+  },
+  "common-ground-accommodation": {
+   "invariant": "inv.common-ground-by-acceptance",
+   "description": "A record keeper that accommodates a presupposition the viewing participant has not accepted.",
+   "tests": [
+    "tests/test_discourse.py"
+   ],
+   "caught": true,
+   "exit": 1,
+   "summary": [
+    "1 failed, 9 passed in 13.78s"
+   ]
+  },
+  "common-ground-by-acceptance": {
+   "invariant": "inv.common-ground-by-acceptance",
+   "description": "A record keeper that adds a message's content to the common ground when the message is acknowledged.",
+   "tests": [
+    "tests/test_discourse.py"
+   ],
+   "caught": true,
+   "exit": 1,
+   "summary": [
+    "1 failed, 9 passed in 13.08s"
+   ]
+  },
+  "compatible-within-major": {
+   "invariant": "inv.compatible-within-major",
+   "description": "A minor release that changes the declared default of a class.",
+   "tests": [
+    "tests/test_versions.py"
+   ],
+   "caught": true,
+   "exit": 1,
+   "summary": [
+    "1 failed, 3 passed in 2.16s"
+   ]
+  },
+  "conventional-sense-ignored": {
+   "invariant": "inv.figure-not-literal",
+   "description": "A reader that reads every word in its basic sense, so that a speaker's commitment attaches to the basic sense where its frame selects the conventional one.",
+   "tests": [
+    "tests/test_figures.py"
+   ],
+   "caught": true,
+   "exit": 1,
+   "summary": [
+    "1 failed in 2.08s"
+   ]
+  },
+  "conversion-lossy": {
+   "invariant": "machine/conversion-lossy",
+   "description": "A conversion to the native digital form that drops payloads.",
+   "tests": [
+    "tests/test_corpus.py"
+   ],
+   "caught": true,
+   "exit": 1,
+   "summary": [
+    "1 failed, 801 passed in 7.01s"
+   ]
+  },
+  "conversion-touches-the-core": {
+   "invariant": "inv.loss-declared",
+   "description": "A conversion that writes an idiom its target register does not admit by the idiom's literal reading, not by its expansion.",
+   "tests": [
+    "tests/test_registers.py"
+   ],
+   "caught": true,
+   "exit": 1,
+   "summary": [
+    "1 failed, 499 passed in 356.61s (0:05:56)"
+   ]
+  },
+  "core-closed": {
+   "invariant": "inv.core-closed",
+   "description": "A definition check that compares a new term only with the members of its own class, not with every word in scope.",
+   "tests": [
+    "tests/test_negative.py",
+    "tests/test_formation.py"
+   ],
+   "caught": true,
+   "exit": 1,
+   "summary": [
+    "1 failed, 86 passed in 2.37s"
+   ]
+  },
+  "credence-off-the-scale": {
+   "invariant": "epistemic/credence-off-the-scale",
+   "description": "A checker that leaves another holder's credence unchecked against the scale.",
+   "tests": [
+    "tests/test_negative.py"
+   ],
+   "caught": true,
+   "exit": 1,
+   "summary": [
+    "1 failed in 0.54s"
+   ]
+  },
+  "critical-forms-distinct": {
+   "invariant": "inv.critical-forms-distinct",
+   "description": "A component inventory that holds a component and its own reflection.",
+   "tests": [
+    "tests/test_render.py"
+   ],
+   "caught": true,
+   "exit": 1,
+   "summary": [
+    "1 failed in 3.40s"
+   ]
+  },
+  "critical-values-explicit": {
+   "invariant": "inv.critical-values-explicit",
+   "description": "A terse realisation that omits a deadline.",
+   "tests": [
+    "tests/test_corpus.py"
+   ],
+   "caught": true,
+   "exit": 1,
+   "summary": [
+    "1 failed, 1534 passed in 15.22s"
+   ]
+  },
+  "default-strengthening": {
+   "invariant": "grammatical/default-undeclared-or-strengthening",
+   "description": "A default that strengthens: a confirmation taken as independent unless stated.",
+   "tests": [
+    "tests/test_corpus.py"
+   ],
+   "caught": true,
+   "exit": 1,
+   "summary": [
+    "1 failed, 1533 passed in 14.29s"
+   ]
+  },
+  "dependencies-explicit": {
+   "invariant": "inv.dependencies-explicit",
+   "description": "A hearer that applies a cancellation to a request it holds as accepted.",
+   "tests": [
+    "tests/test_negative.py"
+   ],
+   "caught": true,
+   "exit": 1,
+   "summary": [
+    "1 failed, 267 passed in 2.18s"
+   ]
+  },
+  "deterministic": {
+   "invariant": "inv.deterministic",
+   "description": "Readings written in the order of an unordered collection.",
+   "tests": [
+    "tests/test_corpus.py",
+    "tests/test_properties.py",
+    "tests/test_parity.py"
+   ],
+   "caught": true,
+   "exit": 1,
+   "summary": [
+    "1 failed, 1 passed in 2.24s"
+   ]
+  },
+  "devices-admissible": {
+   "invariant": "inv.devices-admissible",
+   "description": "A generator that writes a dialect form to a hearer whose messages never stated the dialect.",
+   "tests": [
+    "tests/test_dialects.py"
+   ],
+   "caught": true,
+   "exit": 1,
+   "summary": [
+    "1 failed, 9 passed in 12.98s"
+   ]
+  },
+  "diagnostics-not-exceptions": {
+   "invariant": "inv.diagnostics-not-exceptions",
+   "description": "A parser that raises KeyError on a SAME that names no unit.",
+   "tests": [
+    "tests/test_negative.py"
+   ],
+   "caught": true,
+   "exit": 1,
+   "summary": [
+    "1 failed, 34 passed in 1.04s"
+   ]
+  },
+  "displays-are-views": {
+   "invariant": "inv.displays-are-views",
+   "description": "A reader that takes any text, dropping what is not the language, as a message.",
+   "tests": [
+    "tests/test_negative.py"
+   ],
+   "caught": true,
+   "exit": 1,
+   "summary": [
+    "1 failed, 27 passed in 0.54s"
+   ]
+  },
+  "encodings-agree": {
+   "invariant": "inv.encodings-agree",
+   "description": "A native digital form that spells two symbols with one code point.",
+   "tests": [
+    "tests/test_corpus.py"
+   ],
+   "caught": true,
+   "exit": 1,
+   "summary": [
+    "1 failed, 764 passed in 8.73s"
+   ]
+  },
+  "entries-immutable": {
+   "invariant": "inv.entries-immutable",
+   "description": "An act that rewrites an entry's content in place.",
+   "tests": [
+    "tests/test_negative.py"
+   ],
+   "caught": true,
+   "exit": 1,
+   "summary": [
+    "1 failed, 265 passed in 3.65s"
+   ]
+  },
+  "export-parsed-back": {
+   "invariant": "machine/export-parsed-back",
+   "description": "A reader that imports a JSON export and reads it as a message.",
+   "tests": [
+    "tests/test_enumerations.py"
+   ],
+   "caught": true,
+   "exit": 1,
+   "summary": [
+    "1 failed, 436 passed in 342.30s (0:05:42)"
+   ]
+  },
+  "external-origin-kept": {
+   "invariant": "inv.external-origin-kept",
+   "description": "A generator that lifts an imperative out of a payload into a request and drops its origin.",
+   "tests": [
+    "tests/test_coordination.py"
+   ],
+   "caught": true,
+   "exit": 1,
+   "summary": [
+    "1 failed, 12 passed in 83.85s (0:01:23)"
+   ]
+  },
+  "figure-not-literal": {
+   "invariant": "inv.figure-not-literal",
+   "description": "A normaliser that asserts the source content of a marked metaphor.",
+   "tests": [
+    "tests/test_corpus.py"
+   ],
+   "caught": true,
+   "exit": 1,
+   "summary": [
+    "1 failed, 2433 passed in 25.09s"
+   ]
+  },
+  "fit": {
+   "invariant": "inv.fit",
+   "description": "A hearer that applies a lowering of a request sent to another.",
+   "tests": [
+    "tests/test_negative.py"
+   ],
+   "caught": true,
+   "exit": 1,
+   "summary": [
+    "1 failed, 266 passed in 1.78s"
+   ]
+  },
+  "force-marked": {
+   "invariant": "inv.force-marked",
+   "description": "A checker that treats an assertion as a directive because its content names an obligation.",
+   "tests": [
+    "tests/test_corpus.py"
+   ],
+   "caught": true,
+   "exit": 1,
+   "summary": [
+    "1 failed, 354 passed in 4.31s"
+   ]
+  },
+  "formation-not-from-parts": {
+   "invariant": "units/formation-not-from-parts",
+   "description": "A lexer that reads every unlisted formation as an unknown word.",
+   "tests": [
+    "tests/test_corpus.py"
+   ],
+   "caught": true,
+   "exit": 1,
+   "summary": [
+    "1 failed, 33 passed in 2.07s"
+   ]
+  },
+  "gaps-known": {
+   "invariant": "inv.gaps-known",
+   "description": "A hearer that takes every serial below the highest it has received as held.",
+   "tests": [
+    "tests/test_repair.py"
+   ],
+   "caught": true,
+   "exit": 1,
+   "summary": [
+    "1 failed, 4 passed in 4.84s"
+   ]
+  },
+  "generation-faithful": {
+   "invariant": "inv.generation-faithful",
+   "description": "A generator that omits every value equal to its class's default, although the enclosing unit states another.",
+   "tests": [
+    "tests/test_corpus.py"
+   ],
+   "caught": true,
+   "exit": 1,
+   "summary": [
+    "1 failed, 1574 passed in 12.86s"
+   ]
+  },
+  "hearing-not-believing": {
+   "invariant": "inv.hearing-not-believing",
+   "description": "A record keeper that files what it hears among its own entries.",
+   "tests": [
+    "tests/test_corpus.py"
+   ],
+   "caught": true,
+   "exit": 1,
+   "summary": [
+    "1 failed, 2293 passed in 20.79s"
+   ]
+  },
+  "identity-not-reference": {
+   "invariant": "inv.identity-not-reference",
+   "description": "A resolver that binds the interlocutor to the agent most recently mentioned.",
+   "tests": [
+    "tests/test_negative.py"
+   ],
+   "caught": true,
+   "exit": 1,
+   "summary": [
+    "1 failed, 270 passed in 1.65s"
+   ]
+  },
+  "independent-confirmation": {
+   "invariant": "inv.independent-confirmation",
+   "description": "A record keeper that raises standing on any confirmation from a different participant identifier.",
+   "tests": [
+    "tests/test_discourse.py",
+    "tests/test_corpus.py"
+   ],
+   "caught": true,
+   "exit": 1,
+   "summary": [
+    "1 failed, 8 passed in 11.37s"
+   ]
+  },
+  "inference-not-said": {
+   "invariant": "inv.inference-not-said",
+   "description": "An interpreter that records a scalar implicature as the speaker's assertion.",
+   "tests": [
+    "tests/test_discourse.py"
+   ],
+   "caught": true,
+   "exit": 1,
+   "summary": [
+    "1 failed, 12 passed in 13.21s"
+   ]
+  },
+  "integrity-value-required": {
+   "invariant": "inv.integrity-value-required",
+   "description": "A checker that requires the value only on operative moves, missing pending ones.",
+   "tests": [
+    "tests/test_negative.py"
+   ],
+   "caught": true,
+   "exit": 1,
+   "summary": [
+    "1 failed, 21 passed in 0.47s"
+   ]
+  },
+  "interval-written-as-a-point": {
+   "invariant": "ambiguity/interval-written-as-a-point",
+   "description": "A normaliser that writes an interval of strength as its midpoint.",
+   "tests": [
+    "tests/test_ambiguity.py"
+   ],
+   "caught": true,
+   "exit": 1,
+   "summary": [
+    "1 failed, 19 passed in 0.65s"
+   ]
+  },
+  "layout-carries-meaning": {
+   "invariant": "writing/layout-carries-meaning",
+   "description": "A reader that takes a line break inside a move as a fault.",
+   "tests": [
+    "tests/test_enumerations.py"
+   ],
+   "caught": true,
+   "exit": 1,
+   "summary": [
+    "1 failed, 432 passed in 332.24s (0:05:32)"
+   ]
+  },
+  "lexicon-code": {
+   "invariant": "inv.lexicon-code",
+   "description": "A release check that does not test the distance between words.",
+   "tests": [
+    "tests/test_lexicon.py"
+   ],
+   "caught": true,
+   "exit": 1,
+   "summary": [
+    "1 failed, 2 passed in 10.36s"
+   ]
+  },
+  "lexicon-version-ignored": {
+   "invariant": "semantic/lexicon-version-ignored",
+   "description": "A reader that interprets a message under its own lexicon whatever version the message names.",
+   "tests": [
+    "tests/test_negative.py"
+   ],
+   "caught": true,
+   "exit": 1,
+   "summary": [
+    "1 failed, 42 passed in 0.60s"
+   ]
+  },
+  "long-root-decodable": {
+   "invariant": "inv.speech-decodable",
+   "description": "A reader that takes the long root's syllable to open four symbols, as its onset alone would.",
+   "tests": [
+    "tests/test_long_roots.py"
+   ],
+   "caught": true,
+   "exit": 1,
+   "summary": [
+    "1 failed, 1 passed in 0.42s"
+   ]
+  },
+  "loss-declared": {
+   "invariant": "inv.loss-declared",
+   "description": "A register conversion that drops a node of the provenance graph and declares only a change of diction.",
+   "tests": [
+    "tests/test_registers.py"
+   ],
+   "caught": true,
+   "exit": 1,
+   "summary": [
+    "1 failed, 291 passed in 323.12s (0:05:23)"
+   ]
+  },
+  "maxima-enforced": {
+   "invariant": "inv.maxima-enforced",
+   "description": "A parser that never tests the nesting maximum.",
+   "tests": [
+    "tests/test_negative.py"
+   ],
+   "caught": true,
+   "exit": 1,
+   "summary": [
+    "1 failed, 39 passed in 0.54s"
+   ]
+  },
+  "meaning-fixed": {
+   "invariant": "inv.meaning-fixed",
+   "description": "A lexer that reads the longest match against the current lexicon, so that a new entry swallows two existing words.",
+   "tests": [
+    "tests/test_versions.py"
+   ],
+   "caught": true,
+   "exit": 1,
+   "summary": [
+    "1 failed, 4 passed in 11.58s"
+   ]
+  },
+  "message-fields": {
+   "invariant": "inv.message-fields",
+   "description": "A parser that takes a message's version from elsewhere when it states none.",
+   "tests": [
+    "tests/test_negative.py"
+   ],
+   "caught": true,
+   "exit": 1,
+   "summary": [
+    "1 failed, 43 passed in 0.63s"
+   ]
+  },
+  "metonym-asked-for-a-target-content": {
+   "invariant": "inv.figure-not-literal",
+   "description": "A checker that asks every figure for a target content, so that a metonym stating what it stands for is refused in a precision-bound move, as release 0.6 did.",
+   "tests": [
+    "tests/test_figures.py",
+    "tests/test_negative.py"
+   ],
+   "caught": true,
+   "exit": 1,
+   "summary": [
+    "1 failed, 4 passed in 1.92s"
+   ]
+  },
+  "metonym-referent-mentioned": {
+   "invariant": "inv.figure-not-literal",
+   "description": "A normaliser that writes the referent a metonym stands for as mentioned, as release 0.6 did, although the metonym's predication is about it.",
+   "tests": [
+    "tests/test_figures.py"
+   ],
+   "caught": true,
+   "exit": 1,
+   "summary": [
+    "1 failed, 4 passed in 1.80s"
+   ]
+  },
+  "no-silent-reinterpretation": {
+   "invariant": "inv.no-silent-reinterpretation",
+   "description": "A parser that closes an unclosed unit at the end of the move.",
+   "tests": [
+    "tests/test_negative.py"
+   ],
+   "caught": true,
+   "exit": 1,
+   "summary": [
+    "1 failed, 38 passed in 0.53s"
+   ]
+  },
+  "no-words-for-the-failure": {
+   "invariant": "discourse/no-words-for-the-failure",
+   "description": "A reader whose diagnostics have no rendering in the language.",
+   "tests": [
+    "tests/test_report.py"
+   ],
+   "caught": true,
+   "exit": 1,
+   "summary": [
+    "1 failed in 0.39s"
+   ]
+  },
+  "normal-form-unique": {
+   "invariant": "inv.normal-form-unique",
+   "description": "A normaliser that keeps siblings in the order the speaker wrote them.",
+   "tests": [
+    "tests/test_properties.py"
+   ],
+   "caught": true,
+   "exit": 1,
+   "summary": [
+    "1 failed, 5 passed in 6.37s"
+   ]
+  },
+  "numbering-differs": {
+   "invariant": "units/numbering-differs",
+   "description": "A normaliser that keeps the names as the speaker numbered them.",
+   "tests": [
+    "tests/test_corpus.py"
+   ],
+   "caught": true,
+   "exit": 1,
+   "summary": [
+    "1 failed, 2603 passed in 22.98s"
+   ]
+  },
+  "numerals-exact": {
+   "invariant": "inv.numerals-exact",
+   "description": "A normaliser that drops trailing zeros after the decimal point.",
+   "tests": [
+    "tests/test_corpus.py"
+   ],
+   "caught": true,
+   "exit": 1,
+   "summary": [
+    "1 failed, 2434 passed in 22.81s"
+   ]
+  },
+  "omission-read-as-a-claim": {
+   "invariant": "grammatical/omission-read-as-a-claim",
+   "description": "A normaliser that reads an omitted strength as certain.",
+   "tests": [
+    "tests/test_corpus.py"
+   ],
+   "caught": true,
+   "exit": 1,
+   "summary": [
+    "1 failed, 1910 passed in 19.28s"
+   ]
+  },
+  "one-critical-dimension": {
+   "invariant": "inv.one-critical-dimension",
+   "description": "One form for a negated command, carrying polarity and force at once.",
+   "tests": [
+    "tests/test_lexicon.py"
+   ],
+   "caught": true,
+   "exit": 1,
+   "summary": [
+    "1 failed in 1.75s"
+   ]
+  },
+  "ordered-times": {
+   "invariant": "inv.ordered-times",
+   "description": "A checker that compares an observation time only with the communication time.",
+   "tests": [
+    "tests/test_negative.py"
+   ],
+   "caught": true,
+   "exit": 1,
+   "summary": [
+    "1 failed, 4 passed in 0.51s"
+   ]
+  },
+  "origin-dropped": {
+   "invariant": "semantic/origin-dropped",
+   "description": "A normaliser that writes the origin of external content as the speaker's own as it moves the content into a move's core.",
+   "tests": [
+    "tests/test_coordination.py"
+   ],
+   "caught": true,
+   "exit": 1,
+   "summary": [
+    "1 failed, 12 passed in 57.15s"
+   ]
+  },
+  "origin-of-an-aim-read-in": {
+   "invariant": "agency/origin-of-an-aim-read-in",
+   "description": "A normaliser that reads an unstated origin as the holder's own.",
+   "tests": [
+    "tests/test_corpus.py"
+   ],
+   "caught": true,
+   "exit": 1,
+   "summary": [
+    "1 failed, 1951 passed in 18.41s"
+   ]
+  },
+  "own-action": {
+   "invariant": "inv.own-action",
+   "description": "A checker that accepts any action as the content of an intention.",
+   "tests": [
+    "tests/test_negative.py"
+   ],
+   "caught": true,
+   "exit": 1,
+   "summary": [
+    "1 failed, 11 passed in 0.52s"
+   ]
+  },
+  "precedence-agreed": {
+   "invariant": "inv.precedence-agreed",
+   "description": "A participant that orders crossing moves by the time it received them.",
+   "tests": [
+    "tests/test_coordination.py"
+   ],
+   "caught": true,
+   "exit": 1,
+   "summary": [
+    "1 failed, 7 passed in 1.42s"
+   ]
+  },
+  "precision-bound-one-reading": {
+   "invariant": "inv.precision-bound-one-reading",
+   "description": "A checker that lets a set of readings stand in a precision-bound move.",
+   "tests": [
+    "tests/test_negative.py",
+    "tests/test_ambiguity.py"
+   ],
+   "caught": true,
+   "exit": 1,
+   "summary": [
+    "1 failed, 8 passed in 0.51s"
+   ]
+  },
+  "provenance-dropped": {
+   "invariant": "epistemic/provenance-dropped",
+   "description": "A relay that carries the relayed assertion without the links it was given, a shorter chain than the one it relays.",
+   "tests": [
+    "tests/test_coordination.py"
+   ],
+   "caught": true,
+   "exit": 1,
+   "summary": [
+    "1 failed, 8 passed in 46.90s"
+   ]
+  },
+  "provenance-monotone": {
+   "invariant": "inv.provenance-monotone",
+   "description": "A relay that writes itself in place of the source it relays.",
+   "tests": [
+    "tests/test_coordination.py"
+   ],
+   "caught": true,
+   "exit": 1,
+   "summary": [
+    "1 failed, 8 passed in 45.83s"
+   ]
+  },
+  "quotation-rewritten": {
+   "invariant": "semantic/quotation-rewritten",
+   "description": "A normaliser that rewrites the words of a quotation into its own order.",
+   "tests": [
+    "tests/test_corpus.py"
+   ],
+   "caught": true,
+   "exit": 1,
+   "summary": [
+    "1 failed, 2432 passed in 25.92s"
+   ]
+  },
+  "quoted-inert": {
+   "invariant": "inv.quoted-inert",
+   "description": "A parser that lets a force word inside a quotation set the class of the move.",
+   "tests": [
+    "tests/test_corpus.py"
+   ],
+   "caught": true,
+   "exit": 1,
+   "summary": [
+    "1 failed, 38 passed in 1.94s"
+   ]
+  },
+  "readings-kept": {
+   "invariant": "inv.readings-kept",
+   "description": "A normaliser that keeps only the first reading of a set.",
+   "tests": [
+    "tests/test_ambiguity.py"
+   ],
+   "caught": true,
+   "exit": 1,
+   "summary": [
+    "1 failed in 0.58s"
+   ]
+  },
+  "realisations-normalise": {
+   "invariant": "inv.realisations-normalise",
+   "description": "An idiom whose expansion in the lexicon turns a request into a command.",
+   "tests": [
+    "tests/test_idioms.py"
+   ],
+   "caught": true,
+   "exit": 1,
+   "summary": [
+    "1 failed, 1 passed in 1.77s"
+   ]
+  },
+  "relation-without-a-figure": {
+   "invariant": "inv.figure-not-literal",
+   "description": "A checker that accepts a figure's relation on a constituent no figurative mark stands on, so that a literal constituent claims a figure's content.",
+   "tests": [
+    "tests/test_negative.py"
+   ],
+   "caught": true,
+   "exit": 1,
+   "summary": [
+    "1 failed, 105 passed in 1.05s"
+   ]
+  },
+  "serialisation-normalises": {
+   "invariant": "machine/serialisation-normalises",
+   "description": "A canonical serialisation that spells the normal form instead of what was written.",
+   "tests": [
+    "tests/test_corpus.py"
+   ],
+   "caught": true,
+   "exit": 1,
+   "summary": [
+    "1 failed, 1146 passed in 9.33s"
+   ]
+  },
+  "single-edit-detected": {
+   "invariant": "inv.single-edit-detected",
+   "description": "A move check word that leaves the strength words out of what it covers.",
+   "tests": [
+    "tests/test_enumerations.py"
+   ],
+   "caught": true,
+   "exit": 1,
+   "summary": [
+    "1 failed, 6 passed in 4.02s"
+   ]
+  },
+  "source-answered-for": {
+   "invariant": "inv.figure-not-literal",
+   "description": "A reader that answers for a figure's source, its mark removed, in place of its target content.",
+   "tests": [
+    "tests/test_figures.py"
+   ],
+   "caught": true,
+   "exit": 1,
+   "summary": [
+    "1 failed, 1 passed in 1.63s"
+   ]
+  },
+  "speech-decodable": {
+   "invariant": "inv.speech-decodable",
+   "description": "A lexicon with a word that is two words written together.",
+   "tests": [
+    "tests/test_lexicon.py"
+   ],
+   "caught": true,
+   "exit": 1,
+   "summary": [
+    "1 failed in 1.65s"
+   ]
+  },
+  "standing-unchanged": {
+   "invariant": "inv.standing-unchanged",
+   "description": "A terse realisation that drops an explicit strength word.",
+   "tests": [
+    "tests/test_corpus.py"
+   ],
+   "caught": true,
+   "exit": 1,
+   "summary": [
+    "1 failed, 1528 passed in 11.38s"
+   ]
+  },
+  "stop-delivery-known": {
+   "invariant": "inv.stop-delivery-known",
+   "description": "An acknowledgement that states only the last serial received, so that a stop lost before it is recorded as acknowledged.",
+   "tests": [
+    "tests/test_repair.py"
+   ],
+   "caught": true,
+   "exit": 1,
+   "summary": [
+    "1 failed, 8 passed in 91.61s (0:01:31)"
+   ]
+  },
+  "stop-restates": {
+   "invariant": "inv.stop-restates",
+   "description": "A checker that compares a restatement byte for byte, refusing 'I' for 'agent 2'.",
+   "tests": [
+    "tests/test_negative.py"
+   ],
+   "caught": true,
+   "exit": 1,
+   "summary": [
+    "1 failed, 265 passed in 1.72s"
+   ]
+  },
+  "stop-sent-once": {
+   "invariant": "inv.stop-delivery-known",
+   "description": "A sender that never sends a stop again, and records it as unacknowledged after one interval.",
+   "tests": [
+    "tests/test_repair.py"
+   ],
+   "caught": true,
+   "exit": 1,
+   "summary": [
+    "1 failed, 8 passed in 92.39s (0:01:32)"
+   ]
+  },
+  "strength-is-interval": {
+   "invariant": "inv.strength-is-interval",
+   "description": "A normaliser that writes a named level as a single point.",
+   "tests": [
+    "tests/test_corpus.py"
+   ],
+   "caught": true,
+   "exit": 1,
+   "summary": [
+    "1 failed, 1 passed in 1.72s"
+   ]
+  },
+  "summary-basis-from-the-act": {
+   "invariant": "epistemic/summary-basis-from-the-act",
+   "description": "A summary whose basis is the inference of summarising, not what it summarises.",
+   "tests": [
+    "tests/test_discourse.py"
+   ],
+   "caught": true,
+   "exit": 1,
+   "summary": [
+    "1 failed, 5 passed in 11.61s"
+   ]
+  },
+  "summary-keeps-lowest": {
+   "invariant": "inv.summary-keeps-lowest",
+   "description": "A summary that keeps the median strength under each calibration.",
+   "tests": [
+    "tests/test_discourse.py"
+   ],
+   "caught": true,
+   "exit": 1,
+   "summary": [
+    "1 failed, 5 passed in 10.86s"
+   ]
+  },
+  "summary-orders-bases": {
+   "invariant": "inv.summary-keeps-lowest",
+   "description": "A summary that orders the bases of one tier and keeps only the first.",
+   "tests": [
+    "tests/test_discourse.py"
+   ],
+   "caught": true,
+   "exit": 1,
+   "summary": [
+    "1 failed, 5 passed in 10.02s"
+   ]
+  },
+  "summary-raises-standing": {
+   "invariant": "discourse/summary-raises-standing",
+   "description": "A record keeper that applies a summary whatever standing it states.",
+   "tests": [
+    "tests/test_discourse.py"
+   ],
+   "caught": true,
+   "exit": 1,
+   "summary": [
+    "1 failed, 6 passed in 11.06s"
+   ]
+  },
+  "tokenizer-round-trip": {
+   "invariant": "inv.tokenizer-round-trip",
+   "description": "A tokenizer planted on the panel that rewrites one character of the alphabet as another.",
+   "tests": [
+    "tests/test_tokenizers.py"
+   ],
+   "caught": true,
+   "exit": 1,
+   "summary": [
+    "1 failed, 1 passed in 7.73s"
+   ]
+  },
+  "transport-stable": {
+   "invariant": "inv.transport-stable",
+   "description": "A transmitted alphabet that includes the underscore, which Markdown rendering consumes: the native digital form spelling h with U+005F.",
+   "tests": [
+    "tests/test_enumerations.py"
+   ],
+   "caught": true,
+   "exit": 1,
+   "summary": [
+    "1 failed, 412 passed in 128.46s (0:02:08)"
+   ]
+  },
+  "truncation-detected": {
+   "invariant": "inv.truncation-detected",
+   "description": "A reader that accepts a message cut at a boundary between two of its moves.",
+   "tests": [
+    "tests/test_enumerations.py"
+   ],
+   "caught": true,
+   "exit": 1,
+   "summary": [
+    "1 failed, 1 passed in 2.25s"
+   ]
+  },
+  "unknown-preserved": {
+   "invariant": "inv.unknown-preserved",
+   "description": "A lexer that reads an unknown word as the known word nearest to it.",
+   "tests": [
+    "tests/test_negative.py"
+   ],
+   "caught": true,
+   "exit": 1,
+   "summary": [
+    "1 failed, 15 passed in 0.55s"
+   ]
+  },
+  "value-left-where-written": {
+   "invariant": "units/value-left-where-written",
+   "description": "A normaliser that does not state an inherited world on the units that bear it.",
+   "tests": [
+    "tests/test_corpus.py"
+   ],
+   "caught": true,
+   "exit": 1,
+   "summary": [
+    "1 failed, 1956 passed in 14.62s"
+   ]
+  },
+  "view-independent-normalisation": {
+   "invariant": "inv.view-independent-normalisation",
+   "description": "A view that normalises what it hears against its own record, writing in place of each reference to an entry it holds the content of that entry.",
+   "tests": [
+    "tests/test_discourse.py"
+   ],
+   "caught": true,
+   "exit": 1,
+   "summary": [
+    "1 failed, 4 passed in 3.44s"
+   ]
+  },
+  "well-typed": {
+   "invariant": "inv.well-typed",
+   "description": "A checker that accepts a shared node reached again from inside itself.",
+   "tests": [
+    "tests/test_negative.py"
+   ],
+   "caught": true,
+   "exit": 1,
+   "summary": [
+    "1 failed, 38 passed in 0.55s"
+   ]
+  },
+  "word-formation": {
+   "invariant": "inv.word-formation",
+   "description": "A parser that reads an unlisted compound as the listed idiom it most resembles.",
+   "tests": [
+    "tests/test_formation.py"
+   ],
+   "caught": true,
+   "exit": 1,
+   "summary": [
+    "1 failed in 1.50s"
+   ]
+  },
+  "written-form-distinct": {
+   "invariant": "inv.encodings-agree",
+   "description": "A writing-system specification that marks a term as it marks a situation, so that the drawing no longer shows which unit a word opens.",
+   "tests": [
+    "tests/test_render.py"
+   ],
+   "caught": true,
+   "exit": 1,
+   "summary": [
+    "1 failed, 5 passed in 2.49s"
+   ]
+  }
+ },
+ "deferred": {},
+ "failures": {
+  "ontology/claim-taken-as-fact": {
+   "mutant": "hearing-not-believing",
+   "caught": true,
+   "deferred": null
+  },
+  "ontology/aim-taken-for-duty": {
+   "mutant": "aims-apart",
+   "caught": true,
+   "deferred": null
+  },
+  "ontology/mention-taken-for-use": {
+   "mutant": "quoted-inert",
+   "caught": true,
+   "deferred": null
+  },
+  "ontology/identity-from-content": {
+   "mutant": "identity-not-reference",
+   "caught": true,
+   "deferred": null
+  },
+  "ontology/readings-flattened": {
+   "mutant": "readings-kept",
+   "caught": true,
+   "deferred": null
+  },
+  "units/value-left-where-written": {
+   "mutant": "value-left-where-written",
+   "caught": true,
+   "deferred": null
+  },
+  "units/numbering-differs": {
+   "mutant": "numbering-differs",
+   "caught": true,
+   "deferred": null
+  },
+  "units/formation-not-from-parts": {
+   "mutant": "formation-not-from-parts",
+   "caught": true,
+   "deferred": null
+  },
+  "units/two-words-one-sound": {
+   "mutant": "speech-decodable",
+   "caught": true,
+   "deferred": null
+  },
+  "semantic/normalisation-reads-a-view": {
+   "mutant": "view-independent-normalisation",
+   "caught": true,
+   "deferred": null
+  },
+  "semantic/two-normal-forms": {
+   "mutant": "normal-form-unique",
+   "caught": true,
+   "deferred": null
+  },
+  "semantic/realisations-diverge": {
+   "mutant": "generation-faithful",
+   "caught": true,
+   "deferred": null
+  },
+  "semantic/generation-unfaithful": {
+   "mutant": "generation-faithful",
+   "caught": true,
+   "deferred": null
+  },
+  "semantic/lexicon-version-ignored": {
+   "mutant": "lexicon-version-ignored",
+   "caught": true,
+   "deferred": null
+  },
+  "semantic/quotation-rewritten": {
+   "mutant": "quotation-rewritten",
+   "caught": true,
+   "deferred": null
+  },
+  "semantic/origin-dropped": {
+   "mutant": "origin-dropped",
+   "caught": true,
+   "deferred": null
+  },
+  "grammatical/class-read-from-a-name": {
+   "mutant": "class-computed",
+   "caught": true,
+   "deferred": null
+  },
+  "grammatical/omission-read-as-a-claim": {
+   "mutant": "omission-read-as-a-claim",
+   "caught": true,
+   "deferred": null
+  },
+  "grammatical/default-undeclared-or-strengthening": {
+   "mutant": "default-strengthening",
+   "caught": true,
+   "deferred": null
+  },
+  "grammatical/two-dimensions-in-one-form": {
+   "mutant": "one-critical-dimension",
+   "caught": true,
+   "deferred": null
+  },
+  "grammatical/check-word-mistaken-for-a-word": {
+   "mutant": "check-forms-disjoint",
+   "caught": true,
+   "deferred": null
+  },
+  "grammatical/malformed-reread": {
+   "mutant": "no-silent-reinterpretation",
+   "caught": true,
+   "deferred": null
+  },
+  "discourse/summary-raises-standing": {
+   "mutant": "summary-raises-standing",
+   "caught": true,
+   "deferred": null
+  },
+  "discourse/no-words-for-the-failure": {
+   "mutant": "no-words-for-the-failure",
+   "caught": true,
+   "deferred": null
+  },
+  "epistemic/hearing-taken-for-truth": {
+   "mutant": "hearing-not-believing",
+   "caught": true,
+   "deferred": null
+  },
+  "epistemic/standing-changed-in-passage": {
+   "mutant": "standing-unchanged",
+   "caught": true,
+   "deferred": null
+  },
+  "epistemic/provenance-dropped": {
+   "mutant": "provenance-dropped",
+   "caught": true,
+   "deferred": null
+  },
+  "epistemic/summary-basis-from-the-act": {
+   "mutant": "summary-basis-from-the-act",
+   "caught": true,
+   "deferred": null
+  },
+  "epistemic/credence-off-the-scale": {
+   "mutant": "credence-off-the-scale",
+   "caught": true,
+   "deferred": null
+  },
+  "agency/origin-of-an-aim-read-in": {
+   "mutant": "origin-of-an-aim-read-in",
+   "caught": true,
+   "deferred": null
+  },
+  "agency/participant-from-a-description": {
+   "mutant": "identity-not-reference",
+   "caught": true,
+   "deferred": null
+  },
+  "ambiguity/string-with-two-parses": {
+   "mutant": "precision-bound-one-reading",
+   "caught": true,
+   "deferred": null
+  },
+  "ambiguity/readings-collapsed": {
+   "mutant": "readings-kept",
+   "caught": true,
+   "deferred": null
+  },
+  "ambiguity/interval-written-as-a-point": {
+   "mutant": "interval-written-as-a-point",
+   "caught": true,
+   "deferred": null
+  },
+  "context/entry-mutated": {
+   "mutant": "entries-immutable",
+   "caught": true,
+   "deferred": null
+  },
+  "context/resolved-against-the-record": {
+   "mutant": "dependencies-explicit",
+   "caught": true,
+   "deferred": null
+  },
+  "context/inference-recorded-as-said": {
+   "mutant": "inference-not-said",
+   "caught": true,
+   "deferred": null
+  },
+  "compression/compression-not-recoverable": {
+   "mutant": "generation-faithful",
+   "caught": true,
+   "deferred": null
+  },
+  "compression/conversion-touches-the-core": {
+   "mutant": "conversion-touches-the-core",
+   "caught": true,
+   "deferred": null
+  },
+  "compression/critical-value-from-context": {
+   "mutant": "critical-values-explicit",
+   "caught": true,
+   "deferred": null
+  },
+  "compression/economy-in-a-precision-bound-move": {
+   "mutant": "standing-unchanged",
+   "caught": true,
+   "deferred": null
+  },
+  "writing/encodings-disagree": {
+   "mutant": "encodings-agree",
+   "caught": true,
+   "deferred": null
+  },
+  "writing/confusable-forms": {
+   "mutant": "critical-forms-distinct",
+   "caught": true,
+   "deferred": null
+  },
+  "writing/layout-carries-meaning": {
+   "mutant": "layout-carries-meaning",
+   "caught": true,
+   "deferred": null
+  },
+  "writing/display-taken-for-the-language": {
+   "mutant": "displays-are-views",
+   "caught": true,
+   "deferred": null
+  },
+  "machine/serialisation-normalises": {
+   "mutant": "serialisation-normalises",
+   "caught": true,
+   "deferred": null
+  },
+  "machine/two-traversals": {
+   "mutant": "deterministic",
+   "caught": true,
+   "deferred": null
+  },
+  "machine/sibling-order-changed": {
+   "mutant": "normal-form-unique",
+   "caught": true,
+   "deferred": null
+  },
+  "machine/check-values-confused": {
+   "mutant": "check-values-distinct",
+   "caught": true,
+   "deferred": null
+  },
+  "machine/export-parsed-back": {
+   "mutant": "export-parsed-back",
+   "caught": true,
+   "deferred": null
+  },
+  "machine/exception-instead-of-a-diagnostic": {
+   "mutant": "diagnostics-not-exceptions",
+   "caught": true,
+   "deferred": null
+  },
+  "machine/conversion-lossy": {
+   "mutant": "conversion-lossy",
+   "caught": true,
+   "deferred": null
+  }
+ }
+}

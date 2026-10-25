@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.protocol.statement-part.serials",
+ "orthographic form": "yige",
+ "phonological form": "/jiɡe/",
+ "grammatical category": "statement part",
+ "gloss": "SERIALS",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.9"
+ }
+}

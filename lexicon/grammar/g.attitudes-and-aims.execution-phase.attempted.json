@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.attitudes-and-aims.execution-phase.attempted",
+ "orthographic form": "pupu",
+ "phonological form": "/pupu/",
+ "grammatical category": "execution phase",
+ "gloss": "ATTEMPTED",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

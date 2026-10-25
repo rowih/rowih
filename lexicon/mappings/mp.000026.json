@@ -1,0 +1,24 @@
+{
+ "machine identifier": "mp.000026",
+ "name": "WORKING TOGETHER IS DANCING",
+ "source domain": "dancing",
+ "target domain": "coordinated work",
+ "correspondences": [
+  {
+   "source": "dancing together",
+   "target": "work kept in step"
+  },
+  {
+   "source": "out of step",
+   "target": "work that does not match"
+  }
+ ],
+ "motivates": [
+  "lx.000825",
+  "lx.000826"
+ ],
+ "version": {
+  "introduced": "1.0",
+  "deprecated": null
+ }
+}

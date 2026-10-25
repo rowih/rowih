@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.attitudes-and-aims.execution-phase.not-yet-begun",
+ "orthographic form": "puyo",
+ "phonological form": "/pujo/",
+ "grammatical category": "execution phase",
+ "gloss": "NOT-YET-BEGUN",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

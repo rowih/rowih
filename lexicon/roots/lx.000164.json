@@ -1,0 +1,41 @@
+{
+ "machine identifier": "lx.000164",
+ "root": "lx.000164",
+ "phonological form": "/ɾelon/",
+ "orthographic form": "relon",
+ "grammatical category": "nominal root",
+ "sort": "s.sort.object",
+ "semantic type": {
+  "sort": "s.sort.object",
+  "arguments": []
+ },
+ "definition": "a system an agent uses (the informal vocabulary)",
+ "semantic primitives": [
+  "s.sort.object"
+ ],
+ "argument structure": [],
+ "derivational behaviour": [],
+ "register": [
+  "R5",
+  "R6"
+ ],
+ "collocations": [],
+ "synonyms": [
+  "lx.000163",
+  "lx.000165",
+  "lx.000006"
+ ],
+ "antonyms": [],
+ "related concepts": [],
+ "examples": [],
+ "version": {
+  "introduced": "0.4",
+  "deprecated": null
+ },
+ "key": "box",
+ "synonym of": "lx.000006",
+ "vocabulary": "informal",
+ "declared loss": [
+  "register"
+ ]
+}

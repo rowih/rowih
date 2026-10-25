@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.protocol.protocol-statement.lacks",
+ "orthographic form": "yoda",
+ "phonological form": "/joda/",
+ "grammatical category": "protocol statement",
+ "gloss": "LACKS",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.10"
+ }
+}

@@ -1,0 +1,47 @@
+{
+ "machine identifier": "mp.000013",
+ "name": "AN INFERENCE IS A BRIDGE",
+ "source domain": "a bridge across a gap",
+ "target domain": "an inference from premises",
+ "correspondences": [
+  {
+   "source": "a bridge",
+   "target": "an inference"
+  },
+  {
+   "source": "its stones",
+   "target": "the premises"
+  },
+  {
+   "source": "crossing",
+   "target": "drawing the conclusion"
+  },
+  {
+   "source": "a bridge without stones",
+   "target": "a conclusion without premises"
+  },
+  {
+   "source": "a bridge brought down",
+   "target": "an inference new evidence defeats"
+  },
+  {
+   "source": "a bridge that holds",
+   "target": "a sound argument"
+  },
+  {
+   "source": "laying the stones",
+   "target": "settling the premises"
+  }
+ ],
+ "motivates": [
+  "lx.000798",
+  "lx.000799",
+  "lx.000818",
+  "lx.000819",
+  "lx.000861"
+ ],
+ "version": {
+  "introduced": "1.0",
+  "deprecated": null
+ }
+}

@@ -1,0 +1,126 @@
+{
+ "machine identifier": "lx.000436",
+ "root": "lx.000436",
+ "phonological form": "/nutibew/",
+ "orthographic form": "nutibew",
+ "grammatical category": "predicate root",
+ "sort": "s.sort.state",
+ "semantic type": {
+  "sort": "s.sort.state",
+  "arguments": [
+   "holder",
+   "content"
+  ]
+ },
+ "definition": "feel pleased with what one has done or is",
+ "semantic primitives": [
+  "s.sort.state"
+ ],
+ "argument structure": [
+  {
+   "role": "holder",
+   "sort": "s.sort.agent"
+  },
+  {
+   "role": "content",
+   "sort": "s.sort.situation"
+  }
+ ],
+ "derivational behaviour": [
+  {
+   "suffix": "lx.000098",
+   "mechanism": "instrument",
+   "form": "nutibewawen",
+   "sort": "s.sort.referent",
+   "definition": "what [feel pleased with what one has done or is] is done with"
+  },
+  {
+   "suffix": "lx.000099",
+   "mechanism": "result",
+   "form": "nutibewonar",
+   "sort": "s.sort.state",
+   "definition": "the state [feel pleased with what one has done or is] brings about"
+  },
+  {
+   "suffix": "lx.000100",
+   "mechanism": "privative",
+   "form": "nutibewaniw",
+   "sort": "s.sort.state",
+   "definition": "the state in which [feel pleased with what one has done or is] does not hold"
+  },
+  {
+   "suffix": "lx.000108",
+   "mechanism": "process",
+   "form": "nutibewumop",
+   "sort": "s.sort.reified-referent",
+   "definition": "[feel pleased with what one has done or is], as a process under way, named as a referent"
+  },
+  {
+   "suffix": "lx.000109",
+   "mechanism": "property",
+   "form": "nutibewarur",
+   "sort": "s.sort.kind",
+   "definition": "the property of being as [feel pleased with what one has done or is] states"
+  },
+  {
+   "suffix": "lx.000111",
+   "mechanism": "nominalisation",
+   "form": "nutibewekoh",
+   "sort": "s.sort.proposition",
+   "definition": "that [feel pleased with what one has done or is] holds"
+  },
+  {
+   "suffix": "lx.000594",
+   "mechanism": "causative",
+   "form": "nutibewomiw",
+   "sort": "s.sort.event",
+   "definition": "make [feel pleased with what one has done or is] hold or happen"
+  },
+  {
+   "suffix": "lx.000595",
+   "mechanism": "reversative",
+   "form": "nutibewuhul",
+   "sort": "s.sort.event",
+   "definition": "undo [feel pleased with what one has done or is], restoring what it changed"
+  },
+  {
+   "suffix": "lx.000596",
+   "mechanism": "repetitive",
+   "form": "nutibewuleg",
+   "sort": "s.sort.event",
+   "definition": "[feel pleased with what one has done or is], done once more"
+  },
+  {
+   "suffix": "lx.000598",
+   "mechanism": "place",
+   "form": "nutibewumuk",
+   "sort": "s.sort.place",
+   "definition": "the place where [feel pleased with what one has done or is] happens"
+  }
+ ],
+ "register": [
+  "R0",
+  "R1",
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7"
+ ],
+ "collocations": [],
+ "synonyms": [],
+ "antonyms": [],
+ "related concepts": [
+  {
+   "entry": "lx.000446",
+   "relation": "involves"
+  }
+ ],
+ "examples": [],
+ "version": {
+  "introduced": "1.0",
+  "deprecated": null
+ },
+ "key": "proud"
+}

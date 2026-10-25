@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.situations-and-contents.aspect.inceptive",
+ "orthographic form": "besi",
+ "phonological form": "/besi/",
+ "grammatical category": "aspect",
+ "gloss": "INCEPTIVE",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

@@ -1,0 +1,147 @@
+{
+ "machine identifier": "lx.000530",
+ "root": "lx.000530",
+ "phonological form": "/numawad/",
+ "orthographic form": "numawad",
+ "grammatical category": "predicate root",
+ "sort": "s.sort.event",
+ "semantic type": {
+  "sort": "s.sort.event",
+  "arguments": [
+   "actor",
+   "undergoer"
+  ]
+ },
+ "definition": "take food into the body",
+ "semantic primitives": [
+  "s.sort.event"
+ ],
+ "argument structure": [
+  {
+   "role": "actor",
+   "sort": "s.sort.agent"
+  },
+  {
+   "role": "undergoer",
+   "sort": "s.sort.referent"
+  }
+ ],
+ "derivational behaviour": [
+  {
+   "suffix": "lx.000096",
+   "mechanism": "agent",
+   "form": "numawadaheh",
+   "sort": "s.sort.agent",
+   "definition": "the one that is actor of [take food into the body]"
+  },
+  {
+   "suffix": "lx.000097",
+   "mechanism": "undergoer",
+   "form": "numawadudim",
+   "sort": "s.sort.referent",
+   "definition": "the one that undergoes [take food into the body]"
+  },
+  {
+   "suffix": "lx.000098",
+   "mechanism": "instrument",
+   "form": "numawadawen",
+   "sort": "s.sort.referent",
+   "definition": "what [take food into the body] is done with"
+  },
+  {
+   "suffix": "lx.000099",
+   "mechanism": "result",
+   "form": "numawadonar",
+   "sort": "s.sort.state",
+   "definition": "the state [take food into the body] brings about"
+  },
+  {
+   "suffix": "lx.000100",
+   "mechanism": "privative",
+   "form": "numawadaniw",
+   "sort": "s.sort.state",
+   "definition": "the state in which [take food into the body] does not hold"
+  },
+  {
+   "suffix": "lx.000108",
+   "mechanism": "process",
+   "form": "numawadumop",
+   "sort": "s.sort.reified-referent",
+   "definition": "[take food into the body], as a process under way, named as a referent"
+  },
+  {
+   "suffix": "lx.000109",
+   "mechanism": "property",
+   "form": "numawadarur",
+   "sort": "s.sort.kind",
+   "definition": "the property of being as [take food into the body] states"
+  },
+  {
+   "suffix": "lx.000111",
+   "mechanism": "nominalisation",
+   "form": "numawadekoh",
+   "sort": "s.sort.proposition",
+   "definition": "that [take food into the body] holds"
+  },
+  {
+   "suffix": "lx.000594",
+   "mechanism": "causative",
+   "form": "numawadomiw",
+   "sort": "s.sort.event",
+   "definition": "make [take food into the body] hold or happen"
+  },
+  {
+   "suffix": "lx.000595",
+   "mechanism": "reversative",
+   "form": "numawaduhul",
+   "sort": "s.sort.event",
+   "definition": "undo [take food into the body], restoring what it changed"
+  },
+  {
+   "suffix": "lx.000596",
+   "mechanism": "repetitive",
+   "form": "numawaduleg",
+   "sort": "s.sort.event",
+   "definition": "[take food into the body], done once more"
+  },
+  {
+   "suffix": "lx.000597",
+   "mechanism": "potential",
+   "form": "numawaduwot",
+   "sort": "s.sort.state",
+   "definition": "be such that [take food into the body] can be done to it"
+  },
+  {
+   "suffix": "lx.000598",
+   "mechanism": "place",
+   "form": "numawadumuk",
+   "sort": "s.sort.place",
+   "definition": "the place where [take food into the body] happens"
+  }
+ ],
+ "register": [
+  "R0",
+  "R1",
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7"
+ ],
+ "collocations": [],
+ "synonyms": [],
+ "antonyms": [],
+ "related concepts": [
+  {
+   "entry": "lx.000532",
+   "relation": "involves"
+  }
+ ],
+ "examples": [],
+ "version": {
+  "introduced": "1.0",
+  "deprecated": null
+ },
+ "key": "eat"
+}

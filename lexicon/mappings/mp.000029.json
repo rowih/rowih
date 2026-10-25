@@ -1,0 +1,23 @@
+{
+ "machine identifier": "mp.000029",
+ "name": "SPEECH IS SOUND IN A SPACE",
+ "source domain": "sound and its echo",
+ "target domain": "words and their repetition",
+ "correspondences": [
+  {
+   "source": "a sound",
+   "target": "a participant's words"
+  },
+  {
+   "source": "a sound returning",
+   "target": "the words repeated back by another"
+  }
+ ],
+ "motivates": [
+  "lx.000777"
+ ],
+ "version": {
+  "introduced": "1.0",
+  "deprecated": null
+ }
+}

@@ -1,0 +1,55 @@
+{
+ "machine identifier": "lx.000121",
+ "root": "lx.000121",
+ "phonological form": "/kebabe/",
+ "orthographic form": "kebabe",
+ "grammatical category": "act word",
+ "sort": "s.sort.move",
+ "semantic type": {
+  "sort": "s.sort.move",
+  "arguments": []
+ },
+ "definition": "the conventional expression of delegation: NORMATIVE-ENTRY ASSIGNMENT BINDINGNESS.ON-ACCEPTANCE",
+ "semantic primitives": [
+  "s.sort.move"
+ ],
+ "argument structure": [],
+ "derivational behaviour": [],
+ "register": [
+  "R0",
+  "R1",
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7"
+ ],
+ "collocations": [],
+ "synonyms": [],
+ "antonyms": [],
+ "related concepts": [],
+ "examples": [],
+ "version": {
+  "introduced": "0.3",
+  "deprecated": null
+ },
+ "key": "delegation",
+ "expansion": [
+  "g.force.what-the-move-adds.normative-entry",
+  "g.force.kind-of-normative-entry.assignment",
+  "g.force.bindingness.on-acceptance"
+ ],
+ "acts": [
+  "delegation"
+ ],
+ "answers": null,
+ "kind": "encoding, grammatical",
+ "route": "compression",
+ "literal structure": "kebabe",
+ "decomposition": [],
+ "pragmatic conditions": "wherever the head it expands may be written",
+ "usage restrictions": "none",
+ "declared loss": [],
+ "constructed history": "Constructed history: the head NORMATIVE-ENTRY ASSIGNMENT BINDINGNESS.ON-ACCEPTANCE, frequent enough to be said as one word, shortened to the force word that now stands for it."
+}

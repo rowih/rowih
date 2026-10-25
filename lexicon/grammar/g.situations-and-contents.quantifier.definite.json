@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.situations-and-contents.quantifier.definite",
+ "orthographic form": "gona",
+ "phonological form": "/ɡona/",
+ "grammatical category": "quantifier",
+ "gloss": "DEFINITE",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

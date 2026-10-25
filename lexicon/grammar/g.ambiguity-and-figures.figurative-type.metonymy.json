@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.ambiguity-and-figures.figurative-type.metonymy",
+ "orthographic form": "supi",
+ "phonological form": "/supi/",
+ "grammatical category": "figurative type",
+ "gloss": "METONYMY",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

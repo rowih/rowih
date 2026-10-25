@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.reference.specificity.specific",
+ "orthographic form": "mula",
+ "phonological form": "/mula/",
+ "grammatical category": "specificity",
+ "gloss": "SPECIFIC",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

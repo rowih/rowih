@@ -1,0 +1,395 @@
+{
+ "read": "2026-10-18",
+ "sources": [
+  {
+   "name": "frequency en",
+   "url": "https://raw.githubusercontent.com/hermitdave/FrequencyWords/525f9b560de45753a5ea01069454e72e9aa541c6/content/2018/en/en_full.txt",
+   "sha256": "7fea67ab954e2c01df6c608c9826e594cf36f8823b3243554f88245fb75dc506",
+   "bytes": 19977552
+  },
+  {
+   "name": "wikipron eng_latn_us_broad",
+   "url": "https://raw.githubusercontent.com/CUNY-CL/wikipron/d282e848a211ea31cfd730f0ced8bc8cdab9e83d/data/scrape/tsv/eng_latn_us_broad.tsv",
+   "sha256": "f304b8f0565466e8abfe4c04a30d99421e1590d2aa17c4a08ebfa5942c587e75",
+   "bytes": 2875614
+  },
+  {
+   "name": "wikipron eng_latn_uk_broad",
+   "url": "https://raw.githubusercontent.com/CUNY-CL/wikipron/d282e848a211ea31cfd730f0ced8bc8cdab9e83d/data/scrape/tsv/eng_latn_uk_broad.tsv",
+   "sha256": "f8ca476aa2e96cb22cafbf9099d689b5902a9d321579055081909b2eeafa1b8d",
+   "bytes": 2915740
+  },
+  {
+   "name": "offensive en",
+   "url": "https://raw.githubusercontent.com/LDNOOBW/List-of-Dirty-Naughty-Obscene-and-Otherwise-Bad-Words/5faf2ba42d7b1c0977169ec3611df25a3c08eb13/en",
+   "sha256": "af851ecef1d5f212caba17339b12ac39cc2fef7d78c74876f67237644fcee8bd",
+   "bytes": 3777
+  },
+  {
+   "name": "frequency zh_cn",
+   "url": "https://raw.githubusercontent.com/hermitdave/FrequencyWords/525f9b560de45753a5ea01069454e72e9aa541c6/content/2018/zh_cn/zh_cn_full.txt",
+   "sha256": "0a34556e278008539273e07bda10baca9e2b9637cff2ff3ca9cd93782571abbd",
+   "bytes": 8307909
+  },
+  {
+   "name": "wikipron cmn_hani_standard_broad",
+   "url": "https://raw.githubusercontent.com/CUNY-CL/wikipron/d282e848a211ea31cfd730f0ced8bc8cdab9e83d/data/scrape/tsv/cmn_hani_standard_broad.tsv",
+   "sha256": "04f4a5267752368edb68866c2e61224fe919a0c7582a8cd12c22d0317aad227e",
+   "bytes": 9324604
+  },
+  {
+   "name": "offensive zh",
+   "url": "https://raw.githubusercontent.com/LDNOOBW/List-of-Dirty-Naughty-Obscene-and-Otherwise-Bad-Words/5faf2ba42d7b1c0977169ec3611df25a3c08eb13/zh",
+   "sha256": "a1d9aa037c8b039ef3b40148b3364ce2ca62ce4a955b7082a16ad99f6cbd1bc0",
+   "bytes": 2675
+  },
+  {
+   "name": "frequency hi",
+   "url": "https://raw.githubusercontent.com/hermitdave/FrequencyWords/525f9b560de45753a5ea01069454e72e9aa541c6/content/2018/hi/hi_full.txt",
+   "sha256": "7ea1238ba983a3aae456c73d14e5f031ec59a1316d665af9b120d0c0fee61a8c",
+   "bytes": 437828
+  },
+  {
+   "name": "wikipron hin_deva_broad",
+   "url": "https://raw.githubusercontent.com/CUNY-CL/wikipron/d282e848a211ea31cfd730f0ced8bc8cdab9e83d/data/scrape/tsv/hin_deva_broad.tsv",
+   "sha256": "7f154171876cfe807196b96d788a053d589d802fe62e992618030859fb50f03c",
+   "bytes": 1365051
+  },
+  {
+   "name": "offensive hi",
+   "url": "https://raw.githubusercontent.com/LDNOOBW/List-of-Dirty-Naughty-Obscene-and-Otherwise-Bad-Words/5faf2ba42d7b1c0977169ec3611df25a3c08eb13/hi",
+   "sha256": "83636e9b7a5260451e09e9e471f81dad9f082d107a82da77047e57d7856ed0cc",
+   "bytes": 1123
+  },
+  {
+   "name": "frequency es",
+   "url": "https://raw.githubusercontent.com/hermitdave/FrequencyWords/525f9b560de45753a5ea01069454e72e9aa541c6/content/2018/es/es_full.txt",
+   "sha256": "b4794c425f3500c21a0ff9367175e36795a978c928a36670e9ad6ae206fb7728",
+   "bytes": 14547688
+  },
+  {
+   "name": "wikipron spa_latn_la_broad",
+   "url": "https://raw.githubusercontent.com/CUNY-CL/wikipron/d282e848a211ea31cfd730f0ced8bc8cdab9e83d/data/scrape/tsv/spa_latn_la_broad.tsv",
+   "sha256": "6e962eb2f51f9780a3648bd3fdebbd261c6d999d4902832abeeef14c71a033d9",
+   "bytes": 3912698
+  },
+  {
+   "name": "wikipron spa_latn_ca_broad",
+   "url": "https://raw.githubusercontent.com/CUNY-CL/wikipron/d282e848a211ea31cfd730f0ced8bc8cdab9e83d/data/scrape/tsv/spa_latn_ca_broad.tsv",
+   "sha256": "0438a76e2465cd94022d177d6be4385963b9d5e310359fe97d06a19f2bd92469",
+   "bytes": 4069000
+  },
+  {
+   "name": "offensive es",
+   "url": "https://raw.githubusercontent.com/LDNOOBW/List-of-Dirty-Naughty-Obscene-and-Otherwise-Bad-Words/5faf2ba42d7b1c0977169ec3611df25a3c08eb13/es",
+   "sha256": "073334261cc2e7c08339faefd2f19f9623e8240a0ac18fe2a26c368b897496ce",
+   "bytes": 617
+  },
+  {
+   "name": "frequency ar",
+   "url": "https://raw.githubusercontent.com/hermitdave/FrequencyWords/525f9b560de45753a5ea01069454e72e9aa541c6/content/2018/ar/ar_full.txt",
+   "sha256": "ebb36aeae78e609adc552b32ec91ff2490e1170f8b244d22eef9952d2096d610",
+   "bytes": 42423886
+  },
+  {
+   "name": "wikipron ara_arab_broad",
+   "url": "https://raw.githubusercontent.com/CUNY-CL/wikipron/d282e848a211ea31cfd730f0ced8bc8cdab9e83d/data/scrape/tsv/ara_arab_broad.tsv",
+   "sha256": "edff24977dadc85f0886991428f3d4b3cd5ea9f617da0c44ca3a53f3b77ad197",
+   "bytes": 449930
+  },
+  {
+   "name": "offensive ar",
+   "url": "https://raw.githubusercontent.com/LDNOOBW/List-of-Dirty-Naughty-Obscene-and-Otherwise-Bad-Words/5faf2ba42d7b1c0977169ec3611df25a3c08eb13/ar",
+   "sha256": "23dbd9c55257bf2a4965f46664dc7eac04b61ff4eb3571e41f7e964c7c3ed96b",
+   "bytes": 331
+  },
+  {
+   "name": "frequency fr",
+   "url": "https://raw.githubusercontent.com/hermitdave/FrequencyWords/525f9b560de45753a5ea01069454e72e9aa541c6/content/2018/fr/fr_full.txt",
+   "sha256": "dda23c3025fc195b3a7996af26371dcf3abd1aa2cd7218dbbb7c92a49780ab0c",
+   "bytes": 10161151
+  },
+  {
+   "name": "wikipron fra_latn_broad",
+   "url": "https://raw.githubusercontent.com/CUNY-CL/wikipron/d282e848a211ea31cfd730f0ced8bc8cdab9e83d/data/scrape/tsv/fra_latn_broad.tsv",
+   "sha256": "86596b51085094e69beef464a4e4949a23c8cbe62ab9535148ac7a1192b44356",
+   "bytes": 2624731
+  },
+  {
+   "name": "offensive fr",
+   "url": "https://raw.githubusercontent.com/LDNOOBW/List-of-Dirty-Naughty-Obscene-and-Otherwise-Bad-Words/5faf2ba42d7b1c0977169ec3611df25a3c08eb13/fr",
+   "sha256": "79763a705e08256b393952852bb63aa903f4485e0ef02f70735f5e50efff213c",
+   "bytes": 793
+  },
+  {
+   "name": "frequency bn",
+   "url": "https://raw.githubusercontent.com/hermitdave/FrequencyWords/525f9b560de45753a5ea01069454e72e9aa541c6/content/2018/bn/bn_full.txt",
+   "sha256": "480c727b961d0dcf3ee175279ee2f49f9a4840b37b52a97f0e2667c5970350ab",
+   "bytes": 2352582
+  },
+  {
+   "name": "wikipron ben_beng_dhaka_broad",
+   "url": "https://raw.githubusercontent.com/CUNY-CL/wikipron/d282e848a211ea31cfd730f0ced8bc8cdab9e83d/data/scrape/tsv/ben_beng_dhaka_broad.tsv",
+   "sha256": "b47435cbadd84df627067a198dc89aa81203888650c2fc91ca1c8c50b7e9eeab",
+   "bytes": 247740
+  },
+  {
+   "name": "frequency pt_br",
+   "url": "https://raw.githubusercontent.com/hermitdave/FrequencyWords/525f9b560de45753a5ea01069454e72e9aa541c6/content/2018/pt_br/pt_br_full.txt",
+   "sha256": "533b3abaab3b1ea9cec7a150fc8aaf8d428c6f241979cc2224b7ee82f8a369b2",
+   "bytes": 9882799
+  },
+  {
+   "name": "wikipron por_latn_bz_broad",
+   "url": "https://raw.githubusercontent.com/CUNY-CL/wikipron/d282e848a211ea31cfd730f0ced8bc8cdab9e83d/data/scrape/tsv/por_latn_bz_broad.tsv",
+   "sha256": "352e2ca603dbf4d3e71a771ed279196cd759b8219e3d0891e68c1baa4b3ac6f4",
+   "bytes": 5619586
+  },
+  {
+   "name": "offensive pt",
+   "url": "https://raw.githubusercontent.com/LDNOOBW/List-of-Dirty-Naughty-Obscene-and-Otherwise-Bad-Words/5faf2ba42d7b1c0977169ec3611df25a3c08eb13/pt",
+   "sha256": "05ef524b0bb7f83f87257f6ec4dabf70e16b8bb6930f769fb93deaf608ff196d",
+   "bytes": 629
+  },
+  {
+   "name": "frequency id",
+   "url": "https://raw.githubusercontent.com/hermitdave/FrequencyWords/525f9b560de45753a5ea01069454e72e9aa541c6/content/2018/id/id_full.txt",
+   "sha256": "bd17bf66be3be86d4f07c5466582e6c99f43b91d365e771b98a3bad19f405e81",
+   "bytes": 4145091
+  },
+  {
+   "name": "wikipron ind_latn_broad",
+   "url": "https://raw.githubusercontent.com/CUNY-CL/wikipron/d282e848a211ea31cfd730f0ced8bc8cdab9e83d/data/scrape/tsv/ind_latn_broad.tsv",
+   "sha256": "6347552be3c3dc869aea26d01d28bb6960c2cd80dd663eede2bdfb0f52475d3d",
+   "bytes": 437525
+  },
+  {
+   "name": "frequency ur",
+   "url": "https://raw.githubusercontent.com/hermitdave/FrequencyWords/525f9b560de45753a5ea01069454e72e9aa541c6/content/2018/ur/ur_full.txt",
+   "sha256": "b148f7f3e2b937e01fc4968ef00c4cc5f53b400ac714d362f41dee09fd083154",
+   "bytes": 120771
+  },
+  {
+   "name": "wikipron urd_arab_broad",
+   "url": "https://raw.githubusercontent.com/CUNY-CL/wikipron/d282e848a211ea31cfd730f0ced8bc8cdab9e83d/data/scrape/tsv/urd_arab_broad.tsv",
+   "sha256": "5530b71670423fc810e245680a9077ca3c72c79de0cdf6d2df21bbec5130d1e5",
+   "bytes": 217483
+  },
+  {
+   "name": "frequency ru",
+   "url": "https://raw.githubusercontent.com/hermitdave/FrequencyWords/525f9b560de45753a5ea01069454e72e9aa541c6/content/2018/ru/ru_full.txt",
+   "sha256": "32dfd94138aea2667ec455dcc8512029e39bd4b8ea70b09410d569b69d511a30",
+   "bytes": 28999417
+  },
+  {
+   "name": "wikipron rus_cyrl_narrow",
+   "url": "https://raw.githubusercontent.com/CUNY-CL/wikipron/d282e848a211ea31cfd730f0ced8bc8cdab9e83d/data/scrape/tsv/rus_cyrl_narrow.tsv",
+   "sha256": "d5757af45238153792940d5b2577503867d7fb9a9bb3e1ed1a7ec829d4d72014",
+   "bytes": 21077222
+  },
+  {
+   "name": "offensive ru",
+   "url": "https://raw.githubusercontent.com/LDNOOBW/List-of-Dirty-Naughty-Obscene-and-Otherwise-Bad-Words/5faf2ba42d7b1c0977169ec3611df25a3c08eb13/ru",
+   "sha256": "2598adabd2b761733d72a68d8ee4fcc1d2c38f2f85b6ff489985c6ce1d93bf75",
+   "bytes": 2223
+  },
+  {
+   "name": "frequency de",
+   "url": "https://raw.githubusercontent.com/hermitdave/FrequencyWords/525f9b560de45753a5ea01069454e72e9aa541c6/content/2018/de/de_full.txt",
+   "sha256": "a5fc13f4efaaf70fd9226d11295fd3cd4c2264852ee1fad22c0abaf64acec8dc",
+   "bytes": 17479451
+  },
+  {
+   "name": "wikipron deu_latn_broad",
+   "url": "https://raw.githubusercontent.com/CUNY-CL/wikipron/d282e848a211ea31cfd730f0ced8bc8cdab9e83d/data/scrape/tsv/deu_latn_broad.tsv",
+   "sha256": "b05015e228960757ed7824a778b2e24c87d9c61648fd27800f0984eca3416b25",
+   "bytes": 2061531
+  },
+  {
+   "name": "offensive de",
+   "url": "https://raw.githubusercontent.com/LDNOOBW/List-of-Dirty-Naughty-Obscene-and-Otherwise-Bad-Words/5faf2ba42d7b1c0977169ec3611df25a3c08eb13/de",
+   "sha256": "ebe44d7772897390e27f7bec412fdcdf0efc294e4db157f8487c4cd8d4fabd55",
+   "bytes": 534
+  },
+  {
+   "name": "frequency ja",
+   "url": "https://raw.githubusercontent.com/hermitdave/FrequencyWords/525f9b560de45753a5ea01069454e72e9aa541c6/content/2018/ja/ja_full.txt",
+   "sha256": "581dd106a134ff9f2706e23cde9fe95cd24d96ead6357cd3bd3bba9e166a764e",
+   "bytes": 402792
+  },
+  {
+   "name": "wikipron jpn_hira_narrow",
+   "url": "https://raw.githubusercontent.com/CUNY-CL/wikipron/d282e848a211ea31cfd730f0ced8bc8cdab9e83d/data/scrape/tsv/jpn_hira_narrow.tsv",
+   "sha256": "35750dda8d8fd667e0e6ea266c2241789f1f4456af64e6c06caa5f8ad43ecda7",
+   "bytes": 160868
+  },
+  {
+   "name": "wikipron jpn_kana_narrow",
+   "url": "https://raw.githubusercontent.com/CUNY-CL/wikipron/d282e848a211ea31cfd730f0ced8bc8cdab9e83d/data/scrape/tsv/jpn_kana_narrow.tsv",
+   "sha256": "c3755a5d045a44ebd94d25cc608ad81f1fc7d186ac3680791f83d2be431f10ec",
+   "bytes": 328524
+  },
+  {
+   "name": "wikipron jpn_hani_narrow",
+   "url": "https://raw.githubusercontent.com/CUNY-CL/wikipron/d282e848a211ea31cfd730f0ced8bc8cdab9e83d/data/scrape/tsv/jpn_hani_narrow.tsv",
+   "sha256": "8a859a9343654f4a629134b011cacac47fc46e3854380144f14bca3a178f5745",
+   "bytes": 904445
+  },
+  {
+   "name": "offensive ja",
+   "url": "https://raw.githubusercontent.com/LDNOOBW/List-of-Dirty-Naughty-Obscene-and-Otherwise-Bad-Words/5faf2ba42d7b1c0977169ec3611df25a3c08eb13/ja",
+   "sha256": "f83c4d0843ea6474c17bf171edd72b616b3af403f8613f2cde1bd841faf6f316",
+   "bytes": 2339
+  },
+  {
+   "name": "wikipron arz_arab_broad",
+   "url": "https://raw.githubusercontent.com/CUNY-CL/wikipron/d282e848a211ea31cfd730f0ced8bc8cdab9e83d/data/scrape/tsv/arz_arab_broad.tsv",
+   "sha256": "74d4728493b0a517d78305bcbde902297455f894033f52c4f15f2c6351dffb91",
+   "bytes": 16635
+  },
+  {
+   "name": "wikipron mar_deva_broad",
+   "url": "https://raw.githubusercontent.com/CUNY-CL/wikipron/d282e848a211ea31cfd730f0ced8bc8cdab9e83d/data/scrape/tsv/mar_deva_broad.tsv",
+   "sha256": "271ceef83b242d5a712615a9299a53130eeaf78c6ba4697bd8c6606cb1a2569f",
+   "bytes": 160896
+  },
+  {
+   "name": "frequency vi",
+   "url": "https://raw.githubusercontent.com/hermitdave/FrequencyWords/525f9b560de45753a5ea01069454e72e9aa541c6/content/2018/vi/vi_full.txt",
+   "sha256": "b9063a8ec6a40fb22db9a2f8f5f90a06784669f235a95b25d5f28ae093ebaf07",
+   "bytes": 950342
+  },
+  {
+   "name": "wikipron vie_latn_hanoi_narrow",
+   "url": "https://raw.githubusercontent.com/CUNY-CL/wikipron/d282e848a211ea31cfd730f0ced8bc8cdab9e83d/data/scrape/tsv/vie_latn_hanoi_narrow.tsv",
+   "sha256": "b18f909c538ce7620fe61491944f8564d6318dfd07608ee2b269c170ad4ad4f9",
+   "bytes": 1130306
+  },
+  {
+   "name": "frequency te",
+   "url": "https://raw.githubusercontent.com/hermitdave/FrequencyWords/525f9b560de45753a5ea01069454e72e9aa541c6/content/2018/te/te_full.txt",
+   "sha256": "fdc46467588bdbf1963e37b4f1b3d87a9a9848b860a31117437b435854c63300",
+   "bytes": 312669
+  },
+  {
+   "name": "wikipron tel_telu_broad",
+   "url": "https://raw.githubusercontent.com/CUNY-CL/wikipron/d282e848a211ea31cfd730f0ced8bc8cdab9e83d/data/scrape/tsv/tel_telu_broad.tsv",
+   "sha256": "d6310037ce9e406b52bfb11a7e18c62d6f7ae248977b79dc7e8cad623fee515c",
+   "bytes": 191201
+  },
+  {
+   "name": "wikipron swa_latn_broad",
+   "url": "https://raw.githubusercontent.com/CUNY-CL/wikipron/d282e848a211ea31cfd730f0ced8bc8cdab9e83d/data/scrape/tsv/swa_latn_broad.tsv",
+   "sha256": "9a3eb935282265aeaf5d7baf2445fd33edff724a42cf3be86ec60f444c70ede8",
+   "bytes": 7151
+  },
+  {
+   "name": "wikipron hau_latn_broad",
+   "url": "https://raw.githubusercontent.com/CUNY-CL/wikipron/d282e848a211ea31cfd730f0ced8bc8cdab9e83d/data/scrape/tsv/hau_latn_broad.tsv",
+   "sha256": "d56d0d31236f549f168580da9ee4f32700e3854044096d6cc26cf9df6e96a7d0",
+   "bytes": 51999
+  },
+  {
+   "name": "frequency tr",
+   "url": "https://raw.githubusercontent.com/hermitdave/FrequencyWords/525f9b560de45753a5ea01069454e72e9aa541c6/content/2018/tr/tr_full.txt",
+   "sha256": "62fed3d295a3250920f8a151f597cb28208633b6ff6e7bff90faed51ee86a9a5",
+   "bytes": 29715432
+  },
+  {
+   "name": "wikipron tur_latn_broad",
+   "url": "https://raw.githubusercontent.com/CUNY-CL/wikipron/d282e848a211ea31cfd730f0ced8bc8cdab9e83d/data/scrape/tsv/tur_latn_broad.tsv",
+   "sha256": "97161a54316c54c15549e5b6127c11aef8b65c213fea3f432f99459763085177",
+   "bytes": 301309
+  },
+  {
+   "name": "offensive tr",
+   "url": "https://raw.githubusercontent.com/LDNOOBW/List-of-Dirty-Naughty-Obscene-and-Otherwise-Bad-Words/5faf2ba42d7b1c0977169ec3611df25a3c08eb13/tr",
+   "sha256": "6c7ae03baee0f3fdc22eed169030567669005dad9a1923e0b571c4bd4f2f2ab5",
+   "bytes": 1509
+  },
+  {
+   "name": "eldamo",
+   "url": "https://raw.githubusercontent.com/pfstrack/eldamo/4071c9caa95caca905c96af2505d5252045e2aaa/src/data/eldamo-data.xml",
+   "sha256": "4e561d4dfc15919d300adcb3ef8cb93298cb0b6fe0291f8fd1bef93abeea7979",
+   "bytes": 30325949
+  },
+  {
+   "name": "esperanto",
+   "url": "https://raw.githubusercontent.com/CUNY-CL/wikipron/d282e848a211ea31cfd730f0ced8bc8cdab9e83d/data/scrape/tsv/epo_latn_broad.tsv",
+   "sha256": "06d54a80179397c5903a28914b3756f63859d4e25f33d712bb713c5a13b7efc1",
+   "bytes": 1071749
+  },
+  {
+   "name": "esperanto offensive",
+   "url": "https://raw.githubusercontent.com/LDNOOBW/List-of-Dirty-Naughty-Obscene-and-Otherwise-Bad-Words/5faf2ba42d7b1c0977169ec3611df25a3c08eb13/eo",
+   "sha256": "0374d76be1dbc77c61362d6e51305e1e4c546b7f734eb96e0bdbad7fd2a6ace1",
+   "bytes": 278
+  },
+  {
+   "name": "ithkuil",
+   "url": "https://codeload.github.com/yuorb/lexicon-json/tar.gz/9c3ffe270ff4a534f44b08d4da29cff4ea10034b",
+   "sha256": "ae3b870a3467e677373e27878d92e6d597e4ab4e248f4d62c7dc818c90f714f4",
+   "bytes": 643466
+  },
+  {
+   "name": "klingon",
+   "url": "https://codeload.github.com/De7vID/klingon-assistant-data/tar.gz/0f6018ece74a3f5a4b61ddcd4c7a28b010bb7fd0",
+   "sha256": "847c54c35f1aa8b2cc9118a9c47af08d026b996983761e40ee07b7ed59749f69",
+   "bytes": 4938570
+  },
+  {
+   "name": "klingon offensive",
+   "url": "https://raw.githubusercontent.com/LDNOOBW/List-of-Dirty-Naughty-Obscene-and-Otherwise-Bad-Words/5faf2ba42d7b1c0977169ec3611df25a3c08eb13/tlh",
+   "sha256": "3c19004e338c0d91d19ba419185279145848b75b2327aa0e3a752c604ad9f59d",
+   "bytes": 25
+  },
+  {
+   "name": "laadan",
+   "url": "https://raw.githubusercontent.com/corscheid/laadan-dict/87685a0c3ae43cf4c4a7eec6b422bbbad997ad35/lib/dictionary_laadan.ts",
+   "sha256": "6adabb02e13894925c9e3d1e8ff6f3b301fe83b14ee02bbfbb37ad9893718d81",
+   "bytes": 377730
+  },
+  {
+   "name": "loglan definitions",
+   "url": "https://raw.githubusercontent.com/torrua/LOD/8320296ddc262a9f2807870a40782117bf9ced94/tables/WordDefinition.txt",
+   "sha256": "751cbf5b9795af82234647735c40ada0bbc45be60a06657a0069bec1f74f1a49",
+   "bytes": 1154430
+  },
+  {
+   "name": "loglan spellings",
+   "url": "https://raw.githubusercontent.com/torrua/LOD/8320296ddc262a9f2807870a40782117bf9ced94/tables/WordSpell.txt",
+   "sha256": "e5529f7808efb95da2bc42ba52237ac9983b5b97b7dc8f14910d5ffe2e58331e",
+   "bytes": 359469
+  },
+  {
+   "name": "loglan words",
+   "url": "https://raw.githubusercontent.com/torrua/LOD/8320296ddc262a9f2807870a40782117bf9ced94/tables/Words.txt",
+   "sha256": "2c3066b1494c542071a0555e9001ebaf965f55f12b46b59725466860f8f0322a",
+   "bytes": 812483
+  },
+  {
+   "name": "lojban cmavo",
+   "url": "https://www.lojban.org/publications/wordlists/cmavo.txt",
+   "sha256": "544414d61f3ff35dd2cf4e4f79f3c86bf9bb0568eb3403f57288057e16796402",
+   "bytes": 145139
+  },
+  {
+   "name": "lojban gismu",
+   "url": "https://www.lojban.org/publications/wordlists/gismu.txt",
+   "sha256": "f2fc4cff4f265ad02717d56733b4627ffa78c616db78dcaa44caab694e1dd5b7",
+   "bytes": 368403
+  },
+  {
+   "name": "solresol",
+   "url": "https://raw.githubusercontent.com/Itamal/SolReSol/3b719627e53d874d707e6cee2d811bc0f0f4abdb/Solresol%20Dictionary%20-%20Solresol%20Dictionary.csv",
+   "sha256": "d8a3bc5d208fd0bdc4990a7a4d9a501e9dc5a8e60300aadbd8b82f01f7c08252",
+   "bytes": 164580
+  },
+  {
+   "name": "toki pona",
+   "url": "https://raw.githubusercontent.com/lipu-linku/sona/ff32a2776548bd17673d6abfd41927d027f806c2/api/src/raw/v1/words.json",
+   "sha256": "f74fa6b5839eb86a5d860ecb3c360978b4e53398e92d9d9256f2d3f1d382d43b",
+   "bytes": 4348875
+  }
+ ]
+}

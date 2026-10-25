@@ -1,0 +1,50 @@
+{
+ "machine identifier": "lx.000673",
+ "root": "lx.000673",
+ "phonological form": "/ɾumub nupekoh/",
+ "orthographic form": "rumub nupekoh",
+ "grammatical category": "idiom",
+ "sort": "s.sort.situation",
+ "semantic type": {
+  "sort": "s.sort.situation",
+  "arguments": []
+ },
+ "definition": "the cost of the work is rising",
+ "semantic primitives": [
+  "s.sort.situation"
+ ],
+ "argument structure": [],
+ "derivational behaviour": [],
+ "register": [
+  "R0",
+  "R1",
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7"
+ ],
+ "collocations": [],
+ "synonyms": [],
+ "antonyms": [],
+ "related concepts": [],
+ "examples": [],
+ "version": {
+  "introduced": "1.0",
+  "deprecated": null
+ },
+ "key": "money burning",
+ "class": "warnings",
+ "kind": "encoding, grammatical",
+ "route": "formula",
+ "literal structure": "(situation burn PROGRESSIVE (UNDERGOER (term money)))",
+ "expansion": "(situation increase PROGRESSIVE (UNDERGOER (term cost DEFINITE)))",
+ "decomposition": [],
+ "pragmatic conditions": "when the work costs more than was planned",
+ "usage restrictions": "none",
+ "declared loss": [
+  "stance"
+ ],
+ "constructed history": "Constructed history: money spent faster than planned was said to burn, as the budget did."
+}

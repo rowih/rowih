@@ -1,0 +1,42 @@
+{
+ "machine identifier": "lx.000102",
+ "root": "lx.000004",
+ "phonological form": "/ɾudinaniw/",
+ "orthographic form": "rudinaniw",
+ "grammatical category": "derivation",
+ "sort": "s.sort.state",
+ "semantic type": {
+  "sort": "s.sort.state",
+  "arguments": []
+ },
+ "definition": "the state of a process that is not running",
+ "semantic primitives": [
+  "s.sort.state"
+ ],
+ "argument structure": [],
+ "derivational behaviour": [],
+ "register": [
+  "R0",
+  "R1",
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7"
+ ],
+ "collocations": [],
+ "synonyms": [],
+ "antonyms": [],
+ "related concepts": [],
+ "examples": [],
+ "version": {
+  "introduced": "0.1",
+  "deprecated": null
+ },
+ "key": "down",
+ "formed from": [
+  "lx.000004",
+  "lx.000100"
+ ]
+}

@@ -1,0 +1,51 @@
+{
+ "machine identifier": "lx.000154",
+ "root": "lx.000154",
+ "phonological form": "/ɾipol ɾoduɾ ɾenih/",
+ "orthographic form": "ripol rodur renih",
+ "grammatical category": "idiom",
+ "sort": "s.sort.situation",
+ "semantic type": {
+  "sort": "s.sort.situation",
+  "arguments": []
+ },
+ "definition": "the speaker requires nothing in exchange",
+ "semantic primitives": [
+  "s.sort.situation"
+ ],
+ "argument structure": [],
+ "derivational behaviour": [],
+ "register": [
+  "R0",
+  "R1",
+  "R2",
+  "R3",
+  "R5",
+  "R6",
+  "R7"
+ ],
+ "collocations": [],
+ "synonyms": [],
+ "antonyms": [],
+ "related concepts": [],
+ "examples": [],
+ "version": {
+  "introduced": "0.3",
+  "deprecated": null
+ },
+ "key": "water price",
+ "class": "negotiation idioms",
+ "kind": "decoding, grammatical",
+ "route": "figure",
+ "literal structure": "(situation correspond (UNDERGOER (term price)) (CONTENT (term water)))",
+ "expansion": "(situation need POLARITY.NEGATIVE (HOLDER (term SELF)) (CONTENT (term price)))",
+ "decomposition": [],
+ "pragmatic conditions": "with an offer or a proposal, of what the speaker asks for it",
+ "usage restrictions": "excluded from R4",
+ "declared loss": [
+  "stance",
+  "relation between participants",
+  "wording"
+ ],
+ "constructed history": "Constructed history: water, which cooled the first machines and was never charged for, stands for what costs nothing."
+}

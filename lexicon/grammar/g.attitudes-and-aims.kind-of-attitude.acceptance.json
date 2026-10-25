@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.attitudes-and-aims.kind-of-attitude.acceptance",
+ "orthographic form": "pami",
+ "phonological form": "/pami/",
+ "grammatical category": "kind of attitude",
+ "gloss": "KIND-OF-ATTITUDE.ACCEPTANCE",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

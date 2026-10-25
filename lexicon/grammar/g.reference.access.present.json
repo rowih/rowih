@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.reference.access.present",
+ "orthographic form": "mepu",
+ "phonological form": "/mepu/",
+ "grammatical category": "access",
+ "gloss": "PRESENT",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

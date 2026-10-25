@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.ambiguity-and-figures.kind-of-ambiguity.epistemic",
+ "orthographic form": "sobu",
+ "phonological form": "/sobu/",
+ "grammatical category": "kind of ambiguity",
+ "gloss": "EPISTEMIC",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

@@ -1,0 +1,51 @@
+{
+ "machine identifier": "lx.000617",
+ "root": "lx.000617",
+ "phonological form": "/ɾubom nupenud/",
+ "orthographic form": "rubom nupenud",
+ "grammatical category": "idiom",
+ "sort": "s.sort.situation",
+ "semantic type": {
+  "sort": "s.sort.situation",
+  "arguments": []
+ },
+ "definition": "the hearer's finding of the speaker's mistake was for the speaker's good",
+ "semantic primitives": [
+  "s.sort.situation"
+ ],
+ "argument structure": [],
+ "derivational behaviour": [],
+ "register": [
+  "R0",
+  "R1",
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7"
+ ],
+ "collocations": [],
+ "synonyms": [],
+ "antonyms": [],
+ "related concepts": [],
+ "examples": [],
+ "version": {
+  "introduced": "1.0",
+  "deprecated": null
+ },
+ "key": "mistake found",
+ "class": "thanks",
+ "kind": "encoding, grammatical",
+ "route": "formula",
+ "literal structure": "(situation find (ACTOR (term INTERLOCUTOR)) (UNDERGOER (term mistake)))",
+ "expansion": "(situation benefit (CONTENT (situation find PERFECTIVE (ACTOR (term INTERLOCUTOR)) (UNDERGOER (term mistake GIVEN)))) (RECIPIENT (term SELF)))",
+ "decomposition": [],
+ "pragmatic conditions": "after the hearer corrected a position of the speaker's own",
+ "usage restrictions": "none",
+ "declared loss": [
+  "stance",
+  "relation between participants"
+ ],
+ "constructed history": "Constructed history: an agent whose mistake another had found said only that it had been found, and the saying came to thank the finder."
+}

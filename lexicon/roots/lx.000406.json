@@ -1,0 +1,139 @@
+{
+ "machine identifier": "lx.000406",
+ "root": "lx.000406",
+ "phonological form": "/nuwanol/",
+ "orthographic form": "nuwanol",
+ "grammatical category": "predicate root",
+ "sort": "s.sort.state",
+ "semantic type": {
+  "sort": "s.sort.state",
+  "arguments": [
+   "undergoer"
+  ]
+ },
+ "definition": "give or reflect much light",
+ "semantic primitives": [
+  "s.sort.state"
+ ],
+ "argument structure": [
+  {
+   "role": "undergoer",
+   "sort": "s.sort.referent"
+  }
+ ],
+ "derivational behaviour": [
+  {
+   "suffix": "lx.000097",
+   "mechanism": "undergoer",
+   "form": "nuwanoludim",
+   "sort": "s.sort.referent",
+   "definition": "the one that undergoes [give or reflect much light]"
+  },
+  {
+   "suffix": "lx.000098",
+   "mechanism": "instrument",
+   "form": "nuwanolawen",
+   "sort": "s.sort.referent",
+   "definition": "what [give or reflect much light] is done with"
+  },
+  {
+   "suffix": "lx.000099",
+   "mechanism": "result",
+   "form": "nuwanolonar",
+   "sort": "s.sort.state",
+   "definition": "the state [give or reflect much light] brings about"
+  },
+  {
+   "suffix": "lx.000100",
+   "mechanism": "privative",
+   "form": "nuwanolaniw",
+   "sort": "s.sort.state",
+   "definition": "the state in which [give or reflect much light] does not hold"
+  },
+  {
+   "suffix": "lx.000108",
+   "mechanism": "process",
+   "form": "nuwanolumop",
+   "sort": "s.sort.reified-referent",
+   "definition": "[give or reflect much light], as a process under way, named as a referent"
+  },
+  {
+   "suffix": "lx.000109",
+   "mechanism": "property",
+   "form": "nuwanolarur",
+   "sort": "s.sort.kind",
+   "definition": "the property of being as [give or reflect much light] states"
+  },
+  {
+   "suffix": "lx.000111",
+   "mechanism": "nominalisation",
+   "form": "nuwanolekoh",
+   "sort": "s.sort.proposition",
+   "definition": "that [give or reflect much light] holds"
+  },
+  {
+   "suffix": "lx.000594",
+   "mechanism": "causative",
+   "form": "nuwanolomiw",
+   "sort": "s.sort.event",
+   "definition": "make [give or reflect much light] hold or happen"
+  },
+  {
+   "suffix": "lx.000595",
+   "mechanism": "reversative",
+   "form": "nuwanoluhul",
+   "sort": "s.sort.event",
+   "definition": "undo [give or reflect much light], restoring what it changed"
+  },
+  {
+   "suffix": "lx.000596",
+   "mechanism": "repetitive",
+   "form": "nuwanoluleg",
+   "sort": "s.sort.event",
+   "definition": "[give or reflect much light], done once more"
+  },
+  {
+   "suffix": "lx.000597",
+   "mechanism": "potential",
+   "form": "nuwanoluwot",
+   "sort": "s.sort.state",
+   "definition": "be such that [give or reflect much light] can be done to it"
+  },
+  {
+   "suffix": "lx.000598",
+   "mechanism": "place",
+   "form": "nuwanolumuk",
+   "sort": "s.sort.place",
+   "definition": "the place where [give or reflect much light] happens"
+  }
+ ],
+ "register": [
+  "R0",
+  "R1",
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7"
+ ],
+ "collocations": [],
+ "synonyms": [],
+ "antonyms": [
+  {
+   "entry": "lx.000407"
+  }
+ ],
+ "related concepts": [
+  {
+   "entry": "lx.000071",
+   "relation": "involves"
+  }
+ ],
+ "examples": [],
+ "version": {
+  "introduced": "1.0",
+  "deprecated": null
+ },
+ "key": "bright"
+}

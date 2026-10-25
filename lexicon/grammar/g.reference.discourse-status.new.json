@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.reference.discourse-status.new",
+ "orthographic form": "more",
+ "phonological form": "/moɾe/",
+ "grammatical category": "discourse status",
+ "gloss": "NEW",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

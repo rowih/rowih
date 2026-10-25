@@ -1,0 +1,11 @@
+{
+ "machine identifier": "g.situations-and-contents.structural-relation.member-of",
+ "orthographic form": "mali",
+ "phonological form": "/mali/",
+ "grammatical category": "structural relation",
+ "gloss": "MEMBER-OF",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ }
+}

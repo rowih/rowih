@@ -1,0 +1,76 @@
+{
+ "machine identifier": "lx.000578",
+ "root": "lx.000578",
+ "phonological form": "/numowos/",
+ "orthographic form": "numowos",
+ "grammatical category": "discourse relation",
+ "sort": "s.relation.bears-on",
+ "semantic type": {
+  "sort": "s.relation.bears-on",
+  "arguments": []
+ },
+ "definition": "the move gives an example of what it names",
+ "semantic primitives": [
+  "s.relation.bears-on"
+ ],
+ "argument structure": [],
+ "derivational behaviour": [
+  {
+   "suffix": "lx.000110",
+   "mechanism": "abstraction",
+   "form": "numowosusap",
+   "sort": "s.sort.kind",
+   "definition": "what every instance of [the move gives an example of what it names] has in common"
+  },
+  {
+   "suffix": "lx.000112",
+   "mechanism": "verbalisation",
+   "form": "numowosasey",
+   "sort": "s.sort.event",
+   "definition": "act by means of [the move gives an example of what it names]"
+  },
+  {
+   "suffix": "lx.000113",
+   "mechanism": "adjectivisation",
+   "form": "numowosuyik",
+   "sort": "s.sort.state",
+   "definition": "be of the kind [the move gives an example of what it names] names"
+  },
+  {
+   "suffix": "lx.000184",
+   "mechanism": "honorific",
+   "form": "numowosayuk",
+   "sort": "s.relation.bears-on",
+   "definition": "[the move gives an example of what it names], named with deference"
+  }
+ ],
+ "register": [
+  "R0",
+  "R1",
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7"
+ ],
+ "collocations": [],
+ "synonyms": [],
+ "antonyms": [
+  {
+   "entry": "lx.000582"
+  }
+ ],
+ "related concepts": [
+  {
+   "entry": "lx.000091",
+   "relation": "kind of"
+  }
+ ],
+ "examples": [],
+ "version": {
+  "introduced": "1.0",
+  "deprecated": null
+ },
+ "key": "exemplifies"
+}

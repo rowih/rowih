@@ -1,0 +1,12 @@
+{
+ "machine identifier": "g.standing.basis.trained-knowledge",
+ "orthographic form": "tiruni",
+ "phonological form": "/tiɾuni/",
+ "grammatical category": "basis",
+ "gloss": "TRAINED-KNOWLEDGE",
+ "generated from": "language/grammar.json",
+ "version": {
+  "introduced": "0.1"
+ },
+ "tier": 2
+}

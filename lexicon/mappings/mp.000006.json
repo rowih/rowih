@@ -1,0 +1,27 @@
+{
+ "machine identifier": "mp.000006",
+ "name": "KNOWING IS SEEING",
+ "source domain": "light and sight",
+ "target domain": "knowledge",
+ "correspondences": [
+  {
+   "source": "light",
+   "target": "what makes a content plain"
+  },
+  {
+   "source": "seeing",
+   "target": "knowing"
+  },
+  {
+   "source": "darkness",
+   "target": "not knowing"
+  }
+ ],
+ "motivates": [
+  "lx.000194"
+ ],
+ "version": {
+  "introduced": "0.5",
+  "deprecated": null
+ }
+}
