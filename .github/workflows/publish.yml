@@ -1,0 +1,95 @@
+# Publishes the Python package to PyPI from a release tag, run on demand by a maintainer
+# who names the tag, as v1.1.0. PyPI's trusted publishing takes GitHub's identity token in
+# place of a password, so that no token is stored, and records an attestation that ties
+# each file to this workflow and the tag it was built from. The distributions are built
+# twice and must match byte for byte, and the wheel must read a message of the
+# conformance suite and refuse one of the negative corpus before anything is uploaded.
+name: publish
+
+on:
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: "The release tag to publish, as v1.1.0"
+        required: true
+        type: string
+
+permissions:
+  contents: read
+
+env:
+  UV_VERSION: "0.12.21"
+  PYTHON_VERSION: "3.12"
+
+jobs:
+  build:
+    name: the distributions
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Check that the tag names a release
+        env:
+          TAG: ${{ inputs.tag }}
+        run: |
+          if [[ ! "$TAG" =~ ^v[0-9]+\.[0-9]+\.[0-9]+$ ]]; then
+            echo "::error::'$TAG' is not a release tag of the form v1.1.0"
+            exit 1
+          fi
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1  # v7.0.1
+        with:
+          ref: refs/tags/${{ inputs.tag }}
+          persist-credentials: false
+      - uses: astral-sh/setup-uv@1c37ad07a6a961277cf70c0d37d6f313000f5884  # v10.3.0
+        with:
+          version: ${{ env.UV_VERSION }}
+          python-version: ${{ env.PYTHON_VERSION }}
+      - name: Check that the tag is the package's version
+        env:
+          TAG: ${{ inputs.tag }}
+        run: |
+          version="$(uv version --short)"
+          if [[ "v$version" != "$TAG" ]]; then
+            echo "::error::the tag $TAG holds the package at version $version"
+            exit 1
+          fi
+      - name: Build the source distribution and the wheel
+        run: uv build --no-create-gitignore --out-dir dist
+      - name: Check that a second build is the same, byte for byte
+        run: |
+          uv build --no-create-gitignore --out-dir "$RUNNER_TEMP/again"
+          for file in dist/*; do
+            cmp "$file" "$RUNNER_TEMP/again/$(basename "$file")"
+          done
+      - name: Check the wheel, installed alone, against the corpus
+        run: |
+          wheel="$(echo "$PWD"/dist/*.whl)"
+          good="$PWD/corpus/conformance/d01-simple-fact.1.txt"
+          bad="$PWD/corpus/negative/n01-authority-on-inert.txt"
+          cd "$RUNNER_TEMP"
+          uv run --isolated --no-project --with "$wheel" rowih validate "$good"
+          if uv run --isolated --no-project --with "$wheel" rowih validate "$bad"; then
+            echo "::error::the wheel accepted a message of the negative corpus"
+            exit 1
+          fi
+      - uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9  # v7.0.2
+        with:
+          name: distributions
+          path: dist/
+          if-no-files-found: error
+
+  pypi:
+    name: the upload to PyPI
+    needs: build
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    environment:
+      name: pypi
+      url: https://pypi.org/project/rowih/
+    permissions:
+      id-token: write
+    steps:
+      - uses: actions/download-artifact@9000827ccba6bdab643e8b6fd33ac0654aef8333  # v8.0.2
+        with:
+          name: distributions
+          path: dist/
+      - uses: pypa/gh-action-pypi-publish@7245906fb61fa33a13554f9d5fb856fe61758086  # v1.14.3
