@@ -38,7 +38,7 @@ Each release appends its additions after every earlier word, so that no released
 
 ## The gate
 
-The gate is every run a release's acceptance makes, over the code and data of the commit it tags. Continuous integration runs the gate on every pull request, and a proposal is merged only when every run its kind requires passes over its final commit.
+The gate is every run a release's acceptance makes, over the code and data of the commit it tags. Continuous integration runs the gate on every pull request and on every commit to the public repository's `main`, and a proposal is merged only when every run its kind requires passes over its final commit.
 
 | Run | What it shows | Command | Required of |
 |---|---|---|---|

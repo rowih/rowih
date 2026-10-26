@@ -1,4 +1,5 @@
-# The gate (governance/README.md#the-gate), run on every pull request over its final commit.
+# The gate (governance/README.md#the-gate), run on every pull request over its final commit,
+# and on every commit to main, so that each release's commit carries its result.
 # A proposal is merged only when every run its kind requires passes. The two long runs, the
 # comparison of the implementations and the single-edit enumeration, are divided among jobs
 # with --shard K/N, whose parts together are the whole run.
@@ -6,6 +7,8 @@ name: gate
 
 on:
   pull_request:
+  push:
+    branches: [main]
   workflow_dispatch:
 
 permissions:

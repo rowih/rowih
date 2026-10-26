@@ -29,7 +29,7 @@ The data in `language/`, `lexicon/` and `corpus/` are built from the sources in 
 
 ## The gate
 
-Continuous integration runs the gate on every pull request, and a pull request is merged only when every run its kind requires passes over its final commit ([The gate](governance/README.md#the-gate)). Each run can be made locally, through the project's environment:
+Continuous integration runs the gate on every pull request and on every commit to `main`, and a pull request is merged only when every run its kind requires passes over its final commit ([The gate](governance/README.md#the-gate)). Each run can be made locally, through the project's environment:
 
 | Run | Command |
 |---|---|

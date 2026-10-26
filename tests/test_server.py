@@ -193,6 +193,29 @@ def test_every_tool_reads_nothing_and_closes_its_arguments():
         assert t["description"] and t["title"]
 
 
+def _undescribed(schema: dict, path: str) -> list:
+    """The properties of a schema, nested ones included, that carry no description."""
+    out = []
+    for name, prop in schema.get("properties", {}).items():
+        if not prop.get("description"):
+            out.append(path + name)
+        if prop.get("type") == "object":
+            out += _undescribed(prop, path + name + ".")
+        items = prop.get("items")
+        if isinstance(items, dict) and items.get("type") == "object":
+            out += _undescribed(items, path + name + "[].")
+    return out
+
+
+def test_every_parameter_of_every_tool_is_described():
+    """A host shows a model each tool's parameters by their descriptions alone."""
+    tools = result("tools/list")["tools"]
+    missing = [t["name"] + ": " + p for t in tools for p in _undescribed(t["inputSchema"], "")]
+    assert missing == []
+    assert all(len(t["description"]) >= 200 for t in tools), \
+        [t["name"] for t in tools if len(t["description"]) < 200]
+
+
 def test_write_writes_the_message_api_write_writes_and_checks_it():
     r = call("write", {"notation": NOTATION, "sender": 3, "recipients": [1, 2],
                        "time": "1761300000.5", "identifier": 4, "first_entry": 9,
