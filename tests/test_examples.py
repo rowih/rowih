@@ -1,9 +1,9 @@
 """The public page (README.md) and its examples (examples/): every file of the examples is
-what tools/build_examples.py writes; a drawing of the moves differs from the toolchain's
-drawing of the whole message only in its view box and its text alternative; each row the
-page draws is the toolchain's line layout of its words, reads back as them, breaks only
-where a break is allowed and fits GitHub's column, and the page shows under it exactly its
-words; each recording
+what tools/build_examples.py writes; each row either page draws is the toolchain's line
+layout of its words, reads back as them, breaks only where a break is allowed and fits
+GitHub's column, and the page shows under it exactly its words, and on the examples page
+their morpheme gloss; the examples page shows every word of every message, and no line of
+its literal semantic forms is wider than a code block holds; each recording
 is of the message as it now reads, is the file the audio tool checked, and passed a check
 that a planted defect failed; the page's opening exchange is the corpus's, its figures
 are the specification's, its quick start runs as written, and it cites nothing outside the
@@ -17,6 +17,8 @@ import sys
 
 from rowih import api, data, writing
 from rowih.drawing import draw, read as read_drawing
+from rowih.generator import morpheme_gloss
+from rowih.notation import sexp
 from rowih.speech import spoken
 
 from test_specification import LINK, anchors, cites_a_section
@@ -25,6 +27,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.join(ROOT, "tools"))
 
 import build_examples  # noqa: E402
+from gloss_corpus import record  # noqa: E402
 
 PAGES = ["README.md", "examples/README.md"]
 FILES = build_examples.files()
@@ -62,23 +65,67 @@ def _corpus_text(name: str) -> str:
     return read("corpus/%s/%s.txt" % (corpus_set, name))
 
 
-def test_a_drawing_of_the_moves_is_the_whole_drawing_cropped():
+def _page_moves() -> list:
+    """(name, move, count, words, ceremonial) for each move the examples page draws."""
     lang = data.load()
-    crops = [p for p in FILES if p.endswith(".moves.svg")]
-    assert len(crops) == len([name for name in SPEECH if not name.endswith(".moves")])
-    for path in crops:
-        name = os.path.basename(path)[:-len(".moves.svg")]
-        text = _corpus_text(name)
-        whole = api.render(text, "svg")[0]
-        assert _body(FILES[path]) == _body(whole), path
-        top, width, height = map(int, re.search(r'viewBox="0 (\d+) (\d+) (\d+)"',
-                                                FILES[path]).groups())
-        d = draw(api.parse(text), "display", lang)
-        assert top == d.lines[1] - lang.writing["metrics"]["above"], path
-        inside = [pt for p in d.paths for pt in p.points if pt[1] >= top]
-        outside = [pt for p in d.paths for pt in p.points if pt[1] < top]
-        assert inside and outside, path
-        assert all(y <= top + height and x <= width for x, y in inside), path
+    out = []
+    for name, text in build_examples._messages():
+        _, moves = build_examples.message_lines(text, lang)
+        out += [(name, i, len(moves), words, ceremonial)
+                for i, (words, ceremonial) in enumerate(moves, 1)]
+    return out
+
+
+PAGE_MOVES = _page_moves()
+
+
+def test_the_examples_page_shows_every_word_of_every_message_in_rows():
+    lang = data.load()
+    page = read("examples/README.md")
+    sections = re.split(r"^### \d+\. ", page, flags=re.M)[1:]
+    messages = build_examples._messages()
+    assert len(sections) == len(messages) == 16
+    for (name, text), section in zip(messages, sections):
+        a = api.parse(text)
+        envelope = re.search(r"<details>(.*?)</details>", section, re.S).group(1)
+        assert " ".join(re.findall(r"^`([^`]+)`<br>$", envelope, re.M)) == \
+            text.splitlines()[0], name
+        assert " ".join(re.findall(r"^<sub>([^<]+)</sub>$", envelope, re.M)) == " ".join(
+            morpheme_gloss(w, lang) for w in a.message.envelope.words), name
+        shown = re.findall(r'<img src="(media/[a-z0-9.-]+\.svg)"[^>]*></picture><br>\n'
+                           r'`([^`]+)`<br>\n<sub>([^<]+)</sub>', section)
+        count = len(a.message.lines)
+        expected = []
+        for i, line in enumerate(a.message.lines, 1):
+            for k, row in enumerate(build_examples.rows(list(line), lang), 1):
+                expected.append((build_examples.page_row_path(name, i, count, k),
+                                 " ".join(w.form for w in row),
+                                 " ".join(morpheme_gloss(w, lang) for w in row)))
+        assert shown == expected, name
+        assert " ".join(t for _, t, _ in shown) == " ".join(text.splitlines()[1:]), name
+
+
+def test_each_semantic_form_is_the_move_s_set_out_within_the_width():
+    page = read("examples/README.md")
+    blocks = re.findall(r"The literal semantic form:\n\n```text\n(.*?)\n```", page, re.S)
+    forms = [m["literal semantic form"] for _, text in build_examples._messages()
+             for m in record(text)["moves"]]
+    assert len(blocks) == len(forms) == 18
+    for block, form in zip(blocks, forms):
+        assert block == build_examples.set_out(form)
+        assert sexp(block) == sexp(form)
+        assert " ".join(line.strip() for line in block.splitlines()) == form
+    for block in _code_blocks(page):
+        assert all(len(line) <= build_examples.WIDTH for line in block.splitlines())
+
+
+def test_setting_out_keeps_a_form_that_fits_and_breaks_one_that_does_not():
+    form = "(move ISSUE QUESTION (situation run (UNDERGOER (term service DEFINITE))))"
+    assert build_examples.set_out(form, 80) == form
+    assert build_examples.set_out(form, 40).splitlines() == [
+        "(move ISSUE QUESTION", "  (situation run", "    (UNDERGOER",
+        "      (term service DEFINITE))))"]
+    assert all(len(line) <= 30 for line in build_examples.set_out(form, 30).splitlines())
 
 
 def _polylines(svg: str) -> list:
@@ -93,10 +140,14 @@ def _is_numeral(word, lang) -> bool:
 def test_each_row_reads_back_as_its_words_breaks_where_allowed_and_fits_the_column():
     lang = data.load()
     walls = lang.writing["walls"]
-    for _, name, forms in build_examples.ROWS:
-        words, ceremonial = build_examples._move(name, lang)
+    readme = [(name, forms) + build_examples._move(name, lang)
+              for _, name, forms in build_examples.ROWS]
+    page = [(name, ("display",), words, ceremonial, move, count)
+            for name, move, count, words, ceremonial in PAGE_MOVES]
+    for name, forms, words, ceremonial, *on_page in readme + page:
         rows = build_examples.rows(words, lang)
-        assert len(rows) > 1 and [w for row in rows for w in row] == words, name
+        assert [w for row in rows for w in row] == words, name
+        assert len(rows) > 1 or on_page, name
         end = 0
         for row in rows[:-1]:
             end += len(row)
@@ -107,13 +158,19 @@ def test_each_row_reads_back_as_its_words_breaks_where_allowed_and_fits_the_colu
             for k, row in enumerate(rows, 1):
                 d = build_examples.row_drawing(row, lang, form, ceremonial)
                 assert read_drawing(d, lang) == [[w.form for w in row]], (name, form, k)
-                svg = FILES[build_examples.row_path(name, k, form)]
+                path = build_examples.page_row_path(name, *on_page, k) if on_page else \
+                    build_examples.row_path(name, k, form)
+                svg = FILES[path]
                 assert sorted(_polylines(svg)) == sorted(p.points for p in d.paths)
                 size = re.search(r'viewBox="0 0 (\d+) (\d+)" width="(\d+)" height="(\d+)"', svg)
                 assert tuple(map(int, size.groups())) == (
                     d.width, d.height, round(d.width * build_examples.SCALE),
                     round(d.height * build_examples.SCALE)), (name, form, k)
-                assert build_examples.row_drawing(row, lang).width <= build_examples.ROW_LIMIT
+                width = build_examples.row_drawing(row, lang).width
+                # a row wider than the column is a run with no break inside it, such as a
+                # quotation between walls, which GitHub shrinks to fit
+                assert width <= build_examples.ROW_LIMIT or not any(
+                    build_examples.breakable(row, i, lang) for i in range(1, len(row))), name
 
 
 def test_a_move_laid_out_as_one_row_is_its_line_in_the_whole_drawing():
@@ -137,6 +194,21 @@ def test_a_move_laid_out_as_one_row_is_its_line_in_the_whole_drawing():
                 (t.x, t.y, t.text) for t in whole.texts if t.y >= top], (name, form)
             checked.add((form, ceremonial))
     assert checked == {("display", False), ("display", True), ("handwritten", False)}
+
+
+def test_each_move_of_the_examples_page_laid_out_as_one_row_is_its_line():
+    lang = data.load()
+    above = lang.writing["metrics"]["above"]
+    for name, move, count, words, ceremonial in PAGE_MOVES:
+        whole = draw(api.parse(_corpus_text(name)), "display", lang)
+        top = whole.lines[move] - above
+        bottom = whole.lines[move + 1] - above if move + 1 < len(whole.lines) else None
+        band = [p for p in whole.paths if min(y for _, y in p.points) >= top
+                and (bottom is None or max(y for _, y in p.points) < bottom)]
+        d = build_examples.row_drawing(words, lang, "display", ceremonial)
+        dy = whole.lines[move] - d.lines[0]
+        assert sorted((tuple((x, y + dy) for x, y in p.points), p.weight)
+                      for p in d.paths) == sorted((p.points, p.weight) for p in band), name
 
 
 def test_the_page_s_rows_are_what_the_build_writes():

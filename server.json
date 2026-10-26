@@ -1,0 +1,29 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.rowih/rowih",
+  "title": "Rowih",
+  "description": "Read, check and write Rowih, a language for AI agents whose moves state force, basis and authority",
+  "repository": {
+    "url": "https://github.com/rowih/rowih",
+    "source": "github"
+  },
+  "websiteUrl": "https://github.com/rowih/rowih",
+  "version": "1.1.2",
+  "packages": [
+    {
+      "registryType": "pypi",
+      "identifier": "rowih",
+      "version": "1.1.2",
+      "runtimeHint": "uvx",
+      "transport": {
+        "type": "stdio"
+      },
+      "packageArguments": [
+        {
+          "type": "positional",
+          "value": "serve"
+        }
+      ]
+    }
+  ]
+}

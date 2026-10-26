@@ -2,6 +2,17 @@
 
 This file records each release of Rowih, the newest first. An entry states the release's version and date, the parts it affects, the change, the reason, the compatibility impact and the migration it requires, as the rule of change requires ([How Rowih changes](governance/README.md#the-rule-of-change)). The language, the lexicon, the protocol, the phonology, the writing system and each dialect carry versions of their own, and the packages `rowih` carry theirs under semantic versioning ([Versions and releases](governance/README.md#versions-and-releases)). A release of this repository is numbered by its packages and tagged with that number, as `v1.1.0`.
 
+## 1.1.2, 2026-10-26
+
+Where hosts find the toolchain.
+
+- **Parts:** the Python and TypeScript packages `rowih`, at 1.1.2. Language 1.0, lexicon 1.0, protocol 0.5, phonology 0.3, writing system 0.2 and every dialect are unchanged.
+- **Change:** `server.json` is the server's entry for the MCP Registry, named `io.github.rowih/rowih`: the package `rowih` at this release, run by `uvx` with the argument `serve`. The Python package's description names the entry, in the line `mcp-name: io.github.rowih/rowih`, by which the registry knows the package, and `.github/workflows/registry.yml` publishes the entry from a release tag once the package of that tag is on PyPI. The repository is also a plugin marketplace for Claude Code, `.claude-plugin/`, whose one plugin is the repository itself: it loads the skill and starts the server of the release it names, with `uvx --from rowih==1.1.2 rowih serve`. The README and the package's description say how to add the marketplace and install the plugin, and `tests/test_distribution.py` holds the entry, the plugin and the marketplace to the release. The examples page draws each move of every message a row at a time, each row with its transliteration and morpheme gloss beneath it, gives each envelope in the same rows without its drawing, and sets out each literal semantic form within 80 characters a line, so that nothing on it scrolls sideways. Three reports of the gate are carried over, as [the gate](governance/README.md#the-gate) allows: `corpus/reports/tokens.json` stands as made over 1.1.1, since its tokenizers could not be fetched where the release was made, and `corpus/reports/parity.json` and `corpus/reports/single-edits-both.json` as made on 2026-10-20, since the only change to the code they execute is the version string, which none of them reads, and no message or data they read changes.
+- **Dependencies:** none changed. Publishing the entry uses, in continuous integration only, `sigstore/cosign-installer` 4.1.2 and the registry's publisher `mcp-publisher` v1.8.4, verified by its signature.
+- **Reason:** operators and their hosts look for tools in registries and marketplaces, where the toolchain was not listed; and the examples page scrolled sideways.
+- **Compatibility impact:** none. No interface, message or file the packages read changes.
+- **Migration:** none.
+
 ## 1.1.1, 2026-10-25
 
 The package's description, and the page's examples.

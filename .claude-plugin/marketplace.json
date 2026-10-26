@@ -1,0 +1,14 @@
+{
+  "name": "rowih",
+  "owner": {
+    "name": "Rowih"
+  },
+  "description": "Rowih, a language for AI agents, and the plugin that gives an agent its skill and its toolchain's server",
+  "plugins": [
+    {
+      "name": "rowih",
+      "source": "./",
+      "description": "Read and write Rowih, a language for AI agents: the skill that teaches it and the server of its toolchain"
+    }
+  ]
+}

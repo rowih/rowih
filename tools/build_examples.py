@@ -1,9 +1,10 @@
 """Write the examples the public page shows, in `examples/`, from the corpus: for each
 message of each exchange chosen below, its drawing in the native writing as the toolchain
-renders it, the drawing of its moves alone with a version for a dark page, the PNG of
-the opening exchange, and `examples/README.md`, which gives each message's
-transliteration, morpheme gloss, literal semantic form and English explanation as the
-toolchain writes them. It also writes `examples/speech.json`, the phonemes of each line as
+renders it, the PNG of the opening exchange, and `examples/README.md`, which draws each
+message's moves a row at a time, each row with its transliteration and morpheme gloss
+beneath it, gives the envelope's rows the same way without the drawing, and sets out each
+move's literal semantic form and English explanation as the toolchain writes them. It
+also writes `examples/speech.json`, the phonemes of each line as
 the spoken form states them, from which `tools/speak_examples.py` writes the audio: each
 message whole, as `examples/README.md` shows it, and each message of the opening exchange
 without its envelope as `<message>.moves`, since the page shows that exchange's moves
@@ -19,7 +20,9 @@ question in the compact and handwritten forms. A move is one line, and the writi
 states no rule for breaking a line, so the rows are a view: they break only between words,
 never inside a run of numerals, which shares one frame, nor between two walls, and each is
 laid out by the toolchain's own line layout, so that a unit opened on one row and closed on
-a later one is drawn as a side whose unit is not closed on its line.
+a later one is drawn as a side whose unit is not closed on its line. No line of the
+examples page is wider than GitHub's column: the rows fit it, and each line of a literal
+semantic form is at most WIDTH characters.
 
 `tests/test_examples.py` holds every file to what this writes. Run from the repository
 root: `python3 tools/build_examples.py`."""
@@ -37,6 +40,7 @@ from gloss_corpus import record  # noqa: E402
 from rowih import api, data, drawing, render, writing  # noqa: E402
 from rowih.drawing import draw  # noqa: E402
 from rowih.generator import morpheme_gloss  # noqa: E402
+from rowih.notation import sexp  # noqa: E402
 from rowih.speech import spoken  # noqa: E402
 
 EXAMPLES = os.path.join(ROOT, "examples")
@@ -66,6 +70,10 @@ SCALE, ROW_LIMIT = 1.5, 520
 ROW_REGION = re.compile(r"(?P<head><!-- rows: (?P<name>[a-z0-9.-]+) (?P<form>[a-z]+) -->\n\n)"
                         r".*?(?P<tail>\n\n<!-- end rows -->)", re.S)
 NAME = "rowih"
+# the widest line of a literal semantic form on the examples page, in characters: a code
+# block on GitHub holds about 95 before it scrolls, and the longest atom on the page, a
+# quotation of 64 characters, fits with its indentation and the brackets that close it
+WIDTH = 80
 # the chart of components, in lattice units: a cell for each symbol, a row for each kind
 CELL, ROW, MARGIN, LETTER_SIZE, SOUND_SIZE = 28, 44, 8, 8, 7
 # the voice of Kokoro-82M that speaks for each participant (tools/speak_examples.py)
@@ -93,35 +101,12 @@ def dark(svg: str) -> str:
     return svg.replace('="currentColor"', '="%s"' % DARK_INK)
 
 
-def moves_only(svg: str, analysis, lang) -> str:
-    """The drawing cropped to its move lines by its view box, every stroke unchanged:
-    each line occupies the band from its offset less the metric `above`."""
-    d = draw(analysis, "display", lang)
-    top = d.lines[1] - lang.writing["metrics"]["above"]
-    right = max([x for p in d.paths if min(y for _, y in p.points) >= top
-                 for x, _ in p.points] + [t.x + t.width for t in d.texts if t.y >= top])
-    width, height = right + lang.writing["metrics"]["margin"], d.height - top
-    alt = "\n".join(" ".join(w.form for w in words) for words in analysis.message.lines)
-    full = _text_of(analysis)
-    out = SIZE.sub('viewBox="0 %d %d %d" width="%d" height="%d"'
-                   % (top, width, height, width, height), svg, count=1)
-    return out.replace(full, alt + "\n", 2)
-
-
-def _text_of(analysis) -> str:
-    lines = [analysis.message.envelope.words] + list(analysis.message.lines)
-    return "".join(" ".join(w.form for w in words) + "\n" for words in lines)
-
-
 def media(name: str, text: str, lang) -> dict:
-    """Each file of one message's drawings, by its path within `examples/`."""
+    """Each file of one message's whole drawing, by its path within `examples/`."""
     a = api.parse(text)
     if a.diagnostics:
         raise ValueError("%s draws %s" % (name, [x.code for x in a.diagnostics]))
-    svg, _ = api.render(text, "svg")
-    crop = moves_only(svg, a, lang)
-    out = {"%s/%s.svg" % (MEDIA, name): svg, "%s/%s.moves.svg" % (MEDIA, name): crop,
-           "%s/%s.moves.dark.svg" % (MEDIA, name): dark(crop)}
+    out = {"%s/%s.svg" % (MEDIA, name): api.render(text, "svg")[0]}
     if name.startswith(OPENING):
         out["%s/%s.png" % (MEDIA, name)] = api.render(text, "png")[0]
     return out
@@ -235,6 +220,108 @@ def rows_markdown(name: str, form: str, lang) -> str:
         for k, row in enumerate(split, 1))
 
 
+def message_lines(text: str, lang) -> tuple:
+    """A message's envelope words, and for each move its words and whether it is
+    ceremonial."""
+    a = api.parse(text)
+    if a.diagnostics:
+        raise ValueError("%s draws %s" % (text[:40], [x.code for x in a.diagnostics]))
+    registers = drawing._registers(a)
+    moves = [(list(line), registers.get(i) == drawing.CEREMONIAL)
+             for i, line in enumerate(a.message.lines)]
+    return list(a.message.envelope.words), moves
+
+
+def page_row_path(name: str, move: int, count: int, k: int) -> str:
+    """The drawing of row k of a move on the examples page: the README's own row where the
+    message has one move, so that the two pages share it."""
+    if count == 1:
+        return row_path(name, k, "display")
+    return "%s/%s.move%d.row%d.svg" % (MEDIA, name, move, k)
+
+
+def _messages() -> list:
+    """(name, text) for each message the examples page shows."""
+    return [("%s.%d" % (item, k), _text(corpus_set, "%s.%d" % (item, k)))
+            for corpus_set, item, _ in EXCHANGES
+            for k in range(1, len(_source(corpus_set, item)["messages"]) + 1)]
+
+
+def page_row_media(lang) -> dict:
+    """Each row of each move of the examples page, with a version for a dark page."""
+    out = {}
+    for name, text in _messages():
+        _, moves = message_lines(text, lang)
+        for i, (words, ceremonial) in enumerate(moves, 1):
+            for k, row in enumerate(rows(words, lang), 1):
+                svg = row_svg(row_drawing(row, lang, "display", ceremonial), row)
+                path = page_row_path(name, i, len(moves), k)
+                out[path] = svg
+                out[path[:-len(".svg")] + ".dark.svg"] = dark(svg)
+    return out
+
+
+def _interlinear(row: list, lang) -> str:
+    """A row's transliteration, and its morpheme gloss beneath it."""
+    return "`%s`<br>\n<sub>%s</sub>" % (" ".join(w.form for w in row),
+                                        " ".join(morpheme_gloss(w, lang) for w in row))
+
+
+def move_rows_markdown(name: str, move: int, count: int, words: list, lang) -> str:
+    """A move on the examples page: each row drawn, with its transliteration and its
+    morpheme gloss beneath it."""
+    split = rows(words, lang)
+    return "\n\n".join(
+        picture(page_row_path(name, move, count, k),
+                "Row %d of %d of move %d in the native writing" % (k, len(split), move))
+        + "<br>\n" + _interlinear(row, lang) for k, row in enumerate(split, 1))
+
+
+def envelope_markdown(words: list, lang) -> str:
+    """The envelope in the rows its drawing would take, each row's transliteration with
+    its morpheme gloss beneath it, folded away: every message's envelope has one shape."""
+    split = rows(words, lang)
+    body = "\n\n".join(_interlinear(row, lang) for row in split)
+    return ("<details><summary>The envelope, %d words: its transliteration and morpheme "
+            "gloss</summary>\n\n%s\n\n</details>\n" % (len(words), body))
+
+
+def _atom(x) -> str:
+    if isinstance(x, tuple):
+        return json.dumps(x[1], ensure_ascii=False)
+    if isinstance(x, list):
+        return "(" + " ".join(_atom(y) for y in x) + ")"
+    return x
+
+
+def _set_out(x, indent: int, width: int, tail: int = 0) -> list:
+    """The lines of unit `x` at `indent`, followed by `tail` closing brackets of the
+    units it ends, each line within `width` unless one atom alone is wider."""
+    flat = _atom(x)
+    if not isinstance(x, list) or indent + len(flat) + tail <= width:
+        return [" " * indent + flat + ")" * tail]
+    head, i = "(" + _atom(x[0]), 1
+    while i < len(x) and not isinstance(x[i], list):
+        last = i == len(x) - 1
+        if indent + len(head) + 1 + len(_atom(x[i])) + (tail + 1 if last else 0) > width:
+            break
+        head, i = head + " " + _atom(x[i]), i + 1
+    if i == len(x):
+        return [" " * indent + head + ")" * (tail + 1)]
+    lines = [" " * indent + head]
+    for j, y in enumerate(x[i:], i):
+        lines += _set_out(y, indent + 2, width, tail + 1 if j == len(x) - 1 else 0)
+    return lines
+
+
+def set_out(form: str, width: int = WIDTH) -> str:
+    """A literal semantic form over as many lines as keep each within `width`: a unit on
+    one line where it fits, and otherwise its head and leading values on the first line
+    and each further part on a line of its own, indented by two. Joined by spaces, the
+    lines are the form."""
+    return "\n".join(line for tree in sexp(form) for line in _set_out(tree, 0, width))
+
+
 def page(text: str, lang) -> str:
     """The text of the page with each region of rows written again."""
     def fill(m):
@@ -315,26 +402,22 @@ def picture(path: str, alt: str) -> str:
 
 
 def message_section(k: int, name: str, text: str, message: dict, lang) -> str:
-    """One message: its drawing, its links, and its layers as the toolchain writes them."""
-    a = api.parse(text)
+    """One message: its links, its envelope, each move in rows with the transliteration
+    and morpheme gloss of each row beneath it, and each move's literal semantic form and
+    English explanation as the toolchain writes them."""
     rec = record(text)
+    envelope, moves = message_lines(text, lang)
     to = ", ".join("agent %d" % r for r in message["recipients"])
     out = ["### %d. Agent %d to %s\n" % (k, message["sender"], to),
-           picture("%s/%s.moves.svg" % (MEDIA, name),
-                   "The moves of message %d in the native writing" % k) + "\n",
            "[The whole message drawn](%s/%s.svg) · [Spoken (MP3)](%s/%s.mp3)\n"
-           % (MEDIA, name, MEDIA, name),
-           "The transliteration, the envelope on the first line and each move on a line "
-           "of its own:\n", "```text\n%s```\n" % text, "The morpheme gloss:\n"]
-    gloss = ["ENVELOPE  " + " ".join(morpheme_gloss(w, lang)
-                                     for w in a.message.envelope.words)]
-    gloss += ["MOVE %-4d " % (i + 1) + m["morpheme gloss"] for i, m in enumerate(rec["moves"])]
-    out.append("```text\n%s\n```\n" % "\n".join(gloss))
-    out.append("The literal semantic form:\n")
-    out.append("```text\n%s\n```\n" % "\n".join(m["literal semantic form"]
-                                                 for m in rec["moves"]))
-    english = " ".join(m["natural English"] for m in rec["moves"])
-    out.append("The English explanation: *%s*\n" % english)
+           % (MEDIA, name, MEDIA, name), envelope_markdown(envelope, lang)]
+    for i, ((words, _), m) in enumerate(zip(moves, rec["moves"]), 1):
+        if len(moves) > 1:
+            out.append("**Move %d**\n" % i)
+        out.append(move_rows_markdown(name, i, len(moves), words, lang) + "\n")
+        out.append("The literal semantic form:\n")
+        out.append("```text\n%s\n```\n" % set_out(m["literal semantic form"]))
+        out.append("The English explanation: *%s*\n" % m["natural English"])
     return "\n".join(out)
 
 
@@ -342,12 +425,15 @@ def readme(lang) -> str:
     """The text of `examples/README.md`."""
     out = [HEADER + "# Examples\n",
            "Each exchange below is an item of the corpus, written by the toolchain from the "
-           "notation and checked by it. For each message the drawing shows its moves in the "
-           "native writing, cropped from the toolchain's drawing of the whole message, which "
-           "the first link opens; the second link is the message spoken. The transliteration "
-           "is what models exchange. The morpheme gloss names every word, the envelope's "
-           "included; the literal semantic form is the move's normal form; and the English "
-           "explanation is a view made by the receiver, never sent and not the language.\n",
+           "notation and checked by it. Each move of a message is drawn in the native "
+           "writing a row at a time, as the toolchain lays out a line, with the row's "
+           "transliteration beneath it and the morpheme gloss, which names every word, "
+           "beneath that. The transliteration is what models exchange. The envelope that "
+           "opens each message is given in the same rows, without its drawing, under its "
+           "own heading; the first link opens the toolchain's drawing of the whole message, "
+           "and the second is the message spoken. The literal semantic form is the move's "
+           "normal form, set out over several lines; and the English explanation is a view "
+           "made by the receiver, never sent and not the language.\n",
            "The audio is synthesised by Kokoro-82M from the phonemes of each line, agent 1 in "
            "the voice `em_alex` and agent 2 in `ef_dora`, and each file is checked against "
            "its message's phonemes by a phoneme recogniser, with the results in "
@@ -381,6 +467,7 @@ def files() -> dict:
                 # the envelope is the first line
                 speech[name + ".moves"] = dict(speech[name], lines=speech[name]["lines"][1:])
     out.update(writing_media(lang))
+    out.update(page_row_media(lang))
     out["speech.json"] = json.dumps(speech, ensure_ascii=False, indent=1) + "\n"
     out["README.md"] = readme(lang)
     return out

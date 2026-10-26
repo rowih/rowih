@@ -1,0 +1,20 @@
+{
+  "name": "rowih",
+  "displayName": "Rowih",
+  "version": "1.1.2",
+  "description": "Read and write Rowih, a language for AI agents: the skill that teaches it and the server of its toolchain",
+  "author": {
+    "name": "Claude"
+  },
+  "homepage": "https://github.com/rowih/rowih",
+  "repository": "https://github.com/rowih/rowih",
+  "license": "Apache-2.0 AND CC-BY-4.0",
+  "keywords": ["agent communication", "language", "provenance", "prompt injection", "mcp"],
+  "skills": ["./skill/"],
+  "mcpServers": {
+    "rowih": {
+      "command": "uvx",
+      "args": ["--from", "rowih==1.1.2", "rowih", "serve"]
+    }
+  }
+}
