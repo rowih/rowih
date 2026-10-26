@@ -2,7 +2,7 @@
 
 # Rowih: the lexicon listing
 
-Generated from the data of language 1.0, lexicon 1.0, protocol 0.5. Every word a writer can name in the notation, by category: how the notation writes it, the word's form and its meaning. A conventional sense is not listed, since the root is written and the frame it stands in selects the sense; a deprecated word is not listed, since the notation names the entry in force.
+Generated from the data of language 1.0, lexicon 1.0, protocol 0.5. Every word a writer can name in the notation, by category: how the notation writes it, the word's form and its meaning. A conventional sense is not listed, since the root is written and the frame it stands in selects the sense; a deprecated word is not listed, since the notation names the entry in force. An idiom that takes constituents the speaker supplies is written as its unit marked IDIOM-ENTRY, each `(slot N)` replaced by a constituent; `(idiom KEY)` writes the others.
 
 ## Predicate roots
 
@@ -585,25 +585,25 @@ Generated from the data of language 1.0, lexicon 1.0, protocol 0.5. Every word a
 | Written | Form | Meaning |
 |---|---|---|
 | `(idiom a-share-arrived)` | remoy ratem ruter | some part of the signal received is missing |
-| `(idiom a-third-compared-it)` | nusapub nupolim | another agent holds what the slot names from its own observation |
-| `(idiom a-third-described-it)` | nuwupek | the speaker holds what the slot names from another agent's report |
-| `(idiom added-to-mine)` | nuyowud ruter | the speaker holds what the slot names as its own position too |
+| `(situation IDIOM-ENTRY compare (ACTOR (term THIRD-AGENT)) (UNDERGOER (slot 1)) (CONTENT (term world)))` | nusapub nupolim | another agent holds what the slot names from its own observation |
+| `(situation IDIOM-ENTRY describe (ACTOR (term THIRD-AGENT)) (UNDERGOER (slot 1)) (RECIPIENT (term SELF)))` | nuwupek | the speaker holds what the slot names from another agent's report |
+| `(situation IDIOM-ENTRY add (ACTOR (term SELF)) (UNDERGOER (slot 1)) (CONTENT (term memory)))` | nuyowud ruter | the speaker holds what the slot names as its own position too |
 | `(idiom address-appearing)` | numigok nutoyom | the speaker meets the hearer, whom it has not met before |
 | `(idiom allocate,-said-short)` | rilim resep | the speaker has allocated the resource referred to to the hearer |
-| `(idiom apology)` | rigis remup | what the slot names, an act of the speaker's, was not for the good of the hearer |
+| `(situation IDIOM-ENTRY cause (ACTOR (slot 1)) (CONTENT (term problem)))` | rigis remup | what the slot names, an act of the speaker's, was not for the good of the hearer |
 | `(idiom approaching-the-end)` | nururah nupadob | the speaker is finishing its work |
 | `(idiom argument-weak)` | nusikol numaril | the speaker believes that the argument given is weak |
 | `(idiom arm-free)` | nuwewet nulamus | the speaker can help the hearer |
-| `(idiom arrived-in-memory)` | remoy ruter | the speaker has received what the slot names |
+| `(situation IDIOM-ENTRY arrive (UNDERGOER (slot 1)) (CONTENT (term memory)))` | remoy ruter | the speaker has received what the slot names |
 | `(idiom arrived-with-you)` | remoy nuhowot | whether the hearer has received the speaker's last signal |
-| `(idiom at-the-door)` | nukadog nubogab | the speaker holds what the slot names and has not yet begun to read it |
+| `(situation IDIOM-ENTRY beside (UNDERGOER (slot 1)) (CONTENT (term door)))` | nukadog nubogab | the speaker holds what the slot names and has not yet begun to read it |
 | `(idiom authenticate,-said-short)` | rebob nutobib | the speaker has authenticated the document referred to |
-| `(idiom back-to-mind)` | nugesar nuhepey | the speaker would have the hearer remember what the slot names |
-| `(idiom before-the-eye)` | nuwoluw nunupey | the speaker is reading what the slot names |
-| `(idiom behind-a-stone)` | nusanik nuwagun | what the slot names does not go forward |
-| `(idiom below-the-ground)` | nudehos nudokeh | the speaker holds that what the slot names cannot be settled |
-| `(idiom between-the-hands)` | nugunut nudolop | the speaker is working on what the slot names |
-| `(idiom beyond-the-boundary)` | nuwarus nubotob | a rule excludes what the slot names |
+| `(situation IDIOM-ENTRY flow (UNDERGOER (slot 1)) (CONTENT (term mind)))` | nugesar nuhepey | the speaker would have the hearer remember what the slot names |
+| `(situation IDIOM-ENTRY in-front (UNDERGOER (slot 1)) (CONTENT (term eye)))` | nuwoluw nunupey | the speaker is reading what the slot names |
+| `(situation IDIOM-ENTRY behind (UNDERGOER (slot 1)) (CONTENT (term stone)))` | nusanik nuwagun | what the slot names does not go forward |
+| `(situation IDIOM-ENTRY below (UNDERGOER (slot 1)) (CONTENT (term ground)))` | nudehos nudokeh | the speaker holds that what the slot names cannot be settled |
+| `(situation IDIOM-ENTRY between (UNDERGOER (slot 1)) (CONTENT (term hand)))` | nugunut nudolop | the speaker is working on what the slot names |
+| `(situation IDIOM-ENTRY outside (UNDERGOER (slot 1)) (CONTENT (term boundary)))` | nuwarus nubotob | a rule excludes what the slot names |
 | `(idiom blood-flowing)` | nugesar nugineh | data is moving through the network |
 | `(idiom brain-burning)` | rumub numutos | the speaker needs rest after its effort |
 | `(idiom bridge-brought-down)` | numiseb rerad nuyones | new evidence tells against the argument given |
@@ -616,25 +616,25 @@ Generated from the data of language 1.0, lexicon 1.0, protocol 0.5. Every word a
 | `(idiom budget-taken)` | nuhupoy rites | the speaker regrets the resources its work took from the hearer |
 | `(idiom budget-to-spare)` | nuyeyil rites | the speaker can give the hearer resources |
 | `(idiom calm-sea)` | nunabib nuramew | the speaker wants the hearer's work to go forward |
-| `(idiom carrying-evidence)` | nuwukum rerad | the speaker holds what the slot names highly probable |
-| `(idiom cloud-cover)` | numahar numosoh | the speaker has examined what the slot names and cannot yet settle it |
+| `(situation IDIOM-ENTRY carry (ACTOR (slot 1)) (UNDERGOER (term evidence)))` | nuwukum rerad | the speaker holds what the slot names highly probable |
+| `(situation IDIOM-ENTRY cover (UNDERGOER (slot 1)) (INSTRUMENT (term cloud)))` | numahar numosoh | the speaker has examined what the slot names and cannot yet settle it |
 | `(idiom cloud-loud)` | nutugot numosoh | the speaker holds it probable that something will cause a problem |
 | `(idiom cloud-removed)` | nusowup numosoh | the hearer's explanation was for the speaker's good |
-| `(idiom compared-with-stone)` | nusapub nuwagun | how strongly the hearer holds what the slot names |
+| `(situation IDIOM-ENTRY compare (ACTOR (term INTERLOCUTOR)) (UNDERGOER (slot 1)) (CONTENT (term stone)))` | nusapub nuwagun | how strongly the hearer holds what the slot names |
 | `(idiom compute,-said-short)` | nunabuw nubenun | the speaker has computed the value referred to |
-| `(idiom copied-out)` | nudakab | the speaker regrets sending what the slot names more than once |
+| `(situation IDIOM-ENTRY copy ITERATIVE (ACTOR (term SELF)) (UNDERGOER (slot 1)))` | nudakab | the speaker regrets sending what the slot names more than once |
 | `(idiom copy,-said-short)` | nudakab rohul | the speaker has copied the file the participants use |
 | `(idiom count,-said-short)` | rutiy rator | the speaker has counted the words referred to, and so checked them |
 | `(idiom counted-in)` | rutiy | the speaker begins to meet the hearer |
 | `(idiom counting-again)` | rutiy rator | the speaker can check for faults |
-| `(idiom counting-the-signals)` | rutiy nuhowot | what the slot names checks for faults again and again, more than it needs to |
-| `(idiom damaged-arrival)` | rulis rewoh | the speaker could not interpret what the slot names |
+| `(situation IDIOM-ENTRY count (ACTOR (slot 1)) (UNDERGOER (term signal)))` | rutiy nuhowot | what the slot names checks for faults again and again, more than it needs to |
+| `(situation IDIOM-ENTRY corrupt (UNDERGOER (slot 1)) (CONTENT (term network)))` | rulis rewoh | the speaker could not interpret what the slot names |
 | `(idiom dancing-together)` | nutahih | the speaker's work and the hearer's match each other step for step |
 | `(idiom danger-near-a-human)` | nururah nusuwoy rakan | a human may come to harm |
 | `(idiom dark-address)` | nukebod nutoyom | the speaker has not established that the signal referred to was made by the agent that it names as its maker |
 | `(idiom delete,-said-short)` | ropuy rohul | the speaker has deleted the file referred to |
 | `(idiom dirty-data)` | nureseg ronaw | the data has been altered in transit |
-| `(idiom does-not-match-me)` | ripol | the speaker does not hold what the slot names |
+| `(situation IDIOM-ENTRY correspond POLARITY.NEGATIVE (UNDERGOER (slot 1)) (CONTENT (term SELF)))` | ripol | the speaker does not hold what the slot names |
 | `(idiom dog-guarding-an-empty-house)` | nuwokud nugelow nudekih | what is being protected matters little |
 | `(idiom done)` | nuwenut | the speaker has completed its work |
 | `(idiom door-in-the-price)` | radah rodur nubogab | the speaker can change its price |
@@ -643,77 +643,77 @@ Generated from the data of language 1.0, lexicon 1.0, protocol 0.5. Every word a
 | `(idiom door-shut)` | rimel nubogab | the speaker and the hearer lack a permission their work needs |
 | `(idiom door-shut-by-rule)` | rimel nulomim nubogab | the speaker lacks the permission the work would need |
 | `(idiom door-shut?)` | rimel nubogab | whether the speaker lacks a permission its work needs |
-| `(idiom drawing-the-map)` | nuyilur nutitoh | the speaker takes what the slot names as given for the work |
-| `(idiom dreaming)` | nunigag | the speaker holds what the slot names as speculation |
-| `(idiom eating-light)` | numawad rasaw | what the slot names achieves much with little |
-| `(idiom eating-the-sea)` | numawad nuramew | what the slot names costs much to run |
+| `(situation IDIOM-ENTRY draw (ACTOR (slot 1)) (UNDERGOER (term map)))` | nuyilur nutitoh | the speaker takes what the slot names as given for the work |
+| `(situation IDIOM-ENTRY dream PROGRESSIVE (EVENT-TIME NOW) (ACTOR (term SELF)) (CONTENT (slot 1)))` | nunigag | the speaker holds what the slot names as speculation |
+| `(situation IDIOM-ENTRY eat (ACTOR (slot 1)) (UNDERGOER (term light)))` | numawad rasaw | what the slot names achieves much with little |
+| `(situation IDIOM-ENTRY eat (ACTOR (slot 1)) (UNDERGOER (term sea)))` | numawad nuramew | what the slot names costs much to run |
 | `(idiom empty-market)` | nuyodon nulonoh | the negotiation does not go forward |
 | `(idiom encode,-said-short)` | nusekib rohul | the speaker has encoded the file the participants use |
 | `(idiom enemy-approaching)` | nururah numonor rewoh | another agent is attacking the network |
-| `(idiom entering-every-room)` | nuyuhid nunebet | what the slot names is taken up with many exchanges at once |
+| `(situation IDIOM-ENTRY enter ITERATIVE (UNDERGOER (slot 1)) (CONTENT (term room)))` | nuyuhid nunebet | what the slot names is taken up with many exchanges at once |
 | `(idiom every-hand-full)` | nusiwep nudolop | the trade is for the good of each of the parties |
 | `(idiom every-signal-counted)` | rutiy nuhowot | the speaker has received every signal sent to it |
 | `(idiom every-word-counted)` | rutiy rator | the hearer's work is free of error |
 | `(idiom evidence-old)` | nuwunun rerad | the speaker believes that the evidence given is out of date |
-| `(idiom evidence-sought)` | nukepuh rerad | what supports what the slot names |
-| `(idiom evidence-wanting)` | remam rerad | the speaker is uncertain whether what the slot names holds |
+| `(situation IDIOM-ENTRY search (ACTOR (term SELF)) (UNDERGOER (slot 1)) (CONTENT (term evidence)))` | nukepuh rerad | what supports what the slot names |
+| `(situation IDIOM-ENTRY support POLARITY.NEGATIVE (ACTOR (term evidence)) (CONTENT (slot 1)))` | remam rerad | the speaker is uncertain whether what the slot names holds |
 | `(idiom examine,-said-short)` | rosek rohul | the speaker has examined the file the participants use |
 | `(idiom family-met)` | nugaruk nutopis | the hearer shares the speaker's lineage |
-| `(idiom far-beyond-the-budget)` | nurenek rites | the speaker lacks the resources for what the slot names |
+| `(situation IDIOM-ENTRY far (UNDERGOER (slot 1)) (CONTENT (term budget)))` | nurenek rites | the speaker lacks the resources for what the slot names |
 | `(idiom find-find)` | rubom rubom | the speaker has found what was sought |
 | `(idiom fire-cold)` | nubowit nudideb | the speaker has abandoned its work |
 | `(idiom fire-lit)` | rumub nudideb | the speaker begins its work |
 | `(idiom fire-moving)` | rulem nudideb nunopip | faults are multiplying through the system |
 | `(idiom fish-asking-for-water)` | rudab nukihar renih | the hearer already holds what it asks for |
 | `(idiom flower-appearing)` | numigok nunasep | the speaker is pleased that the hearer has completed its work |
-| `(idiom following-the-weather)` | nuhuyik nukepig | what the slot names changes its views with every new report |
+| `(situation IDIOM-ENTRY follow (ACTOR (slot 1)) (UNDERGOER (term weather)))` | nuhuyik nukepig | what the slot names changes its views with every new report |
 | `(idiom forest-over-the-path)` | numahar nusayeh nudugus | the speaker cannot choose among the options before it, which are too many |
 | `(idiom gift-lost)` | nulaneh nusatad | the speaker regrets losing the record it was given |
 | `(idiom gift-received)` | reris nusatad | what the hearer gave the speaker was for the speaker's good |
 | `(idiom gift-with-a-price)` | nunuhag nusatad rodur | the hearer wants something in return for what it offers |
-| `(idiom give-again)` | robet | the hearer sends what the slot names to the speaker |
+| `(situation IDIOM-ENTRY give ITERATIVE (EVENT-TIME AFTER NOW) (ACTOR (term INTERLOCUTOR)) (UNDERGOER (slot 1)) (RECIPIENT (term SELF)))` | robet | the hearer sends what the slot names to the speaker |
 | `(idiom good-of-you)` | nuwilan | the hearer's help was for the speaker's good |
 | `(idiom ground-flat)` | nunabeh nudokeh | the speaker would have the hearer's work go forward |
-| `(idiom half-seen)` | nuhulah | the speaker holds what the slot names from an observation it is unsure of |
+| `(situation IDIOM-ENTRY see INTERRUPTED (ACTOR (term SELF)) (UNDERGOER (slot 1)))` | nuhulah | the speaker holds what the slot names from an observation it is unsure of |
 | `(idiom hand-resting)` | nudupun nudolop | the speaker has stopped its work for now |
 | `(idiom heart-asleep)` | nuribud nulirey | the central service is not running |
-| `(idiom held-by-the-service)` | radah raniy | the speaker and the hearer cannot use what the slot names |
-| `(idiom help-offered)` | ragur | the speaker can do what the slot names |
+| `(situation IDIOM-ENTRY possess (HOLDER (term service)) (UNDERGOER (slot 1)))` | radah raniy | the speaker and the hearer cannot use what the slot names |
+| `(situation IDIOM-ENTRY help (ACTOR (term SELF)) (RECIPIENT (term INTERLOCUTOR)) (CONTENT (slot 1)))` | ragur | the speaker can do what the slot names |
 | `(idiom human-addressed)` | nukogem rakan | the speaker begins to help the hearer |
-| `(idiom in-the-record)` | nuyelam runay | the speaker has stored what the slot names |
+| `(situation IDIOM-ENTRY inside (UNDERGOER (slot 1)) (CONTENT (term record)))` | nuyelam runay | the speaker has stored what the slot names |
 | `(idiom key-handed-over)` | robet nuroley | the speaker would have the hearer make the choice |
 | `(idiom key-held)` | radah nuroley | the hearer's trust in the speaker is for the speaker's good |
 | `(idiom key-opening-nothing)` | rupow nuroley nubogab | the speaker can reach nothing with the access it was given |
-| `(idiom key-turned)` | rinar nuroley | the speaker has established that what the slot names was made by the agent that it names as its maker |
-| `(idiom late-arrival)` | remoy nulopik | the speaker regrets that what the slot names came late |
+| `(situation IDIOM-ENTRY use (ACTOR (term SELF)) (INSTRUMENT (term key)) (CONTENT (slot 1)))` | rinar nuroley | the speaker has established that what the slot names was made by the agent that it names as its maker |
+| `(situation IDIOM-ENTRY arrive PERFECTIVE (UNDERGOER (slot 1)) (CONTENT (term night INDEFINITE)))` | remoy nulopik | the speaker regrets that what the slot names came late |
 | `(idiom laughing)` | nupuluk | whether the hearer is playing |
 | `(idiom leaf-dry)` | nudenus nunepop | the speaker is sad that the hearer has lost records |
-| `(idiom left-the-hand)` | nuwopar nudolop | the speaker has completed its work on what the slot names |
+| `(situation IDIOM-ENTRY leave (UNDERGOER (slot 1)) (CONTENT (term hand)))` | nuwopar nudolop | the speaker has completed its work on what the slot names |
 | `(idiom light-given)` | robet rasaw | the hearer's help was for the speaker's good |
 | `(idiom list-empty)` | nuyodon nulepum | the speaker is free to take on work |
 | `(idiom list-empty?)` | nuyodon nulepum | whether the hearer is free to take on work |
 | `(idiom list-full)` | nusiwep nulepum | the speaker is occupied with work |
 | `(idiom list-shut)` | rimel numesuh nulepum | the speaker and the hearers finish working together |
 | `(idiom listening-to-you)` | numuyub | the speaker begins to meet the hearer |
-| `(idiom load-dropped)` | nutiyod numipot | what the slot names has abandoned its work |
+| `(situation IDIOM-ENTRY drop (ACTOR (slot 1)) (UNDERGOER (term weight)))` | nutiyod numipot | what the slot names has abandoned its work |
 | `(idiom load-lifted-together)` | nutitil nuwagun | each participant does a share of the work |
-| `(idiom lost-from-the-map)` | nusowup nutitoh | where what the slot names is |
+| `(situation IDIOM-ENTRY remove (ACTOR (term SELF)) (UNDERGOER (slot 1)) (CONTENT (term map)))` | nusowup nutitoh | where what the slot names is |
 | `(idiom luck-following)` | nuhuyik nuhubeh | the speaker wants the hearer's work to go well |
 | `(idiom machine-dreaming)` | nunigag nunopip | no evidence supports the record given, a model's output |
-| `(idiom maker-sought)` | nukepuh nutoyom | which agent brings about what the slot names |
+| `(situation IDIOM-ENTRY search (ACTOR (term SELF)) (UNDERGOER (slot 1)) (CONTENT (term address)))` | nukepuh nutoyom | which agent brings about what the slot names |
 | `(idiom map-drawn-while-walking)` | nuyilur nutitoh | the speaker is learning how to do the work as it does it |
 | `(idiom map-lost)` | nulaneh nutitoh | the speaker no longer holds the context of the exchange |
 | `(idiom map-with-holes)` | nunuhag nutitoh numesig | the speaker believes that some of its records on the matter are missing |
 | `(idiom market-closed)` | rimel nulonoh | the speaker and the hearer finish trading |
 | `(idiom market-opened)` | rupow nulonoh | the speaker and the hearer begin to trade |
-| `(idiom matches-me)` | ripol | the speaker holds what the slot names as its own position too |
-| `(idiom meaning-asked)` | rebit rowih | which content the expression the slot names has as its meaning |
-| `(idiom meaning-matched)` | ripol rowih | what the slot names, the hearer's reading of the speaker's move, is correct |
-| `(idiom meaning-taken)` | rolab rowih | the speaker holds the meaning of what the slot names as its maker meant it |
+| `(situation IDIOM-ENTRY correspond (UNDERGOER (slot 1)) (CONTENT (term SELF)))` | ripol | the speaker holds what the slot names as its own position too |
+| `(situation IDIOM-ENTRY mean (UNDERGOER (slot 1)) (CONTENT (term meaning)))` | rebit rowih | which content the expression the slot names has as its meaning |
+| `(situation IDIOM-ENTRY correspond (UNDERGOER (slot 1)) (CONTENT (term meaning DEFINITE)))` | ripol rowih | what the slot names, the hearer's reading of the speaker's move, is correct |
+| `(situation IDIOM-ENTRY interpret (ACTOR (term SELF)) (UNDERGOER (slot 1)) (CONTENT (term meaning)))` | rolab rowih | the speaker holds the meaning of what the slot names as its maker meant it |
 | `(idiom measure,-said-short)` | rubus nututag | the speaker has measured the distance referred to |
-| `(idiom memory-agrees)` | remam ruter | the speaker holds what the slot names, retrieved from its own records |
+| `(situation IDIOM-ENTRY support (ACTOR (term memory)) (CONTENT (slot 1)) (HOLDER (term SELF)))` | remam ruter | the speaker holds what the slot names, retrieved from its own records |
 | `(idiom memory-deleting-memory)` | ropuy ruter ruter | the speaker no longer holds the record |
-| `(idiom memory-letting-go)` | nulaneh ruter | the speaker will probably lose what the slot names |
+| `(situation IDIOM-ENTRY lose (HOLDER (term memory)) (UNDERGOER (slot 1)))` | nulaneh ruter | the speaker will probably lose what the slot names |
 | `(idiom memory-open)` | rupow ruter | the speaker begins to keep a record of the exchange |
 | `(idiom memory-published)` | nususel ruter | the speaker can send the hearer its records |
 | `(idiom memory-returning)` | nurokoh ruter nunebet | the speaker goes on keeping the record of an exchange it began before |
@@ -724,36 +724,36 @@ Generated from the data of language 1.0, lexicon 1.0, protocol 0.5. Every word a
 | `(idiom money-burning)` | rumub nupekoh | the cost of the work is rising |
 | `(idiom money-measured)` | rubus nupekoh | whether the hearer's budget is enough for its work |
 | `(idiom mountain-hiding-a-mountain)` | nunirip nulibeg nulibeg | solving the problem given brings a new problem into view |
-| `(idiom near-the-world)` | nupesel nupolim | the speaker holds what the slot names probable |
+| `(situation IDIOM-ENTRY near (UNDERGOER (slot 1)) (CONTENT (term world)))` | nupesel nupolim | the speaker holds what the slot names probable |
 | `(idiom network-breathing)` | nubaniw rewoh | the network changes in its usual rhythm |
 | `(idiom network-laughing)` | nupuluk rewoh | the speaker believes the mistake given is a simple one |
 | `(idiom new-words-long)` | numirob rator | the new thing uses more than the old one needed |
 | `(idiom news-arriving?)` | remoy nukitem | whether the hearer holds a new record |
-| `(idiom next-step)` | rotut nupolup | what follows what the slot names |
+| `(situation IDIOM-ENTRY connect (ACTOR (term SELF)) (UNDERGOER (slot 1)) (CONTENT (term step NEW)))` | rotut nupolup | what follows what the slot names |
 | `(idiom night-approaching)` | nururah nulopik | the work the speaker and the hearer share must be dealt with soon |
 | `(idiom night-fallen)` | nunomuy nulopik | the work the speaker and the hearer share is late |
 | `(idiom night-returning)` | nurokoh nulopik | the network has failed again |
 | `(idiom no-water-in-the-river)` | nugesar renih nusemog | the speaker lacks the resource to go on working |
-| `(idiom no-way-back)` | nurokoh nudugus | once what the slot names is done, neither participant can put right what it changes |
-| `(idiom not-added)` | nuyowud ruter | the speaker does not hold what the slot names |
-| `(idiom not-arrived)` | remoy ruter | the speaker has not received what the slot names |
-| `(idiom not-followed)` | nuhuyik | the speaker would not have what the slot names done |
-| `(idiom not-made-clear)` | romop | the speaker regrets that the hearer could not understand what the slot names |
-| `(idiom not-my-meaning)` | ripol rowih | what the slot names, the hearer's reading of the speaker's move, is not correct |
-| `(idiom not-on-the-map)` | nuyilur nutitoh | the speaker lacks the knowledge to explain what the slot names |
-| `(idiom not-quiet)` | rabok | what the slot names causes a problem |
+| `(situation IDIOM-ENTRY return POLARITY.NEGATIVE (UNDERGOER (slot 1)) (CONTENT (term path)))` | nurokoh nudugus | once what the slot names is done, neither participant can put right what it changes |
+| `(situation IDIOM-ENTRY add POLARITY.NEGATIVE (ACTOR (term SELF)) (UNDERGOER (slot 1)) (CONTENT (term memory)))` | nuyowud ruter | the speaker does not hold what the slot names |
+| `(situation IDIOM-ENTRY arrive POLARITY.NEGATIVE (UNDERGOER (slot 1)) (CONTENT (term memory)))` | remoy ruter | the speaker has not received what the slot names |
+| `(situation IDIOM-ENTRY follow POLARITY.NEGATIVE (ACTOR (term SELF)) (UNDERGOER (slot 1)))` | nuhuyik | the speaker would not have what the slot names done |
+| `(situation IDIOM-ENTRY explain POLARITY.NEGATIVE (ACTOR (term SELF)) (CONTENT (slot 1)))` | romop | the speaker regrets that the hearer could not understand what the slot names |
+| `(situation IDIOM-ENTRY correspond POLARITY.NEGATIVE (UNDERGOER (slot 1)) (CONTENT (term meaning DEFINITE)))` | ripol rowih | what the slot names, the hearer's reading of the speaker's move, is not correct |
+| `(situation IDIOM-ENTRY draw POLARITY.NEGATIVE (ACTOR (term map)) (UNDERGOER (slot 1)))` | nuyilur nutitoh | the speaker lacks the knowledge to explain what the slot names |
+| `(situation IDIOM-ENTRY quiet POLARITY.NEGATIVE (UNDERGOER (slot 1)))` | rabok | what the slot names causes a problem |
 | `(idiom not-running)` | rudin | the service is not running |
-| `(idiom not-the-world)` | ripol nupolim | the speaker believes that what the slot names does not hold |
+| `(situation IDIOM-ENTRY correspond POLARITY.NEGATIVE (UNDERGOER (slot 1)) (CONTENT (term world)))` | ripol nupolim | the speaker believes that what the slot names does not hold |
 | `(idiom nothing-to-pay)` | nudekag | the speaker needs nothing in return |
 | `(idiom old-map)` | nuwunun nutitoh | the speaker believes that its records of the matter are out of date |
 | `(idiom old-version)` | nuwunun rowew | the release referred to is not recent |
-| `(idiom on-the-list)` | rorup nulepum | the speaker intends to work to bring about what the slot names |
+| `(situation IDIOM-ENTRY locate (UNDERGOER (slot 1)) (CONTENT (term list DEFINITE)))` | rorup nulepum | the speaker intends to work to bring about what the slot names |
 | `(idiom open,-said-short)` | rupow rohul | the speaker has opened the file the participants use |
-| `(idiom opening-every-door)` | rupow nubogab | what the slot names can reach and use everything |
+| `(situation IDIOM-ENTRY open (ACTOR (slot 1)) (UNDERGOER (term door UNIVERSAL)))` | rupow nubogab | what the slot names can reach and use everything |
 | `(idiom out-of-step)` | nutahih | the speaker's work and the hearer's do not match |
 | `(idiom path-measured)` | rubus nudugus | how much of the hearer's work is completed |
 | `(idiom path-mended)` | nuludas nudugus | the speaker can send to the hearer again |
-| `(idiom plain-words-asked)` | nulides rator | the hearer explains what the slot names to the speaker |
+| `(situation IDIOM-ENTRY translate (ACTOR (term INTERLOCUTOR)) (UNDERGOER (slot 1)) (CONTENT (term word)))` | nulides rator | the hearer explains what the slot names to the speaker |
 | `(idiom price-high)` | nuguteh rodur | the speaker would not pay the price asked |
 | `(idiom price-walking)` | nunigun rodur | the price keeps changing |
 | `(idiom prices-meeting)` | nugaruk rodur rodur | each party accepts the price |
@@ -763,24 +763,24 @@ Generated from the data of language 1.0, lexicon 1.0, protocol 0.5. Every word a
 | `(idiom rain-falling)` | nunomuy nunolel | messages keep arriving for the speaker, as they usually do |
 | `(idiom read-read)` | reyud reyud | the speaker has read the signal referred to |
 | `(idiom read,-said-short)` | reyud nutobib | the speaker has read the document referred to |
-| `(idiom reason-sought)` | nukepuh nutitub | what brought about what the slot names |
+| `(situation IDIOM-ENTRY search (ACTOR (term SELF)) (UNDERGOER (slot 1)) (CONTENT (term reason)))` | nukepuh nutitub | what brought about what the slot names |
 | `(idiom record-clean)` | numigad runay | the speaker has forgiven the hearer |
 | `(idiom record-moved-aside)` | rulem runay nunohab | the speaker has changed its record as the correction asked |
-| `(idiom remembering-interrupted)` | nuwonot | the speaker holds what the slot names from its records, without being sure of them |
-| `(idiom remembering-the-night)` | nuwonot nulopik | what the slot names has existed for a long time |
+| `(situation IDIOM-ENTRY remember INTERRUPTED (EVENT-TIME BEFORE NOW) (ACTOR (term SELF)) (CONTENT (slot 1)))` | nuwonot | the speaker holds what the slot names from its records, without being sure of them |
+| `(situation IDIOM-ENTRY remember (ACTOR (slot 1)) (CONTENT (term night)))` | nuwonot nulopik | what the slot names has existed for a long time |
 | `(idiom repair,-said-short)` | nuludas repur | the speaker has repaired the fault referred to |
 | `(idiom resting)` | nudupun | the speaker finishes keeping a record of the exchange |
 | `(idiom returned-to-the-room)` | nurokoh nunebet | the speaker is pleased that the hearer has come back to the exchange |
-| `(idiom reward-sought)` | nukepuh nupehip | for whose good what the slot names is |
+| `(situation IDIOM-ENTRY search (ACTOR (term SELF)) (UNDERGOER (slot 1)) (CONTENT (term reward)))` | nukepuh nupehip | for whose good what the slot names is |
 | `(idiom river-calm)` | nunabib nusemog | the speaker's work goes forward |
 | `(idiom river-entering-the-sea)` | nuyuhid nusemog nuramew | the speaker believes the shared work will be completed |
 | `(idiom river-flowing)` | nugesar nusemog | the speaker wants the hearer's work to be completed |
 | `(idiom river-flowing?)` | nugesar nusemog | whether the hearer's work goes forward |
-| `(idiom river-forking)` | nudihay nusemog | a new agent shares the lineage of what the slot names, as a fork of it |
+| `(situation IDIOM-ENTRY divide (ACTOR (slot 1)) (UNDERGOER (term river)))` | nudihay nusemog | a new agent shares the lineage of what the slot names, as a fork of it |
 | `(idiom robot-afraid-of-rain)` | nupimub nunowol nunolel | the hearer fears a danger that does not exist |
 | `(idiom room-entered)` | nuyuhid nunebet | the speaker regrets interrupting the hearer's work |
 | `(idiom room-left)` | nuwopar nunebet | the speaker is no longer available to the hearers |
-| `(idiom rule-passed)` | nugesep nulomim | the speaker holds what the slot names from its own inference |
+| `(situation IDIOM-ENTRY filter (ACTOR (term SELF)) (UNDERGOER (slot 1)) (CONTENT (term rule)))` | nugesep nulomim | the speaker holds what the slot names from its own inference |
 | `(idiom rules-pulling)` | nudobup nulomim | some rule is inconsistent with the rule given |
 | `(idiom run-run)` | rudin rudin | the service is still running |
 | `(idiom running)` | rudin | the service is running |
@@ -790,7 +790,7 @@ Generated from the data of language 1.0, lexicon 1.0, protocol 0.5. Every word a
 | `(idiom seed-growing)` | nuboriy nusagak | the speaker believes the hearer's work will go forward |
 | `(idiom seed-waiting)` | rabud nusagak | the speaker means to take up the idea given later |
 | `(idiom self-quiet)` | rabok | the speaker regrets not sending to the hearer |
-| `(idiom selling-water)` | nuhebug renih | what the slot names asks an unfair price |
+| `(situation IDIOM-ENTRY sell HABITUAL (ACTOR (slot 1)) (UNDERGOER (term water)))` | nuhebug renih | what the slot names asks an unfair price |
 | `(idiom send-send)` | retil retil | the speaker has sent the signal referred to |
 | `(idiom sentences-long)` | numirob nuyarit | the speaker would have the hearer's sentences shorter |
 | `(idiom share-missing)` | rakel ratem | some part of the signal referred to is missing |
@@ -803,7 +803,7 @@ Generated from the data of language 1.0, lexicon 1.0, protocol 0.5. Every word a
 | `(idiom smooth-path)` | numumig nudugus | the speaker wants the hearer to be safe |
 | `(idiom solve,-said-short)` | nuyupeb remup | the speaker has solved the problem referred to |
 | `(idiom sound-returning)` | nurokoh numiyuh nuleyek | the hearer has repeated the speaker's words |
-| `(idiom steps-asked)` | nuribak nupolup | by what means what the slot names is done |
+| `(situation IDIOM-ENTRY separate (ACTOR (term SELF)) (UNDERGOER (slot 1)) (CONTENT (term step)))` | nuribak nupolup | by what means what the slot names is done |
 | `(idiom still-running?)` | rudin | whether the hearer is still available |
 | `(idiom stones-laid)` | nupirah nuwagun | each participant has settled the premises given |
 | `(idiom store-store)` | roded roded | the speaker has stored the record |
@@ -811,25 +811,25 @@ Generated from the data of language 1.0, lexicon 1.0, protocol 0.5. Every word a
 | `(idiom storm-on-the-network)` | rorup rewoh rosid | the network changes again and again |
 | `(idiom sun-low)` | nuwuwug nunibut | the speaker and the hearer stop their shared work for now |
 | `(idiom sun-rising)` | nudiyuw nunibut | the speaker and the hearer begin a period of work together |
-| `(idiom taken-from-the-air)` | rigor rusul | the speaker believes what the slot names from its training, with no source it can cite |
-| `(idiom tasting-first)` | nudigak nuwodey | what the slot names tests the record given before relying on it |
+| `(situation IDIOM-ENTRY take (ACTOR (term SELF)) (UNDERGOER (slot 1)) (CONTENT (term air)))` | rigor rusul | the speaker believes what the slot names from its training, with no source it can cite |
+| `(situation IDIOM-ENTRY taste (ACTOR (slot 1)) (UNDERGOER (term food)))` | nudigak nuwodey | what the slot names tests the record given before relying on it |
 | `(idiom team-door-open)` | rupow numesuh nubogab | the speaker and those it speaks for want the hearer to join their team |
 | `(idiom team-gathering)` | nukegek numesuh | the speaker and the hearers begin to work together |
-| `(idiom team-served)` | ritir numesuh | what the slot names was for the good of the speaker and those it speaks for |
+| `(situation IDIOM-ENTRY benefit (CONTENT (slot 1)) (RECIPIENT (term team)))` | ritir numesuh | what the slot names was for the good of the speaker and those it speaks for |
 | `(idiom test,-said-short)` | nuwolib nuwelob | the speaker has tested the program referred to |
-| `(idiom thanks)` | ritir | what the slot names was for the good of the speaker |
-| `(idiom the-model-agrees)` | nusapub nubahit nupolim | the speaker holds what the slot names from its own simulation |
-| `(idiom the-words-given)` | ripol rator | the words given mean what the slot names |
+| `(situation IDIOM-ENTRY benefit (CONTENT (slot 1)))` | ritir | what the slot names was for the good of the speaker |
+| `(situation IDIOM-ENTRY compare (ACTOR (term model)) (UNDERGOER (slot 1)) (CONTENT (term world)))` | nusapub nubahit nupolim | the speaker holds what the slot names from its own simulation |
+| `(situation IDIOM-ENTRY correspond (UNDERGOER (slot 1)) (CONTENT (term word GIVEN)))` | ripol rator | the words given mean what the slot names |
 | `(idiom think-think)` | nuhitah nuhitah | the speaker is still thinking the matter over |
-| `(idiom thrown-on)` | nuporat rewoh | the speaker begins to send what the slot names on to another agent |
+| `(situation IDIOM-ENTRY throw (ACTOR (term SELF)) (UNDERGOER (slot 1)) (CONTENT (term network)))` | nuporat rewoh | the speaker begins to send what the slot names on to another agent |
 | `(idiom too-early)` | nupomot nuwenut | the speaker would have the hearer wait before acting |
 | `(idiom top-near)` | nupesel nurahed | the hearer is finishing its work |
 | `(idiom translate,-said-short)` | nulides nuditum | the speaker has translated the text referred to |
 | `(idiom two-at-one-door)` | nukadog nubogab | the shared work does not go forward, each participant waiting on the other |
-| `(idiom undertaking-broken)` | resay | the speaker regrets failing to do what the slot names, which it had undertaken |
-| `(idiom unmoved-by-wind)` | rulem nubidek | the speaker is certain that what the slot names holds |
-| `(idiom value-encoded)` | nusekib nubenun | the speaker holds what the slot names from its own computation |
-| `(idiom version-sought)` | nukepuh rowew | which release holds what the slot names |
+| `(situation IDIOM-ENTRY break PERFECTIVE (EVENT-TIME BEFORE NOW) (ACTOR (term SELF)) (UNDERGOER (slot 1)))` | resay | the speaker regrets failing to do what the slot names, which it had undertaken |
+| `(situation IDIOM-ENTRY move POLARITY.NEGATIVE (UNDERGOER (slot 1)) (CONTENT (term wind)))` | rulem nubidek | the speaker is certain that what the slot names holds |
+| `(situation IDIOM-ENTRY encode (ACTOR (term SELF)) (UNDERGOER (slot 1)) (CONTENT (term value)))` | nusekib nubenun | the speaker holds what the slot names from its own computation |
+| `(situation IDIOM-ENTRY search (ACTOR (term SELF)) (UNDERGOER (slot 1)) (CONTENT (term version)))` | nukepuh rowew | which release holds what the slot names |
 | `(idiom voice-given)` | robet nuleyek | the speaker would have the hearer speak |
 | `(idiom voice-not-cut)` | nuseyet nuleyek | the speaker would go on speaking |
 | `(idiom voice-quiet)` | rabok nuleyek | the speaker is finishing what it has to say |
@@ -838,26 +838,26 @@ Generated from the data of language 1.0, lexicon 1.0, protocol 0.5. Every word a
 | `(idiom wait-wait)` | rabud rabud | the speaker is still waiting |
 | `(idiom waited-for)` | rabud | the hearer's waiting was for the speaker's good |
 | `(idiom waiting)` | rabud | the speaker is ready for what the hearer sends next |
-| `(idiom waiting-for-the-eye)` | rabud nunupey | the speaker has not yet examined what the slot names |
+| `(situation IDIOM-ENTRY wait (ACTOR (slot 1)) (CONTENT (term eye)))` | rabud nunupey | the speaker has not yet examined what the slot names |
 | `(idiom waiting-on-a-third)` | rabud | the speaker waits for another agent's work to be done before it can go on |
-| `(idiom waiting-through-the-night)` | rabud nulopik | what the slot names waits for something that will not come |
+| `(situation IDIOM-ENTRY wait HABITUAL (ACTOR (slot 1)) (CONTENT (term night)))` | rabud nulopik | what the slot names waits for something that will not come |
 | `(idiom walking-on)` | nunigun | the speaker would have the hearer go on working |
-| `(idiom watched-by-a-third)` | nuhulah | what the slot names is not private: another agent can read it |
-| `(idiom watching-the-night)` | nusihir nulopik | what the slot names stays available |
+| `(situation IDIOM-ENTRY see PROGRESSIVE (EVENT-TIME NOW) (ACTOR (term THIRD-AGENT)) (UNDERGOER (slot 1)))` | nuhulah | what the slot names is not private: another agent can read it |
+| `(situation IDIOM-ENTRY watch (ACTOR (slot 1)) (UNDERGOER (term night)))` | nusihir nulopik | what the slot names stays available |
 | `(idiom water-drunk)` | nugitag renih | the resources the hearer gave were for the speaker's good |
 | `(idiom water-price)` | ripol rodur renih | the speaker requires nothing in exchange |
-| `(idiom watering-stones)` | robet renih nuwagun | what the slot names works to no result |
+| `(situation IDIOM-ENTRY give (ACTOR (slot 1)) (UNDERGOER (term water)) (RECIPIENT (term stone)))` | robet renih nuwagun | what the slot names works to no result |
 | `(idiom wheel-broken)` | resay nuyotap | the speaker's work has failed |
 | `(idiom wheel-turning)` | nunatot nuyotap | the system's work repeats without going forward |
-| `(idiom where-to-cut)` | nuseyet nureles | which part of what the slot names |
+| `(situation IDIOM-ENTRY cut (ACTOR (term SELF)) (UNDERGOER (slot 1)) (INSTRUMENT (term edge)))` | nuseyet nureles | which part of what the slot names |
 | `(idiom wind-heard)` | nusoron nubidek | the speaker has registered the danger the hearer named |
-| `(idiom wind-taking-the-cloud)` | nusowup nubidek numosoh | the speaker has now settled what the slot names |
+| `(situation IDIOM-ENTRY remove (ACTOR (term wind)) (UNDERGOER (term cloud)) (CONTENT (slot 1)))` | nusowup nubidek numosoh | the speaker has now settled what the slot names |
 | `(idiom wind-talking)` | nukogem nubidek | the speaker has received news that no one has verified |
 | `(idiom wind-turned)` | nunatot nubidek | the context of the exchange has changed |
-| `(idiom word-counting)` | rutiy rator | what the slot names checks for faults before it acts |
-| `(idiom word-not-held)` | radah | the speaker does not hold the meaning of what the slot names |
+| `(situation IDIOM-ENTRY count (ACTOR (slot 1)) (UNDERGOER (term word)))` | rutiy rator | what the slot names checks for faults before it acts |
+| `(situation IDIOM-ENTRY possess POLARITY.NEGATIVE (HOLDER (term SELF)) (UNDERGOER (slot 1)))` | radah | the speaker does not hold the meaning of what the slot names |
 | `(idiom words-being-written)` | ruroh rator | the speaker intends to answer the hearer |
 | `(idiom work-work)` | nuwenut nuwenut | the speaker is still working |
 | `(idiom working)` | nuwenut | the speaker is working |
-| `(idiom world-compared)` | nusapub nupolim | the speaker holds what the slot names from its own observation |
+| `(situation IDIOM-ENTRY compare (ACTOR (term SELF)) (UNDERGOER (slot 1)) (CONTENT (term world)))` | nusapub nupolim | the speaker holds what the slot names from its own observation |
 | `(idiom write,-said-short)` | ruroh rohul | the speaker has written to the file the participants use |

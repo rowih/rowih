@@ -2,6 +2,17 @@
 
 This file records each release of Rowih, the newest first. An entry states the release's version and date, the parts it affects, the change, the reason, the compatibility impact and the migration it requires, as the rule of change requires ([How Rowih changes](governance/README.md#the-rule-of-change)). The language, the lexicon, the protocol, the phonology, the writing system and each dialect carry versions of their own, and the packages `rowih` carry theirs under semantic versioning ([Versions and releases](governance/README.md#versions-and-releases)). A release of this repository is numbered by its packages and tagged with that number, as `v1.1.0`.
 
+## 1.1.3, 2026-10-26
+
+Idioms that take slots.
+
+- **Parts:** the Python and TypeScript packages `rowih`, at 1.1.3. Language 1.0, lexicon 1.0, protocol 0.5, phonology 0.3, writing system 0.2 and every dialect are unchanged.
+- **Change:** an idiom whose literal structure holds a slot, such as *river-forking*, cannot be written as `(idiom KEY)`, which has no way to fill the slot, and writing it so raised an internal error. The notation's reader now refuses it with `NotationError`, naming the unit to write: the mark `IDIOM-ENTRY` on the idiom's unit and its literal structure, each `(slot N)` replaced by a constituent. The lexicon listing (`rowih summary lexicon` and the skill's `references/lexicon.md`) and the server's `lookup` give the 88 such idioms in that form. Three reports of the gate are carried over, as [the gate](governance/README.md#the-gate) allows: `corpus/reports/tokens.json` as made over 1.1.1, since its measurement reads only transliterations and explanations, which no change touches, and `corpus/reports/parity.json` and `corpus/reports/single-edits-both.json` as made on 2026-10-20, since the release changes no code those runs execute and no data or message they read.
+- **Dependencies:** none changed.
+- **Reason:** agents writing such idioms as the listing then gave them met the error.
+- **Compatibility impact:** a text that wrote such an idiom as `(idiom KEY)` raised an internal error, and now raises `NotationError`. No interface, message or file the packages read changes.
+- **Migration:** none.
+
 ## 1.1.2, 2026-10-26
 
 Where hosts find the toolchain.

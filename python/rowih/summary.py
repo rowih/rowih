@@ -100,7 +100,10 @@ def lexicon(lang: Language) -> str:
            "by category: how the notation writes it, the word's form and its meaning. A "
            "conventional sense is not listed, since the root is written and the frame it "
            "stands in selects the sense; a deprecated word is not listed, since the "
-           "notation names the entry in force." % _releases(lang), ""]
+           "notation names the entry in force. An idiom that takes constituents the "
+           "speaker supplies is written as its unit marked IDIOM-ENTRY, each `(slot N)` "
+           "replaced by a constituent; `(idiom KEY)` writes the others." % _releases(lang),
+           ""]
     for category, heading in LISTING:
         entries = sorted((e for e in lang.entries.values()
                           if e["grammatical category"] == category and in_force(lang, e)),

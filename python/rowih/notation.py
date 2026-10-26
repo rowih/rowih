@@ -50,6 +50,21 @@ def key_of(entry: dict) -> str:
         return "%s.%s" % (entry["dialect name"], key)
     return key
 
+def takes_slots(entry: dict) -> bool:
+    """Whether a grammatical idiom's literal structure holds slots, `(slot N)`, for the
+    constituents the speaker supplies (specification/lexicon.md#conventional-expressions-and-idioms)."""
+    structure = entry.get("literal structure")
+    return isinstance(structure, str) and "(slot " in structure
+
+
+def marked(entry: dict) -> str:
+    """A grammatical idiom as the notation writes it: the mark IDIOM-ENTRY on its unit,
+    then its literal structure, each `(slot N)` standing for a constituent the speaker
+    supplies (specification/notation.md#how-words-are-named)."""
+    head, rest = entry["literal structure"].split(" ", 1)
+    return "%s IDIOM-ENTRY %s" % (head, rest)
+
+
 class NotationError(InputError):
     """A text that does not read as the notation: an error of a writer's input, not a
     diagnostic of the language. `Reader.moves` raises it, and nothing else, for any text
@@ -269,6 +284,13 @@ class Reader:
             _arity(x, 1, 1, "(idiom KEY)")
             if not isinstance(x[1], str) or x[1] not in self.idiom_by_key:
                 raise NotationError("no idiom keyed %s" % _shown(x[1]))
+            entry = self.lang.entries[self.idiom_by_key[x[1]]]
+            if takes_slots(entry):
+                # (idiom KEY) cannot give what a slot stands for
+                raise NotationError(
+                    "the idiom %s takes constituents the speaker supplies, which (idiom %s) "
+                    "cannot give: write %s, with each (slot N) replaced by a constituent"
+                    % (x[1], x[1], marked(entry)))
             return {"kind": "idiom", "entry": self.idiom_by_key[x[1]]}
         if head == "slot":
             # the constituent a speaker supplies to an idiom
@@ -507,7 +529,8 @@ class Printer:
 
     def atom_of(self, item) -> str | None:
         """How the notation writes a word of the lexicon, a member or a morpheme: by its
-        gloss, its key, its head or its form, or None where the notation never writes it,
+        gloss, its key, its head or its form, an idiom that takes slots by its marked unit,
+        or None where the notation never writes it,
         since the generator writes it (a structural word, a numeral, a check word, a field
         of the envelope or a protocol statement), it is a sense the frame selects, it is
         a bound morpheme, or it is a deprecated root."""
@@ -521,7 +544,10 @@ class Printer:
         if kind == "act":
             return item.gloss
         if kind == "idiom":
-            return "(idiom %s)" % self.lang.entries[item.identifier]["key"].replace(" ", "-")
+            entry = self.lang.entries[item.identifier]
+            if takes_slots(entry):
+                return marked(entry)
+            return "(idiom %s)" % entry["key"].replace(" ", "-")
         if kind == "jargon":
             # a dialect's term is a formation, read from its parts
             return "(unknown %s)" % json.dumps(item.form)

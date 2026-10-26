@@ -4,6 +4,7 @@ the declared loss, with `inv.realisations-normalise` tested as the invariants st
 (specification/conformance.md#the-invariants). Word formation and the act of definition
 are `test_formation.py`'s."""
 import copy
+import re
 
 import pytest
 from hypothesis import HealthCheck, assume, given, settings, strategies as st
@@ -14,8 +15,9 @@ from rowih.economy import economy
 from rowih.generator import Generator
 from rowih.lexer import segment
 from rowih.normal import Normaliser
-from rowih.notation import Printer, Reader, sexp
+from rowih.notation import NotationError, Printer, Reader, sexp
 from rowih.tree import strip_private
+from rowih.writer import Envelope
 
 from corpus import language_of, messages, moves_of
 from test_properties import variants
@@ -462,3 +464,49 @@ def test_two_idioms_one_substitution_apart_once_defaults_are_supplied_are_found(
              if code == "idiom-one-edit-from-another"}
     assert tuple(sorted([entry("running"), entry("working")])) in found
     assert tuple(sorted([entry("memory open"), entry("memory shut")])) not in found
+
+
+# ------------------------------------------- idioms that take what the speaker supplies
+
+SLOTTED = [i for i in LANG.idioms if isinstance(LANG.entries[i]["literal structure"], str)
+           and "(slot " in LANG.entries[i]["literal structure"]]
+ENVELOPE = Envelope(sender=1, recipients=(2,), time="1761480000")
+
+
+def _in_a_move(unit: str) -> str:
+    """A move in which a unit of the idiom's kind stands: a situation as an assertion's,
+    a term as the undergoer of one."""
+    if unit.startswith("(term"):
+        unit = "(situation appear (UNDERGOER %s))" % unit
+    return "(move ASSERTED-POSITION (assertion INFERENCE PROBABLE %s))" % unit
+
+
+def test_an_idiom_that_takes_a_slot_is_refused_as_a_word_and_shown_as_its_unit():
+    """`(idiom KEY)` cannot give what a slot stands for, so the reader refuses it for an
+    idiom that takes one, as an error of the writer's input, and says how to write it;
+    before, the generator raised a bare ValueError on the unfilled slot."""
+    assert len(SLOTTED) == 88
+    for i in SLOTTED:
+        key = LANG.entries[i]["key"].replace(" ", "-")
+        with pytest.raises(NotationError) as refused:
+            api.write(_in_a_move("(idiom %s)" % key), ENVELOPE)
+        assert PRINT.atom_of(LANG.items[i]) in str(refused.value), key
+
+
+def _meaning(unit: str) -> list:
+    text, _ = api.write(_in_a_move(unit), ENVELOPE)
+    return [PRINT.move(n) for n in api.parse(text).normal]
+
+
+def test_a_slotted_idiom_written_as_its_listed_unit_means_its_expansion():
+    """The listing writes such an idiom as the specification writes a grammatical idiom,
+    the mark IDIOM-ENTRY on its unit and its literal structure. With each slot filled, the
+    unit means what the idiom's expansion means with the same filler, whether the
+    generator keeps the idiom or, for a hearer not known to hold it, writes the
+    expansion."""
+    for i in SLOTTED:
+        written = PRINT.atom_of(LANG.items[i])
+        assert written.split(" ")[1] == "IDIOM-ENTRY", written
+        filled = re.sub(r"\(slot \d+\)", "(term thing)", written)
+        expansion = re.sub(r"\(slot \d+\)", "(term thing)", LANG.entries[i]["expansion"])
+        assert _meaning(filled) == _meaning(expansion), (i, written)

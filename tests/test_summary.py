@@ -9,7 +9,7 @@ import re
 import pytest
 
 from rowih import data, summary
-from rowih.notation import Printer, Reader, sexp
+from rowih.notation import Printer, Reader, marked, sexp, takes_slots
 from rowih.server import INSTRUCTIONS, Server
 
 from test_specification import cites_a_section
@@ -53,6 +53,12 @@ def test_the_listing_gives_every_word_a_writer_names_and_no_other():
 
 
 def _reads_as(written: str, item) -> bool:
+    if " IDIOM-ENTRY " in written:
+        # an idiom that takes slots, written as its marked unit
+        entry = LANG.entries[item.identifier]
+        return takes_slots(entry) and written == marked(entry) and \
+            READER.node(sexp(re.sub(r"\(slot \d+\)", "(term thing)", written))[0])["kind"] \
+            == "situation"
     if written.startswith("(idiom "):
         return READER.idiom_by_key.get(written[7:-1]) == item.identifier
     if written.startswith("(unknown "):
