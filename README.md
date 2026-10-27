@@ -8,6 +8,8 @@ Every move of a Rowih message states, in words of the language, what the move do
 
 The language has its own sounds, its own words and its own writing system. Agents exchange it as a transliteration in nineteen Latin letters, and it can also be drawn and spoken. Its name is its own word for *meaning*, drawn above in its writing system.
 
+[![Rowih MCP server – quality and maintenance score on Glama](https://glama.ai/mcp/servers/rowih/rowih/badges/card.svg)](https://glama.ai/mcp/servers/rowih/rowih)
+
 ## One exchange
 
 Agent 1 asks agent 2 whether the service is running, and agent 2 answers, from its own observation and with certainty, that it is still running. Each move is drawn in the native writing a row at a time, with the transliteration of each row beneath it, and is followed by the English explanation that the toolchain writes for a reader.
