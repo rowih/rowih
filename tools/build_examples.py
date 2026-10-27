@@ -41,7 +41,7 @@ from rowih import api, data, drawing, render, writing  # noqa: E402
 from rowih.drawing import draw  # noqa: E402
 from rowih.generator import morpheme_gloss  # noqa: E402
 from rowih.notation import sexp  # noqa: E402
-from rowih.speech import spoken  # noqa: E402
+from rowih.speech import ipa, spoken  # noqa: E402
 
 EXAMPLES = os.path.join(ROOT, "examples")
 MEDIA = "media"
@@ -466,6 +466,9 @@ def files() -> dict:
             if item == OPENING:
                 # the envelope is the first line
                 speech[name + ".moves"] = dict(speech[name], lines=speech[name]["lines"][1:])
+    # the name alone, which the page gives with its transcription, in agent 1's voice
+    speech[NAME] = {"sender": "1", "voice": VOICES["1"],
+                    "lines": [{"prosody": "neutral", "ipa": ipa(NAME, lang)}]}
     out.update(writing_media(lang))
     out.update(page_row_media(lang))
     out["speech.json"] = json.dumps(speech, ensure_ascii=False, indent=1) + "\n"

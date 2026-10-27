@@ -250,5 +250,15 @@
     "ipa": "ˈwi.la ˈna.su ˈne.be ˈje.ka ˈko.te.pu ˈwo.ɾa ˈtu.ki.ka ˈtu.si.do ˈti.hi.di ˈwo.du ˈse.na ˈmi.wi ˈwu.wa ˈwo.pi ˈɾu.ɾoh ˈbi.wo ˈwo.du ˈse.na ˈmi.wi ˈwu.wa ˈbi.hu ˈwu.bo ˈwi.hi ˈku.ka.ɾe ˈke.pe.he ˈko.si.ki ˈwo.pi ˈɾo.sek ˈbi.wo ˈwo.du ˈɾa.nij ˈwu.wa ˈwo.ko ˈwo.je ˈwu.ɡu ˈbo.jo ˈwu.bo ˈwi.to ˈna.ke ˈna.pa ˈja.be (embedded material) ˈna.su ˈne.be ˈje.ka (embedded material) ˈwu.ɡu ˈwo.ko ˈwo.je ˈhu.meɾ"
    }
   ]
+ },
+ "rowih": {
+  "sender": "1",
+  "voice": "em_alex",
+  "lines": [
+   {
+    "prosody": "neutral",
+    "ipa": "ˈɾo.wih"
+   }
+  ]
  }
 }

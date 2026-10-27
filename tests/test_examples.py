@@ -19,7 +19,7 @@ from rowih import api, data, writing
 from rowih.drawing import draw, read as read_drawing
 from rowih.generator import morpheme_gloss
 from rowih.notation import sexp
-from rowih.speech import spoken
+from rowih.speech import ipa, spoken
 
 from test_specification import LINK, anchors, cites_a_section
 
@@ -279,7 +279,14 @@ def test_each_recording_passed_a_check_that_a_planted_defect_failed():
     tool = read("tools/speak_examples.py")
     threshold = float(re.search(r"^THRESHOLD = ([0-9.]+)", tool, re.M).group(1))
     assert AUDIO["threshold"] == threshold
-    assert all(r["phoneme error rate"] <= threshold for r in AUDIO["messages"].values())
+    by_owner = {name for name, r in AUDIO["messages"].items() if "heard by" in r}
+    assert by_owner == {build_examples.NAME}
+    for name, r in AUDIO["messages"].items():
+        if name in by_owner:
+            # held to the file the repository owner heard
+            assert r["mp3"] in tool, name
+        else:
+            assert r["phoneme error rate"] <= threshold, name
     assert AUDIO["control"]["phoneme error rate"] > threshold
     for model in ("voice model", "recogniser"):
         assert re.fullmatch(r"[0-9a-f]{40}", AUDIO[model]["revision"])
@@ -289,8 +296,9 @@ def test_each_recording_passed_a_check_that_a_planted_defect_failed():
 def test_the_page_plays_the_moves_it_shows_and_the_examples_each_message_whole():
     page = read("README.md")
     linked = re.findall(r"\[listen \(MP3\)\]\(examples/media/([a-z0-9.-]+)\.mp3\)", page)
-    assert linked == [build_examples.OPENING + ".1.moves", build_examples.OPENING + ".2.moves"]
-    for name in linked:
+    assert linked == [build_examples.NAME, build_examples.OPENING + ".1.moves",
+                      build_examples.OPENING + ".2.moves"]
+    for name in linked[1:]:
         spoken_form = [line["ipa"] for line in spoken(api.parse(_corpus_text(name[:-6])))]
         assert [line["ipa"] for line in SPEECH[name]["lines"]] == spoken_form[1:], name
     examples = read("examples/README.md")
@@ -299,11 +307,23 @@ def test_the_page_plays_the_moves_it_shows_and_the_examples_each_message_whole()
         assert [line["ipa"] for line in SPEECH[name]["lines"]] == spoken_form, name
 
 
+def test_the_page_gives_the_name_in_the_ipa_and_plays_it_as_the_spoken_form_states_it():
+    name = build_examples.NAME
+    said = ipa(name)
+    assert SPEECH[name]["lines"] == [{"prosody": "neutral", "ipa": said}]
+    title = read("README.md").split("\n## ", 1)[0]
+    assert "**IPA** /%s/ · [listen (MP3)](examples/media/%s.mp3)" % (said, name) in title
+
+
 def test_the_page_states_the_audio_check_as_recorded():
     page = read("README.md")
-    rates = [r["phoneme error rate"] for r in AUDIO["messages"].values()]
+    rates = [r["phoneme error rate"] for r in AUDIO["messages"].values() if "heard by" not in r]
     assert len(rates) == 18
-    assert "The eighteen files score from %.3f to %.3f" % (min(rates), max(rates)) in page
+    assert ("The eighteen recordings of messages score from %.3f to %.3f"
+            % (min(rates), max(rates))) in page
+    name = AUDIO["messages"][build_examples.NAME]
+    assert ("its recording scores %.3f, so it was checked instead by the repository owner's "
+            "ear on %s" % (name["phoneme error rate"], name["heard by"].split(", ")[1])) in page
     assert "exceeds %.2f" % AUDIO["threshold"] in page
     assert "scores %.3f and is refused" % AUDIO["control"]["phoneme error rate"] in page
     for name, plan in SPEECH.items():

@@ -14,7 +14,7 @@
  "control": {
   "message": "casual-056.1",
   "defect": "mid and high vowels exchanged",
-  "phoneme error rate": 0.2963
+  "phoneme error rate": 0.2997
  },
  "messages": {
   "casual-056.1": {
@@ -124,6 +124,13 @@
    "voice": "em_alex",
    "mp3": "9fa5e9147958a9fac0d420a29fa46362c77ef41988b9074c501c2072e154c0ef",
    "phoneme error rate": 0.0784
+  },
+  "rowih": {
+   "plan": "641f578e9f33b1826e0f63077f0ea92bebac144d430aa96ae570ca0dcf77f4f1",
+   "voice": "em_alex",
+   "mp3": "1234c0c00bb4b53c42083875f6c04db7ca8ca19a8e7523234728b9f08ac70694",
+   "phoneme error rate": 0.8,
+   "heard by": "the repository owner, 2026-10-27"
   }
  }
 }

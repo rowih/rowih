@@ -26,7 +26,9 @@ spelling; each participant speaks in a voice of its own, and lines are separated
 spoken form's pause. The check is a phoneme recogniser, wav2vec2 fine-tuned on espeak-ng
 phoneme labels: it transcribes each MP3 as written, its transcription is reduced to the
 nineteen symbols, and its phoneme error rate is the edit distance from the message's
-symbols over their number. A file above `THRESHOLD` is refused, and on every run the
+symbols over their number. A file above `THRESHOLD` is refused, except one of
+`HEARD_BY_OWNER`, which the repository owner's listening checks instead and which is
+refused unless it is the file the owner heard; and on every run the
 first message is spoken again with its mid and high vowels exchanged, which the check must
 refuse, so that a check that cannot fail is caught. Both models are pinned by revision.
 The model draws noise as it speaks, so each take is seeded from its plan's digest and is
@@ -63,6 +65,12 @@ PAUSE_SECONDS = 0.4          # the spoken form's pause between lines
 KOKORO_LIMIT = 500           # phoneme characters in one call; the model takes at most 510
 MP3_QUALITY = 0.5            # libsndfile's compression level, 0 the best and 1 the smallest
 THRESHOLD = 0.15             # fixed before the first full run, on 2026-10-24
+# recordings the recogniser cannot judge, each checked instead by the repository owner's
+# listening and held to the file the owner heard, by its SHA-256: the name said alone,
+# which the recogniser never hears right in Kokoro's voices or eSpeak NG's (2026-10-27)
+HEARD_BY_OWNER = {
+    "rowih": ("2026-10-27", "1234c0c00bb4b53c42083875f6c04db7ca8ca19a8e7523234728b9f08ac70694"),
+}
 STRESS = "ˈ"
 # what the recogniser writes for a symbol the language writes otherwise
 HEARD_AS = {"g": "ɡ", "r": "ɾ", "ɹ": "ɾ"}
@@ -224,12 +232,19 @@ def main():
         rate = error_rate(ear, data, want)
         print("%s: %s, %s, phoneme error rate %.3f"
               % (name, plan["voice"], "made" if name in made else "kept", rate))
-        if rate > THRESHOLD:
+        if name in HEARD_BY_OWNER:
+            date, digest = HEARD_BY_OWNER[name]
+            if hashlib.sha256(data).hexdigest() != digest:
+                sys.exit("%s is refused: it is not the take the repository owner heard on "
+                         "%s; no file is written" % (name, date))
+        elif rate > THRESHOLD:
             sys.exit("%s is refused: its phoneme error rate %.3f exceeds %.2f; no file is "
                      "written" % (name, rate, THRESHOLD))
         results[name] = {"plan": plan_digest(plan), "voice": plan["voice"],
                          "mp3": hashlib.sha256(data).hexdigest(),
                          "phoneme error rate": round(rate, 4)}
+        if name in HEARD_BY_OWNER:
+            results[name]["heard by"] = "the repository owner, %s" % HEARD_BY_OWNER[name][0]
     control = control_rate(voice, ear, speech, by_ipa, vowels)
     for name, data in made.items():
         with open(os.path.join(EXAMPLES, "media", name + ".mp3"), "wb") as f:
