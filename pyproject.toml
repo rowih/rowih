@@ -1,6 +1,6 @@
 [project]
 name = "rowih"
-version = "1.1.4"
+version = "1.1.5"
 description = "Rowih, a language for agents: language 1.0, its reader, checker, normaliser, generator and renderer"
 readme = "python/README.md"
 license = "Apache-2.0 AND CC-BY-4.0"
