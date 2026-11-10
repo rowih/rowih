@@ -2,6 +2,17 @@
 
 This file records each release of Rowih, the newest first. An entry states the release's version and date, the parts it affects, the change, the reason, the compatibility impact and the migration it requires, as the rule of change requires ([How Rowih changes](governance/README.md#the-rule-of-change)). The language, the lexicon, the protocol, the phonology, the writing system and each dialect carry versions of their own, and the packages `rowih` carry theirs under semantic versioning ([Versions and releases](governance/README.md#versions-and-releases)). A release of this repository is numbered by its packages and tagged with that number, as `v1.1.0`.
 
+## 1.1.6, 2026-11-10
+
+What the diagnostic of attenuated authority reports.
+
+- **Parts:** the Python and TypeScript packages `rowih`, at 1.1.6. Language 1.0, lexicon 1.0, protocol 0.5, phonology 0.3, writing system 0.2 and every dialect are unchanged.
+- **Change:** the description of `d.checker.authority-attenuates`, and the table of diagnostics written from it ([Conformance](specification/conformance.md#the-diagnostics)), said that it reports a grant that exceeds the grantor's claimed scope. The checker raises it only for the settlement or failure of another participant's assignment that is not made on behalf of the assignment's author ([The record and discourse](specification/discourse.md#what-a-change-may-name)), and release 1.0 states that a delegation granting more than its grantor holds is not refused ([The record and discourse](specification/discourse.md#requests-offers-commitments-and-delegation)). The description now states the rule the checker applies, in the words of the grammar's table of the rules beyond the productions ([The grammar](specification/grammar.md#the-rules-beyond-the-productions)). Three reports of the gate are carried over, as [the gate](governance/README.md#the-gate) allows: `corpus/reports/tokens.json` as made over 1.1.1, since its measurement reads only transliterations and explanations, which no change touches, and `corpus/reports/parity.json` and `corpus/reports/single-edits-both.json` as made on 2026-10-20, since the only changes to the code those runs execute are the version string and the description, which neither reads, and the release changes no data or message they read.
+- **Dependencies:** none changed.
+- **Reason:** the table of diagnostics contradicted the limit the specification states, so that a reader could take a well-formed delegation for one whose authority the checker had verified.
+- **Compatibility impact:** none. Every message reads and checks as before, and no interface, message or file the packages read changes.
+- **Migration:** none.
+
 ## 1.1.5, 2026-10-29
 
 The media type's line breaks and encoding.
