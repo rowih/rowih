@@ -11,7 +11,7 @@
    "caught": true,
    "exit": 1,
    "summary": [
-    "1 failed, 2436 passed in 13.40s"
+    "1 failed, 2436 passed in 13.39s"
    ]
   },
   "at-most-once": {
@@ -23,7 +23,7 @@
    "caught": true,
    "exit": 1,
    "summary": [
-    "1 failed, 268 passed in 0.91s"
+    "1 failed, 269 passed in 0.93s"
    ]
   },
   "authentication-covers-message": {
@@ -35,7 +35,7 @@
    "caught": true,
    "exit": 1,
    "summary": [
-    "1 failed in 2.34s"
+    "1 failed in 2.20s"
    ]
   },
   "authority-attenuates": {
@@ -47,7 +47,7 @@
    "caught": true,
    "exit": 1,
    "summary": [
-    "1 failed in 0.26s"
+    "1 failed in 0.25s"
    ]
   },
   "boundary-closed": {
@@ -59,7 +59,7 @@
    "caught": true,
    "exit": 1,
    "summary": [
-    "1 failed, 14 passed in 0.91s"
+    "1 failed, 14 passed in 0.90s"
    ]
   },
   "check-forms-disjoint": {
@@ -71,7 +71,7 @@
    "caught": true,
    "exit": 1,
    "summary": [
-    "1 failed in 1.01s"
+    "1 failed in 1.09s"
    ]
   },
   "check-values-distinct": {
@@ -83,7 +83,7 @@
    "caught": true,
    "exit": 1,
    "summary": [
-    "1 failed, 1528 passed in 5.92s"
+    "1 failed, 1528 passed in 6.38s"
    ]
   },
   "checks-match": {
@@ -95,7 +95,7 @@
    "caught": true,
    "exit": 1,
    "summary": [
-    "1 failed, 24 passed in 0.30s"
+    "1 failed, 24 passed in 0.35s"
    ]
   },
   "class-computed": {
@@ -107,7 +107,7 @@
    "caught": true,
    "exit": 1,
    "summary": [
-    "1 failed, 394 passed in 2.22s"
+    "1 failed, 394 passed in 2.00s"
    ]
   },
   "closed-alphabet": {
@@ -119,7 +119,7 @@
    "caught": true,
    "exit": 1,
    "summary": [
-    "1 failed, 44 passed in 0.33s"
+    "1 failed, 44 passed in 0.34s"
    ]
   },
   "common-ground-accommodation": {
@@ -131,7 +131,7 @@
    "caught": true,
    "exit": 1,
    "summary": [
-    "1 failed, 9 passed in 6.14s"
+    "1 failed, 9 passed in 6.47s"
    ]
   },
   "common-ground-by-acceptance": {
@@ -143,7 +143,7 @@
    "caught": true,
    "exit": 1,
    "summary": [
-    "1 failed, 9 passed in 5.97s"
+    "1 failed, 9 passed in 6.14s"
    ]
   },
   "compatible-within-major": {
@@ -155,7 +155,7 @@
    "caught": true,
    "exit": 1,
    "summary": [
-    "1 failed, 3 passed in 0.72s"
+    "1 failed, 3 passed in 0.84s"
    ]
   },
   "conventional-sense-ignored": {
@@ -167,7 +167,7 @@
    "caught": true,
    "exit": 1,
    "summary": [
-    "1 failed in 0.99s"
+    "1 failed in 1.05s"
    ]
   },
   "conversion-lossy": {
@@ -179,7 +179,7 @@
    "caught": true,
    "exit": 1,
    "summary": [
-    "1 failed, 801 passed in 3.20s"
+    "1 failed, 801 passed in 3.78s"
    ]
   },
   "conversion-touches-the-core": {
@@ -191,7 +191,7 @@
    "caught": true,
    "exit": 1,
    "summary": [
-    "1 failed, 499 passed in 189.98s (0:03:09)"
+    "1 failed, 499 passed in 196.47s (0:03:16)"
    ]
   },
   "core-closed": {
@@ -204,7 +204,7 @@
    "caught": true,
    "exit": 1,
    "summary": [
-    "1 failed, 86 passed in 1.01s"
+    "1 failed, 86 passed in 1.06s"
    ]
   },
   "credence-off-the-scale": {
@@ -228,7 +228,7 @@
    "caught": true,
    "exit": 1,
    "summary": [
-    "1 failed in 1.29s"
+    "1 failed in 1.47s"
    ]
   },
   "critical-values-explicit": {
@@ -240,7 +240,7 @@
    "caught": true,
    "exit": 1,
    "summary": [
-    "1 failed, 1534 passed in 6.26s"
+    "1 failed, 1534 passed in 6.36s"
    ]
   },
   "default-strengthening": {
@@ -252,7 +252,7 @@
    "caught": true,
    "exit": 1,
    "summary": [
-    "1 failed, 1533 passed in 6.49s"
+    "1 failed, 1533 passed in 6.44s"
    ]
   },
   "dependencies-explicit": {
@@ -264,7 +264,7 @@
    "caught": true,
    "exit": 1,
    "summary": [
-    "1 failed, 267 passed in 0.90s"
+    "1 failed, 268 passed in 0.92s"
    ]
   },
   "deterministic": {
@@ -278,7 +278,7 @@
    "caught": true,
    "exit": 1,
    "summary": [
-    "1 failed, 1 passed in 1.17s"
+    "1 failed, 1 passed in 1.19s"
    ]
   },
   "devices-admissible": {
@@ -290,7 +290,7 @@
    "caught": true,
    "exit": 1,
    "summary": [
-    "1 failed, 9 passed in 5.12s"
+    "1 failed, 9 passed in 5.14s"
    ]
   },
   "diagnostics-not-exceptions": {
@@ -302,7 +302,7 @@
    "caught": true,
    "exit": 1,
    "summary": [
-    "1 failed, 34 passed in 0.41s"
+    "1 failed, 34 passed in 0.46s"
    ]
   },
   "displays-are-views": {
@@ -314,7 +314,7 @@
    "caught": true,
    "exit": 1,
    "summary": [
-    "1 failed, 27 passed in 0.30s"
+    "1 failed, 27 passed in 0.27s"
    ]
   },
   "encodings-agree": {
@@ -326,7 +326,7 @@
    "caught": true,
    "exit": 1,
    "summary": [
-    "1 failed, 764 passed in 3.05s"
+    "1 failed, 764 passed in 2.96s"
    ]
   },
   "entries-immutable": {
@@ -338,7 +338,7 @@
    "caught": true,
    "exit": 1,
    "summary": [
-    "1 failed, 265 passed in 0.93s"
+    "1 failed, 266 passed in 1.16s"
    ]
   },
   "export-parsed-back": {
@@ -350,7 +350,7 @@
    "caught": true,
    "exit": 1,
    "summary": [
-    "1 failed, 436 passed in 180.50s (0:03:00)"
+    "1 failed, 436 passed in 184.67s (0:03:04)"
    ]
   },
   "external-origin-kept": {
@@ -362,7 +362,7 @@
    "caught": true,
    "exit": 1,
    "summary": [
-    "1 failed, 12 passed in 46.17s"
+    "1 failed, 12 passed in 32.50s"
    ]
   },
   "figure-not-literal": {
@@ -374,7 +374,7 @@
    "caught": true,
    "exit": 1,
    "summary": [
-    "1 failed, 2433 passed in 12.83s"
+    "1 failed, 2433 passed in 13.59s"
    ]
   },
   "fit": {
@@ -386,7 +386,7 @@
    "caught": true,
    "exit": 1,
    "summary": [
-    "1 failed, 266 passed in 0.91s"
+    "1 failed, 267 passed in 0.88s"
    ]
   },
   "force-marked": {
@@ -398,7 +398,7 @@
    "caught": true,
    "exit": 1,
    "summary": [
-    "1 failed, 354 passed in 1.98s"
+    "1 failed, 354 passed in 2.04s"
    ]
   },
   "formation-not-from-parts": {
@@ -410,7 +410,7 @@
    "caught": true,
    "exit": 1,
    "summary": [
-    "1 failed, 33 passed in 0.88s"
+    "1 failed, 33 passed in 0.99s"
    ]
   },
   "gaps-known": {
@@ -422,7 +422,7 @@
    "caught": true,
    "exit": 1,
    "summary": [
-    "1 failed, 4 passed in 2.36s"
+    "1 failed, 4 passed in 2.20s"
    ]
   },
   "generation-faithful": {
@@ -434,7 +434,7 @@
    "caught": true,
    "exit": 1,
    "summary": [
-    "1 failed, 1574 passed in 6.59s"
+    "1 failed, 1574 passed in 6.87s"
    ]
   },
   "hearing-not-believing": {
@@ -446,7 +446,7 @@
    "caught": true,
    "exit": 1,
    "summary": [
-    "1 failed, 2293 passed in 12.05s"
+    "1 failed, 2293 passed in 11.51s"
    ]
   },
   "identity-not-reference": {
@@ -458,7 +458,7 @@
    "caught": true,
    "exit": 1,
    "summary": [
-    "1 failed, 270 passed in 1.02s"
+    "1 failed, 271 passed in 0.99s"
    ]
   },
   "independent-confirmation": {
@@ -471,7 +471,7 @@
    "caught": true,
    "exit": 1,
    "summary": [
-    "1 failed, 8 passed in 6.50s"
+    "1 failed, 8 passed in 6.76s"
    ]
   },
   "inference-not-said": {
@@ -483,7 +483,7 @@
    "caught": true,
    "exit": 1,
    "summary": [
-    "1 failed, 12 passed in 7.60s"
+    "1 failed, 12 passed in 7.86s"
    ]
   },
   "integrity-value-required": {
@@ -495,7 +495,7 @@
    "caught": true,
    "exit": 1,
    "summary": [
-    "1 failed, 21 passed in 0.32s"
+    "1 failed, 21 passed in 0.27s"
    ]
   },
   "interval-written-as-a-point": {
@@ -507,7 +507,7 @@
    "caught": true,
    "exit": 1,
    "summary": [
-    "1 failed, 19 passed in 0.36s"
+    "1 failed, 19 passed in 0.35s"
    ]
   },
   "layout-carries-meaning": {
@@ -519,7 +519,7 @@
    "caught": true,
    "exit": 1,
    "summary": [
-    "1 failed, 432 passed in 177.78s (0:02:57)"
+    "1 failed, 432 passed in 181.81s (0:03:01)"
    ]
   },
   "lexicon-code": {
@@ -531,7 +531,7 @@
    "caught": true,
    "exit": 1,
    "summary": [
-    "1 failed, 2 passed in 5.70s"
+    "1 failed, 2 passed in 6.11s"
    ]
   },
   "lexicon-version-ignored": {
@@ -543,7 +543,7 @@
    "caught": true,
    "exit": 1,
    "summary": [
-    "1 failed, 42 passed in 0.32s"
+    "1 failed, 42 passed in 0.35s"
    ]
   },
   "long-root-decodable": {
@@ -555,7 +555,7 @@
    "caught": true,
    "exit": 1,
    "summary": [
-    "1 failed, 1 passed in 0.28s"
+    "1 failed, 1 passed in 0.26s"
    ]
   },
   "loss-declared": {
@@ -567,7 +567,7 @@
    "caught": true,
    "exit": 1,
    "summary": [
-    "1 failed, 291 passed in 182.83s (0:03:02)"
+    "1 failed, 291 passed in 182.32s (0:03:02)"
    ]
   },
   "maxima-enforced": {
@@ -591,7 +591,7 @@
    "caught": true,
    "exit": 1,
    "summary": [
-    "1 failed, 4 passed in 6.47s"
+    "1 failed, 4 passed in 6.39s"
    ]
   },
   "message-fields": {
@@ -603,7 +603,7 @@
    "caught": true,
    "exit": 1,
    "summary": [
-    "1 failed, 43 passed in 0.31s"
+    "1 failed, 43 passed in 0.32s"
    ]
   },
   "metonym-asked-for-a-target-content": {
@@ -616,7 +616,7 @@
    "caught": true,
    "exit": 1,
    "summary": [
-    "1 failed, 4 passed in 1.08s"
+    "1 failed, 4 passed in 1.02s"
    ]
   },
   "metonym-referent-mentioned": {
@@ -628,7 +628,7 @@
    "caught": true,
    "exit": 1,
    "summary": [
-    "1 failed, 4 passed in 0.94s"
+    "1 failed, 4 passed in 0.95s"
    ]
   },
   "no-silent-reinterpretation": {
@@ -640,7 +640,7 @@
    "caught": true,
    "exit": 1,
    "summary": [
-    "1 failed, 38 passed in 0.37s"
+    "1 failed, 38 passed in 0.32s"
    ]
   },
   "no-words-for-the-failure": {
@@ -652,7 +652,7 @@
    "caught": true,
    "exit": 1,
    "summary": [
-    "1 failed in 0.23s"
+    "1 failed in 0.24s"
    ]
   },
   "normal-form-unique": {
@@ -664,7 +664,7 @@
    "caught": true,
    "exit": 1,
    "summary": [
-    "1 failed, 5 passed in 3.25s"
+    "1 failed, 5 passed in 3.24s"
    ]
   },
   "numbering-differs": {
@@ -676,7 +676,7 @@
    "caught": true,
    "exit": 1,
    "summary": [
-    "1 failed, 2603 passed in 13.43s"
+    "1 failed, 2603 passed in 13.50s"
    ]
   },
   "numerals-exact": {
@@ -688,7 +688,7 @@
    "caught": true,
    "exit": 1,
    "summary": [
-    "1 failed, 2434 passed in 13.42s"
+    "1 failed, 2434 passed in 13.04s"
    ]
   },
   "omission-read-as-a-claim": {
@@ -700,7 +700,7 @@
    "caught": true,
    "exit": 1,
    "summary": [
-    "1 failed, 1910 passed in 10.05s"
+    "1 failed, 1910 passed in 10.39s"
    ]
   },
   "one-critical-dimension": {
@@ -712,7 +712,7 @@
    "caught": true,
    "exit": 1,
    "summary": [
-    "1 failed in 1.10s"
+    "1 failed in 1.04s"
    ]
   },
   "ordered-times": {
@@ -736,7 +736,7 @@
    "caught": true,
    "exit": 1,
    "summary": [
-    "1 failed, 12 passed in 33.03s"
+    "1 failed, 12 passed in 34.15s"
    ]
   },
   "origin-of-an-aim-read-in": {
@@ -748,7 +748,7 @@
    "caught": true,
    "exit": 1,
    "summary": [
-    "1 failed, 1951 passed in 10.27s"
+    "1 failed, 1951 passed in 10.35s"
    ]
   },
   "own-action": {
@@ -760,7 +760,7 @@
    "caught": true,
    "exit": 1,
    "summary": [
-    "1 failed, 11 passed in 0.27s"
+    "1 failed, 11 passed in 0.29s"
    ]
   },
   "precedence-agreed": {
@@ -772,7 +772,7 @@
    "caught": true,
    "exit": 1,
    "summary": [
-    "1 failed, 7 passed in 0.83s"
+    "1 failed, 7 passed in 0.92s"
    ]
   },
   "precision-bound-one-reading": {
@@ -785,7 +785,7 @@
    "caught": true,
    "exit": 1,
    "summary": [
-    "1 failed, 8 passed in 0.27s"
+    "1 failed, 8 passed in 0.26s"
    ]
   },
   "provenance-dropped": {
@@ -797,7 +797,7 @@
    "caught": true,
    "exit": 1,
    "summary": [
-    "1 failed, 8 passed in 27.31s"
+    "1 failed, 8 passed in 27.11s"
    ]
   },
   "provenance-monotone": {
@@ -809,7 +809,7 @@
    "caught": true,
    "exit": 1,
    "summary": [
-    "1 failed, 8 passed in 25.06s"
+    "1 failed, 8 passed in 25.46s"
    ]
   },
   "quotation-rewritten": {
@@ -821,7 +821,7 @@
    "caught": true,
    "exit": 1,
    "summary": [
-    "1 failed, 2432 passed in 13.50s"
+    "1 failed, 2432 passed in 13.23s"
    ]
   },
   "quoted-inert": {
@@ -833,7 +833,7 @@
    "caught": true,
    "exit": 1,
    "summary": [
-    "1 failed, 38 passed in 0.86s"
+    "1 failed, 38 passed in 0.93s"
    ]
   },
   "readings-kept": {
@@ -845,7 +845,7 @@
    "caught": true,
    "exit": 1,
    "summary": [
-    "1 failed in 0.23s"
+    "1 failed in 0.24s"
    ]
   },
   "realisations-normalise": {
@@ -857,7 +857,7 @@
    "caught": true,
    "exit": 1,
    "summary": [
-    "1 failed, 1 passed in 0.99s"
+    "1 failed, 1 passed in 1.10s"
    ]
   },
   "relation-without-a-figure": {
@@ -869,7 +869,7 @@
    "caught": true,
    "exit": 1,
    "summary": [
-    "1 failed, 105 passed in 0.56s"
+    "1 failed, 105 passed in 0.50s"
    ]
   },
   "serialisation-normalises": {
@@ -881,7 +881,7 @@
    "caught": true,
    "exit": 1,
    "summary": [
-    "1 failed, 1146 passed in 5.24s"
+    "1 failed, 1146 passed in 5.23s"
    ]
   },
   "single-edit-detected": {
@@ -893,7 +893,7 @@
    "caught": true,
    "exit": 1,
    "summary": [
-    "1 failed, 6 passed in 2.30s"
+    "1 failed, 6 passed in 2.26s"
    ]
   },
   "source-answered-for": {
@@ -905,7 +905,7 @@
    "caught": true,
    "exit": 1,
    "summary": [
-    "1 failed, 1 passed in 0.98s"
+    "1 failed, 1 passed in 0.97s"
    ]
   },
   "speech-decodable": {
@@ -917,7 +917,7 @@
    "caught": true,
    "exit": 1,
    "summary": [
-    "1 failed in 1.12s"
+    "1 failed in 1.17s"
    ]
   },
   "standing-unchanged": {
@@ -929,7 +929,7 @@
    "caught": true,
    "exit": 1,
    "summary": [
-    "1 failed, 1528 passed in 6.27s"
+    "1 failed, 1528 passed in 6.29s"
    ]
   },
   "stop-delivery-known": {
@@ -941,7 +941,7 @@
    "caught": true,
    "exit": 1,
    "summary": [
-    "1 failed, 8 passed in 53.05s"
+    "1 failed, 8 passed in 55.13s"
    ]
   },
   "stop-restates": {
@@ -953,7 +953,7 @@
    "caught": true,
    "exit": 1,
    "summary": [
-    "1 failed, 265 passed in 0.94s"
+    "1 failed, 266 passed in 0.98s"
    ]
   },
   "stop-sent-once": {
@@ -965,7 +965,7 @@
    "caught": true,
    "exit": 1,
    "summary": [
-    "1 failed, 8 passed in 55.44s"
+    "1 failed, 8 passed in 55.06s"
    ]
   },
   "strength-is-interval": {
@@ -977,7 +977,7 @@
    "caught": true,
    "exit": 1,
    "summary": [
-    "1 failed, 1 passed in 0.89s"
+    "1 failed, 1 passed in 0.86s"
    ]
   },
   "summary-basis-from-the-act": {
@@ -989,7 +989,7 @@
    "caught": true,
    "exit": 1,
    "summary": [
-    "1 failed, 5 passed in 5.84s"
+    "1 failed, 5 passed in 6.55s"
    ]
   },
   "summary-keeps-lowest": {
@@ -1001,7 +1001,7 @@
    "caught": true,
    "exit": 1,
    "summary": [
-    "1 failed, 5 passed in 6.28s"
+    "1 failed, 5 passed in 6.39s"
    ]
   },
   "summary-orders-bases": {
@@ -1013,7 +1013,7 @@
    "caught": true,
    "exit": 1,
    "summary": [
-    "1 failed, 5 passed in 5.40s"
+    "1 failed, 5 passed in 5.66s"
    ]
   },
   "summary-raises-standing": {
@@ -1025,7 +1025,7 @@
    "caught": true,
    "exit": 1,
    "summary": [
-    "1 failed, 6 passed in 5.94s"
+    "1 failed, 6 passed in 6.17s"
    ]
   },
   "tokenizer-round-trip": {
@@ -1037,7 +1037,7 @@
    "caught": true,
    "exit": 1,
    "summary": [
-    "1 failed, 1 passed in 0.73s"
+    "1 failed, 1 passed in 0.81s"
    ]
   },
   "transport-stable": {
@@ -1049,7 +1049,7 @@
    "caught": true,
    "exit": 1,
    "summary": [
-    "1 failed, 412 passed in 144.23s (0:02:24)"
+    "1 failed, 412 passed in 146.50s (0:02:26)"
    ]
   },
   "truncation-detected": {
@@ -1061,7 +1061,7 @@
    "caught": true,
    "exit": 1,
    "summary": [
-    "1 failed, 1 passed in 1.23s"
+    "1 failed, 1 passed in 1.24s"
    ]
   },
   "unknown-preserved": {
@@ -1097,7 +1097,7 @@
    "caught": true,
    "exit": 1,
    "summary": [
-    "1 failed, 4 passed in 1.86s"
+    "1 failed, 4 passed in 1.94s"
    ]
   },
   "well-typed": {
@@ -1109,7 +1109,7 @@
    "caught": true,
    "exit": 1,
    "summary": [
-    "1 failed, 38 passed in 0.30s"
+    "1 failed, 38 passed in 0.27s"
    ]
   },
   "word-formation": {
@@ -1121,7 +1121,7 @@
    "caught": true,
    "exit": 1,
    "summary": [
-    "1 failed in 0.74s"
+    "1 failed in 0.77s"
    ]
   },
   "written-form-distinct": {
@@ -1133,7 +1133,7 @@
    "caught": true,
    "exit": 1,
    "summary": [
-    "1 failed, 5 passed in 1.42s"
+    "1 failed, 5 passed in 1.40s"
    ]
   }
  },
