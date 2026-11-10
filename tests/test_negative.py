@@ -54,6 +54,33 @@ def test_every_condition_is_stated_in_full():
     assert [code for code, condition in CODES.items() if "§" in condition] == []
 
 
+def test_the_condition_of_attenuated_authority_is_the_case_the_checker_refuses():
+    """`d.checker.authority-attenuates` refuses the settlement or failure of another's
+    assignment that is not made on behalf of the assignment's author
+    (specification/discourse.md#what-a-change-may-name), and release 1.0 refuses no
+    delegation for the authority it claims
+    (specification/discourse.md#requests-offers-commitments-and-delegation), so the
+    condition the table of diagnostics states names that case and no grant."""
+    from rowih.diagnostics import CODES
+    condition = CODES["d.checker.authority-attenuates"]
+    assert "settlement or failure" in condition and "grant" not in condition
+    delegation = _msg("(move NORMATIVE-ENTRY ASSIGNMENT BINDINGNESS.ON-ACCEPTANCE "
+                      "ON-BEHALF-OF-A-NAMED-PRINCIPAL (authority (term (party 3))) "
+                      "(situation delete (ACTOR (term (party 2))) "
+                      "(UNDERGOER (term file DEFINITE))))")
+    assert delegation.diagnostics == []
+    failure = ("(move NOTHING-BEYOND-ITS-OWN-RECORD RESOLUTION "
+               "OUTCOME-OF-A-RESOLUTION.FAILURE WHOLE-ENTRY ON-THE-MOVE %s "
+               "(names 1 1 NORMATIVE-ENTRY ASSIGNMENT "
+               "EXPECTED-STATUS-OF-AN-ENTRY.IN-FORCE) (situation delete FAILED "
+               "(ACTOR (term SELF)) (UNDERGOER (term file DEFINITE))))")
+    own = _msg(failure % "SPEAKERS-OWN", sender=2, recipients=(1,))
+    assert [d.code for d in own.diagnostics] == ["d.checker.authority-attenuates"]
+    principal = "ON-BEHALF-OF-A-NAMED-PRINCIPAL (authority (term (party 1)))"
+    on_behalf = _msg(failure % principal, sender=2, recipients=(1,))
+    assert on_behalf.diagnostics == []
+
+
 def test_negative_corpus_covers_every_stage():
     stages = {i["code"].split(".")[1] for i in ITEMS}
     assert {"tokenizer", "lexer", "parser", "checker", "check-values"} <= stages
