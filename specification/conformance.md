@@ -314,7 +314,7 @@ A diagnostic has a **code**, `d.` followed by the stage that raised it and its n
 | `d.checker.register-excludes-device` | a device of economy that none of the move's register's modes admits, or a formula in a register that admits none |
 | `d.checker.register-order` | siblings out of canonical order in a register whose syntax is canonical |
 | `d.checker.own-action` | an intention whose content is not an action by its holder |
-| `d.checker.authority-attenuates` | a grant that exceeds the grantor's claimed scope |
+| `d.checker.authority-attenuates` | the settlement or failure of another's assignment not made on behalf of the assignment's author |
 | `d.checker.readings` | a set of readings with fewer than two readings |
 | `d.checker.times-inconsistent` | times that cannot all hold together |
 | `d.checker.unknown-in-precision-bound` | an unknown word in a precision-bound move |
