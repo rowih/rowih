@@ -2,6 +2,17 @@
 
 This file records each release of Rowih, the newest first. An entry states the release's version and date, the parts it affects, the change, the reason, the compatibility impact and the migration it requires, as the rule of change requires ([How Rowih changes](governance/README.md#the-rule-of-change)). The language, the lexicon, the protocol, the phonology, the writing system and each dialect carry versions of their own, and the packages `rowih` carry theirs under semantic versioning ([Versions and releases](governance/README.md#versions-and-releases)). A release of this repository is numbered by its packages and tagged with that number, as `v1.1.0`.
 
+## 1.1.7, 2026-11-11
+
+How a negotiation ends when a settlement or a failure finds it.
+
+- **Parts:** the Python and TypeScript packages `rowih`, at 1.1.7. Language 1.0, lexicon 1.0, protocol 0.5, phonology 0.3, writing system 0.2 and every dialect are unchanged.
+- **Change:** a negotiation whose last round was settled or failed on the move ended as `resolution`, the name of the change, which is none of the ends the specification lists ([The record and discourse](specification/discourse.md#negotiation)). Its end now passes over a settlement or a failure, which ends the duty and not the negotiation, and is where the change before it left it: a delegation accepted and then failed is agreed, by the acceptance, and one failed with no acceptance is open. One item of the corpus reached this path, `s16-failed`, whose negotiation ended as `resolution` and is now open. The specification states the case, and a test in `tests/test_coordination.py` holds the three outcomes to it. Three reports of the gate are carried over, as [the gate](governance/README.md#the-gate) allows: `corpus/reports/tokens.json` as made over 1.1.1, since its measurement reads only transliterations and explanations, which no change touches, and `corpus/reports/parity.json` and `corpus/reports/single-edits-both.json` as made on 2026-10-20, since neither run derives a negotiation, the only other change to the code they execute is the version string, which neither reads, and the release changes no data or message they read.
+- **Dependencies:** none changed.
+- **Reason:** a delegation accepted and then failed, as when a runtime refuses at dispatch an action its agent accepted to perform, was given an end the specification does not define.
+- **Compatibility impact:** the negotiations a view derives for such an exchange end `agreed`, where a round was accepted, or `open`, where none was, in place of `resolution`. Every message reads and checks as before, and no interface or file the packages read changes.
+- **Migration:** a reader of the negotiations a view derives that matched `resolution` matches `agreed` or `open`.
+
 ## 1.1.6, 2026-11-10
 
 What the diagnostic of attenuated authority reports.
