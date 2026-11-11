@@ -27,13 +27,17 @@ def opens(entry) -> bool:
         entry.kind[0] == "normative-entry" and _offered(entry))
 
 
-def _changer(view, entry):
+def _changer(view, entry, passing=()):
     """The entry added by the move that last changed `entry`'s status, with the move's
-    change, or (None, None) where nothing changed it."""
+    change, or (None, None) where nothing changed it. A resolution whose outcome is in
+    `passing` is passed over, so that the change before it is found."""
     for item, _prior in reversed(entry.changes):
         if item is None:
             continue
-        return view.entries.get(item.handle), [short(c) for c in item.t["change"]]
+        change = [short(c) for c in item.t["change"]]
+        if change[0] == "resolution" and len(change) > 1 and change[1] in passing:
+            continue
+        return view.entries.get(item.handle), change
     return None, None
 
 
@@ -72,7 +76,10 @@ def negotiations(view, now=None) -> list:
 
 
 def _end(view, last, now) -> dict:
-    found, change = _changer(view, last)
+    # a settlement or a failure ends the duty and not the negotiation, which ends where the
+    # change before it left it
+    # (specification/discourse.md#negotiation)
+    found, change = _changer(view, last, ("settlement", "failure"))
     if found is None or change is None:
         limit = deadline_of(last)
         if now is not None and limit is not None and now > limit and last.status != "withdrawn":
