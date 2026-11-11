@@ -132,12 +132,12 @@ Release 1.0 tests all 64. Two rules of the record are narrower in release 1.0 th
 
 ### The enumerations
 
-Three enumerations run over the 387 messages of the conformance, attitude and adversarial sets. The **single-edit enumeration** applies every deletion, insertion and substitution of one symbol, and every deletion, duplication, substitution and insertion of one word, with the integrity check value verified and with it ignored, in the transliteration and the canonical serialisation. An edit is **silent** if the edited text draws no diagnostic and some critical value of some move differs. Over the 375 messages that draw no diagnostic of their own, the seven others defining or naming words by design:
+Three enumerations run over the 387 messages of the conformance, attitude and adversarial sets. The **single-edit enumeration** applies every deletion, insertion and substitution of one symbol, and every deletion, duplication, substitution and insertion of one word, with the integrity check value verified and with it ignored, in the transliteration and the canonical serialisation. An edit is **silent** if the edited text draws no diagnostic and some critical value of some move differs. Over the 380 messages that draw no diagnostic of their own, the seven others defining or naming words by design:
 
 | Edits | With the integrity check value verified | With it ignored |
 |---|---|---|
-| 7,089,953 symbol edits in each encoding | none silent | none silent |
-| 84,233,102 word edits in each encoding | none silent | 1,638 silent in each encoding |
+| 7,191,009 symbol edits in each encoding | none silent | none silent |
+| 85,446,810 word edits in each encoding | none silent | 1,638 silent in each encoding |
 
 The silent word edits are all substitutions of one term, *examiner*, where it names the role in which a move claims authority, at three places in two messages: the role's term is ordinary content, which only the integrity check value covers. No edit raised an exception. The **truncation enumeration** requires every proper prefix of every message to draw a diagnostic, and the **transport enumeration** requires each of fifteen routine transformations, Unicode normalisations, line-ending conversions, wrapping, tab expansion, Markdown rendering, typographic quotation marks, HTML escaping and indentation among them, to leave the analysis unchanged or draw a diagnostic. Fuzzed input, with control, bidirectional and zero-width characters, must raise nothing.
 
