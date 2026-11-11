@@ -221,6 +221,38 @@ def test_an_acceptance_after_the_deadline_is_refused_in_every_view():
         assert ends == ["rejected", "lapsed", "abandoned"]
 
 
+def test_a_settlement_or_failure_of_what_was_agreed_leaves_the_negotiation_agreed():
+    """A delegation accepted and then settled or failed on the move ends its negotiation
+    agreed, by the acceptance, and one failed with no acceptance, as in `s16-failed`,
+    stays open: the settlement or failure ends the duty and not the negotiation, whose
+    end is one the specification lists (specification/discourse.md#negotiation)."""
+    act = "(situation execute %s(ACTOR (term SELF)) (UNDERGOER (term operation DEFINITE)))"
+    for outcome, aspect in (("SETTLEMENT", ""), ("FAILURE", "FAILED ")):
+        view = View("1")
+        assert view.hear(message(
+            "(move NORMATIVE-ENTRY ASSIGNMENT BINDINGNESS.ON-ACCEPTANCE SPEAKERS-OWN "
+            "(situation execute (ACTOR (term (party 2))) "
+            "(UNDERGOER (term operation DEFINITE))))")) == []
+        assert view.hear(message(
+            "(move NORMATIVE-ENTRY OBLIGATION BOUND RESOLUTION "
+            "OUTCOME-OF-A-RESOLUTION.ACCEPTANCE WHOLE-ENTRY ON-THE-MOVE SPEAKERS-OWN "
+            "(names 1 1 NORMATIVE-ENTRY ASSIGNMENT %s) %s)" % (IS, act % ""),
+            sender=2, recipients=(1,), time=60)) == []
+        assert view.hear(message(
+            "(move NOTHING-BEYOND-ITS-OWN-RECORD RESOLUTION OUTCOME-OF-A-RESOLUTION.%s "
+            "WHOLE-ENTRY ON-THE-MOVE ON-BEHALF-OF-A-NAMED-PRINCIPAL "
+            "(authority (term (party 1))) (names 1 1 NORMATIVE-ENTRY ASSIGNMENT %s) %s)"
+            % (outcome, IS, act % aspect),
+            sender=2, recipients=(1,), identifier=2, first=2, time=120)) == []
+        assert view.entries[("1", "1")].status == "resolved"
+        assert [(n["end"], n["by"]) for n in K.negotiations(view)] == [("agreed", ("2", "1"))]
+    for party in "12":
+        view = View(party)
+        for k in (1, 2):
+            assert view.hear(TEXTS[("s16-failed", k)]) == []
+        assert [(n["end"], n["by"]) for n in K.negotiations(view)] == [("open", None)]
+
+
 # ---------------------------------------------------------------- crossing moves
 
 def _crossing_script(rng, parties):

@@ -115,6 +115,8 @@ A negotiation is derived from the record, not written: it is the sequence of pro
 - **lapsed**, when it has a deadline that has passed with no change;
 - **open** otherwise.
 
+A settlement or a failure ends the duty and not the negotiation, which ends where the change before it left it: a delegation accepted and then failed is agreed, and one failed with no acceptance is open.
+
 Every other figure of negotiation is composed from these moves: a conditional acceptance accepts content holding a condition; a partial acceptance accepts part of what it names; a compromise is a counterproposal between the last two offers; a reservation is a position that names the acceptance and bears the relation *contrasts*; a priority is a preference over an order; an allocation is the content of a proposal.
 
 ## Challenges and disagreement
