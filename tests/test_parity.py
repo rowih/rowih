@@ -21,7 +21,7 @@ def test_the_corpus_is_the_whole_corpus():
         os.path.join(ROOT, "corpus", "*", "*.txt"))}
     assert sets == set(CORPUS_DIRECTORIES) | {"domains"}
     assert {os.path.basename(os.path.dirname(p)) for p in PATHS} == set(CORPUS_DIRECTORIES)
-    assert len(PATHS) == 512
+    assert len(PATHS) == 517
 
 
 def test_both_implementations_write_the_same_records():

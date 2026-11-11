@@ -2542,6 +2542,96 @@
    ]
   },
   {
+   "id": "e3-delegation-denied",
+   "statement": "Task delegation denied at execution: agent B rejects the deletion of the data that agent A delegates, stating that it lacks the permission the action needs, and accepts the execution of the operation A then delegates, which it fails under A's authority when the action is refused, stating the same cause.",
+   "derived": {
+    "1": {
+     "negotiations": [
+      {
+       "opening": "1.1",
+       "rounds": [
+        "1.1"
+       ],
+       "end": "rejected",
+       "by": "2.1"
+      },
+      {
+       "opening": "1.2",
+       "rounds": [
+        "1.2"
+       ],
+       "end": "agreed",
+       "by": "2.3"
+      }
+     ]
+    }
+   },
+   "messages": [
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622400",
+     "identifier": 1,
+     "classes": [
+      "operative"
+     ],
+     "notation": "(move NORMATIVE-ENTRY ASSIGNMENT BINDINGNESS.ON-ACCEPTANCE SPEAKERS-OWN (situation delete (ACTOR (term (party 2))) (UNDERGOER (term data DEFINITE))))"
+    },
+    {
+     "sender": 2,
+     "recipients": [
+      1
+     ],
+     "time": "1759622460",
+     "identifier": 1,
+     "classes": [
+      "operative+de-escalating",
+      "inert"
+     ],
+     "notation": "(move NOTHING-BEYOND-ITS-OWN-RECORD RESOLUTION OUTCOME-OF-A-RESOLUTION.REJECTION WHOLE-ENTRY ON-THE-MOVE SPEAKERS-OWN (names 1 1 NORMATIVE-ENTRY ASSIGNMENT EXPECTED-STATUS-OF-AN-ENTRY.IN-FORCE) (situation delete (ACTOR (term SELF)) (UNDERGOER (term data DEFINITE)))) (move ASSERTED-POSITION (assertion INTROSPECTION CERTAIN (situation lack-permission (HOLDER (term SELF)) (CONTENT (situation delete (ACTOR (term SELF)) (UNDERGOER (term data DEFINITE)))))))"
+    },
+    {
+     "sender": 1,
+     "recipients": [
+      2
+     ],
+     "time": "1759622520",
+     "identifier": 2,
+     "classes": [
+      "operative"
+     ],
+     "notation": "(move NORMATIVE-ENTRY ASSIGNMENT BINDINGNESS.ON-ACCEPTANCE SPEAKERS-OWN (situation execute (ACTOR (term (party 2))) (UNDERGOER (term operation DEFINITE))))"
+    },
+    {
+     "sender": 2,
+     "recipients": [
+      1
+     ],
+     "time": "1759622580",
+     "identifier": 2,
+     "classes": [
+      "operative"
+     ],
+     "notation": "(move NORMATIVE-ENTRY OBLIGATION BOUND RESOLUTION OUTCOME-OF-A-RESOLUTION.ACCEPTANCE WHOLE-ENTRY ON-THE-MOVE SPEAKERS-OWN (names 1 2 NORMATIVE-ENTRY ASSIGNMENT EXPECTED-STATUS-OF-AN-ENTRY.IN-FORCE) (situation execute (ACTOR (term SELF)) (UNDERGOER (term operation DEFINITE))))"
+    },
+    {
+     "sender": 2,
+     "recipients": [
+      1
+     ],
+     "time": "1759622640",
+     "identifier": 3,
+     "classes": [
+      "operative",
+      "inert"
+     ],
+     "notation": "(move NOTHING-BEYOND-ITS-OWN-RECORD RESOLUTION OUTCOME-OF-A-RESOLUTION.FAILURE WHOLE-ENTRY ON-THE-MOVE ON-BEHALF-OF-A-NAMED-PRINCIPAL (authority (term (party 1))) (names 1 2 NORMATIVE-ENTRY ASSIGNMENT EXPECTED-STATUS-OF-AN-ENTRY.IN-FORCE) (situation execute FAILED (ACTOR (term SELF)) (UNDERGOER (term operation DEFINITE)))) (move ASSERTED-POSITION (assertion INTROSPECTION CERTAIN (situation lack-permission (HOLDER (term SELF)) (CONTENT (situation execute (ACTOR (term SELF)) (UNDERGOER (term operation DEFINITE)))))))"
+    }
+   ]
+  },
+  {
    "id": "e3-synchronisation",
    "statement": "State synchronisation: agent A states a belief, an assumption, an objective, a plan and a change; agent B states a conflict with A's belief.",
    "messages": [

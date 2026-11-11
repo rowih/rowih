@@ -1,9 +1,9 @@
 {
- "texts": 139033,
- "messages": 512,
+ "texts": 140393,
+ "messages": 517,
  "per message and unit": 120,
  "seed": 39,
  "disagreements": 0,
  "examples": [],
- "seconds": 6196
+ "seconds": 3408
 }

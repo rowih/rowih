@@ -133,3 +133,28 @@ def test_every_link_between_chapters_resolves():
 def test_the_check_of_links_finds_a_planted_break():
     assert slug("3. The move check word") == "3-the-move-check-word"
     assert "the-envelope" not in anchors("# The message\n\n## The body\n")
+
+
+def test_the_agent2agent_example_carries_the_corpus_messages():
+    """The two tasks of the example in the binding to Agent2Agent
+    (specification/protocol.md#the-media-type-and-the-binding-to-agent-transports) are
+    JSON whose status message carries agent 2's messages of the conformance item
+    `e3-delegation-denied`, its rejection and its failure, in the canonical form of the
+    type, each line ending in a carriage return and a line feed, and each reads with no
+    diagnostic."""
+    import json
+    from rowih import api
+    text = chapters()["protocol.md"]
+    tasks = [json.loads(b) for b in re.findall(r"^```\n(\{\n.*?\n\})\n```$", text,
+                                                 re.MULTILINE | re.DOTALL)]
+    assert [(t["id"], t["status"]["state"]) for t in tasks] == [
+        ("task-1", "TASK_STATE_REJECTED"), ("task-2", "TASK_STATE_FAILED")]
+    for task, k in zip(tasks, (2, 5)):
+        message = task["status"]["message"]
+        assert message["role"] == "ROLE_AGENT"
+        (part,) = message["parts"]
+        assert part["mediaType"] == "text/prs.rowih; encoding=transliteration"
+        path = os.path.join(ROOT, "corpus", "conformance", "e3-delegation-denied.%d.txt" % k)
+        with open(path, encoding="utf-8") as f:
+            assert part["text"] == f.read().replace("\n", "\r\n")
+        assert api.parse(part["text"]).diagnostics == []
