@@ -2,6 +2,17 @@
 
 This file records each release of Rowih, the newest first. An entry states the release's version and date, the parts it affects, the change, the reason, the compatibility impact and the migration it requires, as the rule of change requires ([How Rowih changes](governance/README.md#the-rule-of-change)). The language, the lexicon, the protocol, the phonology, the writing system and each dialect carry versions of their own, and the packages `rowih` carry theirs under semantic versioning ([Versions and releases](governance/README.md#versions-and-releases)). A release of this repository is numbered by its packages and tagged with that number, as `v1.1.0`.
 
+## 1.1.8, 2026-11-11
+
+An example of a delegation denied at execution, in the binding to Agent2Agent.
+
+- **Parts:** the Python and TypeScript packages `rowih`, at 1.1.8. Language 1.0, lexicon 1.0, protocol 0.5, phonology 0.3, writing system 0.2 and every dialect are unchanged.
+- **Change:** the binding to Agent2Agent ([Messages, protocol and transport](specification/protocol.md#the-media-type-and-the-binding-to-agent-transports)) states that a delegation in the record authorises no action, and the two shapes in which a delegatee whose runtime refuses the action writes the refusal: a rejection before acceptance, whose task's state is `TASK_STATE_REJECTED`, and a failure on the move after it, on behalf of the delegator, whose task's state is `TASK_STATE_FAILED`, each with the cause asserted as an inability. Two JSON tasks of Agent2Agent 1.0.0 show them, and a test in `tests/test_specification.py` holds the JSON to the messages of a new conformance item, `e3-delegation-denied`, which holds both shapes. The item adds five messages to the conformance sets, which now hold 387 messages, and 517 with the negative set. `corpus/reports/tokens.json`, `corpus/reports/parity.json` and `corpus/reports/single-edits-both.json` are made again over this release, since each of those runs reads the new messages, and the counts of the conformance sets in the specification, the README and the tests follow them; the medians of the token measurement are unchanged, the two implementations disagree on none of 140,393 texts, and where the integrity check value is verified no single edit of a symbol or a word, of 7,191,009 and 85,446,810 in each encoding, changes a critical value silently.
+- **Dependencies:** none changed.
+- **Reason:** a reader on the Agent2Agent project's discussion of Rowih asked for an example in which a delegation belongs in the record while the receiving runtime refuses the action it requests, so that a well-formed commitment is not read as a permission granted.
+- **Compatibility impact:** none. Every message reads and checks as before; the conformance suite gains one item, and no interface or file the packages read changes.
+- **Migration:** none.
+
 ## 1.1.7, 2026-11-11
 
 How a negotiation ends when a settlement or a failure finds it.

@@ -114,7 +114,7 @@ Release 1.0 tests all 64. Two rules of the record are narrower in release 1.0 th
 <!-- generated: suite -->
 | Set | Items | Message files |
 |---|---|---|
-| `corpus/conformance/` | 124 | 345 |
+| `corpus/conformance/` | 125 | 350 |
 | `corpus/attitudes/` | 13 | 14 |
 | `corpus/adversarial/` | 14 | 23 |
 | `corpus/negative/` | 130 | 130 |
@@ -132,18 +132,18 @@ Release 1.0 tests all 64. Two rules of the record are narrower in release 1.0 th
 
 ### The enumerations
 
-Three enumerations run over the 382 messages of the conformance, attitude and adversarial sets. The **single-edit enumeration** applies every deletion, insertion and substitution of one symbol, and every deletion, duplication, substitution and insertion of one word, with the integrity check value verified and with it ignored, in the transliteration and the canonical serialisation. An edit is **silent** if the edited text draws no diagnostic and some critical value of some move differs. Over the 375 messages that draw no diagnostic of their own, the seven others defining or naming words by design:
+Three enumerations run over the 387 messages of the conformance, attitude and adversarial sets. The **single-edit enumeration** applies every deletion, insertion and substitution of one symbol, and every deletion, duplication, substitution and insertion of one word, with the integrity check value verified and with it ignored, in the transliteration and the canonical serialisation. An edit is **silent** if the edited text draws no diagnostic and some critical value of some move differs. Over the 380 messages that draw no diagnostic of their own, the seven others defining or naming words by design:
 
 | Edits | With the integrity check value verified | With it ignored |
 |---|---|---|
-| 7,089,953 symbol edits in each encoding | none silent | none silent |
-| 84,233,102 word edits in each encoding | none silent | 1,638 silent in each encoding |
+| 7,191,009 symbol edits in each encoding | none silent | none silent |
+| 85,446,810 word edits in each encoding | none silent | 1,638 silent in each encoding |
 
 The silent word edits are all substitutions of one term, *examiner*, where it names the role in which a move claims authority, at three places in two messages: the role's term is ordinary content, which only the integrity check value covers. No edit raised an exception. The **truncation enumeration** requires every proper prefix of every message to draw a diagnostic, and the **transport enumeration** requires each of fifteen routine transformations, Unicode normalisations, line-ending conversions, wrapping, tab expansion, Markdown rendering, typographic quotation marks, HTML escaping and indentation among them, to leave the analysis unchanged or draw a diagnostic. Fuzzed input, with control, bidirectional and zero-width characters, must raise nothing.
 
 ### The two implementations
 
-The two implementations write one record of each analysis, holding its words, canonical text, move trees, classes, normal form, social component, diagnostics, check values, native digital form, export and renderings, and the records must agree byte for byte. Over 139,033 texts made from the 512 messages of the conformance, attitude, adversarial and negative sets, their native digital forms, sampled single edits and foreign characters written into them, the two implementations disagree on none.
+The two implementations write one record of each analysis, holding its words, canonical text, move trees, classes, normal form, social component, diagnostics, check values, native digital form, export and renderings, and the records must agree byte for byte. Over 140,393 texts made from the 517 messages of the conformance, attitude, adversarial and negative sets, their native digital forms, sampled single edits and foreign characters written into them, the two implementations disagree on none.
 
 ### The planted defects
 
@@ -403,14 +403,14 @@ The directory [`skill/rowih/`](../skill/rowih/) is a skill in the Agent Skills f
 The language's cost in tokens is measured with a panel of thirteen tokenizers from the open and commercial families that publish theirs, each pinned by revision and digest; every one returns every message of the suite byte for byte, and a control tokenizer whose normaliser rewrites white space returns none, showing that the check can fail.
 
 <!-- generated: tokens -->
-Measured over 382 messages, 35,091 words and 402 moves, by 13 tokenizers.
+Measured over 387 messages, 35,588 words and 409 moves, by 13 tokenizers.
 
 | Quantity | Median | Range |
 |---|---|---|
 | tokens a word, transliteration | 2.16 | 1.91 to 2.27 |
-| tokens a move, transliteration, its envelope's share included | 188.53 | 166.50 to 197.96 |
+| tokens a move, transliteration, its envelope's share included | 187.87 | 165.92 to 197.34 |
 | tokens of the native digital form over the transliteration's | 5.85 | 5.64 to 6.58 |
-| tokens of the transliteration over the English explanation's | 6.70 | 5.90 to 7.09 |
+| tokens of the transliteration over the English explanation's | 6.68 | 5.88 to 7.07 |
 <!-- end generated -->
 
 The English explanation the comparison is made against keeps none of the language's checks, counts or envelope and states only part of what a message leaves implicit, so the ratio bounds what the language's explicitness costs and does not compare equivalent texts. Language models should exchange the transliteration, since the native digital form costs about six times as many tokens. Whether the language costs fewer tokens than English carrying equivalent checks, or saves tokens elsewhere, in recovering from an injection or in repairing a lost message, has not been measured.

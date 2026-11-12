@@ -358,11 +358,11 @@ def test_every_move_the_page_shows_is_the_corpus_s():
 def test_the_page_s_figures_are_the_specification_s():
     page, spec = read("README.md"), read("specification/conformance.md")
     lexicon = read("specification/lexicon.md")
-    for figure in ("7,089,953", "84,233,102", "139,033", "14 | 23", "2.16", "5.85",
-                   "382 messages", "by 13 tokenizers"):
+    for figure in ("7,191,009", "85,446,810", "140,393", "14 | 23", "2.16", "5.85",
+                   "387 messages", "by 13 tokenizers"):
         assert figure in spec, figure
-    for figure in ("7,089,953", "84,233,102", "139,033", "14 messages", "2.16", "5.85",
-                   "382 messages", "thirteen tokenizers"):
+    for figure in ("7,191,009", "85,446,810", "140,393", "14 messages", "2.16", "5.85",
+                   "387 messages", "thirteen tokenizers"):
         assert figure in page, figure
     ratio = re.search(r"English explanation's \| ([0-9.]+) \|", spec).group(1)
     assert "about %.1f times" % float(ratio) in page

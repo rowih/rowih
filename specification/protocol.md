@@ -274,6 +274,54 @@ When a message travels within another protocol, the message's own fields govern:
 - **Agent2Agent.** The message is the text of a part, `Part.text`, whose `Part.mediaType` is the media type with its `encoding` parameter; `Message.messageId` is a string the sender makes that carries the message's channel and identifier; `Message.role` follows the direction of the call and is never read as the sender; and an agent card lists the media type in its default input and output modes. A task's state follows the entries in the record that correspond to it, and three distinctions the record keeps have no state of their own in Agent2Agent: a proposed and an assigned task, an accepted task and one in progress, and an abandoned task and a refused one. The party responsible, the authority claimed and each party's acceptance travel only in the language.
 - **The Model Context Protocol.** The message is an embedded resource whose `text` is the message, whose `mimeType` is the media type with its `encoding` parameter, and whose `uri` is a URI the sending agent controls that names the message. That protocol has no state of a task, so the record travels only in the language.
 
-The field names are those of the Agent2Agent specification as published on 2026-10-03 and of the Model Context Protocol's schema of revision 2025-06-18, against which the binding was written; a later revision of either may rename them.
+A delegation in the record authorises no action. Its acceptance binds the delegatee to perform the task, and the authority it claims is a claim, whose holding is decided outside the language ([What a message means](meaning.md#force)); whether the delegatee's runtime performs the action, as when it checks an agent's permissions before it dispatches a call to a tool, is decided there too. When the runtime refuses the action, the delegatee states the refusal in one of two shapes, by whether it had accepted the task. Before accepting, it rejects the assignment, and the task's state is `TASK_STATE_REJECTED`; after accepting, it fails the assignment on the move, on behalf of the delegator ([The record and discourse](discourse.md#requests-offers-commitments-and-delegation)), and the task's state is `TASK_STATE_FAILED`. In either shape it may assert the cause as an inability, *rotan*, 'lack permission', whose content is the action refused. Agent2Agent's rejected state covers a task an agent "can't or won't" perform, so the cause, which tells the delegator whether to ask again, to obtain the permission or to delegate elsewhere, travels only in the language.
+
+The conformance item `e3-delegation-denied` holds both shapes. Agent 1 delegates to agent 2 the deletion of the data, which agent 2 rejects in its first message, stating that it lacks the permission, and then the execution of the operation, which agent 2 accepts and fails in its third message, stating the same cause. With agent 2 as the Agent2Agent server, each of those messages is the status message of its task. In Agent2Agent's JSON form, which writes its fields in camel case and the value of an enumeration as its name, the first task reads:
+
+```
+{
+  "id": "task-1",
+  "contextId": "context-1",
+  "status": {
+    "state": "TASK_STATE_REJECTED",
+    "message": {
+      "messageId": "2-1/000001",
+      "role": "ROLE_AGENT",
+      "parts": [
+        {
+          "text": "wila nasu namo yiba waho nadi yagi watu nake yabe wesa nake negi neta nelu nebe nadi nadi nasu nebe napa yiba were nake nika napa yabe nake nika napa yabe napa nika neta yiba weyi napa napa napa napa napa nake yede lewe nake yabe yabe wepo neno neta nadi nake nebe nasu namo nasu namo yeso\r\nwila nadi negi yeka kaniku kodoyi kawadu kusodu kuniya kosiki seho nake yabe nake yabe kukare kegipa sire wopi ropuy biwo wodu muhi wuwa bihu wodu ronaw gona wuwa woko hasud\r\nwila nadi nebe yano kotepu wora tadowe tebilo wopi rotan bori wodu muhi wuwa boyo wopi ropuy biwo wodu muhi wuwa bihu wodu ronaw gona wuwa woko woko woye hapek\r\n",
+          "mediaType": "text/prs.rowih; encoding=transliteration"
+        }
+      ]
+    }
+  }
+}
+```
+
+and the second:
+
+```
+{
+  "id": "task-2",
+  "contextId": "context-1",
+  "status": {
+    "state": "TASK_STATE_FAILED",
+    "message": {
+      "messageId": "2-1/000003",
+      "role": "ROLE_AGENT",
+      "parts": [
+        {
+          "text": "wila nasu namo yiba waho nadi yagi watu nake yabe wesa nake negi neta nelu nebe nadi nadi nebe nasu napa yeso were nake nika napa yabe nake nika napa yabe napa nika neta yiba weyi napa napa napa napa napa namo yemi lewe nasu yalu yabe wepo nebe nelu napa napa neta nelu nadi negi neta yeru\r\nwila namo namo yeru kaniku kodoyi kutomi kusodu kuniya kesigu wodu laku nake yabe wuwa seho nake yabe nadi yagi kukare kegipa sire wopi runod bage biwo wodu muhi wuwa bihu wodu ritup gona wuwa woko haros\r\nwila nadi nebe yano kotepu wora tadowe tebilo wopi rotan bori wodu muhi wuwa boyo wopi runod biwo wodu muhi wuwa bihu wodu ritup gona wuwa woko woko woye hapek\r\n",
+          "mediaType": "text/prs.rowih; encoding=transliteration"
+        }
+      ]
+    }
+  }
+}
+```
+
+Each line of the message ends in a carriage return and a line feed, as the canonical form of the type requires. The identifiers of the tasks, the context and the messages are examples: the binding fixes what `messageId` carries, the message's channel, here from agent 2 to agent 1, and its identifier, and not how it is spelled.
+
+The field names are those of the Agent2Agent specification as published on 2026-10-03 and of the Model Context Protocol's schema of revision 2025-06-18, against which the binding was written, and the JSON form is that of Agent2Agent 1.0.0 as read on 2026-11-10; a later revision of either may rename them.
 
 An export of a message to another format is a view, marked with the encoding it was made from; no reader parses an export as the language.

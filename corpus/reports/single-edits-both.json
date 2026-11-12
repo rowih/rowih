@@ -1,5 +1,5 @@
 {
- "messages": 375,
+ "messages": 380,
  "excluded": [
   "a11-registers-dialect.1.txt",
   "a12-novel-unknown-broken.1.txt",
@@ -16,45 +16,45 @@
  "totals": {
   "symbol": {
    "transliteration/verified": {
-    "rejected": 7049704,
-    "unchanged": 40249,
+    "rejected": 7150229,
+    "unchanged": 40780,
     "silent": 0
    },
    "transliteration/ignored": {
-    "rejected": 6991002,
-    "unchanged": 98951,
+    "rejected": 7091527,
+    "unchanged": 99482,
     "silent": 0
    },
    "canonical/verified": {
-    "rejected": 7089953,
+    "rejected": 7191009,
     "unchanged": 0,
     "silent": 0
    },
    "canonical/ignored": {
-    "rejected": 7031251,
+    "rejected": 7132307,
     "unchanged": 58702,
     "silent": 0
    }
   },
   "word": {
    "transliteration/verified": {
-    "rejected": 84233102,
+    "rejected": 85446810,
     "unchanged": 0,
     "silent": 0
    },
    "transliteration/ignored": {
-    "rejected": 83413652,
-    "unchanged": 817812,
+    "rejected": 84614387,
+    "unchanged": 830785,
     "silent": 1638
    },
    "canonical/verified": {
-    "rejected": 84233102,
+    "rejected": 85446810,
     "unchanged": 0,
     "silent": 0
    },
    "canonical/ignored": {
-    "rejected": 83413652,
-    "unchanged": 817812,
+    "rejected": 84614387,
+    "unchanged": 830785,
     "silent": 1638
    }
   }
@@ -36098,5 +36098,5 @@
   ]
  ],
  "exceptions": [],
- "seconds": 12076
+ "seconds": 29073
 }
