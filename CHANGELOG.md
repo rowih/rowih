@@ -2,6 +2,10 @@
 
 This file records each release of Rowih, the newest first. An entry states the release's version and date, the parts it affects, the change, the reason, the compatibility impact and the migration it requires, as the rule of change requires ([How Rowih changes](governance/README.md#the-rule-of-change)). The language, the lexicon, the protocol, the phonology, the writing system and each dialect carry versions of their own, and the packages `rowih` carry theirs under semantic versioning ([Versions and releases](governance/README.md#versions-and-releases)). A release of this repository is numbered by its packages and tagged with that number, as `v1.1.0`.
 
+## Unreleased
+
+- **Dependencies:** update the locked transitive development dependency `opentelemetry-api` from 1.45.1 to 1.45.2 to fix GHSA-mf5v-w3w3-f6cg.
+
 ## 1.1.8, 2026-11-11
 
 An example of a delegation denied at execution, in the binding to Agent2Agent.
