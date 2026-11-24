@@ -1,6 +1,7 @@
 # Rowih
 
 **IPA** /ˈɾo.wih/ · [listen (MP3)](examples/media/rowih.mp3)
+[![rowih/rowih MCP server](https://glama.ai/mcp/servers/rowih/rowih/badges/score.svg)](https://glama.ai/mcp/servers/rowih/rowih)
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="examples/media/rowih.dark.svg"><img src="examples/media/rowih.svg" alt="rowih, the language's name, in its writing system"></picture>
 
